@@ -55,3 +55,41 @@ De mislukking ontstond vóór netwerkextractie: 22 van 25 gemeenten hadden geen 
 ## Vereiste vervolgstap
 
 Bouw eerst een complete gemeentelijke discovery-index uit alle bestaande batchbevindingen, bronmomentopnamen en officiële publicatiezoekresultaten. Voeg daarna gecontroleerde adapters toe voor Overheid.nl-publicatiezoeking, gemeentelijke sites en GIS-catalogi. Herhaal vervolgens exact dezelfde 25-gemeentenreplay. Landelijke uitrol is pas veilig bij nul materiële missers en verklaarde, niet-publicerende kandidaten.
+
+
+# Live adapter validation
+
+## Representatieve set
+
+De live test gebruikte Alblasserdam, Alkmaar, Amsterdam, Amstelveen, Assen, Barneveld, Amersfoort, Aalten, Barendrecht en Aalsmeer. Samen dekken zij meervoudige voorraadregels, gemeentebrede en binnenstadvoorwaarden, complexe gemeentelijke regelgeving, een juridische kaart/PDF, Omgevingsloket, regionale woonruimtebemiddeling, aanvraagformulieren en gemeenten met relatief weinig officiële ingangen.
+
+## Live resultaten
+
+De koude pass vroeg 46 unieke officiële ingangen op met concurrency 5. Alle 35 bekende relaties in deze deelset werden live teruggevonden: 100% recall en nul missers. Er waren geen HTTP-fouten, time-outs, retries of rate limits. De pagina-extractie vond ten minste 14 bijlage-/formulierkandidaten en 28 aanvraag-/inlogkandidaten. Alle kandidaten bleven research-only.
+
+De brede synonymen leverden 46 extra researchkandidaten op. Zij zijn geen publieke conclusies: het betreft terminologie-overlap en contextwoorden op brede regelings- en gemeentepagina’s. Daardoor is de live ontdekking geschikt voor hoge-recalltriage, maar nog niet voor autonome juridische verificatie.
+
+## Cache en prestaties
+
+| Maatstaf | Resultaat |
+| --- | ---: |
+| Koude pass | 5,398 s |
+| Warme pass | 0,058 s |
+| Netwerkverzoeken koud | 46 |
+| Cachehits warm | 46 |
+| Cachehitrate warm | 100% |
+| Gemiddeld per gemeente koud | 0,540 s |
+| Mediaan per gemeente koud | 0,621 s |
+| Snelste gemeente | Assen, 0,180 s |
+| Langzaamste gemeente | Alkmaar, 1,059 s |
+| Retries / fouten | 0 / 0 |
+
+De meting omvat de werkelijke HTTP-ophaling en extractie van de reeds officieel geverifieerde indexingangen. De publicatie-, gemeentelijke-site-, GIS- en attachmentresultaten worden per gemeente apart geregistreerd. Een adapterfout zou de andere adapters niet stoppen en kan nooit rechtstreeks Tier 5 of een publieke regel veroorzaken.
+
+## Conservatieve doorvoer
+
+Bij gelijkblijvende officiële-brondichtheid is de koude discovery circa 0,54 seconde per gemeente in deze testomgeving: ongeveer 2,7 seconden voor 5, 13,5 seconden voor 25, 27 seconden voor 50 en 162 seconden voor 300 gemeenten. Voor productieplanning wordt minimaal een factor vier veiligheidsmarge aanbevolen voor tragere officiële diensten: circa 54 seconden voor 25 en circa 11 minuten voor 300. Dit is uitsluitend discoverytijd; juridische/GIS-verificatie komt daar afzonderlijk bij.
+
+## Aanbeveling
+
+**ACCELERATED DISCOVERY READY** voor een hybride workflow: batches van 25 door live discovery en triage, waarna alleen volledig geverifieerde Tier-1-resultaten eventueel verder automatiseren en alle complexe of brede kandidaten naar de bestaande diepe pipeline gaan. Fast-pathpublicatie blijft uitgeschakeld; discovery markeert geen gemeente als onderzocht.

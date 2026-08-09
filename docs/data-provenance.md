@@ -26,3 +26,7 @@ Een gevonden link keurt nooit automatisch de juridische uitleg goed. Conflicten 
 ## Huidige beperking
 
 De records voor Den Haag, Emmen, Leiden en Rotterdam zijn nog niet juridisch goedgekeurd. Ze vormen een controleerbare researchbasis, geen volledige adresbeslissing.
+
+## Verificatie van aanvraagroutes
+
+`officialApplicationUrl` wordt afzonderlijk beoordeeld en krijgt `separate-verified`, `same-as-info-verified` of `unresolved`. Een identieke informatie- en aanvraag-URL is alleen toegestaan wanneer de officiële pagina aantoonbaar zelf de aanvraag-ingang bevat. De verificatiedatum, benodigde documenten en directe formulierlinks worden per record bewaard. Bij `unresolved` toont de UI een niet-klikbare reviewstatus in plaats van een fictieve aanvraagknop.

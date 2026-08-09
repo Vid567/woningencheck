@@ -7,6 +7,7 @@
         "id",
         "municipalityCode",
         "municipalityName",
+        "title",
         "regulationType",
         "scopeType",
         "scopeValue",
@@ -27,6 +28,14 @@
         "lastVerificationDate",
         "sourceVerificationStatus",
         "legalReviewStatus",
+        "canonicalType",
+        "municipalName",
+        "temporal",
+        "verification",
+        "evidence",
+        "conflictStatus",
+        "conflicts",
+        "geographicScopeReview",
         "notes"
     ],
     "properties": {
@@ -39,6 +48,7 @@
         "municipalityName": {
             "type": "string"
         },
+        "title": {"type": "string"},
         "regulationType": {
             "type": "string"
         },
@@ -82,16 +92,32 @@
         },
         "requiredDocuments": {
             "type": "array",
-            "items": {"type": "string"}
+            "items": {
+                "type": "object",
+                "required": ["id", "name", "requirement", "description", "officialInstructionsUrl", "officialTemplateUrl", "onlineFormUrl", "responsibleAuthority", "lastVerifiedAt", "classification"],
+                "properties": {
+                    "id": {"type": "string"}, "name": {"type": "string"},
+                    "requirement": {"enum": ["required", "conditional"]}, "description": {"type": "string"},
+                    "officialInstructionsUrl": {"type": ["string", "null"], "format": "uri"},
+                    "officialTemplateUrl": {"type": ["string", "null"], "format": "uri"},
+                    "onlineFormUrl": {"type": ["string", "null"], "format": "uri"},
+                    "responsibleAuthority": {"type": "string"}, "lastVerifiedAt": {"type": "string", "format": "date"},
+                    "classification": {"enum": ["official-form", "official-template", "official-instruction", "user-supplied-document", "external-official-document"]}
+                },
+                "additionalProperties": false
+            }
         },
         "applicationDocuments": {
             "type": "array",
             "items": {
                 "type": "object",
-                "required": ["label", "url"],
+                "required": ["label", "url", "classification", "responsibleAuthority", "lastVerifiedAt"],
                 "properties": {
                     "label": {"type": "string"},
-                    "url": {"type": "string", "format": "uri"}
+                    "url": {"type": "string", "format": "uri"},
+                    "classification": {"enum": ["official-form", "official-template", "official-instruction", "external-official-document"]},
+                    "responsibleAuthority": {"type": "string"},
+                    "lastVerifiedAt": {"type": "string", "format": "date"}
                 },
                 "additionalProperties": false
             }
@@ -146,6 +172,30 @@
                 "conflict \u2014 manual review required"
             ]
         },
+        "canonicalType": {"type": "string"},
+        "municipalName": {"type": "string"},
+        "temporal": {
+            "type": "object",
+            "required": ["validFrom", "validUntil", "supersededBy", "previousVersion", "lastCheckedAt", "status"],
+            "properties": {
+                "validFrom": {"type": ["string", "null"], "format": "date"},
+                "validUntil": {"type": ["string", "null"], "format": "date"},
+                "supersededBy": {"type": ["string", "null"]},
+                "previousVersion": {"type": ["string", "null"]},
+                "lastCheckedAt": {"type": "string", "format": "date"},
+                "status": {"enum": ["current", "current-candidate", "future", "expired", "revoked", "uncertain"]}
+            },
+            "additionalProperties": false
+        },
+        "verification": {
+            "type": "object",
+            "required": ["url", "source", "content", "currentness", "application", "documents", "legalReview"],
+            "additionalProperties": {"type": "object"}
+        },
+        "evidence": {"type": "array", "minItems": 1, "items": {"$ref": "evidence.schema.json"}},
+        "conflictStatus": {"enum": ["none-found", "conflict — manual review required"]},
+        "conflicts": {"type": "array", "items": {"type": "object"}},
+        "geographicScopeReview": {"enum": ["structured-candidate", "verified", "manual-review-required"]},
         "notes": {
             "type": "string"
         }

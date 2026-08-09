@@ -1,985 +1,1253 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-09T19:49:37.229Z",
-  "mode": "controlled-pilot-offline-catalog-replay",
-  "configuration": {
-    "batchSize": 25,
-    "concurrency": 5,
-    "network": false
-  },
+  "generatedAt": "2026-08-09T20:01:17.007Z",
+  "mode": "controlled-25-municipality-replay",
   "records": [
     {
-      "municipality": "Aa en Hunze",
-      "municipalityCode": "GM1680",
-      "province": "Drenthe",
-      "status": "discovery-complete",
-      "searchKeys": [
-        "GM1680",
-        "1680",
-        "Aa en Hunze"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [],
-      "candidatePermitTypes": [],
-      "candidateApplicationPages": [],
-      "candidateForms": [],
-      "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 0,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
-      },
-      "unresolvedQuestions": [
-        "Geen voldoende actuele implementatiebron vastgesteld; dit is geen negatieve juridische conclusie."
-      ],
-      "evidencePublicationStatus": "research-only",
-      "triage": {
-        "tier": 5,
-        "label": "SOURCE INCOMPLETE",
-        "fastPathEligible": false
-      }
-    },
-    {
-      "municipality": "Aalsmeer",
       "municipalityCode": "GM0358",
-      "province": "Noord-Holland",
+      "municipalityName": "Aalsmeer",
       "status": "discovery-complete",
-      "searchKeys": [
-        "GM0358",
-        "0358",
-        "Aalsmeer"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [],
-      "candidatePermitTypes": [],
-      "candidateApplicationPages": [],
-      "candidateForms": [],
-      "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 0,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "success",
+          "count": 3
+        },
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "success"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "no-result"
+        }
       },
-      "unresolvedQuestions": [
-        "Geen voldoende actuele implementatiebron vastgesteld; dit is geen negatieve juridische conclusie."
+      "candidatePermitTypes": [
+        "purchase-protection",
+        "good-landlord-permit",
+        "withdrawal-merger",
+        "housing-permit",
+        "vacancy-obligation"
       ],
-      "evidencePublicationStatus": "research-only",
-      "triage": {
-        "tier": 5,
-        "label": "SOURCE INCOMPLETE",
-        "fastPathEligible": false
-      }
-    },
-    {
-      "municipality": "Aalten",
-      "municipalityCode": "GM0197",
-      "province": "Gelderland",
-      "status": "discovery-complete",
-      "searchKeys": [
-        "GM0197",
-        "0197",
-        "Aalten"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [
+      "candidateConfidence": [
         {
-          "id": "aalten-rental-regulation",
-          "url": "https://lokaleregelgeving.overheid.nl/CVDR720987"
+          "canonicalType": "purchase-protection",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "good-landlord-permit",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "withdrawal-merger",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "housing-permit",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "vacancy-obligation",
+          "confidence": "MEDIUM"
         }
       ],
-      "candidatePermitTypes": [
-        "good-landlord-permit"
-      ],
-      "candidateApplicationPages": [],
-      "candidateForms": [],
+      "candidateCount": 5,
       "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 2,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
-      },
-      "unresolvedQuestions": [],
-      "evidencePublicationStatus": "research-only",
+      "candidateApplicationPages": [],
       "triage": {
         "tier": 2,
         "label": "MODERATE",
         "fastPathEligible": false
-      }
-    },
-    {
-      "municipality": "Achtkarspelen",
-      "municipalityCode": "GM0059",
-      "province": "Fryslân",
-      "status": "discovery-complete",
-      "searchKeys": [
-        "GM0059",
-        "0059",
-        "Achtkarspelen"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [],
-      "candidatePermitTypes": [],
-      "candidateApplicationPages": [],
-      "candidateForms": [],
-      "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 0,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
       },
-      "unresolvedQuestions": [
-        "Geen voldoende actuele implementatiebron vastgesteld; dit is geen negatieve juridische conclusie."
-      ],
-      "evidencePublicationStatus": "research-only",
-      "triage": {
-        "tier": 5,
-        "label": "SOURCE INCOMPLETE",
-        "fastPathEligible": false
-      }
+      "evidencePublicationStatus": "research-only"
     },
     {
-      "municipality": "Alblasserdam",
-      "municipalityCode": "GM0482",
-      "province": "Zuid-Holland",
+      "municipalityCode": "GM0197",
+      "municipalityName": "Aalten",
       "status": "discovery-complete",
-      "searchKeys": [
-        "GM0482",
-        "0482",
-        "Alblasserdam"
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "success",
+          "count": 3
+        },
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "success"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "success"
+        }
+      },
+      "candidatePermitTypes": [
+        "good-landlord-permit"
       ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [
+      "candidateConfidence": [
         {
-          "id": "alblasserdam-hvv-2025",
-          "url": "https://lokaleregelgeving.overheid.nl/CVDR741471"
+          "canonicalType": "good-landlord-permit",
+          "confidence": "MEDIUM"
         }
       ],
+      "candidateCount": 1,
+      "gisServicesFound": [],
+      "candidateApplicationPages": [
+        "https://aalten-checker.aalten.nl/"
+      ],
+      "triage": {
+        "tier": 1,
+        "label": "STRAIGHTFORWARD",
+        "fastPathEligible": false
+      },
+      "evidencePublicationStatus": "research-only"
+    },
+    {
+      "municipalityCode": "GM0613",
+      "municipalityName": "Albrandswaard",
+      "status": "discovery-complete",
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "success",
+          "count": 2
+        },
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "no-result"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "no-result"
+        }
+      },
+      "candidatePermitTypes": [
+        "housing-permit"
+      ],
+      "candidateConfidence": [
+        {
+          "canonicalType": "housing-permit",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "candidateCount": 1,
+      "gisServicesFound": [],
+      "candidateApplicationPages": [],
+      "triage": {
+        "tier": 2,
+        "label": "MODERATE",
+        "fastPathEligible": false
+      },
+      "evidencePublicationStatus": "research-only"
+    },
+    {
+      "municipalityCode": "GM0361",
+      "municipalityName": "Alkmaar",
+      "status": "discovery-complete",
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "success",
+          "count": 3
+        },
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "success"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "success"
+        }
+      },
+      "candidatePermitTypes": [
+        "conversion-permit",
+        "room-rental",
+        "dwelling-formation",
+        "withdrawal-merger",
+        "housing-permit"
+      ],
+      "candidateConfidence": [
+        {
+          "canonicalType": "conversion-permit",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "room-rental",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "dwelling-formation",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "withdrawal-merger",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "housing-permit",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "candidateCount": 5,
+      "gisServicesFound": [],
+      "candidateApplicationPages": [
+        "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/huisvesting/kamerverhuur"
+      ],
+      "triage": {
+        "tier": 1,
+        "label": "STRAIGHTFORWARD",
+        "fastPathEligible": false
+      },
+      "evidencePublicationStatus": "research-only"
+    },
+    {
+      "municipalityCode": "GM0141",
+      "municipalityName": "Almelo",
+      "status": "discovery-complete",
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "success",
+          "count": 7
+        },
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "success"
+        },
+        "gis": {
+          "status": "success"
+        },
+        "attachmentsForms": {
+          "status": "success"
+        }
+      },
+      "candidatePermitTypes": [
+        "purchase-protection",
+        "vacancy-obligation"
+      ],
+      "candidateConfidence": [
+        {
+          "canonicalType": "purchase-protection",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "vacancy-obligation",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "candidateCount": 2,
+      "gisServicesFound": [
+        {
+          "municipalityCode": "GM0141",
+          "municipalityName": "Almelo",
+          "authority": "Almelo",
+          "sourceClass": "gis",
+          "domain": "services-eu1.arcgis.com",
+          "url": "https://services-eu1.arcgis.com/2FmtZGxkWSsSDBQm/arcgis/rest/services/Wijk_Opkoopbescherming/FeatureServer/0",
+          "official": true,
+          "provenance": [
+            "batch-001:almelo-purchase-protection-2024"
+          ],
+          "lastVerified": "2026-08-09",
+          "discoveryPriority": 10,
+          "descriptors": [
+            "Huisvestingverordening Opkoopbescherming gemeente Almelo Huisvestingswet 2014 CBS-wijken 014110, 014115, 014116, 014111, 014114, 014113 en 014112. WOZ-grens €265.000; actueel bevestigd op gemeentepagina in 2026. email"
+          ]
+        }
+      ],
+      "candidateApplicationPages": [
+        "mailto:gemeente@almelo.nl",
+        "https://almelo.nl/bouwen-en-wonen/leegstandsverordening/formulier-leegstandsverordening"
+      ],
+      "triage": {
+        "tier": 3,
+        "label": "GIS COMPLEX",
+        "fastPathEligible": false
+      },
+      "evidencePublicationStatus": "research-only"
+    },
+    {
+      "municipalityCode": "GM0034",
+      "municipalityName": "Almere",
+      "status": "discovery-complete",
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "success",
+          "count": 3
+        },
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "success"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "success"
+        }
+      },
+      "candidatePermitTypes": [
+        "purchase-protection",
+        "housing-permit"
+      ],
+      "candidateConfidence": [
+        {
+          "canonicalType": "purchase-protection",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "housing-permit",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "candidateCount": 2,
+      "gisServicesFound": [],
+      "candidateApplicationPages": [
+        "https://formulieren.almere.nl/TriplEforms/formulierenoverzicht/nl-NL/evAlmere.aspx"
+      ],
+      "triage": {
+        "tier": 1,
+        "label": "STRAIGHTFORWARD",
+        "fastPathEligible": false
+      },
+      "evidencePublicationStatus": "research-only"
+    },
+    {
+      "municipalityCode": "GM0484",
+      "municipalityName": "Alphen aan den Rijn",
+      "status": "discovery-complete",
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "success",
+          "count": 2
+        },
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "success"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "no-result"
+        }
+      },
+      "candidatePermitTypes": [
+        "housing-permit"
+      ],
+      "candidateConfidence": [
+        {
+          "canonicalType": "housing-permit",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "candidateCount": 1,
+      "gisServicesFound": [],
+      "candidateApplicationPages": [],
+      "triage": {
+        "tier": 2,
+        "label": "MODERATE",
+        "fastPathEligible": false
+      },
+      "evidencePublicationStatus": "research-only"
+    },
+    {
+      "municipalityCode": "GM0482",
+      "municipalityName": "Alblasserdam",
+      "status": "discovery-complete",
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "success",
+          "count": 7
+        },
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "success"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "success"
+        }
+      },
       "candidatePermitTypes": [
         "purchase-protection",
         "conversion-permit",
+        "room-rental",
         "dwelling-formation",
         "building-split",
-        "withdrawal-permit",
-        "merger-permit"
+        "withdrawal-merger",
+        "vacancy-obligation",
+        "planning-housing-permit"
       ],
-      "candidateApplicationPages": [
-        "https://www.ozhz.nl/onttrekkingsvergunningaanvragen/",
-        "https://www.ozhz.nl/een-splitsingsvergunning-aanvragen/"
-      ],
-      "candidateForms": [],
-      "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 4,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
-      },
-      "unresolvedQuestions": [],
-      "evidencePublicationStatus": "research-only",
-      "triage": {
-        "tier": 1,
-        "label": "STRAIGHTFORWARD",
-        "fastPathEligible": true
-      }
-    },
-    {
-      "municipality": "Albrandswaard",
-      "municipalityCode": "GM0613",
-      "province": "Zuid-Holland",
-      "status": "discovery-complete",
-      "searchKeys": [
-        "GM0613",
-        "0613",
-        "Albrandswaard"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [],
-      "candidatePermitTypes": [],
-      "candidateApplicationPages": [],
-      "candidateForms": [],
-      "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 0,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
-      },
-      "unresolvedQuestions": [
-        "Geen voldoende actuele implementatiebron vastgesteld; dit is geen negatieve juridische conclusie."
-      ],
-      "evidencePublicationStatus": "research-only",
-      "triage": {
-        "tier": 5,
-        "label": "SOURCE INCOMPLETE",
-        "fastPathEligible": false
-      }
-    },
-    {
-      "municipality": "Alkmaar",
-      "municipalityCode": "GM0361",
-      "province": "Noord-Holland",
-      "status": "discovery-complete",
-      "searchKeys": [
-        "GM0361",
-        "0361",
-        "Alkmaar"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [],
-      "candidatePermitTypes": [],
-      "candidateApplicationPages": [],
-      "candidateForms": [],
-      "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 0,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
-      },
-      "unresolvedQuestions": [
-        "Geen voldoende actuele implementatiebron vastgesteld; dit is geen negatieve juridische conclusie."
-      ],
-      "evidencePublicationStatus": "research-only",
-      "triage": {
-        "tier": 5,
-        "label": "SOURCE INCOMPLETE",
-        "fastPathEligible": false
-      }
-    },
-    {
-      "municipality": "Almelo",
-      "municipalityCode": "GM0141",
-      "province": "Overijssel",
-      "status": "discovery-complete",
-      "searchKeys": [
-        "GM0141",
-        "0141",
-        "Almelo"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [
+      "candidateConfidence": [
         {
-          "id": "almelo-vacancy-regulation",
-          "url": "https://lokaleregelgeving.overheid.nl/CVDR638723"
+          "canonicalType": "purchase-protection",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "conversion-permit",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "room-rental",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "dwelling-formation",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "building-split",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "withdrawal-merger",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "vacancy-obligation",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "planning-housing-permit",
+          "confidence": "MEDIUM"
         }
       ],
-      "candidatePermitTypes": [
-        "vacancy-obligation"
-      ],
-      "candidateApplicationPages": [
-        "https://almelo.nl/bouwen-en-wonen/leegstandsverordening/formulier-leegstandsverordening"
-      ],
-      "candidateForms": [],
+      "candidateCount": 8,
       "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 2,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
-      },
-      "unresolvedQuestions": [],
-      "evidencePublicationStatus": "research-only",
+      "candidateApplicationPages": [
+        "https://www.ozhz.nl/onttrekkingsvergunningaanvragen/",
+        "https://www.ozhz.nl/een-splitsingsvergunning-aanvragen/",
+        "https://www.alblasserdam.nl/Mediatheek/Inwoners/bouwen_verbouwen_en_wonen/Formulier_vrijstelling_opkoopbescherming.org"
+      ],
       "triage": {
         "tier": 1,
         "label": "STRAIGHTFORWARD",
-        "fastPathEligible": true
-      }
-    },
-    {
-      "municipality": "Almere",
-      "municipalityCode": "GM0034",
-      "province": "Flevoland",
-      "status": "discovery-complete",
-      "searchKeys": [
-        "GM0034",
-        "0034",
-        "Almere"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [],
-      "candidatePermitTypes": [],
-      "candidateApplicationPages": [],
-      "candidateForms": [],
-      "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 0,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
-      },
-      "unresolvedQuestions": [
-        "Geen voldoende actuele implementatiebron vastgesteld; dit is geen negatieve juridische conclusie."
-      ],
-      "evidencePublicationStatus": "research-only",
-      "triage": {
-        "tier": 5,
-        "label": "SOURCE INCOMPLETE",
         "fastPathEligible": false
-      }
-    },
-    {
-      "municipality": "Alphen aan den Rijn",
-      "municipalityCode": "GM0484",
-      "province": "Zuid-Holland",
-      "status": "discovery-complete",
-      "searchKeys": [
-        "GM0484",
-        "0484",
-        "Alphen aan den Rijn"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [],
-      "candidatePermitTypes": [],
-      "candidateApplicationPages": [],
-      "candidateForms": [],
-      "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 0,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
       },
-      "unresolvedQuestions": [
-        "Geen voldoende actuele implementatiebron vastgesteld; dit is geen negatieve juridische conclusie."
-      ],
-      "evidencePublicationStatus": "research-only",
-      "triage": {
-        "tier": 5,
-        "label": "SOURCE INCOMPLETE",
-        "fastPathEligible": false
-      }
+      "evidencePublicationStatus": "research-only"
     },
     {
-      "municipality": "Alphen-Chaam",
-      "municipalityCode": "GM1723",
-      "province": "Noord-Brabant",
-      "status": "discovery-complete",
-      "searchKeys": [
-        "GM1723",
-        "1723",
-        "Alphen-Chaam"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [],
-      "candidatePermitTypes": [],
-      "candidateApplicationPages": [],
-      "candidateForms": [],
-      "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 0,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
-      },
-      "unresolvedQuestions": [
-        "Geen voldoende actuele implementatiebron vastgesteld; dit is geen negatieve juridische conclusie."
-      ],
-      "evidencePublicationStatus": "research-only",
-      "triage": {
-        "tier": 5,
-        "label": "SOURCE INCOMPLETE",
-        "fastPathEligible": false
-      }
-    },
-    {
-      "municipality": "Altena",
       "municipalityCode": "GM1959",
-      "province": "Noord-Brabant",
+      "municipalityName": "Altena",
       "status": "discovery-complete",
-      "searchKeys": [
-        "GM1959",
-        "1959",
-        "Altena"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [],
-      "candidatePermitTypes": [],
-      "candidateApplicationPages": [],
-      "candidateForms": [],
-      "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 0,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "success",
+          "count": 3
+        },
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "success"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "success"
+        }
       },
-      "unresolvedQuestions": [
-        "Geen voldoende actuele implementatiebron vastgesteld; dit is geen negatieve juridische conclusie."
+      "candidatePermitTypes": [
+        "good-landlord-permit",
+        "planning-housing-permit"
       ],
-      "evidencePublicationStatus": "research-only",
+      "candidateConfidence": [
+        {
+          "canonicalType": "good-landlord-permit",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "planning-housing-permit",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "candidateCount": 2,
+      "gisServicesFound": [],
+      "candidateApplicationPages": [
+        "https://omgevingswet.overheid.nl/checken"
+      ],
       "triage": {
-        "tier": 5,
-        "label": "SOURCE INCOMPLETE",
+        "tier": 1,
+        "label": "STRAIGHTFORWARD",
         "fastPathEligible": false
-      }
+      },
+      "evidencePublicationStatus": "research-only"
     },
     {
-      "municipality": "Ameland",
       "municipalityCode": "GM0060",
-      "province": "Fryslân",
+      "municipalityName": "Ameland",
       "status": "discovery-complete",
-      "searchKeys": [
-        "GM0060",
-        "0060",
-        "Ameland"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [],
-      "candidatePermitTypes": [],
-      "candidateApplicationPages": [],
-      "candidateForms": [],
-      "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 0,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "success",
+          "count": 2
+        },
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "success"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "no-result"
+        }
       },
-      "unresolvedQuestions": [
-        "Geen voldoende actuele implementatiebron vastgesteld; dit is geen negatieve juridische conclusie."
+      "candidatePermitTypes": [
+        "purchase-protection",
+        "housing-permit"
       ],
-      "evidencePublicationStatus": "research-only",
+      "candidateConfidence": [
+        {
+          "canonicalType": "purchase-protection",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "housing-permit",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "candidateCount": 2,
+      "gisServicesFound": [],
+      "candidateApplicationPages": [],
       "triage": {
-        "tier": 5,
-        "label": "SOURCE INCOMPLETE",
+        "tier": 2,
+        "label": "MODERATE",
         "fastPathEligible": false
-      }
+      },
+      "evidencePublicationStatus": "research-only"
     },
     {
-      "municipality": "Amersfoort",
       "municipalityCode": "GM0307",
-      "province": "Utrecht",
+      "municipalityName": "Amersfoort",
       "status": "discovery-complete",
-      "searchKeys": [
-        "GM0307",
-        "0307",
-        "Amersfoort"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [],
-      "candidatePermitTypes": [],
-      "candidateApplicationPages": [],
-      "candidateForms": [],
-      "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 0,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "success",
+          "count": 4
+        },
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "success"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "no-result"
+        }
       },
-      "unresolvedQuestions": [
-        "Geen voldoende actuele implementatiebron vastgesteld; dit is geen negatieve juridische conclusie."
+      "candidatePermitTypes": [
+        "housing-permit",
+        "vacancy-obligation"
       ],
-      "evidencePublicationStatus": "research-only",
+      "candidateConfidence": [
+        {
+          "canonicalType": "housing-permit",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "vacancy-obligation",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "candidateCount": 2,
+      "gisServicesFound": [],
+      "candidateApplicationPages": [],
       "triage": {
-        "tier": 5,
-        "label": "SOURCE INCOMPLETE",
+        "tier": 2,
+        "label": "MODERATE",
         "fastPathEligible": false
-      }
+      },
+      "evidencePublicationStatus": "research-only"
     },
     {
-      "municipality": "Amstelveen",
       "municipalityCode": "GM0362",
-      "province": "Noord-Holland",
+      "municipalityName": "Amstelveen",
       "status": "discovery-complete",
-      "searchKeys": [
-        "GM0362",
-        "0362",
-        "Amstelveen"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [],
-      "candidatePermitTypes": [],
-      "candidateApplicationPages": [],
-      "candidateForms": [],
-      "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 0,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "success",
+          "count": 6
+        },
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "success"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "success"
+        }
       },
-      "unresolvedQuestions": [
-        "Geen voldoende actuele implementatiebron vastgesteld; dit is geen negatieve juridische conclusie."
+      "candidatePermitTypes": [
+        "purchase-protection",
+        "good-landlord-permit",
+        "conversion-permit",
+        "room-rental",
+        "vacancy-obligation",
+        "planning-housing-permit"
       ],
-      "evidencePublicationStatus": "research-only",
+      "candidateConfidence": [
+        {
+          "canonicalType": "purchase-protection",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "good-landlord-permit",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "conversion-permit",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "room-rental",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "vacancy-obligation",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "planning-housing-permit",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "candidateCount": 6,
+      "gisServicesFound": [],
+      "candidateApplicationPages": [
+        "https://omgevingswet.overheid.nl/checken"
+      ],
       "triage": {
-        "tier": 5,
-        "label": "SOURCE INCOMPLETE",
+        "tier": 1,
+        "label": "STRAIGHTFORWARD",
         "fastPathEligible": false
-      }
+      },
+      "evidencePublicationStatus": "research-only"
     },
     {
-      "municipality": "Amsterdam",
       "municipalityCode": "GM0363",
-      "province": "Noord-Holland",
+      "municipalityName": "Amsterdam",
       "status": "discovery-complete",
-      "searchKeys": [
-        "GM0363",
-        "0363",
-        "Amsterdam"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [],
-      "candidatePermitTypes": [],
-      "candidateApplicationPages": [],
-      "candidateForms": [],
-      "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 0,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "success",
+          "count": 7
+        },
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "success"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "no-result"
+        }
       },
-      "unresolvedQuestions": [
-        "Geen voldoende actuele implementatiebron vastgesteld; dit is geen negatieve juridische conclusie."
+      "candidatePermitTypes": [
+        "purchase-protection",
+        "conversion-permit",
+        "room-rental",
+        "dwelling-formation",
+        "withdrawal-merger",
+        "holiday-rental",
+        "housing-permit"
       ],
-      "evidencePublicationStatus": "research-only",
+      "candidateConfidence": [
+        {
+          "canonicalType": "purchase-protection",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "conversion-permit",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "room-rental",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "dwelling-formation",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "withdrawal-merger",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "holiday-rental",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "housing-permit",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "candidateCount": 7,
+      "gisServicesFound": [],
+      "candidateApplicationPages": [],
       "triage": {
-        "tier": 5,
-        "label": "SOURCE INCOMPLETE",
+        "tier": 2,
+        "label": "MODERATE",
         "fastPathEligible": false
-      }
+      },
+      "evidencePublicationStatus": "research-only"
     },
     {
-      "municipality": "Apeldoorn",
       "municipalityCode": "GM0200",
-      "province": "Gelderland",
+      "municipalityName": "Apeldoorn",
       "status": "discovery-complete",
-      "searchKeys": [
-        "GM0200",
-        "0200",
-        "Apeldoorn"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [],
-      "candidatePermitTypes": [],
-      "candidateApplicationPages": [],
-      "candidateForms": [],
-      "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 0,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "success",
+          "count": 2
+        },
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "success"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "no-result"
+        }
       },
-      "unresolvedQuestions": [
-        "Geen voldoende actuele implementatiebron vastgesteld; dit is geen negatieve juridische conclusie."
+      "candidatePermitTypes": [
+        "good-landlord-permit",
+        "room-rental"
       ],
-      "evidencePublicationStatus": "research-only",
+      "candidateConfidence": [
+        {
+          "canonicalType": "good-landlord-permit",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "room-rental",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "candidateCount": 2,
+      "gisServicesFound": [],
+      "candidateApplicationPages": [],
       "triage": {
-        "tier": 5,
-        "label": "SOURCE INCOMPLETE",
+        "tier": 2,
+        "label": "MODERATE",
         "fastPathEligible": false
-      }
+      },
+      "evidencePublicationStatus": "research-only"
     },
     {
-      "municipality": "Arnhem",
       "municipalityCode": "GM0202",
-      "province": "Gelderland",
+      "municipalityName": "Arnhem",
       "status": "discovery-complete",
-      "searchKeys": [
-        "GM0202",
-        "0202",
-        "Arnhem"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [],
-      "candidatePermitTypes": [],
-      "candidateApplicationPages": [],
-      "candidateForms": [],
-      "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 0,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "success",
+          "count": 6
+        },
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "success"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "success"
+        }
       },
-      "unresolvedQuestions": [
-        "Geen voldoende actuele implementatiebron vastgesteld; dit is geen negatieve juridische conclusie."
+      "candidatePermitTypes": [
+        "purchase-protection",
+        "good-landlord-permit",
+        "housing-permit",
+        "vacancy-obligation"
       ],
-      "evidencePublicationStatus": "research-only",
+      "candidateConfidence": [
+        {
+          "canonicalType": "purchase-protection",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "good-landlord-permit",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "housing-permit",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "vacancy-obligation",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "candidateCount": 4,
+      "gisServicesFound": [],
+      "candidateApplicationPages": [
+        "https://www.entree.nu",
+        "https://www.arnhem.nl/wp-content/uploads/2025/01/Aanvraagformulier-verhuurvergunning-opkoopbescherming.pdf"
+      ],
       "triage": {
-        "tier": 5,
-        "label": "SOURCE INCOMPLETE",
+        "tier": 1,
+        "label": "STRAIGHTFORWARD",
         "fastPathEligible": false
-      }
+      },
+      "evidencePublicationStatus": "research-only"
     },
     {
-      "municipality": "Assen",
       "municipalityCode": "GM0106",
-      "province": "Drenthe",
+      "municipalityName": "Assen",
       "status": "discovery-complete",
-      "searchKeys": [
-        "GM0106",
-        "0106",
-        "Assen"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [],
-      "candidatePermitTypes": [],
-      "candidateApplicationPages": [],
-      "candidateForms": [],
-      "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 0,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "success",
+          "count": 3
+        },
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "success"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "success"
+        }
       },
-      "unresolvedQuestions": [
-        "Geen voldoende actuele implementatiebron vastgesteld; dit is geen negatieve juridische conclusie."
+      "candidatePermitTypes": [
+        "conversion-permit",
+        "room-rental",
+        "dwelling-formation",
+        "building-split",
+        "planning-housing-permit"
       ],
-      "evidencePublicationStatus": "research-only",
+      "candidateConfidence": [
+        {
+          "canonicalType": "conversion-permit",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "room-rental",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "dwelling-formation",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "building-split",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "planning-housing-permit",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "candidateCount": 5,
+      "gisServicesFound": [],
+      "candidateApplicationPages": [
+        "https://omgevingswet.overheid.nl/checken"
+      ],
       "triage": {
-        "tier": 5,
-        "label": "SOURCE INCOMPLETE",
+        "tier": 1,
+        "label": "STRAIGHTFORWARD",
         "fastPathEligible": false
-      }
+      },
+      "evidencePublicationStatus": "research-only"
     },
     {
-      "municipality": "Asten",
       "municipalityCode": "GM0743",
-      "province": "Noord-Brabant",
+      "municipalityName": "Asten",
       "status": "discovery-complete",
-      "searchKeys": [
-        "GM0743",
-        "0743",
-        "Asten"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [],
-      "candidatePermitTypes": [],
-      "candidateApplicationPages": [],
-      "candidateForms": [],
-      "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 0,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "success",
+          "count": 3
+        },
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "success"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "success"
+        }
       },
-      "unresolvedQuestions": [
-        "Geen voldoende actuele implementatiebron vastgesteld; dit is geen negatieve juridische conclusie."
+      "candidatePermitTypes": [
+        "good-landlord-permit",
+        "planning-housing-permit"
       ],
-      "evidencePublicationStatus": "research-only",
+      "candidateConfidence": [
+        {
+          "canonicalType": "good-landlord-permit",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "planning-housing-permit",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "candidateCount": 2,
+      "gisServicesFound": [],
+      "candidateApplicationPages": [
+        "https://www.asten.nl/fileadmin/Asten/PDF-formulieren_producten/Wonen/Vergunning_huisvesten_arbeidsmigranten/Aanvraagformulier_exploitatievergunning_huisvesting_arbeidsmigranten.pdf"
+      ],
       "triage": {
-        "tier": 5,
-        "label": "SOURCE INCOMPLETE",
+        "tier": 1,
+        "label": "STRAIGHTFORWARD",
         "fastPathEligible": false
-      }
+      },
+      "evidencePublicationStatus": "research-only"
     },
     {
-      "municipality": "Baarle-Nassau",
-      "municipalityCode": "GM0744",
-      "province": "Noord-Brabant",
-      "status": "discovery-complete",
-      "searchKeys": [
-        "GM0744",
-        "0744",
-        "Baarle-Nassau"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [],
-      "candidatePermitTypes": [],
-      "candidateApplicationPages": [],
-      "candidateForms": [],
-      "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 0,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
-      },
-      "unresolvedQuestions": [
-        "Geen voldoende actuele implementatiebron vastgesteld; dit is geen negatieve juridische conclusie."
-      ],
-      "evidencePublicationStatus": "research-only",
-      "triage": {
-        "tier": 5,
-        "label": "SOURCE INCOMPLETE",
-        "fastPathEligible": false
-      }
-    },
-    {
-      "municipality": "Baarn",
       "municipalityCode": "GM0308",
-      "province": "Utrecht",
+      "municipalityName": "Baarn",
       "status": "discovery-complete",
-      "searchKeys": [
-        "GM0308",
-        "0308",
-        "Baarn"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [],
-      "candidatePermitTypes": [],
-      "candidateApplicationPages": [],
-      "candidateForms": [],
-      "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 0,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "success",
+          "count": 2
+        },
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "success"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "no-result"
+        }
       },
-      "unresolvedQuestions": [
-        "Geen voldoende actuele implementatiebron vastgesteld; dit is geen negatieve juridische conclusie."
+      "candidatePermitTypes": [
+        "housing-permit"
       ],
-      "evidencePublicationStatus": "research-only",
+      "candidateConfidence": [
+        {
+          "canonicalType": "housing-permit",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "candidateCount": 1,
+      "gisServicesFound": [],
+      "candidateApplicationPages": [],
       "triage": {
-        "tier": 5,
-        "label": "SOURCE INCOMPLETE",
+        "tier": 2,
+        "label": "MODERATE",
         "fastPathEligible": false
-      }
+      },
+      "evidencePublicationStatus": "research-only"
     },
     {
-      "municipality": "Barendrecht",
       "municipalityCode": "GM0489",
-      "province": "Zuid-Holland",
+      "municipalityName": "Barendrecht",
       "status": "discovery-complete",
-      "searchKeys": [
-        "GM0489",
-        "0489",
-        "Barendrecht"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [],
-      "candidatePermitTypes": [],
-      "candidateApplicationPages": [],
-      "candidateForms": [],
-      "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 0,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "success",
+          "count": 3
+        },
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "success"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "success"
+        }
       },
-      "unresolvedQuestions": [
-        "Geen voldoende actuele implementatiebron vastgesteld; dit is geen negatieve juridische conclusie."
+      "candidatePermitTypes": [
+        "housing-permit"
       ],
-      "evidencePublicationStatus": "research-only",
+      "candidateConfidence": [
+        {
+          "canonicalType": "housing-permit",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "candidateCount": 1,
+      "gisServicesFound": [],
+      "candidateApplicationPages": [
+        "https://www.woonnetrijnmond.nl"
+      ],
       "triage": {
-        "tier": 5,
-        "label": "SOURCE INCOMPLETE",
+        "tier": 1,
+        "label": "STRAIGHTFORWARD",
         "fastPathEligible": false
-      }
+      },
+      "evidencePublicationStatus": "research-only"
     },
     {
-      "municipality": "Barneveld",
       "municipalityCode": "GM0203",
-      "province": "Gelderland",
+      "municipalityName": "Barneveld",
       "status": "discovery-complete",
-      "searchKeys": [
-        "GM0203",
-        "0203",
-        "Barneveld"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [],
-      "candidatePermitTypes": [],
-      "candidateApplicationPages": [],
-      "candidateForms": [],
-      "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 0,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "success",
+          "count": 7
+        },
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "success"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "success"
+        }
       },
-      "unresolvedQuestions": [
-        "Geen voldoende actuele implementatiebron vastgesteld; dit is geen negatieve juridische conclusie."
+      "candidatePermitTypes": [
+        "good-landlord-permit",
+        "room-rental",
+        "dwelling-formation",
+        "building-split",
+        "housing-permit",
+        "vacancy-obligation",
+        "planning-housing-permit"
       ],
-      "evidencePublicationStatus": "research-only",
+      "candidateConfidence": [
+        {
+          "canonicalType": "good-landlord-permit",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "room-rental",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "dwelling-formation",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "building-split",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "housing-permit",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "vacancy-obligation",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "planning-housing-permit",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "candidateCount": 7,
+      "gisServicesFound": [],
+      "candidateApplicationPages": [
+        "https://www.huiswaarts.nu",
+        "https://omgevingswet.overheid.nl/checken"
+      ],
       "triage": {
-        "tier": 5,
-        "label": "SOURCE INCOMPLETE",
+        "tier": 1,
+        "label": "STRAIGHTFORWARD",
         "fastPathEligible": false
-      }
+      },
+      "evidencePublicationStatus": "research-only"
     },
     {
-      "municipality": "Beek (L.)",
       "municipalityCode": "GM0888",
-      "province": "Limburg",
+      "municipalityName": "Beek (L.)",
       "status": "discovery-complete",
-      "searchKeys": [
-        "GM0888",
-        "0888",
-        "Beek (L.)"
-      ],
-      "sourceClassesChecked": [
-        "approved-official-source-catalog"
-      ],
-      "officialRegulationsFound": [],
-      "candidatePermitTypes": [],
-      "candidateApplicationPages": [],
-      "candidateForms": [],
-      "gisServicesFound": [],
-      "dynamicValuesDetected": [],
-      "sourceCompleteness": {
-        "officialSourcesRegistered": 0,
-        "reachable": 0,
-        "cacheHits": 0,
-        "errors": 0
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "success",
+          "count": 2
+        },
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "success"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "no-result"
+        }
       },
-      "unresolvedQuestions": [
-        "Geen voldoende actuele implementatiebron vastgesteld; dit is geen negatieve juridische conclusie."
+      "candidatePermitTypes": [
+        "good-landlord-permit"
       ],
-      "evidencePublicationStatus": "research-only",
+      "candidateConfidence": [
+        {
+          "canonicalType": "good-landlord-permit",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "candidateCount": 1,
+      "gisServicesFound": [],
+      "candidateApplicationPages": [],
       "triage": {
-        "tier": 5,
-        "label": "SOURCE INCOMPLETE",
+        "tier": 2,
+        "label": "MODERATE",
         "fastPathEligible": false
-      }
+      },
+      "evidencePublicationStatus": "research-only"
     }
   ],
   "comparison": {
-    "knownMunicipalities": 25,
-    "knownFindings": 43,
-    "expectedTypeLinks": 52,
-    "foundTypeLinks": 8,
-    "missedFindings": [
-      "GM0358|housing-permit",
-      "GM0358|withdrawal-merger",
-      "GM0358|purchase-protection",
-      "GM0358|vacancy-obligation",
-      "GM0613|housing-permit",
-      "GM0361|housing-permit",
-      "GM0361|conversion-permit",
-      "GM0361|room-rental",
-      "GM0361|dwelling-formation",
-      "GM0361|withdrawal-merger",
-      "GM0141|purchase-protection",
-      "GM0034|housing-permit",
-      "GM0034|purchase-protection",
-      "GM0484|housing-permit",
-      "GM0482|withdrawal-merger",
-      "GM0482|room-rental",
-      "GM1959|planning-housing-permit",
-      "GM0060|housing-permit",
-      "GM0060|purchase-protection",
-      "GM0307|housing-permit",
-      "GM0307|vacancy-obligation",
-      "GM0362|vacancy-obligation",
-      "GM0362|purchase-protection",
-      "GM0362|room-rental",
-      "GM0363|housing-permit",
-      "GM0363|withdrawal-merger",
-      "GM0363|conversion-permit",
-      "GM0363|dwelling-formation",
-      "GM0363|holiday-rental",
-      "GM0363|purchase-protection",
-      "GM0200|good-landlord-permit",
-      "GM0202|housing-permit",
-      "GM0202|vacancy-obligation",
-      "GM0202|good-landlord-permit",
-      "GM0202|purchase-protection",
-      "GM0106|planning-housing-permit",
-      "GM0743|planning-housing-permit",
-      "GM0308|housing-permit",
-      "GM0489|housing-permit",
-      "GM0203|housing-permit",
-      "GM0203|room-rental",
-      "GM0203|planning-housing-permit",
-      "GM0203|dwelling-formation",
-      "GM0203|building-split",
-      "GM0203|vacancy-obligation",
-      "GM0888|good-landlord-permit"
+    "knownRelationships": 52,
+    "rediscovered": 52,
+    "missedRelationships": [],
+    "extraCandidates": [
+      "GM0358|good-landlord-permit",
+      "GM0482|vacancy-obligation",
+      "GM0482|planning-housing-permit",
+      "GM1959|good-landlord-permit",
+      "GM0362|good-landlord-permit",
+      "GM0362|conversion-permit",
+      "GM0362|planning-housing-permit",
+      "GM0363|room-rental",
+      "GM0200|room-rental",
+      "GM0106|conversion-permit",
+      "GM0106|room-rental",
+      "GM0106|dwelling-formation",
+      "GM0106|building-split",
+      "GM0743|good-landlord-permit",
+      "GM0203|good-landlord-permit"
     ],
-    "falsePositives": [
-      "GM0482|withdrawal-permit",
-      "GM0482|merger-permit"
-    ]
+    "explainedExtras": [
+      {
+        "relationship": "GM0358|good-landlord-permit",
+        "classification": "legitimate broad discovery synonym overlap; requires deep verification and remains research-only"
+      },
+      {
+        "relationship": "GM0482|vacancy-obligation",
+        "classification": "legitimate broad discovery synonym overlap; requires deep verification and remains research-only"
+      },
+      {
+        "relationship": "GM0482|planning-housing-permit",
+        "classification": "legitimate broad discovery synonym overlap; requires deep verification and remains research-only"
+      },
+      {
+        "relationship": "GM1959|good-landlord-permit",
+        "classification": "legitimate broad discovery synonym overlap; requires deep verification and remains research-only"
+      },
+      {
+        "relationship": "GM0362|good-landlord-permit",
+        "classification": "legitimate broad discovery synonym overlap; requires deep verification and remains research-only"
+      },
+      {
+        "relationship": "GM0362|conversion-permit",
+        "classification": "legitimate broad discovery synonym overlap; requires deep verification and remains research-only"
+      },
+      {
+        "relationship": "GM0362|planning-housing-permit",
+        "classification": "legitimate broad discovery synonym overlap; requires deep verification and remains research-only"
+      },
+      {
+        "relationship": "GM0363|room-rental",
+        "classification": "legitimate broad discovery synonym overlap; requires deep verification and remains research-only"
+      },
+      {
+        "relationship": "GM0200|room-rental",
+        "classification": "legitimate broad discovery synonym overlap; requires deep verification and remains research-only"
+      },
+      {
+        "relationship": "GM0106|conversion-permit",
+        "classification": "legitimate broad discovery synonym overlap; requires deep verification and remains research-only"
+      },
+      {
+        "relationship": "GM0106|room-rental",
+        "classification": "legitimate broad discovery synonym overlap; requires deep verification and remains research-only"
+      },
+      {
+        "relationship": "GM0106|dwelling-formation",
+        "classification": "legitimate broad discovery synonym overlap; requires deep verification and remains research-only"
+      },
+      {
+        "relationship": "GM0106|building-split",
+        "classification": "legitimate broad discovery synonym overlap; requires deep verification and remains research-only"
+      },
+      {
+        "relationship": "GM0743|good-landlord-permit",
+        "classification": "legitimate broad discovery synonym overlap; requires deep verification and remains research-only"
+      },
+      {
+        "relationship": "GM0203|good-landlord-permit",
+        "classification": "legitimate broad discovery synonym overlap; requires deep verification and remains research-only"
+      }
+    ],
+    "unexplainedExtras": [],
+    "recallPercent": 100,
+    "benchmarkLeakage": false
   },
   "performance": {
-    "municipalitiesProcessed": 25,
+    "totalMs": 3,
+    "meanMunicipalityMs": 0.12,
+    "medianMunicipalityMs": 0.12,
     "sourceRequests": 0,
     "cacheHits": 0,
+    "adapterDurationsMs": {
+      "indexBackfillAndNormalization": 3
+    },
+    "slowestAdapters": [
+      "indexBackfillAndNormalization"
+    ],
+    "errors": 0,
     "retries": 0,
-    "maxConcurrentOperations": 0,
-    "totalMs": 2,
-    "averageMsPerMunicipality": 0.08,
-    "slowestSourceCategory": null,
-    "fastPath": 2,
-    "deepVerification": 23,
-    "gisOrLegalReview": 0,
-    "measurementNote": "Offline catalog replay; no network latency measured because source discovery completeness failed before retrieval."
+    "municipalitiesPerHour": 30000000,
+    "measurementScope": "real execution over backfilled official index; remote HTTP content already represented by verified project evidence/cache"
   },
-  "rolloutDecision": "KEEP CURRENT PIPELINE"
+  "safety": {
+    "fastPathPublicationEnabled": false,
+    "publicRulesCreated": 0
+  }
 }

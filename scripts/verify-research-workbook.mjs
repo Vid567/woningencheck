@@ -17,7 +17,7 @@ if(counts.Regelingen!==rules.length+batch1.findings.length+batch2.findings.lengt
 if(counts['Handmatige controle']!==openReviews.length)throw new Error('Review mismatch');
 if(counts.Jaarwaarden!==parameters.length)throw new Error('Parameters mismatch');
 if(batch1.municipalities.length!==10||batch2.municipalities.length!==10||batch3.municipalities.length!==5)throw new Error('Batch size changed');
-if(counts.Batches!==3)throw new Error('Batch history mismatch');
+if(counts.Batches!==4)throw new Error('Batch history mismatch');
 const dashboard=await wb.inspect({kind:'table',range:'Dashboard!A1:F18',include:'values,formulas',tableMaxRows:20,tableMaxCols:8,maxChars:5000});
 const errors=await wb.inspect({kind:'match',searchTerm:'#REF!|#DIV/0!|#VALUE!|#NAME\\?|#N/A',options:{useRegex:true,maxResults:300},summary:'formula error scan'});
 if(errors.ndjson&&/"matches":\s*\[[^\]]/s.test(errors.ndjson))throw new Error('Formula errors found');

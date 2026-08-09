@@ -9,13 +9,15 @@ const publicRules=(await read('data/regulations.json')).records;
 const batch1=await read('data/research-batches/batch-001.json');
 const batch2=await read('data/research-batches/batch-002.json');
 const batch3=await read('data/research-batches/batch-003.json');
-const batches=[batch1,batch2,batch3];
+const batch4raw=await read('data/research-batches/batch-004-hybrid.json');
+const batch4={...batch4raw,municipalities:batch4raw.records,completedAt:batch4raw.generatedAt,publicDecisionRecordsAdded:0,closure:{closureStatus:'Systemisch gepauzeerd'}};
+const batches=[batch1,batch2,batch3,batch4];
 const reviews=(await read('data/review-queue.json')).items;
 const snapshots=(await read('data/source-snapshots.json')).snapshots;
 const sourceCatalog=(await read('data/sources.json')).sources;
 const parameters=(await read('data/dynamic-parameters.json')).parameters;
 const discovery=await read('data/national-discovery.json');
-const discoveryByCode=new Map(discovery.records.map(r=>[r.municipalityCode,r]));
+const discoveryByCode=new Map([...discovery.records,...batch4.records.map(r=>({municipalityCode:r.municipalityCode,status:r.discoveryStatus,triage:{tier:r.tier,fastPathEligible:false},officialRegulationsFound:[],gisServicesFound:[],candidateApplicationPages:[]}))].map(r=>[r.municipalityCode,r]));
 const batch2Geography=(await read('data/batch-002-geographic-scopes.json')).scopes;
 const findings=batches.flatMap(batch=>batch.findings);
 const allRegulations=[...publicRules.map(r=>({kind:'public',...r})),...findings.map(r=>({kind:'research',...r}))];
@@ -72,6 +74,8 @@ const batchRows=batches.map((b,i)=>{const codes=new Set(b.municipalities.map(m=>
 const paramRows=parameters.map(p=>[byCode.get(p.municipalityCode)?.name||'',allRegulations.find(r=>r.id===p.regulationId)?.title||p.regulationId,p.name,p.year,p.value,p.unit,p.validFrom,p.validUntil,p.updateMethod,p.source,p.lastVerifiedAt,p.nextExpectedUpdate,p.status]);
 const yearSheet=writeSheet('Jaarwaarden',['Gemeente','Regeling','Parameter','Jaar','Waarde','Eenheid','Geldig vanaf','Geldig tot','Actualisatiemethode','Officiële bron','Laatst geverifieerd','Volgende verwachte update','Status'],paramRows,[22,35,36,10,16,16,14,14,45,45,18,22,22]);yearSheet.getRange(`E2:E${paramRows.length+1}`).format.numberFormat='#,##0.00';
 
+dashboard.getRange('B17').values=[['Batch 004']];
+wb.worksheets.getItem('Batches').getRange('O5').values=[['docs/research-batches/batch-004-hybrid.md']];
 for(const n of names){const s=wb.worksheets.getItem(n);const used=s.getUsedRange();used.format.font={name:'Aptos',size:10};used.format.wrapText=true;}
 await fs.mkdir(`${root}/exports`,{recursive:true});const out=await SpreadsheetFile.exportXlsx(wb);await out.save(`${root}/exports/Woningencheck-Onderzoeksdatabase.xlsx`);
 const counts=Object.fromEntries(names.map(n=>[n,wb.worksheets.getItem(n).getUsedRange().values.length-1]));await fs.writeFile(`${root}/exports/workbook-counts.json`,JSON.stringify(counts,null,2));

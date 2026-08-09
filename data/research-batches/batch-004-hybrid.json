@@ -1,0 +1,419 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "batch-004-hybrid",
+  "generatedAt": "2026-08-09T21:00:06.336Z",
+  "startedAt": "2026-08-09T21:00:05.341Z",
+  "selection": {
+    "status": "not-started",
+    "canonicalQueue": true,
+    "count": 25,
+    "municipality26Processed": false
+  },
+  "records": [
+    {
+      "queuePosition": 1,
+      "municipalityCode": "GM1954",
+      "municipalityName": "Beekdaelen",
+      "province": "Limburg",
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "tier": 5,
+      "verificationStatus": "source-incomplete",
+      "candidateCount": 0,
+      "candidatePublicationIds": [],
+      "adapters": {
+        "officialPublication": {
+          "status": "success",
+          "queries": [
+            {
+              "query": "Beekdaelen huisvestingsverordening",
+              "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beekdaelen%20huisvestingsverordening",
+              "status": 200,
+              "resultCount": 0
+            },
+            {
+              "query": "Beekdaelen verhuurvergunning kamerverhuur",
+              "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beekdaelen%20verhuurvergunning%20kamerverhuur",
+              "status": 200,
+              "resultCount": 0
+            },
+            {
+              "query": "Beekdaelen splitsing onttrekking leegstand vakantieverhuur short stay",
+              "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beekdaelen%20splitsing%20onttrekking%20leegstand%20vakantieverhuur%20short%20stay",
+              "status": 200,
+              "resultCount": 0
+            }
+          ]
+        },
+        "municipalWebsite": {
+          "status": "blocked",
+          "reason": "Geen geverifieerd gemeentelijk domein/zoekingang in discovery-index."
+        },
+        "gisOpenData": {
+          "status": "blocked",
+          "reason": "Geen geverifieerd GIS/open-data-startpunt in discovery-index."
+        },
+        "attachmentsForms": {
+          "status": "no-result"
+        },
+        "applicationRoutes": {
+          "status": "no-result"
+        }
+      },
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 450
+    },
+    {
+      "queuePosition": 2,
+      "municipalityCode": "GM0889",
+      "municipalityName": "Beesel",
+      "province": "Limburg",
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "tier": 5,
+      "verificationStatus": "source-incomplete",
+      "candidateCount": 0,
+      "candidatePublicationIds": [],
+      "adapters": {
+        "officialPublication": {
+          "status": "success",
+          "queries": [
+            {
+              "query": "Beesel huisvestingsverordening",
+              "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beesel%20huisvestingsverordening",
+              "status": 200,
+              "resultCount": 0
+            },
+            {
+              "query": "Beesel verhuurvergunning kamerverhuur",
+              "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beesel%20verhuurvergunning%20kamerverhuur",
+              "status": 200,
+              "resultCount": 0
+            },
+            {
+              "query": "Beesel splitsing onttrekking leegstand vakantieverhuur short stay",
+              "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beesel%20splitsing%20onttrekking%20leegstand%20vakantieverhuur%20short%20stay",
+              "status": 200,
+              "resultCount": 0
+            }
+          ]
+        },
+        "municipalWebsite": {
+          "status": "blocked",
+          "reason": "Geen geverifieerd gemeentelijk domein/zoekingang in discovery-index."
+        },
+        "gisOpenData": {
+          "status": "blocked",
+          "reason": "Geen geverifieerd GIS/open-data-startpunt in discovery-index."
+        },
+        "attachmentsForms": {
+          "status": "no-result"
+        },
+        "applicationRoutes": {
+          "status": "no-result"
+        }
+      },
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 533
+    },
+    {
+      "queuePosition": 3,
+      "municipalityCode": "GM1945",
+      "municipalityName": "Berg en Dal",
+      "province": "Gelderland",
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "tier": 5,
+      "verificationStatus": "source-incomplete",
+      "candidateCount": 0,
+      "candidatePublicationIds": [],
+      "adapters": {
+        "officialPublication": {
+          "status": "success",
+          "queries": [
+            {
+              "query": "Berg en Dal huisvestingsverordening",
+              "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Berg%20en%20Dal%20huisvestingsverordening",
+              "status": 200,
+              "resultCount": 0
+            },
+            {
+              "query": "Berg en Dal verhuurvergunning kamerverhuur",
+              "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Berg%20en%20Dal%20verhuurvergunning%20kamerverhuur",
+              "status": 200,
+              "resultCount": 0
+            },
+            {
+              "query": "Berg en Dal splitsing onttrekking leegstand vakantieverhuur short stay",
+              "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Berg%20en%20Dal%20splitsing%20onttrekking%20leegstand%20vakantieverhuur%20short%20stay",
+              "status": 200,
+              "resultCount": 0
+            }
+          ]
+        },
+        "municipalWebsite": {
+          "status": "blocked",
+          "reason": "Geen geverifieerd gemeentelijk domein/zoekingang in discovery-index."
+        },
+        "gisOpenData": {
+          "status": "blocked",
+          "reason": "Geen geverifieerd GIS/open-data-startpunt in discovery-index."
+        },
+        "attachmentsForms": {
+          "status": "no-result"
+        },
+        "applicationRoutes": {
+          "status": "no-result"
+        }
+      },
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 466
+    },
+    {
+      "queuePosition": 4,
+      "municipalityCode": "GM1724",
+      "municipalityName": "Bergeijk",
+      "province": "Noord-Brabant",
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "tier": 5,
+      "verificationStatus": "source-incomplete",
+      "candidateCount": 0,
+      "candidatePublicationIds": [],
+      "adapters": {
+        "officialPublication": {
+          "status": "success",
+          "queries": [
+            {
+              "query": "Bergeijk huisvestingsverordening",
+              "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergeijk%20huisvestingsverordening",
+              "status": 200,
+              "resultCount": 0
+            },
+            {
+              "query": "Bergeijk verhuurvergunning kamerverhuur",
+              "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergeijk%20verhuurvergunning%20kamerverhuur",
+              "status": 200,
+              "resultCount": 0
+            },
+            {
+              "query": "Bergeijk splitsing onttrekking leegstand vakantieverhuur short stay",
+              "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergeijk%20splitsing%20onttrekking%20leegstand%20vakantieverhuur%20short%20stay",
+              "status": 200,
+              "resultCount": 0
+            }
+          ]
+        },
+        "municipalWebsite": {
+          "status": "blocked",
+          "reason": "Geen geverifieerd gemeentelijk domein/zoekingang in discovery-index."
+        },
+        "gisOpenData": {
+          "status": "blocked",
+          "reason": "Geen geverifieerd GIS/open-data-startpunt in discovery-index."
+        },
+        "attachmentsForms": {
+          "status": "no-result"
+        },
+        "applicationRoutes": {
+          "status": "no-result"
+        }
+      },
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 428
+    },
+    {
+      "queuePosition": 5,
+      "municipalityCode": "GM0893",
+      "municipalityName": "Bergen (L.)",
+      "province": "Limburg",
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "tier": 5,
+      "verificationStatus": "source-incomplete",
+      "candidateCount": 0,
+      "candidatePublicationIds": [],
+      "adapters": {
+        "officialPublication": {
+          "status": "success",
+          "queries": [
+            {
+              "query": "Bergen (L.) huisvestingsverordening",
+              "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20(L.)%20huisvestingsverordening",
+              "status": 200,
+              "resultCount": 0
+            },
+            {
+              "query": "Bergen (L.) verhuurvergunning kamerverhuur",
+              "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20(L.)%20verhuurvergunning%20kamerverhuur",
+              "status": 200,
+              "resultCount": 0
+            },
+            {
+              "query": "Bergen (L.) splitsing onttrekking leegstand vakantieverhuur short stay",
+              "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20(L.)%20splitsing%20onttrekking%20leegstand%20vakantieverhuur%20short%20stay",
+              "status": 200,
+              "resultCount": 0
+            }
+          ]
+        },
+        "municipalWebsite": {
+          "status": "blocked",
+          "reason": "Geen geverifieerd gemeentelijk domein/zoekingang in discovery-index."
+        },
+        "gisOpenData": {
+          "status": "blocked",
+          "reason": "Geen geverifieerd GIS/open-data-startpunt in discovery-index."
+        },
+        "attachmentsForms": {
+          "status": "no-result"
+        },
+        "applicationRoutes": {
+          "status": "no-result"
+        }
+      },
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 468
+    },
+    {
+      "queuePosition": 6,
+      "municipalityCode": "GM0373",
+      "municipalityName": "Bergen (NH.)",
+      "province": "Noord-Holland",
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "tier": 5,
+      "verificationStatus": "source-incomplete",
+      "candidateCount": 0,
+      "candidatePublicationIds": [],
+      "adapters": {
+        "officialPublication": {
+          "status": "success",
+          "queries": [
+            {
+              "query": "Bergen (NH.) huisvestingsverordening",
+              "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20(NH.)%20huisvestingsverordening",
+              "status": 200,
+              "resultCount": 0
+            },
+            {
+              "query": "Bergen (NH.) verhuurvergunning kamerverhuur",
+              "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20(NH.)%20verhuurvergunning%20kamerverhuur",
+              "status": 200,
+              "resultCount": 0
+            },
+            {
+              "query": "Bergen (NH.) splitsing onttrekking leegstand vakantieverhuur short stay",
+              "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20(NH.)%20splitsing%20onttrekking%20leegstand%20vakantieverhuur%20short%20stay",
+              "status": 200,
+              "resultCount": 0
+            }
+          ]
+        },
+        "municipalWebsite": {
+          "status": "blocked",
+          "reason": "Geen geverifieerd gemeentelijk domein/zoekingang in discovery-index."
+        },
+        "gisOpenData": {
+          "status": "blocked",
+          "reason": "Geen geverifieerd GIS/open-data-startpunt in discovery-index."
+        },
+        "attachmentsForms": {
+          "status": "no-result"
+        },
+        "applicationRoutes": {
+          "status": "no-result"
+        }
+      },
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 153
+    },
+    {
+      "queuePosition": 7,
+      "municipalityCode": "GM0748",
+      "municipalityName": "Bergen op Zoom",
+      "province": "Noord-Brabant",
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "tier": 5,
+      "verificationStatus": "source-incomplete",
+      "candidateCount": 0,
+      "candidatePublicationIds": [],
+      "adapters": {
+        "officialPublication": {
+          "status": "success",
+          "queries": [
+            {
+              "query": "Bergen op Zoom huisvestingsverordening",
+              "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20op%20Zoom%20huisvestingsverordening",
+              "status": 200,
+              "resultCount": 0
+            },
+            {
+              "query": "Bergen op Zoom verhuurvergunning kamerverhuur",
+              "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20op%20Zoom%20verhuurvergunning%20kamerverhuur",
+              "status": 200,
+              "resultCount": 0
+            },
+            {
+              "query": "Bergen op Zoom splitsing onttrekking leegstand vakantieverhuur short stay",
+              "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20op%20Zoom%20splitsing%20onttrekking%20leegstand%20vakantieverhuur%20short%20stay",
+              "status": 200,
+              "resultCount": 0
+            }
+          ]
+        },
+        "municipalWebsite": {
+          "status": "blocked",
+          "reason": "Geen geverifieerd gemeentelijk domein/zoekingang in discovery-index."
+        },
+        "gisOpenData": {
+          "status": "blocked",
+          "reason": "Geen geverifieerd GIS/open-data-startpunt in discovery-index."
+        },
+        "attachmentsForms": {
+          "status": "no-result"
+        },
+        "applicationRoutes": {
+          "status": "no-result"
+        }
+      },
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 108
+    },
+    {
+      "queuePosition": 8,
+      "municipalityCode": "GM1859",
+      "municipalityName": "Berkelland",
+      "province": "Gelderland",
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "tier": 5,
+      "verificationStatus": "source-incomplete",
+      "candidateCount": 0,
+      "candidatePublicationIds": [],
+      "adapters": {
+        "officialPublication": {
+          "status": "success",
+          "queries": [
+            {
+              "query": "Berkelland huisvestingsverordening",
+              "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Berkelland%20huisvestingsverordening",
+              "status": 200,
+              "resultCount": 0
+            },
+            {
+              "query": "Berkelland verhuurvergunning kamerverhuur",
+              "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Berkelland%20verhuurvergunning%20kamerverhuur",
+              "status": 200,
+              "resultCount": 0
+            },
+            {
+              "query": "Berkellanë¯t¶‰Ëkºwµç@ô°(€€€€€€€€‰…ÁÁ±¥…Ñ¥½¹I½ÕÑ•Ìˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰¹¼µÉ•ÍÕ±Ğˆ(€€€€€€€ô(€€€€€ô°(€€€€€€‰ÁÕ‰±¥=ÕÑÁÕÑÉ•…Ñ•ˆè™…±Í”°(€€€€€€‰¹•…Ñ¥Ù•1•…±½¹±ÕÍ¥½¸ˆè™…±Í”°(€€€€€€‰‘ÕÉ…Ñ¥½¹5Ìˆè€äÌ(€€€ô°(€€€ì(€€€€€€‰ÅÕ•Õ•A½Í¥Ñ¥½¸ˆè€Ää°(€€€€€€‰µÕ¹¥¥Á…±¥Ñå½‘”ˆè€‰4ÄØàÄˆ°(€€€€€€‰µÕ¹¥¥Á…±¥Ñå9…µ”ˆè€‰	½É•Èµ=‘½½É¸ˆ°(€€€€€€‰ÁÉ½Ù¥¹”ˆè€‰É•¹Ñ¡”ˆ°(€€€€€€‰‘¥Í½Ù•ÉåMÑ…ÑÕÌˆè€‰‘¥Í½Ù•Éäµ½µÁ±•Ñ”ˆ°(€€€€€€‰É•Í•…É¡MÑ…ÑÕÌˆè€‰¹½ĞµÍÑ…ÉÑ•ˆ°(€€€€€€‰Ñ¥•Èˆè€Ô°(€€€€€€‰Ù•É¥™¥…Ñ¥½¹MÑ…ÑÕÌˆè€‰Í½ÕÉ”µ¥¹½µÁ±•Ñ”ˆ°(€€€€€€‰…¹‘¥‘…Ñ•½Õ¹Ğˆè€À°(€€€€€€‰…¹‘¥‘…Ñ•AÕ‰±¥…Ñ¥½¹%‘Ìˆèmt°(€€€€€€‰…‘…ÁÑ•ÉÌˆèì(€€€€€€€€‰½™™¥¥…±AÕ‰±¥…Ñ¥½¸ˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰ÍÕ•ÍÌˆ°(€€€€€€€€€€‰ÅÕ•É¥•Ìˆèl(€€€€€€€€€€€ì(€€€€€€€€€€€€€€‰ÅÕ•Éäˆè€‰	½É•Èµ=‘½½É¸¡Õ¥ÍÙ•ÍÑ¥¹ÍÙ•É½É‘•¹¥¹œˆ°(€€€€€€€€€€€€€€‰ÕÉ°ˆè€‰¡ÑÑÁÌè¼½±½­…±•É••±•Ù¥¹œ¹½Ù•É¡•¥¹¹°½é½•­•¸ıÅÕ•Éäõ	½É•Èµ=‘½½É¸”ÈÁ¡Õ¥ÍÙ•ÍÑ¥¹ÍÙ•É½É‘•¹¥¹œˆ°(€€€€€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€ÈÀÀ°(€€€€€€€€€€€€€€‰É•ÍÕ±Ñ½Õ¹Ğˆè€À(€€€€€€€€€€€ô°(€€€€€€€€€€€ì(€€€€€€€€€€€€€€‰ÅÕ•Éäˆè€‰	½É•Èµ=‘½½É¸Ù•É¡ÕÕÉÙ•ÉÕ¹¹¥¹œ­…µ•ÉÙ•É¡ÕÕÈˆ°(€€€€€€€€€€€€€€‰ÕÉ°ˆè€‰¡ÑÑÁÌè¼½±½­…±•É••±•Ù¥¹œ¹½Ù•É¡•¥¹¹°½é½•­•¸ıÅÕ•Éäõ	½É•Èµ=‘½½É¸”ÈÁÙ•É¡ÕÕÉÙ•ÉÕ¹¹¥¹œ”ÈÁ­…µ•ÉÙ•É¡ÕÕÈˆ°(€€€€€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€ÈÀÀ°(€€€€€€€€€€€€€€‰É•ÍÕ±Ñ½Õ¹Ğˆè€À(€€€€€€€€€€€ô°(€€€€€€€€€€€ì(€€€€€€€€€€€€€€‰ÅÕ•Éäˆè€‰	½É•Èµ=‘½½É¸ÍÁ±¥ÑÍ¥¹œ½¹ÑÑÉ•­­¥¹œ±••ÍÑ…¹Ù…­…¹Ñ¥•Ù•É¡ÕÕÈÍ¡½ÉĞÍÑ…äˆ°(€€€€€€€€€€€€€€‰ÕÉ°ˆè€‰¡ÑÑÁÌè¼½±½­…±•É••±•Ù¥¹œ¹½Ù•É¡•¥¹¹°½é½•­•¸ıÅÕ•Éäõ	½É•Èµ=‘½½É¸”ÈÁÍÁ±¥ÑÍ¥¹œ”ÈÁ½¹ÑÑÉ•­­¥¹œ”ÈÁ±••ÍÑ…¹”ÈÁÙ…­…¹Ñ¥•Ù•É¡ÕÕÈ”ÈÁÍ¡½ÉĞ”ÈÁÍÑ…äˆ°(€€€€€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€ÈÀÀ°(€€€€€€€€€€€€€€‰É•ÍÕ±Ñ½Õ¹Ğˆè€À(€€€€€€€€€€€ô(€€€€€€€€€t(€€€€€€€ô°(€€€€€€€€‰µÕ¹¥¥Á…±]•‰Í¥Ñ”ˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰‰±½­•ˆ°(€€€€€€€€€€‰É•…Í½¸ˆè€‰••¸•Ù•É¥™¥••É•µ••¹Ñ•±¥©¬‘½µ•¥¸½é½•­¥¹…¹œ¥¸‘¥Í½Ù•Éäµ¥¹‘•à¸ˆ(€€€€€€€ô°(€€€€€€€€‰¥Í=Á•¹…Ñ„ˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰‰±½­•ˆ°(€€€€€€€€€€‰É•…Í½¸ˆè€‰••¸•Ù•É¥™¥••É%L½½Á•¸µ‘…Ñ„µÍÑ…ÉÑÁÕ¹Ğ¥¸‘¥Í½Ù•Éäµ¥¹‘•à¸ˆ(€€€€€€€ô°(€€€€€€€€‰…ÑÑ…¡µ•¹ÑÍ½ÉµÌˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰¹¼µÉ•ÍÕ±Ğˆ(€€€€€€€ô°(€€€€€€€€‰…ÁÁ±¥…Ñ¥½¹I½ÕÑ•Ìˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰¹¼µÉ•ÍÕ±Ğˆ(€€€€€€€ô(€€€€€ô°(€€€€€€‰ÁÕ‰±¥=ÕÑÁÕÑÉ•…Ñ•ˆè™…±Í”°(€€€€€€‰¹•…Ñ¥Ù•1•…±½¹±ÕÍ¥½¸ˆè™…±Í”°(€€€€€€‰‘ÕÉ…Ñ¥½¹5Ìˆè€ÄÈØ(€€€ô°(€€€ì(€€€€€€‰ÅÕ•Õ•A½Í¥Ñ¥½¸ˆè€ÈÀ°(€€€€€€‰µÕ¹¥¥Á…±¥Ñå½‘”ˆè€‰4ÀÄĞÜˆ°(€€€€€€‰µÕ¹¥¥Á…±¥Ñå9…µ”ˆè€‰	½É¹”ˆ°(€€€€€€‰ÁÉ½Ù¥¹”ˆè€‰=Ù•É¥©ÍÍ•°ˆ°(€€€€€€‰‘¥Í½Ù•ÉåMÑ…ÑÕÌˆè€‰‘¥Í½Ù•Éäµ½µÁ±•Ñ”ˆ°(€€€€€€‰É•Í•…É¡MÑ…ÑÕÌˆè€‰¹½ĞµÍÑ…ÉÑ•ˆ°(€€€€€€‰Ñ¥•Èˆè€Ô°(€€€€€€‰Ù•É¥™¥…Ñ¥½¹MÑ…ÑÕÌˆè€‰Í½ÕÉ”µ¥¹½µÁ±•Ñ”ˆ°(€€€€€€‰…¹‘¥‘…Ñ•½Õ¹Ğˆè€À°(€€€€€€‰…¹‘¥‘…Ñ•AÕ‰±¥…Ñ¥½¹%‘Ìˆèmt°(€€€€€€‰…‘…ÁÑ•ÉÌˆèì(€€€€€€€€‰½™™¥¥…±AÕ‰±¥…Ñ¥½¸ˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰ÍÕ•ÍÌˆ°(€€€€€€€€€€‰ÅÕ•É¥•Ìˆèl(€€€€€€€€€€€ì(€€€€€€€€€€€€€€‰ÅÕ•Éäˆè€‰	½É¹”¡Õ¥ÍÙ•ÍÑ¥¹ÍÙ•É½É‘•¹¥¹œˆ°(€€€€€€€€€€€€€€‰ÕÉ°ˆè€‰¡ÑÑÁÌè¼½±½­…±•É••±•Ù¥¹œ¹½Ù•É¡•¥¹¹°½é½•­•¸ıÅÕ•Éäõ	½É¹””ÈÁ¡Õ¥ÍÙ•ÍÑ¥¹ÍÙ•É½É‘•¹¥¹œˆ°(€€€€€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€ÈÀÀ°(€€€€€€€€€€€€€€‰É•ÍÕ±Ñ½Õ¹Ğˆè€À(€€€€€€€€€€€ô°(€€€€€€€€€€€ì(€€€€€€€€€€€€€€‰ÅÕ•Éäˆè€‰	½É¹”Ù•É¡ÕÕÉÙ•ÉÕ¹¹¥¹œ­…µ•ÉÙ•É¡ÕÕÈˆ°(€€€€€€€€€€€€€€‰ÕÉ°ˆè€‰¡ÑÑÁÌè¼½±½­…±•É••±•Ù¥¹œ¹½Ù•É¡•¥¹¹°½é½•­•¸ıÅÕ•Éäõ	½É¹””ÈÁÙ•É¡ÕÕÉÙ•ÉÕ¹¹¥¹œ”ÈÁ­…µ•ÉÙ•É¡ÕÕÈˆ°(€€€€€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€ÈÀÀ°(€€€€€€€€€€€€€€‰É•ÍÕ±Ñ½Õ¹Ğˆè€À(€€€€€€€€€€€ô°(€€€€€€€€€€€ì(€€€€€€€€€€€€€€‰ÅÕ•Éäˆè€‰	½É¹”ÍÁ±¥ÑÍ¥¹œ½¹ÑÑÉ•­­¥¹œ±••ÍÑ…¹Ù…­…¹Ñ¥•Ù•É¡ÕÕÈÍ¡½ÉĞÍÑ…äˆ°(€€€€€€€€€€€€€€‰ÕÉ°ˆè€‰¡ÑÑÁÌè¼½±½­…±•É••±•Ù¥¹œ¹½Ù•É¡•¥¹¹°½é½•­•¸ıÅÕ•Éäõ	½É¹””ÈÁÍÁ±¥ÑÍ¥¹œ”ÈÁ½¹ÑÑÉ•­­¥¹œ”ÈÁ±••ÍÑ…¹”ÈÁÙ…­…¹Ñ¥•Ù•É¡ÕÕÈ”ÈÁÍ¡½ÉĞ”ÈÁÍÑ…äˆ°(€€€€€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€ÈÀÀ°(€€€€€€€€€€€€€€‰É•ÍÕ±Ñ½Õ¹Ğˆè€À(€€€€€€€€€€€ô(€€€€€€€€€t(€€€€€€€ô°(€€€€€€€€‰µÕ¹¥¥Á…±]•‰Í¥Ñ”ˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰‰±½­•ˆ°(€€€€€€€€€€‰É•…Í½¸ˆè€‰••¸•Ù•É¥™¥••É•µ••¹Ñ•±¥©¬‘½µ•¥¸½é½•­¥¹…¹œ¥¸‘¥Í½Ù•Éäµ¥¹‘•à¸ˆ(€€€€€€€ô°(€€€€€€€€‰¥Í=Á•¹…Ñ„ˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰‰±½­•ˆ°(€€€€€€€€€€‰É•…Í½¸ˆè€‰••¸•Ù•É¥™¥••É%L½½Á•¸µ‘…Ñ„µÍÑ…ÉÑÁÕ¹Ğ¥¸‘¥Í½Ù•Éäµ¥¹‘•à¸ˆ(€€€€€€€ô°(€€€€€€€€‰…ÑÑ…¡µ•¹ÑÍ½ÉµÌˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰¹¼µÉ•ÍÕ±Ğˆ(€€€€€€€ô°(€€€€€€€€‰…ÁÁ±¥…Ñ¥½¹I½ÕÑ•Ìˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰¹¼µÉ•ÍÕ±Ğˆ(€€€€€€€ô(€€€€€ô°(€€€€€€‰ÁÕ‰±¥=ÕÑÁÕÑÉ•…Ñ•ˆè™…±Í”°(€€€€€€‰¹•…Ñ¥Ù•1•…±½¹±ÕÍ¥½¸ˆè™…±Í”°(€€€€€€‰‘ÕÉ…Ñ¥½¹5Ìˆè€äà(€€€ô°(€€€ì(€€€€€€‰ÅÕ•Õ•A½Í¥Ñ¥½¸ˆè€ÈÄ°(€€€€€€‰µÕ¹¥¥Á…±¥Ñå½‘”ˆè€‰4ÀØÔĞˆ°(€€€€€€‰µÕ¹¥¥Á…±¥Ñå9…µ”ˆè€‰	½ÉÍ•±”ˆ°(€€€€€€‰ÁÉ½Ù¥¹”ˆè€‰i••±…¹ˆ°(€€€€€€‰‘¥Í½Ù•ÉåMÑ…ÑÕÌˆè€‰‘¥Í½Ù•Éäµ½µÁ±•Ñ”ˆ°(€€€€€€‰É•Í•…É¡MÑ…ÑÕÌˆè€‰¹½ĞµÍÑ…ÉÑ•ˆ°(€€€€€€‰Ñ¥•Èˆè€Ô°(€€€€€€‰Ù•É¥™¥…Ñ¥½¹MÑ…ÑÕÌˆè€‰Í½ÕÉ”µ¥¹½µÁ±•Ñ”ˆ°(€€€€€€‰…¹‘¥‘…Ñ•½Õ¹Ğˆè€À°(€€€€€€‰…¹‘¥‘…Ñ•AÕ‰±¥…Ñ¥½¹%‘Ìˆèmt°(€€€€€€‰…‘…ÁÑ•ÉÌˆèì(€€€€€€€€‰½™™¥¥…±AÕ‰±¥…Ñ¥½¸ˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰ÍÕ•ÍÌˆ°(€€€€€€€€€€‰ÅÕ•É¥•Ìˆèl(€€€€€€€€€€€ì(€€€€€€€€€€€€€€‰ÅÕ•Éäˆè€‰	½ÉÍ•±”¡Õ¥ÍÙ•ÍÑ¥¹ÍÙ•É½É‘•¹¥¹œˆ°(€€€€€€€€€€€€€€‰ÕÉ°ˆè€‰¡ÑÑÁÌè¼½±½­…±•É••±•Ù¥¹œ¹½Ù•É¡•¥¹¹°½é½•­•¸ıÅÕ•Éäõ	½ÉÍ•±””ÈÁ¡Õ¥ÍÙ•ÍÑ¥¹ÍÙ•É½É‘•¹¥¹œˆ°(€€€€€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€ÈÀÀ°(€€€€€€€€€€€€€€‰É•ÍÕ±Ñ½Õ¹Ğˆè€À(€€€€€€€€€€€ô°(€€€€€€€€€€€ì(€€€€€€€€€€€€€€‰ÅÕ•Éäˆè€‰	½ÉÍ•±”Ù•É¡ÕÕÉÙ•ÉÕ¹¹¥¹œ­…µ•ÉÙ•É¡ÕÕÈˆ°(€€€€€€€€€€€€€€‰ÕÉ°ˆè€‰¡ÑÑÁÌè¼½±½­…±•É••±•Ù¥¹œ¹½Ù•É¡•¥¹¹°½é½•­•¸ıÅÕ•Éäõ	½ÉÍ•±””ÈÁÙ•É¡ÕÕÉÙ•ÉÕ¹¹¥¹œ”ÈÁ­…µ•ÉÙ•É¡ÕÕÈˆ°(€€€€€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€ÈÀÀ°(€€€€€€€€€€€€€€‰É•ÍÕ±Ñ½Õ¹Ğˆè€À(€€€€€€€€€€€ô°(€€€€€€€€€€€ì(€€€€€€€€€€€€€€‰ÅÕ•Éäˆè€‰	½ÉÍ•±”ÍÁ±¥ÑÍ¥¹œ½¹ÑÑÉ•­­¥¹œ±••ÍÑ…¹Ù…­…¹Ñ¥•Ù•É¡ÕÕÈÍ¡½ÉĞÍÑ…äˆ°(€€€€€€€€€€€€€€‰ÕÉ°ˆè€‰¡ÑÑÁÌè¼½±½­…±•É••±•Ù¥¹œ¹½Ù•É¡•¥¹¹°½é½•­•¸ıÅÕ•Éäõ	½ÉÍ•±””ÈÁÍÁ±¥ÑÍ¥¹œ”ÈÁ½¹ÑÑÉ•­­¥¹œ”ÈÁ±••ÍÑ…¹”ÈÁÙ…­…¹Ñ¥•Ù•É¡ÕÕÈ”ÈÁÍ¡½ÉĞ”ÈÁÍÑ…äˆ°(€€€€€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€ÈÀÀ°(€€€€€€€€€€€€€€‰É•ÍÕ±Ñ½Õ¹Ğˆè€À(€€€€€€€€€€€ô(€€€€€€€€€t(€€€€€€€ô°(€€€€€€€€‰µÕ¹¥¥Á…±]•‰Í¥Ñ”ˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰‰±½­•ˆ°(€€€€€€€€€€‰É•…Í½¸ˆè€‰••¸•Ù•É¥™¥••É•µ••¹Ñ•±¥©¬‘½µ•¥¸½é½•­¥¹…¹œ¥¸‘¥Í½Ù•Éäµ¥¹‘•à¸ˆ(€€€€€€€ô°(€€€€€€€€‰¥Í=Á•¹…Ñ„ˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰‰±½­•ˆ°(€€€€€€€€€€‰É•…Í½¸ˆè€‰••¸•Ù•É¥™¥••É%L½½Á•¸µ‘…Ñ„µÍÑ…ÉÑÁÕ¹Ğ¥¸‘¥Í½Ù•Éäµ¥¹‘•à¸ˆ(€€€€€€€ô°(€€€€€€€€‰…ÑÑ…¡µ•¹ÑÍ½ÉµÌˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰¹¼µÉ•ÍÕ±Ğˆ(€€€€€€€ô°(€€€€€€€€‰…ÁÁ±¥…Ñ¥½¹I½ÕÑ•Ìˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰¹¼µÉ•ÍÕ±Ğˆ(€€€€€€€ô(€€€€€ô°(€€€€€€‰ÁÕ‰±¥=ÕÑÁÕÑÉ•…Ñ•ˆè™…±Í”°(€€€€€€‰¹•…Ñ¥Ù•1•…±½¹±ÕÍ¥½¸ˆè™…±Í”°(€€€€€€‰‘ÕÉ…Ñ¥½¹5Ìˆè€ÄÀĞ(€€€ô°(€€€ì(€€€€€€‰ÅÕ•Õ•A½Í¥Ñ¥½¸ˆè€ÈÈ°(€€€€€€‰µÕ¹¥¥Á…±¥Ñå½‘”ˆè€‰4ÀÜÔÜˆ°(€€€€€€‰µÕ¹¥¥Á…±¥Ñå9…µ”ˆè€‰	½áÑ•°ˆ°(€€€€€€‰ÁÉ½Ù¥¹”ˆè€‰9½½Éµ	É…‰…¹Ğˆ°(€€€€€€‰‘¥Í½Ù•ÉåMÑ…ÑÕÌˆè€‰‘¥Í½Ù•Éäµ½µÁ±•Ñ”ˆ°(€€€€€€‰É•Í•…É¡MÑ…ÑÕÌˆè€‰¹½ĞµÍÑ…ÉÑ•ˆ°(€€€€€€‰Ñ¥•Èˆè€Ô°(€€€€€€‰Ù•É¥™¥…Ñ¥½¹MÑ…ÑÕÌˆè€‰Í½ÕÉ”µ¥¹½µÁ±•Ñ”ˆ°(€€€€€€‰…¹‘¥‘…Ñ•½Õ¹Ğˆè€À°(€€€€€€‰…¹‘¥‘…Ñ•AÕ‰±¥…Ñ¥½¹%‘Ìˆèmt°(€€€€€€‰…‘…ÁÑ•ÉÌˆèì(€€€€€€€€‰½™™¥¥…±AÕ‰±¥…Ñ¥½¸ˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰ÍÕ•ÍÌˆ°(€€€€€€€€€€‰ÅÕ•É¥•Ìˆèl(€€€€€€€€€€€ì(€€€€€€€€€€€€€€‰ÅÕ•Éäˆè€‰	½áÑ•°¡Õ¥ÍÙ•ÍÑ¥¹ÍÙ•É½É‘•¹¥¹œˆ°(€€€€€€€€€€€€€€‰ÕÉ°ˆè€‰¡ÑÑÁÌè¼½±½­…±•É••±•Ù¥¹œ¹½Ù•É¡•¥¹¹°½é½•­•¸ıÅÕ•Éäõ	½áÑ•°”ÈÁ¡Õ¥ÍÙ•ÍÑ¥¹ÍÙ•É½É‘•¹¥¹œˆ°(€€€€€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€ÈÀÀ°(€€€€€€€€€€€€€€‰É•ÍÕ±Ñ½Õ¹Ğˆè€À(€€€€€€€€€€€ô°(€€€€€€€€€€€ì(€€€€€€€€€€€€€€‰ÅÕ•Éäˆè€‰	½áÑ•°Ù•É¡ÕÕÉÙ•ÉÕ¹¹¥¹œ­…µ•ÉÙ•É¡ÕÕÈˆ°(€€€€€€€€€€€€€€‰ÕÉ°ˆè€‰¡ÑÑÁÌè¼½±½­…±•É••±•Ù¥¹œ¹½Ù•É¡•¥¹¹°½é½•­•¸ıÅÕ•Éäõ	½áÑ•°”ÈÁÙ•É¡ÕÕÉÙ•ÉÕ¹¹¥¹œ”ÈÁ­…µ•ÉÙ•É¡ÕÕÈˆ°(€€€€€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€ÈÀÀ°(€€€€€€€€€€€€€€‰É•ÍÕ±Ñ½Õ¹Ğˆè€À(€€€€€€€€€€€ô°(€€€€€€€€€€€ì(€€€€€€€€€€€€€€‰ÅÕ•Éäˆè€‰	½áÑ•°ÍÁ±¥ÑÍ¥¹œ½¹ÑÑÉ•­­¥¹œ±••ÍÑ…¹Ù…­…¹Ñ¥•Ù•É¡ÕÕÈÍ¡½ÉĞÍÑ…äˆ°(€€€€€€€€€€€€€€‰ÕÉ°ˆè€‰¡ÑÑÁÌè¼½±½­…±•É••±•Ù¥¹œ¹½Ù•É¡•¥¹¹°½é½•­•¸ıÅÕ•Éäõ	½áÑ•°”ÈÁÍÁ±¥ÑÍ¥¹œ”ÈÁ½¹ÑÑÉ•­­¥¹œ”ÈÁ±••ÍÑ…¹”ÈÁÙ…­…¹Ñ¥•Ù•É¡ÕÕÈ”ÈÁÍ¡½ÉĞ”ÈÁÍÑ…äˆ°(€€€€€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€ÈÀÀ°(€€€€€€€€€€€€€€‰É•ÍÕ±Ñ½Õ¹Ğˆè€À(€€€€€€€€€€€ô(€€€€€€€€€t(€€€€€€€ô°(€€€€€€€€‰µÕ¹¥¥Á…±]•‰Í¥Ñ”ˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰‰±½­•ˆ°(€€€€€€€€€€‰É•…Í½¸ˆè€‰••¸•Ù•É¥™¥••É•µ••¹Ñ•±¥©¬‘½µ•¥¸½é½•­¥¹…¹œ¥¸‘¥Í½Ù•Éäµ¥¹‘•à¸ˆ(€€€€€€€ô°(€€€€€€€€‰¥Í=Á•¹…Ñ„ˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰‰±½­•ˆ°(€€€€€€€€€€‰É•…Í½¸ˆè€‰••¸•Ù•É¥™¥••É%L½½Á•¸µ‘…Ñ„µÍÑ…ÉÑÁÕ¹Ğ¥¸‘¥Í½Ù•Éäµ¥¹‘•à¸ˆ(€€€€€€€ô°(€€€€€€€€‰…ÑÑ…¡µ•¹ÑÍ½ÉµÌˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰¹¼µÉ•ÍÕ±Ğˆ(€€€€€€€ô°(€€€€€€€€‰…ÁÁ±¥…Ñ¥½¹I½ÕÑ•Ìˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰¹¼µÉ•ÍÕ±Ğˆ(€€€€€€€ô(€€€€€ô°(€€€€€€‰ÁÕ‰±¥=ÕÑÁÕÑÉ•…Ñ•ˆè™…±Í”°(€€€€€€‰¹•…Ñ¥Ù•1•…±½¹±ÕÍ¥½¸ˆè™…±Í”°(€€€€€€‰‘ÕÉ…Ñ¥½¹5Ìˆè€àÌ(€€€ô°(€€€ì(€€€€€€‰ÅÕ•Õ•A½Í¥Ñ¥½¸ˆè€ÈÌ°(€€€€€€‰µÕ¹¥¥Á…±¥Ñå½‘”ˆè€‰4ÀÜÔàˆ°(€€€€€€‰µÕ¹¥¥Á…±¥Ñå9…µ”ˆè€‰	É•‘„ˆ°(€€€€€€‰ÁÉ½Ù¥¹”ˆè€‰9½½Éµ	É…‰…¹Ğˆ°(€€€€€€‰‘¥Í½Ù•ÉåMÑ…ÑÕÌˆè€‰‘¥Í½Ù•Éäµ½µÁ±•Ñ”ˆ°(€€€€€€‰É•Í•…É¡MÑ…ÑÕÌˆè€‰¹½ĞµÍÑ…ÉÑ•ˆ°(€€€€€€‰Ñ¥•Èˆè€Ô°(€€€€€€‰Ù•É¥™¥…Ñ¥½¹MÑ…ÑÕÌˆè€‰Í½ÕÉ”µ¥¹½µÁ±•Ñ”ˆ°(€€€€€€‰…¹‘¥‘…Ñ•½Õ¹Ğˆè€À°(€€€€€€‰…¹‘¥‘…Ñ•AÕ‰±¥…Ñ¥½¹%‘Ìˆèmt°(€€€€€€‰…‘…ÁÑ•ÉÌˆèì(€€€€€€€€‰½™™¥¥…±AÕ‰±¥…Ñ¥½¸ˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰ÍÕ•ÍÌˆ°(€€€€€€€€€€‰ÅÕ•É¥•Ìˆèl(€€€€€€€€€€€ì(€€€€€€€€€€€€€€‰ÅÕ•Éäˆè€‰	É•‘„¡Õ¥ÍÙ•ÍÑ¥¹ÍÙ•É½É‘•¹¥¹œˆ°(€€€€€€€€€€€€€€‰ÕÉ°ˆè€‰¡ÑÑÁÌè¼½±½­…±•É••±•Ù¥¹œ¹½Ù•É¡•¥¹¹°½é½•­•¸ıÅÕ•Éäõ	É•‘„”ÈÁ¡Õ¥ÍÙ•ÍÑ¥¹ÍÙ•É½É‘•¹¥¹œˆ°(€€€€€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€ÈÀÀ°(€€€€€€€€€€€€€€‰É•ÍÕ±Ñ½Õ¹Ğˆè€À(€€€€€€€€€€€ô°(€€€€€€€€€€€ì(€€€€€€€€€€€€€€‰ÅÕ•Éäˆè€‰	É•‘„Ù•É¡ÕÕÉÙ•ÉÕ¹¹¥¹œ­…µ•ÉÙ•É¡ÕÕÈˆ°(€€€€€€€€€€€€€€‰ÕÉ°ˆè€‰¡ÑÑÁÌè¼½±½­…±•É••±•Ù¥¹œ¹½Ù•É¡•¥¹¹°½é½•­•¸ıÅÕ•Éäõ	É•‘„”ÈÁÙ•É¡ÕÕÉÙ•ÉÕ¹¹¥¹œ”ÈÁ­…µ•ÉÙ•É¡ÕÕÈˆ°(€€€€€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€ÈÀÀ°(€€€€€€€€€€€€€€‰É•ÍÕ±Ñ½Õ¹Ğˆè€À(€€€€€€€€€€€ô°(€€€€€€€€€€€ì(€€€€€€€€€€€€€€‰ÅÕ•Éäˆè€‰	É•‘„ÍÁ±¥ÑÍ¥¹œ½¹ÑÑÉ•­­¥¹œ±••ÍÑ…¹Ù…­…¹Ñ¥•Ù•É¡ÕÕÈÍ¡½ÉĞÍÑ…äˆ°(€€€€€€€€€€€€€€‰ÕÉ°ˆè€‰¡ÑÑÁÌè¼½±½­…±•É••±•Ù¥¹œ¹½Ù•É¡•¥¹¹°½é½•­•¸ıÅÕ•Éäõ	É•‘„”ÈÁÍÁ±¥ÑÍ¥¹œ”ÈÁ½¹ÑÑÉ•­­¥¹œ”ÈÁ±••ÍÑ…¹”ÈÁÙ…­…¹Ñ¥•Ù•É¡ÕÕÈ”ÈÁÍ¡½ÉĞ”ÈÁÍÑ…äˆ°(€€€€€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€ÈÀÀ°(€€€€€€€€€€€€€€‰É•ÍÕ±Ñ½Õ¹Ğˆè€À(€€€€€€€€€€€ô(€€€€€€€€€t(€€€€€€€ô°(€€€€€€€€‰µÕ¹¥¥Á…±]•‰Í¥Ñ”ˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰‰±½­•ˆ°(€€€€€€€€€€‰É•…Í½¸ˆè€‰••¸•Ù•É¥™¥••É•µ••¹Ñ•±¥©¬‘½µ•¥¸½é½•­¥¹…¹œ¥¸‘¥Í½Ù•Éäµ¥¹‘•à¸ˆ(€€€€€€€ô°(€€€€€€€€‰¥Í=Á•¹…Ñ„ˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰‰±½­•ˆ°(€€€€€€€€€€‰É•…Í½¸ˆè€‰••¸•Ù•É¥™¥••É%L½½Á•¸µ‘…Ñ„µÍÑ…ÉÑÁÕ¹Ğ¥¸‘¥Í½Ù•Éäµ¥¹‘•à¸ˆ(€€€€€€€ô°(€€€€€€€€‰…ÑÑ…¡µ•¹ÑÍ½ÉµÌˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰¹¼µÉ•ÍÕ±Ğˆ(€€€€€€€ô°(€€€€€€€€‰…ÁÁ±¥…Ñ¥½¹I½ÕÑ•Ìˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰¹¼µÉ•ÍÕ±Ğˆ(€€€€€€€ô(€€€€€ô°(€€€€€€‰ÁÕ‰±¥=ÕÑÁÕÑÉ•…Ñ•ˆè™…±Í”°(€€€€€€‰¹•…Ñ¥Ù•1•…±½¹±ÕÍ¥½¸ˆè™…±Í”°(€€€€€€‰‘ÕÉ…Ñ¥½¹5Ìˆè€ÄÀÔ(€€€ô°(€€€ì(€€€€€€‰ÅÕ•Õ•A½Í¥Ñ¥½¸ˆè€ÈĞ°(€€€€€€‰µÕ¹¥¥Á…±¥Ñå½‘”ˆè€‰4ÄàÜØˆ°(€€€€€€‰µÕ¹¥¥Á…±¥Ñå9…µ”ˆè€‰	É½¹­¡½ÉÍĞˆ°(€€€€€€‰ÁÉ½Ù¥¹”ˆè€‰•±‘•É±…¹ˆ°(€€€€€€‰‘¥Í½Ù•ÉåMÑ…ÑÕÌˆè€‰‘¥Í½Ù•Éäµ½µÁ±•Ñ”ˆ°(€€€€€€‰É•Í•…É¡MÑ…ÑÕÌˆè€‰¹½ĞµÍÑ…ÉÑ•ˆ°(€€€€€€‰Ñ¥•Èˆè€Ô°(€€€€€€‰Ù•É¥™¥…Ñ¥½¹MÑ…ÑÕÌˆè€‰Í½ÕÉ”µ¥¹½µÁ±•Ñ”ˆ°(€€€€€€‰…¹‘¥‘…Ñ•½Õ¹Ğˆè€À°(€€€€€€‰…¹‘¥‘…Ñ•AÕ‰±¥…Ñ¥½¹%‘Ìˆèmt°(€€€€€€‰…‘…ÁÑ•ÉÌˆèì(€€€€€€€€‰½™™¥¥…±AÕ‰±¥…Ñ¥½¸ˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰ÍÕ•ÍÌˆ°(€€€€€€€€€€‰ÅÕ•É¥•Ìˆèl(€€€€€€€€€€€ì(€€€€€€€€€€€€€€‰ÅÕ•Éäˆè€‰	É½¹­¡½ÉÍĞ¡Õ¥ÍÙ•ÍÑ¥¹ÍÙ•É½É‘•¹¥¹œˆ°(€€€€€€€€€€€€€€‰ÕÉ°ˆè€‰¡ÑÑÁÌè¼½±½­…±•É••±•Ù¥¹œ¹½Ù•É¡•¥¹¹°½é½•­•¸ıÅÕ•Éäõ	É½¹­¡½ÉÍĞ”ÈÁ¡Õ¥ÍÙ•ÍÑ¥¹ÍÙ•É½É‘•¹¥¹œˆ°(€€€€€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€ÈÀÀ°(€€€€€€€€€€€€€€‰É•ÍÕ±Ñ½Õ¹Ğˆè€À(€€€€€€€€€€€ô°(€€€€€€€€€€€ì(€€€€€€€€€€€€€€‰ÅÕ•Éäˆè€‰	É½¹­¡½ÉÍĞÙ•É¡ÕÕÉÙ•ÉÕ¹¹¥¹œ­…µ•ÉÙ•É¡ÕÕÈˆ°(€€€€€€€€€€€€€€‰ÕÉ°ˆè€‰¡ÑÑÁÌè¼½±½­…±•É••±•Ù¥¹œ¹½Ù•É¡•¥¹¹°½é½•­•¸ıÅÕ•Éäõ	É½¹­¡½ÉÍĞ”ÈÁÙ•É¡ÕÕÉÙ•ÉÕ¹¹¥¹œ”ÈÁ­…µ•ÉÙ•É¡ÕÕÈˆ°(€€€€€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€ÈÀÀ°(€€€€€€€€€€€€€€‰É•ÍÕ±Ñ½Õ¹Ğˆè€À(€€€€€€€€€€€ô°(€€€€€€€€€€€ì(€€€€€€€€€€€€€€‰ÅÕ•Éäˆè€‰	É½¹­¡½ÉÍĞÍÁ±¥ÑÍ¥¹œ½¹ÑÑÉ•­­¥¹œ±••ÍÑ…¹Ù…­…¹Ñ¥•Ù•É¡ÕÕÈÍ¡½ÉĞÍÑ…äˆ°(€€€€€€€€€€€€€€‰ÕÉ°ˆè€‰¡ÑÑÁÌè¼½±½­…±•É••±•Ù¥¹œ¹½Ù•É¡•¥¹¹°½é½•­•¸ıÅÕ•Éäõ	É½¹­¡½ÉÍĞ”ÈÁÍÁ±¥ÑÍ¥¹œ”ÈÁ½¹ÑÑÉ•­­¥¹œ”ÈÁ±••ÍÑ…¹”ÈÁÙ…­…¹Ñ¥•Ù•É¡ÕÕÈ”ÈÁÍ¡½ÉĞ”ÈÁÍÑ…äˆ°(€€€€€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€ÈÀÀ°(€€€€€€€€€€€€€€‰É•ÍÕ±Ñ½Õ¹Ğˆè€À(€€€€€€€€€€€ô(€€€€€€€€€t(€€€€€€€ô°(€€€€€€€€‰µÕ¹¥¥Á…±]•‰Í¥Ñ”ˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰‰±½­•ˆ°(€€€€€€€€€€‰É•…Í½¸ˆè€‰••¸•Ù•É¥™¥••É•µ••¹Ñ•±¥©¬‘½µ•¥¸½é½•­¥¹…¹œ¥¸‘¥Í½Ù•Éäµ¥¹‘•à¸ˆ(€€€€€€€ô°(€€€€€€€€‰¥Í=Á•¹…Ñ„ˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰‰±½­•ˆ°(€€€€€€€€€€‰É•…Í½¸ˆè€‰••¸•Ù•É¥™¥••É%L½½Á•¸µ‘…Ñ„µÍÑ…ÉÑÁÕ¹Ğ¥¸‘¥Í½Ù•Éäµ¥¹‘•à¸ˆ(€€€€€€€ô°(€€€€€€€€‰…ÑÑ…¡µ•¹ÑÍ½ÉµÌˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰¹¼µÉ•ÍÕ±Ğˆ(€€€€€€€ô°(€€€€€€€€‰…ÁÁ±¥…Ñ¥½¹I½ÕÑ•Ìˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰¹¼µÉ•ÍÕ±Ğˆ(€€€€€€€ô(€€€€€ô°(€€€€€€‰ÁÕ‰±¥=ÕÑÁÕÑÉ•…Ñ•ˆè™…±Í”°(€€€€€€‰¹•…Ñ¥Ù•1•…±½¹±ÕÍ¥½¸ˆè™…±Í”°(€€€€€€‰‘ÕÉ…Ñ¥½¹5Ìˆè€àÌ(€€€ô°(€€€ì(€€€€€€‰ÅÕ•Õ•A½Í¥Ñ¥½¸ˆè€ÈÔ°(€€€€€€‰µÕ¹¥¥Á…±¥Ñå½‘”ˆè€‰4ÀÈÄÌˆ°(€€€€€€‰µÕ¹¥¥Á…±¥Ñå9…µ”ˆè€‰	ÉÕµµ•¸ˆ°(€€€€€€‰ÁÉ½Ù¥¹”ˆè€‰•±‘•É±…¹ˆ°(€€€€€€‰‘¥Í½Ù•ÉåMÑ…ÑÕÌˆè€‰‘¥Í½Ù•Éäµ½µÁ±•Ñ”ˆ°(€€€€€€‰É•Í•…É¡MÑ…ÑÕÌˆè€‰¹½ĞµÍÑ…ÉÑ•ˆ°(€€€€€€‰Ñ¥•Èˆè€Ô°(€€€€€€‰Ù•É¥™¥…Ñ¥½¹MÑ…ÑÕÌˆè€‰Í½ÕÉ”µ¥¹½µÁ±•Ñ”ˆ°(€€€€€€‰…¹‘¥‘…Ñ•½Õ¹Ğˆè€À°(€€€€€€‰…¹‘¥‘…Ñ•AÕ‰±¥…Ñ¥½¹%‘Ìˆèmt°(€€€€€€‰…‘…ÁÑ•ÉÌˆèì(€€€€€€€€‰½™™¥¥…±AÕ‰±¥…Ñ¥½¸ˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰ÍÕ•ÍÌˆ°(€€€€€€€€€€‰ÅÕ•É¥•Ìˆèl(€€€€€€€€€€€ì(€€€€€€€€€€€€€€‰ÅÕ•Éäˆè€‰	ÉÕµµ•¸¡Õ¥ÍÙ•ÍÑ¥¹ÍÙ•É½É‘•¹¥¹œˆ°(€€€€€€€€€€€€€€‰ÕÉ°ˆè€‰¡ÑÑÁÌè¼½±½­…±•É••±•Ù¥¹œ¹½Ù•É¡•¥¹¹°½é½•­•¸ıÅÕ•Éäõ	ÉÕµµ•¸”ÈÁ¡Õ¥ÍÙ•ÍÑ¥¹ÍÙ•É½É‘•¹¥¹œˆ°(€€€€€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€ÈÀÀ°(€€€€€€€€€€€€€€‰É•ÍÕ±Ñ½Õ¹Ğˆè€À(€€€€€€€€€€€ô°(€€€€€€€€€€€ì(€€€€€€€€€€€€€€‰ÅÕ•Éäˆè€‰	ÉÕµµ•¸Ù•É¡ÕÕÉÙ•ÉÕ¹¹¥¹œ­…µ•ÉÙ•É¡ÕÕÈˆ°(€€€€€€€€€€€€€€‰ÕÉ°ˆè€‰¡ÑÑÁÌè¼½±½­…±•É••±•Ù¥¹œ¹½Ù•É¡•¥¹¹°½é½•­•¸ıÅÕ•Éäõ	ÉÕµµ•¸”ÈÁÙ•É¡ÕÕÉÙ•ÉÕ¹¹¥¹œ”ÈÁ­…µ•ÉÙ•É¡ÕÕÈˆ°(€€€€€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€ÈÀÀ°(€€€€€€€€€€€€€€‰É•ÍÕ±Ñ½Õ¹Ğˆè€À(€€€€€€€€€€€ô°(€€€€€€€€€€€ì(€€€€€€€€€€€€€€‰ÅÕ•Éäˆè€‰	ÉÕµµ•¸ÍÁ±¥ÑÍ¥¹œ½¹ÑÑÉ•­­¥¹œ±••ÍÑ…¹Ù…­…¹Ñ¥•Ù•É¡ÕÕÈÍ¡½ÉĞÍÑ…äˆ°(€€€€€€€€€€€€€€‰ÕÉ°ˆè€‰¡ÑÑÁÌè¼½±½­…±•É••±•Ù¥¹œ¹½Ù•É¡•¥¹¹°½é½•­•¸ıÅÕ•Éäõ	ÉÕµµ•¸”ÈÁÍÁ±¥ÑÍ¥¹œ”ÈÁ½¹ÑÑÉ•­­¥¹œ”ÈÁ±••ÍÑ…¹”ÈÁÙ…­…¹Ñ¥•Ù•É¡ÕÕÈ”ÈÁÍ¡½ÉĞ”ÈÁÍÑ…äˆ°(€€€€€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€ÈÀÀ°(€€€€€€€€€€€€€€‰É•ÍÕ±Ñ½Õ¹Ğˆè€À(€€€€€€€€€€€ô(€€€€€€€€€t(€€€€€€€ô°(€€€€€€€€‰µÕ¹¥¥Á…±]•‰Í¥Ñ”ˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰‰±½­•ˆ°(€€€€€€€€€€‰É•…Í½¸ˆè€‰••¸•Ù•É¥™¥••É•µ••¹Ñ•±¥©¬‘½µ•¥¸½é½•­¥¹…¹œ¥¸‘¥Í½Ù•Éäµ¥¹‘•à¸ˆ(€€€€€€€ô°(€€€€€€€€‰¥Í=Á•¹…Ñ„ˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰‰±½­•ˆ°(€€€€€€€€€€‰É•…Í½¸ˆè€‰••¸•Ù•É¥™¥••É%L½½Á•¸µ‘…Ñ„µÍÑ…ÉÑÁÕ¹Ğ¥¸‘¥Í½Ù•Éäµ¥¹‘•à¸ˆ(€€€€€€€ô°(€€€€€€€€‰…ÑÑ…¡µ•¹ÑÍ½ÉµÌˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰¹¼µÉ•ÍÕ±Ğˆ(€€€€€€€ô°(€€€€€€€€‰…ÁÁ±¥…Ñ¥½¹I½ÕÑ•Ìˆèì(€€€€€€€€€€‰ÍÑ…ÑÕÌˆè€‰¹¼µÉ•ÍÕ±Ğˆ(€€€€€€€ô(€€€€€ô°(€€€€€€‰ÁÕ‰±¥=ÕÑÁÕÑÉ•…Ñ•ˆè™…±Í”°(€€€€€€‰¹•…Ñ¥Ù•1•…±½¹±ÕÍ¥½¸ˆè™…±Í”°(€€€€€€‰‘ÕÉ…Ñ¥½¹5Ìˆè€àÔ(€€€ô(€t°(€€‰™¥¹‘¥¹Ìˆèmt°(€€‰Ù•É¥™¥•‘¥¹‘¥¹Ìˆèmt°(€€‰‘••ÁY•É¥™¥…Ñ¥½¹EÕ•Õ”ˆèmt°(€€‰ÁÕ‰±¥IÕ±•ÍÉ•…Ñ•ˆè€À°(€€‰ÍåÍÑ•µ¥	±½­•ÉÌˆèl(€€€ì(€€€€€€‰±…ÍÍ¥™¥…Ñ¥½¸ˆè€‰ÍåÍÑ•µ¥Œ‰±½­•Èˆ°(€€€€€€‰¥ÍÍÕ”ˆè€‰5Õ¹¥¥Á…°İ•‰Í¥Ñ”…¹%L‘¥Í½Ù•Éä…¹¹½Ğ‰½½ÑÍÑÉ…ÀÕ¹Í••¸µÕ¹¥¥Á…±¥Ñ¥•Ì‰•…ÕÍ”Ñ¡”‘¥Í½Ù•Éä¥¹‘•à½¹±ä½¹Ñ…¥¹ÌÁÉ•Ù¥½ÕÍ±äÉ•Í•…É¡•UI1Ì¸ˆ°(€€€€€€‰É•½µµ•¹‘•‘Ñ¥½¸ˆè€‰A…ÕÍ”…•±•É…Ñ•‰…Ñ¡•Ì…¹…‘Ù•É¥™¥•½™™¥¥…°µ‘½µ…¥¸…¹%Lµ…Ñ…±½Õ”‘¥Í½Ù•Éä¸ˆ(€€€ô(€t°(€€‰µÕ¹¥¥Á…±¥ÑåMÁ•¥™¥	±½­•ÉÌˆèmt°(€€‰½İ¹•ÉÑ¥½¹ÍI•ÅÕ¥É•ˆè™…±Í”°(€€‰Á•É™½Éµ…¹”ˆèì(€€€€‰½±‘…¡•ÕÉ…Ñ¥½¹5Ìˆè€ääÈ°(€€€€‰İ…Éµ…¡•ÕÉ…Ñ¥½¹5Ìˆè¹Õ±°°(€€€€‰Ñ½Ñ…±9•Ñİ½É­I•ÅÕ•ÍÑÌˆè€ÜÔ°(€€€€‰…¡•!¥ÑÌˆè€À°(€€€€‰É•ÑÉ¥•Ìˆè€À°(€€€€‰•ÉÉ½ÉÌˆè€À°(€€€€‰µ…á½¹ÕÉÉ•¹äˆè€Ô°(€€€€‰µ•…¹5Õ¹¥¥Á…±¥Ñå5Ìˆè€ÄÜÜ¸ÄÈ°(€€€€‰µ•‘¥…¹5Õ¹¥¥Á…±¥Ñå5Ìˆè€ÄÀÔ°(€€€€‰Í±½İ•ÍÑ5Õ¹¥¥Á…±¥Ñäˆèì(€€€€€€‰½‘”ˆè€‰4Àààäˆ°(€€€€€€‰¹…µ”ˆè€‰	••Í•°ˆ°(€€€€€€‰‘ÕÉ…Ñ¥½¹5Ìˆè€ÔÌÌ(€€€ô(€ô°(€€‰Í…™•Ñäˆèì(€€€€‰‰½Õ¹‘•‘½¹ÕÉÉ•¹äˆè€Ô°(€€€€‰‰•¹¡µ…É­1•…­…”ˆè™…±Í”°(€€€€‰É½ÍÍ5Õ¹¥¥Á…±¥Ñå1•…­…”ˆè™…±Í”°(€€€€‰ÁÉ½Ñ•Ñ•‘I•Í¥‘•¹Ñ…Ñ„ˆè™…±Í”°(€€€€‰™…ÍÑA…Ñ¡AÕ‰±¥…Ñ¥½¹¹…‰±•ˆè™…±Í”°(€€€€‰ÁÕ‰±¥IÕ±•ÍÉ•…Ñ•ˆè€À°(€€€€‰…‘‘É•ÍÍQ•ÍÑÍIÕ¸ˆè€À°(€€€€‰…‘‘É•ÍÍQ•ÍÑI•…Í½¸ˆè€‰••¸•µ••¹Ñ”‰•É•¥­Ñ”•ÍÑÉÕÑÕÉ••É‘”Ù•É¥™¥…Ñ¥”¸ˆ(€ô°(€€‰™¥¹…±I•½µµ•¹‘…Ñ¥½¸ˆè€‰IU=HAUM1IQ%M=YIdˆ)ô(

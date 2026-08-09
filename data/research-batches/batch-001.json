@@ -1,0 +1,652 @@
+Exit code: 0
+Wall time: 4.2 seconds
+Output:
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "batch-001",
+  "startedAt": "2026-08-09",
+  "completedAt": "2026-08-09",
+  "selectionRule": "Eerste tien not-started records in bestaande research-status-volgorde",
+  "municipalities": [
+    {
+      "municipalityCode": "GM1680",
+      "municipalityName": "Aa en Hunze",
+      "province": "Drenthe",
+      "researchedPermitTypes": [
+        "purchase-protection",
+        "good-landlord-permit",
+        "conversion-permit",
+        "room-rental",
+        "dwelling-formation",
+        "building-split",
+        "withdrawal-merger",
+        "short-stay",
+        "holiday-rental",
+        "housing-permit",
+        "vacancy-obligation"
+      ],
+      "addressTests": [
+        {
+          "street": "Spiekersteeg 1",
+          "postcode": "9461BH",
+          "locality": "Gieten",
+          "officialMunicipalityCode": "GM1680",
+          "result": "municipality-code-match",
+          "source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free"
+        }
+      ],
+      "reviewLevel": "C",
+      "unresolvedQuestions": [
+        "Geen actuele officiÃ«le implementatiebron gevonden; bron-/registercontrole door tweede onderzoeker vereist voordat een negatieve conclusie mogelijk is."
+      ]
+    },
+    {
+      "municipalityCode": "GM0358",
+      "municipalityName": "Aalsmeer",
+      "province": "Noord-Holland",
+      "researchedPermitTypes": [
+        "purchase-protection",
+        "good-landlord-permit",
+        "conversion-permit",
+        "room-rental",
+        "dwelling-formation",
+        "building-split",
+        "withdrawal-merger",
+        "short-stay",
+        "holiday-rental",
+        "housing-permit",
+        "vacancy-obligation"
+      ],
+      "addressTests": [
+        {
+          "street": "Raadhuisplein 1",
+          "postcode": "1431EH",
+          "locality": "Aalsmeer",
+          "officialMunicipalityCode": "GM0358",
+          "result": "municipality-code-match",
+          "source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free"
+        }
+      ],
+      "reviewLevel": "B",
+      "unresolvedQuestions": []
+    },
+    {
+      "municipalityCode": "GM0197",
+      "municipalityName": "Aalten",
+      "province": "Gelderland",
+      "researchedPermitTypes": [
+        "purchase-protection",
+        "good-landlord-permit",
+        "conversion-permit",
+        "room-rental",
+        "dwelling-formation",
+        "building-split",
+        "withdrawal-merger",
+        "short-stay",
+        "holiday-rental",
+        "housing-permit",
+        "vacancy-obligation"
+      ],
+      "addressTests": [
+        {
+          "street": "Markt 7",
+          "postcode": "7121CS",
+          "locality": "Aalten",
+          "officialMunicipalityCode": "GM0197",
+          "result": "municipality-code-match",
+          "source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free"
+        }
+      ],
+      "reviewLevel": "B",
+      "unresolvedQuestions": []
+    },
+    {
+      "municipalityCode": "GM0059",
+      "municipalityName": "Achtkarspelen",
+      "province": "FryslÃ¢n",
+      "researchedPermitTypes": [
+        "purchase-protection",
+        "good-landlord-permit",
+        "conversion-permit",
+        "room-rental",
+        "dwelling-formation",
+        "building-split",
+        "withdrawal-merger",
+        "short-stay",
+        "holiday-rental",
+        "housing-permit",
+        "vacancy-obligation"
+      ],
+      "addressTests": [
+        {
+          "street": "Stationsstraat 18",
+          "postcode": "9285NH",
+          "locality": "Buitenpost",
+          "officialMunicipalityCode": "GM0059",
+          "result": "municipality-code-match",
+          "source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free"
+        }
+      ],
+      "reviewLevel": "C",
+      "unresolvedQuestions": [
+        "Bepaal of de ontwikkelingsgebonden verhuurmelding als aanvullende taxonomiecategorie moet worden opgenomen."
+      ]
+    },
+    {
+      "municipalityCode": "GM0482",
+      "municipalityName": "Alblasserdam",
+      "province": "Zuid-Holland",
+      "researchedPermitTypes": [
+        "purchase-protection",
+        "good-landlord-permit",
+        "conversion-permit",
+        "room-rental",
+        "dwelling-formation",
+        "building-split",
+        "withdrawal-merger",
+        "short-stay",
+        "holiday-rental",
+        "housing-permit",
+        "vacancy-obligation"
+      ],
+      "addressTests": [
+        {
+          "street": "Cortgene 2",
+          "postcode": "2951ED",
+          "locality": "Alblasserdam",
+          "officialMunicipalityCode": "GM0482",
+          "result": "municipality-code-match",
+          "source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free"
+        }
+      ],
+      "reviewLevel": "C",
+      "unresolvedQuestions": [
+        "Controleer het exacte actuele toepassingsbereik en de aanvraagroute van CVDR741471."
+      ]
+    },
+    {
+      "municipalityCode": "GM0613",
+      "municipalityName": "Albrandswaard",
+      "province": "Zuid-Holland",
+      "researchedPermitTypes": [
+        "purchase-protection",
+        "good-landlord-permit",
+        "conversion-permit",
+        "room-rental",
+        "dwelling-formation",
+        "building-split",
+        "withdrawal-merger",
+        "short-stay",
+        "holiday-rental",
+        "housing-permit",
+        "vacancy-obligation"
+      ],
+      "addressTests": [
+        {
+          "street": "Hofhoek 5",
+          "postcode": "3176PD",
+          "locality": "Poortugaal",
+          "officialMunicipalityCode": "GM0613",
+          "result": "municipality-code-match",
+          "source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free"
+        }
+      ],
+      "reviewLevel": "C",
+      "unresolvedQuestions": [
+        "Bepaal of de ontwikkelingsgebonden verhuurmelding in de publieke woningcheck thuishoort."
+      ]
+    },
+    {
+      "municipalityCode": "GM0361",
+      "municipalityName": "Alkmaar",
+      "province": "Noord-Holland",
+      "researchedPermitTypes": [
+        "purchase-protection",
+        "good-landlord-permit",
+        "conversion-permit",
+        "room-rental",
+        "dwelling-formation",
+        "building-split",
+        "withdrawal-merger",
+        "short-stay",
+        "holiday-rental",
+        "housing-permit",
+        "vacancy-obligation"
+      ],
+      "addressTests": [
+        {
+          "street": "Mallegatsplein 10",
+          "postcode": "1815AG",
+          "locality": "Alkmaar",
+          "officialMunicipalityCode": "GM0361",
+          "result": "municipality-code-match",
+          "source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free"
+        }
+      ],
+      "reviewLevel": "B",
+      "unresolvedQuestions": []
+    },
+    {
+      "municipalityCode": "GM0141",
+      "municipalityName": "Almelo",
+      "province": "Overijssel",
+      "researchedPermitTypes": [
+        "purchase-protection",
+        "good-landlord-permit",
+        "conversion-permit",
+        "room-rental",
+        "dwelling-formation",
+        "building-split",
+        "withdrawal-merger",
+        "short-stay",
+        "holiday-rental",
+        "housing-permit",
+        "vacancy-obligation"
+      ],
+      "addressTests": [
+        {
+          "street": "Haven Zuidzijde 30",
+          "postcode": "7607EW",
+          "locality": "Almelo",
+          "officialMunicipalityCode": "GM0141",
+          "result": "municipality-code-match",
+          "source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free"
+        }
+      ],
+      "reviewLevel": "C",
+      "unresolvedQuestions": [
+        "Bevestig de geÃ¯ndexeerde WOZ-grens voor 2026 en digitaliseer/vergelijk bijlage 1 van de leegstandverordening."
+      ]
+    },
+    {
+      "municipalityCode": "GM0034",
+      "municipalityName": "Almere",
+      "province": "Flevoland",
+      "researchedPermitTypes": [
+        "purchase-protection",
+        "good-landlord-permit",
+        "conversion-permit",
+        "room-rental",
+        "dwelling-formation",
+        "building-split",
+        "withdrawal-merger",
+        "short-stay",
+        "holiday-rental",
+        "housing-permit",
+        "vacancy-obligation"
+      ],
+      "addressTests": [
+        {
+          "street": "Stadhuisplein 1",
+          "postcode": "1315HR",
+          "locality": "Almere",
+          "officialMunicipalityCode": "GM0034",
+          "result": "municipality-code-match",
+          "source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free"
+        }
+      ],
+      "reviewLevel": "B",
+      "unresolvedQuestions": []
+    },
+    {
+      "municipalityCode": "GM0484",
+      "municipalityName": "Alphen aan den Rijn",
+      "province": "Zuid-Holland",
+      "researchedPermitTypes": [
+        "purchase-protection",
+        "good-landlord-permit",
+        "conversion-permit",
+        "room-rental",
+        "dwelling-formation",
+        "building-split",
+        "withdrawal-merger",
+        "short-stay",
+        "holiday-rental",
+        "housing-permit",
+        "vacancy-obligation"
+      ],
+      "addressTests": [
+        {
+          "street": "Stadhuisplein 1",
+          "postcode": "2405SH",
+          "locality": "Alphen aan den Rijn",
+          "officialMunicipalityCode": "GM0484",
+          "result": "municipality-code-match",
+          "source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free"
+        }
+      ],
+      "reviewLevel": "C",
+      "unresolvedQuestions": [
+        "Geen actuele officiÃ«le implementatiebron gevonden; controleer regionale en gemeentelijke registers handmatig voordat een negatieve conclusie mogelijk is."
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "aalsmeer-hvv-2025",
+      "municipalityCode": "GM0358",
+      "canonicalTypes": [
+        "housing-permit",
+        "withdrawal-merger",
+        "purchase-protection"
+      ],
+      "title": "Huisvestingsverordening gemeente Aalsmeer 2025",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR749527",
+      "officialInfoUrl": null,
+      "officialApplicationUrl": null,
+      "applicationRouteStatus": "not-confirmed",
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ],
+      "effectiveFrom": "2025-12-11",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality",
+        "conditions": [
+          "De afzonderlijke hoofdstukken hanteren daarnaast woning- en waardekenmerken."
+        ]
+      },
+      "extractedFacts": [
+        "Huisvestingsvergunning voor aangewezen betaalbare woonruimte.",
+        "Onttrekkingsvergunning en opkoopbescherming zijn afzonderlijk geregeld."
+      ],
+      "requiredDocuments": [],
+      "reviewLevel": "B",
+      "substantiveVerificationStatus": "research-pending-review",
+      "verifiedAt": "2026-08-09"
+    },
+    {
+      "id": "aalsmeer-vacancy-2019",
+      "municipalityCode": "GM0358",
+      "canonicalTypes": [
+        "vacancy-obligation"
+      ],
+      "title": "Leegstandverordening Aalsmeer 2019",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR623005",
+      "officialInfoUrl": null,
+      "officialApplicationUrl": null,
+      "applicationRouteStatus": "not-confirmed",
+      "legalBasis": [
+        "Leegstandwet"
+      ],
+      "effectiveFrom": "2019-07-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality",
+        "conditions": [
+          "Zelfstandige woonruimte en kantoren groter dan 500 mÂ²; melding na zes maanden."
+        ]
+      },
+      "extractedFacts": [],
+      "requiredDocuments": [],
+      "reviewLevel": "A",
+      "substantiveVerificationStatus": "objective-facts-confirmed",
+      "verifiedAt": "2026-08-09"
+    },
+    {
+      "id": "aalten-good-landlord-2024",
+      "municipalityCode": "GM0197",
+      "canonicalTypes": [
+        "good-landlord-permit"
+      ],
+      "title": "Verhuurverordening verblijfsruimte Aalten 2024",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR720987",
+      "officialInfoUrl": null,
+      "officialApplicationUrl": null,
+      "applicationRouteStatus": "not-confirmed",
+      "legalBasis": [
+        "Wet goed verhuurderschap"
+      ],
+      "effectiveFrom": "2024-06-18",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality",
+        "conditions": [
+          "Alle verblijfsruimte; woningcorporaties uitgezonderd."
+        ]
+      },
+      "extractedFacts": [],
+      "requiredDocuments": [
+        "Modelhuurovereenkomst â€” Zelf aanleveren",
+        "Beschrijving naleving goed verhuurderschap â€” Zelf aanleveren",
+        "Opgave handhavingsbesluiten â€” Zelf aanleveren"
+      ],
+      "reviewLevel": "B",
+      "substantiveVerificationStatus": "research-pending-review",
+      "verifiedAt": "2026-08-09"
+    },
+    {
+      "id": "achtkarspelen-target-groups-2023",
+      "municipalityCode": "GM0059",
+      "canonicalTypes": [],
+      "title": "Doelgroepenverordening gemeente Achtkarspelen 2023",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR705002",
+      "officialInfoUrl": null,
+      "officialApplicationUrl": null,
+      "applicationRouteStatus": "not-confirmed",
+      "legalBasis": [],
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "development-specific",
+        "conditions": [
+          "Alleen woningen waarop een planologische doelgroepenbestemming en instandhoudingstermijn rust."
+        ]
+      },
+      "extractedFacts": [
+        "Meldplicht bij verhuur is gevonden, maar valt niet rechtstreeks onder de huidige vergunningtaxonomie."
+      ],
+      "requiredDocuments": [],
+      "reviewLevel": "C",
+      "substantiveVerificationStatus": "research-pending-review",
+      "verifiedAt": "2026-08-09"
+    },
+    {
+      "id": "alblasserdam-hvv-2025",
+      "municipalityCode": "GM0482",
+      "canonicalTypes": [
+        "housing-permit"
+      ],
+      "title": "Huisvestingsverordening Gemeente Alblasserdam 2025",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR741471",
+      "officialInfoUrl": null,
+      "officialApplicationUrl": null,
+      "applicationRouteStatus": "not-confirmed",
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ],
+      "effectiveFrom": "2025-07-10",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "municipality-and-property-conditions",
+        "conditions": [
+          "Exact toepassingsbereik moet inhoudelijk worden gecontroleerd vÃ³Ã³r publicatie."
+        ]
+      },
+      "extractedFacts": [],
+      "requiredDocuments": [],
+      "reviewLevel": "C",
+      "substantiveVerificationStatus": "research-pending-review",
+      "verifiedAt": "2026-08-09"
+    },
+    {
+      "id": "albrandswaard-regional-housing-2025",
+      "municipalityCode": "GM0613",
+      "canonicalTypes": [
+        "housing-permit"
+      ],
+      "title": "Verordening Woonruimtebemiddeling regio Rotterdam 2025",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR741224",
+      "officialInfoUrl": null,
+      "officialApplicationUrl": null,
+      "applicationRouteStatus": "not-confirmed",
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ],
+      "effectiveFrom": "2025-07-01",
+      "effectiveTo": "2029-06-30",
+      "geographicScope": {
+        "method": "whole-municipality",
+        "conditions": [
+          "Regionale woonruimtebemiddeling; alleen aangewezen woonruimte en woningzoekenden."
+        ]
+      },
+      "extractedFacts": [],
+      "requiredDocuments": [],
+      "reviewLevel": "B",
+      "substantiveVerificationStatus": "research-pending-review",
+      "verifiedAt": "2026-08-09"
+    },
+    {
+      "id": "albrandswaard-rental-notification-2021",
+      "municipalityCode": "GM0613",
+      "canonicalTypes": [],
+      "title": "Verordening sociale huur en middeldure huur gemeente Albrandswaard 2021",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR660521",
+      "officialInfoUrl": null,
+      "officialApplicationUrl": null,
+      "applicationRouteStatus": "not-confirmed",
+      "legalBasis": [],
+      "effectiveFrom": "2021-07-20",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "development-specific",
+        "conditions": [
+          "Meldplicht gedurende instandhoudingstermijn van aangewezen nieuwbouwwoningen."
+        ]
+      },
+      "extractedFacts": [],
+      "requiredDocuments": [],
+      "reviewLevel": "C",
+      "substantiveVerificationStatus": "research-pending-review",
+      "verifiedAt": "2026-08-09"
+    },
+    {
+      "id": "alkmaar-hvv-2024",
+      "municipalityCode": "GM0361",
+      "canonicalTypes": [
+        "housing-permit",
+        "conversion-permit",
+        "room-rental",
+        "dwelling-formation",
+        "withdrawal-merger"
+      ],
+      "title": "Huisvestingsverordening Alkmaar 2024",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR713872",
+      "officialInfoUrl": null,
+      "officialApplicationUrl": null,
+      "applicationRouteStatus": "not-confirmed",
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ],
+      "effectiveFrom": "2026-02-26",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-with-inner-city-branch",
+        "conditions": [
+          "Voorraadwijziging gemeentebreed; oppervlakteeisen verschillen binnen/buiten binnenstad."
+        ]
+      },
+      "extractedFacts": [],
+      "requiredDocuments": [
+        "Vastgesteld aanvraagformulier â€” officiÃ«le route nog te bevestigen",
+        "Situatie- en leefbaarheidsgegevens â€” Zelf aanleveren"
+      ],
+      "reviewLevel": "B",
+      "substantiveVerificationStatus": "research-pending-review",
+      "verifiedAt": "2026-08-09"
+    },
+    {
+      "id": "almelo-purchase-protection-2024",
+      "municipalityCode": "GM0141",
+      "canonicalTypes": [
+        "purchase-protection"
+      ],
+      "title": "Huisvestingverordening Opkoopbescherming gemeente Almelo",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR726069",
+      "officialInfoUrl": null,
+      "officialApplicationUrl": null,
+      "applicationRouteStatus": "not-confirmed",
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ],
+      "effectiveFrom": "2024-11-01",
+      "effectiveTo": "2028-10-31",
+      "geographicScope": {
+        "method": "cbs-district-list-and-value",
+        "conditions": [
+          "CBS-wijken 014110, 014115, 014116, 014111, 014114, 014113 en 014112.",
+          "WOZ-grens in regeling â‚¬265.000; jaarlijkse indexering vereist actuele controle."
+        ]
+      },
+      "extractedFacts": [],
+      "requiredDocuments": [],
+      "reviewLevel": "C",
+      "substantiveVerificationStatus": "research-pending-review",
+      "verifiedAt": "2026-08-09"
+    },
+    {
+      "id": "almelo-vacancy-2020",
+      "municipalityCode": "GM0141",
+      "canonicalTypes": [
+        "vacancy-obligation"
+      ],
+      "title": "Leegstandverordening Binnenstad Gemeente Almelo 2020",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR638723",
+      "officialInfoUrl": null,
+      "officialApplicationUrl": null,
+      "applicationRouteStatus": "not-confirmed",
+      "legalBasis": [
+        "Leegstandwet"
+      ],
+      "effectiveFrom": "2020-04-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "designated-area-attachment",
+        "conditions": [
+          "Alleen aangewezen niet-woningen in bijlage 1; leegmelding na zes maanden."
+        ]
+      },
+      "extractedFacts": [],
+      "requiredDocuments": [],
+      "reviewLevel": "C",
+      "substantiveVerificationStatus": "research-pending-review",
+      "verifiedAt": "2026-08-09"
+    },
+    {
+      "id": "almere-hvv-2024",
+      "municipalityCode": "GM0034",
+      "canonicalTypes": [
+        "housing-permit",
+        "purchase-protection"
+      ],
+      "title": "Huisvestingsverordening Almere 2024",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR741425",
+      "officialInfoUrl": null,
+      "officialApplicationUrl": null,
+      "applicationRouteStatus": "not-confirmed",
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ],
+      "effectiveFrom": null,
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-and-value",
+        "conditions": [
+          "Opkoopbescherming gemeentebreed, WOZ lager dan actuele NHG-grens en aanvullende eigendoms-/gebruikseisen."
+        ]
+      },
+      "extractedFacts": [],
+      "requiredDocuments": [
+        "Eigendomsbewijs â€” Zelf aanleveren",
+        "Bewijs uitzonderingsgrond â€” Zelf aanleveren"
+      ],
+      "reviewLevel": "B",
+      "substantiveVerificationStatus": "research-pending-review",
+      "verifiedAt": "2026-08-09"
+    }
+  ],
+  "absencePolicy": "not-found is not treated as no-current-regulation",
+  "publicDecisionRecordsAdded": 0
+}
+

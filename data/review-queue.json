@@ -1,3 +1,6 @@
+Exit code: 0
+Wall time: 4.3 seconds
+Output:
 {
   "schemaVersion": "1.0.0",
   "generatedAt": "2026-08-09",
@@ -121,6 +124,67 @@
       "status": "open",
       "priority": "medium",
       "createdAt": "2026-08-09"
+    },
+    {
+      "id": "batch001-aa-en-hunze-source",
+      "municipalityCode": "GM1680",
+      "regulationId": null,
+      "category": "source-completeness",
+      "reason": "OfficiÃ«le zoekronde leverde geen actuele implementatieregeling op. Controleer het gemeentelijke regelingenregister en officiÃ«le bekendmakingen opnieuw; vraag: is er op 9 augustus 2026 een actuele regeling binnen de taxonomie?",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "batch001-achtkarspelen-taxonomy",
+      "municipalityCode": "GM0059",
+      "regulationId": "achtkarspelen-target-groups-2023",
+      "category": "taxonomy",
+      "reason": "CVDR705002 bevat een ontwikkelingsgebonden verhuurmelding. Vraag: is dit een legitieme extra categorie voor een bestaande-woningcheck of uitsluitend een plan-/ontwikkelaarsplicht?",
+      "status": "open",
+      "priority": "medium",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "batch001-alblasserdam-scope-route",
+      "municipalityCode": "GM0482",
+      "regulationId": "alblasserdam-hvv-2025",
+      "category": "legal-and-source",
+      "reason": "Controleer in CVDR741471 welke woonruimte exact is aangewezen en bevestig de gemeentelijke aanvraagroute; beide ontbreken nog voor een veilige adresbeslissing.",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "batch001-albrandswaard-taxonomy",
+      "municipalityCode": "GM0613",
+      "regulationId": "albrandswaard-rental-notification-2021",
+      "category": "taxonomy",
+      "reason": "CVDR660521 bevat een meldplicht tijdens een instandhoudingstermijn. Vraag: hoort deze ontwikkelingsgebonden plicht in de gebruikersgerichte taxonomie?",
+      "status": "open",
+      "priority": "medium",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "batch001-almelo-index-map",
+      "municipalityCode": "GM0141",
+      "regulationId": "almelo-purchase-protection-2024",
+      "category": "legal-and-gis",
+      "reason": "Artikel 3 indexeert de â‚¬265.000-grens jaarlijks en de leegstandbijlage gebruikt een aangewezen gebied. Bevestig het bedrag voor 2026 en controleer de officiÃ«le bijlage zonder ruimtelijke benadering.",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "batch001-alphen-source",
+      "municipalityCode": "GM0484",
+      "regulationId": null,
+      "category": "source-completeness",
+      "reason": "Alleen vervallen of niet-passende officiÃ«le resultaten gevonden. Controleer gemeentelijke en regionale registers; vraag: geldt op 9 augustus 2026 een actuele implementatieregeling binnen de taxonomie?",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
     }
   ]
 }
+

@@ -1,0 +1,196 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-09",
+  "snapshots": [
+    {
+      "id": "cbs-municipalities-2026",
+      "url": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026",
+      "finalUrl": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "224ae6d1b7149ddc9ca6ab60fd12a483bde077529763d9a769dfd4f5dd10166e"
+    },
+    {
+      "id": "den-haag-opkoop-2026-required-2-2",
+      "url": "https://www.denhaag.nl/nl/vergunningen-en-ontheffingen/opkoopbescherming-in-den-haag-vergunning-aanvragen/",
+      "finalUrl": "https://www.denhaag.nl/nl/vergunningen-en-ontheffingen/opkoopbescherming-in-den-haag-vergunning-aanvragen/",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "410f49569a9f4a3212d230ccdf5e485f0d8b96379a045bd2236efa81b89724d4"
+    },
+    {
+      "id": "emmen-opkoop-2023-regulation",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR698265",
+      "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR698265",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "681bccfdfa4ce5454b77125aada3349c4f98000c66b495abccfbc3b5a24f9b8c"
+    },
+    {
+      "id": "leiden-omzetting-2024-regulation",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR711669",
+      "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR711669",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "225dfb6a91a562eb79055fa84a23f1921411acf5102c8b3c2a552e08eaa3881e"
+    },
+    {
+      "id": "rotterdam-kamerverhuur-2026-regulation",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR741632",
+      "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR741632",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "bc04faaaade99de6a234910e63fd6f26f2074d85ba52c8a4886613319406ca4c"
+    },
+    {
+      "id": "den-haag-opkoop-2026-regulation",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR698067",
+      "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR698067",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "7118913be77fddf8b7ce257bd53fd9dfe1f394c64030c5c4fa5ee03451964ff8"
+    },
+    {
+      "id": "den-haag-opkoop-2026-form-1",
+      "url": "https://www.denhaag.nl/wp-content/uploads/2022/05/220134_DBV_Vergunning_Tijdelijke_Verhuur_v3.pdf",
+      "finalUrl": "https://www.denhaag.nl/wp-content/uploads/2022/05/220134_DBV_Vergunning_Tijdelijke_Verhuur_v3.pdf",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": "Mon, 20 Jun 2022 13:12:08 GMT",
+      "contentFingerprint": "2ce7383db152ebeba36d97797c84046e5bbda52a84db5858e71f03f7ec999011"
+    },
+    {
+      "id": "den-haag-opkoop-2026-form-2",
+      "url": "https://www.denhaag.nl/wp-content/uploads/2022/05/220134_DBV_Vergunning_Verhuur_Bloed-Aanverwantschap_v3.pdf",
+      "finalUrl": "https://www.denhaag.nl/wp-content/uploads/2022/05/220134_DBV_Vergunning_Verhuur_Bloed-Aanverwantschap_v3.pdf",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": "Mon, 20 Jun 2022 13:18:54 GMT",
+      "contentFingerprint": "cc8e8490672b1a01e345aebb10e8253171600f9e102be3a208d533cbd8253086"
+    },
+    {
+      "id": "den-haag-opkoop-2026-form-3",
+      "url": "https://www.denhaag.nl/wp-content/uploads/2022/05/220134_DBV_Vergunning_Verhuur_Onlosmakelijk_Deel_v3.pdf",
+      "finalUrl": "https://www.denhaag.nl/wp-content/uploads/2022/05/220134_DBV_Vergunning_Verhuur_Onlosmakelijk_Deel_v3.pdf",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": "Mon, 20 Jun 2022 13:18:28 GMT",
+      "contentFingerprint": "60ab97c162e3b074937e4e2f174d828cdc4b7b21bfdfc11cb64660214ad0c33f"
+    },
+    {
+      "id": "emmen-opkoop-2023-required-1-2",
+      "url": "https://gemeente.emmen.nl/opkoopbescherming-en-verhuurvergunning-aanvragen",
+      "finalUrl": "https://gemeente.emmen.nl/opkoopbescherming-en-verhuurvergunning-aanvragen",
+      "httpStatus": 403,
+      "automatedStatus": "automated-check-blocked",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": null
+    },
+    {
+      "id": "leiden-opkoop-2024-required-2-1",
+      "url": "https://gemeente.leiden.nl/inwoners-en-ondernemers/wonen-en-bouwen/wonen/verhuurvergunning-opkoopbescherming/",
+      "finalUrl": "https://gemeente.leiden.nl/inwoners-en-ondernemers/wonen-en-bouwen/wonen/verhuurvergunning-opkoopbescherming/",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "3e01ffa29437d8d0d9efe5ba6bab683952a6efae37748a97c9fcfe8dc95d58ac"
+    },
+    {
+      "id": "leiden-opkoop-2024-required-2-2",
+      "url": "https://gemeente.leiden.nl/formulieren/aanvraag-verhuurvergunning-opkoopbescherming/",
+      "finalUrl": "https://www.digid.nl/",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "54614570f76f64468e2ff129e9edd76f13e08c4cdf8165242f5e35a265a4d484"
+    },
+    {
+      "id": "leiden-omzetting-2024-required-5-1",
+      "url": "https://gemeente.leiden.nl/inwoners-en-ondernemers/wonen-en-bouwen/wonen/woning-veranderen-in-kamerverhuur/",
+      "finalUrl": "https://gemeente.leiden.nl/inwoners-en-ondernemers/wonen-en-bouwen/wonen/woning-veranderen-in-kamerverhuur/",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "9f6a0527979a4e44d0cfb55e511199c7ca6949db27adc017fece936a8bc8aa3a"
+    },
+    {
+      "id": "leiden-omzetting-2024-required-5-2",
+      "url": "https://gemeente.leiden.nl/formulieren/aanvraag-omzettingsvergunning-digid/",
+      "finalUrl": "https://www.digid.nl/",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "e961121a4e15f1b293c8e6e43137c33140155285c40dd3d49064a1fa830d7a13"
+    },
+    {
+      "id": "leiden-omzetting-2024-form-1",
+      "url": "https://gemeente.leiden.nl/formulieren/aanvraag-omzettingsvergunning-eherkenning/",
+      "finalUrl": "https://lliam.lostlemon.nl/error",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "02dbaea5dc2509ea150442a6fb7addb68ad85c1b935f4e5f47c7243dd0221ac1"
+    },
+    {
+      "id": "rotterdam-opkoop-required-1-1",
+      "url": "https://www.rotterdam.nl/vergunning-of-toestemming-opkoopbescherming-aanvragen",
+      "finalUrl": "https://www.rotterdam.nl/vergunning-of-toestemming-opkoopbescherming-aanvragen",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "88c07a911de6413aa3c40f7557581f21631d1f4007158d50ce87d31ee613eea1"
+    },
+    {
+      "id": "rotterdam-opkoop-required-1-2",
+      "url": "https://formulier.rotterdam.nl/vergunning-opkoopbescherming/",
+      "finalUrl": "https://formulier.rotterdam.nl/vergunning-opkoopbescherming/",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "6ba7ca9836f606072af78cf74e09683c78af7c82bab642489675b6b8e56b40ed"
+    },
+    {
+      "id": "rotterdam-kamerverhuur-2026-required-1-1",
+      "url": "https://www.rotterdam.nl/vergunning-kamerverhuur-aanvragen",
+      "finalUrl": "https://www.rotterdam.nl/vergunning-kamerverhuur-aanvragen",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "fc4817ce50c132c1e46280588fb110cd7bdb743ffefcdb57c0d3ccc9ea71e653"
+    },
+    {
+      "id": "rotterdam-kamerverhuur-2026-required-1-2",
+      "url": "https://formulier.rotterdam.nl/vergunning-kamerverhuur-aanvragen/",
+      "finalUrl": "https://formulier.rotterdam.nl/vergunning-kamerverhuur-aanvragen/",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "7d2d0fdeb5e61a238baf001e60a48a16c733603334e4f9e5cc4b9234b474ceb2"
+    }
+  ]
+}

@@ -13,8 +13,14 @@ assert.equal(new Set(status.records.map(x=>x.municipalityCode)).size,342);
 const changed=status.records.filter(x=>x.researchStartedAt==='2026-08-09'&&expected.includes(x.municipalityCode));
 assert.equal(changed.length,10,'not exactly ten batch status records');
 for(const m of batch.municipalities){assert.equal(m.addressTests[0].officialMunicipalityCode,m.municipalityCode); assert.equal(m.addressTests[0].result,'municipality-code-match');}
-for(const f of batch.findings){assert.match(f.municipalityCode,/^GM\d{4}$/); assert.ok(f.officialRegulationUrl.startsWith('https://')); assert.ok(f.officialRegulationUrl.includes('.overheid.nl/')); for(const t of f.canonicalTypes) assert.ok(taxonomy.has(t),`unknown taxonomy ${t}`); assert.equal(f.officialApplicationUrl,null,'unverified application CTA must remain absent');}
+for(const f of batch.findings){
+  assert.match(f.municipalityCode,/^GM\d{4}$/);
+  assert.ok(f.officialRegulationUrl.startsWith('https://'));
+  assert.ok(f.officialRegulationUrl.includes('.overheid.nl/'));
+  for(const t of f.canonicalTypes) assert.ok(taxonomy.has(t),`unknown taxonomy ${t}`);
+  if(f.officialApplicationUrl){assert.match(f.officialApplicationUrl,/^(https:\/\/|mailto:)/); assert.notEqual(f.applicationRouteStatus,'not-confirmed','unconfirmed application CTA must remain absent');}
+}
 const html=fs.readFileSync('index.html','utf8')+fs.readFileSync('assets/app.js','utf8');
 for(const internal of ['manual-gis-review-required','same-as-info-verified','automated recheck pending']) assert.ok(!html.includes(internal),`internal status leaked: ${internal}`);
 assert.equal(fs.readFileSync('CNAME','utf8').trim(),'woningencheck.nl');
-console.log(`batch-001 ok: ${batch.municipalities.length} municipalities, ${batch.findings.length} research findings, 0 unverified CTAs`);
+console.log(`batch-001 ok: ${batch.municipalities.length} municipalities, ${batch.findings.length} research findings, no unverified CTAs`);

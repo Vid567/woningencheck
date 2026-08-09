@@ -747,9 +747,10 @@
     "automaticallyResolvedOriginalItems": 4,
     "remainingHumanItems": 3,
     "publicDecisionRecordsAdded": 0,
-    "verifiedApplicationRoutes": 7,
+    "verifiedApplicationRoutes": 6,
     "gisResolved": 1,
     "gisRemaining": 1,
-    "closureStatus": "closed-with-targeted-human-review"
+    "closureStatus": "closed-with-targeted-human-review",
+    "commit": "4703354af59e2061dfe56ffc3daf191000f29910"
   }
 }

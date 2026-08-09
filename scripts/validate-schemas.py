@@ -20,4 +20,5 @@ def validate(schema_name, values):
 validate("regulation.schema.json",json.loads((root/"data/regulations.json").read_text(encoding="utf-8"))["records"])
 validate("research-status.schema.json",json.loads((root/"data/research-status.json").read_text(encoding="utf-8"))["records"])
 validate("review-item.schema.json",json.loads((root/"data/review-queue.json").read_text(encoding="utf-8"))["items"])
+validate("dynamic-parameter.schema.json",json.loads((root/"data/dynamic-parameters.json").read_text(encoding="utf-8"))["parameters"])
 print(f"PASS Python json.load for {len(production_json)} production files; JSON Schema validation")

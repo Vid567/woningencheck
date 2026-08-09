@@ -15,10 +15,12 @@ jobs:
       - run: node scripts/test-applicability.mjs
       - run: node scripts/test-geography.mjs
       - run: node scripts/test-batch-001.mjs
+      - run: node scripts/test-batch-001-closure.mjs
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
-      - run: pip install jsonschema
+      - run: pip install jsonschema openpyxl
       - run: python scripts/validate-schemas.py
+      - run: python scripts/verify-workbook.py
       - name: Verify official sources
         if: github.event_name == 'workflow_dispatch'
         run: node scripts/verify-sources.mjs

@@ -1,0 +1,27 @@
+import fs from 'node:fs/promises';
+import {FileBlob,SpreadsheetFile} from '@oai/artifact-tool';
+const root=new URL('..',import.meta.url).pathname.replace(/^\/(.:)/,'$1');
+const read=async p=>JSON.parse(await fs.readFile(`${root}/${p}`,'utf8'));
+const wb=await SpreadsheetFile.importXlsx(await FileBlob.load(`${root}/exports/Woningencheck-Onderzoeksdatabase.xlsx`));
+const counts=await read('exports/workbook-counts.json');
+const municipalities=(await read('data/municipalities-2026.json')).municipalities;
+const batch=await read('data/research-batches/batch-001.json');
+const rules=(await read('data/regulations.json')).records;
+const openReviews=(await read('data/review-queue.json')).items.filter(x=>['open','in-review'].includes(x.status));
+const parameters=(await read('data/dynamic-parameters.json')).parameters;
+if(counts.Gemeenten!==342||municipalities.length!==342)throw new Error('Gemeenten count mismatch');
+if(new Set(municipalities.map(x=>x.code)).size!==342)throw new Error('Municipality codes not unique');
+if(counts.Regelingen!==rules.length+batch.findings.length)throw new Error('Regelingen mismatch');
+if(counts['Handmatige controle']!==openReviews.length)throw new Error('Review mismatch');
+if(counts.Jaarwaarden!==parameters.length)throw new Error('Parameters mismatch');
+if(batch.municipalities.length!==10)throw new Error('Batch 001 size changed');
+const dashboard=await wb.inspect({kind:'table',range:'Dashboard!A1:F18',include:'values,formulas',tableMaxRows:20,tableMaxCols:8,maxChars:5000});
+const errors=await wb.inspect({kind:'match',searchTerm:'#REF!|#DIV/0!|#VALUE!|#NAME\\?|#N/A',options:{useRegex:true,maxResults:300},summary:'formula error scan'});
+if(errors.ndjson&&/"matches":\s*\[[^\]]/s.test(errors.ndjson))throw new Error('Formula errors found');
+await fs.mkdir(`${root}/work/workbook-previews`,{recursive:true});
+for(const name of ['Dashboard','Gemeenten','Regelingen','Gebiedsregels','Uitzonderingen','Aanvragen','Documenten','Bronnen','Handmatige controle','Batches','Jaarwaarden']){
+ const img=await wb.render({sheetName:name,autoCrop:'all',scale:0.8,format:'png'});
+ await fs.writeFile(`${root}/work/workbook-previews/${name.replaceAll(' ','-')}.png`,new Uint8Array(await img.arrayBuffer()));
+}
+console.log(dashboard.ndjson.slice(0,2500));
+console.log(JSON.stringify({status:'PASS',counts,openReviews:openReviews.length,parameters:parameters.length}));

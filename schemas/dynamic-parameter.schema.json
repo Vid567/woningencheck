@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://woningencheck.nl/schemas/dynamic-parameter.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "municipalityCode", "regulationId", "name", "year", "value", "unit", "validFrom", "validUntil", "updateMethod", "source", "lastVerifiedAt", "nextExpectedUpdate", "updateFrequency", "status"],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "municipalityCode": {"type": "string", "pattern": "^GM[0-9]{4}$"},
+    "regulationId": {"type": "string", "minLength": 1},
+    "name": {"type": "string", "minLength": 1},
+    "year": {"type": "integer", "minimum": 2000, "maximum": 2100},
+    "value": {"type": "number"},
+    "unit": {"type": "string", "minLength": 1},
+    "validFrom": {"type": "string", "format": "date"},
+    "validUntil": {"type": "string", "format": "date"},
+    "updateMethod": {"type": "string", "minLength": 1},
+    "source": {"type": "string", "pattern": "^https://"},
+    "lastVerifiedAt": {"type": "string", "format": "date"},
+    "nextExpectedUpdate": {"type": "string", "format": "date"},
+    "updateFrequency": {"const": "annual"},
+    "status": {"enum": ["current", "expired-do-not-use", "pending-update"]}
+  }
+}

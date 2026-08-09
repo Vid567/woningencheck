@@ -410,6 +410,57 @@
         }
       },
       "additionalProperties": false
+    },
+    "geographicScope": {
+      "type": "object",
+      "required": [
+        "operator",
+        "conditions",
+        "validFrom",
+        "sourceVersion",
+        "lastVerifiedDate"
+      ],
+      "properties": {
+        "operator": {
+          "enum": [
+            "AND",
+            "OR"
+          ]
+        },
+        "conditions": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object"
+          }
+        },
+        "validFrom": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "validUntil": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "supersededBy": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "sourceVersion": {
+          "type": "string"
+        },
+        "lastVerifiedDate": {
+          "type": "string",
+          "format": "date"
+        }
+      },
+      "additionalProperties": false
     }
   },
   "additionalProperties": false

@@ -149,7 +149,29 @@
       ],
       "conflictStatus": "none-found",
       "conflicts": [],
-      "geographicScopeReview": "structured-candidate"
+      "geographicScopeReview": "fully-verified",
+      "geographicScope": {
+        "operator": "AND",
+        "validFrom": "2026-01-01",
+        "validUntil": null,
+        "supersededBy": null,
+        "sourceVersion": "CVDR698067",
+        "lastVerifiedDate": "2026-08-09",
+        "conditions": [
+          {
+            "type": "municipality",
+            "operator": "equals",
+            "value": "GM0518",
+            "evidence": [
+              {
+                "municipalityCode": "GM0518",
+                "url": "https://lokaleregelgeving.overheid.nl/CVDR698067",
+                "section": "Artikel 5:27 lid 1 onder a"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "emmen-opkoop-2023",
@@ -265,7 +287,46 @@
       ],
       "conflictStatus": "none-found",
       "conflicts": [],
-      "geographicScopeReview": "structured-candidate"
+      "geographicScopeReview": "partially-verified",
+      "geographicScope": {
+        "operator": "AND",
+        "validFrom": "2023-07-01",
+        "validUntil": "2027-07-01",
+        "supersededBy": null,
+        "sourceVersion": "CVDR698265",
+        "lastVerifiedDate": "2026-08-09",
+        "conditions": [
+          {
+            "type": "municipality",
+            "operator": "equals",
+            "value": "GM0114",
+            "evidence": [
+              {
+                "municipalityCode": "GM0114",
+                "url": "https://lokaleregelgeving.overheid.nl/CVDR698265",
+                "section": "Artikel 2.1 lid 2 onder a"
+              }
+            ]
+          },
+          {
+            "type": "municipal-area",
+            "operator": "in",
+            "values": [
+              "Angelslo",
+              "Bargeres",
+              "Emmerhout",
+              "Emmermeer"
+            ],
+            "evidence": [
+              {
+                "municipalityCode": "GM0114",
+                "url": "https://lokaleregelgeving.overheid.nl/CVDR698265",
+                "section": "Artikel 2.1 lid 2 onder a"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "leiden-opkoop-2024",
@@ -460,6 +521,27 @@
             "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR711669"
           }
         ]
+      },
+      "geographicScope": {
+        "operator": "AND",
+        "validFrom": "2025-07-11",
+        "validUntil": "2028-01-01",
+        "sourceVersion": "CVDR711669/4",
+        "lastVerifiedDate": "2026-08-09",
+        "conditions": [
+          {
+            "type": "municipality",
+            "operator": "equals",
+            "value": "GM0546",
+            "evidence": [
+              {
+                "municipalityCode": "GM0546",
+                "url": "https://lokaleregelgeving.overheid.nl/CVDR711669",
+                "section": "Artikel 7"
+              }
+            ]
+          }
+        ]
       }
     },
     {
@@ -651,32 +733,6 @@
             "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR711669"
           },
           {
-            "id": "designated-neighbourhood",
-            "category": "geographic",
-            "conditionType": "neighbourhood",
-            "source": "official-data",
-            "fact": "location.neighborhoodName",
-            "operator": "in",
-            "values": [
-              "De Camp",
-              "Marewijk",
-              "Pancras-West",
-              "Pancras-Oost",
-              "d'Oude Morsch",
-              "Noordvest",
-              "Havenwijk-Noord",
-              "Havenwijk-Zuid",
-              "Molenbuurt",
-              "De Waard",
-              "Pieterswijk",
-              "Noorderkwartier",
-              "De Kooi",
-              "Transvaal"
-            ],
-            "evidenceSection": "Kaartbijlage en bijlage quota per straat",
-            "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR711669"
-          },
-          {
             "id": "shared-non-household-rental",
             "category": "situation",
             "conditionType": "occupancy-intent",
@@ -687,6 +743,39 @@
             "answerType": "yes-no",
             "evidenceSection": "Artikel 1 en artikel 2",
             "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR711669"
+          }
+        ]
+      },
+      "geographicScope": {
+        "operator": "AND",
+        "validFrom": "2025-07-11",
+        "validUntil": "2028-01-01",
+        "sourceVersion": "CVDR711669/4",
+        "lastVerifiedDate": "2026-08-09",
+        "conditions": [
+          {
+            "type": "municipality",
+            "operator": "equals",
+            "value": "GM0546",
+            "evidence": [
+              {
+                "municipalityCode": "GM0546",
+                "url": "https://lokaleregelgeving.overheid.nl/CVDR711669",
+                "section": "Artikel 2"
+              }
+            ]
+          },
+          {
+            "type": "official-map",
+            "machineReadable": false,
+            "mapUrl": "https://repository.officiele-overheidspublicaties.nl/CVDR/CVDR711669/4/xml/Afbeelding1i5603f88d-80f4-4a5b-927f-3b79cf6e9db8.png",
+            "evidence": [
+              {
+                "municipalityCode": "GM0546",
+                "url": "https://lokaleregelgeving.overheid.nl/CVDR711669",
+                "section": "Kaart behorende bij artikel 2"
+              }
+            ]
           }
         ]
       }
@@ -805,7 +894,58 @@
       ],
       "conflictStatus": "none-found",
       "conflicts": [],
-      "geographicScopeReview": "manual-review-required"
+      "geographicScopeReview": "fully-verified",
+      "geographicScope": {
+        "operator": "AND",
+        "validFrom": "2026-01-01",
+        "validUntil": "2029-07-01",
+        "supersededBy": null,
+        "sourceVersion": "CVDR741632",
+        "lastVerifiedDate": "2026-08-09",
+        "conditions": [
+          {
+            "type": "municipality",
+            "operator": "equals",
+            "value": "GM0599",
+            "evidence": [
+              {
+                "municipalityCode": "GM0599",
+                "url": "https://lokaleregelgeving.overheid.nl/CVDR741632",
+                "section": "Artikel 2.6.1 lid 1"
+              }
+            ]
+          },
+          {
+            "type": "cbs-neighbourhood",
+            "operator": "in",
+            "values": [
+              "BU05990531",
+              "BU05990532",
+              "BU05991081",
+              "BU05991572",
+              "BU05991289",
+              "BU05991449",
+              "BU05990661",
+              "BU05991082",
+              "BU05990842",
+              "BU05990841",
+              "BU05990325",
+              "BU05990324",
+              "BU05990327",
+              "BU05991574",
+              "BU05990814",
+              "BU05991571"
+            ],
+            "evidence": [
+              {
+                "municipalityCode": "GM0599",
+                "url": "https://lokaleregelgeving.overheid.nl/CVDR741632",
+                "section": "Artikel 2.6.1 lid 1 onder a"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "id": "rotterdam-kamerverhuur-2026",
@@ -921,7 +1061,41 @@
       ],
       "conflictStatus": "none-found",
       "conflicts": [],
-      "geographicScopeReview": "manual-review-required"
+      "geographicScopeReview": "manual-review-required",
+      "geographicScope": {
+        "operator": "AND",
+        "validFrom": "2026-01-01",
+        "validUntil": "2029-07-01",
+        "supersededBy": null,
+        "sourceVersion": "CVDR741632",
+        "lastVerifiedDate": "2026-08-09",
+        "conditions": [
+          {
+            "type": "municipality",
+            "operator": "equals",
+            "value": "GM0599",
+            "evidence": [
+              {
+                "municipalityCode": "GM0599",
+                "url": "https://lokaleregelgeving.overheid.nl/CVDR741632",
+                "section": "Artikel 2.2.1"
+              }
+            ]
+          },
+          {
+            "type": "official-map",
+            "machineReadable": false,
+            "mapReference": "Bijlage 2 uitgesloten gebieden",
+            "evidence": [
+              {
+                "municipalityCode": "GM0599",
+                "url": "https://lokaleregelgeving.overheid.nl/CVDR741632",
+                "section": "Artikel 2.2.3 lid 1 onder d en Bijlage 2"
+              }
+            ]
+          }
+        ]
+      }
     }
   ]
 }

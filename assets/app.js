@@ -1,4 +1,4 @@
-import {buildAddressContext,evaluateRule,groupEvaluations,isApplicationRouteRelevant,STATES} from "./applicability.js";
+import {buildAddressContext,evaluateRule,groupEvaluations,isApplicationRouteRelevant,STATES} from "./applicability.js?v=20260809-geography";
 "use strict";
 const state={municipalities:[],regulations:[],context:null,answers:{}};
 const el=id=>document.getElementById(id);

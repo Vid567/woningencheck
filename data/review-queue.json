@@ -56,8 +56,8 @@
       "id": "review-leiden-omzetting-2024-scope",
       "municipalityCode": "GM0546",
       "regulationId": "leiden-omzetting-2024",
-      "category": "geographic-scope",
-      "reason": "Kaart, wijk- of quotumgegevens vereisen handmatige interpretatie of structurele geometrie.",
+      "category": "official-map-needs-gis-digitisation",
+      "reason": "Offici?le kaart of bijlage gevonden, maar nog niet als gecontroleerde machineleesbare geometrie beschikbaar.",
       "status": "open",
       "priority": "high",
       "createdAt": "2026-08-09"
@@ -77,8 +77,8 @@
       "municipalityCode": "GM0599",
       "regulationId": "rotterdam-opkoop",
       "category": "geographic-scope",
-      "reason": "Kaart, wijk- of quotumgegevens vereisen handmatige interpretatie of structurele geometrie.",
-      "status": "open",
+      "reason": "De actuele verordening noemt zestien CBS-buurten met codes; deze zijn gestructureerd vastgelegd.",
+      "status": "resolved",
       "priority": "high",
       "createdAt": "2026-08-09"
     },
@@ -106,8 +106,8 @@
       "id": "review-rotterdam-kamerverhuur-2026-scope",
       "municipalityCode": "GM0599",
       "regulationId": "rotterdam-kamerverhuur-2026",
-      "category": "geographic-scope",
-      "reason": "Kaart, wijk- of quotumgegevens vereisen handmatige interpretatie of structurele geometrie.",
+      "category": "official-map-needs-gis-digitisation",
+      "reason": "Offici?le kaart of bijlage gevonden, maar nog niet als gecontroleerde machineleesbare geometrie beschikbaar.",
       "status": "open",
       "priority": "high",
       "createdAt": "2026-08-09"

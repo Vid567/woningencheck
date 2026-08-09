@@ -15,8 +15,8 @@ const question=synthetic({id:"q",category:"situation",conditionType:"occupants",
 assert.equal(evaluateRule(synthetic({id:"n",category:"geographic",conditionType:"neighborhood",source:"official-data",fact:"location.neighborhoodName",operator:"in",values:["De Waard"]}),context("Hoge Mors")).state,STATES.NOT_APPLICABLE);
 assert.equal(evaluateRule({...synthetic({id:"m",category:"geographic",conditionType:"municipality",source:"official-data",fact:"municipality.code",operator:"equals",value:"GM0546"}),conflictStatus:"conflict — manual review required"},context("De Waard")).state,STATES.REVIEW);
 assert.notEqual(evaluateRule(op,context("Hoge Mors")).state,STATES.APPLICABLE);
-assert.equal(evaluateRule(om,context("Hoge Mors")).state,STATES.NOT_APPLICABLE);
-assert.equal(evaluateRule(om,context("De Waard")).state,STATES.QUESTIONS);
+assert.equal(evaluateRule(om,context("Hoge Mors")).state,STATES.REVIEW);
+assert.equal(evaluateRule(om,context("De Waard")).state,STATES.REVIEW);
 const bag=buildAddressContext({postcode:"2315SW",huisnummer:51,straatnaam:"Trompstraat",weergavenaam:"Trompstraat 51",buurtnaam:"De Waard",buurtcode:"BU05460109",wijknaam:"Binnenstad-Noord",wijkcode:"WK054601",gemeentecode:"0546",gemeentenaam:"Leiden",adresseerbaarobject_id:"0546010000027941",centroide_ll:"POINT(4.508 52.158)"});assert.equal(bag.municipality.code,"GM0546");assert.equal("residents" in bag.property,false);
 const app=fs.readFileSync("assets/app.js","utf8");assert(!app.includes("not reviewed"));assert(!/BRP|bewonersregister/.test(app));
 assert(!isApplicationRouteRelevant({state:STATES.QUESTIONS}));assert(!isApplicationRouteRelevant({state:STATES.NOT_APPLICABLE}));assert(isApplicationRouteRelevant({state:STATES.POTENTIAL}));assert(isApplicationRouteRelevant({state:STATES.APPLICABLE}));

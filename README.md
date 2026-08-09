@@ -58,3 +58,5 @@ Woningencheck.nl is een informatie- en onderzoekstool. Regels veranderen en adre
 
 
 Address-specific architecture and source feasibility: [docs/address-data-source-analysis.md](docs/address-data-source-analysis.md).
+
+- [Geografisch scopemodel](docs/geographic-scope-model.md)

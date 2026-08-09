@@ -55,3 +55,6 @@ GitHub Pages hoort te publiceren uit `main`, map `/ (root)`. `CNAME` bevat exact
 ## Disclaimer
 
 Woningencheck.nl is een informatie- en onderzoekstool. Regels veranderen en adresomstandigheden kunnen het antwoord beïnvloeden. Raadpleeg vóór handelen altijd de gelinkte officiële instantie; de website vervangt geen juridisch advies of formeel gemeentelijk besluit.
+
+
+Address-specific architecture and source feasibility: [docs/address-data-source-analysis.md](docs/address-data-source-analysis.md).

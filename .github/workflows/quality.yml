@@ -12,6 +12,7 @@ jobs:
       - name: Parse all production JSON and verify municipality dropdown data
         run: node scripts/verify-data.mjs
       - run: node scripts/verify-pipeline.mjs
+      - run: node scripts/test-applicability.mjs
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
       - run: pip install jsonschema

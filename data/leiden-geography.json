@@ -1,0 +1,14 @@
+{
+  "schemaVersion":"1.0.0",
+  "municipalityCode":"GM0546",
+  "regulationId":"leiden-omzetting-2024",
+  "source":"https://lokaleregelgeving.overheid.nl/CVDR711669",
+  "sourceArticle":"Artikel 2, kaartbijlage en bijlage quota per straat",
+  "lastVerifiedAt":"2026-08-09",
+  "method":"Offici?le BAG-buurt gekoppeld aan de juridische kaart; geen grensbenadering",
+  "quotaNeighbourhoods":{"25":["De Camp","Marewijk","Pancras-West","Pancras-Oost","d'Oude Morsch","Noordvest","Havenwijk-Noord","Havenwijk-Zuid","Molenbuurt","De Waard","Pieterswijk"],"0":["Noorderkwartier","De Kooi","Transvaal"]},
+  "quota100Streets":["Aalmarkt","Breestraat","Catharinasteeg","Donkersteeg","Haarlemmerstraat","Hoogstraat","Maarsmansteeg","Mandenmakerssteeg","Stille Mare"],
+  "pilotAddresses":[{"postcode":"2332KD","houseNumber":112,"neighbourhoodCode":"BU05460602","neighbourhoodName":"Hoge Mors","mapMatch":false,"expectedGeographicState":"geographic-no-match"},{"postcode":"2315SW","houseNumber":51,"neighbourhoodCode":"BU05460109","neighbourhoodName":"De Waard","mapMatch":true,"quotaPercent":25,"expectedGeographicState":"geographic-match"}],
+  "mapImage":"https://repository.officiele-overheidspublicaties.nl/CVDR/CVDR711669/4/xml/Afbeelding1i5603f88d-80f4-4a5b-927f-3b79cf6e9db8.png",
+  "limitations":"De kaartbijlage is raster. Alleen juridisch benoemde quotumbuurten en de twee handmatig gecontroleerde pilotadressen zijn geclassificeerd; overige gebieden vragen GIS-voorbewerking."
+}

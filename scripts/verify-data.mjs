@@ -19,17 +19,16 @@ for(const rule of rules){
   if(rule.officialApplicationUrl&&!rule.officialApplicationUrl.startsWith("https://"))fail(`${rule.id}: non-HTTPS application URL`);
   if(rule.officialApplicationUrl===rule.officialInformationUrl&&rule.applicationUrlStatus!=="same-as-info-verified")fail(`${rule.id}: identical info/application URL lacks explicit review`);
   if(rule.officialApplicationUrl!==rule.officialInformationUrl&&rule.applicationUrlStatus==="same-as-info-verified")fail(`${rule.id}: same-URL status does not match URLs`);
-  if(!Array.isArray(rule.requiredDocuments)||!Array.isArray(rule.applicationDocuments))fail(`${rule.id}: document fields missing`);
-  for(const document of rule.applicationDocuments||[])if(!document.url.startsWith("https://"))fail(`${rule.id}: non-HTTPS document URL`);
-  const path=new URL(rule.officialApplicationUrl||"https://invalid.example").pathname.toLowerCase();
-  if(rule.regulationType==="opkoopbescherming"&&!/(opkoop|verhuurvergunning)/.test(path))fail(`${rule.id}: application URL may point to unrelated permit type`);
-  if(rule.regulationType==="omzettingsvergunning"&&!/(kamerverhuur|omzettingsvergunning)/.test(path))fail(`${rule.id}: application URL may point to unrelated permit type`);
-}
-for(const token of ["officialApplicationUrl","application-cta","Aanvraagroute nog niet bevestigd","Bekijk gemeentelijke uitleg","Bekijk CVDR-regeling"])if(!app.includes(token))fail(`application UI does not render ${token}`);
-for(const token of ['fetch("data/municipalities-2026.json"','state.municipalities.map','findMunicipality(found)','if(byCode)return byCode','Adres controleren...','Gemeente:'])if(!app.includes(token))fail(`municipality UI regression: missing ${token}`);
-if(app.includes("BAG-id:")||app.includes("Officieel BAG-adres zoeken via PDOK"))fail("technical address terminology exposed to users");
-const text=fs.readFileSync("index.html","utf8")+app;
-for(const bad of ["localhost","raw.githack.com","api_key","apiKey"])if(text.includes(bad))fail(`forbidden value found: ${bad}`);
-if(fs.readFileSync("CNAME","utf8").trim()!=="woningencheck.nl")fail("CNAME mismatch");
-if(!sources.length)fail("source register empty");
-if(!process.exitCode)console.log(`PASS: ${productionJson.length} production JSON files parsed; ${data.municipalities.length} municipalities available to dropdown; ${rules.length} rules, ${sources.length} sources`);
+  if(!Array.isArray(rule.requiredDocuments)||!Array.isArray(rule.applicatio×Ş5æÚ$z{-®éÜj×JNÚYŠY›İ[™
+]›İÈ™]È\œ›ÜŠ‘]Y™\ÈÛÛˆšY]ÛÜ™[ˆÙ]›Û™[‹ˆÛÛ›ÛY\ˆHÙYÙ]™[œËˆŠNØÛÛœİOYš[™][šXÚ\[]J›İ[™
+NÚYŠ[J]›İÈ™]È\œ›ÜŠ’]Y™\È\ÈÙ]›Û™[‹XX\ˆHÙ[YY[HÛÛˆšY]]]ÛX]\ØÚÛÜ™[ˆ™\X[ˆŠNÜİ]K˜ÛÛ^XZ[Y™\ÜĞÛÛ^
+›İ[™
+NÜİ]K˜[œİÙ\œÏ^ßNÛ\ÙË^ÛÛ[XY™\ÈÙ]›Û™[ˆ	Ù›İ[™ÙY\™Ø]™[˜X[_XÜÙ[Xİ
+K˜ÛÙK›İ[™
+_XØ]Ú
+\œ›ÜŠ^Û\ÙË^ÛÛ[X	Ù\œ›Ü‹›Y\ÜØYÙ_HHİ[Y\›Û™\ˆÛÚÈ™[ˆY[ˆÙ[YY[HÚY^™[‹˜Û\ÙË˜Û\ÜÓ˜[YOH™\œ›ÜˆŸ_JNÂ™[
+œ[\ÈŠK˜Y]™[\İ[™\Š˜Ú[™ÙH‹]™[OØÛÛœİY]™[\™Ù]™]\Ù]œ[KOY]™[\™Ù]™]\Ù]œ]Y\İ[ÛÚYŠ\Ÿ\J\™]\›Üİ]K˜[œİÙ\œÖÜ—OÏÏ^ßNÜİ]K˜[œİÙ\œÖÜ—VÜWOY]™[\™Ù]˜[YNÜÙ[Xİ
+İ]K˜ÛÛ^›][šXÚ\[]K˜ÛÙKİ]K˜ÛÛ^˜Y™\ÜÏË™\Ü^S˜[YOŞİÙY\™Ø]™[˜X[Nœİ]K˜ÛÛ^˜Y™\ÜË™\Ü^S˜[Y_N›[
+_JNÂ›ØY
+
+NÂ

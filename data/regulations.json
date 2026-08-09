@@ -393,18 +393,53 @@
       ],
       "conflictStatus": "none-found",
       "conflicts": [],
-      "geographicScopeReview": "structured-candidate"
-    },
-    {
-      "id": "leiden-omzetting-2024",
-      "municipalityCode": "GM0546",
-      "municipalityName": "Leiden",
-      "title": "Woning omzetten naar kamerverhuur",
-      "regulationType": "omzettingsvergunning",
-      "scopeType": "kaart en straatquotum",
-      "scopeValue": "aangewezen gebieden en straten in de verordening",
-      "shortDescription": "In aangewezen delen van Leiden geldt een omzettingsvergunning voor kamerverhuur; de regeling bevat straatquota van 100%, 25% en 0%.",
-      "conditions": "De beleidsregel verduidelijkt dat de vergunningplicht niet wordt uitgebreid tot huishoudens van minder dan drie personen.",
+      "geographicScopeReview": "structured-candidate",
+      "applicability": {
+        "version": "1.0.0",
+        "conclusiveWhenMatched": false,
+        "matchMessage": "De opkoopbescherming kan relevant zijn. De aankoop, WOZ-waarde en verhuursituatie bepalen dit.",
+        "geographicNoMatchMessage": null,
+        "conditions": [
+          {
+            "id": "municipality",
+            "category": "geographic",
+            "conditionType": "municipality",
+            "source": "official-data",
+            "fact": "municipality.code",
+            "operator": "equals",
+            "value": "GM0546",
+            "evidenceSection": "Artikel 7 lid 1",
+            "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR711669"
+          },
+          {
+            "id": "intends-rental",
+            "category": "situation",
+            "conditionType": "intended-rental",
+            "source": "user-input",
+            "operator": "equals",
+            "value": "yes",
+            "question": "Wilt u deze woning verhuren?",
+            "answerType": "yes-no",
+            "evidenceSection": "Artikel 7",
+            "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR711669"
+          },
+          {
+            "id": "acquired-after-start",
+            "category": "situation",
+            "conditionType": "acquisition-date",
+            "source": "user-input",
+            "operator": "equals",
+            "value": "yes",
+            "question": "Kreeg u de woning geleverd na 1 januari 2024?",
+            "answerType": "yes-no",
+            "evidenceSection": "Artikel 7 lid 1 onder b",
+            "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR711669"
+          },
+          {
+            "id": "woz-at-acquisition-within-nhg",
+            "category": "property",
+            "conditionType": "woz-value",
+            "source": "user-…395 tokens truncated…ens van minder dan drie personen.",
       "exceptions": "Overgangsrecht en uitzonderingen staan in de actuele verordening en beleidsregel.",
       "officialInformationUrl": "https://gemeente.leiden.nl/inwoners-en-ondernemers/wonen-en-bouwen/wonen/woning-veranderen-in-kamerverhuur/",
       "officialApplicationUrl": "https://gemeente.leiden.nl/formulieren/aanvraag-omzettingsvergunning-digid/",
@@ -565,7 +600,64 @@
       ],
       "conflictStatus": "none-found",
       "conflicts": [],
-      "geographicScopeReview": "manual-review-required"
+      "geographicScopeReview": "manual-review-required",
+      "applicability": {
+        "version": "1.0.0",
+        "conclusiveWhenMatched": false,
+        "matchMessage": "Uw adres ligt in een aangewezen deel van Leiden. Uw voorgenomen gebruik bepaalt of een vergunning nodig kan zijn.",
+        "geographicNoMatchMessage": "Dit adres ligt volgens de officiële buurtgegevens en de gecontroleerde kaart niet in het aangewezen gebied voor deze Leidse omzettingsvergunning.",
+        "conditions": [
+          {
+            "id": "municipality",
+            "category": "geographic",
+            "conditionType": "municipality",
+            "source": "official-data",
+            "fact": "municipality.code",
+            "operator": "equals",
+            "value": "GM0546",
+            "evidenceSection": "Artikel 2",
+            "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR711669"
+          },
+          {
+            "id": "designated-neighbourhood",
+            "category": "geographic",
+            "conditionType": "neighbourhood",
+            "source": "official-data",
+            "fact": "location.neighborhoodName",
+            "operator": "in",
+            "values": [
+              "De Camp",
+              "Marewijk",
+              "Pancras-West",
+              "Pancras-Oost",
+              "d'Oude Morsch",
+              "Noordvest",
+              "Havenwijk-Noord",
+              "Havenwijk-Zuid",
+              "Molenbuurt",
+              "De Waard",
+              "Pieterswijk",
+              "Noorderkwartier",
+              "De Kooi",
+              "Transvaal"
+            ],
+            "evidenceSection": "Kaartbijlage en bijlage quota per straat",
+            "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR711669"
+          },
+          {
+            "id": "shared-non-household-rental",
+            "category": "situation",
+            "conditionType": "occupancy-intent",
+            "source": "user-input",
+            "operator": "equals",
+            "value": "yes",
+            "question": "Wilt u de woning verhuren aan meerdere personen die niet samen één huishouden vormen?",
+            "answerType": "yes-no",
+            "evidenceSection": "Artikel 1 en artikel 2",
+            "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR711669"
+          }
+        ]
+      }
     },
     {
       "id": "rotterdam-opkoop",
@@ -801,3 +893,4 @@
     }
   ]
 }
+

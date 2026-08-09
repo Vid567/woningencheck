@@ -361,7 +361,9 @@
       "enum": [
         "structured-candidate",
         "verified",
-        "manual-review-required"
+        "manual-review-required",
+        "fully-verified",
+        "partially-verified"
       ]
     },
     "notes": {

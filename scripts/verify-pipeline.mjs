@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 4.2 seconds
-Output:
 import fs from "node:fs";
 const read=path=>JSON.parse(fs.readFileSync(path,"utf8"));
 const fail=message=>{console.error(`FAIL: ${message}`);process.exitCode=1};
@@ -41,4 +38,3 @@ const batchCodes=new Set(batch001.municipalities.map(item=>item.municipalityCode
 if(batchCodes.size!==10)fail(`batch 001 must contain exactly ten municipalities, got ${batchCodes.size}`);
 if(batch001.municipalities.some(item=>!research.some(record=>record.municipalityCode===item.municipalityCode&&record.researchStatus!=="not-started")))fail("batch 001 status update incomplete");
 if(!process.exitCode)console.log(`PASS pipeline: ${research.length} municipalities, ${taxonomy.length} permit types, ${regulations.length} pilot records, ${reviews.length} review items`);
-

@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 4.2 seconds
-Output:
 {
   "schemaVersion": "1.0.0",
   "batchId": "batch-001",
@@ -37,7 +34,7 @@ Output:
       ],
       "reviewLevel": "C",
       "unresolvedQuestions": [
-        "Geen actuele officiÃ«le implementatiebron gevonden; bron-/registercontrole door tweede onderzoeker vereist voordat een negatieve conclusie mogelijk is."
+        "Geen actuele officiële implementatiebron gevonden; bron-/registercontrole door tweede onderzoeker vereist voordat een negatieve conclusie mogelijk is."
       ]
     },
     {
@@ -103,7 +100,7 @@ Output:
     {
       "municipalityCode": "GM0059",
       "municipalityName": "Achtkarspelen",
-      "province": "FryslÃ¢n",
+      "province": "Fryslân",
       "researchedPermitTypes": [
         "purchase-protection",
         "good-landlord-permit",
@@ -255,7 +252,7 @@ Output:
       ],
       "reviewLevel": "C",
       "unresolvedQuestions": [
-        "Bevestig de geÃ¯ndexeerde WOZ-grens voor 2026 en digitaliseer/vergelijk bijlage 1 van de leegstandverordening."
+        "Bevestig de geïndexeerde WOZ-grens voor 2026 en digitaliseer/vergelijk bijlage 1 van de leegstandverordening."
       ]
     },
     {
@@ -317,7 +314,7 @@ Output:
       ],
       "reviewLevel": "C",
       "unresolvedQuestions": [
-        "Geen actuele officiÃ«le implementatiebron gevonden; controleer regionale en gemeentelijke registers handmatig voordat een negatieve conclusie mogelijk is."
+        "Geen actuele officiële implementatiebron gevonden; controleer regionale en gemeentelijke registers handmatig voordat een negatieve conclusie mogelijk is."
       ]
     }
   ],
@@ -374,7 +371,7 @@ Output:
       "geographicScope": {
         "method": "whole-municipality",
         "conditions": [
-          "Zelfstandige woonruimte en kantoren groter dan 500 mÂ²; melding na zes maanden."
+          "Zelfstandige woonruimte en kantoren groter dan 500 m²; melding na zes maanden."
         ]
       },
       "extractedFacts": [],
@@ -407,9 +404,9 @@ Output:
       },
       "extractedFacts": [],
       "requiredDocuments": [
-        "Modelhuurovereenkomst â€” Zelf aanleveren",
-        "Beschrijving naleving goed verhuurderschap â€” Zelf aanleveren",
-        "Opgave handhavingsbesluiten â€” Zelf aanleveren"
+        "Modelhuurovereenkomst — Zelf aanleveren",
+        "Beschrijving naleving goed verhuurderschap — Zelf aanleveren",
+        "Opgave handhavingsbesluiten — Zelf aanleveren"
       ],
       "reviewLevel": "B",
       "substantiveVerificationStatus": "research-pending-review",
@@ -460,7 +457,7 @@ Output:
       "geographicScope": {
         "method": "municipality-and-property-conditions",
         "conditions": [
-          "Exact toepassingsbereik moet inhoudelijk worden gecontroleerd vÃ³Ã³r publicatie."
+          "Exact toepassingsbereik moet inhoudelijk worden gecontroleerd vóór publicatie."
         ]
       },
       "extractedFacts": [],
@@ -549,8 +546,8 @@ Output:
       },
       "extractedFacts": [],
       "requiredDocuments": [
-        "Vastgesteld aanvraagformulier â€” officiÃ«le route nog te bevestigen",
-        "Situatie- en leefbaarheidsgegevens â€” Zelf aanleveren"
+        "Vastgesteld aanvraagformulier — officiële route nog te bevestigen",
+        "Situatie- en leefbaarheidsgegevens — Zelf aanleveren"
       ],
       "reviewLevel": "B",
       "substantiveVerificationStatus": "research-pending-review",
@@ -576,7 +573,7 @@ Output:
         "method": "cbs-district-list-and-value",
         "conditions": [
           "CBS-wijken 014110, 014115, 014116, 014111, 014114, 014113 en 014112.",
-          "WOZ-grens in regeling â‚¬265.000; jaarlijkse indexering vereist actuele controle."
+          "WOZ-grens in regeling €265.000; jaarlijkse indexering vereist actuele controle."
         ]
       },
       "extractedFacts": [],
@@ -638,8 +635,8 @@ Output:
       },
       "extractedFacts": [],
       "requiredDocuments": [
-        "Eigendomsbewijs â€” Zelf aanleveren",
-        "Bewijs uitzonderingsgrond â€” Zelf aanleveren"
+        "Eigendomsbewijs — Zelf aanleveren",
+        "Bewijs uitzonderingsgrond — Zelf aanleveren"
       ],
       "reviewLevel": "B",
       "substantiveVerificationStatus": "research-pending-review",
@@ -649,4 +646,3 @@ Output:
   "absencePolicy": "not-found is not treated as no-current-regulation",
   "publicDecisionRecordsAdded": 0
 }
-

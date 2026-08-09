@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 4.3 seconds
-Output:
 import fs from "node:fs";
 import {createHash} from "node:crypto";
 const sources=JSON.parse(fs.readFileSync("data/sources.json","utf8")).sources;
@@ -19,4 +16,3 @@ for(const target of unique){
 const merged=[...new Map([...previous,...snapshots].map(snapshot=>[snapshot.url,snapshot])).values()];
 fs.writeFileSync("data/source-snapshots.json",JSON.stringify({schemaVersion:"1.0.0",generatedAt:"2026-08-09",snapshots:merged},null,2)+"\n");
 console.log(`Stored ${snapshots.length} source snapshots; changes require review, never automatic legal rewrites.`);
-

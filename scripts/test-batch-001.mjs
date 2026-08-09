@@ -1,6 +1,3 @@
-Exit code: 0
-Wall time: 4.1 seconds
-Output:
 import fs from 'node:fs';
 import assert from 'node:assert/strict';
 
@@ -21,4 +18,3 @@ const html=fs.readFileSync('index.html','utf8')+fs.readFileSync('assets/app.js',
 for(const internal of ['manual-gis-review-required','same-as-info-verified','automated recheck pending']) assert.ok(!html.includes(internal),`internal status leaked: ${internal}`);
 assert.equal(fs.readFileSync('CNAME','utf8').trim(),'woningencheck.nl');
 console.log(`batch-001 ok: ${batch.municipalities.length} municipalities, ${batch.findings.length} research findings, 0 unverified CTAs`);
-

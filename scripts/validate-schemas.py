@@ -5,6 +5,7 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 from jsonschema import Draft202012Validator, RefResolver
 
 root=Path(__file__).resolve().parents[1]
+production_json={path.relative_to(root).as_posix():json.load(path.open(encoding="utf-8")) for path in (root/"data").rglob("*.json")}
 schemas={path.name:json.loads(path.read_text(encoding="utf-8")) for path in (root/"schemas").glob("*.json")}
 store={schema.get("$id",name):schema for name,schema in schemas.items()}
 
@@ -19,4 +20,4 @@ def validate(schema_name, values):
 validate("regulation.schema.json",json.loads((root/"data/regulations.json").read_text(encoding="utf-8"))["records"])
 validate("research-status.schema.json",json.loads((root/"data/research-status.json").read_text(encoding="utf-8"))["records"])
 validate("review-item.schema.json",json.loads((root/"data/review-queue.json").read_text(encoding="utf-8"))["items"])
-print("PASS JSON Schema validation")
+print(f"PASS Python json.load for {len(production_json)} production files; JSON Schema validation")

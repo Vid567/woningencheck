@@ -1,11 +1,17 @@
 import fs from "node:fs";
 const read=path=>JSON.parse(fs.readFileSync(path,"utf8"));
+const productionJson=fs.readdirSync("data",{recursive:true}).filter(path=>String(path).endsWith(".json")).map(path=>`data/${String(path).replaceAll("\\","/")}`);
+for(const path of productionJson)read(path);
 const data=read("data/municipalities-2026.json"),rules=read("data/regulations.json").records,sources=read("data/sources.json").sources;
 const app=fs.readFileSync("assets/app.js","utf8"),fail=message=>{console.error(`FAIL: ${message}`);process.exitCode=1};
 if(data.municipalities.length!==342)fail(`expected 342 municipalities, got ${data.municipalities.length}`);
+if(data.municipalityCount!==342)fail(`municipalityCount must be 342, got ${data.municipalityCount}`);
 for(const field of ["code","name"])if(new Set(data.municipalities.map(item=>item[field])).size!==342)fail(`municipality ${field} values are not unique`);
 for(const abolished of ["Boxmeer","Cuijk","Grave","Uden","Weesp","Brielle","Hellevoetsluis","Westvoorne"])if(data.municipalities.some(item=>item.name===abolished))fail(`${abolished} incorrectly marked current`);
-for(const current of ["Land van Cuijk","Maashorst","Voorne aan Zee"])if(!data.municipalities.some(item=>item.name===current))fail(`${current} missing`);
+for(const current of ["Den Haag","Rotterdam","Leiden","Emmen","Land van Cuijk","Maashorst","Voorne aan Zee"])if(!data.municipalities.some(item=>item.name===current))fail(`${current} missing`);
+const denHaag=data.municipalities.find(item=>item.code==="GM0518");
+if(!denHaag||denHaag.canonicalName!=="'s-Gravenhage"||!denHaag.aliases?.includes("'s-Gravenhage"))fail("canonical name and alias missing for Den Haag");
+if(new Set(data.municipalities.map(item=>JSON.stringify(item))).size!==342)fail("municipality records are not unique");
 const codes=new Set(data.municipalities.map(item=>item.code));
 for(const rule of rules){
   if(!codes.has(rule.municipalityCode))fail(`${rule.id}: unknown municipality code`);
@@ -20,8 +26,10 @@ for(const rule of rules){
   if(rule.regulationType==="omzettingsvergunning"&&!/(kamerverhuur|omzettingsvergunning)/.test(path))fail(`${rule.id}: application URL may point to unrelated permit type`);
 }
 for(const token of ["officialApplicationUrl","application-cta","Aanvraagroute nog niet bevestigd","Bekijk gemeentelijke uitleg","Bekijk CVDR-regeling"])if(!app.includes(token))fail(`application UI does not render ${token}`);
+for(const token of ['fetch("data/municipalities-2026.json")','m.municipalities.map','findMunicipality(found.gemeentecode,found.gemeentenaam)','Adres controleren...','Adres gevonden · Gemeente:'])if(!app.includes(token))fail(`municipality UI regression: missing ${token}`);
+if(app.includes("BAG-id:")||app.includes("Officieel BAG-adres zoeken via PDOK"))fail("technical address terminology exposed to users");
 const text=fs.readFileSync("index.html","utf8")+app;
 for(const bad of ["localhost","raw.githack.com","api_key","apiKey"])if(text.includes(bad))fail(`forbidden value found: ${bad}`);
 if(fs.readFileSync("CNAME","utf8").trim()!=="woningencheck.nl")fail("CNAME mismatch");
 if(!sources.length)fail("source register empty");
-if(!process.exitCode)console.log(`PASS: ${data.municipalities.length} municipalities, ${rules.length} rules, ${sources.length} sources; application CTA rendered and reviewed`);
+if(!process.exitCode)console.log(`PASS: ${productionJson.length} production JSON files parsed; ${data.municipalities.length} municipalities available to dropdown; ${rules.length} rules, ${sources.length} sources`);

@@ -27,6 +27,10 @@ Een gevonden link keurt nooit automatisch de juridische uitleg goed. Conflicten 
 
 De records voor Den Haag, Emmen, Leiden en Rotterdam zijn nog niet juridisch goedgekeurd. Ze vormen een controleerbare researchbasis, geen volledige adresbeslissing.
 
+## Onderzoekspijplijn
+
+De CBS-lijst voedt `research-status.json`; geen tweede namenlijst wordt onderhouden. `permit-taxonomy.json` normaliseert onderwerpen zonder gemeentelijke terminologie te overschrijven. Claim-evidence, verificatielagen en tijdvelden zijn onderdeel van ieder gemigreerd pilotrecord. Handmatige problemen staan afzonderlijk in `review-queue.json`, zodat één ambigu record de rest van het onderzoek niet blokkeert. De volledige methode staat in `research-methodology.md`.
+
 ## Verificatie van aanvraagroutes
 
 `officialApplicationUrl` wordt afzonderlijk beoordeeld en krijgt `separate-verified`, `same-as-info-verified` of `unresolved`. Een identieke informatie- en aanvraag-URL is alleen toegestaan wanneer de officiële pagina aantoonbaar zelf de aanvraag-ingang bevat. De verificatiedatum, benodigde documenten en directe formulierlinks worden per record bewaard. Bij `unresolved` toont de UI een niet-klikbare reviewstatus in plaats van een fictieve aanvraagknop.

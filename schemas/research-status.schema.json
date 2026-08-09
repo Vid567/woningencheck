@@ -1,1 +1,27 @@
-{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"Municipality research status","type":"object","required":["municipalityCode","municipalityName","province","researchStatus","researchStartedAt","researchCompletedAt","lastCheckedAt","nextReviewAt","researchedPermitTypes","unresolvedQuestions","conflicts","sourceCount","notes"],"properties":{"municipalityCode":{"pattern":"^GM[0-9]{4}$"},"municipalityName":{"type":"string"},"province":{"type":"string"},"researchStatus":{"enum":["not-started","in-research","source-review","legal-review-required","verified","partially-verified","conflict","recheck-required"]},"researchStartedAt":{"type":["string","null"],"format":"date"},"researchCompletedAt":{"type":["string","null"],"format":"date"},"lastCheckedAt":{"type":["string","null"],"format":"date"},"nextReviewAt":{"type":["string","null"],"format":"date"},"researchedPermitTypes":{"type":"array","items":{"type":"string"},"uniqueItems":true},"unresolvedQuestions":{"type":"array","items":{"type":"string"}},"conflicts":{"type":"array","items":{"type":"object"}},"sourceCount":{"type":"integer","minimum":0},"notes":{"type":"string"}},"additionalProperties":false}
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Municipality research status",
+  "type": "object",
+  "required": ["municipalityCode","municipalityName","province","researchStatus","researchStartedAt","researchCompletedAt","lastCheckedAt","nextReviewAt","researchedPermitTypes","unresolvedQuestions","conflicts","sourceCount","notes"],
+  "properties": {
+    "municipalityCode": {"pattern": "^GM[0-9]{4}$"},
+    "municipalityName": {"type": "string"},
+    "province": {"type": "string"},
+    "researchStatus": {"enum": ["not-started","in-research","source-review","legal-review-required","verified","partially-verified","conflict","recheck-required"]},
+    "researchStartedAt": {"type": ["string","null"],"format": "date"},
+    "researchCompletedAt": {"type": ["string","null"],"format": "date"},
+    "lastCheckedAt": {"type": ["string","null"],"format": "date"},
+    "nextReviewAt": {"type": ["string","null"],"format": "date"},
+    "researchedPermitTypes": {"type": "array","items": {"type": "string"},"uniqueItems": true},
+    "unresolvedQuestions": {"type": "array","items": {"type": "string"}},
+    "conflicts": {"type": "array","items": {"type": "object"}},
+    "sourceCount": {"type": "integer","minimum": 0},
+    "notes": {"type": "string"},
+    "discoveryStatus": {"enum": ["discovery-complete"]},
+    "discoveryTier": {"type": "integer","minimum": 1,"maximum": 5},
+    "verificationRoute": {"enum": ["structured-verification-required","deep-verification-required","source-incomplete"]},
+    "discoveryBatch": {"type": "string"},
+    "discoveryCheckedAt": {"type": "string","format": "date"}
+  },
+  "additionalProperties": false
+}

@@ -1,16 +1,127 @@
 {
   "schemaVersion": "1.0.0",
   "permitTypes": [
-    {"canonicalType":"purchase-protection","defaultDutchName":"Opkoopbescherming","aliases":["verhuurvergunning opkoopbescherming"],"legalBasis":["Huisvestingswet 2014"]},
-    {"canonicalType":"good-landlord-permit","defaultDutchName":"Verhuurvergunning Wet goed verhuurderschap","aliases":["verhuurvergunning goed verhuurderschap","verhuurdersvergunning"],"legalBasis":["Wet goed verhuurderschap"]},
-    {"canonicalType":"conversion-permit","defaultDutchName":"Omzettingsvergunning","aliases":["kamerverhuurvergunning","vergunning kamerverhuur"],"legalBasis":["Huisvestingswet 2014"]},
-    {"canonicalType":"room-rental","defaultDutchName":"Kamerverhuur","aliases":["verkamering","onzelfstandige woonruimte"],"legalBasis":[]},
-    {"canonicalType":"dwelling-formation","defaultDutchName":"Woningvorming","aliases":["woningvormingsvergunning"],"legalBasis":["Huisvestingswet 2014"]},
-    {"canonicalType":"building-split","defaultDutchName":"Splitsingsvergunning","aliases":["bouwkundige splitsing","kadastrale splitsing"],"legalBasis":["Huisvestingswet 2014"]},
-    {"canonicalType":"withdrawal-merger","defaultDutchName":"Onttrekken of samenvoegen","aliases":["onttrekkingsvergunning","samenvoegingsvergunning"],"legalBasis":["Huisvestingswet 2014"]},
-    {"canonicalType":"short-stay","defaultDutchName":"Short-stay","aliases":["tijdelijk verblijf"],"legalBasis":[]},
-    {"canonicalType":"holiday-rental","defaultDutchName":"Vakantieverhuur","aliases":["toeristische verhuur"],"legalBasis":["Huisvestingswet 2014"]},
-    {"canonicalType":"housing-permit","defaultDutchName":"Huisvestingsvergunning","aliases":["woonvergunning"],"legalBasis":["Huisvestingswet 2014"]},
-    {"canonicalType":"vacancy-obligation","defaultDutchName":"Leegstandvergunning of meldplicht","aliases":["leegstandvergunning","leegstandmelding"],"legalBasis":["Leegstandwet"]}
+    {
+      "canonicalType": "purchase-protection",
+      "defaultDutchName": "Opkoopbescherming",
+      "aliases": [
+        "verhuurvergunning opkoopbescherming"
+      ],
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ]
+    },
+    {
+      "canonicalType": "good-landlord-permit",
+      "defaultDutchName": "Verhuurvergunning Wet goed verhuurderschap",
+      "aliases": [
+        "verhuurvergunning goed verhuurderschap",
+        "verhuurdersvergunning"
+      ],
+      "legalBasis": [
+        "Wet goed verhuurderschap"
+      ]
+    },
+    {
+      "canonicalType": "conversion-permit",
+      "defaultDutchName": "Omzettingsvergunning",
+      "aliases": [
+        "kamerverhuurvergunning",
+        "vergunning kamerverhuur"
+      ],
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ]
+    },
+    {
+      "canonicalType": "room-rental",
+      "defaultDutchName": "Kamerverhuur",
+      "aliases": [
+        "verkamering",
+        "onzelfstandige woonruimte"
+      ],
+      "legalBasis": []
+    },
+    {
+      "canonicalType": "dwelling-formation",
+      "defaultDutchName": "Woningvorming",
+      "aliases": [
+        "woningvormingsvergunning"
+      ],
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ]
+    },
+    {
+      "canonicalType": "building-split",
+      "defaultDutchName": "Splitsingsvergunning",
+      "aliases": [
+        "bouwkundige splitsing",
+        "kadastrale splitsing"
+      ],
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ]
+    },
+    {
+      "canonicalType": "withdrawal-merger",
+      "defaultDutchName": "Onttrekken of samenvoegen",
+      "aliases": [
+        "onttrekkingsvergunning",
+        "samenvoegingsvergunning"
+      ],
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ]
+    },
+    {
+      "canonicalType": "short-stay",
+      "defaultDutchName": "Short-stay",
+      "aliases": [
+        "tijdelijk verblijf"
+      ],
+      "legalBasis": []
+    },
+    {
+      "canonicalType": "holiday-rental",
+      "defaultDutchName": "Vakantieverhuur",
+      "aliases": [
+        "toeristische verhuur"
+      ],
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ]
+    },
+    {
+      "canonicalType": "housing-permit",
+      "defaultDutchName": "Huisvestingsvergunning",
+      "aliases": [
+        "woonvergunning"
+      ],
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ]
+    },
+    {
+      "canonicalType": "vacancy-obligation",
+      "defaultDutchName": "Leegstandvergunning of meldplicht",
+      "aliases": [
+        "leegstandvergunning",
+        "leegstandmelding"
+      ],
+      "legalBasis": [
+        "Leegstandwet"
+      ]
+    },
+    {
+      "canonicalType": "planning-housing-permit",
+      "defaultDutchName": "Omgevingsvergunning voor woongebruik",
+      "aliases": [
+        "omgevingsvergunning huisvesting"
+      ],
+      "legalBasis": [
+        "Omgevingswet"
+      ]
+    }
   ]
 }

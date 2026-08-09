@@ -1,0 +1,837 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "batch-002",
+  "startedAt": "2026-08-09",
+  "completedAt": "2026-08-09",
+  "selectionRule": "Eerste tien not-started gemeenten in canonical order",
+  "municipalities": [
+    {
+      "municipalityCode": "GM1723",
+      "municipalityName": "Alphen-Chaam",
+      "province": "Noord-Brabant"
+    },
+    {
+      "municipalityCode": "GM1959",
+      "municipalityName": "Altena",
+      "province": "Noord-Brabant"
+    },
+    {
+      "municipalityCode": "GM0060",
+      "municipalityName": "Ameland",
+      "province": "Fryslân"
+    },
+    {
+      "municipalityCode": "GM0307",
+      "municipalityName": "Amersfoort",
+      "province": "Utrecht"
+    },
+    {
+      "municipalityCode": "GM0362",
+      "municipalityName": "Amstelveen",
+      "province": "Noord-Holland"
+    },
+    {
+      "municipalityCode": "GM0363",
+      "municipalityName": "Amsterdam",
+      "province": "Noord-Holland"
+    },
+    {
+      "municipalityCode": "GM0200",
+      "municipalityName": "Apeldoorn",
+      "province": "Gelderland"
+    },
+    {
+      "municipalityCode": "GM0202",
+      "municipalityName": "Arnhem",
+      "province": "Gelderland"
+    },
+    {
+      "municipalityCode": "GM0106",
+      "municipalityName": "Assen",
+      "province": "Drenthe"
+    },
+    {
+      "municipalityCode": "GM0743",
+      "municipalityName": "Asten",
+      "province": "Noord-Brabant"
+    }
+  ],
+  "findings": [
+    {
+      "id": "altena-labour",
+      "municipalityCode": "GM1959",
+      "canonicalTypes": [
+        "planning-housing-permit"
+      ],
+      "title": "Arbeidsmigrantenhuisvesting Altena",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR699287",
+      "officialInfoUrl": "https://www.gemeentealtena.nl/bouwen-en-verbouwen/het-proces-rondom-een-vergunning",
+      "officialApplicationUrl": "https://omgevingswet.overheid.nl/checken",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Omgevingswet"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "development-and-site-specific",
+        "conditions": [
+          "Afwijking omgevingsplan; project- en locatiegebonden."
+        ]
+      },
+      "extractedFacts": [
+        "Afwijking omgevingsplan; project- en locatiegebonden."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens - Zelf aanleveren"
+      ],
+      "reviewLevel": "B",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "omgevingsloket",
+        "authentication": [],
+        "actionLabel": "Vergunning aanvragen"
+      }
+    },
+    {
+      "id": "ameland-housing",
+      "municipalityCode": "GM0060",
+      "canonicalTypes": [
+        "housing-permit"
+      ],
+      "title": "Huisvestingsverordening Ameland 2023",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR704968",
+      "officialInfoUrl": "https://www.ameland.nl/huisvestingsvergunning",
+      "officialApplicationUrl": "https://www.ameland.nl/huisvestingsvergunning",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-and-price",
+        "conditions": [
+          "Koop WOZ <= EUR 663.785 of huur < EUR 1.100; binding vereist."
+        ]
+      },
+      "extractedFacts": [
+        "Koop WOZ <= EUR 663.785 of huur < EUR 1.100; binding vereist."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens - Zelf aanleveren"
+      ],
+      "reviewLevel": "A",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "digital-form",
+        "authentication": [],
+        "actionLabel": "Vergunning aanvragen"
+      }
+    },
+    {
+      "id": "ameland-opkoop",
+      "municipalityCode": "GM0060",
+      "canonicalTypes": [
+        "purchase-protection"
+      ],
+      "title": "Opkoopbescherming Ameland",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR704968",
+      "officialInfoUrl": "https://www.ameland.nl/huisvestingsvergunning",
+      "officialApplicationUrl": "https://www.ameland.nl/huisvestingsvergunning",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-and-value",
+        "conditions": [
+          "WOZ <= EUR 663.785; vier jaar; familie-uitzondering."
+        ]
+      },
+      "extractedFacts": [
+        "WOZ <= EUR 663.785; vier jaar; familie-uitzondering."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens - Zelf aanleveren"
+      ],
+      "reviewLevel": "A",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "digital-form",
+        "authentication": [],
+        "actionLabel": "Vergunning aanvragen"
+      }
+    },
+    {
+      "id": "amersfoort-housing",
+      "municipalityCode": "GM0307",
+      "canonicalTypes": [
+        "housing-permit"
+      ],
+      "title": "Huisvestingsverordening Amersfoort 2025",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR741596",
+      "officialInfoUrl": "https://www.amersfoort.nl/huren-amersfoort",
+      "officialApplicationUrl": null,
+      "applicationRouteStatus": "not-confirmed",
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-and-rent",
+        "conditions": [
+          "Aangewezen verhuurders tot EUR 932,93."
+        ]
+      },
+      "extractedFacts": [
+        "Aangewezen verhuurders tot EUR 932,93."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens - Zelf aanleveren"
+      ],
+      "reviewLevel": "B",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09"
+    },
+    {
+      "id": "amersfoort-vacancy",
+      "municipalityCode": "GM0307",
+      "canonicalTypes": [
+        "vacancy-obligation"
+      ],
+      "title": "Leegstandverordening Amersfoort",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR758403",
+      "officialInfoUrl": "https://www.amersfoort.nl/leegstand-woning",
+      "officialApplicationUrl": "https://www.amersfoort.nl/leegstand-woning",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Leegstandwet"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-residential",
+        "conditions": [
+          "Alle woningen; melding na zes maanden."
+        ]
+      },
+      "extractedFacts": [
+        "Alle woningen; melding na zes maanden."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens - Zelf aanleveren"
+      ],
+      "reviewLevel": "A",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "digital-form",
+        "authentication": [],
+        "actionLabel": "Melding doen"
+      }
+    },
+    {
+      "id": "amstelveen-vacancy",
+      "municipalityCode": "GM0362",
+      "canonicalTypes": [
+        "vacancy-obligation"
+      ],
+      "title": "Leegstandverordening Amstelveen 2018",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR614436",
+      "officialInfoUrl": "https://www.amstelveen.nl/leegstand-melden",
+      "officialApplicationUrl": null,
+      "applicationRouteStatus": "not-confirmed",
+      "legalBasis": [
+        "Leegstandwet"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-object",
+        "conditions": [
+          "Woningen en kantoren >1.000 m²; zes maanden."
+        ]
+      },
+      "extractedFacts": [
+        "Woningen en kantoren >1.000 m²; zes maanden."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens - Zelf aanleveren"
+      ],
+      "reviewLevel": "B",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09"
+    },
+    {
+      "id": "amstelveen-opkoop",
+      "municipalityCode": "GM0362",
+      "canonicalTypes": [
+        "purchase-protection"
+      ],
+      "title": "Opkoopbescherming Amstelveen",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR748045",
+      "officialInfoUrl": "https://www.amstelveen.nl/verhuurvergunning-bij-opkoopbescherming",
+      "officialApplicationUrl": "https://www.amstelveen.nl/verhuurvergunning-bij-opkoopbescherming",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-and-value",
+        "conditions": [
+          "WOZ <= EUR 576.000; levering vanaf 1 juli 2022; vier jaar."
+        ]
+      },
+      "extractedFacts": [
+        "WOZ <= EUR 576.000; levering vanaf 1 juli 2022; vier jaar."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens - Zelf aanleveren"
+      ],
+      "reviewLevel": "A",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "digital-form",
+        "authentication": [],
+        "actionLabel": "Vergunning aanvragen"
+      }
+    },
+    {
+      "id": "amstelveen-sharing",
+      "municipalityCode": "GM0362",
+      "canonicalTypes": [
+        "room-rental"
+      ],
+      "title": "Woningdelen Amstelveen",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR748045",
+      "officialInfoUrl": "https://www.amstelveen.nl/woningdelen",
+      "officialApplicationUrl": "https://omgevingswet.overheid.nl/checken",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-proximity",
+        "conditions": [
+          "Meer dan 2 en max 4 personen; 50-meterregel."
+        ]
+      },
+      "extractedFacts": [
+        "Meer dan 2 en max 4 personen; 50-meterregel."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens - Zelf aanleveren"
+      ],
+      "reviewLevel": "C",
+      "substantiveVerificationStatus": "specific-review-required",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "omgevingsloket",
+        "authentication": [],
+        "actionLabel": "Vergunning aanvragen"
+      }
+    },
+    {
+      "id": "amsterdam-housing",
+      "municipalityCode": "GM0363",
+      "canonicalTypes": [
+        "housing-permit"
+      ],
+      "title": "Huisvestingsverordening Amsterdam 2024",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR706038",
+      "officialInfoUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/huisvestingsvergunning/",
+      "officialApplicationUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/huisvestingsvergunning/",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-and-rent",
+        "conditions": [
+          "Sociale en middeldure huur."
+        ]
+      },
+      "extractedFacts": [
+        "Sociale en middeldure huur."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens - Zelf aanleveren"
+      ],
+      "reviewLevel": "B",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "digital-form",
+        "authentication": [],
+        "actionLabel": "Vergunning aanvragen"
+      }
+    },
+    {
+      "id": "amsterdam-stock",
+      "municipalityCode": "GM0363",
+      "canonicalTypes": [
+        "withdrawal-merger"
+      ],
+      "title": "Onttrekken en samenvoegen Amsterdam",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR706038",
+      "officialInfoUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/",
+      "officialApplicationUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-with-exceptions",
+        "conditions": [
+          "Onttrekken, slopen of samenvoegen."
+        ]
+      },
+      "extractedFacts": [
+        "Onttrekken, slopen of samenvoegen."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens - Zelf aanleveren"
+      ],
+      "reviewLevel": "B",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "digital-form",
+        "authentication": [],
+        "actionLabel": "Vergunning aanvragen"
+      }
+    },
+    {
+      "id": "amsterdam-rooms",
+      "municipalityCode": "GM0363",
+      "canonicalTypes": [
+        "conversion-permit"
+      ],
+      "title": "Kamerverhuur Amsterdam",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR706038",
+      "officialInfoUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/kamer-verhuren/",
+      "officialApplicationUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/kamer-verhuren/",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-occupancy",
+        "conditions": [
+          "Omzetting naar kamers; hospitavoorwaarden."
+        ]
+      },
+      "extractedFacts": [
+        "Omzetting naar kamers; hospitavoorwaarden."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens - Zelf aanleveren"
+      ],
+      "reviewLevel": "B",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "digital-form",
+        "authentication": [],
+        "actionLabel": "Vergunning aanvragen"
+      }
+    },
+    {
+      "id": "amsterdam-formation",
+      "municipalityCode": "GM0363",
+      "canonicalTypes": [
+        "dwelling-formation"
+      ],
+      "title": "Woningvorming Amsterdam",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR706038",
+      "officialInfoUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/vergunning-woningvorming-aanvragen/",
+      "officialApplicationUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/vergunning-woningvorming-aanvragen/",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-property",
+        "conditions": [
+          "Minimaal 18 m² en opkoopcheck."
+        ]
+      },
+      "extractedFacts": [
+        "Minimaal 18 m² en opkoopcheck."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens - Zelf aanleveren"
+      ],
+      "reviewLevel": "A",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "digital-form",
+        "authentication": [],
+        "actionLabel": "Vergunning aanvragen"
+      }
+    },
+    {
+      "id": "amsterdam-holiday",
+      "municipalityCode": "GM0363",
+      "canonicalTypes": [
+        "holiday-rental"
+      ],
+      "title": "Vakantieverhuur Amsterdam",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR706038",
+      "officialInfoUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/vakantieverhuur/",
+      "officialApplicationUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/vakantieverhuur/",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-residency",
+        "conditions": [
+          "Hoofdverblijf; registratie, vergunning, melding, nachten."
+        ]
+      },
+      "extractedFacts": [
+        "Hoofdverblijf; registratie, vergunning, melding, nachten."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens - Zelf aanleveren"
+      ],
+      "reviewLevel": "A",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "digital-form",
+        "authentication": [],
+        "actionLabel": "Vergunning aanvragen"
+      }
+    },
+    {
+      "id": "amsterdam-opkoop",
+      "municipalityCode": "GM0363",
+      "canonicalTypes": [
+        "purchase-protection"
+      ],
+      "title": "Opkoopbescherming Amsterdam",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR706038",
+      "officialInfoUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/opkoopbescherming/",
+      "officialApplicationUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/opkoopbescherming/",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-and-value",
+        "conditions": [
+          "WOZ/RRB <= EUR 637.000; vier jaar."
+        ]
+      },
+      "extractedFacts": [
+        "WOZ/RRB <= EUR 637.000; vier jaar."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens - Zelf aanleveren"
+      ],
+      "reviewLevel": "A",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "digital-form",
+        "authentication": [],
+        "actionLabel": "Vergunning aanvragen"
+      }
+    },
+    {
+      "id": "apeldoorn-landlord",
+      "municipalityCode": "GM0200",
+      "canonicalTypes": [
+        "good-landlord-permit"
+      ],
+      "title": "Verhuurverordening arbeidsmigranten Apeldoorn",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR754879",
+      "officialInfoUrl": "https://www.apeldoorn.nl/regelen-en-weten/wonen-en-verhuizen/huren-en-kamerverhuur/verhuur-verblijfsruimten-arbeidsmigranten/",
+      "officialApplicationUrl": "https://www.apeldoorn.nl/regelen-en-weten/wonen-en-verhuizen/huren-en-kamerverhuur/verhuur-verblijfsruimten-arbeidsmigranten/",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Wet goed verhuurderschap"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-target-group",
+        "conditions": [
+          "Alle verblijfsruimten arbeidsmigranten; corporaties uitgezonderd."
+        ]
+      },
+      "extractedFacts": [
+        "Alle verblijfsruimten arbeidsmigranten; corporaties uitgezonderd."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens - Zelf aanleveren"
+      ],
+      "reviewLevel": "A",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "digital-form",
+        "authentication": [],
+        "actionLabel": "Vergunning aanvragen"
+      }
+    },
+    {
+      "id": "arnhem-housing",
+      "municipalityCode": "GM0202",
+      "canonicalTypes": [
+        "housing-permit"
+      ],
+      "title": "Huisvestingsverordening Arnhem 2024",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR709142",
+      "officialInfoUrl": "https://www.arnhem.nl/alle-onderwerpen/wonen/kopen-huren-en-verhuren/",
+      "officialApplicationUrl": "https://www.entree.nu",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-social-rent",
+        "conditions": [
+          "Regionale goedkope/corporatiewoonruimte."
+        ]
+      },
+      "extractedFacts": [
+        "Regionale goedkope/corporatiewoonruimte."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens - Zelf aanleveren"
+      ],
+      "reviewLevel": "B",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "digital-form",
+        "authentication": [],
+        "actionLabel": "Vergunning aanvragen"
+      }
+    },
+    {
+      "id": "arnhem-vacancy",
+      "municipalityCode": "GM0202",
+      "canonicalTypes": [
+        "vacancy-obligation"
+      ],
+      "title": "Leegstandverordening Arnhem 2025",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR728286",
+      "officialInfoUrl": "https://www.arnhem.nl/alle-onderwerpen/wonen/kopen-huren-en-verhuren/",
+      "officialApplicationUrl": "https://www.arnhem.nl/alle-onderwerpen/wonen/kopen-huren-en-verhuren/",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Leegstandwet"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-residential",
+        "conditions": [
+          "Alle woningen; corporaties uitgezonderd; zes maanden."
+        ]
+      },
+      "extractedFacts": [
+        "Alle woningen; corporaties uitgezonderd; zes maanden."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens - Zelf aanleveren"
+      ],
+      "reviewLevel": "A",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "digital-form",
+        "authentication": [],
+        "actionLabel": "Melding doen"
+      }
+    },
+    {
+      "id": "arnhem-landlord",
+      "municipalityCode": "GM0202",
+      "canonicalTypes": [
+        "good-landlord-permit"
+      ],
+      "title": "Verhuurverordening Arnhem 2025",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR736697",
+      "officialInfoUrl": "https://www.arnhem.nl/alle-onderwerpen/wonen/kopen-huren-en-verhuren/",
+      "officialApplicationUrl": "https://www.arnhem.nl/alle-onderwerpen/wonen/kopen-huren-en-verhuren/",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Wet goed verhuurderschap"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-target-group",
+        "conditions": [
+          "Alle verblijfsruimten arbeidsmigranten."
+        ]
+      },
+      "extractedFacts": [
+        "Alle verblijfsruimten arbeidsmigranten."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens - Zelf aanleveren"
+      ],
+      "reviewLevel": "A",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "digital-form",
+        "authentication": [],
+        "actionLabel": "Vergunning aanvragen"
+      }
+    },
+    {
+      "id": "arnhem-opkoop",
+      "municipalityCode": "GM0202",
+      "canonicalTypes": [
+        "purchase-protection"
+      ],
+      "title": "Opkoopbescherming Arnhem",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR709142",
+      "officialInfoUrl": "https://www.arnhem.nl/alle-onderwerpen/wonen/kopen-huren-en-verhuren/",
+      "officialApplicationUrl": "https://www.arnhem.nl/wp-content/uploads/2025/01/Aanvraagformulier-verhuurvergunning-opkoopbescherming.pdf",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-and-value",
+        "conditions": [
+          "Goedkope/middeldure koopwoningen; waarde controleren; vier jaar."
+        ]
+      },
+      "extractedFacts": [
+        "Goedkope/middeldure koopwoningen; waarde controleren; vier jaar."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens - Zelf aanleveren"
+      ],
+      "reviewLevel": "B",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "downloadable-form",
+        "authentication": [],
+        "actionLabel": "Vergunning aanvragen"
+      }
+    },
+    {
+      "id": "assen-splitting",
+      "municipalityCode": "GM0106",
+      "canonicalTypes": [
+        "planning-housing-permit"
+      ],
+      "title": "Woningsplitsing en woningdelen Assen 2026",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR750864",
+      "officialInfoUrl": "https://www.assen.nl/woning-splitsen-in-aparte-zelfstandige-woningen",
+      "officialApplicationUrl": "https://omgevingswet.overheid.nl/checken",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Omgevingswet"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "official-map-needs-gis-digitisation",
+        "conditions": [
+          "Minimaal 40 m²; buiten kom max 6; contour bijlage 1."
+        ]
+      },
+      "extractedFacts": [
+        "Minimaal 40 m²; buiten kom max 6; contour bijlage 1."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens - Zelf aanleveren"
+      ],
+      "reviewLevel": "C",
+      "substantiveVerificationStatus": "specific-review-required",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "omgevingsloket",
+        "authentication": [],
+        "actionLabel": "Vergunning aanvragen"
+      }
+    },
+    {
+      "id": "asten-labour",
+      "municipalityCode": "GM0743",
+      "canonicalTypes": [
+        "planning-housing-permit"
+      ],
+      "title": "Huisvesting arbeidsmigranten Asten",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR740975",
+      "officialInfoUrl": "https://www.asten.nl/wonen-en-verhuizen/vergunning-huisvesting-arbeidsmigranten",
+      "officialApplicationUrl": "https://www.asten.nl/fileadmin/Asten/PDF-formulieren_producten/Wonen/Vergunning_huisvesten_arbeidsmigranten/Aanvraagformulier_exploitatievergunning_huisvesting_arbeidsmigranten.pdf",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Omgevingswet"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-project",
+        "conditions": [
+          "Omgevingsvergunning; exploitatievergunning bij >4 personen."
+        ]
+      },
+      "extractedFacts": [
+        "Omgevingsvergunning; exploitatievergunning bij >4 personen."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens - Zelf aanleveren"
+      ],
+      "reviewLevel": "A",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "downloadable-form",
+        "authentication": [],
+        "actionLabel": "Vergunning aanvragen"
+      }
+    }
+  ],
+  "absencePolicy": "Geen bron gevonden is nooit automatisch niet van toepassing.",
+  "publicDecisionRecordsAdded": 0,
+  "closure": {
+    "closureStatus": "closed-with-targeted-human-review",
+    "remainingHumanItems": 2,
+    "gisItems": 1,
+    "verifiedApplicationRoutes": 19,
+    "finalRecommendation": "DO NOT START BATCH 003"
+  }
+}

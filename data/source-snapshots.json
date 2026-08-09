@@ -10,7 +10,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "d789eb9cdca50fafa662f39b825f5ef5649f56e336f3721f51d3559f603c09a9"
+      "contentFingerprint": "75b190167aea488d3db120893c45175d97fa2f085bc306605445887e6fb8ac8c"
     },
     {
       "id": "den-haag-opkoop-2026-required-2-2",
@@ -20,7 +20,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "b0b41d18f553bc403be45f0669b8d2f8da4894be1e4948e897720c07b8d26d31"
+      "contentFingerprint": "e1501a5209bcd6a3aafc763326e515f78950c2a37d854d10ea8d09ceccb0f55e"
     },
     {
       "id": "emmen-opkoop-2023-regulation",
@@ -40,7 +40,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "a72eccc3ed904a1227195bba6ad540460e0357525e3bbc27e927509869496a82"
+      "contentFingerprint": "9db9add3f55538a6285c2ba597d9c802b56b903c756ad9119551b5899ff831e8"
     },
     {
       "id": "rotterdam-kamerverhuur-2026-regulation",
@@ -110,7 +110,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "5598e40ea0d7b926e49453c1808c8ef404c59c39e34668f8bc4d884ac2c6eec7"
+      "contentFingerprint": "1e383a2652d1fb544debcbf31e37fd3997e562e3fa77fc307963f6fdcfbd0802"
     },
     {
       "id": "leiden-opkoop-2024-required-2-2",
@@ -120,7 +120,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "ae7239d215b70d40fe3f7cd4aa43dc3426cffcd44455b6457ef0f677d09460d3"
+      "contentFingerprint": "69277c431781a306414d40c5399c3c52a3734d4594938fe7b45b12b510ba7a89"
     },
     {
       "id": "leiden-omzetting-2024-required-5-1",
@@ -130,7 +130,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "7925d73effffc0a9fb0e931809a2d593ff902d96ab9393adedcfc35fc98e7d5a"
+      "contentFingerprint": "fdb98fa3f37a697809adfda157d2daead8b98594b230b4c2d988c38392e835d2"
     },
     {
       "id": "leiden-omzetting-2024-required-5-2",
@@ -140,7 +140,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "9aba1cb8de7f070b6d31531caab28853c79793b41a79df422d99a18bc33cb175"
+      "contentFingerprint": "480a3f00bb1a8e3ce277f18870dedeac01b19982c00dd4848fe09aa8a2d12482"
     },
     {
       "id": "leiden-omzetting-2024-form-1",
@@ -150,7 +150,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "f8eb00b0ab655284473fb44f4d6eea7028d14b85c8529d814fc04df7923def1b"
+      "contentFingerprint": "4f02e6d01423709172b6fcd4160642f5573ae5049a7091917299c4526694e5a2"
     },
     {
       "id": "rotterdam-opkoop-required-1-1",
@@ -170,7 +170,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "4345b94886c12dac31444fd272a709ae71cd7f78f07ae080be248075191dbedf"
+      "contentFingerprint": "33b03f05a02a4e3813ae81c4bd1b6f3351886ca39abeaad23a232b4b4771f76e"
     },
     {
       "id": "rotterdam-kamerverhuur-2026-required-1-1",
@@ -190,7 +190,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "24361aa386fad7887c10415f6d6ca56cf67b6915f0a3863fa35bfb7f8ad23c0d"
+      "contentFingerprint": "2a45302fffd31f7285af3ad954aaad9931eeb4e274db8635e1376863d159b676"
     },
     {
       "id": "batch001-aalsmeer-hvv-2025-regulation",
@@ -300,7 +300,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "bc6656439d25c915c4e39b08a99ba4c85c5e4c46ce247c04a3747f30af797bef"
+      "contentFingerprint": "7b1938d0340db60a7eec3649b6acee738a3df63b5715ac384b781cc3fe5a6a55"
     },
     {
       "id": "parameter-aalsmeer-opkoop-woz-2026",
@@ -309,8 +309,8 @@
       "httpStatus": 200,
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
-      "lastKnownModified": "Sun, 09 Aug 2026 16:03:50 GMT",
-      "contentFingerprint": "3948ab4cafa04264d0538de13025ebb8ce2591eb8fb33474dca87e165076caf8"
+      "lastKnownModified": "Sun, 09 Aug 2026 17:03:08 GMT",
+      "contentFingerprint": "d039ecc9c691972f200cd898c70f5c855a845a063799bfadf837518169ca1cdc"
     },
     {
       "id": "batch001-aalten-good-landlord-2024-information",
@@ -320,7 +320,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "50aada1aa90640f6d42c14c8b6ba707bf94f71ddc8ed25a0ae5da5873aa42938"
+      "contentFingerprint": "85765a8290ac3716530e03b053bf8f314d111c5681a3030c83eb5f636953fc06"
     },
     {
       "id": "batch001-alkmaar-hvv-2024-information",
@@ -330,7 +330,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "9f8a2388163a34c5fa0408b7609a7bd228e500293bdcced87a8385e4113e13c1"
+      "contentFingerprint": "8adaef5f0bb4c17b2e4b8ad4ef0b98555ec82ef900cc1247274670a4cd80188d"
     },
     {
       "id": "batch001-alkmaar-hvv-2024-application",
@@ -340,7 +340,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "4043bb8d05ba1487140726aab18a2a52db5f1fb5b01a20d3a13a44abfc644650"
+      "contentFingerprint": "f91466893ebfd3d64d24a1ec35feef541ab7095defe6ddaf8b0f3ea3bd384864"
     },
     {
       "id": "parameter-almelo-opkoop-woz-2026",
@@ -391,7 +391,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "38e61f8e65f028e9a2376d18dd977d457768ea18bd53af368295e29a5e75ea37"
+      "contentFingerprint": "b0e62cb7dc81aadbd914c7c046cde05c322eab324548f909a4920d79feea7112"
     },
     {
       "id": "parameter-holland-rijnland-rent-2025-reference",
@@ -410,7 +410,7 @@
       "httpStatus": 200,
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
-      "lastKnownModified": "Sun, 09 Aug 2026 15:50:18 GMT",
+      "lastKnownModified": "Sun, 09 Aug 2026 16:21:30 GMT",
       "contentFingerprint": "7d31e0e5fb421b3810128739626104d7a6f3d4277d576bf030ceff726835df82"
     },
     {
@@ -421,7 +421,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "78c0c08f652b94cc88d407634a50ad12aa8bfcba0e3f1a69e9cc88fd2d6621fd"
+      "contentFingerprint": "4e35104afb596e5f5a1d383e3c41f1b31e3fa24c57b7b1f40c2eb7abc0fbd69f"
     },
     {
       "id": "batch001-alblasserdam-stock-change-2025-application",
@@ -431,7 +431,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": "Sun, 09 Aug 2026 16:03:44 GMT",
-      "contentFingerprint": "0859f04d6ef2667590547580f5635bfda0eb77e894ad99486d6c7a4de2be3d74"
+      "contentFingerprint": "8dbdfa9e248ff2d0f1146b710554388e3e26431ac94d8af4a6bebc57545c6bbf"
     },
     {
       "id": "batch001-alblasserdam-building-split-2025-application",
@@ -451,7 +451,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "8989c2c470f17a54ab0964efecc39d06f02f5c07a3aa0991c569b63c78200b66"
+      "contentFingerprint": "d1c1ef34877b5edf17935cad0403c20a86140e15ea5b5bf9cfed37e0baa3ef03"
     },
     {
       "id": "batch001-almelo-vacancy-2020-application",
@@ -471,7 +471,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "317a81bfa4f992a4f4d0e29f9786f59f4e3e9dafcfe1b89b4139f807922a9aea"
+      "contentFingerprint": "2e746f7ba1463329434b3b5d86bacffdc5aa05b9ecd972fc7942bc40680ee36d"
     },
     {
       "id": "batch001-alblasserdam-stock-change-2025-information",
@@ -481,7 +481,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "d4d685e577abafedfcc6e5ebf30c4e2cf8e9bd7e802f9662a74168388d476391"
+      "contentFingerprint": "938fbbac704ebb2e3b249e5391a473672bef51267cafdd5ce30717d35c6cfabf"
     },
     {
       "id": "batch001-alblasserdam-dwelling-formation-2025-information",
@@ -491,7 +491,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "a2e1b692e24e59ee91d49caa396b59a6e4e161d835825173716d81b9560f9f8a"
+      "contentFingerprint": "44a370372c036da64d98f4e581aa4362733864f96a73154a46f2ccc8371e1c64"
     },
     {
       "id": "batch001-alblasserdam-purchase-protection-2025-application",
@@ -512,6 +512,386 @@
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
       "contentFingerprint": "0c728b7741b77e9ef7444975bb98e885458b4703912daf169364f0bd3837db46"
+    },
+    {
+      "id": "batch001-altena-labour-regulation",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR699287",
+      "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR699287",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "f8ffaeda5eda241312d106de4734817ca0b4b36461904d764d5da9ad423b05c6"
+    },
+    {
+      "id": "batch002-source-2",
+      "url": "https://www.gemeentealtena.nl/bouwen-en-verbouwen/omgevingsvergunning",
+      "finalUrl": "https://www.gemeentealtena.nl/bouwen-en-verbouwen/omgevingsvergunning",
+      "httpStatus": 404,
+      "automatedStatus": "http-error",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": null
+    },
+    {
+      "id": "batch001-assen-splitting-application",
+      "url": "https://omgevingswet.overheid.nl/checken",
+      "finalUrl": "https://omgevingswet.overheid.nl/checken",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "241e4c15a525c4d40768e0f64ec38fd911391e907b82e5af642c653803a0cfef"
+    },
+    {
+      "id": "batch001-ameland-opkoop-regulation",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR704968",
+      "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR704968",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "ea1b2e829472d9d63c87c5880902abbb1183b13dc49a7f3aa9720321d63129b5"
+    },
+    {
+      "id": "parameter-ameland-rent-2026",
+      "url": "https://www.ameland.nl/huisvestingsvergunning",
+      "finalUrl": "https://www.ameland.nl/huisvestingsvergunning",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "9547c2d8d4bf8cacac56c7a687f24ea1ee370777e7806daf25dcb66c7cf208fe"
+    },
+    {
+      "id": "batch001-amersfoort-housing-regulation",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR741596",
+      "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR741596",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "a3120d2dd83c5c8c6a612502bac2f6c0361c7ef4c5e7c331a479097e9a0c0676"
+    },
+    {
+      "id": "parameter-amersfoort-rent-2026",
+      "url": "https://www.amersfoort.nl/huren-amersfoort",
+      "finalUrl": "https://www.amersfoort.nl/huren-amersfoort",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": "Sun, 09 Aug 2026 16:39:18 GMT",
+      "contentFingerprint": "c59adfe4243f4e4f84112f0f7833ded347b47f28ee64fb9463586d48cb7454e1"
+    },
+    {
+      "id": "batch001-amersfoort-vacancy-regulation",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR758403",
+      "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR758403",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "bf741e84dd5a51a122ead6bffc4cfde77f6a78860b6c6212e7b5cb07b094bf3f"
+    },
+    {
+      "id": "batch001-amersfoort-vacancy-application",
+      "url": "https://www.amersfoort.nl/leegstand-woning",
+      "finalUrl": "https://www.amersfoort.nl/leegstand-woning",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": "Sun, 09 Aug 2026 16:50:53 GMT",
+      "contentFingerprint": "6500dd4deb32d40ddeb733304d38e894d40f9d5a7c4ec1ac9fcfcee45f611dfe"
+    },
+    {
+      "id": "batch001-amstelveen-vacancy-regulation",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR614436",
+      "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR614436",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "6b761f4e9f7c10f5331cfb9b80910a12d87115c001b1ce782448eb2e994254ce"
+    },
+    {
+      "id": "batch001-amstelveen-vacancy-information",
+      "url": "https://www.amstelveen.nl/leegstand-melden",
+      "finalUrl": "https://www.amstelveen.nl/leegstand-melden",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": "Sun, 09 Aug 2026 17:02:57 GMT",
+      "contentFingerprint": "3f37a0b255307989c60f74cdb5cdb5234227a506e1e41300d4a5c51695a367c1"
+    },
+    {
+      "id": "batch001-amstelveen-sharing-regulation",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR748045",
+      "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR748045",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "bb2f62d28ad51333e86135fdc288ebfb70eab38d8d074b8340f87f40fd3c7b8d"
+    },
+    {
+      "id": "parameter-amstelveen-woz-2026",
+      "url": "https://www.amstelveen.nl/verhuurvergunning-bij-opkoopbescherming",
+      "finalUrl": "https://www.amstelveen.nl/verhuurvergunning-bij-opkoopbescherming",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": "Sun, 09 Aug 2026 17:02:58 GMT",
+      "contentFingerprint": "cb3da4faeba99d5b3aa41f4ee1031bfce566d103ea62d5368e05d950f8d7bb22"
+    },
+    {
+      "id": "batch001-amstelveen-sharing-information",
+      "url": "https://www.amstelveen.nl/woningdelen",
+      "finalUrl": "https://www.amstelveen.nl/woningdelen",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": "Sun, 09 Aug 2026 17:02:58 GMT",
+      "contentFingerprint": "d31b5a9791af88a49115768581d6ae8540965a0c95f83ea9522222b01f78b6ec"
+    },
+    {
+      "id": "batch001-amsterdam-opkoop-regulation",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR706038",
+      "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR706038",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "444cd794238a612fd06c8c808f2ec86ae9961b244e90322fc068dabeb666b454"
+    },
+    {
+      "id": "batch001-amsterdam-housing-application",
+      "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/huisvestingsvergunning/",
+      "finalUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/huisvestingsvergunning/",
+      "httpStatus": 403,
+      "automatedStatus": "automated-check-blocked",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": null
+    },
+    {
+      "id": "batch001-amsterdam-stock-application",
+      "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/",
+      "finalUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/",
+      "httpStatus": 403,
+      "automatedStatus": "automated-check-blocked",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": null
+    },
+    {
+      "id": "batch001-amsterdam-rooms-application",
+      "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/kamer-verhuren/",
+      "finalUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/kamer-verhuren/",
+      "httpStatus": 403,
+      "automatedStatus": "automated-check-blocked",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": null
+    },
+    {
+      "id": "batch001-amsterdam-formation-application",
+      "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/vergunning-woningvorming-aanvragen/",
+      "finalUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/vergunning-woningvorming-aanvragen/",
+      "httpStatus": 403,
+      "automatedStatus": "automated-check-blocked",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": null
+    },
+    {
+      "id": "batch001-amsterdam-holiday-application",
+      "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/vakantieverhuur/",
+      "finalUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/vakantieverhuur/",
+      "httpStatus": 403,
+      "automatedStatus": "automated-check-blocked",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": null
+    },
+    {
+      "id": "batch001-amsterdam-opkoop-application",
+      "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/opkoopbescherming/",
+      "finalUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/opkoopbescherming/",
+      "httpStatus": 403,
+      "automatedStatus": "automated-check-blocked",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": null
+    },
+    {
+      "id": "batch001-apeldoorn-landlord-regulation",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR754879",
+      "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR754879",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "cef59be02888a3175ed23e91698b913d1dccde2396391e8853e26bf7fc96d1c3"
+    },
+    {
+      "id": "batch001-apeldoorn-landlord-application",
+      "url": "https://www.apeldoorn.nl/regelen-en-weten/wonen-en-verhuizen/huren-en-kamerverhuur/verhuur-verblijfsruimten-arbeidsmigranten/",
+      "finalUrl": "https://www.apeldoorn.nl/regelen-en-weten/wonen-en-verhuizen/huren-en-kamerverhuur/verhuur-verblijfsruimten-arbeidsmigranten/",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "e5fbb0cb7a514de2ee08ae475cd04d4714ecf05b9922e6f74d0ad8f7e934adee"
+    },
+    {
+      "id": "batch001-arnhem-opkoop-regulation",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR709142",
+      "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR709142",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "e824bfaa483d5b674a91e3c01130bfdbd65fe46dd9ca531137f9d3a5a338aaa6"
+    },
+    {
+      "id": "batch001-arnhem-opkoop-information",
+      "url": "https://www.arnhem.nl/alle-onderwerpen/wonen/kopen-huren-en-verhuren/",
+      "finalUrl": "https://www.arnhem.nl/alle-onderwerpen/wonen/kopen-huren-en-verhuren/",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "ebd322af56b075156ef757b497ca6dc01d73f902d0b115e648baabf02f6cdd91"
+    },
+    {
+      "id": "batch001-arnhem-housing-application",
+      "url": "https://www.entree.nu",
+      "finalUrl": "https://www.entree.nu/",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "3cb02988210d5510a7cb9c880410f9b9a2208841e1e63f0d87b8c7fbe90d6e86"
+    },
+    {
+      "id": "batch001-arnhem-vacancy-regulation",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR728286",
+      "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR728286",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "e07289f9a0d6ccd2940f5953469193c4097192631610568dbf672c7afe44f110"
+    },
+    {
+      "id": "batch001-arnhem-landlord-regulation",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR736697",
+      "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR736697",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "b367ea70e80b0714195fb547d99cae1473cae5d6d8710bb286bdc4e1d96c19e5"
+    },
+    {
+      "id": "batch001-arnhem-opkoop-application",
+      "url": "https://www.arnhem.nl/wp-content/uploads/2025/01/Aanvraagformulier-verhuurvergunning-opkoopbescherming.pdf",
+      "finalUrl": "https://www.arnhem.nl/wp-content/uploads/2025/01/Aanvraagformulier-verhuurvergunning-opkoopbescherming.pdf",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": "Fri, 30 Jan 2026 11:35:26 GMT",
+      "contentFingerprint": "a919f6a820ccd73437cd03b848fe80f4e089aca521bdf706a2f358439dab466d"
+    },
+    {
+      "id": "batch001-assen-splitting-regulation",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR750864",
+      "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR750864",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "3e247c61506cc6d0b3ddfb7d1686520e04f534e15cf4c761d48440795f31649d"
+    },
+    {
+      "id": "batch001-assen-splitting-information",
+      "url": "https://www.assen.nl/woning-splitsen-in-aparte-zelfstandige-woningen",
+      "finalUrl": "https://www.assen.nl/woning-splitsen-in-aparte-zelfstandige-woningen",
+      "httpStatus": 403,
+      "automatedStatus": "automated-check-blocked",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": null
+    },
+    {
+      "id": "batch001-asten-labour-regulation",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR740975",
+      "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR740975",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "b721a9cf0c58a7f8f681dd2f78e0a37a99119034c12182201abc352c81b9f492"
+    },
+    {
+      "id": "batch001-asten-labour-information",
+      "url": "https://www.asten.nl/wonen-en-verhuizen/vergunning-huisvesting-arbeidsmigranten",
+      "finalUrl": "https://www.asten.nl/wonen-en-verhuizen/vergunning-huisvesting-arbeidsmigranten",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "e7479354c0c66afa4364c9cdbfeb8de57f34e07a902c66e1749df1ae03444f5a"
+    },
+    {
+      "id": "batch002-source-34",
+      "url": "https://www.asten.nl/fileadmin/Asten/PDF-formulieren_producten/Wonen/Vergunning_huisvesten_arbeidsmigranten/Aanvraagformulier_exploitatievergunning_gewijzigd_versie_16_maart_2026.pdf",
+      "finalUrl": "https://www.asten.nl/fileadmin/Asten/PDF-formulieren_producten/Wonen/Vergunning_huisvesten_arbeidsmigranten/Aanvraagformulier_exploitatievergunning_gewijzigd_versie_16_maart_2026.pdf",
+      "httpStatus": 404,
+      "automatedStatus": "http-error",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": null
+    },
+    {
+      "id": "parameter-amsterdam-woz-2026",
+      "url": "https://www.amsterdam.nl/en/housing/regulations-for-letting-privately-owned/",
+      "finalUrl": "https://www.amsterdam.nl/en/housing/regulations-for-letting-privately-owned/",
+      "httpStatus": 403,
+      "automatedStatus": "automated-check-blocked",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": null
+    },
+    {
+      "id": "batch001-altena-labour-information",
+      "url": "https://www.gemeentealtena.nl/bouwen-en-verbouwen/het-proces-rondom-een-vergunning",
+      "finalUrl": "https://www.gemeentealtena.nl/bouwen-en-verbouwen/het-proces-rondom-een-vergunning",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "5e2a17ff472c782629ffc1052f02b6ea19cf29a561b493afec7fc5a51f855ea7"
+    },
+    {
+      "id": "batch001-asten-labour-application",
+      "url": "https://www.asten.nl/fileadmin/Asten/PDF-formulieren_producten/Wonen/Vergunning_huisvesten_arbeidsmigranten/Aanvraagformulier_exploitatievergunning_huisvesting_arbeidsmigranten__2021__02102024.pdf",
+      "finalUrl": "https://www.asten.nl/fileadmin/Asten/PDF-formulieren_producten/Wonen/Vergunning_huisvesten_arbeidsmigranten/Aanvraagformulier_exploitatievergunning_huisvesting_arbeidsmigranten__2021__02102024.pdf",
+      "httpStatus": 404,
+      "automatedStatus": "http-error",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": null
+    },
+    {
+      "id": "batch001-asten-labour-application",
+      "url": "https://www.asten.nl/fileadmin/Asten/PDF-formulieren_producten/Wonen/Vergunning_huisvesten_arbeidsmigranten/Aanvraagformulier_exploitatievergunning_huisvesting_arbeidsmigranten.pdf",
+      "finalUrl": "https://www.asten.nl/fileadmin/Asten/PDF-formulieren_producten/Wonen/Vergunning_huisvesten_arbeidsmigranten/Aanvraagformulier_exploitatievergunning_huisvesting_arbeidsmigranten.pdf",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": "Mon, 06 Jul 2026 11:23:43 GMT",
+      "contentFingerprint": "b5bdba16758cb9daea05909d581f9090c4dbe8e0483f726695d47ca49bf41488"
     }
   ]
 }

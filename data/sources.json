@@ -157,6 +157,312 @@
       "liveStatus": "live",
       "regulationStatus": "current",
       "manualReviewRequired": false
+    },
+    {
+      "id": "batch002-source-1",
+      "type": "official-regulation",
+      "authority": "lokaleregelgeving.overheid.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR699287",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-2",
+      "type": "official-service",
+      "authority": "www.gemeentealtena.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://www.gemeentealtena.nl/bouwen-en-verbouwen/het-proces-rondom-een-vergunning",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-3",
+      "type": "official-service",
+      "authority": "omgevingswet.overheid.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://omgevingswet.overheid.nl/checken",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-4",
+      "type": "official-regulation",
+      "authority": "lokaleregelgeving.overheid.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR704968",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-5",
+      "type": "official-service",
+      "authority": "www.ameland.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://www.ameland.nl/huisvestingsvergunning",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-6",
+      "type": "official-regulation",
+      "authority": "lokaleregelgeving.overheid.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR741596",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-7",
+      "type": "official-service",
+      "authority": "www.amersfoort.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://www.amersfoort.nl/huren-amersfoort",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-8",
+      "type": "official-regulation",
+      "authority": "lokaleregelgeving.overheid.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR758403",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-9",
+      "type": "official-service",
+      "authority": "www.amersfoort.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://www.amersfoort.nl/leegstand-woning",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-10",
+      "type": "official-regulation",
+      "authority": "lokaleregelgeving.overheid.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR614436",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-11",
+      "type": "official-service",
+      "authority": "www.amstelveen.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://www.amstelveen.nl/leegstand-melden",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-12",
+      "type": "official-regulation",
+      "authority": "lokaleregelgeving.overheid.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR748045",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-13",
+      "type": "official-service",
+      "authority": "www.amstelveen.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://www.amstelveen.nl/verhuurvergunning-bij-opkoopbescherming",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-14",
+      "type": "official-service",
+      "authority": "www.amstelveen.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://www.amstelveen.nl/woningdelen",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-15",
+      "type": "official-regulation",
+      "authority": "lokaleregelgeving.overheid.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR706038",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-16",
+      "type": "official-service",
+      "authority": "www.amsterdam.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/huisvestingsvergunning/",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-17",
+      "type": "official-service",
+      "authority": "www.amsterdam.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-18",
+      "type": "official-service",
+      "authority": "www.amsterdam.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/kamer-verhuren/",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-19",
+      "type": "official-service",
+      "authority": "www.amsterdam.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/vergunning-woningvorming-aanvragen/",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-20",
+      "type": "official-service",
+      "authority": "www.amsterdam.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/vakantieverhuur/",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-21",
+      "type": "official-service",
+      "authority": "www.amsterdam.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/opkoopbescherming/",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-22",
+      "type": "official-regulation",
+      "authority": "lokaleregelgeving.overheid.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR754879",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-23",
+      "type": "official-service",
+      "authority": "www.apeldoorn.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://www.apeldoorn.nl/regelen-en-weten/wonen-en-verhuizen/huren-en-kamerverhuur/verhuur-verblijfsruimten-arbeidsmigranten/",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-24",
+      "type": "official-regulation",
+      "authority": "lokaleregelgeving.overheid.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR709142",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-25",
+      "type": "official-service",
+      "authority": "www.arnhem.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://www.arnhem.nl/alle-onderwerpen/wonen/kopen-huren-en-verhuren/",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-26",
+      "type": "official-service",
+      "authority": "www.entree.nu",
+      "title": "Batch 002 officiële bron",
+      "url": "https://www.entree.nu",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-27",
+      "type": "official-regulation",
+      "authority": "lokaleregelgeving.overheid.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR728286",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-28",
+      "type": "official-regulation",
+      "authority": "lokaleregelgeving.overheid.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR736697",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-29",
+      "type": "official-service",
+      "authority": "www.arnhem.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://www.arnhem.nl/wp-content/uploads/2025/01/Aanvraagformulier-verhuurvergunning-opkoopbescherming.pdf",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-30",
+      "type": "official-regulation",
+      "authority": "lokaleregelgeving.overheid.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR750864",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-31",
+      "type": "official-service",
+      "authority": "www.assen.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://www.assen.nl/woning-splitsen-in-aparte-zelfstandige-woningen",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-32",
+      "type": "official-regulation",
+      "authority": "lokaleregelgeving.overheid.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR740975",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-33",
+      "type": "official-service",
+      "authority": "www.asten.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://www.asten.nl/wonen-en-verhuizen/vergunning-huisvesting-arbeidsmigranten",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch002-source-34",
+      "type": "official-service",
+      "authority": "www.asten.nl",
+      "title": "Batch 002 officiële bron",
+      "url": "https://www.asten.nl/fileadmin/Asten/PDF-formulieren_producten/Wonen/Vergunning_huisvesten_arbeidsmigranten/Aanvraagformulier_exploitatievergunning_huisvesting_arbeidsmigranten.pdf",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
     }
   ]
 }

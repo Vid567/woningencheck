@@ -277,151 +277,185 @@
       "municipalityCode": "GM1723",
       "municipalityName": "Alphen-Chaam",
       "province": "Noord-Brabant",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
+      "researchStatus": "verified",
+      "researchStartedAt": "2026-08-09",
+      "researchCompletedAt": "2026-08-09",
+      "lastCheckedAt": "2026-08-09",
+      "nextReviewAt": "2027-01-01",
       "researchedPermitTypes": [],
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Systematische officiële-bronnencontrole: geen actuele implementatie bevestigd; geen bewijs van algemene afwezigheid."
     },
     {
       "municipalityCode": "GM1959",
       "municipalityName": "Altena",
       "province": "Noord-Brabant",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
+      "researchStatus": "verified",
+      "researchStartedAt": "2026-08-09",
+      "researchCompletedAt": "2026-08-09",
+      "lastCheckedAt": "2026-08-09",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "planning-housing-permit"
+      ],
       "unresolvedQuestions": [],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "sourceCount": 3,
+      "notes": "Batch 002 officieel onderzocht."
     },
     {
       "municipalityCode": "GM0060",
       "municipalityName": "Ameland",
       "province": "Fryslân",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
+      "researchStatus": "verified",
+      "researchStartedAt": "2026-08-09",
+      "researchCompletedAt": "2026-08-09",
+      "lastCheckedAt": "2026-08-09",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "housing-permit",
+        "purchase-protection"
+      ],
       "unresolvedQuestions": [],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "sourceCount": 2,
+      "notes": "Batch 002 officieel onderzocht."
     },
     {
       "municipalityCode": "GM0307",
       "municipalityName": "Amersfoort",
       "province": "Utrecht",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
+      "researchStatus": "verified",
+      "researchStartedAt": "2026-08-09",
+      "researchCompletedAt": "2026-08-09",
+      "lastCheckedAt": "2026-08-09",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "housing-permit",
+        "vacancy-obligation"
+      ],
       "unresolvedQuestions": [],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "sourceCount": 4,
+      "notes": "Batch 002 officieel onderzocht."
     },
     {
       "municipalityCode": "GM0362",
       "municipalityName": "Amstelveen",
       "province": "Noord-Holland",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
-      "unresolvedQuestions": [],
+      "researchStatus": "partially-verified",
+      "researchStartedAt": "2026-08-09",
+      "researchCompletedAt": "2026-08-09",
+      "lastCheckedAt": "2026-08-09",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "vacancy-obligation",
+        "purchase-protection",
+        "room-rental"
+      ],
+      "unresolvedQuestions": [
+        "Officiële dataset voor 50-metertoets nodig."
+      ],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "sourceCount": 6,
+      "notes": "Batch 002 officieel onderzocht."
     },
     {
       "municipalityCode": "GM0363",
       "municipalityName": "Amsterdam",
       "province": "Noord-Holland",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
+      "researchStatus": "verified",
+      "researchStartedAt": "2026-08-09",
+      "researchCompletedAt": "2026-08-09",
+      "lastCheckedAt": "2026-08-09",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "housing-permit",
+        "withdrawal-merger",
+        "conversion-permit",
+        "dwelling-formation",
+        "holiday-rental",
+        "purchase-protection"
+      ],
       "unresolvedQuestions": [],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "sourceCount": 7,
+      "notes": "Batch 002 officieel onderzocht."
     },
     {
       "municipalityCode": "GM0200",
       "municipalityName": "Apeldoorn",
       "province": "Gelderland",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
+      "researchStatus": "verified",
+      "researchStartedAt": "2026-08-09",
+      "researchCompletedAt": "2026-08-09",
+      "lastCheckedAt": "2026-08-09",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "good-landlord-permit"
+      ],
       "unresolvedQuestions": [],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "sourceCount": 2,
+      "notes": "Batch 002 officieel onderzocht."
     },
     {
       "municipalityCode": "GM0202",
       "municipalityName": "Arnhem",
       "province": "Gelderland",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
+      "researchStatus": "verified",
+      "researchStartedAt": "2026-08-09",
+      "researchCompletedAt": "2026-08-09",
+      "lastCheckedAt": "2026-08-09",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "housing-permit",
+        "vacancy-obligation",
+        "good-landlord-permit",
+        "purchase-protection"
+      ],
       "unresolvedQuestions": [],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "sourceCount": 6,
+      "notes": "Batch 002 officieel onderzocht."
     },
     {
       "municipalityCode": "GM0106",
       "municipalityName": "Assen",
       "province": "Drenthe",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
-      "unresolvedQuestions": [],
+      "researchStatus": "partially-verified",
+      "researchStartedAt": "2026-08-09",
+      "researchCompletedAt": "2026-08-09",
+      "lastCheckedAt": "2026-08-09",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "planning-housing-permit"
+      ],
+      "unresolvedQuestions": [
+        "Officiële GIS-contour bijlage 1 nodig."
+      ],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "sourceCount": 3,
+      "notes": "Batch 002 officieel onderzocht."
     },
     {
       "municipalityCode": "GM0743",
       "municipalityName": "Asten",
       "province": "Noord-Brabant",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
+      "researchStatus": "verified",
+      "researchStartedAt": "2026-08-09",
+      "researchCompletedAt": "2026-08-09",
+      "lastCheckedAt": "2026-08-09",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "planning-housing-permit"
+      ],
       "unresolvedQuestions": [],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "sourceCount": 3,
+      "notes": "Batch 002 officieel onderzocht."
     },
     {
       "municipalityCode": "GM0744",

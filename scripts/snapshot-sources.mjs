@@ -2,14 +2,14 @@ import fs from "node:fs";
 import {createHash} from "node:crypto";
 const sources=JSON.parse(fs.readFileSync("data/sources.json","utf8")).sources;
 const rules=JSON.parse(fs.readFileSync("data/regulations.json","utf8")).records;
-const batch=JSON.parse(fs.readFileSync("data/research-batches/batch-001.json","utf8"));
+const batches=["batch-001","batch-002"].map(id=>JSON.parse(fs.readFileSync(`data/research-batches/${id}.json`,"utf8")));
 const parameters=JSON.parse(fs.readFileSync("data/dynamic-parameters.json","utf8")).parameters;
 const previous=JSON.parse(fs.readFileSync("data/source-snapshots.json","utf8")).snapshots;
 const targets=[...sources.map(source=>({id:source.id,url:source.url})),...rules.flatMap(rule=>[
   {id:`${rule.id}-information`,url:rule.officialInformationUrl},{id:`${rule.id}-regulation`,url:rule.officialRegulationUrl},{id:`${rule.id}-application`,url:rule.officialApplicationUrl},
   ...rule.requiredDocuments.flatMap(document=>[document.officialInstructionsUrl,document.officialTemplateUrl,document.onlineFormUrl].filter(Boolean).map((url,index)=>({id:`${document.id}-${index+1}`,url}))),
   ...rule.applicationDocuments.map((document,index)=>({id:`${rule.id}-form-${index+1}`,url:document.url}))
-]),...batch.findings.flatMap(finding=>[
+]),...batches.flatMap(batch=>batch.findings).flatMap(finding=>[
   {id:`batch001-${finding.id}-regulation`,url:finding.officialRegulationUrl},
   {id:`batch001-${finding.id}-information`,url:finding.officialInfoUrl},
   {id:`batch001-${finding.id}-application`,url:finding.officialApplicationUrl}

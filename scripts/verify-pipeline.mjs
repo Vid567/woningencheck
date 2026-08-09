@@ -8,6 +8,7 @@ const taxonomy=read("data/permit-taxonomy.json").permitTypes;
 const reviews=read("data/review-queue.json").items;
 const snapshots=read("data/source-snapshots.json").snapshots;
 const batch001=read("data/research-batches/batch-001.json");
+const batch002=read("data/research-batches/batch-002.json");
 for(const schema of fs.readdirSync("schemas").filter(name=>name.endsWith(".json")))try{read(`schemas/${schema}`)}catch(error){fail(`invalid JSON schema ${schema}: ${error.message}`)}
 if(research.length!==342)fail(`research queue must contain 342 records, got ${research.length}`);
 if(new Set(research.map(item=>item.municipalityCode)).size!==342)fail("research municipality codes are not unique");
@@ -29,7 +30,7 @@ for(const record of regulations){
   for(const document of record.requiredDocuments){for(const key of ["name","requirement","description","responsibleAuthority","lastVerifiedAt","classification"])if(!document[key])fail(`${record.id}: required document metadata missing ${key}`);if(document.classification==="user-supplied-document"&&document.officialTemplateUrl)fail(`${record.id}: user-supplied document must not fabricate template URL`)}
   for(const document of record.applicationDocuments)if(!document.url?.startsWith("https://")||!document.classification||!document.lastVerifiedAt)fail(`${record.id}: application document metadata invalid`);
 }
-const knownResearchIds=new Set([...regulations.map(record=>record.id),...batch001.findings.map(finding=>finding.id)]);
+const knownResearchIds=new Set([...regulations.map(record=>record.id),...batch001.findings.map(finding=>finding.id),...batch002.findings.map(finding=>finding.id)]);
 for(const review of reviews)if(!municipalityCodes.has(review.municipalityCode)||(review.regulationId&&!knownResearchIds.has(review.regulationId)))fail(`${review.id}: review queue reference invalid`);
 for(const snapshot of snapshots){if(snapshot.httpStatus===403&&snapshot.automatedStatus!=="automated-check-blocked")fail(`${snapshot.id}: HTTP 403 incorrectly treated as broken`);if(snapshot.automatedStatus==="reachable"&&!snapshot.contentFingerprint)fail(`${snapshot.id}: reachable source lacks fingerprint`)}
 const pilotCodes=new Set(["GM0518","GM0114","GM0546","GM0599"]);

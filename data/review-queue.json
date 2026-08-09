@@ -1,219 +1,239 @@
 {
-    "schemaVersion":  "1.0.0",
-    "generatedAt":  "2026-08-09",
-    "items":  [
-                  {
-                      "id":  "review-den-haag-opkoop-2026-legal",
-                      "municipalityCode":  "GM0518",
-                      "regulationId":  "den-haag-opkoop-2026",
-                      "category":  "legal-interpretation",
-                      "reason":  "Inhoudelijke juridische interpretatie is nog niet handmatig goedgekeurd.",
-                      "status":  "open",
-                      "priority":  "high",
-                      "createdAt":  "2026-08-09"
-                  },
-                  {
-                      "id":  "review-emmen-opkoop-2023-legal",
-                      "municipalityCode":  "GM0114",
-                      "regulationId":  "emmen-opkoop-2023",
-                      "category":  "legal-interpretation",
-                      "reason":  "Inhoudelijke juridische interpretatie is nog niet handmatig goedgekeurd.",
-                      "status":  "open",
-                      "priority":  "high",
-                      "createdAt":  "2026-08-09"
-                  },
-                  {
-                      "id":  "review-emmen-opkoop-2023-documents",
-                      "municipalityCode":  "GM0114",
-                      "regulationId":  "emmen-opkoop-2023",
-                      "category":  "required-documents",
-                      "reason":  "Formulierroute is geverifieerd, maar de volledige conditionele documentenlijst vereist handmatige controle.",
-                      "status":  "open",
-                      "priority":  "medium",
-                      "createdAt":  "2026-08-09"
-                  },
-                  {
-                      "id":  "review-leiden-opkoop-2024-legal",
-                      "municipalityCode":  "GM0546",
-                      "regulationId":  "leiden-opkoop-2024",
-                      "category":  "legal-interpretation",
-                      "reason":  "Inhoudelijke juridische interpretatie is nog niet handmatig goedgekeurd.",
-                      "status":  "open",
-                      "priority":  "high",
-                      "createdAt":  "2026-08-09"
-                  },
-                  {
-                      "id":  "review-leiden-omzetting-2024-legal",
-                      "municipalityCode":  "GM0546",
-                      "regulationId":  "leiden-omzetting-2024",
-                      "category":  "legal-interpretation",
-                      "reason":  "Inhoudelijke juridische interpretatie is nog niet handmatig goedgekeurd.",
-                      "status":  "open",
-                      "priority":  "high",
-                      "createdAt":  "2026-08-09"
-                  },
-                  {
-                      "id":  "review-leiden-omzetting-2024-scope",
-                      "municipalityCode":  "GM0546",
-                      "regulationId":  "leiden-omzetting-2024",
-                      "category":  "official-map-needs-gis-digitisation",
-                      "reason":  "Offici?le kaart of bijlage gevonden, maar nog niet als gecontroleerde machineleesbare geometrie beschikbaar.",
-                      "status":  "open",
-                      "priority":  "high",
-                      "createdAt":  "2026-08-09"
-                  },
-                  {
-                      "id":  "review-rotterdam-opkoop-legal",
-                      "municipalityCode":  "GM0599",
-                      "regulationId":  "rotterdam-opkoop",
-                      "category":  "legal-interpretation",
-                      "reason":  "Inhoudelijke juridische interpretatie is nog niet handmatig goedgekeurd.",
-                      "status":  "open",
-                      "priority":  "high",
-                      "createdAt":  "2026-08-09"
-                  },
-                  {
-                      "id":  "review-rotterdam-opkoop-scope",
-                      "municipalityCode":  "GM0599",
-                      "regulationId":  "rotterdam-opkoop",
-                      "category":  "geographic-scope",
-                      "reason":  "De actuele verordening noemt zestien CBS-buurten met codes; deze zijn gestructureerd vastgelegd.",
-                      "status":  "resolved",
-                      "priority":  "high",
-                      "createdAt":  "2026-08-09"
-                  },
-                  {
-                      "id":  "review-rotterdam-opkoop-documents",
-                      "municipalityCode":  "GM0599",
-                      "regulationId":  "rotterdam-opkoop",
-                      "category":  "required-documents",
-                      "reason":  "Formulierroute is geverifieerd, maar de volledige conditionele documentenlijst vereist handmatige controle.",
-                      "status":  "open",
-                      "priority":  "medium",
-                      "createdAt":  "2026-08-09"
-                  },
-                  {
-                      "id":  "review-rotterdam-kamerverhuur-2026-legal",
-                      "municipalityCode":  "GM0599",
-                      "regulationId":  "rotterdam-kamerverhuur-2026",
-                      "category":  "legal-interpretation",
-                      "reason":  "Inhoudelijke juridische interpretatie is nog niet handmatig goedgekeurd.",
-                      "status":  "open",
-                      "priority":  "high",
-                      "createdAt":  "2026-08-09"
-                  },
-                  {
-                      "id":  "review-rotterdam-kamerverhuur-2026-scope",
-                      "municipalityCode":  "GM0599",
-                      "regulationId":  "rotterdam-kamerverhuur-2026",
-                      "category":  "official-map-needs-gis-digitisation",
-                      "reason":  "Offici?le kaart of bijlage gevonden, maar nog niet als gecontroleerde machineleesbare geometrie beschikbaar.",
-                      "status":  "open",
-                      "priority":  "high",
-                      "createdAt":  "2026-08-09"
-                  },
-                  {
-                      "id":  "review-rotterdam-kamerverhuur-2026-documents",
-                      "municipalityCode":  "GM0599",
-                      "regulationId":  "rotterdam-kamerverhuur-2026",
-                      "category":  "required-documents",
-                      "reason":  "Formulierroute is geverifieerd, maar de volledige conditionele documentenlijst vereist handmatige controle.",
-                      "status":  "open",
-                      "priority":  "medium",
-                      "createdAt":  "2026-08-09"
-                  },
-                  {
-                      "id":  "batch001-aa-en-hunze-source",
-                      "municipalityCode":  "GM1680",
-                      "regulationId":  null,
-                      "category":  "source-completeness",
-                      "reason":  "Officiële zoekronde leverde geen actuele implementatieregeling op. Controleer het gemeentelijke regelingenregister en officiële bekendmakingen opnieuw; vraag: is er op 9 augustus 2026 een actuele regeling binnen de taxonomie?",
-                      "status":  "resolved",
-                      "priority":  "high",
-                      "createdAt":  "2026-08-09"
-                  },
-                  {
-                      "id":  "batch001-achtkarspelen-taxonomy",
-                      "municipalityCode":  "GM0059",
-                      "regulationId":  "achtkarspelen-target-groups-2023",
-                      "category":  "taxonomy",
-                      "reason":  "CVDR705002 bevat een ontwikkelingsgebonden verhuurmelding. Vraag: is dit een legitieme extra categorie voor een bestaande-woningcheck of uitsluitend een plan-/ontwikkelaarsplicht?",
-                      "status":  "resolved",
-                      "priority":  "medium",
-                      "createdAt":  "2026-08-09"
-                  },
-                  {
-                      "id":  "batch001-alblasserdam-scope-route",
-                      "municipalityCode":  "GM0482",
-                      "regulationId":  null,
-                      "category":  "legal-and-source",
-                      "reason":  "De actuele verordening CVDR741471 is gevonden, maar de officiële dienstverleningsroute en het exacte voor een gewone woning relevante toepassingsbereik konden niet uit één actuele gemeentelijke bron worden bevestigd. Concrete vraag: welke onderdelen van de Huisvestingsverordening 2025 moeten bij een regulier adres als mogelijke vergunningplicht worden getoond, en via welk officieel kanaal wordt die aanvraag ingediend?",
-                      "status":  "resolved",
-                      "priority":  "high",
-                      "createdAt":  "2026-08-09",
-                      "resolution":  "Automatisch opgelost: actuele verordening volledig gereconstrueerd; voorraadwijziging, splitsing, woningvorming en opkoopbescherming zijn onderscheiden. Officiële routes zijn vastgelegd waar bevestigd; voor woningvorming blijft bewust een niet-klikbare route-status staan.",
-                      "resolvedAt":  "2026-08-09",
-                      "decisiveSources":  [
-                                              "https://lokaleregelgeving.overheid.nl/CVDR741471",
-                                              "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Onttrekkingsvergunning_woonruimte_kamerverhuur",
-                                              "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Splitsingsvergunning",
-                                              "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Opkoopbescherming"
-                                          ],
-                      "evidence":  "Volledige actuele regeling, toelichting en officiële dienstverleningsroute gecontroleerd op 2026-08-09."
-                  },
-                  {
-                      "id":  "batch001-albrandswaard-taxonomy",
-                      "municipalityCode":  "GM0613",
-                      "regulationId":  "albrandswaard-rental-notification-2021",
-                      "category":  "taxonomy",
-                      "reason":  "CVDR660521 bevat een meldplicht tijdens een instandhoudingstermijn. Vraag: hoort deze ontwikkelingsgebonden plicht in de gebruikersgerichte taxonomie?",
-                      "status":  "resolved",
-                      "priority":  "medium",
-                      "createdAt":  "2026-08-09"
-                  },
-                  {
-                      "id":  "batch001-almelo-index-map",
-                      "municipalityCode":  "GM0141",
-                      "regulationId":  "almelo-vacancy-2020",
-                      "category":  "official-map-needs-gis-digitisation",
-                      "reason":  "De opkoopbescherming heeft een officiële machineleesbare ArcGIS-laag en is geautomatiseerd. Voor de leegstandverordening verwijzen verordening en gemeentepagina alleen naar de binnenstad/bijlage; geen officiële machineleesbare equivalent is gevonden. Concrete vraag: bevestig of de juridische grens uit bijlage 1 handmatig moet worden gedigitaliseerd, of lever een officiële GIS-laag.",
-                      "status":  "resolved",
-                      "priority":  "high",
-                      "createdAt":  "2026-08-09",
-                      "resolution":  "Automatisch opgelost: bijlage 1 is zelf machineleesbaar te modelleren als exacte juridische straatlijst en huisnummerbereiken. Geen kaartdigitalisering of postcodebenadering nodig.",
-                      "resolvedAt":  "2026-08-09",
-                      "decisiveSources":  [
-                                              "https://lokaleregelgeving.overheid.nl/CVDR638723",
-                                              "https://almelo.nl/bouwen-en-wonen/leegstandsverordening/formulier-leegstandsverordening"
-                                          ],
-                      "evidence":  "Volledige actuele regeling, toelichting en officiële dienstverleningsroute gecontroleerd op 2026-08-09."
-                  },
-                  {
-                      "id":  "batch001-alphen-source",
-                      "municipalityCode":  "GM0484",
-                      "regulationId":  null,
-                      "category":  "source-completeness",
-                      "reason":  "Alleen vervallen of niet-passende officiële resultaten gevonden. Controleer gemeentelijke en regionale registers; vraag: geldt op 9 augustus 2026 een actuele implementatieregeling binnen de taxonomie?",
-                      "status":  "resolved",
-                      "priority":  "high",
-                      "createdAt":  "2026-08-09"
-                  },
-                  {
-                      "id":  "batch001-aalten-official-scope-conflict",
-                      "municipalityCode":  "GM0197",
-                      "regulationId":  "aalten-good-landlord-2024",
-                      "category":  "source-conflict",
-                      "reason":  "Artikel 2 van CVDR720987 formuleert de vergunningplicht voor alle verblijfsruimte, terwijl de actuele gemeentepagina de dienst beschrijft voor internationale werknemers/arbeidsmigranten. Concrete vraag: is de vergunningplicht juridisch algemeen of beperkt de aanwijzing/uitvoering haar tot deze doelgroep?",
-                      "status":  "resolved",
-                      "priority":  "high",
-                      "createdAt":  "2026-08-09",
-                      "resolution":  "Automatisch opgelost: artikel 2 gebruikt de wettelijke term verblijfsruimte; de algemene toelichting beperkt het stelsel expliciet tot verblijfsruimte aan arbeidsmigranten en sluit reguliere woonruimte uit. Geen afzonderlijk aanwijzingsbesluit vereist.",
-                      "resolvedAt":  "2026-08-09",
-                      "decisiveSources":  [
-                                              "https://lokaleregelgeving.overheid.nl/CVDR720987",
-                                              "https://www.aalten.nl/verhuurvergunning"
-                                          ],
-                      "evidence":  "Volledige actuele regeling, toelichting en officiële dienstverleningsroute gecontroleerd op 2026-08-09."
-                  }
-              ]
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-09",
+  "items": [
+    {
+      "id": "review-den-haag-opkoop-2026-legal",
+      "municipalityCode": "GM0518",
+      "regulationId": "den-haag-opkoop-2026",
+      "category": "legal-interpretation",
+      "reason": "Inhoudelijke juridische interpretatie is nog niet handmatig goedgekeurd.",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "review-emmen-opkoop-2023-legal",
+      "municipalityCode": "GM0114",
+      "regulationId": "emmen-opkoop-2023",
+      "category": "legal-interpretation",
+      "reason": "Inhoudelijke juridische interpretatie is nog niet handmatig goedgekeurd.",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "review-emmen-opkoop-2023-documents",
+      "municipalityCode": "GM0114",
+      "regulationId": "emmen-opkoop-2023",
+      "category": "required-documents",
+      "reason": "Formulierroute is geverifieerd, maar de volledige conditionele documentenlijst vereist handmatige controle.",
+      "status": "open",
+      "priority": "medium",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "review-leiden-opkoop-2024-legal",
+      "municipalityCode": "GM0546",
+      "regulationId": "leiden-opkoop-2024",
+      "category": "legal-interpretation",
+      "reason": "Inhoudelijke juridische interpretatie is nog niet handmatig goedgekeurd.",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "review-leiden-omzetting-2024-legal",
+      "municipalityCode": "GM0546",
+      "regulationId": "leiden-omzetting-2024",
+      "category": "legal-interpretation",
+      "reason": "Inhoudelijke juridische interpretatie is nog niet handmatig goedgekeurd.",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "review-leiden-omzetting-2024-scope",
+      "municipalityCode": "GM0546",
+      "regulationId": "leiden-omzetting-2024",
+      "category": "official-map-needs-gis-digitisation",
+      "reason": "Offici?le kaart of bijlage gevonden, maar nog niet als gecontroleerde machineleesbare geometrie beschikbaar.",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "review-rotterdam-opkoop-legal",
+      "municipalityCode": "GM0599",
+      "regulationId": "rotterdam-opkoop",
+      "category": "legal-interpretation",
+      "reason": "Inhoudelijke juridische interpretatie is nog niet handmatig goedgekeurd.",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "review-rotterdam-opkoop-scope",
+      "municipalityCode": "GM0599",
+      "regulationId": "rotterdam-opkoop",
+      "category": "geographic-scope",
+      "reason": "De actuele verordening noemt zestien CBS-buurten met codes; deze zijn gestructureerd vastgelegd.",
+      "status": "resolved",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "review-rotterdam-opkoop-documents",
+      "municipalityCode": "GM0599",
+      "regulationId": "rotterdam-opkoop",
+      "category": "required-documents",
+      "reason": "Formulierroute is geverifieerd, maar de volledige conditionele documentenlijst vereist handmatige controle.",
+      "status": "open",
+      "priority": "medium",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "review-rotterdam-kamerverhuur-2026-legal",
+      "municipalityCode": "GM0599",
+      "regulationId": "rotterdam-kamerverhuur-2026",
+      "category": "legal-interpretation",
+      "reason": "Inhoudelijke juridische interpretatie is nog niet handmatig goedgekeurd.",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "review-rotterdam-kamerverhuur-2026-scope",
+      "municipalityCode": "GM0599",
+      "regulationId": "rotterdam-kamerverhuur-2026",
+      "category": "official-map-needs-gis-digitisation",
+      "reason": "Offici?le kaart of bijlage gevonden, maar nog niet als gecontroleerde machineleesbare geometrie beschikbaar.",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "review-rotterdam-kamerverhuur-2026-documents",
+      "municipalityCode": "GM0599",
+      "regulationId": "rotterdam-kamerverhuur-2026",
+      "category": "required-documents",
+      "reason": "Formulierroute is geverifieerd, maar de volledige conditionele documentenlijst vereist handmatige controle.",
+      "status": "open",
+      "priority": "medium",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "batch001-aa-en-hunze-source",
+      "municipalityCode": "GM1680",
+      "regulationId": null,
+      "category": "source-completeness",
+      "reason": "Officiële zoekronde leverde geen actuele implementatieregeling op. Controleer het gemeentelijke regelingenregister en officiële bekendmakingen opnieuw; vraag: is er op 9 augustus 2026 een actuele regeling binnen de taxonomie?",
+      "status": "resolved",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "batch001-achtkarspelen-taxonomy",
+      "municipalityCode": "GM0059",
+      "regulationId": "achtkarspelen-target-groups-2023",
+      "category": "taxonomy",
+      "reason": "CVDR705002 bevat een ontwikkelingsgebonden verhuurmelding. Vraag: is dit een legitieme extra categorie voor een bestaande-woningcheck of uitsluitend een plan-/ontwikkelaarsplicht?",
+      "status": "resolved",
+      "priority": "medium",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "batch001-alblasserdam-scope-route",
+      "municipalityCode": "GM0482",
+      "regulationId": null,
+      "category": "legal-and-source",
+      "reason": "De actuele verordening CVDR741471 is gevonden, maar de officiële dienstverleningsroute en het exacte voor een gewone woning relevante toepassingsbereik konden niet uit één actuele gemeentelijke bron worden bevestigd. Concrete vraag: welke onderdelen van de Huisvestingsverordening 2025 moeten bij een regulier adres als mogelijke vergunningplicht worden getoond, en via welk officieel kanaal wordt die aanvraag ingediend?",
+      "status": "resolved",
+      "priority": "high",
+      "createdAt": "2026-08-09",
+      "resolution": "Automatisch opgelost: actuele verordening volledig gereconstrueerd; voorraadwijziging, splitsing, woningvorming en opkoopbescherming zijn onderscheiden. Officiële routes zijn vastgelegd waar bevestigd; voor woningvorming blijft bewust een niet-klikbare route-status staan.",
+      "resolvedAt": "2026-08-09",
+      "decisiveSources": [
+        "https://lokaleregelgeving.overheid.nl/CVDR741471",
+        "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Onttrekkingsvergunning_woonruimte_kamerverhuur",
+        "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Splitsingsvergunning",
+        "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Opkoopbescherming"
+      ],
+      "evidence": "Volledige actuele regeling, toelichting en officiële dienstverleningsroute gecontroleerd op 2026-08-09."
+    },
+    {
+      "id": "batch001-albrandswaard-taxonomy",
+      "municipalityCode": "GM0613",
+      "regulationId": "albrandswaard-rental-notification-2021",
+      "category": "taxonomy",
+      "reason": "CVDR660521 bevat een meldplicht tijdens een instandhoudingstermijn. Vraag: hoort deze ontwikkelingsgebonden plicht in de gebruikersgerichte taxonomie?",
+      "status": "resolved",
+      "priority": "medium",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "batch001-almelo-index-map",
+      "municipalityCode": "GM0141",
+      "regulationId": "almelo-vacancy-2020",
+      "category": "official-map-needs-gis-digitisation",
+      "reason": "De opkoopbescherming heeft een officiële machineleesbare ArcGIS-laag en is geautomatiseerd. Voor de leegstandverordening verwijzen verordening en gemeentepagina alleen naar de binnenstad/bijlage; geen officiële machineleesbare equivalent is gevonden. Concrete vraag: bevestig of de juridische grens uit bijlage 1 handmatig moet worden gedigitaliseerd, of lever een officiële GIS-laag.",
+      "status": "resolved",
+      "priority": "high",
+      "createdAt": "2026-08-09",
+      "resolution": "Automatisch opgelost: bijlage 1 is zelf machineleesbaar te modelleren als exacte juridische straatlijst en huisnummerbereiken. Geen kaartdigitalisering of postcodebenadering nodig.",
+      "resolvedAt": "2026-08-09",
+      "decisiveSources": [
+        "https://lokaleregelgeving.overheid.nl/CVDR638723",
+        "https://almelo.nl/bouwen-en-wonen/leegstandsverordening/formulier-leegstandsverordening"
+      ],
+      "evidence": "Volledige actuele regeling, toelichting en officiële dienstverleningsroute gecontroleerd op 2026-08-09."
+    },
+    {
+      "id": "batch001-alphen-source",
+      "municipalityCode": "GM0484",
+      "regulationId": null,
+      "category": "source-completeness",
+      "reason": "Alleen vervallen of niet-passende officiële resultaten gevonden. Controleer gemeentelijke en regionale registers; vraag: geldt op 9 augustus 2026 een actuele implementatieregeling binnen de taxonomie?",
+      "status": "resolved",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "batch001-aalten-official-scope-conflict",
+      "municipalityCode": "GM0197",
+      "regulationId": "aalten-good-landlord-2024",
+      "category": "source-conflict",
+      "reason": "Artikel 2 van CVDR720987 formuleert de vergunningplicht voor alle verblijfsruimte, terwijl de actuele gemeentepagina de dienst beschrijft voor internationale werknemers/arbeidsmigranten. Concrete vraag: is de vergunningplicht juridisch algemeen of beperkt de aanwijzing/uitvoering haar tot deze doelgroep?",
+      "status": "resolved",
+      "priority": "high",
+      "createdAt": "2026-08-09",
+      "resolution": "Automatisch opgelost: artikel 2 gebruikt de wettelijke term verblijfsruimte; de algemene toelichting beperkt het stelsel expliciet tot verblijfsruimte aan arbeidsmigranten en sluit reguliere woonruimte uit. Geen afzonderlijk aanwijzingsbesluit vereist.",
+      "resolvedAt": "2026-08-09",
+      "decisiveSources": [
+        "https://lokaleregelgeving.overheid.nl/CVDR720987",
+        "https://www.aalten.nl/verhuurvergunning"
+      ],
+      "evidence": "Volledige actuele regeling, toelichting en officiële dienstverleningsroute gecontroleerd op 2026-08-09."
+    },
+    {
+      "id": "batch002-amstelveen-50m",
+      "municipalityCode": "GM0362",
+      "regulationId": "amstelveen-sharing",
+      "category": "geographic-scope",
+      "reason": "50-meterregel vereist alle verleende vergunningen; geen officiële volledige laag bevestigd. Exacte vraag: kan gemeente een actuele GIS/registerlaag leveren?",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "batch002-assen-contour",
+      "municipalityCode": "GM0106",
+      "regulationId": "assen-splitting",
+      "category": "official-map-needs-gis-digitisation",
+      "reason": "Bijlage 1 bevat contour; geen machineleesbare equivalent bevestigd. Exacte vraag: officiële GIS-laag leveren of exact digitaliseren?",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    }
+  ]
 }

@@ -16,11 +16,17 @@ Woningencheck.nl wordt een gestructureerde, officiële-bronnen-database voor Ned
 - `data/municipalities-2026.json` — canonieke CBS-lijst van 342 gemeenten op 1 januari 2026.
 - `data/regulations.json` — gemeentelijke regelrecords volgens het uitbreidbare model.
 - `data/sources.json` — centraal bronregister.
+- `data/permit-taxonomy.json` — centrale begrippentaxonomie met gemeentelijke aliasruimte.
+- `data/research-status.json` — onderzoekwachtrij met exact 342 gemeentelijke onderzoekseenheden.
+- `data/review-queue.json` — onafhankelijke wachtrij voor juridische, geografische en documentreview.
 - `schemas/regulation.schema.json` — contractschema voor regelrecords.
+- `schemas/evidence.schema.json`, `research-status.schema.json` en `review-item.schema.json` — pijplijncontracten.
 - `scripts/verify-data.mjs` — deterministische dataset- en publicatiecontroles.
 - `scripts/verify-sources.mjs` — netwerkcontrole voor toegestane officiële hosts; verandert geen juridische status.
+- `scripts/build-research-pipeline.mjs` — reproduceerbare generatie/migratie van de onderzoek- en reviewwachtrij.
 
 Meer details staan in [de dataverantwoording](docs/data-provenance.md).
+De verplichte werkwijze staat in [de onderzoeksmethodologie](docs/research-methodology.md).
 
 ## Huidige dekking
 

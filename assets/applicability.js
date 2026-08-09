@@ -8,3 +8,4 @@ export function evaluateRule(rule,context={},answers={}){if(rule.conflictStatus?
 export function groupEvaluations(items){return {applicable:items.filter(x=>x.evaluation.state===STATES.APPLICABLE),potential:items.filter(x=>[STATES.POTENTIAL,STATES.QUESTIONS,STATES.INSUFFICIENT,STATES.REVIEW].includes(x.evaluation.state)),notApplicable:items.filter(x=>x.evaluation.state===STATES.NOT_APPLICABLE)}}
 
 
+export function isApplicationRouteRelevant(evaluation){return [STATES.APPLICABLE,STATES.POTENTIAL].includes(evaluation?.state)}

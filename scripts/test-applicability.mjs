@@ -1,6 +1,6 @@
-import assert from "node:assert/strict";
+﻿import assert from "node:assert/strict";
 import fs from "node:fs";
-import {buildAddressContext,evaluateRule,STATES} from "../assets/applicability.js";
+import {buildAddressContext,evaluateRule,isApplicationRouteRelevant,STATES} from "../assets/applicability.js";
 const records=JSON.parse(fs.readFileSync("data/regulations.json","utf8")).records;
 const op=records.find(x=>x.id==="leiden-opkoop-2024"),om=records.find(x=>x.id==="leiden-omzetting-2024");
 const context=(neighborhood,postcode="2315SW",street="Trompstraat")=>({municipality:{code:"GM0546"},location:{neighborhoodName:neighborhood,districtName:"Binnenstad-Noord"},address:{postcode,street,houseNumber:51},property:{wozValue:null}});
@@ -19,5 +19,5 @@ assert.equal(evaluateRule(om,context("Hoge Mors")).state,STATES.NOT_APPLICABLE);
 assert.equal(evaluateRule(om,context("De Waard")).state,STATES.QUESTIONS);
 const bag=buildAddressContext({postcode:"2315SW",huisnummer:51,straatnaam:"Trompstraat",weergavenaam:"Trompstraat 51",buurtnaam:"De Waard",buurtcode:"BU05460109",wijknaam:"Binnenstad-Noord",wijkcode:"WK054601",gemeentecode:"0546",gemeentenaam:"Leiden",adresseerbaarobject_id:"0546010000027941",centroide_ll:"POINT(4.508 52.158)"});assert.equal(bag.municipality.code,"GM0546");assert.equal("residents" in bag.property,false);
 const app=fs.readFileSync("assets/app.js","utf8");assert(!app.includes("not reviewed"));assert(!/BRP|bewonersregister/.test(app));
+assert(!isApplicationRouteRelevant({state:STATES.QUESTIONS}));assert(!isApplicationRouteRelevant({state:STATES.NOT_APPLICABLE}));assert(isApplicationRouteRelevant({state:STATES.POTENTIAL}));assert(isApplicationRouteRelevant({state:STATES.APPLICABLE}));
 console.log("PASS applicability: municipality, street, postcode, neighbourhood, value, missing data, questions, no-match, conflict, Leiden pilots, privacy and public language");
-

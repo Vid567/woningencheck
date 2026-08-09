@@ -1,4 +1,4 @@
-# Address-specific applicability: feasibility and architecture
+﻿# Address-specific applicability: feasibility and architecture
 
 Checked 2026-08-09. Official sources only.
 
@@ -21,6 +21,12 @@ PDOK address lookup matched the municipality, then every record with that munici
 
 References: [BAG](https://api.pdok.nl/kadaster/bag/ogc/v2?f=html&lang=nl), [DSO](https://iplo.nl/digitaal-stelsel/aansluiten/open-data-api/), [WOZ](https://www.waarderingskamer.nl/woz-wijzer/controleren-woz-waarde/woz-waardeloket), [BRK](https://www.kadaster.nl/zakelijk/producten/eigendom/aanvragen-brk-levering), [BRP](https://www.rvig.nl/basisregistratie-personen).
 
+## WOZ production decision
+
+The official WOZ-waardeloket supports individual address searches by users. It has no public production API for Woningencheck.nl and explicitly prohibits mass or automated extraction. Authentication and cost are not applicable for manual use; automated integration is not authorised. Reliability is official for displayed residential values, subject to municipal source data and the selected value date. Privacy impact is limited for individual public dwelling values.
+
+Production use: provide a normal outbound link to https://www.wozwaardeloket.nl/, instruct the user to enter the same address, and ask only for the municipality-specific value condition required by the rule. Do not scrape, proxy, prefill undocumented query parameters or store a retrieved value as an official automatic fact. Recommended phase: manual assisted lookup now; reconsider automation only if an authorised official API or legal bulk route becomes available.
+
 ## Automatic versus user facts
 
 Automatic now: address, municipality code, street/postcode/number, coordinates, BAG ID, neighbourhood/district and lawful object characteristics. Reviewed lists/polygons can be joined. Not automatic: acquisition date, WOZ at acquisition, rental duration at transfer, intended use, owner occupancy, family relation, occupants or household composition. Official facts, user answers and inference remain separate; conditions declare their source and evidence.
@@ -37,4 +43,3 @@ Article 2 limits conversion/forming permits to the legal map. The appendix names
 ## Architecture decision
 
 Static GitHub Pages is sufficient for this pilot: public CORS address data, local evaluation and no secrets. Nationwide use should add scheduled GIS/data ingestion and immutable source versions. Add a serverless proxy/cache for DSO keys, rate limits and monitoring. Add a spatial database only when reviewed temporal polygons outgrow static files. BRP and personal BRK data remain out of scope regardless of backend.
-

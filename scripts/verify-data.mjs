@@ -25,7 +25,7 @@ for(const rule of rules){
   if(rule.regulationType==="opkoopbescherming"&&!/(opkoop|verhuurvergunning)/.test(path))fail(`${rule.id}: application URL may point to unrelated permit type`);
   if(rule.regulationType==="omzettingsvergunning"&&!/(kamerverhuur|omzettingsvergunning)/.test(path))fail(`${rule.id}: application URL may point to unrelated permit type`);
 }
-for(const token of ["officialApplicationUrl","application-cta","Aanvraagroute nog niet bevestigd","Bekijk gemeentelijke uitleg","Bekijk regeling"])if(!app.includes(token))fail(`application UI does not render ${token}`);
+for(const token of ["officialApplicationUrl","application-cta","isApplicationRouteRelevant","Bekijk uitleg van de gemeente","Bekijk de officiële regelgeving","www.wozwaardeloket.nl"])if(!app.includes(token))fail(`application UI does not render ${token}`);
 for(const token of ['fetch("data/municipalities-2026.json"','state.municipalities.map','findMunicipality(found)','if(byCode)return byCode','Adres controleren...','Gemeente:'])if(!app.includes(token))fail(`municipality UI regression: missing ${token}`);
 if(app.includes("BAG-id:")||app.includes("Officieel BAG-adres zoeken via PDOK"))fail("technical address terminology exposed to users");
 const text=fs.readFileSync("index.html","utf8")+app;
@@ -33,4 +33,3 @@ for(const bad of ["localhost","raw.githack.com","api_key","apiKey"])if(text.incl
 if(fs.readFileSync("CNAME","utf8").trim()!=="woningencheck.nl")fail("CNAME mismatch");
 if(!sources.length)fail("source register empty");
 if(!process.exitCode)console.log(`PASS: ${productionJson.length} production JSON files parsed; ${data.municipalities.length} municipalities available to dropdown; ${rules.length} rules, ${sources.length} sources`);
-

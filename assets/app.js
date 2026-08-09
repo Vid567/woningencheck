@@ -6,8 +6,8 @@ async function json(response){if(!response.ok)throw new Error(`Gegevens niet bes
 async function load(){const [m,r]=await Promise.all([fetch("data/municipalities-2026.json").then(json),fetch("data/regulations.json").then(json)]);state.municipalities=m.municipalities;state.regulations=r.records;el("count").textContent=m.municipalities.length;el("municipality").innerHTML='<option value="">Kies een gemeente</option>'+m.municipalities.map(x=>`<option value="${x.code}">${esc(x.name)} &mdash; ${esc(x.provinceName)}</option>`).join("")}
 function link(url,label,className="text-link"){return `<a class="${className}" href="${encodeURI(url)}" target="_blank" rel="noopener">${label} <span aria-hidden="true">&#8599;</span></a>`}
 function renderRule(r){
-  const documents=(r.applicationDocuments||[]).map(document=>`<li>${link(document.url,esc(document.label))}</li>`).join("");
-  const required=(r.requiredDocuments||[]).map(document=>`<li>${esc(document)}</li>`).join("");
+  const documents=(r.applicationDocuments||[]).map(document=>`<li>${link(document.url,`Open formulier: ${esc(document.label)}`)}</li>`).join("");
+  const required=(r.requiredDocuments||[]).map(document=>`<li><strong>${esc(document.name)}</strong> — ${esc(document.requirement)}<br><span>${esc(document.description)}</span><br>${document.officialTemplateUrl?link(document.officialTemplateUrl,"Download document"):document.classification==="user-supplied-document"?'<span class="self-supplied">Zelf aanleveren</span>':""} ${document.officialInstructionsUrl?link(document.officialInstructionsUrl,"Bekijk instructies"):""}</li>`).join("");
   const application=r.officialApplicationUrl&&r.applicationUrlStatus!=="unresolved"
     ?link(r.officialApplicationUrl,"Start aanvraag","application-cta")
     :'<span class="application-unresolved">Aanvraagroute nog niet bevestigd</span>';

@@ -1,5 +1,5 @@
 name: Quality checks
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 permissions: {contents: read}
 jobs:
   validate:
@@ -10,6 +10,11 @@ jobs:
         with: {node-version: 22}
       - run: node --check assets/app.js
       - run: node scripts/verify-data.mjs
+      - run: node scripts/verify-pipeline.mjs
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install jsonschema
+      - run: python scripts/validate-schemas.py
       - name: Verify official sources
         if: github.event_name == 'workflow_dispatch'
         run: node scripts/verify-sources.mjs

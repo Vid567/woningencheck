@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-09T20:27:42.957Z",
+  "generatedAt": "2026-08-09T20:33:15.443Z",
   "testMunicipalities": [
     "GM0482",
     "GM0361",
@@ -11,21 +11,21 @@
     "GM0307",
     "GM0197",
     "GM0489",
-    "GM0358"
+    "GM0141"
   ],
   "concurrency": 5,
   "maxActiveConcurrency": 5,
   "cold": {
     "warm": false,
-    "durationMs": 5398,
-    "requests": 46,
+    "durationMs": 4967,
+    "requests": 49,
     "cacheHits": 0,
     "municipalities": [
       {
         "municipalityCode": "GM0482",
         "municipalityName": "Alblasserdam",
         "selectionReason": "meerdere voorraadtypen en regionale formulieren",
-        "durationMs": 621,
+        "durationMs": 597,
         "sourcesQueried": 7,
         "candidatesFound": 11,
         "knownRelationships": 6,
@@ -43,13 +43,27 @@
         "cacheHits": 0,
         "attachmentsFound": 1,
         "applicationLinksFound": 6,
+        "adapterCoverage": {
+          "officialPublication": {
+            "status": "success"
+          },
+          "municipalWebsite": {
+            "status": "success"
+          },
+          "gis": {
+            "status": "no-result"
+          },
+          "attachmentsForms": {
+            "status": "success"
+          }
+        },
         "triageTier": 2
       },
       {
         "municipalityCode": "GM0361",
         "municipalityName": "Alkmaar",
         "selectionReason": "meerdere typen en gemeentebrede/binnenstadvoorwaarden",
-        "durationMs": 1059,
+        "durationMs": 1020,
         "sourcesQueried": 3,
         "candidatesFound": 9,
         "knownRelationships": 5,
@@ -66,13 +80,27 @@
         "cacheHits": 0,
         "attachmentsFound": 4,
         "applicationLinksFound": 4,
+        "adapterCoverage": {
+          "officialPublication": {
+            "status": "success"
+          },
+          "municipalWebsite": {
+            "status": "success"
+          },
+          "gis": {
+            "status": "no-result"
+          },
+          "attachmentsForms": {
+            "status": "success"
+          }
+        },
         "triageTier": 2
       },
       {
         "municipalityCode": "GM0363",
         "municipalityName": "Amsterdam",
         "selectionReason": "complexe gemeentelijke voorraadregels",
-        "durationMs": 412,
+        "durationMs": 503,
         "sourcesQueried": 7,
         "candidatesFound": 12,
         "knownRelationships": 6,
@@ -91,13 +119,27 @@
         "cacheHits": 0,
         "attachmentsFound": 1,
         "applicationLinksFound": 2,
+        "adapterCoverage": {
+          "officialPublication": {
+            "status": "success"
+          },
+          "municipalWebsite": {
+            "status": "success"
+          },
+          "gis": {
+            "status": "no-result"
+          },
+          "attachmentsForms": {
+            "status": "success"
+          }
+        },
         "triageTier": 2
       },
       {
         "municipalityCode": "GM0362",
         "municipalityName": "Amstelveen",
         "selectionReason": "dynamiek en meerdere typen",
-        "durationMs": 706,
+        "durationMs": 480,
         "sourcesQueried": 6,
         "candidatesFound": 11,
         "knownRelationships": 3,
@@ -118,13 +160,27 @@
         "cacheHits": 0,
         "attachmentsFound": 2,
         "applicationLinksFound": 5,
+        "adapterCoverage": {
+          "officialPublication": {
+            "status": "success"
+          },
+          "municipalWebsite": {
+            "status": "success"
+          },
+          "gis": {
+            "status": "no-result"
+          },
+          "attachmentsForms": {
+            "status": "success"
+          }
+        },
         "triageTier": 2
       },
       {
         "municipalityCode": "GM0106",
         "municipalityName": "Assen",
         "selectionReason": "juridische kaart/PDF en Omgevingsloket",
-        "durationMs": 180,
+        "durationMs": 279,
         "sourcesQueried": 3,
         "candidatesFound": 6,
         "knownRelationships": 1,
@@ -142,13 +198,27 @@
         "cacheHits": 0,
         "attachmentsFound": 0,
         "applicationLinksFound": 0,
+        "adapterCoverage": {
+          "officialPublication": {
+            "status": "success"
+          },
+          "municipalWebsite": {
+            "status": "success"
+          },
+          "gis": {
+            "status": "no-result"
+          },
+          "attachmentsForms": {
+            "status": "no-result"
+          }
+        },
         "triageTier": 2
       },
       {
         "municipalityCode": "GM0203",
         "municipalityName": "Barneveld",
         "selectionReason": "meerdere typen en digitaal loket",
-        "durationMs": 396,
+        "durationMs": 395,
         "sourcesQueried": 7,
         "candidatesFound": 9,
         "knownRelationships": 6,
@@ -164,13 +234,27 @@
         "cacheHits": 0,
         "attachmentsFound": 0,
         "applicationLinksFound": 4,
+        "adapterCoverage": {
+          "officialPublication": {
+            "status": "success"
+          },
+          "municipalWebsite": {
+            "status": "success"
+          },
+          "gis": {
+            "status": "no-result"
+          },
+          "attachmentsForms": {
+            "status": "success"
+          }
+        },
         "triageTier": 2
       },
       {
         "municipalityCode": "GM0307",
         "municipalityName": "Amersfoort",
         "selectionReason": "huisvesting en leegstand",
-        "durationMs": 508,
+        "durationMs": 355,
         "sourcesQueried": 4,
         "candidatesFound": 6,
         "knownRelationships": 2,
@@ -187,13 +271,27 @@
         "cacheHits": 0,
         "attachmentsFound": 4,
         "applicationLinksFound": 2,
+        "adapterCoverage": {
+          "officialPublication": {
+            "status": "success"
+          },
+          "municipalWebsite": {
+            "status": "success"
+          },
+          "gis": {
+            "status": "no-result"
+          },
+          "attachmentsForms": {
+            "status": "success"
+          }
+        },
         "triageTier": 2
       },
       {
         "municipalityCode": "GM0197",
         "municipalityName": "Aalten",
         "selectionReason": "sparse verhuurvergunningbron",
-        "durationMs": 249,
+        "durationMs": 250,
         "sourcesQueried": 3,
         "candidatesFound": 3,
         "knownRelationships": 1,
@@ -208,13 +306,27 @@
         "cacheHits": 0,
         "attachmentsFound": 0,
         "applicationLinksFound": 0,
+        "adapterCoverage": {
+          "officialPublication": {
+            "status": "success"
+          },
+          "municipalWebsite": {
+            "status": "success"
+          },
+          "gis": {
+            "status": "no-result"
+          },
+          "attachmentsForms": {
+            "status": "no-result"
+          }
+        },
         "triageTier": 2
       },
       {
         "municipalityCode": "GM0489",
         "municipalityName": "Barendrecht",
         "selectionReason": "regionale woonruimtebemiddeling",
-        "durationMs": 645,
+        "durationMs": 595,
         "sourcesQueried": 3,
         "candidatesFound": 5,
         "knownRelationships": 1,
@@ -231,39 +343,66 @@
         "cacheHits": 0,
         "attachmentsFound": 1,
         "applicationLinksFound": 1,
+        "adapterCoverage": {
+          "officialPublication": {
+            "status": "success"
+          },
+          "municipalWebsite": {
+            "status": "success"
+          },
+          "gis": {
+            "status": "no-result"
+          },
+          "attachmentsForms": {
+            "status": "success"
+          }
+        },
         "triageTier": 2
       },
       {
-        "municipalityCode": "GM0358",
-        "municipalityName": "Aalsmeer",
-        "selectionReason": "sparse content en meerdere voorraadtypen",
-        "durationMs": 621,
-        "sourcesQueried": 3,
-        "candidatesFound": 9,
-        "knownRelationships": 4,
-        "rediscovered": 4,
+        "municipalityCode": "GM0141",
+        "municipalityName": "Almelo",
+        "selectionReason": "officiÃ«le ArcGIS-laag en meerdere regimes",
+        "durationMs": 492,
+        "sourcesQueried": 6,
+        "candidatesFound": 6,
+        "knownRelationships": 2,
+        "rediscovered": 2,
         "misses": [],
         "extras": [
           "good-landlord-permit",
-          "conversion-permit",
-          "room-rental",
           "holiday-rental",
+          "housing-permit",
           "planning-housing-permit"
         ],
         "adapterErrors": [],
         "retries": 0,
         "cacheHits": 0,
-        "attachmentsFound": 1,
-        "applicationLinksFound": 4,
+        "attachmentsFound": 7,
+        "applicationLinksFound": 5,
+        "adapterCoverage": {
+          "officialPublication": {
+            "status": "success"
+          },
+          "municipalWebsite": {
+            "status": "success"
+          },
+          "gis": {
+            "status": "success"
+          },
+          "attachmentsForms": {
+            "status": "success"
+          }
+        },
         "triageTier": 2
       }
     ]
   },
   "warm": {
     "warm": true,
-    "durationMs": 58,
+    "durationMs": 61,
     "requests": 0,
-    "cacheHits": 46,
+    "cacheHits": 49,
     "municipalities": [
       {
         "municipalityCode": "GM0482",
@@ -287,13 +426,27 @@
         "cacheHits": 7,
         "attachmentsFound": 1,
         "applicationLinksFound": 6,
+        "adapterCoverage": {
+          "officialPublication": {
+            "status": "success"
+          },
+          "municipalWebsite": {
+            "status": "success"
+          },
+          "gis": {
+            "status": "no-result"
+          },
+          "attachmentsForms": {
+            "status": "success"
+          }
+        },
         "triageTier": 2
       },
       {
         "municipalityCode": "GM0361",
         "municipalityName": "Alkmaar",
         "selectionReason": "meerdere typen en gemeentebrede/binnenstadvoorwaarden",
-        "durationMs": 4,
+        "durationMs": 3,
         "sourcesQueried": 3,
         "candidatesFound": 9,
         "knownRelationships": 5,
@@ -310,6 +463,20 @@
         "cacheHits": 3,
         "attachmentsFound": 4,
         "applicationLinksFound": 4,
+        "adapterCoverage": {
+          "officialPublication": {
+            "status": "success"
+          },
+          "municipalWebsite": {
+            "status": "success"
+          },
+          "gis": {
+            "status": "no-result"
+          },
+          "attachmentsForms": {
+            "status": "success"
+          }
+        },
         "triageTier": 2
       },
       {
@@ -335,6 +502,20 @@
         "cacheHits": 7,
         "attachmentsFound": 1,
         "applicationLinksFound": 2,
+        "adapterCoverage": {
+          "officialPublication": {
+            "status": "success"
+          },
+          "municipalWebsite": {
+            "status": "success"
+          },
+          "gis": {
+            "status": "no-result"
+          },
+          "attachmentsForms": {
+            "status": "success"
+          }
+        },
         "triageTier": 2
       },
       {
@@ -362,6 +543,20 @@
         "cacheHits": 6,
         "attachmentsFound": 2,
         "applicationLinksFound": 5,
+        "adapterCoverage": {
+          "officialPublication": {
+            "status": "success"
+          },
+          "municipalWebsite": {
+            "status": "success"
+          },
+          "gis": {
+            "status": "no-result"
+          },
+          "attachmentsForms": {
+            "status": "success"
+          }
+        },
         "triageTier": 2
       },
       {
@@ -386,13 +581,27 @@
         "cacheHits": 3,
         "attachmentsFound": 0,
         "applicationLinksFound": 0,
+        "adapterCoverage": {
+          "officialPublication": {
+            "status": "success"
+          },
+          "municipalWebsite": {
+            "status": "success"
+          },
+          "gis": {
+            "status": "no-result"
+          },
+          "attachmentsForms": {
+            "status": "no-result"
+          }
+        },
         "triageTier": 2
       },
       {
         "municipalityCode": "GM0203",
         "municipalityName": "Barneveld",
         "selectionReason": "meerdere typen en digitaal loket",
-        "durationMs": 4,
+        "durationMs": 5,
         "sourcesQueried": 7,
         "candidatesFound": 9,
         "knownRelationships": 6,
@@ -408,13 +617,27 @@
         "cacheHits": 7,
         "attachmentsFound": 0,
         "applicationLinksFound": 4,
+        "adapterCoverage": {
+          "officialPublication": {
+            "status": "success"
+          },
+          "municipalWebsite": {
+            "status": "success"
+          },
+          "gis": {
+            "status": "no-result"
+          },
+          "attachmentsForms": {
+            "status": "success"
+          }
+        },
         "triageTier": 2
       },
       {
         "municipalityCode": "GM0307",
         "municipalityName": "Amersfoort",
         "selectionReason": "huisvesting en leegstand",
-        "durationMs": 11,
+        "durationMs": 10,
         "sourcesQueried": 4,
         "candidatesFound": 6,
         "knownRelationships": 2,
@@ -431,13 +654,27 @@
         "cacheHits": 4,
         "attachmentsFound": 4,
         "applicationLinksFound": 2,
+        "adapterCoverage": {
+          "officialPublication": {
+            "status": "success"
+          },
+          "municipalWebsite": {
+            "status": "success"
+          },
+          "gis": {
+            "status": "no-result"
+          },
+          "attachmentsForms": {
+            "status": "success"
+          }
+        },
         "triageTier": 2
       },
       {
         "municipalityCode": "GM0197",
         "municipalityName": "Aalten",
         "selectionReason": "sparse verhuurvergunningbron",
-        "durationMs": 4,
+        "durationMs": 5,
         "sourcesQueried": 3,
         "candidatesFound": 3,
         "knownRelationships": 1,
@@ -452,6 +689,20 @@
         "cacheHits": 3,
         "attachmentsFound": 0,
         "applicationLinksFound": 0,
+        "adapterCoverage": {
+          "officialPublication": {
+            "status": "success"
+          },
+          "municipalWebsite": {
+            "status": "success"
+          },
+          "gis": {
+            "status": "no-result"
+          },
+          "attachmentsForms": {
+            "status": "no-result"
+          }
+        },
         "triageTier": 2
       },
       {
@@ -475,37 +726,64 @@
         "cacheHits": 3,
         "attachmentsFound": 1,
         "applicationLinksFound": 1,
+        "adapterCoverage": {
+          "officialPublication": {
+            "status": "success"
+          },
+          "municipalWebsite": {
+            "status": "success"
+          },
+          "gis": {
+            "status": "no-result"
+          },
+          "attachmentsForms": {
+            "status": "success"
+          }
+        },
         "triageTier": 2
       },
       {
-        "municipalityCode": "GM0358",
-        "municipalityName": "Aalsmeer",
-        "selectionReason": "sparse content en meerdere voorraadtypen",
-        "durationMs": 4,
-        "sourcesQueried": 3,
-        "candidatesFound": 9,
-        "knownRelationships": 4,
-        "rediscovered": 4,
+        "municipalityCode": "GM0141",
+        "municipalityName": "Almelo",
+        "selectionReason": "officiÃ«le ArcGIS-laag en meerdere regimes",
+        "durationMs": 7,
+        "sourcesQueried": 6,
+        "candidatesFound": 6,
+        "knownRelationships": 2,
+        "rediscovered": 2,
         "misses": [],
         "extras": [
           "good-landlord-permit",
-          "conversion-permit",
-          "room-rental",
           "holiday-rental",
+          "housing-permit",
           "planning-housing-permit"
         ],
         "adapterErrors": [],
         "retries": 0,
-        "cacheHits": 3,
-        "attachmentsFound": 1,
-        "applicationLinksFound": 4,
+        "cacheHits": 6,
+        "attachmentsFound": 7,
+        "applicationLinksFound": 5,
+        "adapterCoverage": {
+          "officialPublication": {
+            "status": "success"
+          },
+          "municipalWebsite": {
+            "status": "success"
+          },
+          "gis": {
+            "status": "success"
+          },
+          "attachmentsForms": {
+            "status": "success"
+          }
+        },
         "triageTier": 2
       }
     ]
   },
   "summary": {
-    "knownRelationships": 35,
-    "rediscovered": 35,
+    "knownRelationships": 33,
+    "rediscovered": 33,
     "misses": [],
     "recallPercent": 100,
     "extras": [
@@ -550,46 +828,56 @@
       "GM0489|room-rental",
       "GM0489|withdrawal-merger",
       "GM0489|vacancy-obligation",
-      "GM0358|good-landlord-permit",
-      "GM0358|conversion-permit",
-      "GM0358|room-rental",
-      "GM0358|holiday-rental",
-      "GM0358|planning-housing-permit"
+      "GM0141|good-landlord-permit",
+      "GM0141|holiday-rental",
+      "GM0141|housing-permit",
+      "GM0141|planning-housing-permit"
     ],
-    "coldDurationMs": 5398,
-    "warmDurationMs": 58,
+    "coldDurationMs": 4967,
+    "warmDurationMs": 61,
     "cacheHitRate": 100,
-    "meanMunicipalityMs": 540,
-    "medianMunicipalityMs": 621,
+    "meanMunicipalityMs": 497,
+    "medianMunicipalityMs": 492,
     "fastest": {
-      "municipalityCode": "GM0106",
-      "municipalityName": "Assen",
-      "selectionReason": "juridische kaart/PDF en Omgevingsloket",
-      "durationMs": 180,
+      "municipalityCode": "GM0197",
+      "municipalityName": "Aalten",
+      "selectionReason": "sparse verhuurvergunningbron",
+      "durationMs": 250,
       "sourcesQueried": 3,
-      "candidatesFound": 6,
+      "candidatesFound": 3,
       "knownRelationships": 1,
       "rediscovered": 1,
       "misses": [],
       "extras": [
-        "good-landlord-permit",
-        "conversion-permit",
-        "room-rental",
-        "dwelling-formation",
-        "building-split"
+        "vacancy-obligation",
+        "planning-housing-permit"
       ],
       "adapterErrors": [],
       "retries": 0,
       "cacheHits": 0,
       "attachmentsFound": 0,
       "applicationLinksFound": 0,
+      "adapterCoverage": {
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "success"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "no-result"
+        }
+      },
       "triageTier": 2
     },
     "slowest": {
       "municipalityCode": "GM0361",
       "municipalityName": "Alkmaar",
       "selectionReason": "meerdere typen en gemeentebrede/binnenstadvoorwaarden",
-      "durationMs": 1059,
+      "durationMs": 1020,
       "sourcesQueried": 3,
       "candidatesFound": 9,
       "knownRelationships": 5,
@@ -606,9 +894,23 @@
       "cacheHits": 0,
       "attachmentsFound": 4,
       "applicationLinksFound": 4,
+      "adapterCoverage": {
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "success"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "success"
+        }
+      },
       "triageTier": 2
     },
-    "networkRequests": 46,
+    "networkRequests": 49,
     "retries": 0,
     "errors": 0
   },

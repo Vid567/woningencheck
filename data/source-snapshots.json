@@ -10,7 +10,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "466714060a86faeadbb590af8043762e8055556337e656aa40ba471740c25cda"
+      "contentFingerprint": "f5c85595967356114cd1518161120bf974427573a30d09ae94c4debc300184ad"
     },
     {
       "id": "den-haag-opkoop-2026-required-2-2",
@@ -20,7 +20,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "f0568612d53514eef81943f4b1f2e14b9743bd57fbf2e4d55e4816a0fe8951ee"
+      "contentFingerprint": "c3f680bbdab5471d1c6f18e9bab8b4672af08c3e516e9b8e5ea45c2865a726ad"
     },
     {
       "id": "emmen-opkoop-2023-regulation",
@@ -40,7 +40,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "1b42e98fdc301a34b49e8aaf2ebbcadc80481cf8c22872175dd6406aa27e3878"
+      "contentFingerprint": "d1aa392306a83917ee8aad6c696efb916b51ba2229ee66cdc17f328c8b8d758e"
     },
     {
       "id": "rotterdam-kamerverhuur-2026-regulation",
@@ -110,7 +110,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "c4c467096e7c08f9cdfc7496e029ad5a5157ee63456995ad26f012fba97222dc"
+      "contentFingerprint": "bdb64d9eca91c772a2e2e88edf21126562994429e51609d2a2e3106418014bc2"
     },
     {
       "id": "leiden-opkoop-2024-required-2-2",
@@ -120,7 +120,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "b85c029d9b5cec8d3788d4f5d6afab7734d56e7fabc518bfda404795b9f69271"
+      "contentFingerprint": "f603f3adf1c1a5340af0c99f7b9433adad6f470235677378da83b1f4227d34b0"
     },
     {
       "id": "leiden-omzetting-2024-required-5-1",
@@ -130,7 +130,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "a2fafefaf07a494aeaef3129cabc29a3eab90cd301cad89be282342c25c36cd8"
+      "contentFingerprint": "8c874b5f254e96f0b8be4056aef3896c7dbaa4dd2bb1cfce5748d1a04b7939aa"
     },
     {
       "id": "leiden-omzetting-2024-required-5-2",
@@ -140,7 +140,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "e33be7d088ed36e55d60c86afbe2c271006c6c427ee5c98e87345a88ec89bfb1"
+      "contentFingerprint": "fe30d1d26eb1ab150597c49da3e2f2b0dd750265c53d974e8694905c4e0615cb"
     },
     {
       "id": "leiden-omzetting-2024-form-1",
@@ -150,7 +150,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "ce451e7b07b591d7855502af4852b266680a161c08306e0d6be14053329c0169"
+      "contentFingerprint": "759852680820232b201e67c7c3d1bbf8b0468e1cc7c53c661729aaaefc179643"
     },
     {
       "id": "rotterdam-opkoop-required-1-1",
@@ -170,7 +170,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "96d35a816220bd0a2eae3aa040956468a75f10dddb3078549699ae55bfee78c6"
+      "contentFingerprint": "4e038a0d37a5e118326ae8add05ddf761680f24edd832d6fac350c599ac3bca7"
     },
     {
       "id": "rotterdam-kamerverhuur-2026-required-1-1",
@@ -190,10 +190,10 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "59733ca44804ed061779787da5ffcf51c444df8e0333b2b9719c6005aaa25a8a"
+      "contentFingerprint": "4f54a6cb961669c0bc1748e82eccd7319f936bb08c3fdb9556077a7414caf8d8"
     },
     {
-      "id": "batch001-aalsmeer-hvv-2025",
+      "id": "batch001-aalsmeer-hvv-2025-regulation",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR749527",
       "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR749527",
       "httpStatus": 200,
@@ -203,7 +203,7 @@
       "contentFingerprint": "20d03b60de72a99a572a8f27e6d9a732484d78467e1cf1365ff4e0fab9c2a2d0"
     },
     {
-      "id": "batch001-aalsmeer-vacancy-2019",
+      "id": "batch001-aalsmeer-vacancy-2019-regulation",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR623005",
       "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR623005",
       "httpStatus": 200,
@@ -213,7 +213,7 @@
       "contentFingerprint": "5337bd37e87e3475bd6ad3af22ec43902ecd8b78ec9d61ba219c6dfd37d77bae"
     },
     {
-      "id": "batch001-aalten-good-landlord-2024",
+      "id": "batch001-aalten-good-landlord-2024-regulation",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR720987",
       "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR720987",
       "httpStatus": 200,
@@ -223,7 +223,7 @@
       "contentFingerprint": "b84b5f5e36d554885d1a168cf397d62af02192944e97e73562343eb23c008633"
     },
     {
-      "id": "batch001-achtkarspelen-target-groups-2023",
+      "id": "batch001-achtkarspelen-target-groups-2023-regulation",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR705002",
       "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR705002",
       "httpStatus": 200,
@@ -233,7 +233,7 @@
       "contentFingerprint": "89730053bbda78bf0e48b12b91caa416d553cdd28bfa52c810b59fc4eb0511e8"
     },
     {
-      "id": "batch001-alblasserdam-hvv-2025",
+      "id": "batch001-alblasserdam-hvv-2025-regulation",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR741471",
       "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR741471",
       "httpStatus": 200,
@@ -243,7 +243,7 @@
       "contentFingerprint": "203a3d4d4a81eae17bd8f8fc5f8e0b4b10fe6ecc0cf932244366476df5095948"
     },
     {
-      "id": "batch001-albrandswaard-regional-housing-2025",
+      "id": "batch001-albrandswaard-regional-housing-2025-regulation",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR741224",
       "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR741224",
       "httpStatus": 200,
@@ -253,7 +253,7 @@
       "contentFingerprint": "c0702d7f235d7cb661b286c63a88856a6ba0bdbecb6ec3c16815fdc35f863e67"
     },
     {
-      "id": "batch001-albrandswaard-rental-notification-2021",
+      "id": "batch001-albrandswaard-rental-notification-2021-regulation",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR660521",
       "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR660521",
       "httpStatus": 200,
@@ -263,7 +263,7 @@
       "contentFingerprint": "c299bad079aea57ee6af084704a6e127dee636e7c66c6c0ec2e86f0952082bd4"
     },
     {
-      "id": "batch001-alkmaar-hvv-2024",
+      "id": "batch001-alkmaar-hvv-2024-regulation",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR713872",
       "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR713872",
       "httpStatus": 200,
@@ -273,7 +273,7 @@
       "contentFingerprint": "64e13201908f3012c98db59ea170fbe43544b65bc57cea1b0dda791a4189b871"
     },
     {
-      "id": "batch001-almelo-purchase-protection-2024",
+      "id": "batch001-almelo-purchase-protection-2024-regulation",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR726069",
       "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR726069",
       "httpStatus": 200,
@@ -283,7 +283,7 @@
       "contentFingerprint": "8fccf9f09380514274715d5a8ce47e8dd60806e4a3bb83221c29bd4cbebd4e5e"
     },
     {
-      "id": "batch001-almelo-vacancy-2020",
+      "id": "batch001-almelo-vacancy-2020-regulation",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR638723",
       "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR638723",
       "httpStatus": 200,
@@ -293,14 +293,135 @@
       "contentFingerprint": "793cd290f9908669de55a4f8bd2357bf6477feb91169d14bfab9d78fe0fcdbaa"
     },
     {
-      "id": "batch001-almere-hvv-2024",
+      "id": "batch001-almere-hvv-2024-regulation",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR741425",
       "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR741425",
       "httpStatus": 200,
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "386ad475c17b39195de9d1b75ed138050609fd975f35dd019cc59a60ee81af49"
+      "contentFingerprint": "6e4348f871a1f6092029545619e2ec42b3b0e570a2a8c356ce484054a8d78242"
+    },
+    {
+      "id": "parameter-aalsmeer-opkoop-woz-2026",
+      "url": "https://www.aalsmeer.nl/verhuurvergunning-bij-opkoopbescherming",
+      "finalUrl": "https://www.aalsmeer.nl/verhuurvergunning-bij-opkoopbescherming",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": "Sun, 09 Aug 2026 14:03:01 GMT",
+      "contentFingerprint": "ec2024c512fc0d7970e52eaefd0fde7d8bc4ebb81d029302f6cf287ebbd6fc9c"
+    },
+    {
+      "id": "batch001-aalten-good-landlord-2024-application",
+      "url": "https://www.aalten.nl/verhuurvergunning",
+      "finalUrl": "https://www.aalten.nl/verhuurvergunning",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "6cbd5e07fcb2fb2fed06cf319578723707f27113da5c40a5c48a8130f985e6eb"
+    },
+    {
+      "id": "batch001-alkmaar-hvv-2024-information",
+      "url": "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/wonen",
+      "finalUrl": "https://www.alkmaar.nl/direct-regelen/wonen-verhuizen-en-verbouwen/wonen/",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "4643b83f7bfe176c4441aef6a217a60939a28fa1ec0fa456436f14066774af09"
+    },
+    {
+      "id": "batch001-alkmaar-hvv-2024-application",
+      "url": "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/huisvesting/kamerverhuur",
+      "finalUrl": "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/kamerverhuur/",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "5cc9abeb698dc90749694565b16e041385f492d8284e2e5dfe6973440fa6d887"
+    },
+    {
+      "id": "parameter-almelo-opkoop-woz-2026",
+      "url": "https://www.almelo.nl/wonen-bouwen-en-verbouwen/wet-opkoopbescherming-almelo",
+      "finalUrl": "https://www.almelo.nl/wonen-bouwen-en-verbouwen/wet-opkoopbescherming-almelo",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "4530c696cbc291a75b7b79c5ba082b82449443a4126546811ac323e8cfdf558d"
+    },
+    {
+      "id": "batch001-almelo-purchase-protection-2024-application",
+      "url": "mailto:gemeente@almelo.nl",
+      "finalUrl": null,
+      "httpStatus": null,
+      "automatedStatus": "check-error",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": null,
+      "error": "fetch failed"
+    },
+    {
+      "id": "batch001-almelo-vacancy-2020-application",
+      "url": "https://www.almelo.nl/wonen-bouwen-en-verbouwen/leegstandsverordening",
+      "finalUrl": "https://www.almelo.nl/wonen-bouwen-en-verbouwen/leegstandsverordening",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "dd29ab505d24deaa2198c452e3f83185e9f05604e6fb41ee532355357824de0c"
+    },
+    {
+      "id": "parameter-almere-opkoop-nhg-2026",
+      "url": "https://www.almere.nl/wonen/opkoopbescherming",
+      "finalUrl": "https://www.almere.nl/wonen/opkoopbescherming",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "bf7881482c2acaceaa563449bcab1d41f6a96ed4c50bd80cfea277f3b816d905"
+    },
+    {
+      "id": "batch001-almere-hvv-2024-application",
+      "url": "https://formulieren.almere.nl/TriplEforms/formulierenoverzicht/nl-NL/evAlmere.aspx",
+      "finalUrl": "https://formulieren.almere.nl/TriplEforms/formulierenoverzicht/nl-NL/evAlmere.aspx",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "b453167638c82584942d5cd9e5508c0fb148be222abb0f9c97197008a243f805"
+    },
+    {
+      "id": "parameter-holland-rijnland-rent-2025-reference",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR752466",
+      "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR752466",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "87a73ece116e888a1e0605e121caaa7e10fef0cd3545b0bb8bb231a2b92ecfd5"
+    },
+    {
+      "id": "batch001-alphen-holland-rijnland-2026-information",
+      "url": "https://www.hureninhollandrijnland.nl/",
+      "finalUrl": "https://www.hureninhollandrijnland.nl/",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": "Sun, 09 Aug 2026 13:26:07 GMT",
+      "contentFingerprint": "7d31e0e5fb421b3810128739626104d7a6f3d4277d576bf030ceff726835df82"
+    },
+    {
+      "id": "parameter-alkmaar-social-rent-2026",
+      "url": "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/wonen/huisvesting-vergunning",
+      "finalUrl": "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/huisvesting-vergunning/",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "e65c3e66fd6b25a4399aa2e44b59dd054610843443a279b10f429aeca95dd423"
     }
   ]
 }

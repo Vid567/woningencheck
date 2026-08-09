@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0.0",
+  "verifiedAt": "2026-08-09",
+  "statuses": [
+    "no-source-found",
+    "research-incomplete",
+    "no-current-municipal-regulation-confirmed",
+    "historical-regulation-only",
+    "official-no-local-regime-evidence"
+  ],
+  "requiredProcedure": [
+    "Zoek actueel op gemeentenaam en alle taxonomie-aliassen in Lokale wet- en regelgeving.",
+    "Controleer officiële bekendmakingen op instelling, wijziging en intrekking.",
+    "Controleer de gemeentelijke dienstenwebsite en formulierenindex.",
+    "Controleer regionale regelingen waarvan de gemeente deelnemer kan zijn.",
+    "Leg historische regelingen en einddata vast.",
+    "Laat een negatieve conclusie alleen sterker worden wanneer alle stappen zijn uitgevoerd en bronnen zijn vastgelegd."
+  ],
+  "results": [
+    {
+      "municipalityCode": "GM1680",
+      "status": "no-current-municipal-regulation-confirmed",
+      "notes": "Systematische officiële zoekronde uitgevoerd; geen actuele implementatieregeling binnen de taxonomie bevestigd. Dit is geen verklaring dat geen regel kan bestaan."
+    },
+    {
+      "municipalityCode": "GM0484",
+      "status": "current-regional-regulation-found",
+      "source": "https://lokaleregelgeving.overheid.nl/CVDR752466",
+      "notes": "Eerdere negatieve bronuitkomst ingetrokken; regionale Huisvestingsverordening 2026 geldt."
+    }
+  ]
+}

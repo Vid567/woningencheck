@@ -329,9 +329,9 @@
       ],
       "title": "Huisvestingsverordening gemeente Aalsmeer 2025",
       "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR749527",
-      "officialInfoUrl": null,
-      "officialApplicationUrl": null,
-      "applicationRouteStatus": "not-confirmed",
+      "officialInfoUrl": "https://www.aalsmeer.nl/verhuurvergunning-bij-opkoopbescherming",
+      "officialApplicationUrl": "https://www.aalsmeer.nl/verhuurvergunning-bij-opkoopbescherming",
+      "applicationRouteStatus": "verified-entry-point",
       "legalBasis": [
         "Huisvestingswet 2014"
       ],
@@ -347,10 +347,21 @@
         "Huisvestingsvergunning voor aangewezen betaalbare woonruimte.",
         "Onttrekkingsvergunning en opkoopbescherming zijn afzonderlijk geregeld."
       ],
-      "requiredDocuments": [],
+      "requiredDocuments": [
+        "Akte van levering — Zelf aanleveren",
+        "WOZ-waarde — Zelf aanleveren"
+      ],
       "reviewLevel": "B",
       "substantiveVerificationStatus": "research-pending-review",
-      "verifiedAt": "2026-08-09"
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "digital-form",
+        "authentication": [
+          "DigiD",
+          "eHerkenning"
+        ],
+        "actionLabel": "Vergunning aanvragen"
+      }
     },
     {
       "id": "aalsmeer-vacancy-2019",
@@ -388,9 +399,9 @@
       ],
       "title": "Verhuurverordening verblijfsruimte Aalten 2024",
       "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR720987",
-      "officialInfoUrl": null,
-      "officialApplicationUrl": null,
-      "applicationRouteStatus": "not-confirmed",
+      "officialInfoUrl": "https://www.aalten.nl/verhuurvergunning",
+      "officialApplicationUrl": "https://www.aalten.nl/verhuurvergunning",
+      "applicationRouteStatus": "verified-entry-point",
       "legalBasis": [
         "Wet goed verhuurderschap"
       ],
@@ -404,13 +415,20 @@
       },
       "extractedFacts": [],
       "requiredDocuments": [
-        "Modelhuurovereenkomst — Zelf aanleveren",
-        "Beschrijving naleving goed verhuurderschap — Zelf aanleveren",
-        "Opgave handhavingsbesluiten — Zelf aanleveren"
+        "Plattegrond met bouwkundige gegevens — Zelf aanleveren",
+        "Huurovereenkomst — Zelf aanleveren",
+        "Bewijs schriftelijke informatie goed verhuurderschap — Zelf aanleveren",
+        "Onderhoudsplan voor vijf jaar — Zelf aanleveren",
+        "Bibob-formulier — Officieel formulier"
       ],
-      "reviewLevel": "B",
+      "reviewLevel": "C",
       "substantiveVerificationStatus": "research-pending-review",
-      "verifiedAt": "2026-08-09"
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "digital-form",
+        "authentication": [],
+        "actionLabel": "Vergunning aanvragen"
+      }
     },
     {
       "id": "achtkarspelen-target-groups-2023",
@@ -530,9 +548,9 @@
       ],
       "title": "Huisvestingsverordening Alkmaar 2024",
       "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR713872",
-      "officialInfoUrl": null,
-      "officialApplicationUrl": null,
-      "applicationRouteStatus": "not-confirmed",
+      "officialInfoUrl": "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/wonen",
+      "officialApplicationUrl": "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/huisvesting/kamerverhuur",
+      "applicationRouteStatus": "verified-entry-point",
       "legalBasis": [
         "Huisvestingswet 2014"
       ],
@@ -546,12 +564,21 @@
       },
       "extractedFacts": [],
       "requiredDocuments": [
-        "Vastgesteld aanvraagformulier — officiële route nog te bevestigen",
-        "Situatie- en leefbaarheidsgegevens — Zelf aanleveren"
+        "Aanvraagformulier via DigiD of eHerkenning — Officieel formulier",
+        "Gegevens bestaande en beoogde situatie — Zelf aanleveren",
+        "Gegevens voor leefbaarheidstoets — Zelf aanleveren"
       ],
       "reviewLevel": "B",
       "substantiveVerificationStatus": "research-pending-review",
-      "verifiedAt": "2026-08-09"
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "digital-form",
+        "authentication": [
+          "DigiD",
+          "eHerkenning"
+        ],
+        "actionLabel": "Vergunning aanvragen"
+      }
     },
     {
       "id": "almelo-purchase-protection-2024",
@@ -561,26 +588,40 @@
       ],
       "title": "Huisvestingverordening Opkoopbescherming gemeente Almelo",
       "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR726069",
-      "officialInfoUrl": null,
-      "officialApplicationUrl": null,
-      "applicationRouteStatus": "not-confirmed",
+      "officialInfoUrl": "https://www.almelo.nl/wonen-bouwen-en-verbouwen/wet-opkoopbescherming-almelo",
+      "officialApplicationUrl": "mailto:gemeente@almelo.nl",
+      "applicationRouteStatus": "verified-email-route",
       "legalBasis": [
         "Huisvestingswet 2014"
       ],
       "effectiveFrom": "2024-11-01",
       "effectiveTo": "2028-10-31",
       "geographicScope": {
-        "method": "cbs-district-list-and-value",
+        "method": "official-feature-layer-and-value",
         "conditions": [
           "CBS-wijken 014110, 014115, 014116, 014111, 014114, 014113 en 014112.",
-          "WOZ-grens in regeling €265.000; jaarlijkse indexering vereist actuele controle."
-        ]
+          "WOZ-grens €265.000; actueel bevestigd op gemeentepagina in 2026."
+        ],
+        "machineReadableUrl": "https://services-eu1.arcgis.com/2FmtZGxkWSsSDBQm/arcgis/rest/services/Wijk_Opkoopbescherming/FeatureServer/0",
+        "arcgisItemId": "6fee0979ad97464a8bb094eb364277b0"
       },
       "extractedFacts": [],
-      "requiredDocuments": [],
-      "reviewLevel": "C",
+      "requiredDocuments": [
+        "Naam eigenaar/eigenaren — Zelf aanleveren",
+        "Adres woning — Zelf aanleveren",
+        "Meest recente eigendomsakte — Zelf aanleveren",
+        "Bewijs familieband, indien van toepassing — Zelf aanleveren",
+        "Tijdelijke huurovereenkomst, indien van toepassing — Zelf aanleveren",
+        "Motivering hardheidsclausule, indien van toepassing — Zelf aanleveren"
+      ],
+      "reviewLevel": "B",
       "substantiveVerificationStatus": "research-pending-review",
-      "verifiedAt": "2026-08-09"
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "email",
+        "authentication": [],
+        "actionLabel": "Aanvraag per e-mail"
+      }
     },
     {
       "id": "almelo-vacancy-2020",
@@ -590,9 +631,9 @@
       ],
       "title": "Leegstandverordening Binnenstad Gemeente Almelo 2020",
       "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR638723",
-      "officialInfoUrl": null,
-      "officialApplicationUrl": null,
-      "applicationRouteStatus": "not-confirmed",
+      "officialInfoUrl": "https://www.almelo.nl/wonen-bouwen-en-verbouwen/leegstandsverordening",
+      "officialApplicationUrl": "https://www.almelo.nl/wonen-bouwen-en-verbouwen/leegstandsverordening",
+      "applicationRouteStatus": "verified-entry-point",
       "legalBasis": [
         "Leegstandwet"
       ],
@@ -608,7 +649,12 @@
       "requiredDocuments": [],
       "reviewLevel": "C",
       "substantiveVerificationStatus": "research-pending-review",
-      "verifiedAt": "2026-08-09"
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "digital-notification",
+        "authentication": [],
+        "actionLabel": "Leegstand melden"
+      }
     },
     {
       "id": "almere-hvv-2024",
@@ -619,9 +665,9 @@
       ],
       "title": "Huisvestingsverordening Almere 2024",
       "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR741425",
-      "officialInfoUrl": null,
-      "officialApplicationUrl": null,
-      "applicationRouteStatus": "not-confirmed",
+      "officialInfoUrl": "https://www.almere.nl/wonen/opkoopbescherming",
+      "officialApplicationUrl": "https://formulieren.almere.nl/TriplEforms/formulierenoverzicht/nl-NL/evAlmere.aspx",
+      "applicationRouteStatus": "verified-digital-form",
       "legalBasis": [
         "Huisvestingswet 2014"
       ],
@@ -635,8 +681,58 @@
       },
       "extractedFacts": [],
       "requiredDocuments": [
-        "Eigendomsbewijs — Zelf aanleveren",
-        "Bewijs uitzonderingsgrond — Zelf aanleveren"
+        "Kopie geldig identiteitsbewijs — Zelf aanleveren",
+        "BRP-uittreksel aanvrager/eigenaar, maximaal drie maanden oud — Zelf aanleveren",
+        "Akte van levering of eigendomsbewijs — Zelf aanleveren",
+        "Bewijs uitzonderingsgrond, indien van toepassing — Zelf aanleveren"
+      ],
+      "reviewLevel": "B",
+      "substantiveVerificationStatus": "research-pending-review",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "digital-form",
+        "authentication": [
+          "DigiD"
+        ],
+        "actionLabel": "Vergunning aanvragen"
+      }
+    },
+    {
+      "id": "alphen-holland-rijnland-2026",
+      "municipalityCode": "GM0484",
+      "canonicalTypes": [
+        "housing-permit"
+      ],
+      "title": "Huisvestingsverordening Regio Holland Rijnland 2026",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR752466",
+      "officialInfoUrl": "https://www.hureninhollandrijnland.nl/",
+      "officialApplicationUrl": null,
+      "applicationRouteStatus": "delegated-to-landlord-or-region",
+      "applicationRoute": {
+        "type": "delegated",
+        "authentication": [],
+        "actionLabel": null
+      },
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": "2029-12-31",
+      "geographicScope": {
+        "method": "regional-and-property-conditions",
+        "conditions": [
+          "Alphen aan den Rijn ligt in de regio.",
+          "Sociale huur van aangewezen eigenaren; particuliere verhuurders alleen bij tien of meer na 1 januari 2024 opgeleverde woningen."
+        ]
+      },
+      "extractedFacts": [
+        "Huisvestingsvergunning voor aangewezen sociale huurwoningen.",
+        "Aanvraag kan aan woningcorporatie of gemeente zijn gemandateerd."
+      ],
+      "requiredDocuments": [
+        "Identiteitsbewijs — Zelf aanleveren",
+        "Inkomensbewijs — Zelf aanleveren",
+        "Verklaring verhuurder — Zelf aanleveren"
       ],
       "reviewLevel": "B",
       "substantiveVerificationStatus": "research-pending-review",
@@ -644,5 +740,16 @@
     }
   ],
   "absencePolicy": "not-found is not treated as no-current-regulation",
-  "publicDecisionRecordsAdded": 0
+  "publicDecisionRecordsAdded": 0,
+  "closure": {
+    "closedAt": "2026-08-09",
+    "originalReviewItems": 6,
+    "automaticallyResolvedOriginalItems": 4,
+    "remainingHumanItems": 3,
+    "publicDecisionRecordsAdded": 0,
+    "verifiedApplicationRoutes": 7,
+    "gisResolved": 1,
+    "gisRemaining": 1,
+    "closureStatus": "closed-with-targeted-human-review"
+  }
 }

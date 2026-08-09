@@ -84,3 +84,20 @@ Voor elke gemeente is één openbaar gemeentehuisadres via de officiële adresse
 # Besluit
 
 **DO NOT START BATCH 002.** Rond eerst de zes concrete controles hierboven af en bevestig ten minste de officiële aanvraagroutes voor de bevindingen die later publiek gebruikt moeten worden. De technische batchverwerking schaalt, maar de zoekstrategie voor betrouwbare negatieve conclusies en ontwikkelingsgebonden meldplichten moet eerst worden aangescherpt.
+
+# Afsluiting Batch 001 — 9 augustus 2026
+
+De aanvullende officiële broncontrole is voltooid. Vier van de oorspronkelijke zes blokkades zijn automatisch opgelost:
+
+- Aa en Hunze: systematische negatieve-broncontrole vastgelegd als `no-current-municipal-regulation-confirmed`; dit betekent nadrukkelijk niet dat juridisch is bewezen dat geen regeling bestaat.
+- Achtkarspelen: ontwikkelingsgebonden doelgroepregeling blijft achtergrondinformatie en wordt niet als gemeentebrede publieksregel geactiveerd.
+- Albrandswaard: de ontwikkelingsgebonden meldplicht blijft achtergrondinformatie en wordt niet als algemene vergunningplicht getoond.
+- Alphen aan den Rijn: de actuele regionale bron is gevonden in de Huisvestingsverordening Regio Holland Rijnland 2026 (CVDR752466).
+
+Drie gerichte menselijke controles blijven open: de exacte toepassing en aanvraagroute in Alblasserdam, de officiële leegstandsgrens/bijlage van Almelo en het inhoudelijke conflict tussen de Aaltense verordening en gemeentelijke dienstenpagina. Deze drie punten zijn eigenaarstaken en blokkeren publieke activering van de betreffende bevindingen, maar niet de technische afsluiting van Batch 001.
+
+Aanvraagroutes en documentvereisten zijn waar officieel bevestigd opgenomen voor Aalsmeer, Aalten, Alkmaar, Almelo en Almere. Voor niet-bevestigde routes wordt geen aanvraagknop verzonnen. Jaarlijks wijzigende bedragen staan afzonderlijk in `data/dynamic-parameters.json`, inclusief geldigheidsjaar, bron, actualisatiemethode en volgende verwachte update. Een verlopen referentiewaarde is expliciet geblokkeerd als `expired-do-not-use`.
+
+Er zijn nul nieuwe publieke beslisregels geactiveerd. De gevonden bronnen zijn bruikbaar voor onderzoek en dienstverlening, maar de bevindingen hebben nog niet allemaal de inhoudelijke juridische goedkeuring die de bestaande publieke beslisregels vereisen. Dit voorkomt schijnzekerheid. Batch 001 heeft afsluitstatus `closed-with-targeted-human-review`; Batch 002 is niet gestart.
+
+Eindadvies: **DO NOT START BATCH 002** totdat de drie eigenaarstaken zijn beslist en de jaarlijkse actualisatieronde als beheertaak is toegewezen.

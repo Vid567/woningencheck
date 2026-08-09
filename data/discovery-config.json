@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "1.0.0",
+  "defaultBatchSize": 25,
+  "minimumBatchSize": 1,
+  "maximumBatchSize": 50,
+  "concurrency": 5,
+  "requestTimeoutMs": 15000,
+  "maxRetries": 2,
+  "baseBackoffMs": 500,
+  "cacheTtlHours": 168,
+  "allowedEvidenceHosts": [
+    "lokaleregelgeving.overheid.nl",
+    "wetten.overheid.nl",
+    "officielebekendmakingen.nl",
+    "zoek.officielebekendmakingen.nl",
+    "omgevingswet.overheid.nl",
+    "www.cbs.nl",
+    "service.pdok.nl",
+    "api.pdok.nl"
+  ],
+  "municipalHostPolicy": "host must be present in the existing approved official source catalog",
+  "statusFlow": [
+    "not-started",
+    "discovery-running",
+    "discovery-complete",
+    "fast-path-verification",
+    "deep-verification-required",
+    "partially-verified",
+    "verified"
+  ]
+}

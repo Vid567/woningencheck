@@ -439,7 +439,39 @@
             "id": "woz-at-acquisition-within-nhg",
             "category": "property",
             "conditionType": "woz-value",
-            "source": "user-…395 tokens truncated…ens van minder dan drie personen.",
+            "source": "user-input",
+            "operator": "equals",
+            "value": "yes",
+            "question": "Was de WOZ-waarde bij de levering gelijk aan of lager dan de toen geldende NHG-grens?",
+            "answerType": "yes-no-unknown",
+            "evidenceSection": "Artikel 7 lid 1 onder a",
+            "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR711669"
+          },
+          {
+            "id": "not-long-term-rented-at-acquisition",
+            "category": "situation",
+            "conditionType": "rental-at-acquisition",
+            "source": "user-input",
+            "operator": "equals",
+            "value": "yes",
+            "question": "Was de woning bij de levering vrij, minder dan zes maanden verhuurd of verhuurd met een vergunning?",
+            "answerType": "yes-no-unknown",
+            "evidenceSection": "Artikel 7 lid 1 onder c",
+            "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR711669"
+          }
+        ]
+      }
+    },
+    {
+      "id": "leiden-omzetting-2024",
+      "municipalityCode": "GM0546",
+      "municipalityName": "Leiden",
+      "title": "Woning omzetten naar kamerverhuur",
+      "regulationType": "omzettingsvergunning",
+      "scopeType": "kaart en straatquotum",
+      "scopeValue": "aangewezen gebieden en straten in de verordening",
+      "shortDescription": "In aangewezen delen van Leiden geldt een omzettingsvergunning voor kamerverhuur; de regeling bevat straatquota van 100%, 25% en 0%.",
+      "conditions": "De beleidsregel verduidelijkt dat de vergunningplicht niet wordt uitgebreid tot huishoudens van minder dan drie personen.",
       "exceptions": "Overgangsrecht en uitzonderingen staan in de actuele verordening en beleidsregel.",
       "officialInformationUrl": "https://gemeente.leiden.nl/inwoners-en-ondernemers/wonen-en-bouwen/wonen/woning-veranderen-in-kamerverhuur/",
       "officialApplicationUrl": "https://gemeente.leiden.nl/formulieren/aanvraag-omzettingsvergunning-digid/",
@@ -893,4 +925,3 @@
     }
   ]
 }
-

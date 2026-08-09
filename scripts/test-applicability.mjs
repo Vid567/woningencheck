@@ -1,4 +1,4 @@
-﻿import assert from "node:assert/strict";
+import assert from "node:assert/strict";
 import fs from "node:fs";
 import {buildAddressContext,evaluateRule,STATES} from "../assets/applicability.js";
 const records=JSON.parse(fs.readFileSync("data/regulations.json","utf8")).records;
@@ -20,3 +20,4 @@ assert.equal(evaluateRule(om,context("De Waard")).state,STATES.QUESTIONS);
 const bag=buildAddressContext({postcode:"2315SW",huisnummer:51,straatnaam:"Trompstraat",weergavenaam:"Trompstraat 51",buurtnaam:"De Waard",buurtcode:"BU05460109",wijknaam:"Binnenstad-Noord",wijkcode:"WK054601",gemeentecode:"0546",gemeentenaam:"Leiden",adresseerbaarobject_id:"0546010000027941",centroide_ll:"POINT(4.508 52.158)"});assert.equal(bag.municipality.code,"GM0546");assert.equal("residents" in bag.property,false);
 const app=fs.readFileSync("assets/app.js","utf8");assert(!app.includes("not reviewed"));assert(!/BRP|bewonersregister/.test(app));
 console.log("PASS applicability: municipality, street, postcode, neighbourhood, value, missing data, questions, no-match, conflict, Leiden pilots, privacy and public language");
+

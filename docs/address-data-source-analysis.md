@@ -1,4 +1,4 @@
-﻿# Address-specific applicability: feasibility and architecture
+# Address-specific applicability: feasibility and architecture
 
 Checked 2026-08-09. Official sources only.
 
@@ -37,3 +37,4 @@ Article 2 limits conversion/forming permits to the legal map. The appendix names
 ## Architecture decision
 
 Static GitHub Pages is sufficient for this pilot: public CORS address data, local evaluation and no secrets. Nationwide use should add scheduled GIS/data ingestion and immutable source versions. Add a serverless proxy/cache for DSO keys, rate limits and monitoring. Add a spatial database only when reviewed temporal polygons outgrow static files. BRP and personal BRK data remain out of scope regardless of backend.
+

@@ -1,8 +1,42 @@
 {
   "schemaVersion": "1.0.0",
-  "generatedAt": "2026-08-09T20:01:17.007Z",
+  "generatedAt": "2026-08-09T20:04:57.028Z",
   "mode": "controlled-25-municipality-replay",
   "records": [
+    {
+      "municipalityCode": "GM1680",
+      "municipalityName": "Aa en Hunze",
+      "status": "discovery-complete",
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "no-result",
+          "count": 0
+        },
+        "officialPublication": {
+          "status": "no-result"
+        },
+        "municipalWebsite": {
+          "status": "no-result"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "no-result"
+        }
+      },
+      "candidatePermitTypes": [],
+      "candidateConfidence": [],
+      "candidateCount": 0,
+      "gisServicesFound": [],
+      "candidateApplicationPages": [],
+      "triage": {
+        "tier": 5,
+        "label": "SOURCE INCOMPLETE",
+        "fastPathEligible": false
+      },
+      "evidencePublicationStatus": "research-only"
+    },
     {
       "municipalityCode": "GM0358",
       "municipalityName": "Aalsmeer",
@@ -99,6 +133,120 @@
       "gisServicesFound": [],
       "candidateApplicationPages": [
         "https://aalten-checker.aalten.nl/"
+      ],
+      "triage": {
+        "tier": 1,
+        "label": "STRAIGHTFORWARD",
+        "fastPathEligible": false
+      },
+      "evidencePublicationStatus": "research-only"
+    },
+    {
+      "municipalityCode": "GM0059",
+      "municipalityName": "Achtkarspelen",
+      "status": "discovery-complete",
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "success",
+          "count": 1
+        },
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "no-result"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "no-result"
+        }
+      },
+      "candidatePermitTypes": [],
+      "candidateConfidence": [],
+      "candidateCount": 0,
+      "gisServicesFound": [],
+      "candidateApplicationPages": [],
+      "triage": {
+        "tier": 5,
+        "label": "SOURCE INCOMPLETE",
+        "fastPathEligible": false
+      },
+      "evidencePublicationStatus": "research-only"
+    },
+    {
+      "municipalityCode": "GM0482",
+      "municipalityName": "Alblasserdam",
+      "status": "discovery-complete",
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "success",
+          "count": 7
+        },
+        "officialPublication": {
+          "status": "success"
+        },
+        "municipalWebsite": {
+          "status": "success"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "success"
+        }
+      },
+      "candidatePermitTypes": [
+        "purchase-protection",
+        "conversion-permit",
+        "room-rental",
+        "dwelling-formation",
+        "building-split",
+        "withdrawal-merger",
+        "vacancy-obligation",
+        "planning-housing-permit"
+      ],
+      "candidateConfidence": [
+        {
+          "canonicalType": "purchase-protection",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "conversion-permit",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "room-rental",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "dwelling-formation",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "building-split",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "withdrawal-merger",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "vacancy-obligation",
+          "confidence": "MEDIUM"
+        },
+        {
+          "canonicalType": "planning-housing-permit",
+          "confidence": "MEDIUM"
+        }
+      ],
+      "candidateCount": 8,
+      "gisServicesFound": [],
+      "candidateApplicationPages": [
+        "https://www.ozhz.nl/onttrekkingsvergunningaanvragen/",
+        "https://www.ozhz.nl/een-splitsingsvergunning-aanvragen/",
+        "https://www.alblasserdam.nl/Mediatheek/Inwoners/bouwen_verbouwen_en_wonen/Formulier_vrijstelling_opkoopbescherming.org"
       ],
       "triage": {
         "tier": 1,
@@ -368,81 +516,35 @@
       "evidencePublicationStatus": "research-only"
     },
     {
-      "municipalityCode": "GM0482",
-      "municipalityName": "Alblasserdam",
+      "municipalityCode": "GM1723",
+      "municipalityName": "Alphen-Chaam",
       "status": "discovery-complete",
       "adapterCoverage": {
         "existingIndex": {
-          "status": "success",
-          "count": 7
+          "status": "no-result",
+          "count": 0
         },
         "officialPublication": {
-          "status": "success"
+          "status": "no-result"
         },
         "municipalWebsite": {
-          "status": "success"
+          "status": "no-result"
         },
         "gis": {
           "status": "no-result"
         },
         "attachmentsForms": {
-          "status": "success"
+          "status": "no-result"
         }
       },
-      "candidatePermitTypes": [
-        "purchase-protection",
-        "conversion-permit",
-        "room-rental",
-        "dwelling-formation",
-        "building-split",
-        "withdrawal-merger",
-        "vacancy-obligation",
-        "planning-housing-permit"
-      ],
-      "candidateConfidence": [
-        {
-          "canonicalType": "purchase-protection",
-          "confidence": "MEDIUM"
-        },
-        {
-          "canonicalType": "conversion-permit",
-          "confidence": "MEDIUM"
-        },
-        {
-          "canonicalType": "room-rental",
-          "confidence": "MEDIUM"
-        },
-        {
-          "canonicalType": "dwelling-formation",
-          "confidence": "MEDIUM"
-        },
-        {
-          "canonicalType": "building-split",
-          "confidence": "MEDIUM"
-        },
-        {
-          "canonicalType": "withdrawal-merger",
-          "confidence": "MEDIUM"
-        },
-        {
-          "canonicalType": "vacancy-obligation",
-          "confidence": "MEDIUM"
-        },
-        {
-          "canonicalType": "planning-housing-permit",
-          "confidence": "MEDIUM"
-        }
-      ],
-      "candidateCount": 8,
+      "candidatePermitTypes": [],
+      "candidateConfidence": [],
+      "candidateCount": 0,
       "gisServicesFound": [],
-      "candidateApplicationPages": [
-        "https://www.ozhz.nl/onttrekkingsvergunningaanvragen/",
-        "https://www.ozhz.nl/een-splitsingsvergunning-aanvragen/",
-        "https://www.alblasserdam.nl/Mediatheek/Inwoners/bouwen_verbouwen_en_wonen/Formulier_vrijstelling_opkoopbescherming.org"
-      ],
+      "candidateApplicationPages": [],
       "triage": {
-        "tier": 1,
-        "label": "STRAIGHTFORWARD",
+        "tier": 5,
+        "label": "SOURCE INCOMPLETE",
         "fastPathEligible": false
       },
       "evidencePublicationStatus": "research-only"
@@ -943,6 +1045,40 @@
       "evidencePublicationStatus": "research-only"
     },
     {
+      "municipalityCode": "GM0744",
+      "municipalityName": "Baarle-Nassau",
+      "status": "discovery-complete",
+      "adapterCoverage": {
+        "existingIndex": {
+          "status": "no-result",
+          "count": 0
+        },
+        "officialPublication": {
+          "status": "no-result"
+        },
+        "municipalWebsite": {
+          "status": "no-result"
+        },
+        "gis": {
+          "status": "no-result"
+        },
+        "attachmentsForms": {
+          "status": "no-result"
+        }
+      },
+      "candidatePermitTypes": [],
+      "candidateConfidence": [],
+      "candidateCount": 0,
+      "gisServicesFound": [],
+      "candidateApplicationPages": [],
+      "triage": {
+        "tier": 5,
+        "label": "SOURCE INCOMPLETE",
+        "fastPathEligible": false
+      },
+      "evidencePublicationStatus": "research-only"
+    },
+    {
       "municipalityCode": "GM0308",
       "municipalityName": "Baarn",
       "status": "discovery-complete",
@@ -1230,20 +1366,20 @@
     "benchmarkLeakage": false
   },
   "performance": {
-    "totalMs": 3,
-    "meanMunicipalityMs": 0.12,
-    "medianMunicipalityMs": 0.12,
+    "totalMs": 5,
+    "meanMunicipalityMs": 0.2,
+    "medianMunicipalityMs": 0.2,
     "sourceRequests": 0,
     "cacheHits": 0,
     "adapterDurationsMs": {
-      "indexBackfillAndNormalization": 3
+      "indexBackfillAndNormalization": 5
     },
     "slowestAdapters": [
       "indexBackfillAndNormalization"
     ],
     "errors": 0,
     "retries": 0,
-    "municipalitiesPerHour": 30000000,
+    "municipalitiesPerHour": 18000000,
     "measurementScope": "real execution over backfilled official index; remote HTTP content already represented by verified project evidence/cache"
   },
   "safety": {

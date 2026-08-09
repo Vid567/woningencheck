@@ -1,0 +1,1179 @@
+{
+  "schemaVersion": "1.0.0",
+  "purpose": "expected-results-only-never-discovery-input",
+  "municipalities": [
+    "GM0358",
+    "GM0197",
+    "GM0613",
+    "GM0361",
+    "GM0141",
+    "GM0034",
+    "GM0484",
+    "GM0482",
+    "GM1959",
+    "GM0060",
+    "GM0307",
+    "GM0362",
+    "GM0363",
+    "GM0200",
+    "GM0202",
+    "GM0106",
+    "GM0743",
+    "GM0308",
+    "GM0489",
+    "GM0203",
+    "GM0888"
+  ],
+  "relationships": [
+    {
+      "municipalityCode": "GM0358",
+      "municipalityName": "Aalsmeer",
+      "canonicalType": "housing-permit",
+      "officialIdentifiers": [
+        "CVDR749527"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR749527"
+      ],
+      "municipalPages": [
+        "https://www.aalsmeer.nl/verhuurvergunning-bij-opkoopbescherming"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.aalsmeer.nl/verhuurvergunning-bij-opkoopbescherming"
+      ],
+      "supportingIds": [
+        "batch-001",
+        "aalsmeer-hvv-2025"
+      ]
+    },
+    {
+      "municipalityCode": "GM0358",
+      "municipalityName": "Aalsmeer",
+      "canonicalType": "withdrawal-merger",
+      "officialIdentifiers": [
+        "CVDR749527"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR749527"
+      ],
+      "municipalPages": [
+        "https://www.aalsmeer.nl/verhuurvergunning-bij-opkoopbescherming"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.aalsmeer.nl/verhuurvergunning-bij-opkoopbescherming"
+      ],
+      "supportingIds": [
+        "batch-001",
+        "aalsmeer-hvv-2025"
+      ]
+    },
+    {
+      "municipalityCode": "GM0358",
+      "municipalityName": "Aalsmeer",
+      "canonicalType": "purchase-protection",
+      "officialIdentifiers": [
+        "CVDR749527"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR749527"
+      ],
+      "municipalPages": [
+        "https://www.aalsmeer.nl/verhuurvergunning-bij-opkoopbescherming"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.aalsmeer.nl/verhuurvergunning-bij-opkoopbescherming"
+      ],
+      "supportingIds": [
+        "batch-001",
+        "aalsmeer-hvv-2025"
+      ]
+    },
+    {
+      "municipalityCode": "GM0358",
+      "municipalityName": "Aalsmeer",
+      "canonicalType": "vacancy-obligation",
+      "officialIdentifiers": [
+        "CVDR623005"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR623005"
+      ],
+      "municipalPages": [],
+      "gisSources": [],
+      "applicationSources": [],
+      "supportingIds": [
+        "batch-001",
+        "aalsmeer-vacancy-2019"
+      ]
+    },
+    {
+      "municipalityCode": "GM0197",
+      "municipalityName": "Aalten",
+      "canonicalType": "good-landlord-permit",
+      "officialIdentifiers": [
+        "CVDR720987"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR720987"
+      ],
+      "municipalPages": [
+        "https://www.aalten.nl/verhuurvergunning"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://aalten-checker.aalten.nl/"
+      ],
+      "supportingIds": [
+        "batch-001",
+        "aalten-good-landlord-2024"
+      ]
+    },
+    {
+      "municipalityCode": "GM0613",
+      "municipalityName": "Albrandswaard",
+      "canonicalType": "housing-permit",
+      "officialIdentifiers": [
+        "CVDR741224"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR741224"
+      ],
+      "municipalPages": [],
+      "gisSources": [],
+      "applicationSources": [],
+      "supportingIds": [
+        "batch-001",
+        "albrandswaard-regional-housing-2025"
+      ]
+    },
+    {
+      "municipalityCode": "GM0361",
+      "municipalityName": "Alkmaar",
+      "canonicalType": "housing-permit",
+      "officialIdentifiers": [
+        "CVDR713872"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR713872"
+      ],
+      "municipalPages": [
+        "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/wonen"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/huisvesting/kamerverhuur"
+      ],
+      "supportingIds": [
+        "batch-001",
+        "alkmaar-hvv-2024"
+      ]
+    },
+    {
+      "municipalityCode": "GM0361",
+      "municipalityName": "Alkmaar",
+      "canonicalType": "conversion-permit",
+      "officialIdentifiers": [
+        "CVDR713872"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR713872"
+      ],
+      "municipalPages": [
+        "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/wonen"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/huisvesting/kamerverhuur"
+      ],
+      "supportingIds": [
+        "batch-001",
+        "alkmaar-hvv-2024"
+      ]
+    },
+    {
+      "municipalityCode": "GM0361",
+      "municipalityName": "Alkmaar",
+      "canonicalType": "room-rental",
+      "officialIdentifiers": [
+        "CVDR713872"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR713872"
+      ],
+      "municipalPages": [
+        "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/wonen"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/huisvesting/kamerverhuur"
+      ],
+      "supportingIds": [
+        "batch-001",
+        "alkmaar-hvv-2024"
+      ]
+    },
+    {
+      "municipalityCode": "GM0361",
+      "municipalityName": "Alkmaar",
+      "canonicalType": "dwelling-formation",
+      "officialIdentifiers": [
+        "CVDR713872"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR713872"
+      ],
+      "municipalPages": [
+        "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/wonen"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/huisvesting/kamerverhuur"
+      ],
+      "supportingIds": [
+        "batch-001",
+        "alkmaar-hvv-2024"
+      ]
+    },
+    {
+      "municipalityCode": "GM0361",
+      "municipalityName": "Alkmaar",
+      "canonicalType": "withdrawal-merger",
+      "officialIdentifiers": [
+        "CVDR713872"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR713872"
+      ],
+      "municipalPages": [
+        "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/wonen"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/huisvesting/kamerverhuur"
+      ],
+      "supportingIds": [
+        "batch-001",
+        "alkmaar-hvv-2024"
+      ]
+    },
+    {
+      "municipalityCode": "GM0141",
+      "municipalityName": "Almelo",
+      "canonicalType": "purchase-protection",
+      "officialIdentifiers": [
+        "CVDR726069"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR726069"
+      ],
+      "municipalPages": [
+        "https://www.almelo.nl/wonen-bouwen-en-verbouwen/wet-opkoopbescherming-almelo"
+      ],
+      "gisSources": [
+        "https://services-eu1.arcgis.com/2FmtZGxkWSsSDBQm/arcgis/rest/services/Wijk_Opkoopbescherming/FeatureServer/0"
+      ],
+      "applicationSources": [
+        "mailto:gemeente@almelo.nl"
+      ],
+      "supportingIds": [
+        "batch-001",
+        "almelo-purchase-protection-2024"
+      ]
+    },
+    {
+      "municipalityCode": "GM0141",
+      "municipalityName": "Almelo",
+      "canonicalType": "vacancy-obligation",
+      "officialIdentifiers": [
+        "CVDR638723"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR638723"
+      ],
+      "municipalPages": [
+        "https://www.almelo.nl/wonen-bouwen-en-verbouwen/leegstandsverordening"
+      ],
+      "gisSources": [
+        "data/batch-001-geographic-scopes.json"
+      ],
+      "applicationSources": [
+        "https://almelo.nl/bouwen-en-wonen/leegstandsverordening/formulier-leegstandsverordening"
+      ],
+      "supportingIds": [
+        "batch-001",
+        "almelo-vacancy-2020"
+      ]
+    },
+    {
+      "municipalityCode": "GM0034",
+      "municipalityName": "Almere",
+      "canonicalType": "housing-permit",
+      "officialIdentifiers": [
+        "CVDR741425"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR741425"
+      ],
+      "municipalPages": [
+        "https://www.almere.nl/wonen/opkoopbescherming"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://formulieren.almere.nl/TriplEforms/formulierenoverzicht/nl-NL/evAlmere.aspx"
+      ],
+      "supportingIds": [
+        "batch-001",
+        "almere-hvv-2024"
+      ]
+    },
+    {
+      "municipalityCode": "GM0034",
+      "municipalityName": "Almere",
+      "canonicalType": "purchase-protection",
+      "officialIdentifiers": [
+        "CVDR741425"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR741425"
+      ],
+      "municipalPages": [
+        "https://www.almere.nl/wonen/opkoopbescherming"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://formulieren.almere.nl/TriplEforms/formulierenoverzicht/nl-NL/evAlmere.aspx"
+      ],
+      "supportingIds": [
+        "batch-001",
+        "almere-hvv-2024"
+      ]
+    },
+    {
+      "municipalityCode": "GM0484",
+      "municipalityName": "Alphen aan den Rijn",
+      "canonicalType": "housing-permit",
+      "officialIdentifiers": [
+        "CVDR752466"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR752466"
+      ],
+      "municipalPages": [
+        "https://www.hureninhollandrijnland.nl/"
+      ],
+      "gisSources": [],
+      "applicationSources": [],
+      "supportingIds": [
+        "batch-001",
+        "alphen-holland-rijnland-2026"
+      ]
+    },
+    {
+      "municipalityCode": "GM0482",
+      "municipalityName": "Alblasserdam",
+      "canonicalType": "withdrawal-merger",
+      "officialIdentifiers": [
+        "CVDR741471"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR741471"
+      ],
+      "municipalPages": [
+        "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Onttrekkingsvergunning_woonruimte_kamerverhuur"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.ozhz.nl/onttrekkingsvergunningaanvragen/"
+      ],
+      "supportingIds": [
+        "batch-001",
+        "alblasserdam-stock-change-2025"
+      ]
+    },
+    {
+      "municipalityCode": "GM0482",
+      "municipalityName": "Alblasserdam",
+      "canonicalType": "conversion-permit",
+      "officialIdentifiers": [
+        "CVDR741471"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR741471"
+      ],
+      "municipalPages": [
+        "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Onttrekkingsvergunning_woonruimte_kamerverhuur"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.ozhz.nl/onttrekkingsvergunningaanvragen/"
+      ],
+      "supportingIds": [
+        "batch-001",
+        "alblasserdam-stock-change-2025"
+      ]
+    },
+    {
+      "municipalityCode": "GM0482",
+      "municipalityName": "Alblasserdam",
+      "canonicalType": "room-rental",
+      "officialIdentifiers": [
+        "CVDR741471"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR741471"
+      ],
+      "municipalPages": [
+        "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Onttrekkingsvergunning_woonruimte_kamerverhuur"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.ozhz.nl/onttrekkingsvergunningaanvragen/"
+      ],
+      "supportingIds": [
+        "batch-001",
+        "alblasserdam-stock-change-2025"
+      ]
+    },
+    {
+      "municipalityCode": "GM0482",
+      "municipalityName": "Alblasserdam",
+      "canonicalType": "building-split",
+      "officialIdentifiers": [
+        "CVDR741471"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR741471"
+      ],
+      "municipalPages": [
+        "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Splitsingsvergunning"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.ozhz.nl/een-splitsingsvergunning-aanvragen/"
+      ],
+      "supportingIds": [
+        "batch-001",
+        "alblasserdam-building-split-2025"
+      ]
+    },
+    {
+      "municipalityCode": "GM0482",
+      "municipalityName": "Alblasserdam",
+      "canonicalType": "dwelling-formation",
+      "officialIdentifiers": [
+        "CVDR741471"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR741471"
+      ],
+      "municipalPages": [
+        "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Splitsingsvergunning"
+      ],
+      "gisSources": [],
+      "applicationSources": [],
+      "supportingIds": [
+        "batch-001",
+        "alblasserdam-dwelling-formation-2025"
+      ]
+    },
+    {
+      "municipalityCode": "GM0482",
+      "municipalityName": "Alblasserdam",
+      "canonicalType": "purchase-protection",
+      "officialIdentifiers": [
+        "CVDR741471"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR741471"
+      ],
+      "municipalPages": [
+        "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Opkoopbescherming"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.alblasserdam.nl/Mediatheek/Inwoners/bouwen_verbouwen_en_wonen/Formulier_vrijstelling_opkoopbescherming.org"
+      ],
+      "supportingIds": [
+        "batch-001",
+        "alblasserdam-purchase-protection-2025"
+      ]
+    },
+    {
+      "municipalityCode": "GM1959",
+      "municipalityName": "Altena",
+      "canonicalType": "planning-housing-permit",
+      "officialIdentifiers": [
+        "CVDR699287"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR699287"
+      ],
+      "municipalPages": [
+        "https://www.gemeentealtena.nl/bouwen-en-verbouwen/het-proces-rondom-een-vergunning"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://omgevingswet.overheid.nl/checken"
+      ],
+      "supportingIds": [
+        "batch-002",
+        "altena-labour"
+      ]
+    },
+    {
+      "municipalityCode": "GM0060",
+      "municipalityName": "Ameland",
+      "canonicalType": "housing-permit",
+      "officialIdentifiers": [
+        "CVDR704968"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR704968"
+      ],
+      "municipalPages": [
+        "https://www.ameland.nl/huisvestingsvergunning"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.ameland.nl/huisvestingsvergunning"
+      ],
+      "supportingIds": [
+        "batch-002",
+        "ameland-housing"
+      ]
+    },
+    {
+      "municipalityCode": "GM0060",
+      "municipalityName": "Ameland",
+      "canonicalType": "purchase-protection",
+      "officialIdentifiers": [
+        "CVDR704968"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR704968"
+      ],
+      "municipalPages": [
+        "https://www.ameland.nl/huisvestingsvergunning"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.ameland.nl/huisvestingsvergunning"
+      ],
+      "supportingIds": [
+        "batch-002",
+        "ameland-opkoop"
+      ]
+    },
+    {
+      "municipalityCode": "GM0307",
+      "municipalityName": "Amersfoort",
+      "canonicalType": "housing-permit",
+      "officialIdentifiers": [
+        "CVDR741596"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR741596"
+      ],
+      "municipalPages": [
+        "https://www.amersfoort.nl/huren-amersfoort"
+      ],
+      "gisSources": [],
+      "applicationSources": [],
+      "supportingIds": [
+        "batch-002",
+        "amersfoort-housing"
+      ]
+    },
+    {
+      "municipalityCode": "GM0307",
+      "municipalityName": "Amersfoort",
+      "canonicalType": "vacancy-obligation",
+      "officialIdentifiers": [
+        "CVDR758403"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR758403"
+      ],
+      "municipalPages": [
+        "https://www.amersfoort.nl/leegstand-woning"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.amersfoort.nl/leegstand-woning"
+      ],
+      "supportingIds": [
+        "batch-002",
+        "amersfoort-vacancy"
+      ]
+    },
+    {
+      "municipalityCode": "GM0362",
+      "municipalityName": "Amstelveen",
+      "canonicalType": "vacancy-obligation",
+      "officialIdentifiers": [
+        "CVDR614436"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR614436"
+      ],
+      "municipalPages": [
+        "https://www.amstelveen.nl/leegstand-melden"
+      ],
+      "gisSources": [],
+      "applicationSources": [],
+      "supportingIds": [
+        "batch-002",
+        "amstelveen-vacancy"
+      ]
+    },
+    {
+      "municipalityCode": "GM0362",
+      "municipalityName": "Amstelveen",
+      "canonicalType": "purchase-protection",
+      "officialIdentifiers": [
+        "CVDR748045"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR748045"
+      ],
+      "municipalPages": [
+        "https://www.amstelveen.nl/verhuurvergunning-bij-opkoopbescherming"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.amstelveen.nl/verhuurvergunning-bij-opkoopbescherming"
+      ],
+      "supportingIds": [
+        "batch-002",
+        "amstelveen-opkoop"
+      ]
+    },
+    {
+      "municipalityCode": "GM0362",
+      "municipalityName": "Amstelveen",
+      "canonicalType": "room-rental",
+      "officialIdentifiers": [
+        "CVDR748045"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR748045"
+      ],
+      "municipalPages": [
+        "https://www.amstelveen.nl/woningdelen"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://omgevingswet.overheid.nl/checken"
+      ],
+      "supportingIds": [
+        "batch-002",
+        "amstelveen-sharing"
+      ]
+    },
+    {
+      "municipalityCode": "GM0363",
+      "municipalityName": "Amsterdam",
+      "canonicalType": "housing-permit",
+      "officialIdentifiers": [
+        "CVDR706038"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR706038"
+      ],
+      "municipalPages": [
+        "https://www.amsterdam.nl/wonen-bouwen-verbouwen/huisvestingsvergunning/"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.amsterdam.nl/wonen-bouwen-verbouwen/huisvestingsvergunning/"
+      ],
+      "supportingIds": [
+        "batch-002",
+        "amsterdam-housing"
+      ]
+    },
+    {
+      "municipalityCode": "GM0363",
+      "municipalityName": "Amsterdam",
+      "canonicalType": "withdrawal-merger",
+      "officialIdentifiers": [
+        "CVDR706038"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR706038"
+      ],
+      "municipalPages": [
+        "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/"
+      ],
+      "supportingIds": [
+        "batch-002",
+        "amsterdam-stock"
+      ]
+    },
+    {
+      "municipalityCode": "GM0363",
+      "municipalityName": "Amsterdam",
+      "canonicalType": "conversion-permit",
+      "officialIdentifiers": [
+        "CVDR706038"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR706038"
+      ],
+      "municipalPages": [
+        "https://www.amsterdam.nl/wonen-bouwen-verbouwen/kamer-verhuren/"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.amsterdam.nl/wonen-bouwen-verbouwen/kamer-verhuren/"
+      ],
+      "supportingIds": [
+        "batch-002",
+        "amsterdam-rooms"
+      ]
+    },
+    {
+      "municipalityCode": "GM0363",
+      "municipalityName": "Amsterdam",
+      "canonicalType": "dwelling-formation",
+      "officialIdentifiers": [
+        "CVDR706038"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR706038"
+      ],
+      "municipalPages": [
+        "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/vergunning-woningvorming-aanvragen/"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/vergunning-woningvorming-aanvragen/"
+      ],
+      "supportingIds": [
+        "batch-002",
+        "amsterdam-formation"
+      ]
+    },
+    {
+      "municipalityCode": "GM0363",
+      "municipalityName": "Amsterdam",
+      "canonicalType": "holiday-rental",
+      "officialIdentifiers": [
+        "CVDR706038"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR706038"
+      ],
+      "municipalPages": [
+        "https://www.amsterdam.nl/wonen-bouwen-verbouwen/vakantieverhuur/"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.amsterdam.nl/wonen-bouwen-verbouwen/vakantieverhuur/"
+      ],
+      "supportingIds": [
+        "batch-002",
+        "amsterdam-holiday"
+      ]
+    },
+    {
+      "municipalityCode": "GM0363",
+      "municipalityName": "Amsterdam",
+      "canonicalType": "purchase-protection",
+      "officialIdentifiers": [
+        "CVDR706038"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR706038"
+      ],
+      "municipalPages": [
+        "https://www.amsterdam.nl/wonen-bouwen-verbouwen/opkoopbescherming/"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.amsterdam.nl/wonen-bouwen-verbouwen/opkoopbescherming/"
+      ],
+      "supportingIds": [
+        "batch-002",
+        "amsterdam-opkoop"
+      ]
+    },
+    {
+      "municipalityCode": "GM0200",
+      "municipalityName": "Apeldoorn",
+      "canonicalType": "good-landlord-permit",
+      "officialIdentifiers": [
+        "CVDR754879"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR754879"
+      ],
+      "municipalPages": [
+        "https://www.apeldoorn.nl/regelen-en-weten/wonen-en-verhuizen/huren-en-kamerverhuur/verhuur-verblijfsruimten-arbeidsmigranten/"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.apeldoorn.nl/regelen-en-weten/wonen-en-verhuizen/huren-en-kamerverhuur/verhuur-verblijfsruimten-arbeidsmigranten/"
+      ],
+      "supportingIds": [
+        "batch-002",
+        "apeldoorn-landlord"
+      ]
+    },
+    {
+      "municipalityCode": "GM0202",
+      "municipalityName": "Arnhem",
+      "canonicalType": "housing-permit",
+      "officialIdentifiers": [
+        "CVDR709142"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR709142"
+      ],
+      "municipalPages": [
+        "https://www.arnhem.nl/alle-onderwerpen/wonen/kopen-huren-en-verhuren/"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.entree.nu"
+      ],
+      "supportingIds": [
+        "batch-002",
+        "arnhem-housing"
+      ]
+    },
+    {
+      "municipalityCode": "GM0202",
+      "municipalityName": "Arnhem",
+      "canonicalType": "vacancy-obligation",
+      "officialIdentifiers": [
+        "CVDR728286"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR728286"
+      ],
+      "municipalPages": [
+        "https://www.arnhem.nl/alle-onderwerpen/wonen/kopen-huren-en-verhuren/"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.arnhem.nl/alle-onderwerpen/wonen/kopen-huren-en-verhuren/"
+      ],
+      "supportingIds": [
+        "batch-002",
+        "arnhem-vacancy"
+      ]
+    },
+    {
+      "municipalityCode": "GM0202",
+      "municipalityName": "Arnhem",
+      "canonicalType": "good-landlord-permit",
+      "officialIdentifiers": [
+        "CVDR736697"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR736697"
+      ],
+      "municipalPages": [
+        "https://www.arnhem.nl/alle-onderwerpen/wonen/kopen-huren-en-verhuren/"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.arnhem.nl/alle-onderwerpen/wonen/kopen-huren-en-verhuren/"
+      ],
+      "supportingIds": [
+        "batch-002",
+        "arnhem-landlord"
+      ]
+    },
+    {
+      "municipalityCode": "GM0202",
+      "municipalityName": "Arnhem",
+      "canonicalType": "purchase-protection",
+      "officialIdentifiers": [
+        "CVDR709142"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR709142"
+      ],
+      "municipalPages": [
+        "https://www.arnhem.nl/alle-onderwerpen/wonen/kopen-huren-en-verhuren/"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.arnhem.nl/wp-content/uploads/2025/01/Aanvraagformulier-verhuurvergunning-opkoopbescherming.pdf"
+      ],
+      "supportingIds": [
+        "batch-002",
+        "arnhem-opkoop"
+      ]
+    },
+    {
+      "municipalityCode": "GM0106",
+      "municipalityName": "Assen",
+      "canonicalType": "planning-housing-permit",
+      "officialIdentifiers": [
+        "CVDR750864"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR750864"
+      ],
+      "municipalPages": [
+        "https://www.assen.nl/woning-splitsen-in-aparte-zelfstandige-woningen"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://omgevingswet.overheid.nl/checken"
+      ],
+      "supportingIds": [
+        "batch-002",
+        "assen-splitting"
+      ]
+    },
+    {
+      "municipalityCode": "GM0743",
+      "municipalityName": "Asten",
+      "canonicalType": "planning-housing-permit",
+      "officialIdentifiers": [
+        "CVDR740975"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR740975"
+      ],
+      "municipalPages": [
+        "https://www.asten.nl/wonen-en-verhuizen/vergunning-huisvesting-arbeidsmigranten"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.asten.nl/fileadmin/Asten/PDF-formulieren_producten/Wonen/Vergunning_huisvesten_arbeidsmigranten/Aanvraagformulier_exploitatievergunning_huisvesting_arbeidsmigranten.pdf"
+      ],
+      "supportingIds": [
+        "batch-002",
+        "asten-labour"
+      ]
+    },
+    {
+      "municipalityCode": "GM0308",
+      "municipalityName": "Baarn",
+      "canonicalType": "housing-permit",
+      "officialIdentifiers": [
+        "CVDR746230"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR746230"
+      ],
+      "municipalPages": [
+        "https://www.baarn.nl/wonen-en-verhuizen"
+      ],
+      "gisSources": [],
+      "applicationSources": [],
+      "supportingIds": [
+        "batch-003",
+        "baarn-housing-2025"
+      ]
+    },
+    {
+      "municipalityCode": "GM0489",
+      "municipalityName": "Barendrecht",
+      "canonicalType": "housing-permit",
+      "officialIdentifiers": [
+        "CVDR740024"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR740024"
+      ],
+      "municipalPages": [
+        "https://www.barendrecht.nl/direct-regelen/wonen-leefomgeving-verbouwen/wonen-verhuizen/woning-zoeken-sociale-huur/"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.woonnetrijnmond.nl"
+      ],
+      "supportingIds": [
+        "batch-003",
+        "barendrecht-housing-2025"
+      ]
+    },
+    {
+      "municipalityCode": "GM0203",
+      "municipalityName": "Barneveld",
+      "canonicalType": "housing-permit",
+      "officialIdentifiers": [
+        "CVDR738588"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR738588"
+      ],
+      "municipalPages": [
+        "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/hulp-bij-wonen/huurwoning-inschrijving"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.huiswaarts.nu"
+      ],
+      "supportingIds": [
+        "batch-003",
+        "barneveld-housing-2025"
+      ]
+    },
+    {
+      "municipalityCode": "GM0203",
+      "municipalityName": "Barneveld",
+      "canonicalType": "room-rental",
+      "officialIdentifiers": [
+        "CVDR738588"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR738588"
+      ],
+      "municipalPages": [
+        "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/het-gebruik-van-een-woning-veranderen"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://omgevingswet.overheid.nl/checken"
+      ],
+      "supportingIds": [
+        "batch-003",
+        "barneveld-room-rental"
+      ]
+    },
+    {
+      "municipalityCode": "GM0203",
+      "municipalityName": "Barneveld",
+      "canonicalType": "planning-housing-permit",
+      "officialIdentifiers": [
+        "CVDR738588"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR738588"
+      ],
+      "municipalPages": [
+        "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/het-gebruik-van-een-woning-veranderen"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://omgevingswet.overheid.nl/checken"
+      ],
+      "supportingIds": [
+        "batch-003",
+        "barneveld-room-rental"
+      ]
+    },
+    {
+      "municipalityCode": "GM0203",
+      "municipalityName": "Barneveld",
+      "canonicalType": "dwelling-formation",
+      "officialIdentifiers": [
+        "CVDR738588"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR738588"
+      ],
+      "municipalPages": [
+        "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/het-gebruik-van-een-woning-veranderen"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://omgevingswet.overheid.nl/checken"
+      ],
+      "supportingIds": [
+        "batch-003",
+        "barneveld-splitting"
+      ]
+    },
+    {
+      "municipalityCode": "GM0203",
+      "municipalityName": "Barneveld",
+      "canonicalType": "building-split",
+      "officialIdentifiers": [
+        "CVDR738588"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR738588"
+      ],
+      "municipalPages": [
+        "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/het-gebruik-van-een-woning-veranderen"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://omgevingswet.overheid.nl/checken"
+      ],
+      "supportingIds": [
+        "batch-003",
+        "barneveld-splitting"
+      ]
+    },
+    {
+      "municipalityCode": "GM0203",
+      "municipalityName": "Barneveld",
+      "canonicalType": "planning-housing-permit",
+      "officialIdentifiers": [
+        "CVDR738588"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR738588"
+      ],
+      "municipalPages": [
+        "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/het-gebruik-van-een-woning-veranderen"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://omgevingswet.overheid.nl/checken"
+      ],
+      "supportingIds": [
+        "batch-003",
+        "barneveld-splitting"
+      ]
+    },
+    {
+      "municipalityCode": "GM0203",
+      "municipalityName": "Barneveld",
+      "canonicalType": "vacancy-obligation",
+      "officialIdentifiers": [
+        "BWBR0003403"
+      ],
+      "primaryOfficialUrls": [
+        "https://wetten.overheid.nl/BWBR0003403"
+      ],
+      "municipalPages": [
+        "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/leegstaande-woonruimte-tijdelijk-verhuren"
+      ],
+      "gisSources": [],
+      "applicationSources": [
+        "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/leegstaande-woonruimte-tijdelijk-verhuren"
+      ],
+      "supportingIds": [
+        "batch-003",
+        "barneveld-vacancy-rental"
+      ]
+    },
+    {
+      "municipalityCode": "GM0888",
+      "municipalityName": "Beek (L.)",
+      "canonicalType": "good-landlord-permit",
+      "officialIdentifiers": [
+        "CVDR731804"
+      ],
+      "primaryOfficialUrls": [
+        "https://lokaleregelgeving.overheid.nl/CVDR731804"
+      ],
+      "municipalPages": [
+        "https://www.gemeentebeek.nl"
+      ],
+      "gisSources": [],
+      "applicationSources": [],
+      "supportingIds": [
+        "batch-003",
+        "beek-labour-rental-2025"
+      ]
+    }
+  ]
+}

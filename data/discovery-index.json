@@ -1,0 +1,1422 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-09T19:59:49.181Z",
+  "entries": [
+    {
+      "municipalityCode": "GM0358",
+      "municipalityName": "Aalsmeer",
+      "authority": "Aalsmeer",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR749527",
+      "official": true,
+      "provenance": [
+        "batch-001:aalsmeer-hvv-2025"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening gemeente Aalsmeer 2025 Huisvestingswet 2014 Huisvestingsvergunning voor aangewezen betaalbare woonruimte. Onttrekkingsvergunning en opkoopbescherming zijn afzonderlijk geregeld. De afzonderlijke hoofdstukken hanteren daarnaast woning- en waardekenmerken. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0358",
+      "municipalityName": "Aalsmeer",
+      "authority": "Aalsmeer",
+      "sourceClass": "municipal-site",
+      "domain": "www.aalsmeer.nl",
+      "url": "https://www.aalsmeer.nl/verhuurvergunning-bij-opkoopbescherming",
+      "official": true,
+      "provenance": [
+        "batch-001:aalsmeer-hvv-2025"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening gemeente Aalsmeer 2025 Huisvestingswet 2014 Huisvestingsvergunning voor aangewezen betaalbare woonruimte. Onttrekkingsvergunning en opkoopbescherming zijn afzonderlijk geregeld. De afzonderlijke hoofdstukken hanteren daarnaast woning- en waardekenmerken. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0358",
+      "municipalityName": "Aalsmeer",
+      "authority": "Aalsmeer",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR623005",
+      "official": true,
+      "provenance": [
+        "batch-001:aalsmeer-vacancy-2019"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Leegstandverordening Aalsmeer 2019 Leegstandwet Zelfstandige woonruimte en kantoren groter dan 500 m²; melding na zes maanden."
+      ]
+    },
+    {
+      "municipalityCode": "GM0197",
+      "municipalityName": "Aalten",
+      "authority": "Aalten",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR720987",
+      "official": true,
+      "provenance": [
+        "batch-001:aalten-good-landlord-2024"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Verhuurverordening verblijfsruimte Aalten 2024 Wet goed verhuurderschap De wettelijke term verblijfsruimte in artikel 5, eerste lid, onder b, Wet goed verhuurderschap betreft verblijfsruimte voor arbeidsmigranten. De algemene toelichting bevestigt expliciet dat geen vergunningstelsel voor reguliere woonruimte is ingevoerd. Gehele gemeente. Alleen verhuur van verblijfsruimte aan arbeidsmigranten/internationale werknemers; reguliere woonruimte valt volgens de algemene toelichting niet onder dit vergunningstelsel. Toegelaten woningcorporaties zijn uitgezonderd. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0197",
+      "municipalityName": "Aalten",
+      "authority": "Aalten",
+      "sourceClass": "municipal-site",
+      "domain": "www.aalten.nl",
+      "url": "https://www.aalten.nl/verhuurvergunning",
+      "official": true,
+      "provenance": [
+        "batch-001:aalten-good-landlord-2024"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Verhuurverordening verblijfsruimte Aalten 2024 Wet goed verhuurderschap De wettelijke term verblijfsruimte in artikel 5, eerste lid, onder b, Wet goed verhuurderschap betreft verblijfsruimte voor arbeidsmigranten. De algemene toelichting bevestigt expliciet dat geen vergunningstelsel voor reguliere woonruimte is ingevoerd. Gehele gemeente. Alleen verhuur van verblijfsruimte aan arbeidsmigranten/internationale werknemers; reguliere woonruimte valt volgens de algemene toelichting niet onder dit vergunningstelsel. Toegelaten woningcorporaties zijn uitgezonderd. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0197",
+      "municipalityName": "Aalten",
+      "authority": "Aalten",
+      "sourceClass": "application",
+      "domain": "aalten-checker.aalten.nl",
+      "url": "https://aalten-checker.aalten.nl/",
+      "official": true,
+      "provenance": [
+        "batch-001:aalten-good-landlord-2024"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Verhuurverordening verblijfsruimte Aalten 2024 Wet goed verhuurderschap De wettelijke term verblijfsruimte in artikel 5, eerste lid, onder b, Wet goed verhuurderschap betreft verblijfsruimte voor arbeidsmigranten. De algemene toelichting bevestigt expliciet dat geen vergunningstelsel voor reguliere woonruimte is ingevoerd. Gehele gemeente. Alleen verhuur van verblijfsruimte aan arbeidsmigranten/internationale werknemers; reguliere woonruimte valt volgens de algemene toelichting niet onder dit vergunningstelsel. Toegelaten woningcorporaties zijn uitgezonderd. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0059",
+      "municipalityName": "Achtkarspelen",
+      "authority": "Achtkarspelen",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR705002",
+      "official": true,
+      "provenance": [
+        "batch-001:achtkarspelen-target-groups-2023"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Doelgroepenverordening gemeente Achtkarspelen 2023 Meldplicht bij verhuur is gevonden, maar valt niet rechtstreeks onder de huidige vergunningtaxonomie. Alleen woningen waarop een planologische doelgroepenbestemming en instandhoudingstermijn rust."
+      ]
+    },
+    {
+      "municipalityCode": "GM0613",
+      "municipalityName": "Albrandswaard",
+      "authority": "Albrandswaard",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR741224",
+      "official": true,
+      "provenance": [
+        "batch-001:albrandswaard-regional-housing-2025"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Verordening Woonruimtebemiddeling regio Rotterdam 2025 Huisvestingswet 2014 Regionale woonruimtebemiddeling; alleen aangewezen woonruimte en woningzoekenden."
+      ]
+    },
+    {
+      "municipalityCode": "GM0613",
+      "municipalityName": "Albrandswaard",
+      "authority": "Albrandswaard",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR660521",
+      "official": true,
+      "provenance": [
+        "batch-001:albrandswaard-rental-notification-2021"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Verordening sociale huur en middeldure huur gemeente Albrandswaard 2021 Meldplicht gedurende instandhoudingstermijn van aangewezen nieuwbouwwoningen."
+      ]
+    },
+    {
+      "municipalityCode": "GM0361",
+      "municipalityName": "Alkmaar",
+      "authority": "Alkmaar",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR713872",
+      "official": true,
+      "provenance": [
+        "batch-001:alkmaar-hvv-2024"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening Alkmaar 2024 Huisvestingswet 2014 Voorraadwijziging gemeentebreed; oppervlakteeisen verschillen binnen/buiten binnenstad. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0361",
+      "municipalityName": "Alkmaar",
+      "authority": "Alkmaar",
+      "sourceClass": "municipal-site",
+      "domain": "www.alkmaar.nl",
+      "url": "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/wonen",
+      "official": true,
+      "provenance": [
+        "batch-001:alkmaar-hvv-2024"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening Alkmaar 2024 Huisvestingswet 2014 Voorraadwijziging gemeentebreed; oppervlakteeisen verschillen binnen/buiten binnenstad. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0361",
+      "municipalityName": "Alkmaar",
+      "authority": "Alkmaar",
+      "sourceClass": "application",
+      "domain": "www.alkmaar.nl",
+      "url": "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/huisvesting/kamerverhuur",
+      "official": true,
+      "provenance": [
+        "batch-001:alkmaar-hvv-2024"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening Alkmaar 2024 Huisvestingswet 2014 Voorraadwijziging gemeentebreed; oppervlakteeisen verschillen binnen/buiten binnenstad. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0141",
+      "municipalityName": "Almelo",
+      "authority": "Almelo",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR726069",
+      "official": true,
+      "provenance": [
+        "batch-001:almelo-purchase-protection-2024"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingverordening Opkoopbescherming gemeente Almelo Huisvestingswet 2014 CBS-wijken 014110, 014115, 014116, 014111, 014114, 014113 en 014112. WOZ-grens €265.000; actueel bevestigd op gemeentepagina in 2026. email"
+      ]
+    },
+    {
+      "municipalityCode": "GM0141",
+      "municipalityName": "Almelo",
+      "authority": "Almelo",
+      "sourceClass": "municipal-site",
+      "domain": "www.almelo.nl",
+      "url": "https://www.almelo.nl/wonen-bouwen-en-verbouwen/wet-opkoopbescherming-almelo",
+      "official": true,
+      "provenance": [
+        "batch-001:almelo-purchase-protection-2024"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingverordening Opkoopbescherming gemeente Almelo Huisvestingswet 2014 CBS-wijken 014110, 014115, 014116, 014111, 014114, 014113 en 014112. WOZ-grens €265.000; actueel bevestigd op gemeentepagina in 2026. email"
+      ]
+    },
+    {
+      "municipalityCode": "GM0141",
+      "municipalityName": "Almelo",
+      "authority": "Almelo",
+      "sourceClass": "application",
+      "url": "mailto:gemeente@almelo.nl",
+      "official": true,
+      "provenance": [
+        "batch-001:almelo-purchase-protection-2024"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingverordening Opkoopbescherming gemeente Almelo Huisvestingswet 2014 CBS-wijken 014110, 014115, 014116, 014111, 014114, 014113 en 014112. WOZ-grens €265.000; actueel bevestigd op gemeentepagina in 2026. email"
+      ]
+    },
+    {
+      "municipalityCode": "GM0141",
+      "municipalityName": "Almelo",
+      "authority": "Almelo",
+      "sourceClass": "gis",
+      "domain": "services-eu1.arcgis.com",
+      "url": "https://services-eu1.arcgis.com/2FmtZGxkWSsSDBQm/arcgis/rest/services/Wijk_Opkoopbescherming/FeatureServer/0",
+      "official": true,
+      "provenance": [
+        "batch-001:almelo-purchase-protection-2024"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingverordening Opkoopbescherming gemeente Almelo Huisvestingswet 2014 CBS-wijken 014110, 014115, 014116, 014111, 014114, 014113 en 014112. WOZ-grens €265.000; actueel bevestigd op gemeentepagina in 2026. email"
+      ]
+    },
+    {
+      "municipalityCode": "GM0141",
+      "municipalityName": "Almelo",
+      "authority": "Almelo",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR638723",
+      "official": true,
+      "provenance": [
+        "batch-001:almelo-vacancy-2020"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Leegstandverordening Binnenstad Gemeente Almelo 2020 Leegstandwet Bijlage 1 noemt volledige straten en drie specifieke huisnummerbereiken. Alleen niet-woningen: winkel- en bedrijfsruimten, kantoren en ruimten voor maatschappelijke doeleinden. Leegmelding na meer dan zes maanden. digital-notification"
+      ]
+    },
+    {
+      "municipalityCode": "GM0141",
+      "municipalityName": "Almelo",
+      "authority": "Almelo",
+      "sourceClass": "municipal-site",
+      "domain": "www.almelo.nl",
+      "url": "https://www.almelo.nl/wonen-bouwen-en-verbouwen/leegstandsverordening",
+      "official": true,
+      "provenance": [
+        "batch-001:almelo-vacancy-2020"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Leegstandverordening Binnenstad Gemeente Almelo 2020 Leegstandwet Bijlage 1 noemt volledige straten en drie specifieke huisnummerbereiken. Alleen niet-woningen: winkel- en bedrijfsruimten, kantoren en ruimten voor maatschappelijke doeleinden. Leegmelding na meer dan zes maanden. digital-notification"
+      ]
+    },
+    {
+      "municipalityCode": "GM0141",
+      "municipalityName": "Almelo",
+      "authority": "Almelo",
+      "sourceClass": "application",
+      "domain": "almelo.nl",
+      "url": "https://almelo.nl/bouwen-en-wonen/leegstandsverordening/formulier-leegstandsverordening",
+      "official": true,
+      "provenance": [
+        "batch-001:almelo-vacancy-2020"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Leegstandverordening Binnenstad Gemeente Almelo 2020 Leegstandwet Bijlage 1 noemt volledige straten en drie specifieke huisnummerbereiken. Alleen niet-woningen: winkel- en bedrijfsruimten, kantoren en ruimten voor maatschappelijke doeleinden. Leegmelding na meer dan zes maanden. digital-notification"
+      ]
+    },
+    {
+      "municipalityCode": "GM0034",
+      "municipalityName": "Almere",
+      "authority": "Almere",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR741425",
+      "official": true,
+      "provenance": [
+        "batch-001:almere-hvv-2024"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening Almere 2024 Huisvestingswet 2014 Opkoopbescherming gemeentebreed, WOZ lager dan actuele NHG-grens en aanvullende eigendoms-/gebruikseisen. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0034",
+      "municipalityName": "Almere",
+      "authority": "Almere",
+      "sourceClass": "municipal-site",
+      "domain": "www.almere.nl",
+      "url": "https://www.almere.nl/wonen/opkoopbescherming",
+      "official": true,
+      "provenance": [
+        "batch-001:almere-hvv-2024"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening Almere 2024 Huisvestingswet 2014 Opkoopbescherming gemeentebreed, WOZ lager dan actuele NHG-grens en aanvullende eigendoms-/gebruikseisen. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0034",
+      "municipalityName": "Almere",
+      "authority": "Almere",
+      "sourceClass": "application",
+      "domain": "formulieren.almere.nl",
+      "url": "https://formulieren.almere.nl/TriplEforms/formulierenoverzicht/nl-NL/evAlmere.aspx",
+      "official": true,
+      "provenance": [
+        "batch-001:almere-hvv-2024"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening Almere 2024 Huisvestingswet 2014 Opkoopbescherming gemeentebreed, WOZ lager dan actuele NHG-grens en aanvullende eigendoms-/gebruikseisen. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0484",
+      "municipalityName": "Alphen aan den Rijn",
+      "authority": "Alphen aan den Rijn",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR752466",
+      "official": true,
+      "provenance": [
+        "batch-001:alphen-holland-rijnland-2026"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening Regio Holland Rijnland 2026 Huisvestingswet 2014 Huisvestingsvergunning voor aangewezen sociale huurwoningen. Aanvraag kan aan woningcorporatie of gemeente zijn gemandateerd. Alphen aan den Rijn ligt in de regio. Sociale huur van aangewezen eigenaren; particuliere verhuurders alleen bij tien of meer na 1 januari 2024 opgeleverde woningen. delegated"
+      ]
+    },
+    {
+      "municipalityCode": "GM0484",
+      "municipalityName": "Alphen aan den Rijn",
+      "authority": "Alphen aan den Rijn",
+      "sourceClass": "municipal-site",
+      "domain": "www.hureninhollandrijnland.nl",
+      "url": "https://www.hureninhollandrijnland.nl/",
+      "official": true,
+      "provenance": [
+        "batch-001:alphen-holland-rijnland-2026"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening Regio Holland Rijnland 2026 Huisvestingswet 2014 Huisvestingsvergunning voor aangewezen sociale huurwoningen. Aanvraag kan aan woningcorporatie of gemeente zijn gemandateerd. Alphen aan den Rijn ligt in de regio. Sociale huur van aangewezen eigenaren; particuliere verhuurders alleen bij tien of meer na 1 januari 2024 opgeleverde woningen. delegated"
+      ]
+    },
+    {
+      "municipalityCode": "GM0482",
+      "municipalityName": "Alblasserdam",
+      "authority": "Alblasserdam",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR741471",
+      "official": true,
+      "provenance": [
+        "batch-001:alblasserdam-stock-change-2025",
+        "batch-001:alblasserdam-building-split-2025",
+        "batch-001:alblasserdam-dwelling-formation-2025",
+        "batch-001:alblasserdam-purchase-protection-2025"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Onttrekking, samenvoeging en omzetting Alblasserdam 2025 Huisvestingswet 2014 Onttrekking en samenvoeging zijn vergunningplichtig. Omzetting naar onzelfstandige woonruimte is vergunningplichtig boven de uitzonderingsgrenzen van artikel 3.1.2. De omzettingsvergunning geldt vijf jaar, is persoonsgebonden en niet overdraagbaar. Artikel 3.1.1 geldt voor gebouwen die woonruimte bevatten. Vergunningplicht voor onttrekking, samenvoeging en omzetting; hospita/eigenaarssituaties kennen de aantalsgrenzen uit artikel 3.1.2. digital-form",
+        "Splitsingsvergunning appartementsrechten Alblasserdam 2025 Huisvestingswet 2014 Splitsing in appartementsrechten met woongebruik is vergunningplichtig. Bij vijf of meer appartementsrechten kunnen aanvullende documenten worden verlangd. Artikel 3.2.1 geldt voor gebouwen die woonruimte bevatten. digital-form",
+        "Woningvormingsvergunning Alblasserdam 2025 Huisvestingswet 2014 Verbouwen van één woonruimte tot twee of meer woonruimten is vergunningplichtig. Artikel 3.3.2: alle woonruimte in de gemeente. Elke gevormde woning moet minimaal 70 m² GO, een berging en een buitenruimte hebben.",
+        "Opkoopbescherming Alblasserdam 2025 Huisvestingswet 2014 Mogelijke vergunning bij familieverhuur, tijdelijke verhuur na minstens twaalf maanden eigen bewoning en onlosmakelijk gekoppelde bedrijfsruimte. Gemeentebreed. WOZ-waarde niet hoger dan de actuele NHG-kostengrens voor bestaande woningen zonder energiebesparende maatregelen. Vier jaar vanaf inschrijving na inwerkingtreding; eigendom gemeente en woningcorporatie uitgezonderd. downloadable-form-postal"
+      ]
+    },
+    {
+      "municipalityCode": "GM0482",
+      "municipalityName": "Alblasserdam",
+      "authority": "Alblasserdam",
+      "sourceClass": "municipal-site",
+      "domain": "www.alblasserdam.nl",
+      "url": "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Onttrekkingsvergunning_woonruimte_kamerverhuur",
+      "official": true,
+      "provenance": [
+        "batch-001:alblasserdam-stock-change-2025"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Onttrekking, samenvoeging en omzetting Alblasserdam 2025 Huisvestingswet 2014 Onttrekking en samenvoeging zijn vergunningplichtig. Omzetting naar onzelfstandige woonruimte is vergunningplichtig boven de uitzonderingsgrenzen van artikel 3.1.2. De omzettingsvergunning geldt vijf jaar, is persoonsgebonden en niet overdraagbaar. Artikel 3.1.1 geldt voor gebouwen die woonruimte bevatten. Vergunningplicht voor onttrekking, samenvoeging en omzetting; hospita/eigenaarssituaties kennen de aantalsgrenzen uit artikel 3.1.2. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0482",
+      "municipalityName": "Alblasserdam",
+      "authority": "Alblasserdam",
+      "sourceClass": "application",
+      "domain": "www.ozhz.nl",
+      "url": "https://www.ozhz.nl/onttrekkingsvergunningaanvragen/",
+      "official": true,
+      "provenance": [
+        "batch-001:alblasserdam-stock-change-2025"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Onttrekking, samenvoeging en omzetting Alblasserdam 2025 Huisvestingswet 2014 Onttrekking en samenvoeging zijn vergunningplichtig. Omzetting naar onzelfstandige woonruimte is vergunningplichtig boven de uitzonderingsgrenzen van artikel 3.1.2. De omzettingsvergunning geldt vijf jaar, is persoonsgebonden en niet overdraagbaar. Artikel 3.1.1 geldt voor gebouwen die woonruimte bevatten. Vergunningplicht voor onttrekking, samenvoeging en omzetting; hospita/eigenaarssituaties kennen de aantalsgrenzen uit artikel 3.1.2. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0482",
+      "municipalityName": "Alblasserdam",
+      "authority": "Alblasserdam",
+      "sourceClass": "municipal-site",
+      "domain": "www.alblasserdam.nl",
+      "url": "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Splitsingsvergunning",
+      "official": true,
+      "provenance": [
+        "batch-001:alblasserdam-building-split-2025",
+        "batch-001:alblasserdam-dwelling-formation-2025"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Splitsingsvergunning appartementsrechten Alblasserdam 2025 Huisvestingswet 2014 Splitsing in appartementsrechten met woongebruik is vergunningplichtig. Bij vijf of meer appartementsrechten kunnen aanvullende documenten worden verlangd. Artikel 3.2.1 geldt voor gebouwen die woonruimte bevatten. digital-form",
+        "Woningvormingsvergunning Alblasserdam 2025 Huisvestingswet 2014 Verbouwen van één woonruimte tot twee of meer woonruimten is vergunningplichtig. Artikel 3.3.2: alle woonruimte in de gemeente. Elke gevormde woning moet minimaal 70 m² GO, een berging en een buitenruimte hebben."
+      ]
+    },
+    {
+      "municipalityCode": "GM0482",
+      "municipalityName": "Alblasserdam",
+      "authority": "Alblasserdam",
+      "sourceClass": "application",
+      "domain": "www.ozhz.nl",
+      "url": "https://www.ozhz.nl/een-splitsingsvergunning-aanvragen/",
+      "official": true,
+      "provenance": [
+        "batch-001:alblasserdam-building-split-2025"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Splitsingsvergunning appartementsrechten Alblasserdam 2025 Huisvestingswet 2014 Splitsing in appartementsrechten met woongebruik is vergunningplichtig. Bij vijf of meer appartementsrechten kunnen aanvullende documenten worden verlangd. Artikel 3.2.1 geldt voor gebouwen die woonruimte bevatten. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0482",
+      "municipalityName": "Alblasserdam",
+      "authority": "Alblasserdam",
+      "sourceClass": "municipal-site",
+      "domain": "www.alblasserdam.nl",
+      "url": "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Opkoopbescherming",
+      "official": true,
+      "provenance": [
+        "batch-001:alblasserdam-purchase-protection-2025"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Opkoopbescherming Alblasserdam 2025 Huisvestingswet 2014 Mogelijke vergunning bij familieverhuur, tijdelijke verhuur na minstens twaalf maanden eigen bewoning en onlosmakelijk gekoppelde bedrijfsruimte. Gemeentebreed. WOZ-waarde niet hoger dan de actuele NHG-kostengrens voor bestaande woningen zonder energiebesparende maatregelen. Vier jaar vanaf inschrijving na inwerkingtreding; eigendom gemeente en woningcorporatie uitgezonderd. downloadable-form-postal"
+      ]
+    },
+    {
+      "municipalityCode": "GM0482",
+      "municipalityName": "Alblasserdam",
+      "authority": "Alblasserdam",
+      "sourceClass": "application",
+      "domain": "www.alblasserdam.nl",
+      "url": "https://www.alblasserdam.nl/Mediatheek/Inwoners/bouwen_verbouwen_en_wonen/Formulier_vrijstelling_opkoopbescherming.org",
+      "official": true,
+      "provenance": [
+        "batch-001:alblasserdam-purchase-protection-2025"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Opkoopbescherming Alblasserdam 2025 Huisvestingswet 2014 Mogelijke vergunning bij familieverhuur, tijdelijke verhuur na minstens twaalf maanden eigen bewoning en onlosmakelijk gekoppelde bedrijfsruimte. Gemeentebreed. WOZ-waarde niet hoger dan de actuele NHG-kostengrens voor bestaande woningen zonder energiebesparende maatregelen. Vier jaar vanaf inschrijving na inwerkingtreding; eigendom gemeente en woningcorporatie uitgezonderd. downloadable-form-postal"
+      ]
+    },
+    {
+      "municipalityCode": "GM1959",
+      "municipalityName": "Altena",
+      "authority": "Altena",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR699287",
+      "official": true,
+      "provenance": [
+        "batch-002:altena-labour"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Arbeidsmigrantenhuisvesting Altena Omgevingswet Afwijking omgevingsplan; project- en locatiegebonden. Afwijking omgevingsplan; project- en locatiegebonden. omgevingsloket"
+      ]
+    },
+    {
+      "municipalityCode": "GM1959",
+      "municipalityName": "Altena",
+      "authority": "Altena",
+      "sourceClass": "municipal-site",
+      "domain": "www.gemeentealtena.nl",
+      "url": "https://www.gemeentealtena.nl/bouwen-en-verbouwen/het-proces-rondom-een-vergunning",
+      "official": true,
+      "provenance": [
+        "batch-002:altena-labour"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Arbeidsmigrantenhuisvesting Altena Omgevingswet Afwijking omgevingsplan; project- en locatiegebonden. Afwijking omgevingsplan; project- en locatiegebonden. omgevingsloket"
+      ]
+    },
+    {
+      "municipalityCode": "GM1959",
+      "municipalityName": "Altena",
+      "authority": "Altena",
+      "sourceClass": "application",
+      "domain": "omgevingswet.overheid.nl",
+      "url": "https://omgevingswet.overheid.nl/checken",
+      "official": true,
+      "provenance": [
+        "batch-002:altena-labour"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Arbeidsmigrantenhuisvesting Altena Omgevingswet Afwijking omgevingsplan; project- en locatiegebonden. Afwijking omgevingsplan; project- en locatiegebonden. omgevingsloket"
+      ]
+    },
+    {
+      "municipalityCode": "GM0060",
+      "municipalityName": "Ameland",
+      "authority": "Ameland",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR704968",
+      "official": true,
+      "provenance": [
+        "batch-002:ameland-housing",
+        "batch-002:ameland-opkoop"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening Ameland 2023 Huisvestingswet 2014 Koop WOZ <= EUR 663.785 of huur < EUR 1.100; binding vereist. Koop WOZ <= EUR 663.785 of huur < EUR 1.100; binding vereist. digital-form",
+        "Opkoopbescherming Ameland Huisvestingswet 2014 WOZ <= EUR 663.785; vier jaar; familie-uitzondering. WOZ <= EUR 663.785; vier jaar; familie-uitzondering. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0060",
+      "municipalityName": "Ameland",
+      "authority": "Ameland",
+      "sourceClass": "municipal-site",
+      "domain": "www.ameland.nl",
+      "url": "https://www.ameland.nl/huisvestingsvergunning",
+      "official": true,
+      "provenance": [
+        "batch-002:ameland-housing",
+        "batch-002:ameland-opkoop"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening Ameland 2023 Huisvestingswet 2014 Koop WOZ <= EUR 663.785 of huur < EUR 1.100; binding vereist. Koop WOZ <= EUR 663.785 of huur < EUR 1.100; binding vereist. digital-form",
+        "Opkoopbescherming Ameland Huisvestingswet 2014 WOZ <= EUR 663.785; vier jaar; familie-uitzondering. WOZ <= EUR 663.785; vier jaar; familie-uitzondering. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0307",
+      "municipalityName": "Amersfoort",
+      "authority": "Amersfoort",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR741596",
+      "official": true,
+      "provenance": [
+        "batch-002:amersfoort-housing"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening Amersfoort 2025 Huisvestingswet 2014 Aangewezen verhuurders tot EUR 932,93. Aangewezen verhuurders tot EUR 932,93."
+      ]
+    },
+    {
+      "municipalityCode": "GM0307",
+      "municipalityName": "Amersfoort",
+      "authority": "Amersfoort",
+      "sourceClass": "municipal-site",
+      "domain": "www.amersfoort.nl",
+      "url": "https://www.amersfoort.nl/huren-amersfoort",
+      "official": true,
+      "provenance": [
+        "batch-002:amersfoort-housing"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening Amersfoort 2025 Huisvestingswet 2014 Aangewezen verhuurders tot EUR 932,93. Aangewezen verhuurders tot EUR 932,93."
+      ]
+    },
+    {
+      "municipalityCode": "GM0307",
+      "municipalityName": "Amersfoort",
+      "authority": "Amersfoort",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR758403",
+      "official": true,
+      "provenance": [
+        "batch-002:amersfoort-vacancy"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Leegstandverordening Amersfoort Leegstandwet Alle woningen; melding na zes maanden. Alle woningen; melding na zes maanden. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0307",
+      "municipalityName": "Amersfoort",
+      "authority": "Amersfoort",
+      "sourceClass": "municipal-site",
+      "domain": "www.amersfoort.nl",
+      "url": "https://www.amersfoort.nl/leegstand-woning",
+      "official": true,
+      "provenance": [
+        "batch-002:amersfoort-vacancy"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Leegstandverordening Amersfoort Leegstandwet Alle woningen; melding na zes maanden. Alle woningen; melding na zes maanden. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0362",
+      "municipalityName": "Amstelveen",
+      "authority": "Amstelveen",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR614436",
+      "official": true,
+      "provenance": [
+        "batch-002:amstelveen-vacancy"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Leegstandverordening Amstelveen 2018 Leegstandwet Woningen en kantoren >1.000 m²; zes maanden. Woningen en kantoren >1.000 m²; zes maanden."
+      ]
+    },
+    {
+      "municipalityCode": "GM0362",
+      "municipalityName": "Amstelveen",
+      "authority": "Amstelveen",
+      "sourceClass": "municipal-site",
+      "domain": "www.amstelveen.nl",
+      "url": "https://www.amstelveen.nl/leegstand-melden",
+      "official": true,
+      "provenance": [
+        "batch-002:amstelveen-vacancy"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Leegstandverordening Amstelveen 2018 Leegstandwet Woningen en kantoren >1.000 m²; zes maanden. Woningen en kantoren >1.000 m²; zes maanden."
+      ]
+    },
+    {
+      "municipalityCode": "GM0362",
+      "municipalityName": "Amstelveen",
+      "authority": "Amstelveen",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR748045",
+      "official": true,
+      "provenance": [
+        "batch-002:amstelveen-opkoop",
+        "batch-002:amstelveen-sharing"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Opkoopbescherming Amstelveen Huisvestingswet 2014 WOZ <= EUR 576.000; levering vanaf 1 juli 2022; vier jaar. WOZ <= EUR 576.000; levering vanaf 1 juli 2022; vier jaar. digital-form",
+        "Woningdelen Amstelveen Huisvestingswet 2014 Meer dan 2 en max 4 personen; 50-meterregel. Meer dan 2 en max 4 personen; 50-meterregel. omgevingsloket"
+      ]
+    },
+    {
+      "municipalityCode": "GM0362",
+      "municipalityName": "Amstelveen",
+      "authority": "Amstelveen",
+      "sourceClass": "municipal-site",
+      "domain": "www.amstelveen.nl",
+      "url": "https://www.amstelveen.nl/verhuurvergunning-bij-opkoopbescherming",
+      "official": true,
+      "provenance": [
+        "batch-002:amstelveen-opkoop"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Opkoopbescherming Amstelveen Huisvestingswet 2014 WOZ <= EUR 576.000; levering vanaf 1 juli 2022; vier jaar. WOZ <= EUR 576.000; levering vanaf 1 juli 2022; vier jaar. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0362",
+      "municipalityName": "Amstelveen",
+      "authority": "Amstelveen",
+      "sourceClass": "municipal-site",
+      "domain": "www.amstelveen.nl",
+      "url": "https://www.amstelveen.nl/woningdelen",
+      "official": true,
+      "provenance": [
+        "batch-002:amstelveen-sharing"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Woningdelen Amstelveen Huisvestingswet 2014 Meer dan 2 en max 4 personen; 50-meterregel. Meer dan 2 en max 4 personen; 50-meterregel. omgevingsloket"
+      ]
+    },
+    {
+      "municipalityCode": "GM0362",
+      "municipalityName": "Amstelveen",
+      "authority": "Amstelveen",
+      "sourceClass": "application",
+      "domain": "omgevingswet.overheid.nl",
+      "url": "https://omgevingswet.overheid.nl/checken",
+      "official": true,
+      "provenance": [
+        "batch-002:amstelveen-sharing"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Woningdelen Amstelveen Huisvestingswet 2014 Meer dan 2 en max 4 personen; 50-meterregel. Meer dan 2 en max 4 personen; 50-meterregel. omgevingsloket"
+      ]
+    },
+    {
+      "municipalityCode": "GM0363",
+      "municipalityName": "Amsterdam",
+      "authority": "Amsterdam",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR706038",
+      "official": true,
+      "provenance": [
+        "batch-002:amsterdam-housing",
+        "batch-002:amsterdam-stock",
+        "batch-002:amsterdam-rooms",
+        "batch-002:amsterdam-formation",
+        "batch-002:amsterdam-holiday",
+        "batch-002:amsterdam-opkoop"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening Amsterdam 2024 Huisvestingswet 2014 Sociale en middeldure huur. Sociale en middeldure huur. digital-form",
+        "Onttrekken en samenvoegen Amsterdam Huisvestingswet 2014 Onttrekken, slopen of samenvoegen. Onttrekken, slopen of samenvoegen. digital-form",
+        "Kamerverhuur Amsterdam Huisvestingswet 2014 Omzetting naar kamers; hospitavoorwaarden. Omzetting naar kamers; hospitavoorwaarden. digital-form",
+        "Woningvorming Amsterdam Huisvestingswet 2014 Minimaal 18 m² en opkoopcheck. Minimaal 18 m² en opkoopcheck. digital-form",
+        "Vakantieverhuur Amsterdam Huisvestingswet 2014 Hoofdverblijf; registratie, vergunning, melding, nachten. Hoofdverblijf; registratie, vergunning, melding, nachten. digital-form",
+        "Opkoopbescherming Amsterdam Huisvestingswet 2014 WOZ/RRB <= EUR 637.000; vier jaar. WOZ/RRB <= EUR 637.000; vier jaar. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0363",
+      "municipalityName": "Amsterdam",
+      "authority": "Amsterdam",
+      "sourceClass": "municipal-site",
+      "domain": "www.amsterdam.nl",
+      "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/huisvestingsvergunning/",
+      "official": true,
+      "provenance": [
+        "batch-002:amsterdam-housing"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening Amsterdam 2024 Huisvestingswet 2014 Sociale en middeldure huur. Sociale en middeldure huur. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0363",
+      "municipalityName": "Amsterdam",
+      "authority": "Amsterdam",
+      "sourceClass": "municipal-site",
+      "domain": "www.amsterdam.nl",
+      "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/",
+      "official": true,
+      "provenance": [
+        "batch-002:amsterdam-stock"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Onttrekken en samenvoegen Amsterdam Huisvestingswet 2014 Onttrekken, slopen of samenvoegen. Onttrekken, slopen of samenvoegen. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0363",
+      "municipalityName": "Amsterdam",
+      "authority": "Amsterdam",
+      "sourceClass": "municipal-site",
+      "domain": "www.amsterdam.nl",
+      "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/kamer-verhuren/",
+      "official": true,
+      "provenance": [
+        "batch-002:amsterdam-rooms"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Kamerverhuur Amsterdam Huisvestingswet 2014 Omzetting naar kamers; hospitavoorwaarden. Omzetting naar kamers; hospitavoorwaarden. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0363",
+      "municipalityName": "Amsterdam",
+      "authority": "Amsterdam",
+      "sourceClass": "municipal-site",
+      "domain": "www.amsterdam.nl",
+      "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/vergunning-woningvorming-aanvragen/",
+      "official": true,
+      "provenance": [
+        "batch-002:amsterdam-formation"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Woningvorming Amsterdam Huisvestingswet 2014 Minimaal 18 m² en opkoopcheck. Minimaal 18 m² en opkoopcheck. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0363",
+      "municipalityName": "Amsterdam",
+      "authority": "Amsterdam",
+      "sourceClass": "municipal-site",
+      "domain": "www.amsterdam.nl",
+      "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/vakantieverhuur/",
+      "official": true,
+      "provenance": [
+        "batch-002:amsterdam-holiday"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Vakantieverhuur Amsterdam Huisvestingswet 2014 Hoofdverblijf; registratie, vergunning, melding, nachten. Hoofdverblijf; registratie, vergunning, melding, nachten. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0363",
+      "municipalityName": "Amsterdam",
+      "authority": "Amsterdam",
+      "sourceClass": "municipal-site",
+      "domain": "www.amsterdam.nl",
+      "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/opkoopbescherming/",
+      "official": true,
+      "provenance": [
+        "batch-002:amsterdam-opkoop"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Opkoopbescherming Amsterdam Huisvestingswet 2014 WOZ/RRB <= EUR 637.000; vier jaar. WOZ/RRB <= EUR 637.000; vier jaar. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0200",
+      "municipalityName": "Apeldoorn",
+      "authority": "Apeldoorn",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR754879",
+      "official": true,
+      "provenance": [
+        "batch-002:apeldoorn-landlord"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Verhuurverordening arbeidsmigranten Apeldoorn Wet goed verhuurderschap Alle verblijfsruimten arbeidsmigranten; corporaties uitgezonderd. Alle verblijfsruimten arbeidsmigranten; corporaties uitgezonderd. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0200",
+      "municipalityName": "Apeldoorn",
+      "authority": "Apeldoorn",
+      "sourceClass": "municipal-site",
+      "domain": "www.apeldoorn.nl",
+      "url": "https://www.apeldoorn.nl/regelen-en-weten/wonen-en-verhuizen/huren-en-kamerverhuur/verhuur-verblijfsruimten-arbeidsmigranten/",
+      "official": true,
+      "provenance": [
+        "batch-002:apeldoorn-landlord"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Verhuurverordening arbeidsmigranten Apeldoorn Wet goed verhuurderschap Alle verblijfsruimten arbeidsmigranten; corporaties uitgezonderd. Alle verblijfsruimten arbeidsmigranten; corporaties uitgezonderd. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0202",
+      "municipalityName": "Arnhem",
+      "authority": "Arnhem",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR709142",
+      "official": true,
+      "provenance": [
+        "batch-002:arnhem-housing",
+        "batch-002:arnhem-opkoop"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening Arnhem 2024 Huisvestingswet 2014 Regionale goedkope/corporatiewoonruimte. Regionale goedkope/corporatiewoonruimte. digital-form",
+        "Opkoopbescherming Arnhem Huisvestingswet 2014 Goedkope/middeldure koopwoningen; waarde controleren; vier jaar. Goedkope/middeldure koopwoningen; waarde controleren; vier jaar. downloadable-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0202",
+      "municipalityName": "Arnhem",
+      "authority": "Arnhem",
+      "sourceClass": "municipal-site",
+      "domain": "www.arnhem.nl",
+      "url": "https://www.arnhem.nl/alle-onderwerpen/wonen/kopen-huren-en-verhuren/",
+      "official": true,
+      "provenance": [
+        "batch-002:arnhem-housing",
+        "batch-002:arnhem-vacancy",
+        "batch-002:arnhem-landlord",
+        "batch-002:arnhem-opkoop"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening Arnhem 2024 Huisvestingswet 2014 Regionale goedkope/corporatiewoonruimte. Regionale goedkope/corporatiewoonruimte. digital-form",
+        "Leegstandverordening Arnhem 2025 Leegstandwet Alle woningen; corporaties uitgezonderd; zes maanden. Alle woningen; corporaties uitgezonderd; zes maanden. digital-form",
+        "Verhuurverordening Arnhem 2025 Wet goed verhuurderschap Alle verblijfsruimten arbeidsmigranten. Alle verblijfsruimten arbeidsmigranten. digital-form",
+        "Opkoopbescherming Arnhem Huisvestingswet 2014 Goedkope/middeldure koopwoningen; waarde controleren; vier jaar. Goedkope/middeldure koopwoningen; waarde controleren; vier jaar. downloadable-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0202",
+      "municipalityName": "Arnhem",
+      "authority": "Arnhem",
+      "sourceClass": "application",
+      "domain": "www.entree.nu",
+      "url": "https://www.entree.nu",
+      "official": true,
+      "provenance": [
+        "batch-002:arnhem-housing"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening Arnhem 2024 Huisvestingswet 2014 Regionale goedkope/corporatiewoonruimte. Regionale goedkope/corporatiewoonruimte. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0202",
+      "municipalityName": "Arnhem",
+      "authority": "Arnhem",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR728286",
+      "official": true,
+      "provenance": [
+        "batch-002:arnhem-vacancy"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Leegstandverordening Arnhem 2025 Leegstandwet Alle woningen; corporaties uitgezonderd; zes maanden. Alle woningen; corporaties uitgezonderd; zes maanden. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0202",
+      "municipalityName": "Arnhem",
+      "authority": "Arnhem",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR736697",
+      "official": true,
+      "provenance": [
+        "batch-002:arnhem-landlord"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Verhuurverordening Arnhem 2025 Wet goed verhuurderschap Alle verblijfsruimten arbeidsmigranten. Alle verblijfsruimten arbeidsmigranten. digital-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0202",
+      "municipalityName": "Arnhem",
+      "authority": "Arnhem",
+      "sourceClass": "application",
+      "domain": "www.arnhem.nl",
+      "url": "https://www.arnhem.nl/wp-content/uploads/2025/01/Aanvraagformulier-verhuurvergunning-opkoopbescherming.pdf",
+      "official": true,
+      "provenance": [
+        "batch-002:arnhem-opkoop"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Opkoopbescherming Arnhem Huisvestingswet 2014 Goedkope/middeldure koopwoningen; waarde controleren; vier jaar. Goedkope/middeldure koopwoningen; waarde controleren; vier jaar. downloadable-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0106",
+      "municipalityName": "Assen",
+      "authority": "Assen",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR750864",
+      "official": true,
+      "provenance": [
+        "batch-002:assen-splitting"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Woningsplitsing en woningdelen Assen 2026 Omgevingswet Minimaal 40 m²; buiten kom max 6; contour bijlage 1. Minimaal 40 m²; buiten kom max 6; contour bijlage 1. omgevingsloket"
+      ]
+    },
+    {
+      "municipalityCode": "GM0106",
+      "municipalityName": "Assen",
+      "authority": "Assen",
+      "sourceClass": "municipal-site",
+      "domain": "www.assen.nl",
+      "url": "https://www.assen.nl/woning-splitsen-in-aparte-zelfstandige-woningen",
+      "official": true,
+      "provenance": [
+        "batch-002:assen-splitting"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Woningsplitsing en woningdelen Assen 2026 Omgevingswet Minimaal 40 m²; buiten kom max 6; contour bijlage 1. Minimaal 40 m²; buiten kom max 6; contour bijlage 1. omgevingsloket"
+      ]
+    },
+    {
+      "municipalityCode": "GM0106",
+      "municipalityName": "Assen",
+      "authority": "Assen",
+      "sourceClass": "application",
+      "domain": "omgevingswet.overheid.nl",
+      "url": "https://omgevingswet.overheid.nl/checken",
+      "official": true,
+      "provenance": [
+        "batch-002:assen-splitting"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Woningsplitsing en woningdelen Assen 2026 Omgevingswet Minimaal 40 m²; buiten kom max 6; contour bijlage 1. Minimaal 40 m²; buiten kom max 6; contour bijlage 1. omgevingsloket"
+      ]
+    },
+    {
+      "municipalityCode": "GM0743",
+      "municipalityName": "Asten",
+      "authority": "Asten",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR740975",
+      "official": true,
+      "provenance": [
+        "batch-002:asten-labour"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvesting arbeidsmigranten Asten Omgevingswet Omgevingsvergunning; exploitatievergunning bij >4 personen. Omgevingsvergunning; exploitatievergunning bij >4 personen. downloadable-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0743",
+      "municipalityName": "Asten",
+      "authority": "Asten",
+      "sourceClass": "municipal-site",
+      "domain": "www.asten.nl",
+      "url": "https://www.asten.nl/wonen-en-verhuizen/vergunning-huisvesting-arbeidsmigranten",
+      "official": true,
+      "provenance": [
+        "batch-002:asten-labour"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvesting arbeidsmigranten Asten Omgevingswet Omgevingsvergunning; exploitatievergunning bij >4 personen. Omgevingsvergunning; exploitatievergunning bij >4 personen. downloadable-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0743",
+      "municipalityName": "Asten",
+      "authority": "Asten",
+      "sourceClass": "application",
+      "domain": "www.asten.nl",
+      "url": "https://www.asten.nl/fileadmin/Asten/PDF-formulieren_producten/Wonen/Vergunning_huisvesten_arbeidsmigranten/Aanvraagformulier_exploitatievergunning_huisvesting_arbeidsmigranten.pdf",
+      "official": true,
+      "provenance": [
+        "batch-002:asten-labour"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvesting arbeidsmigranten Asten Omgevingswet Omgevingsvergunning; exploitatievergunning bij >4 personen. Omgevingsvergunning; exploitatievergunning bij >4 personen. downloadable-form"
+      ]
+    },
+    {
+      "municipalityCode": "GM0308",
+      "municipalityName": "Baarn",
+      "authority": "Baarn",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR746230",
+      "official": true,
+      "provenance": [
+        "batch-003:baarn-housing-2025"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening regio Amersfoort – gemeente Baarn Huisvestingswet 2014 Corporatiewoonruimte en woonwagenstandplaatsen; particuliere verhuurparagraaf niet overgenomen. Corporatiewoonruimte en woonwagenstandplaatsen; particuliere verhuurparagraaf niet overgenomen."
+      ]
+    },
+    {
+      "municipalityCode": "GM0308",
+      "municipalityName": "Baarn",
+      "authority": "Baarn",
+      "sourceClass": "municipal-site",
+      "domain": "www.baarn.nl",
+      "url": "https://www.baarn.nl/wonen-en-verhuizen",
+      "official": true,
+      "provenance": [
+        "batch-003:baarn-housing-2025"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening regio Amersfoort – gemeente Baarn Huisvestingswet 2014 Corporatiewoonruimte en woonwagenstandplaatsen; particuliere verhuurparagraaf niet overgenomen. Corporatiewoonruimte en woonwagenstandplaatsen; particuliere verhuurparagraaf niet overgenomen."
+      ]
+    },
+    {
+      "municipalityCode": "GM0489",
+      "municipalityName": "Barendrecht",
+      "authority": "Barendrecht",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR740024",
+      "official": true,
+      "provenance": [
+        "batch-003:barendrecht-housing-2025"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Verordening Woonruimtebemiddeling regio Rotterdam 2025 Huisvestingswet 2014 Barendrecht is regiogemeente; corporatieaanbod via Woonnet Rijnmond. Barendrecht is regiogemeente; corporatieaanbod via Woonnet Rijnmond. official-entry-point"
+      ]
+    },
+    {
+      "municipalityCode": "GM0489",
+      "municipalityName": "Barendrecht",
+      "authority": "Barendrecht",
+      "sourceClass": "municipal-site",
+      "domain": "www.barendrecht.nl",
+      "url": "https://www.barendrecht.nl/direct-regelen/wonen-leefomgeving-verbouwen/wonen-verhuizen/woning-zoeken-sociale-huur/",
+      "official": true,
+      "provenance": [
+        "batch-003:barendrecht-housing-2025"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Verordening Woonruimtebemiddeling regio Rotterdam 2025 Huisvestingswet 2014 Barendrecht is regiogemeente; corporatieaanbod via Woonnet Rijnmond. Barendrecht is regiogemeente; corporatieaanbod via Woonnet Rijnmond. official-entry-point"
+      ]
+    },
+    {
+      "municipalityCode": "GM0489",
+      "municipalityName": "Barendrecht",
+      "authority": "Barendrecht",
+      "sourceClass": "application",
+      "domain": "www.woonnetrijnmond.nl",
+      "url": "https://www.woonnetrijnmond.nl",
+      "official": true,
+      "provenance": [
+        "batch-003:barendrecht-housing-2025"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Verordening Woonruimtebemiddeling regio Rotterdam 2025 Huisvestingswet 2014 Barendrecht is regiogemeente; corporatieaanbod via Woonnet Rijnmond. Barendrecht is regiogemeente; corporatieaanbod via Woonnet Rijnmond. official-entry-point"
+      ]
+    },
+    {
+      "municipalityCode": "GM0203",
+      "municipalityName": "Barneveld",
+      "authority": "Barneveld",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR738588",
+      "official": true,
+      "provenance": [
+        "batch-003:barneveld-housing-2025",
+        "batch-003:barneveld-room-rental",
+        "batch-003:barneveld-splitting"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening Barneveld 2025-2029 Huisvestingswet 2014 Corporatiewoonruimte tot huurtoeslaggrens; aanbod via Huiswaarts. Corporatiewoonruimte tot huurtoeslaggrens; aanbod via Huiswaarts. official-entry-point",
+        "Kamerverhuur Barneveld Omgevingswet Omgevingsvergunning; minimaal 13 m² GBO, arbeidsmigranten 12 m². Omgevingsvergunning; minimaal 13 m² GBO, arbeidsmigranten 12 m². omgevingsloket",
+        "Woningsplitsing Barneveld Omgevingswet Wijziging omgevingsplan en omgevingsvergunning vereist. Wijziging omgevingsplan en omgevingsvergunning vereist. omgevingsloket"
+      ]
+    },
+    {
+      "municipalityCode": "GM0203",
+      "municipalityName": "Barneveld",
+      "authority": "Barneveld",
+      "sourceClass": "municipal-site",
+      "domain": "www.barneveld.nl",
+      "url": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/hulp-bij-wonen/huurwoning-inschrijving",
+      "official": true,
+      "provenance": [
+        "batch-003:barneveld-housing-2025"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening Barneveld 2025-2029 Huisvestingswet 2014 Corporatiewoonruimte tot huurtoeslaggrens; aanbod via Huiswaarts. Corporatiewoonruimte tot huurtoeslaggrens; aanbod via Huiswaarts. official-entry-point"
+      ]
+    },
+    {
+      "municipalityCode": "GM0203",
+      "municipalityName": "Barneveld",
+      "authority": "Barneveld",
+      "sourceClass": "application",
+      "domain": "www.huiswaarts.nu",
+      "url": "https://www.huiswaarts.nu",
+      "official": true,
+      "provenance": [
+        "batch-003:barneveld-housing-2025"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Huisvestingsverordening Barneveld 2025-2029 Huisvestingswet 2014 Corporatiewoonruimte tot huurtoeslaggrens; aanbod via Huiswaarts. Corporatiewoonruimte tot huurtoeslaggrens; aanbod via Huiswaarts. official-entry-point"
+      ]
+    },
+    {
+      "municipalityCode": "GM0203",
+      "municipalityName": "Barneveld",
+      "authority": "Barneveld",
+      "sourceClass": "municipal-site",
+      "domain": "www.barneveld.nl",
+      "url": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/het-gebruik-van-een-woning-veranderen",
+      "official": true,
+      "provenance": [
+        "batch-003:barneveld-room-rental",
+        "batch-003:barneveld-splitting"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Kamerverhuur Barneveld Omgevingswet Omgevingsvergunning; minimaal 13 m² GBO, arbeidsmigranten 12 m². Omgevingsvergunning; minimaal 13 m² GBO, arbeidsmigranten 12 m². omgevingsloket",
+        "Woningsplitsing Barneveld Omgevingswet Wijziging omgevingsplan en omgevingsvergunning vereist. Wijziging omgevingsplan en omgevingsvergunning vereist. omgevingsloket"
+      ]
+    },
+    {
+      "municipalityCode": "GM0203",
+      "municipalityName": "Barneveld",
+      "authority": "Barneveld",
+      "sourceClass": "application",
+      "domain": "omgevingswet.overheid.nl",
+      "url": "https://omgevingswet.overheid.nl/checken",
+      "official": true,
+      "provenance": [
+        "batch-003:barneveld-room-rental",
+        "batch-003:barneveld-splitting"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Kamerverhuur Barneveld Omgevingswet Omgevingsvergunning; minimaal 13 m² GBO, arbeidsmigranten 12 m². Omgevingsvergunning; minimaal 13 m² GBO, arbeidsmigranten 12 m². omgevingsloket",
+        "Woningsplitsing Barneveld Omgevingswet Wijziging omgevingsplan en omgevingsvergunning vereist. Wijziging omgevingsplan en omgevingsvergunning vereist. omgevingsloket"
+      ]
+    },
+    {
+      "municipalityCode": "GM0203",
+      "municipalityName": "Barneveld",
+      "authority": "Barneveld",
+      "sourceClass": "regulation",
+      "domain": "wetten.overheid.nl",
+      "url": "https://wetten.overheid.nl/BWBR0003403",
+      "official": true,
+      "provenance": [
+        "batch-003:barneveld-vacancy-rental"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Tijdelijke verhuur leegstaande woonruimte Leegstandwet Vergunning voor tijdelijke verhuur van geschikt leegstaand huis of kantoor. Vergunning voor tijdelijke verhuur van geschikt leegstaand huis of kantoor. official-entry-point"
+      ]
+    },
+    {
+      "municipalityCode": "GM0203",
+      "municipalityName": "Barneveld",
+      "authority": "Barneveld",
+      "sourceClass": "municipal-site",
+      "domain": "www.barneveld.nl",
+      "url": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/leegstaande-woonruimte-tijdelijk-verhuren",
+      "official": true,
+      "provenance": [
+        "batch-003:barneveld-vacancy-rental"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Tijdelijke verhuur leegstaande woonruimte Leegstandwet Vergunning voor tijdelijke verhuur van geschikt leegstaand huis of kantoor. Vergunning voor tijdelijke verhuur van geschikt leegstaand huis of kantoor. official-entry-point"
+      ]
+    },
+    {
+      "municipalityCode": "GM0888",
+      "municipalityName": "Beek (L.)",
+      "authority": "Beek (L.)",
+      "sourceClass": "regulation",
+      "domain": "lokaleregelgeving.overheid.nl",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR731804",
+      "official": true,
+      "provenance": [
+        "batch-003:beek-labour-rental-2025"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Verhuurverordening verblijfsruimte arbeidsmigranten Westelijke Mijnstreek 2025 Wet goed verhuurderschap Verblijfsruimte voor arbeidsmigranten in gemeente Beek. Verblijfsruimte voor arbeidsmigranten in gemeente Beek."
+      ]
+    },
+    {
+      "municipalityCode": "GM0888",
+      "municipalityName": "Beek (L.)",
+      "authority": "Beek (L.)",
+      "sourceClass": "municipal-site",
+      "domain": "www.gemeentebeek.nl",
+      "url": "https://www.gemeentebeek.nl",
+      "official": true,
+      "provenance": [
+        "batch-003:beek-labour-rental-2025"
+      ],
+      "lastVerified": "2026-08-09",
+      "discoveryPriority": 10,
+      "descriptors": [
+        "Verhuurverordening verblijfsruimte arbeidsmigranten Westelijke Mijnstreek 2025 Wet goed verhuurderschap Verblijfsruimte voor arbeidsmigranten in gemeente Beek. Verblijfsruimte voor arbeidsmigranten in gemeente Beek."
+      ]
+    }
+  ]
+}

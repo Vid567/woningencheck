@@ -20,7 +20,10 @@
       "pattern": "^GM[0-9]{4}$"
     },
     "regulationId": {
-      "type": ["string", "null"]
+      "type": [
+        "string",
+        "null"
+      ]
     },
     "category": {
       "enum": [
@@ -62,10 +65,49 @@
       "type": "string",
       "format": "date"
     },
-    "resolution": {"type": "string"},
-    "resolvedAt": {"type": "string", "format": "date"},
-    "decisiveSources": {"type": "array", "items": {"type": "string", "pattern": "^https://"}, "uniqueItems": true},
-    "evidence": {"type": "string"}
+    "resolution": {
+      "type": "string"
+    },
+    "resolvedAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "decisiveSources": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^https://"
+      },
+      "uniqueItems": true
+    },
+    "evidence": {
+      "type": "string"
+    },
+    "blockerClass": {
+      "enum": [
+        "release-batch-blocker",
+        "municipality-specific-blocker",
+        "non-blocking-review",
+        "non-blocking-resolved"
+      ]
+    },
+    "resolutionType": {
+      "type": "string"
+    },
+    "publicImpact": {
+      "type": "string"
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^https://"
+      },
+      "uniqueItems": true
+    },
+    "exactQuestion": {
+      "type": "string"
+    }
   },
   "additionalProperties": false
 }

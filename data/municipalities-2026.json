@@ -1,0 +1,988 @@
+{
+  "schemaVersion": "1.0.0",
+  "referenceDate": "2026-01-01",
+  "sourceTitle": "CBS Gemeentelijke indeling op 1 januari 2026",
+  "sourceUrl": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026",
+  "municipalityCount": 342,
+  "municipalities": [
+    {
+      "code": "GM1680",
+      "numericCode": "1680",
+      "name": "Aa en Hunze",
+      "provinceCode": "PV22",
+      "provinceNumericCode": "22",
+      "provinceName": "Drenthe",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0358",
+      "numericCode": "0358",
+      "name": "Aalsmeer",
+      "provinceCode": "PV27",
+      "provinceNumericCode": "27",
+      "provinceName": "Noord-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0197",
+      "numericCode": "0197",
+      "name": "Aalten",
+      "provinceCode": "PV25",
+      "provinceNumericCode": "25",
+      "provinceName": "Gelderland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0059",
+      "numericCode": "0059",
+      "name": "Achtkarspelen",
+      "provinceCode": "PV21",
+      "provinceNumericCode": "21",
+      "provinceName": "Fryslân",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0482",
+      "numericCode": "0482",
+      "name": "Alblasserdam",
+      "provinceCode": "PV28",
+      "provinceNumericCode": "28",
+      "provinceName": "Zuid-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0613",
+      "numericCode": "0613",
+      "name": "Albrandswaard",
+      "provinceCode": "PV28",
+      "provinceNumericCode": "28",
+      "provinceName": "Zuid-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0361",
+      "numericCode": "0361",
+      "name": "Alkmaar",
+      "provinceCode": "PV27",
+      "provinceNumericCode": "27",
+      "provinceName": "Noord-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0141",
+      "numericCode": "0141",
+      "name": "Almelo",
+      "provinceCode": "PV23",
+      "provinceNumericCode": "23",
+      "provinceName": "Overijssel",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0034",
+      "numericCode": "0034",
+      "name": "Almere",
+      "provinceCode": "PV24",
+      "provinceNumericCode": "24",
+      "provinceName": "Flevoland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0484",
+      "numericCode": "0484",
+      "name": "Alphen aan den Rijn",
+      "provinceCode": "PV28",
+      "provinceNumericCode": "28",
+      "provinceName": "Zuid-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM1723",
+      "numericCode": "1723",
+      "name": "Alphen-Chaam",
+      "provinceCode": "PV30",
+      "provinceNumericCode": "30",
+      "provinceName": "Noord-Brabant",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM1959",
+      "numericCode": "1959",
+      "name": "Altena",
+      "provinceCode": "PV30",
+      "provinceNumericCode": "30",
+      "provinceName": "Noord-Brabant",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0060",
+      "numericCode": "0060",
+      "name": "Ameland",
+      "provinceCode": "PV21",
+      "provinceNumericCode": "21",
+      "provinceName": "Fryslân",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0307",
+      "numericCode": "0307",
+      "name": "Amersfoort",
+      "provinceCode": "PV26",
+      "provinceNumericCode": "26",
+      "provinceName": "Utrecht",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0362",
+      "numericCode": "0362",
+      "name": "Amstelveen",
+      "provinceCode": "PV27",
+      "provinceNumericCode": "27",
+      "provinceName": "Noord-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0363",
+      "numericCode": "0363",
+      "name": "Amsterdam",
+      "provinceCode": "PV27",
+      "provinceNumericCode": "27",
+      "provinceName": "Noord-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0200",
+      "numericCode": "0200",
+      "name": "Apeldoorn",
+      "provinceCode": "PV25",
+      "provinceNumericCode": "25",
+      "provinceName": "Gelderland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0202",
+      "numericCode": "0202",
+      "name": "Arnhem",
+      "provinceCode": "PV25",
+      "provinceNumericCode": "25",
+      "provinceName": "Gelderland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0106",
+      "numericCode": "0106",
+      "name": "Assen",
+      "provinceCode": "PV22",
+      "provinceNumericCode": "22",
+      "provinceName": "Drenthe",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0743",
+      "numericCode": "0743",
+      "name": "Asten",
+      "provinceCode": "PV30",
+      "provinceNumericCode": "30",
+      "provinceName": "Noord-Brabant",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0744",
+      "numericCode": "0744",
+      "name": "Baarle-Nassau",
+      "provinceCode": "PV30",
+      "provinceNumericCode": "30",
+      "provinceName": "Noord-Brabant",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0308",
+      "numericCode": "0308",
+      "name": "Baarn",
+      "provinceCode": "PV26",
+      "provinceNumericCode": "26",
+      "provinceName": "Utrecht",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0489",
+      "numericCode": "0489",
+      "name": "Barendrecht",
+      "provinceCode": "PV28",
+      "provinceNumericCode": "28",
+      "provinceName": "Zuid-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0203",
+      "numericCode": "0203",
+      "name": "Barneveld",
+      "provinceCode": "PV25",
+      "provinceNumericCode": "25",
+      "provinceName": "Gelderland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0888",
+      "numericCode": "0888",
+      "name": "Beek (L.)",
+      "provinceCode": "PV31",
+      "provinceNumericCode": "31",
+      "provinceName": "Limburg",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM1954",
+      "numericCode": "1954",
+      "name": "Beekdaelen",
+      "provinceCode": "PV31",
+      "provinceNumericCode": "31",
+      "provinceName": "Limburg",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0889",
+      "numericCode": "0889",
+      "name": "Beesel",
+      "provinceCode": "PV31",
+      "provinceNumericCode": "31",
+      "provinceName": "Limburg",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM1945",
+      "numericCode": "1945",
+      "name": "Berg en Dal",
+      "provinceCode": "PV25",
+      "provinceNumericCode": "25",
+      "provinceName": "Gelderland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM1724",
+      "numericCode": "1724",
+      "name": "Bergeijk",
+      "provinceCode": "PV30",
+      "provinceNumericCode": "30",
+      "provinceName": "Noord-Brabant",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0893",
+      "numericCode": "0893",
+      "name": "Bergen (L.)",
+      "provinceCode": "PV31",
+      "provinceNumericCode": "31",
+      "provinceName": "Limburg",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0373",
+      "numericCode": "0373",
+      "name": "Bergen (NH.)",
+      "provinceCode": "PV27",
+      "provinceNumericCode": "27",
+      "provinceName": "Noord-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0748",
+      "numericCode": "0748",
+      "name": "Bergen op Zoom",
+      "provinceCode": "PV30",
+      "provinceNumericCode": "30",
+      "provinceName": "Noord-Brabant",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM1859",
+      "numericCode": "1859",
+      "name": "Berkelland",
+      "provinceCode": "PV25",
+      "provinceNumericCode": "25",
+      "provinceName": "Gelderland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM1721",
+      "numericCode": "1721",
+      "name": "Bernheze",
+      "provinceCode": "PV30",
+      "provinceNumericCode": "30",
+      "provinceName": "Noord-Brabant",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0753",
+      "numericCode": "0753",
+      "name": "Best",
+      "provinceCode": "PV30",
+      "provinceNumericCode": "30",
+      "provinceName": "Noord-Brabant",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0209",
+      "numericCode": "0209",
+      "name": "Beuningen",
+      "provinceCode": "PV25",
+      "provinceNumericCode": "25",
+      "provinceName": "Gelderland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0375",
+      "numericCode": "0375",
+      "name": "Beverwijk",
+      "provinceCode": "PV27",
+      "provinceNumericCode": "27",
+      "provinceName": "Noord-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0310",
+      "numericCode": "0310",
+      "name": "De Bilt",
+      "provinceCode": "PV26",
+      "provinceNumericCode": "26",
+      "provinceName": "Utrecht",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM1728",
+      "numericCode": "1728",
+      "name": "Bladel",
+      "provinceCode": "PV30",
+      "provinceNumericCode": "30",
+      "provinceName": "Noord-Brabant",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0376",
+      "numericCode": "0376",
+      "name": "Blaricum",
+      "provinceCode": "PV27",
+      "provinceNumericCode": "27",
+      "provinceName": "Noord-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0377",
+      "numericCode": "0377",
+      "name": "Bloemendaal",
+      "provinceCode": "PV27",
+      "provinceNumericCode": "27",
+      "provinceName": "Noord-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM1901",
+      "numericCode": "1901",
+      "name": "Bodegraven-Reeuwijk",
+      "provinceCode": "PV28",
+      "provinceNumericCode": "28",
+      "provinceName": "Zuid-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0755",
+      "numericCode": "0755",
+      "name": "Boekel",
+      "provinceCode": "PV30",
+      "provinceNumericCode": "30",
+      "provinceName": "Noord-Brabant",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM1681",
+      "numericCode": "1681",
+      "name": "Borger-Odoorn",
+      "provinceCode": "PV22",
+      "provinceNumericCode": "22",
+      "provinceName": "Drenthe",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0147",
+      "numericCode": "0147",
+      "name": "Borne",
+      "provinceCode": "PV23",
+      "provinceNumericCode": "23",
+      "provinceName": "Overijssel",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0654",
+      "numericCode": "0654",
+      "name": "Borsele",
+      "provinceCode": "PV29",
+      "provinceNumericCode": "29",
+      "provinceName": "Zeeland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0757",
+      "numericCode": "0757",
+      "name": "Boxtel",
+      "provinceCode": "PV30",
+      "provinceNumericCode": "30",
+      "provinceName": "Noord-Brabant",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0758",
+      "numericCode": "0758",
+      "name": "Breda",
+      "provinceCode": "PV30",
+      "provinceNumericCode": "30",
+      "provinceName": "Noord-Brabant",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM1876",
+      "numericCode": "1876",
+      "name": "Bronckhorst",
+      "provinceCode": "PV25",
+      "provinceNumericCode": "25",
+      "provinceName": "Gelderland",
+      "referenceYear": 2026,…24729 tokens truncated…nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM1961",
+      "numericCode": "1961",
+      "name": "Vijfheerenlanden",
+      "provinceCode": "PV26",
+      "provinceNumericCode": "26",
+      "provinceName": "Utrecht",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0622",
+      "numericCode": "0622",
+      "name": "Vlaardingen",
+      "provinceCode": "PV28",
+      "provinceNumericCode": "28",
+      "provinceName": "Zuid-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0096",
+      "numericCode": "0096",
+      "name": "Vlieland",
+      "provinceCode": "PV21",
+      "provinceNumericCode": "21",
+      "provinceName": "Fryslân",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0718",
+      "numericCode": "0718",
+      "name": "Vlissingen",
+      "provinceCode": "PV29",
+      "provinceNumericCode": "29",
+      "provinceName": "Zeeland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0986",
+      "numericCode": "0986",
+      "name": "Voerendaal",
+      "provinceCode": "PV31",
+      "provinceNumericCode": "31",
+      "provinceName": "Limburg",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM1992",
+      "numericCode": "1992",
+      "name": "Voorne aan Zee",
+      "provinceCode": "PV28",
+      "provinceNumericCode": "28",
+      "provinceName": "Zuid-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0626",
+      "numericCode": "0626",
+      "name": "Voorschoten",
+      "provinceCode": "PV28",
+      "provinceNumericCode": "28",
+      "provinceName": "Zuid-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0285",
+      "numericCode": "0285",
+      "name": "Voorst",
+      "provinceCode": "PV25",
+      "provinceNumericCode": "25",
+      "provinceName": "Gelderland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0865",
+      "numericCode": "0865",
+      "name": "Vught",
+      "provinceCode": "PV30",
+      "provinceNumericCode": "30",
+      "provinceName": "Noord-Brabant",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM1949",
+      "numericCode": "1949",
+      "name": "Waadhoeke",
+      "provinceCode": "PV21",
+      "provinceNumericCode": "21",
+      "provinceName": "Fryslân",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0866",
+      "numericCode": "0866",
+      "name": "Waalre",
+      "provinceCode": "PV30",
+      "provinceNumericCode": "30",
+      "provinceName": "Noord-Brabant",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0867",
+      "numericCode": "0867",
+      "name": "Waalwijk",
+      "provinceCode": "PV30",
+      "provinceNumericCode": "30",
+      "provinceName": "Noord-Brabant",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0627",
+      "numericCode": "0627",
+      "name": "Waddinxveen",
+      "provinceCode": "PV28",
+      "provinceNumericCode": "28",
+      "provinceName": "Zuid-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0289",
+      "numericCode": "0289",
+      "name": "Wageningen",
+      "provinceCode": "PV25",
+      "provinceNumericCode": "25",
+      "provinceName": "Gelderland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0629",
+      "numericCode": "0629",
+      "name": "Wassenaar",
+      "provinceCode": "PV28",
+      "provinceNumericCode": "28",
+      "provinceName": "Zuid-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0852",
+      "numericCode": "0852",
+      "name": "Waterland",
+      "provinceCode": "PV27",
+      "provinceNumericCode": "27",
+      "provinceName": "Noord-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0988",
+      "numericCode": "0988",
+      "name": "Weert",
+      "provinceCode": "PV31",
+      "provinceNumericCode": "31",
+      "provinceName": "Limburg",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM1960",
+      "numericCode": "1960",
+      "name": "West Betuwe",
+      "provinceCode": "PV25",
+      "provinceNumericCode": "25",
+      "provinceName": "Gelderland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0668",
+      "numericCode": "0668",
+      "name": "West Maas en Waal",
+      "provinceCode": "PV25",
+      "provinceNumericCode": "25",
+      "provinceName": "Gelderland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM1969",
+      "numericCode": "1969",
+      "name": "Westerkwartier",
+      "provinceCode": "PV20",
+      "provinceNumericCode": "20",
+      "provinceName": "Groningen",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM1701",
+      "numericCode": "1701",
+      "name": "Westerveld",
+      "provinceCode": "PV22",
+      "provinceNumericCode": "22",
+      "provinceName": "Drenthe",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0293",
+      "numericCode": "0293",
+      "name": "Westervoort",
+      "provinceCode": "PV25",
+      "provinceNumericCode": "25",
+      "provinceName": "Gelderland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM1950",
+      "numericCode": "1950",
+      "name": "Westerwolde",
+      "provinceCode": "PV20",
+      "provinceNumericCode": "20",
+      "provinceName": "Groningen",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM1783",
+      "numericCode": "1783",
+      "name": "Westland",
+      "provinceCode": "PV28",
+      "provinceNumericCode": "28",
+      "provinceName": "Zuid-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0098",
+      "numericCode": "0098",
+      "name": "Weststellingwerf",
+      "provinceCode": "PV21",
+      "provinceNumericCode": "21",
+      "provinceName": "Fryslân",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0189",
+      "numericCode": "0189",
+      "name": "Wierden",
+      "provinceCode": "PV23",
+      "provinceNumericCode": "23",
+      "provinceName": "Overijssel",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0296",
+      "numericCode": "0296",
+      "name": "Wijchen",
+      "provinceCode": "PV25",
+      "provinceNumericCode": "25",
+      "provinceName": "Gelderland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM1696",
+      "numericCode": "1696",
+      "name": "Wijdemeren",
+      "provinceCode": "PV27",
+      "provinceNumericCode": "27",
+      "provinceName": "Noord-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0352",
+      "numericCode": "0352",
+      "name": "Wijk bij Duurstede",
+      "provinceCode": "PV26",
+      "provinceNumericCode": "26",
+      "provinceName": "Utrecht",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0294",
+      "numericCode": "0294",
+      "name": "Winterswijk",
+      "provinceCode": "PV25",
+      "provinceNumericCode": "25",
+      "provinceName": "Gelderland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0873",
+      "numericCode": "0873",
+      "name": "Woensdrecht",
+      "provinceCode": "PV30",
+      "provinceNumericCode": "30",
+      "provinceName": "Noord-Brabant",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0632",
+      "numericCode": "0632",
+      "name": "Woerden",
+      "provinceCode": "PV26",
+      "provinceNumericCode": "26",
+      "provinceName": "Utrecht",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM1690",
+      "numericCode": "1690",
+      "name": "De Wolden",
+      "provinceCode": "PV22",
+      "provinceNumericCode": "22",
+      "provinceName": "Drenthe",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0880",
+      "numericCode": "0880",
+      "name": "Wormerland",
+      "provinceCode": "PV27",
+      "provinceNumericCode": "27",
+      "provinceName": "Noord-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0351",
+      "numericCode": "0351",
+      "name": "Woudenberg",
+      "provinceCode": "PV26",
+      "provinceNumericCode": "26",
+      "provinceName": "Utrecht",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0479",
+      "numericCode": "0479",
+      "name": "Zaanstad",
+      "provinceCode": "PV27",
+      "provinceNumericCode": "27",
+      "provinceName": "Noord-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0297",
+      "numericCode": "0297",
+      "name": "Zaltbommel",
+      "provinceCode": "PV25",
+      "provinceNumericCode": "25",
+      "provinceName": "Gelderland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0473",
+      "numericCode": "0473",
+      "name": "Zandvoort",
+      "provinceCode": "PV27",
+      "provinceNumericCode": "27",
+      "provinceName": "Noord-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0050",
+      "numericCode": "0050",
+      "name": "Zeewolde",
+      "provinceCode": "PV24",
+      "provinceNumericCode": "24",
+      "provinceName": "Flevoland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0355",
+      "numericCode": "0355",
+      "name": "Zeist",
+      "provinceCode": "PV26",
+      "provinceNumericCode": "26",
+      "provinceName": "Utrecht",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0299",
+      "numericCode": "0299",
+      "name": "Zevenaar",
+      "provinceCode": "PV25",
+      "provinceNumericCode": "25",
+      "provinceName": "Gelderland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0637",
+      "numericCode": "0637",
+      "name": "Zoetermeer",
+      "provinceCode": "PV28",
+      "provinceNumericCode": "28",
+      "provinceName": "Zuid-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0638",
+      "numericCode": "0638",
+      "name": "Zoeterwoude",
+      "provinceCode": "PV28",
+      "provinceNumericCode": "28",
+      "provinceName": "Zuid-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM1892",
+      "numericCode": "1892",
+      "name": "Zuidplas",
+      "provinceCode": "PV28",
+      "provinceNumericCode": "28",
+      "provinceName": "Zuid-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0879",
+      "numericCode": "0879",
+      "name": "Zundert",
+      "provinceCode": "PV30",
+      "provinceNumericCode": "30",
+      "provinceName": "Noord-Brabant",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0301",
+      "numericCode": "0301",
+      "name": "Zutphen",
+      "provinceCode": "PV25",
+      "provinceNumericCode": "25",
+      "provinceName": "Gelderland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM1896",
+      "numericCode": "1896",
+      "name": "Zwartewaterland",
+      "provinceCode": "PV23",
+      "provinceNumericCode": "23",
+      "provinceName": "Overijssel",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0642",
+      "numericCode": "0642",
+      "name": "Zwijndrecht",
+      "provinceCode": "PV28",
+      "provinceNumericCode": "28",
+      "provinceName": "Zuid-Holland",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    },
+    {
+      "code": "GM0193",
+      "numericCode": "0193",
+      "name": "Zwolle",
+      "provinceCode": "PV23",
+      "provinceNumericCode": "23",
+      "provinceName": "Overijssel",
+      "referenceYear": 2026,
+      "source": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026"
+    }
+  ]
+}

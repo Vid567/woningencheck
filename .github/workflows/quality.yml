@@ -24,6 +24,7 @@ jobs:
       - run: node scripts/test-batch-002.mjs
       - run: node scripts/test-batch-002-closure.mjs
       - run: node scripts/test-batch-003.mjs
+      - run: node scripts/test-national-discovery.mjs
       - run: node scripts/verify-dynamic-parameters.mjs
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}

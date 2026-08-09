@@ -10,7 +10,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "f5c85595967356114cd1518161120bf974427573a30d09ae94c4debc300184ad"
+      "contentFingerprint": "d789eb9cdca50fafa662f39b825f5ef5649f56e336f3721f51d3559f603c09a9"
     },
     {
       "id": "den-haag-opkoop-2026-required-2-2",
@@ -20,7 +20,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "c3f680bbdab5471d1c6f18e9bab8b4672af08c3e516e9b8e5ea45c2865a726ad"
+      "contentFingerprint": "b0b41d18f553bc403be45f0669b8d2f8da4894be1e4948e897720c07b8d26d31"
     },
     {
       "id": "emmen-opkoop-2023-regulation",
@@ -40,7 +40,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "d1aa392306a83917ee8aad6c696efb916b51ba2229ee66cdc17f328c8b8d758e"
+      "contentFingerprint": "a72eccc3ed904a1227195bba6ad540460e0357525e3bbc27e927509869496a82"
     },
     {
       "id": "rotterdam-kamerverhuur-2026-regulation",
@@ -110,7 +110,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "bdb64d9eca91c772a2e2e88edf21126562994429e51609d2a2e3106418014bc2"
+      "contentFingerprint": "5598e40ea0d7b926e49453c1808c8ef404c59c39e34668f8bc4d884ac2c6eec7"
     },
     {
       "id": "leiden-opkoop-2024-required-2-2",
@@ -120,7 +120,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "f603f3adf1c1a5340af0c99f7b9433adad6f470235677378da83b1f4227d34b0"
+      "contentFingerprint": "ae7239d215b70d40fe3f7cd4aa43dc3426cffcd44455b6457ef0f677d09460d3"
     },
     {
       "id": "leiden-omzetting-2024-required-5-1",
@@ -130,7 +130,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "8c874b5f254e96f0b8be4056aef3896c7dbaa4dd2bb1cfce5748d1a04b7939aa"
+      "contentFingerprint": "7925d73effffc0a9fb0e931809a2d593ff902d96ab9393adedcfc35fc98e7d5a"
     },
     {
       "id": "leiden-omzetting-2024-required-5-2",
@@ -140,7 +140,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "fe30d1d26eb1ab150597c49da3e2f2b0dd750265c53d974e8694905c4e0615cb"
+      "contentFingerprint": "9aba1cb8de7f070b6d31531caab28853c79793b41a79df422d99a18bc33cb175"
     },
     {
       "id": "leiden-omzetting-2024-form-1",
@@ -150,7 +150,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "759852680820232b201e67c7c3d1bbf8b0468e1cc7c53c661729aaaefc179643"
+      "contentFingerprint": "f8eb00b0ab655284473fb44f4d6eea7028d14b85c8529d814fc04df7923def1b"
     },
     {
       "id": "rotterdam-opkoop-required-1-1",
@@ -170,7 +170,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "4e038a0d37a5e118326ae8add05ddf761680f24edd832d6fac350c599ac3bca7"
+      "contentFingerprint": "4345b94886c12dac31444fd272a709ae71cd7f78f07ae080be248075191dbedf"
     },
     {
       "id": "rotterdam-kamerverhuur-2026-required-1-1",
@@ -190,7 +190,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "4f54a6cb961669c0bc1748e82eccd7319f936bb08c3fdb9556077a7414caf8d8"
+      "contentFingerprint": "24361aa386fad7887c10415f6d6ca56cf67b6915f0a3863fa35bfb7f8ad23c0d"
     },
     {
       "id": "batch001-aalsmeer-hvv-2025-regulation",
@@ -233,7 +233,7 @@
       "contentFingerprint": "89730053bbda78bf0e48b12b91caa416d553cdd28bfa52c810b59fc4eb0511e8"
     },
     {
-      "id": "batch001-alblasserdam-hvv-2025-regulation",
+      "id": "batch001-alblasserdam-purchase-protection-2025-regulation",
       "url": "https://lokaleregelgeving.overheid.nl/CVDR741471",
       "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR741471",
       "httpStatus": 200,
@@ -300,7 +300,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "6e4348f871a1f6092029545619e2ec42b3b0e570a2a8c356ce484054a8d78242"
+      "contentFingerprint": "bc6656439d25c915c4e39b08a99ba4c85c5e4c46ce247c04a3747f30af797bef"
     },
     {
       "id": "parameter-aalsmeer-opkoop-woz-2026",
@@ -309,18 +309,18 @@
       "httpStatus": 200,
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
-      "lastKnownModified": "Sun, 09 Aug 2026 14:03:01 GMT",
-      "contentFingerprint": "ec2024c512fc0d7970e52eaefd0fde7d8bc4ebb81d029302f6cf287ebbd6fc9c"
+      "lastKnownModified": "Sun, 09 Aug 2026 16:03:50 GMT",
+      "contentFingerprint": "3948ab4cafa04264d0538de13025ebb8ce2591eb8fb33474dca87e165076caf8"
     },
     {
-      "id": "batch001-aalten-good-landlord-2024-application",
+      "id": "batch001-aalten-good-landlord-2024-information",
       "url": "https://www.aalten.nl/verhuurvergunning",
       "finalUrl": "https://www.aalten.nl/verhuurvergunning",
       "httpStatus": 200,
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "6cbd5e07fcb2fb2fed06cf319578723707f27113da5c40a5c48a8130f985e6eb"
+      "contentFingerprint": "50aada1aa90640f6d42c14c8b6ba707bf94f71ddc8ed25a0ae5da5873aa42938"
     },
     {
       "id": "batch001-alkmaar-hvv-2024-information",
@@ -330,7 +330,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "4643b83f7bfe176c4441aef6a217a60939a28fa1ec0fa456436f14066774af09"
+      "contentFingerprint": "9f8a2388163a34c5fa0408b7609a7bd228e500293bdcced87a8385e4113e13c1"
     },
     {
       "id": "batch001-alkmaar-hvv-2024-application",
@@ -340,7 +340,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "5cc9abeb698dc90749694565b16e041385f492d8284e2e5dfe6973440fa6d887"
+      "contentFingerprint": "4043bb8d05ba1487140726aab18a2a52db5f1fb5b01a20d3a13a44abfc644650"
     },
     {
       "id": "parameter-almelo-opkoop-woz-2026",
@@ -364,7 +364,7 @@
       "error": "fetch failed"
     },
     {
-      "id": "batch001-almelo-vacancy-2020-application",
+      "id": "batch001-almelo-vacancy-2020-information",
       "url": "https://www.almelo.nl/wonen-bouwen-en-verbouwen/leegstandsverordening",
       "finalUrl": "https://www.almelo.nl/wonen-bouwen-en-verbouwen/leegstandsverordening",
       "httpStatus": 200,
@@ -391,7 +391,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "b453167638c82584942d5cd9e5508c0fb148be222abb0f9c97197008a243f805"
+      "contentFingerprint": "38e61f8e65f028e9a2376d18dd977d457768ea18bd53af368295e29a5e75ea37"
     },
     {
       "id": "parameter-holland-rijnland-rent-2025-reference",
@@ -410,7 +410,7 @@
       "httpStatus": 200,
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
-      "lastKnownModified": "Sun, 09 Aug 2026 13:26:07 GMT",
+      "lastKnownModified": "Sun, 09 Aug 2026 15:50:18 GMT",
       "contentFingerprint": "7d31e0e5fb421b3810128739626104d7a6f3d4277d576bf030ceff726835df82"
     },
     {
@@ -421,7 +421,97 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "e65c3e66fd6b25a4399aa2e44b59dd054610843443a279b10f429aeca95dd423"
+      "contentFingerprint": "78c0c08f652b94cc88d407634a50ad12aa8bfcba0e3f1a69e9cc88fd2d6621fd"
+    },
+    {
+      "id": "batch001-alblasserdam-stock-change-2025-application",
+      "url": "https://www.ozhz.nl/onttrekkingsvergunningaanvragen/",
+      "finalUrl": "https://www.ozhz.nl/onttrekkingsvergunningaanvragen/",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": "Sun, 09 Aug 2026 16:03:44 GMT",
+      "contentFingerprint": "0859f04d6ef2667590547580f5635bfda0eb77e894ad99486d6c7a4de2be3d74"
+    },
+    {
+      "id": "batch001-alblasserdam-building-split-2025-application",
+      "url": "https://www.ozhz.nl/een-splitsingsvergunning-aanvragen/",
+      "finalUrl": "https://www.ozhz.nl/een-splitsingsvergunning-aanvragen/",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": "Sun, 09 Aug 2026 14:30:24 GMT",
+      "contentFingerprint": "aaad13a76d9bb5f3967e25065904e5926ef068dc4cf08791b5beb3e33d9b8728"
+    },
+    {
+      "id": "batch001-alblasserdam-purchase-protection-2025-information",
+      "url": "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Opkoopbescherming",
+      "finalUrl": "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Opkoopbescherming",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "8989c2c470f17a54ab0964efecc39d06f02f5c07a3aa0991c569b63c78200b66"
+    },
+    {
+      "id": "batch001-almelo-vacancy-2020-application",
+      "url": "https://almelo.nl/bouwen-en-wonen/leegstandsverordening/formulier-leegstandsverordening",
+      "finalUrl": "https://almelo.nl/bouwen-en-wonen/leegstandsverordening/formulier-leegstandsverordening",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "782ec0bbf8f0dae98f70e8286618dba985554d678978ed22ee01a369b3d72b1c"
+    },
+    {
+      "id": "batch001-aalten-good-landlord-2024-application",
+      "url": "https://aalten-checker.aalten.nl/",
+      "finalUrl": "https://aalten-checker.aalten.nl/",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "317a81bfa4f992a4f4d0e29f9786f59f4e3e9dafcfe1b89b4139f807922a9aea"
+    },
+    {
+      "id": "batch001-alblasserdam-stock-change-2025-information",
+      "url": "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Onttrekkingsvergunning_woonruimte_kamerverhuur",
+      "finalUrl": "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Onttrekkingsvergunning_woonruimte_kamerverhuur",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "d4d685e577abafedfcc6e5ebf30c4e2cf8e9bd7e802f9662a74168388d476391"
+    },
+    {
+      "id": "batch001-alblasserdam-dwelling-formation-2025-information",
+      "url": "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Splitsingsvergunning",
+      "finalUrl": "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Splitsingsvergunning",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "a2e1b692e24e59ee91d49caa396b59a6e4e161d835825173716d81b9560f9f8a"
+    },
+    {
+      "id": "batch001-alblasserdam-purchase-protection-2025-application",
+      "url": "https://www.alblasserdam.nl/Mediatheek/Inwoners/bouwen_verbouwen_en_wonen/Formulier_vrijstelling_opkoopbescherming.org",
+      "finalUrl": "https://www.alblasserdam.nl/Mediatheek/Inwoners/bouwen_verbouwen_en_wonen/Formulier_vrijstelling_opkoopbescherming.org",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": "Fri, 17 Feb 2023 14:16:41 GMT",
+      "contentFingerprint": "b8daa1db088c93b0aeba673876bc8d2a8628dc0646d04dc1f72ebc7be997c0cb"
+    },
+    {
+      "id": "parameter-alblasserdam-opkoop-nhg-2026",
+      "url": "https://www.nhg.nl/nhg-actueel/nhg-grens-in-2026-vastgesteld-op-470000/",
+      "finalUrl": "https://www.nhg.nl/nhg-actueel/nhg-grens-in-2026-vastgesteld-op-470000/",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "0c728b7741b77e9ef7444975bb98e885458b4703912daf169364f0bd3837db46"
     }
   ]
 }

@@ -1,5 +1,10 @@
-name: Quality checks
-on: [push, pull_request, workflow_dispatch]
+﻿name: Quality checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 6 1 * *'
 permissions: {contents: read}
 jobs:
   validate:
@@ -16,11 +21,14 @@ jobs:
       - run: node scripts/test-geography.mjs
       - run: node scripts/test-batch-001.mjs
       - run: node scripts/test-batch-001-closure.mjs
+      - run: node scripts/verify-dynamic-parameters.mjs
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
       - run: pip install jsonschema openpyxl
       - run: python scripts/validate-schemas.py
       - run: python scripts/verify-workbook.py
       - name: Verify official sources
-        if: github.event_name == 'workflow_dispatch'
+        if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
         run: node scripts/verify-sources.mjs
+
+

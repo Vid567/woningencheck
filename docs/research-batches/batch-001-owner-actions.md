@@ -1,29 +1,19 @@
-# Batch 001 — eigenaarstaken
+﻿# Batch 001 — eigenaarstaken
 
-## 1. Alblasserdam — toepassing en aanvraagroute
+Alle drie eerder aan de eigenaar voorgelegde punten zijn op 9 augustus 2026 met officiële bronnen opgelost. Er is geen eigenaarshandeling meer nodig.
 
-- Status: menselijke juridische controle vereist.
-- Controleer welke onderdelen van de Huisvestingsverordening Gemeente Alblasserdam 2025 voor een gewoon woonadres gelden.
-- Bevestig op een actuele officiële gemeentepagina waar de gebruiker de bijbehorende vergunning aanvraagt.
-- Activeer pas daarna een publieke regel of aanvraagknop.
-- Bronnen: https://lokaleregelgeving.overheid.nl/CVDR741471 en https://raad.alblasserdam.nl/Documenten/Huisvestingsverordening-2025-DROP-getekend.pdf
+## Alblasserdam — automatisch opgelost
 
-## 2. Almelo — officiële leegstandsgrens
+De actuele verordening is per hoofdstuk gemodelleerd. Onttrekking/samenvoeging/omzetting, splitsing, woningvorming en opkoopbescherming zijn afzonderlijke bevindingen. Bevestigde OZHZ- en gemeentelijke routes zijn gekoppeld. Voor woningvorming is geen afzonderlijke officiële aanvraagroute bevestigd; daarom blijft bewust een niet-klikbare status staan. Bron: https://lokaleregelgeving.overheid.nl/CVDR741471.
 
-- Status: handmatige GIS-/bijlagecontrole vereist.
-- De officiële ArcGIS-laag voor opkoopbescherming is gevonden en machineleesbaar verwerkt.
-- Voor de leegstandsverordening ontbreekt nog een officiële machineleesbare grens van de binnenstad/bijlage 1.
-- Digitaliseer de juridische grens uitsluitend aan de hand van de officiële bijlage; gebruik geen postcodebenadering.
-- Bronnen: https://lokaleregelgeving.overheid.nl/CVDR638723 en https://www.almelo.nl/wonen-bouwen-en-verbouwen/leegstandsverordening
+## Almelo — automatisch opgelost
 
-## 3. Aalten — conflict tussen regeling en dienstenpagina
+Bijlage 1 van de leegstandsverordening bevat zelf de volledige juridische straat- en huisnummerselectie. Deze is exact machineleesbaar vastgelegd, inclusief toevoegingen 2a en 53a. GIS-digitalisering en postcodebenadering zijn niet nodig. Bron: https://lokaleregelgeving.overheid.nl/CVDR638723.
 
-- Status: inhoudelijke juridische beslissing vereist.
-- Artikel 2 van CVDR720987 formuleert de vergunningplicht breed voor verblijfsruimte; de gemeentelijke dienstenpagina beschrijft vooral huisvesting van internationale werknemers.
-- Laat de gemeente of jurist bepalen of de vergunningplicht algemeen geldt of alleen binnen een aanwijzings-/uitvoeringsbesluit voor deze doelgroep.
-- Leg het besluit en de beslissende officiële bron vast vóór publieke activering.
-- Bronnen: https://lokaleregelgeving.overheid.nl/CVDR720987 en https://www.aalten.nl/verhuurvergunning
+## Aalten — automatisch opgelost
 
-## Beheeractie — jaarlijkse waarden
+De wettelijke term `verblijfsruimte` is in de toelichting uitdrukkelijk beperkt tot huisvesting van arbeidsmigranten/internationale werknemers. Er geldt geen algemeen vergunningstelsel voor reguliere woonruimte. De officiële digitale aanvraagroute is gekoppeld. Bronnen: https://lokaleregelgeving.overheid.nl/CVDR720987 en https://www.aalten.nl/verhuurvergunning.
 
-Plan vóór 1 januari 2027 een controle van de WOZ-/NHG-grenzen en huurprijsgrenzen in `data/dynamic-parameters.json`. Een historische waarde met status `expired-do-not-use` mag nooit in een actuele gebruikersbeslissing worden gebruikt.
+## Jaarwaarden — automatisch bewaakt
+
+De maandelijkse kwaliteitscontrole blokkeert een verlopen actuele waarde. Oude bedragen krijgen `expired-do-not-use`; zonder nieuwe officiële waarde wordt geen gebruikersbeslissing gedaan. Werkwijze: `docs/dynamic-parameter-management.md`.

@@ -61,11 +61,11 @@
       "municipalityCode": "GM0197",
       "municipalityName": "Aalten",
       "province": "Gelderland",
-      "researchStatus": "partially-verified",
+      "researchStatus": "verified",
       "researchStartedAt": "2026-08-09",
       "researchCompletedAt": "2026-08-09",
       "lastCheckedAt": "2026-08-09",
-      "nextReviewAt": "2027-02-09",
+      "nextReviewAt": "2027-01-01",
       "researchedPermitTypes": [
         "purchase-protection",
         "good-landlord-permit",
@@ -82,7 +82,7 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 1,
-      "notes": "Batch 001: officiële bronnen onderzocht; geen publieke beslisregel toegevoegd zonder volledige toepassings- en routeverificatie."
+      "notes": "Batch 001 eigenaarstaak automatisch opgelost met actuele officiële regeling, toelichting, aanvraagroute en waar relevant exacte juridische geografie."
     },
     {
       "municipalityCode": "GM0059",
@@ -115,11 +115,11 @@
       "municipalityCode": "GM0482",
       "municipalityName": "Alblasserdam",
       "province": "Zuid-Holland",
-      "researchStatus": "source-review",
+      "researchStatus": "verified",
       "researchStartedAt": "2026-08-09",
       "researchCompletedAt": "2026-08-09",
       "lastCheckedAt": "2026-08-09",
-      "nextReviewAt": "2027-02-09",
+      "nextReviewAt": "2027-01-01",
       "researchedPermitTypes": [
         "purchase-protection",
         "good-landlord-permit",
@@ -133,12 +133,10 @@
         "housing-permit",
         "vacancy-obligation"
       ],
-      "unresolvedQuestions": [
-        "Controleer het exacte actuele toepassingsbereik en de aanvraagroute van CVDR741471."
-      ],
+      "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 1,
-      "notes": "Batch 001: officiële bronnen onderzocht; geen publieke beslisregel toegevoegd zonder volledige toepassings- en routeverificatie."
+      "notes": "Batch 001 eigenaarstaak automatisch opgelost met actuele officiële regeling, toelichting, aanvraagroute en waar relevant exacte juridische geografie."
     },
     {
       "municipalityCode": "GM0613",
@@ -198,11 +196,11 @@
       "municipalityCode": "GM0141",
       "municipalityName": "Almelo",
       "province": "Overijssel",
-      "researchStatus": "source-review",
+      "researchStatus": "verified",
       "researchStartedAt": "2026-08-09",
       "researchCompletedAt": "2026-08-09",
       "lastCheckedAt": "2026-08-09",
-      "nextReviewAt": "2027-02-09",
+      "nextReviewAt": "2027-01-01",
       "researchedPermitTypes": [
         "purchase-protection",
         "good-landlord-permit",
@@ -216,12 +214,10 @@
         "housing-permit",
         "vacancy-obligation"
       ],
-      "unresolvedQuestions": [
-        "Bevestig de geïndexeerde WOZ-grens voor 2026 en digitaliseer/vergelijk bijlage 1 van de leegstandverordening."
-      ],
+      "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 2,
-      "notes": "Batch 001: officiële bronnen onderzocht; geen publieke beslisregel toegevoegd zonder volledige toepassings- en routeverificatie."
+      "notes": "Batch 001 eigenaarstaak automatisch opgelost met actuele officiële regeling, toelichting, aanvraagroute en waar relevant exacte juridische geografie."
     },
     {
       "municipalityCode": "GM0034",

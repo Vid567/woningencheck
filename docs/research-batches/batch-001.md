@@ -101,3 +101,13 @@ Aanvraagroutes en documentvereisten zijn waar officieel bevestigd opgenomen voor
 Er zijn nul nieuwe publieke beslisregels geactiveerd. De gevonden bronnen zijn bruikbaar voor onderzoek en dienstverlening, maar de bevindingen hebben nog niet allemaal de inhoudelijke juridische goedkeuring die de bestaande publieke beslisregels vereisen. Dit voorkomt schijnzekerheid. Batch 001 heeft afsluitstatus `closed-with-targeted-human-review`; Batch 002 is niet gestart.
 
 Eindadvies: **DO NOT START BATCH 002** totdat de drie eigenaarstaken zijn beslist en de jaarlijkse actualisatieronde als beheertaak is toegewezen.
+
+# Definitieve oplossing eigenaarspunten — 9 augustus 2026
+
+De drie resterende eigenaarspunten zijn met officiële primaire bronnen afgehandeld. Alblasserdam is opgesplitst in vier juridisch verschillende onderwerpen met alleen bevestigde aanvraagroutes; Almelo is exact gemodelleerd vanuit de tekstuele straat- en huisnummerlijst van bijlage 1; Aalten geldt uitsluitend voor verblijfsruimte aan arbeidsmigranten/internationale werknemers. De reviewwachtrij bevat hierdoor nul open Batch 001-punten.
+
+Er zijn opnieuw nul publieke beslisregels toegevoegd. De onderzoeksbevindingen vereisen naast adres en gemeente ook activiteit, objectsoort, doelgroep of actuele waarde. Die invoer ontbreekt nog in het publieke beslismodel; directe activering zou daarom te ruime en mogelijk onjuiste resultaten geven.
+
+Jaarwaarden zijn voortaan beheerde gegevens met geldigheidsperiode, officiële bron, controledatum, volgende wijzigingsdatum en status. Een maandelijkse CI-controle laat verlopen waarden niet als actueel door. Voor Alblasserdam is de NHG-grens 2026 van €470.000 vastgelegd.
+
+Eindadvies: **READY FOR BATCH 002**. Batch 002 is in deze opdracht niet gestart.

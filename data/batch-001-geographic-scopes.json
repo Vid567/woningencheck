@@ -1,0 +1,174 @@
+{
+    "schemaVersion":  "1.0.0",
+    "generatedAt":  "2026-08-09",
+    "scopes":  [
+                   {
+                       "id":  "almelo-vacancy-2020-legal-street-scope",
+                       "regulationId":  "almelo-vacancy-2020",
+                       "municipalityCode":  "GM0141",
+                       "source":  "https://lokaleregelgeving.overheid.nl/CVDR638723",
+                       "sourceSection":  "Bijlage 1, tabel 1, behorend bij artikel 2",
+                       "legalObjectScope":  "Niet-woningen: winkel- en bedrijfsruimten, kantoren en ruimten voor maatschappelijke doeleinden",
+                       "scope":  {
+                                     "operator":  "AND",
+                                     "conditions":  [
+                                                        {
+                                                            "type":  "municipality",
+                                                            "operator":  "equals",
+                                                            "value":  "GM0141",
+                                                            "evidence":  [
+                                                                             {
+                                                                                 "municipalityCode":  "GM0141",
+                                                                                 "url":  "https://lokaleregelgeving.overheid.nl/CVDR638723",
+                                                                                 "section":  "Artikel 2 en bijlage 1"
+                                                                             }
+                                                                         ]
+                                                        },
+                                                        {
+                                                            "operator":  "OR",
+                                                            "conditions":  [
+                                                                               {
+                                                                                   "type":  "street-list",
+                                                                                   "operator":  "in",
+                                                                                   "values":  [
+                                                                                                  "Corridor",
+                                                                                                  "De Galerij",
+                                                                                                  "De Waag",
+                                                                                                  "Doelenstraat",
+                                                                                                  "Grotestraat",
+                                                                                                  "Hagenborgh",
+                                                                                                  "Hagengracht",
+                                                                                                  "Het Kolkje",
+                                                                                                  "Hof van Gülick",
+                                                                                                  "Kerkplein",
+                                                                                                  "Klara Zetkinstraat",
+                                                                                                  "Koornmarkt",
+                                                                                                  "Marktplein",
+                                                                                                  "Molenstraat",
+                                                                                                  "Oranjestraat",
+                                                                                                  "Passage",
+                                                                                                  "Prinses Catharina-Amaliaplein",
+                                                                                                  "Rosa Luxemburgstraat",
+                                                                                                  "Schokland",
+                                                                                                  "Schouwburgplein",
+                                                                                                  "Schuttenstraat",
+                                                                                                  "Stadhuisplein",
+                                                                                                  "Waagplein"
+                                                                                              ],
+                                                                                   "evidence":  [
+                                                                                                    {
+                                                                                                        "municipalityCode":  "GM0141",
+                                                                                                        "url":  "https://lokaleregelgeving.overheid.nl/CVDR638723",
+                                                                                                        "section":  "Bijlage 1, volledige straten"
+                                                                                                    }
+                                                                                                ]
+                                                                               },
+                                                                               {
+                                                                                   "type":  "address-range",
+                                                                                   "street":  "Ootmarsumsestraat",
+                                                                                   "from":  2,
+                                                                                   "to":  36,
+                                                                                   "parity":  "even",
+                                                                                   "evidence":  [
+                                                                                                    {
+                                                                                                        "municipalityCode":  "GM0141",
+                                                                                                        "url":  "https://lokaleregelgeving.overheid.nl/CVDR638723",
+                                                                                                        "section":  "Bijlage 1"
+                                                                                                    }
+                                                                                                ]
+                                                                               },
+                                                                               {
+                                                                                   "type":  "address-range",
+                                                                                   "street":  "Ootmarsumsestraat",
+                                                                                   "from":  1,
+                                                                                   "to":  29,
+                                                                                   "parity":  "odd",
+                                                                                   "evidence":  [
+                                                                                                    {
+                                                                                                        "municipalityCode":  "GM0141",
+                                                                                                        "url":  "https://lokaleregelgeving.overheid.nl/CVDR638723",
+                                                                                                        "section":  "Bijlage 1"
+                                                                                                    }
+                                                                                                ]
+                                                                               },
+                                                                               {
+                                                                                   "type":  "address-list",
+                                                                                   "street":  "Wierdensestraat",
+                                                                                   "values":  [
+                                                                                                  {
+                                                                                                      "number":  2,
+                                                                                                      "addition":  ""
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "number":  2,
+                                                                                                      "addition":  "a"
+                                                                                                  }
+                                                                                              ],
+                                                                                   "evidence":  [
+                                                                                                    {
+                                                                                                        "municipalityCode":  "GM0141",
+                                                                                                        "url":  "https://lokaleregelgeving.overheid.nl/CVDR638723",
+                                                                                                        "section":  "Bijlage 1, nummers 2 en 2a"
+                                                                                                    }
+                                                                                                ]
+                                                                               },
+                                                                               {
+                                                                                   "type":  "address-list",
+                                                                                   "street":  "Boddenstraat",
+                                                                                   "values":  [
+                                                                                                  {
+                                                                                                      "number":  53,
+                                                                                                      "addition":  "a"
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "number":  55,
+                                                                                                      "addition":  ""
+                                                                                                  },
+                                                                                                  {
+                                                                                                      "number":  57,
+                                                                                                      "addition":  ""
+                                                                                                  }
+                                                                                              ],
+                                                                                   "evidence":  [
+                                                                                                    {
+                                                                                                        "municipalityCode":  "GM0141",
+                                                                                                        "url":  "https://lokaleregelgeving.overheid.nl/CVDR638723",
+                                                                                                        "section":  "Bijlage 1, nummer 53a"
+                                                                                                    }
+                                                                                                ]
+                                                                               },
+                                                                               {
+                                                                                   "type":  "address-range",
+                                                                                   "street":  "Boddenstraat",
+                                                                                   "from":  76,
+                                                                                   "to":  80,
+                                                                                   "parity":  "even",
+                                                                                   "evidence":  [
+                                                                                                    {
+                                                                                                        "municipalityCode":  "GM0141",
+                                                                                                        "url":  "https://lokaleregelgeving.overheid.nl/CVDR638723",
+                                                                                                        "section":  "Bijlage 1, nummers 76, 78 en 80"
+                                                                                                    }
+                                                                                                ]
+                                                                               }
+                                                                           ]
+                                                        }
+                                                    ]
+                                 },
+                       "verification":  {
+                                            "method":  "Exacte juridische straatlijst en huisnummerbereiken; geen GIS- of postcodebenadering",
+                                            "insideTest":  {
+                                                               "street":  "Grotestraat",
+                                                               "houseNumber":  80,
+                                                               "expected":  "match"
+                                                           },
+                                            "outsideTest":  {
+                                                                "street":  "Bornsestraat",
+                                                                "houseNumber":  80,
+                                                                "expected":  "no-match"
+                                                            },
+                                            "verifiedAt":  "2026-08-09"
+                                        }
+                   }
+               ]
+}

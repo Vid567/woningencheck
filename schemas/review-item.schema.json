@@ -61,7 +61,11 @@
     "createdAt": {
       "type": "string",
       "format": "date"
-    }
+    },
+    "resolution": {"type": "string"},
+    "resolvedAt": {"type": "string", "format": "date"},
+    "decisiveSources": {"type": "array", "items": {"type": "string", "pattern": "^https://"}, "uniqueItems": true},
+    "evidence": {"type": "string"}
   },
   "additionalProperties": false
 }

@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "1.0.0",
+  "purpose": "discovery-only",
+  "types": {
+    "purchase-protection": [
+      "opkoopbescherming",
+      "verhuurvergunning opkoop"
+    ],
+    "good-landlord-permit": [
+      "goed verhuurderschap",
+      "verhuurvergunning",
+      "verhuurdersvergunning",
+      "arbeidsmigrant"
+    ],
+    "conversion-permit": [
+      "omzetting",
+      "omzettingsvergunning",
+      "kamerverhuurvergunning",
+      "woningdelen",
+      "voorraadwijziging"
+    ],
+    "room-rental": [
+      "kamerverhuur",
+      "verkamering",
+      "woningdelen",
+      "onzelfstandige woonruimte",
+      "voorraadwijziging"
+    ],
+    "dwelling-formation": [
+      "woningvorming",
+      "woningvormingsvergunning",
+      "woningsplitsing",
+      "voorraadwijziging"
+    ],
+    "building-split": [
+      "splitsingsvergunning",
+      "bouwkundige splitsing",
+      "kadastrale splitsing",
+      "woningsplitsing"
+    ],
+    "withdrawal-merger": [
+      "onttrekken",
+      "onttrekking",
+      "samenvoegen",
+      "woningvoorraad wijzigen",
+      "voorraadwijziging"
+    ],
+    "short-stay": [
+      "short stay",
+      "short-stay",
+      "tijdelijk verblijf"
+    ],
+    "holiday-rental": [
+      "vakantieverhuur",
+      "toeristische verhuur"
+    ],
+    "housing-permit": [
+      "huisvestingsvergunning",
+      "huisvestingsverordening",
+      "woonruimtebemiddeling",
+      "corporatiewoonruimte"
+    ],
+    "vacancy-obligation": [
+      "leegstand",
+      "leegstandwet",
+      "tijdelijke verhuur"
+    ],
+    "planning-housing-permit": [
+      "omgevingsvergunning",
+      "omgevingsplan",
+      "woongebruik",
+      "huisvesting arbeidsmigranten",
+      "woningsplitsing",
+      "woningdelen"
+    ]
+  },
+  "normalizationRules": [
+    {
+      "whenAny": [
+        "onttrekken",
+        "samenvoegen"
+      ],
+      "canonicalType": "withdrawal-merger",
+      "reason": "project taxonomy combines withdrawal and merger"
+    }
+  ]
+}

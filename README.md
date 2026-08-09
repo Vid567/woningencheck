@@ -26,6 +26,10 @@ Meer details staan in [de dataverantwoording](docs/data-provenance.md).
 
 De gemeentelijke basis is landelijk. De eerste, nog juridisch te beoordelen records betreffen Den Haag, Emmen, Leiden en Rotterdam. Een gemeente zonder records blijft selecteerbaar en toont eerlijk dat inhoudelijke dekking ontbreekt.
 
+## Aanvraagroutes en documenten
+
+Iedere regelkaart houdt drie functies apart: **Meer informatie**, **Officiële regeling** en de primaire CTA **Vergunning aanvragen**. Een CTA verschijnt alleen wanneer `officialApplicationUrl` is gecontroleerd. Identieke informatie- en aanvraag-URL's zijn uitsluitend toegestaan met `applicationUrlStatus: same-as-info-verified`; onopgeloste routes krijgen geen klikbare knop. `requiredDocuments` en `applicationDocuments` tonen vereisten en directe officiële formulieren in hetzelfde resultaat.
+
 ## Lokaal ontwikkelen
 
 Er is geen buildstap. Start in de repositoryroot een lokale statische webserver, bijvoorbeeld `npx serve .`, en open het getoonde adres. Een server is nodig omdat browsers lokale JSON-`fetch` vanaf `file://` blokkeren.

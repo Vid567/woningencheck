@@ -829,6 +829,7 @@
   "publicDecisionRecordsAdded": 0,
   "closure": {
     "closureStatus": "closed-with-targeted-human-review",
+    "commit": "fa00645ecaa04361630618e8896d00fc55b96cd7",
     "remainingHumanItems": 2,
     "gisItems": 1,
     "verifiedApplicationRoutes": 19,

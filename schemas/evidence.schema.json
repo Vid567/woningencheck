@@ -1,0 +1,62 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://woningencheck.nl/schemas/evidence.schema.json",
+    "title": "Regulatory claim evidence",
+    "type": "object",
+    "required": [
+        "claimId",
+        "claim",
+        "evidenceType",
+        "url",
+        "identifier",
+        "articleOrSection",
+        "verifiedAt",
+        "contentFingerprint"
+    ],
+    "properties": {
+        "claimId": {
+            "type": "string"
+        },
+        "claim": {
+            "type": "string"
+        },
+        "evidenceType": {
+            "enum": [
+                "official-information",
+                "official-regulation",
+                "official-publication",
+                "official-application",
+                "official-document",
+                "official-map"
+            ]
+        },
+        "url": {
+            "type": "string",
+            "format": "uri",
+            "pattern": "^https://"
+        },
+        "identifier": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "articleOrSection": {
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "verifiedAt": {
+            "type": "string",
+            "format": "date"
+        },
+        "contentFingerprint": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "additionalProperties": false
+}

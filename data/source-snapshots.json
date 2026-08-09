@@ -10,7 +10,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "75b190167aea488d3db120893c45175d97fa2f085bc306605445887e6fb8ac8c"
+      "contentFingerprint": "9bfddba362c6f502c2ea44d11548886feb1d467eada029d2ebf00b1c94b51c90"
     },
     {
       "id": "den-haag-opkoop-2026-required-2-2",
@@ -20,7 +20,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "e1501a5209bcd6a3aafc763326e515f78950c2a37d854d10ea8d09ceccb0f55e"
+      "contentFingerprint": "f07a5ecf06a5cc155c13a2a27ad40e59deafc9bf226e7070d5396ebf0915c074"
     },
     {
       "id": "emmen-opkoop-2023-regulation",
@@ -40,7 +40,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "9db9add3f55538a6285c2ba597d9c802b56b903c756ad9119551b5899ff831e8"
+      "contentFingerprint": "1cdfe21f79ff21c03c207c4955b91666f36a1b508311ad9bf7bd907680c94345"
     },
     {
       "id": "rotterdam-kamerverhuur-2026-regulation",
@@ -110,7 +110,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "1e383a2652d1fb544debcbf31e37fd3997e562e3fa77fc307963f6fdcfbd0802"
+      "contentFingerprint": "767a1b344d537fdf5f0aa8842f2066da05519c2d6709e82be93216448c32f59a"
     },
     {
       "id": "leiden-opkoop-2024-required-2-2",
@@ -120,7 +120,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "69277c431781a306414d40c5399c3c52a3734d4594938fe7b45b12b510ba7a89"
+      "contentFingerprint": "58d4a02e26951474109b4b784c0aeefc09c3716bfcc681c46a274d868e332ae0"
     },
     {
       "id": "leiden-omzetting-2024-required-5-1",
@@ -130,7 +130,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "fdb98fa3f37a697809adfda157d2daead8b98594b230b4c2d988c38392e835d2"
+      "contentFingerprint": "3be5f701da19f9b1a7e26c73a11da0b24c3a10280864d469c8ca87a784e94d1f"
     },
     {
       "id": "leiden-omzetting-2024-required-5-2",
@@ -140,7 +140,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "480a3f00bb1a8e3ce277f18870dedeac01b19982c00dd4848fe09aa8a2d12482"
+      "contentFingerprint": "5b6922620186b608d5bace4396cc3dd0bdb1a4303e630178208975f537e6ecf5"
     },
     {
       "id": "leiden-omzetting-2024-form-1",
@@ -150,7 +150,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "4f02e6d01423709172b6fcd4160642f5573ae5049a7091917299c4526694e5a2"
+      "contentFingerprint": "8f9e1d9c5bcc297584a0911d5c1e928b62302f7e46f4b35da2908df2e86e741f"
     },
     {
       "id": "rotterdam-opkoop-required-1-1",
@@ -170,7 +170,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "33b03f05a02a4e3813ae81c4bd1b6f3351886ca39abeaad23a232b4b4771f76e"
+      "contentFingerprint": "0fe35dca680ca86e04276330f7cfb0f1264276af5403bda4be5e69f4efd26531"
     },
     {
       "id": "rotterdam-kamerverhuur-2026-required-1-1",
@@ -190,7 +190,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "2a45302fffd31f7285af3ad954aaad9931eeb4e274db8635e1376863d159b676"
+      "contentFingerprint": "dbb3dd601e0c1799d84b921a8b1a913043d1b45d7eaaa50d97662175c957f567"
     },
     {
       "id": "batch001-aalsmeer-hvv-2025-regulation",
@@ -300,7 +300,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "7b1938d0340db60a7eec3649b6acee738a3df63b5715ac384b781cc3fe5a6a55"
+      "contentFingerprint": "634174fe53e45cef4d6b50dfe371337dcd6b4af20761ffd93452b5f16ab2d3c3"
     },
     {
       "id": "parameter-aalsmeer-opkoop-woz-2026",
@@ -309,8 +309,8 @@
       "httpStatus": 200,
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
-      "lastKnownModified": "Sun, 09 Aug 2026 17:03:08 GMT",
-      "contentFingerprint": "d039ecc9c691972f200cd898c70f5c855a845a063799bfadf837518169ca1cdc"
+      "lastKnownModified": "Sun, 09 Aug 2026 19:00:18 GMT",
+      "contentFingerprint": "2e550727a891a160d00b1d81f09ef3a5c183c1536954ad4abd572efc72413519"
     },
     {
       "id": "batch001-aalten-good-landlord-2024-information",
@@ -320,7 +320,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "85765a8290ac3716530e03b053bf8f314d111c5681a3030c83eb5f636953fc06"
+      "contentFingerprint": "06fd7a2b3cde2802416c187b21b4208056de6f79d2f027829f7af89d3c92d37f"
     },
     {
       "id": "batch001-alkmaar-hvv-2024-information",
@@ -330,7 +330,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "8adaef5f0bb4c17b2e4b8ad4ef0b98555ec82ef900cc1247274670a4cd80188d"
+      "contentFingerprint": "1e52516511bacbc69f95bf112f1a3459b94dc70a58f8780b64a86f6ceaebfb33"
     },
     {
       "id": "batch001-alkmaar-hvv-2024-application",
@@ -340,7 +340,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "f91466893ebfd3d64d24a1ec35feef541ab7095defe6ddaf8b0f3ea3bd384864"
+      "contentFingerprint": "7573cf2cc479c3cdcc0d20f6c50d463e5ee0a3536487bcd7e99a9d206d37ad5d"
     },
     {
       "id": "parameter-almelo-opkoop-woz-2026",
@@ -391,7 +391,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "b0e62cb7dc81aadbd914c7c046cde05c322eab324548f909a4920d79feea7112"
+      "contentFingerprint": "5774ceaa3884e41e530b7362a2d3867192d94634cecc5d2db324f98ee0590332"
     },
     {
       "id": "parameter-holland-rijnland-rent-2025-reference",
@@ -410,7 +410,7 @@
       "httpStatus": 200,
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
-      "lastKnownModified": "Sun, 09 Aug 2026 16:21:30 GMT",
+      "lastKnownModified": "Sun, 09 Aug 2026 18:57:54 GMT",
       "contentFingerprint": "7d31e0e5fb421b3810128739626104d7a6f3d4277d576bf030ceff726835df82"
     },
     {
@@ -421,7 +421,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "4e35104afb596e5f5a1d383e3c41f1b31e3fa24c57b7b1f40c2eb7abc0fbd69f"
+      "contentFingerprint": "1c7cd0c0886050c40bd4261dcd38ecda4223bb197494b1ac71baa9652b1c7440"
     },
     {
       "id": "batch001-alblasserdam-stock-change-2025-application",
@@ -451,7 +451,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "d1c1ef34877b5edf17935cad0403c20a86140e15ea5b5bf9cfed37e0baa3ef03"
+      "contentFingerprint": "c7381929d6ed34032abec290e36c8e4bbbda108b16117e650a6d3eb3289cfc5b"
     },
     {
       "id": "batch001-almelo-vacancy-2020-application",
@@ -471,7 +471,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "2e746f7ba1463329434b3b5d86bacffdc5aa05b9ecd972fc7942bc40680ee36d"
+      "contentFingerprint": "ddc373eae01c26b14be05dc939bd5e0f1c6f856191e8b0545298f48a65052443"
     },
     {
       "id": "batch001-alblasserdam-stock-change-2025-information",
@@ -481,7 +481,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "938fbbac704ebb2e3b249e5391a473672bef51267cafdd5ce30717d35c6cfabf"
+      "contentFingerprint": "4ed4be9fdbdc6a63681b6a16554592afac18e329332ffbfd6d8c78adee24cdb5"
     },
     {
       "id": "batch001-alblasserdam-dwelling-formation-2025-information",
@@ -491,7 +491,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "44a370372c036da64d98f4e581aa4362733864f96a73154a46f2ccc8371e1c64"
+      "contentFingerprint": "009f583046720f9734fbdaeaa33744a785d7a5be67c184661a323f13e52eba11"
     },
     {
       "id": "batch001-alblasserdam-purchase-protection-2025-application",
@@ -541,7 +541,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "241e4c15a525c4d40768e0f64ec38fd911391e907b82e5af642c653803a0cfef"
+      "contentFingerprint": "071e0c8122cdbe168b3193337b6ec60992a7bdd3da145df76ae950267c406afd"
     },
     {
       "id": "batch001-ameland-opkoop-regulation",
@@ -551,7 +551,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "ea1b2e829472d9d63c87c5880902abbb1183b13dc49a7f3aa9720321d63129b5"
+      "contentFingerprint": "bf9738c03feb9b4df478d2bec0227f523bf6cf814714f01d70b5a9cf26bf498c"
     },
     {
       "id": "parameter-ameland-rent-2026",
@@ -561,7 +561,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "9547c2d8d4bf8cacac56c7a687f24ea1ee370777e7806daf25dcb66c7cf208fe"
+      "contentFingerprint": "611e48df84330ff74ca1dc5d76e55bbb375937882a38eda550d6ee0a58e8d470"
     },
     {
       "id": "batch001-amersfoort-housing-regulation",
@@ -571,7 +571,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "a3120d2dd83c5c8c6a612502bac2f6c0361c7ef4c5e7c331a479097e9a0c0676"
+      "contentFingerprint": "c161283b2f5d01640d74964d7e96af03d08d34bff6584e5721a26b050a003e59"
     },
     {
       "id": "parameter-amersfoort-rent-2026",
@@ -580,8 +580,8 @@
       "httpStatus": 200,
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
-      "lastKnownModified": "Sun, 09 Aug 2026 16:39:18 GMT",
-      "contentFingerprint": "c59adfe4243f4e4f84112f0f7833ded347b47f28ee64fb9463586d48cb7454e1"
+      "lastKnownModified": "Sun, 09 Aug 2026 18:59:57 GMT",
+      "contentFingerprint": "14375298969416283b3f132ac747a7e34dcd15dbcb0dfdc8524e75f8a02005e0"
     },
     {
       "id": "batch001-amersfoort-vacancy-regulation",
@@ -600,8 +600,8 @@
       "httpStatus": 200,
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
-      "lastKnownModified": "Sun, 09 Aug 2026 16:50:53 GMT",
-      "contentFingerprint": "6500dd4deb32d40ddeb733304d38e894d40f9d5a7c4ec1ac9fcfcee45f611dfe"
+      "lastKnownModified": "Sun, 09 Aug 2026 18:59:57 GMT",
+      "contentFingerprint": "73c5c73b3dd30ea6308bee2ad05481b1094ed2748c3a32358f60412c0834d5c9"
     },
     {
       "id": "batch001-amstelveen-vacancy-regulation",
@@ -620,8 +620,8 @@
       "httpStatus": 200,
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
-      "lastKnownModified": "Sun, 09 Aug 2026 17:02:57 GMT",
-      "contentFingerprint": "3f37a0b255307989c60f74cdb5cdb5234227a506e1e41300d4a5c51695a367c1"
+      "lastKnownModified": "Sun, 09 Aug 2026 18:59:58 GMT",
+      "contentFingerprint": "1fe24a24f1b667a61f86fb9a7119693fc5b32811680c756e2589932927bb97a7"
     },
     {
       "id": "batch001-amstelveen-sharing-regulation",
@@ -640,8 +640,8 @@
       "httpStatus": 200,
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
-      "lastKnownModified": "Sun, 09 Aug 2026 17:02:58 GMT",
-      "contentFingerprint": "cb3da4faeba99d5b3aa41f4ee1031bfce566d103ea62d5368e05d950f8d7bb22"
+      "lastKnownModified": "Sun, 09 Aug 2026 18:59:59 GMT",
+      "contentFingerprint": "36544f80266fe10540ee9d24a652f8a498fde091cc76a697f85179a754928910"
     },
     {
       "id": "batch001-amstelveen-sharing-information",
@@ -650,8 +650,8 @@
       "httpStatus": 200,
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
-      "lastKnownModified": "Sun, 09 Aug 2026 17:02:58 GMT",
-      "contentFingerprint": "d31b5a9791af88a49115768581d6ae8540965a0c95f83ea9522222b01f78b6ec"
+      "lastKnownModified": "Sun, 09 Aug 2026 18:59:59 GMT",
+      "contentFingerprint": "273700147df2ae1d3d2de4fc44653fb5ddcfc387aadbbdc78283a48857ab6595"
     },
     {
       "id": "batch001-amsterdam-opkoop-regulation",
@@ -661,7 +661,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "444cd794238a612fd06c8c808f2ec86ae9961b244e90322fc068dabeb666b454"
+      "contentFingerprint": "6e6354521e9d4d8a9c0c28c321ead8530847192b9234b881f67d957568f0ccd2"
     },
     {
       "id": "batch001-amsterdam-housing-application",
@@ -731,7 +731,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "cef59be02888a3175ed23e91698b913d1dccde2396391e8853e26bf7fc96d1c3"
+      "contentFingerprint": "d5345d93b7b0d8971f9425e026d53ff54ba7c96aa9a3fb5af289d9e8f3169285"
     },
     {
       "id": "batch001-apeldoorn-landlord-application",
@@ -741,7 +741,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "e5fbb0cb7a514de2ee08ae475cd04d4714ecf05b9922e6f74d0ad8f7e934adee"
+      "contentFingerprint": "9402673b427dd68b74d4f81eb7c6477b1610adff799ca84196f88170cb1da6df"
     },
     {
       "id": "batch001-arnhem-opkoop-regulation",
@@ -761,7 +761,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "ebd322af56b075156ef757b497ca6dc01d73f902d0b115e648baabf02f6cdd91"
+      "contentFingerprint": "cb974aca751d105e0a8b86731796246cd5c33bf06c0018acee14dd897b9e1f41"
     },
     {
       "id": "batch001-arnhem-housing-application",
@@ -771,7 +771,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "3cb02988210d5510a7cb9c880410f9b9a2208841e1e63f0d87b8c7fbe90d6e86"
+      "contentFingerprint": "8c092eeea33205e0867ab4c1f37e9a9e3849d3ac2d8ac42827c70521c2de518f"
     },
     {
       "id": "batch001-arnhem-vacancy-regulation",
@@ -791,7 +791,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "b367ea70e80b0714195fb547d99cae1473cae5d6d8710bb286bdc4e1d96c19e5"
+      "contentFingerprint": "72a8e7aa9ff0c5128538a97dc3ee4fd2e2f64888eee056fee304218cf330ff2d"
     },
     {
       "id": "batch001-arnhem-opkoop-application",
@@ -841,7 +841,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "e7479354c0c66afa4364c9cdbfeb8de57f34e07a902c66e1749df1ae03444f5a"
+      "contentFingerprint": "8b23a9fc2369ef306c6683227a11fea7c960966556211eab6447fc33a2495003"
     },
     {
       "id": "batch002-source-34",
@@ -871,7 +871,7 @@
       "automatedStatus": "reachable",
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": null,
-      "contentFingerprint": "5e2a17ff472c782629ffc1052f02b6ea19cf29a561b493afec7fc5a51f855ea7"
+      "contentFingerprint": "685bcf5c85110d5946942b310a0a64b20802a34416c4ffa4ba1752f29b1c228a"
     },
     {
       "id": "batch001-asten-labour-application",
@@ -892,6 +892,166 @@
       "lastCheckedAt": "2026-08-09",
       "lastKnownModified": "Mon, 06 Jul 2026 11:23:43 GMT",
       "contentFingerprint": "b5bdba16758cb9daea05909d581f9090c4dbe8e0483f726695d47ca49bf41488"
+    },
+    {
+      "id": "amstelveen-kamerverhuur-layer-settings",
+      "url": "https://aa.kaartviewer.nl/admin/rest/openapi/DataportaalAA/kamergewijzeverhuur/settings",
+      "finalUrl": "https://aa.kaartviewer.nl/admin/rest/openapi/DataportaalAA/kamergewijzeverhuur/settings",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": "Fri, 17 Apr 2026 14:24:56 GMT",
+      "contentFingerprint": "54524585fb6ebe2e7eda07df3ab163f8386a930c55e509fe62b6207f2184aeab"
+    },
+    {
+      "id": "amstelveen-kamerverhuur-layer-features",
+      "url": "https://aa.kaartviewer.nl/admin/rest/openapi/DataportaalAA/kamergewijzeverhuur/info?srsName=EPSG:28992&outputFormat=application%2Fjson",
+      "finalUrl": "https://aa.kaartviewer.nl/admin/rest/openapi/DataportaalAA/kamergewijzeverhuur/info?srsName=EPSG:28992&outputFormat=application%2Fjson",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": "Fri, 17 Apr 2026 14:24:56 GMT",
+      "contentFingerprint": "b5aa5995c9ba012d142e2e719b19a8c5e6736fe5678f8edcbafaf4ee691f1669"
+    },
+    {
+      "id": "assen-splitting-appendix-map",
+      "url": "https://repository.officiele-overheidspublicaties.nl/CVDR/CVDR750864/1/xml/woningtijdelijkewoningeni584c3cb5-e861-41a4-b42d-9e6e1fc0fb8b.jpg",
+      "finalUrl": "https://repository.officiele-overheidspublicaties.nl/CVDR/CVDR750864/1/xml/woningtijdelijkewoningeni584c3cb5-e861-41a4-b42d-9e6e1fc0fb8b.jpg",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": "Tue, 21 Jul 2026 10:34:57 GMT",
+      "contentFingerprint": "101741def49e65a78f94fbdbec2219ba51c84f4a85d2e34e12fc7566e76526f3"
+    },
+    {
+      "id": "batch003-source-51",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR746230",
+      "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR746230",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "223ffa00d291ef17aba6f0e2761df601357b4df5ef00d11904dd553dbefb2715"
+    },
+    {
+      "id": "batch003-source-52",
+      "url": "https://www.baarn.nl/wonen-en-verhuizen",
+      "finalUrl": "https://www.baarn.nl/wonen-en-verhuizen",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "e3412487ef2a56a62d55452a4e4e95343621068be9397eef7d6fecfdaa079ca2"
+    },
+    {
+      "id": "batch003-source-53",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR740024",
+      "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR740024",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "42f19933b7b607a6aca43674363ee798cc8824c329ff9655d3eb5360010605e2"
+    },
+    {
+      "id": "batch003-source-54",
+      "url": "https://www.barendrecht.nl/direct-regelen/wonen-leefomgeving-verbouwen/wonen-verhuizen/woning-zoeken-sociale-huur/",
+      "finalUrl": "https://www.barendrecht.nl/direct-regelen/wonen-leefomgeving-verbouwen/wonen-verhuizen/woning-zoeken-sociale-huur/",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "93b2e3fc2fd84dd666daa2e19891db927611a81200a3ffb40988412f31e6898d"
+    },
+    {
+      "id": "batch003-source-55",
+      "url": "https://www.woonnetrijnmond.nl",
+      "finalUrl": "https://www.woonnetrijnmond.nl/",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": "Fri, 31 Jul 2026 10:05:06 GMT",
+      "contentFingerprint": "5913426c627bf3ee5973246ea754d88ac6fb551232dce0ff3ca874cc567047ec"
+    },
+    {
+      "id": "batch003-source-56",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR738588",
+      "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR738588",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "28ac240a48f0af97633ef013a9f4ceef3b4e25e155a0a3e8fc4c2460aa29f294"
+    },
+    {
+      "id": "batch003-source-57",
+      "url": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/hulp-bij-wonen/huurwoning-inschrijving",
+      "finalUrl": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/hulp-bij-wonen/huurwoning-inschrijving",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "4ab09eda315f13c3882e41264c7bd3931677c58e2bb9bb07241fd556863e2ceb"
+    },
+    {
+      "id": "batch003-source-58",
+      "url": "https://www.huiswaarts.nu",
+      "finalUrl": "https://huiswaarts.mijndak.nl/",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "19f722247271a89babff2f50163f5cc947d2334bfc87f9d5d494932c258c8eb9"
+    },
+    {
+      "id": "batch003-source-59",
+      "url": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/het-gebruik-van-een-woning-veranderen",
+      "finalUrl": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/het-gebruik-van-een-woning-veranderen",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "582758d670a69c56d73e0bcec449c5c14dbb36cd666d4fbdc1a2501fb7d29bc9"
+    },
+    {
+      "id": "batch003-source-60",
+      "url": "https://wetten.overheid.nl/BWBR0003403",
+      "finalUrl": "https://wetten.overheid.nl/BWBR0003403/2024-07-01",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "4fea28c871c20d80fcaf01a9ab56a28dcca19ea32754e39dd8915097975af647"
+    },
+    {
+      "id": "batch003-source-61",
+      "url": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/leegstaande-woonruimte-tijdelijk-verhuren",
+      "finalUrl": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/leegstaande-woonruimte-tijdelijk-verhuren",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "bf8264f5a9f104522a6ffda6d309ff313edfbc29cc296b1b0d1d71dd68d2ca34"
+    },
+    {
+      "id": "batch003-source-62",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR731804",
+      "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR731804",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "3f690a2f5a98cfa6d1c67d7a40e9278d70774d3ec4d774417ce8c1ceef7bf074"
+    },
+    {
+      "id": "batch003-source-63",
+      "url": "https://www.gemeentebeek.nl",
+      "finalUrl": "https://www.gemeentebeek.nl/",
+      "httpStatus": 200,
+      "automatedStatus": "reachable",
+      "lastCheckedAt": "2026-08-09",
+      "lastKnownModified": null,
+      "contentFingerprint": "dbb4045ab60ddbf5793c1bff7b4322e50750045fd7c6d8359c11697c96b2ff7e"
     }
   ]
 }

@@ -1,0 +1,370 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "batch-003",
+  "startedAt": "2026-08-09",
+  "completedAt": "2026-08-09",
+  "batchSize": 5,
+  "selectionRule": "Eerste vijf not-started gemeenten in canonical order",
+  "municipalities": [
+    {
+      "municipalityCode": "GM0744",
+      "municipalityName": "Baarle-Nassau",
+      "province": "Noord-Brabant",
+      "queuePosition": 1
+    },
+    {
+      "municipalityCode": "GM0308",
+      "municipalityName": "Baarn",
+      "province": "Utrecht",
+      "queuePosition": 2
+    },
+    {
+      "municipalityCode": "GM0489",
+      "municipalityName": "Barendrecht",
+      "province": "Zuid-Holland",
+      "queuePosition": 3
+    },
+    {
+      "municipalityCode": "GM0203",
+      "municipalityName": "Barneveld",
+      "province": "Gelderland",
+      "queuePosition": 4
+    },
+    {
+      "municipalityCode": "GM0888",
+      "municipalityName": "Beek (L.)",
+      "province": "Limburg",
+      "queuePosition": 5
+    }
+  ],
+  "findings": [
+    {
+      "id": "baarn-housing-2025",
+      "municipalityCode": "GM0308",
+      "canonicalTypes": [
+        "housing-permit"
+      ],
+      "title": "Huisvestingsverordening regio Amersfoort – gemeente Baarn",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR746230",
+      "officialInfoUrl": "https://www.baarn.nl/wonen-en-verhuizen",
+      "officialApplicationUrl": null,
+      "applicationRouteStatus": "not-confirmed",
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "corporation-housing-and-standplaces",
+        "conditions": [
+          "Corporatiewoonruimte en woonwagenstandplaatsen; particuliere verhuurparagraaf niet overgenomen."
+        ]
+      },
+      "extractedFacts": [
+        "Corporatiewoonruimte en woonwagenstandplaatsen; particuliere verhuurparagraaf niet overgenomen."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens — Zelf aanleveren"
+      ],
+      "reviewLevel": "A",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09"
+    },
+    {
+      "id": "barendrecht-housing-2025",
+      "municipalityCode": "GM0489",
+      "canonicalTypes": [
+        "housing-permit"
+      ],
+      "title": "Verordening Woonruimtebemiddeling regio Rotterdam 2025",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR740024",
+      "officialInfoUrl": "https://www.barendrecht.nl/direct-regelen/wonen-leefomgeving-verbouwen/wonen-verhuizen/woning-zoeken-sociale-huur/",
+      "officialApplicationUrl": "https://www.woonnetrijnmond.nl",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "regional-corporation-housing",
+        "conditions": [
+          "Barendrecht is regiogemeente; corporatieaanbod via Woonnet Rijnmond."
+        ]
+      },
+      "extractedFacts": [
+        "Barendrecht is regiogemeente; corporatieaanbod via Woonnet Rijnmond."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens — Zelf aanleveren"
+      ],
+      "reviewLevel": "A",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "official-entry-point",
+        "authentication": [],
+        "actionLabel": "Vergunning aanvragen"
+      }
+    },
+    {
+      "id": "barneveld-housing-2025",
+      "municipalityCode": "GM0203",
+      "canonicalTypes": [
+        "housing-permit"
+      ],
+      "title": "Huisvestingsverordening Barneveld 2025-2029",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR738588",
+      "officialInfoUrl": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/hulp-bij-wonen/huurwoning-inschrijving",
+      "officialApplicationUrl": "https://www.huiswaarts.nu",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Huisvestingswet 2014"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "corporation-housing-rent-limit",
+        "conditions": [
+          "Corporatiewoonruimte tot huurtoeslaggrens; aanbod via Huiswaarts."
+        ]
+      },
+      "extractedFacts": [
+        "Corporatiewoonruimte tot huurtoeslaggrens; aanbod via Huiswaarts."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens — Zelf aanleveren"
+      ],
+      "reviewLevel": "A",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "official-entry-point",
+        "authentication": [],
+        "actionLabel": "Vergunning aanvragen"
+      }
+    },
+    {
+      "id": "barneveld-room-rental",
+      "municipalityCode": "GM0203",
+      "canonicalTypes": [
+        "room-rental",
+        "planning-housing-permit"
+      ],
+      "title": "Kamerverhuur Barneveld",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR738588",
+      "officialInfoUrl": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/het-gebruik-van-een-woning-veranderen",
+      "officialApplicationUrl": "https://omgevingswet.overheid.nl/checken",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Omgevingswet"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-property-and-plan",
+        "conditions": [
+          "Omgevingsvergunning; minimaal 13 m² GBO, arbeidsmigranten 12 m²."
+        ]
+      },
+      "extractedFacts": [
+        "Omgevingsvergunning; minimaal 13 m² GBO, arbeidsmigranten 12 m²."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens — Zelf aanleveren"
+      ],
+      "reviewLevel": "A",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "omgevingsloket",
+        "authentication": [],
+        "actionLabel": "Vergunning aanvragen"
+      }
+    },
+    {
+      "id": "barneveld-splitting",
+      "municipalityCode": "GM0203",
+      "canonicalTypes": [
+        "dwelling-formation",
+        "building-split",
+        "planning-housing-permit"
+      ],
+      "title": "Woningsplitsing Barneveld",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR738588",
+      "officialInfoUrl": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/het-gebruik-van-een-woning-veranderen",
+      "officialApplicationUrl": "https://omgevingswet.overheid.nl/checken",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Omgevingswet"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "project-and-location-specific",
+        "conditions": [
+          "Wijziging omgevingsplan en omgevingsvergunning vereist."
+        ]
+      },
+      "extractedFacts": [
+        "Wijziging omgevingsplan en omgevingsvergunning vereist."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens — Zelf aanleveren"
+      ],
+      "reviewLevel": "B",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "omgevingsloket",
+        "authentication": [],
+        "actionLabel": "Vergunning aanvragen"
+      }
+    },
+    {
+      "id": "barneveld-vacancy-rental",
+      "municipalityCode": "GM0203",
+      "canonicalTypes": [
+        "vacancy-obligation"
+      ],
+      "title": "Tijdelijke verhuur leegstaande woonruimte",
+      "officialRegulationUrl": "https://wetten.overheid.nl/BWBR0003403",
+      "officialInfoUrl": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/leegstaande-woonruimte-tijdelijk-verhuren",
+      "officialApplicationUrl": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/leegstaande-woonruimte-tijdelijk-verhuren",
+      "applicationRouteStatus": "verified-entry-point",
+      "legalBasis": [
+        "Leegstandwet"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-eligible-vacancy",
+        "conditions": [
+          "Vergunning voor tijdelijke verhuur van geschikt leegstaand huis of kantoor."
+        ]
+      },
+      "extractedFacts": [
+        "Vergunning voor tijdelijke verhuur van geschikt leegstaand huis of kantoor."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens — Zelf aanleveren"
+      ],
+      "reviewLevel": "A",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09",
+      "applicationRoute": {
+        "type": "official-entry-point",
+        "authentication": [],
+        "actionLabel": "Vergunning aanvragen"
+      }
+    },
+    {
+      "id": "beek-labour-rental-2025",
+      "municipalityCode": "GM0888",
+      "canonicalTypes": [
+        "good-landlord-permit"
+      ],
+      "title": "Verhuurverordening verblijfsruimte arbeidsmigranten Westelijke Mijnstreek 2025",
+      "officialRegulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR731804",
+      "officialInfoUrl": "https://www.gemeentebeek.nl",
+      "officialApplicationUrl": null,
+      "applicationRouteStatus": "not-confirmed",
+      "legalBasis": [
+        "Wet goed verhuurderschap"
+      ],
+      "effectiveFrom": "2026-01-01",
+      "effectiveTo": null,
+      "geographicScope": {
+        "method": "whole-municipality-target-group",
+        "conditions": [
+          "Verblijfsruimte voor arbeidsmigranten in gemeente Beek."
+        ]
+      },
+      "extractedFacts": [
+        "Verblijfsruimte voor arbeidsmigranten in gemeente Beek."
+      ],
+      "requiredDocuments": [
+        "Situatieafhankelijke aanvraaggegevens — Zelf aanleveren"
+      ],
+      "reviewLevel": "B",
+      "substantiveVerificationStatus": "official-sources-verified",
+      "verifiedAt": "2026-08-09"
+    }
+  ],
+  "negativeConclusions": [
+    {
+      "municipalityCode": "GM0744",
+      "status": "no-current-implementation-confirmed",
+      "method": "Systematische officiële broncontrole; geen actuele lokale implementatie binnen de taxonomie bevestigd."
+    }
+  ],
+  "publicDecisionRecordsAdded": 0,
+  "addressTests": [
+    {
+      "municipalityCode": "GM0744",
+      "query": "Singel 1, Baarle-Nassau",
+      "officialMunicipalityCode": "0744",
+      "displayName": "Singel 1, 5111CC Baarle-Nassau",
+      "result": "pass",
+      "privacy": "public-address-only",
+      "matchMethod": "official-municipality-code"
+    },
+    {
+      "municipalityCode": "GM0308",
+      "query": "Stationsweg 18, Baarn",
+      "officialMunicipalityCode": "0308",
+      "displayName": "Stationsweg 18, 3743EN Baarn",
+      "result": "pass",
+      "privacy": "public-address-only",
+      "matchMethod": "official-municipality-code"
+    },
+    {
+      "municipalityCode": "GM0489",
+      "query": "Binnenhof 1, Barendrecht",
+      "officialMunicipalityCode": "0489",
+      "displayName": "Binnenhof 1, 2991AA Barendrecht",
+      "result": "pass",
+      "privacy": "public-address-only",
+      "matchMethod": "official-municipality-code"
+    },
+    {
+      "municipalityCode": "GM0203",
+      "query": "Raadhuisplein 2, Barneveld",
+      "officialMunicipalityCode": "0203",
+      "displayName": "Raadhuisplein 2, 3771ER Barneveld",
+      "result": "pass",
+      "privacy": "public-address-only",
+      "matchMethod": "official-municipality-code"
+    },
+    {
+      "municipalityCode": "GM0888",
+      "query": "Raadhuispark 1, Beek",
+      "officialMunicipalityCode": "0888",
+      "displayName": "Raadhuispark 1, 6191AG Beek",
+      "result": "pass",
+      "privacy": "public-address-only",
+      "matchMethod": "official-municipality-code"
+    }
+  ],
+  "deepQaSamples": [
+    {
+      "municipalityCode": "GM0489",
+      "complexity": "straightforward",
+      "result": "Regionale regeling en gemeentelijke Woonnet-route sluiten aan."
+    },
+    {
+      "municipalityCode": "GM0203",
+      "complexity": "complex",
+      "result": "Verdeling, kamerverhuur, splitsing en leegstand afzonderlijk geverifieerd."
+    }
+  ],
+  "closure": {
+    "closureStatus": "closed",
+    "closedAt": "2026-08-09",
+    "remainingOpenReviews": 2,
+    "newHumanReviews": 0,
+    "releaseBlockers": 0,
+    "finalRecommendation": "READY FOR BATCH 004",
+    "batch004Started": false
+  }
+}

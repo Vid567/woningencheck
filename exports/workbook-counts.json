@@ -1,13 +1,13 @@
 {
   "Dashboard": 16,
   "Gemeenten": 342,
-  "Regelingen": 42,
-  "Gebiedsregels": 44,
-  "Uitzonderingen": 7,
-  "Aanvragen": 42,
-  "Documenten": 74,
-  "Bronnen": 86,
+  "Regelingen": 49,
+  "Gebiedsregels": 51,
+  "Uitzonderingen": 11,
+  "Aanvragen": 49,
+  "Documenten": 81,
+  "Bronnen": 106,
   "Handmatige controle": 2,
-  "Batches": 2,
+  "Batches": 3,
   "Jaarwaarden": 11
 }

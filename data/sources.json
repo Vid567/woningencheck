@@ -493,6 +493,136 @@
       "url": "https://repository.officiele-overheidspublicaties.nl/CVDR/CVDR750864/1/xml/woningtijdelijkewoningeni584c3cb5-e861-41a4-b42d-9e6e1fc0fb8b.jpg",
       "lastVerifiedAt": "2026-08-09",
       "status": "verified-raster-not-georeferenced"
+    },
+    {
+      "id": "batch003-source-51",
+      "municipalityCode": "GM0308",
+      "type": "official-regulation",
+      "authority": "lokaleregelgeving.overheid.nl",
+      "title": "Huisvestingsverordening regio Amersfoort – gemeente Baarn",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR746230",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch003-source-52",
+      "municipalityCode": "GM0308",
+      "type": "official-service",
+      "authority": "www.baarn.nl",
+      "title": "Huisvestingsverordening regio Amersfoort – gemeente Baarn",
+      "url": "https://www.baarn.nl/wonen-en-verhuizen",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch003-source-53",
+      "municipalityCode": "GM0489",
+      "type": "official-regulation",
+      "authority": "lokaleregelgeving.overheid.nl",
+      "title": "Verordening Woonruimtebemiddeling regio Rotterdam 2025",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR740024",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch003-source-54",
+      "municipalityCode": "GM0489",
+      "type": "official-service",
+      "authority": "www.barendrecht.nl",
+      "title": "Verordening Woonruimtebemiddeling regio Rotterdam 2025",
+      "url": "https://www.barendrecht.nl/direct-regelen/wonen-leefomgeving-verbouwen/wonen-verhuizen/woning-zoeken-sociale-huur/",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch003-source-55",
+      "municipalityCode": "GM0489",
+      "type": "official-application",
+      "authority": "www.woonnetrijnmond.nl",
+      "title": "Verordening Woonruimtebemiddeling regio Rotterdam 2025",
+      "url": "https://www.woonnetrijnmond.nl",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch003-source-56",
+      "municipalityCode": "GM0203",
+      "type": "official-regulation",
+      "authority": "lokaleregelgeving.overheid.nl",
+      "title": "Huisvestingsverordening Barneveld 2025-2029",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR738588",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch003-source-57",
+      "municipalityCode": "GM0203",
+      "type": "official-service",
+      "authority": "www.barneveld.nl",
+      "title": "Huisvestingsverordening Barneveld 2025-2029",
+      "url": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/hulp-bij-wonen/huurwoning-inschrijving",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch003-source-58",
+      "municipalityCode": "GM0203",
+      "type": "official-application",
+      "authority": "www.huiswaarts.nu",
+      "title": "Huisvestingsverordening Barneveld 2025-2029",
+      "url": "https://www.huiswaarts.nu",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch003-source-59",
+      "municipalityCode": "GM0203",
+      "type": "official-service",
+      "authority": "www.barneveld.nl",
+      "title": "Kamerverhuur Barneveld",
+      "url": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/het-gebruik-van-een-woning-veranderen",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch003-source-60",
+      "municipalityCode": "GM0203",
+      "type": "official-regulation",
+      "authority": "wetten.overheid.nl",
+      "title": "Tijdelijke verhuur leegstaande woonruimte",
+      "url": "https://wetten.overheid.nl/BWBR0003403",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch003-source-61",
+      "municipalityCode": "GM0203",
+      "type": "official-service",
+      "authority": "www.barneveld.nl",
+      "title": "Tijdelijke verhuur leegstaande woonruimte",
+      "url": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/leegstaande-woonruimte-tijdelijk-verhuren",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch003-source-62",
+      "municipalityCode": "GM0888",
+      "type": "official-regulation",
+      "authority": "lokaleregelgeving.overheid.nl",
+      "title": "Verhuurverordening verblijfsruimte arbeidsmigranten Westelijke Mijnstreek 2025",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR731804",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
+    },
+    {
+      "id": "batch003-source-63",
+      "municipalityCode": "GM0888",
+      "type": "official-service",
+      "authority": "www.gemeentebeek.nl",
+      "title": "Verhuurverordening verblijfsruimte arbeidsmigranten Westelijke Mijnstreek 2025",
+      "url": "https://www.gemeentebeek.nl",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified"
     }
   ]
 }

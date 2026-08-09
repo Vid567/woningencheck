@@ -828,11 +828,15 @@
   "absencePolicy": "Geen bron gevonden is nooit automatisch niet van toepassing.",
   "publicDecisionRecordsAdded": 0,
   "closure": {
-    "closureStatus": "closed-with-targeted-human-review",
-    "commit": "fa00645ecaa04361630618e8896d00fc55b96cd7",
-    "remainingHumanItems": 2,
-    "gisItems": 1,
-    "verifiedApplicationRoutes": 19,
-    "finalRecommendation": "DO NOT START BATCH 003"
+    "closureStatus": "closed-with-quarantined-local-geography",
+    "closedAt": "2026-08-09",
+    "startingOpenReviews": 13,
+    "automaticallyResolved": 11,
+    "remainingOpenReviews": 2,
+    "releaseBlockers": 0,
+    "municipalitySpecificBlockers": 2,
+    "nonBlockingReviews": 0,
+    "finalRecommendation": "READY FOR BATCH 003",
+    "batch003Started": false
   }
 }

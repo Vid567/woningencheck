@@ -1,0 +1,138 @@
+{
+  "schemaVersion": "1.0.0",
+  "capturedAt": "2026-08-09",
+  "startingCommit": "e849968ef5f8fd5049f1af7e25a5c6db515e72df",
+  "openCount": 13,
+  "items": [
+    {
+      "id": "review-den-haag-opkoop-2026-legal",
+      "municipalityCode": "GM0518",
+      "regulationId": "den-haag-opkoop-2026",
+      "category": "legal-interpretation",
+      "reason": "Inhoudelijke juridische interpretatie is nog niet handmatig goedgekeurd.",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "review-emmen-opkoop-2023-legal",
+      "municipalityCode": "GM0114",
+      "regulationId": "emmen-opkoop-2023",
+      "category": "legal-interpretation",
+      "reason": "Inhoudelijke juridische interpretatie is nog niet handmatig goedgekeurd.",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "review-emmen-opkoop-2023-documents",
+      "municipalityCode": "GM0114",
+      "regulationId": "emmen-opkoop-2023",
+      "category": "required-documents",
+      "reason": "Formulierroute is geverifieerd, maar de volledige conditionele documentenlijst vereist handmatige controle.",
+      "status": "open",
+      "priority": "medium",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "review-leiden-opkoop-2024-legal",
+      "municipalityCode": "GM0546",
+      "regulationId": "leiden-opkoop-2024",
+      "category": "legal-interpretation",
+      "reason": "Inhoudelijke juridische interpretatie is nog niet handmatig goedgekeurd.",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "review-leiden-omzetting-2024-legal",
+      "municipalityCode": "GM0546",
+      "regulationId": "leiden-omzetting-2024",
+      "category": "legal-interpretation",
+      "reason": "Inhoudelijke juridische interpretatie is nog niet handmatig goedgekeurd.",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "review-leiden-omzetting-2024-scope",
+      "municipalityCode": "GM0546",
+      "regulationId": "leiden-omzetting-2024",
+      "category": "official-map-needs-gis-digitisation",
+      "reason": "Offici?le kaart of bijlage gevonden, maar nog niet als gecontroleerde machineleesbare geometrie beschikbaar.",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "review-rotterdam-opkoop-legal",
+      "municipalityCode": "GM0599",
+      "regulationId": "rotterdam-opkoop",
+      "category": "legal-interpretation",
+      "reason": "Inhoudelijke juridische interpretatie is nog niet handmatig goedgekeurd.",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "review-rotterdam-opkoop-documents",
+      "municipalityCode": "GM0599",
+      "regulationId": "rotterdam-opkoop",
+      "category": "required-documents",
+      "reason": "Formulierroute is geverifieerd, maar de volledige conditionele documentenlijst vereist handmatige controle.",
+      "status": "open",
+      "priority": "medium",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "review-rotterdam-kamerverhuur-2026-legal",
+      "municipalityCode": "GM0599",
+      "regulationId": "rotterdam-kamerverhuur-2026",
+      "category": "legal-interpretation",
+      "reason": "Inhoudelijke juridische interpretatie is nog niet handmatig goedgekeurd.",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "review-rotterdam-kamerverhuur-2026-scope",
+      "municipalityCode": "GM0599",
+      "regulationId": "rotterdam-kamerverhuur-2026",
+      "category": "official-map-needs-gis-digitisation",
+      "reason": "Offici?le kaart of bijlage gevonden, maar nog niet als gecontroleerde machineleesbare geometrie beschikbaar.",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "review-rotterdam-kamerverhuur-2026-documents",
+      "municipalityCode": "GM0599",
+      "regulationId": "rotterdam-kamerverhuur-2026",
+      "category": "required-documents",
+      "reason": "Formulierroute is geverifieerd, maar de volledige conditionele documentenlijst vereist handmatige controle.",
+      "status": "open",
+      "priority": "medium",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "batch002-amstelveen-50m",
+      "municipalityCode": "GM0362",
+      "regulationId": "amstelveen-sharing",
+      "category": "geographic-scope",
+      "reason": "50-meterregel vereist alle verleende vergunningen; geen officiële volledige laag bevestigd. Exacte vraag: kan gemeente een actuele GIS/registerlaag leveren?",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    },
+    {
+      "id": "batch002-assen-contour",
+      "municipalityCode": "GM0106",
+      "regulationId": "assen-splitting",
+      "category": "official-map-needs-gis-digitisation",
+      "reason": "Bijlage 1 bevat contour; geen machineleesbare equivalent bevestigd. Exacte vraag: officiële GIS-laag leveren of exact digitaliseren?",
+      "status": "open",
+      "priority": "high",
+      "createdAt": "2026-08-09"
+    }
+  ]
+}

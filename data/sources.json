@@ -463,6 +463,36 @@
       "url": "https://www.asten.nl/fileadmin/Asten/PDF-formulieren_producten/Wonen/Vergunning_huisvesten_arbeidsmigranten/Aanvraagformulier_exploitatievergunning_huisvesting_arbeidsmigranten.pdf",
       "lastVerifiedAt": "2026-08-09",
       "status": "verified"
+    },
+    {
+      "id": "amstelveen-kamerverhuur-layer-settings",
+      "municipalityCode": "GM0362",
+      "type": "official-gis-metadata",
+      "authority": "Gemeente Amstelveen",
+      "title": "Kamergewijze verhuur - metadata",
+      "url": "https://aa.kaartviewer.nl/admin/rest/openapi/DataportaalAA/kamergewijzeverhuur/settings",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified-with-point-semantics-limitation"
+    },
+    {
+      "id": "amstelveen-kamerverhuur-layer-features",
+      "municipalityCode": "GM0362",
+      "type": "official-gis-features",
+      "authority": "Gemeente Amstelveen",
+      "title": "Kamergewijze verhuur - puntenlaag EPSG:28992",
+      "url": "https://aa.kaartviewer.nl/admin/rest/openapi/DataportaalAA/kamergewijzeverhuur/info?srsName=EPSG:28992&outputFormat=application%2Fjson",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified-247-points"
+    },
+    {
+      "id": "assen-splitting-appendix-map",
+      "municipalityCode": "GM0106",
+      "type": "official-legal-map",
+      "authority": "Gemeente Assen / Overheid.nl",
+      "title": "Bijlage 1 toepassingsbereik",
+      "url": "https://repository.officiele-overheidspublicaties.nl/CVDR/CVDR750864/1/xml/woningtijdelijkewoningeni584c3cb5-e861-41a4-b42d-9e6e1fc0fb8b.jpg",
+      "lastVerifiedAt": "2026-08-09",
+      "status": "verified-raster-not-georeferenced"
     }
   ]
 }

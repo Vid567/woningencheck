@@ -61,11 +61,11 @@ Bouw eerst een complete gemeentelijke discovery-index uit alle bestaande batchbe
 
 ## Representatieve set
 
-De live test gebruikte Alblasserdam, Alkmaar, Amsterdam, Amstelveen, Assen, Barneveld, Amersfoort, Aalten, Barendrecht en Aalsmeer. Samen dekken zij meervoudige voorraadregels, gemeentebrede en binnenstadvoorwaarden, complexe gemeentelijke regelgeving, een juridische kaart/PDF, Omgevingsloket, regionale woonruimtebemiddeling, aanvraagformulieren en gemeenten met relatief weinig officiële ingangen.
+De live test gebruikte Alblasserdam, Alkmaar, Amsterdam, Amstelveen, Assen, Barneveld, Amersfoort, Aalten, Barendrecht en Almelo. Samen dekken zij meervoudige voorraadregels, gemeentebrede en binnenstadvoorwaarden, complexe gemeentelijke regelgeving, een juridische kaart/PDF, Omgevingsloket, regionale woonruimtebemiddeling, aanvraagformulieren en gemeenten met relatief weinig officiële ingangen.
 
 ## Live resultaten
 
-De koude pass vroeg 46 unieke officiële ingangen op met concurrency 5. Alle 35 bekende relaties in deze deelset werden live teruggevonden: 100% recall en nul missers. Er waren geen HTTP-fouten, time-outs, retries of rate limits. De pagina-extractie vond ten minste 14 bijlage-/formulierkandidaten en 28 aanvraag-/inlogkandidaten. Alle kandidaten bleven research-only.
+De koude pass vroeg 49 unieke officiële ingangen op met concurrency 5. Alle 33 bekende relaties in deze deelset werden live teruggevonden: 100% recall en nul missers. Er waren geen HTTP-fouten, time-outs, retries of rate limits. De pagina-extractie vond ten minste 14 bijlage-/formulierkandidaten en 28 aanvraag-/inlogkandidaten. Alle kandidaten bleven research-only.
 
 De brede synonymen leverden 46 extra researchkandidaten op. Zij zijn geen publieke conclusies: het betreft terminologie-overlap en contextwoorden op brede regelings- en gemeentepagina’s. Daardoor is de live ontdekking geschikt voor hoge-recalltriage, maar nog niet voor autonome juridische verificatie.
 
@@ -73,22 +73,22 @@ De brede synonymen leverden 46 extra researchkandidaten op. Zij zijn geen publie
 
 | Maatstaf | Resultaat |
 | --- | ---: |
-| Koude pass | 5,398 s |
-| Warme pass | 0,058 s |
-| Netwerkverzoeken koud | 46 |
-| Cachehits warm | 46 |
+| Koude pass | 4,967 s |
+| Warme pass | 0,061 s |
+| Netwerkverzoeken koud | 49 |
+| Cachehits warm | 49 |
 | Cachehitrate warm | 100% |
-| Gemiddeld per gemeente koud | 0,540 s |
-| Mediaan per gemeente koud | 0,621 s |
-| Snelste gemeente | Assen, 0,180 s |
-| Langzaamste gemeente | Alkmaar, 1,059 s |
+| Gemiddeld per gemeente koud | 0,497 s |
+| Mediaan per gemeente koud | 0,492 s |
+| Snelste gemeente | Aalten, 0,250 s |
+| Langzaamste gemeente | Alkmaar, 1,020 s |
 | Retries / fouten | 0 / 0 |
 
 De meting omvat de werkelijke HTTP-ophaling en extractie van de reeds officieel geverifieerde indexingangen. De publicatie-, gemeentelijke-site-, GIS- en attachmentresultaten worden per gemeente apart geregistreerd. Een adapterfout zou de andere adapters niet stoppen en kan nooit rechtstreeks Tier 5 of een publieke regel veroorzaken.
 
 ## Conservatieve doorvoer
 
-Bij gelijkblijvende officiële-brondichtheid is de koude discovery circa 0,54 seconde per gemeente in deze testomgeving: ongeveer 2,7 seconden voor 5, 13,5 seconden voor 25, 27 seconden voor 50 en 162 seconden voor 300 gemeenten. Voor productieplanning wordt minimaal een factor vier veiligheidsmarge aanbevolen voor tragere officiële diensten: circa 54 seconden voor 25 en circa 11 minuten voor 300. Dit is uitsluitend discoverytijd; juridische/GIS-verificatie komt daar afzonderlijk bij.
+Bij gelijkblijvende officiële-brondichtheid is de koude discovery circa 0,50 seconde per gemeente in deze testomgeving: ongeveer 2,5 seconden voor 5, 12,5 seconden voor 25, 25 seconden voor 50 en 150 seconden voor 300 gemeenten. Voor productieplanning wordt minimaal een factor vier veiligheidsmarge aanbevolen voor tragere officiële diensten: circa 50 seconden voor 25 en circa 10 minuten voor 300. Dit is uitsluitend discoverytijd; juridische/GIS-verificatie komt daar afzonderlijk bij.
 
 ## Aanbeveling
 

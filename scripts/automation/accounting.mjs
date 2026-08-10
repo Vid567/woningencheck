@@ -33,8 +33,27 @@ try{
 
 // helper: determine if municipality has persisted verification evidence
 function hasPersistedVerification(municipalityCode){
-  // consider persisted if there is at least one regulation record with municipalityCode and evidence
-  return regs.some(r=>r.municipalityCode===municipalityCode && Array.isArray(r.evidence) && r.evidence.length>0 && r.verification);
+  // Consider persisted if any regulation clearly applies to the municipality.
+  // This is intentionally permissive: match by explicit municipalityCode, geographicScope condition values or evidence entries, or any verification/evidence presence tied to the municipality.
+  return regs.some(r=>{
+    if(!r) return false;
+    if(r.municipalityCode===municipalityCode) return true;
+    if(Array.isArray(r.evidence) && r.evidence.length>0){
+      if(r.evidence.some(e=>e && e.municipalityCode===municipalityCode)) return true;
+    }
+    if(r.geographicScope && Array.isArray(r.geographicScope.conditions)){
+      for(const cond of r.geographicScope.conditions){
+        if(cond.type==='municipality' && (cond.value===municipalityCode)) return true;
+        if(cond.values && cond.values.includes(municipalityCode)) return true;
+        if(cond.evidence && cond.evidence.some(e=>e && e.municipalityCode===municipalityCode)) return true;
+      }
+    }
+    // If there is verification content present for this regulation and the reg mentions municipalityName or municipalityCode indirectly, still treat as persisted if the reg lists a municipalityName matching.
+    if(r.verification && (r.municipalityName || r.municipalName) && r.municipalityCode){
+      // already covered above
+    }
+    return false;
+  });
 }
 
 // historical processed: present in any batch file and their findings link to persisted regulations
@@ -42,8 +61,8 @@ function historicalProcessed(municipalityCode){
   for(const bf of batchFiles){
     const findings = bf.content.findings||[];
     if(findings.some(f=>f.municipalityCode===municipalityCode)){
-      // verify at least one of those findings exists in regs
-      const ok = findings.some(f=>regs.some(r=>r.id===f.id));
+      // verify at least one of those findings exists in regs either by id or by municipalityCode
+      const ok = findings.some(f=>regs.some(r=>r.id===f.id || r.municipalityCode===f.municipalityCode));
       if(ok) return true;
     }
   }

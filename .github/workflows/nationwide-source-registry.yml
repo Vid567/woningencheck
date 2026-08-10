@@ -26,7 +26,7 @@ concurrency:
 
 jobs:
   pilot:
-    name: Connectivity, benchmark-25 and pilot gate
+    name: Connectivity, ROO seed, benchmark-25 and pilot gate
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
@@ -38,15 +38,17 @@ jobs:
         run: |
           node scripts/national-discovery.mjs
           node scripts/test-national-discovery.mjs
+      - name: Seed official municipality websites from ROO
+        run: node scripts/seed-roo-municipal-websites.mjs
       - name: Restore pilot checkpoint
         uses: actions/cache@v4
         with:
           path: artifacts/source-registry/checkpoint-pilot.json
-          key: source-registry-pilot-${{ github.run_id }}
-          restore-keys: source-registry-pilot-
+          key: source-registry-pilot-roo-${{ github.run_id }}
+          restore-keys: source-registry-pilot-roo-
       - name: Connectivity test and live pilot-25
         run: node scripts/source-registry-runner.mjs --set=pilot
-      - name: Upload pilot registry, comparison, QA, checkpoint and logs
+      - name: Upload pilot registry, ROO reconciliation, comparison, QA, checkpoint and logs
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -66,15 +68,17 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Seed official municipality websites from ROO
+        run: node scripts/seed-roo-municipal-websites.mjs
       - name: Restore nationwide checkpoint
         uses: actions/cache@v4
         with:
           path: artifacts/source-registry/checkpoint-all342.json
-          key: source-registry-all342-${{ github.run_id }}
-          restore-keys: source-registry-all342-
+          key: source-registry-all342-roo-${{ github.run_id }}
+          restore-keys: source-registry-all342-roo-
       - name: Assemble and check all 342 municipalities
         run: node scripts/source-registry-runner.mjs --set=all342
-      - name: Preserve nationwide registry, QA, checkpoint and logs
+      - name: Preserve nationwide registry, ROO reconciliation, QA, checkpoint and logs
         if: always()
         uses: actions/upload-artifact@v4
         with:
@@ -90,6 +94,8 @@ jobs:
           cp artifacts/source-registry/bronregister-pilot-compare.json reports/source-registry/bronregister-pilot-compare.json
           cp artifacts/source-registry/registry-qa-all342.json reports/source-registry/registry-qa-all342.json
           cp artifacts/source-registry/run-summary-all342.md reports/source-registry/run-summary-all342.md
+          cp artifacts/source-registry/roo-municipality-seed.json reports/source-registry/roo-municipality-seed.json
+          cp artifacts/source-registry/roo-seed-summary.md reports/source-registry/roo-seed-summary.md
       - name: Regenerate Excel when the optional workbook runtime is available
         if: inputs.commit == true
         shell: bash

@@ -27,8 +27,8 @@ for(const rule of rules){
   if(!codes.has(rule.municipalityCode))fail(`${rule.id}: unknown municipality code`);
   if(!rule.officialApplicationUrl&&rule.applicationUrlStatus!=="unresolved")fail(`${rule.id}: missing officialApplicationUrl`);
   if(rule.officialApplicationUrl&&!rule.officialApplicationUrl.startsWith("https://"))fail(`${rule.id}: non-HTTPS application URL`);
-  if(rule.officialApplicationUrl===rule.officialInformationUrl&&rule.applicationUrlStatus!=="same-as-info-verified")fail(`${rule.id}: identical info/application URL lacks explicit review`);
-  if(rule.officialApplicationUrl!==rule.officialInformationUrl&&rule.applicationUrlStatus==="same-as-info-verified")fail(`${rule.id}: same-URL status does not match URLs`);
+  if(rule.officialApplicationUrl && rule.officialInformationUrl && rule.officialApplicationUrl===rule.officialInformationUrl && rule.applicationUrlStatus!=="same-as-info-verified")fail(`${rule.id}: identical info/application URL lacks explicit review`);
+  if(rule.officialApplicationUrl && rule.officialInformationUrl && rule.officialApplicationUrl!==rule.officialInformationUrl&&rule.applicationUrlStatus==="same-as-info-verified")fail(`${rule.id}: same-URL status does not match URLs`);
   if(!Array.isArray(rule.requiredDocuments)||!Array.isArray(rule.applicationDocuments))fail(`${rule.id}: document fields missing`);
   for(const document of rule.applicationDocuments||[])if(!document.url.startsWith("https://"))fail(`${rule.id}: non-HTTPS document URL`);
   const path=new URL(rule.officialApplicationUrl||"https://invalid.example").pathname.toLowerCase();

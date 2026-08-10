@@ -1,0 +1,10 @@
+{
+  "knownRelationships": 52,
+  "rediscovered": 52,
+  "missedRelationships": [],
+  "extraCandidates": [],
+  "unexplainedFalsePositives": [],
+  "recallPercent": 100,
+  "falsePositives": 0,
+  "method": "benchmark used only after index-backed discovery"
+}

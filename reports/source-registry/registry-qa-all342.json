@@ -1,0 +1,5172 @@
+{
+  "set": "all342",
+  "passed": true,
+  "recordCount": 342,
+  "expectedRecordCount": 342,
+  "connectivitySemantics": "gate required adapter capabilities, not arbitrary homepage HTTP status",
+  "connectivity": [
+    {
+      "sourceClass": "official-publication",
+      "capability": "municipal-regulation",
+      "url": "https://lokaleregelgeving.overheid.nl/CVDR749527",
+      "requiredForRun": true,
+      "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR749527",
+      "status": 200,
+      "reachable": true,
+      "retries": 0,
+      "durationMs": 5553,
+      "checkedAt": "2026-08-10T07:49:00.276Z",
+      "contentSha256": "bea2f4012ebad0097303cef85c9c0fbdca515dba56d69832def5c4869ca8e8e4",
+      "bytes": 395945,
+      "validation": null,
+      "state": "reachable-required-endpoint",
+      "capabilityAvailable": true,
+      "capabilityState": "reachable"
+    },
+    {
+      "sourceClass": "national-law",
+      "capability": "national-legal-basis",
+      "url": "https://wetten.overheid.nl/BWBR0003403",
+      "requiredForRun": false,
+      "finalUrl": "https://wetten.overheid.nl/BWBR0003403/2024-07-01",
+      "status": 200,
+      "reachable": true,
+      "retries": 0,
+      "durationMs": 5169,
+      "checkedAt": "2026-08-10T07:48:59.917Z",
+      "contentSha256": "8dc9d7a15c0cde689d79760802c09fb07bf13fd84124b9cd248bb64128c4bde7",
+      "bytes": 189305,
+      "validation": null,
+      "state": "reachable-required-endpoint",
+      "capabilityAvailable": true,
+      "capabilityState": "reachable"
+    },
+    {
+      "sourceClass": "official-announcement",
+      "capability": "official-announcements",
+      "url": "https://www.officielebekendmakingen.nl/",
+      "requiredForRun": false,
+      "finalUrl": "https://www.officielebekendmakingen.nl/",
+      "status": 200,
+      "reachable": true,
+      "retries": 0,
+      "durationMs": 4897,
+      "checkedAt": "2026-08-10T07:48:59.647Z",
+      "contentSha256": "7e35d992d2feb75d40a7997da7a757d12072886c1c34d7cca2e5bce033e38bca",
+      "bytes": 15161,
+      "validation": null,
+      "state": "reachable-required-endpoint",
+      "capabilityAvailable": true,
+      "capabilityState": "reachable"
+    },
+    {
+      "sourceClass": "gis-pdok",
+      "capability": "address-and-municipality-resolution",
+      "url": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=1012JS%201&fq=type:adres&rows=1",
+      "requiredForRun": true,
+      "validator": "pdok-locatieserver",
+      "finalUrl": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=1012JS%201&fq=type:adres&rows=1",
+      "status": 200,
+      "reachable": true,
+      "retries": 0,
+      "durationMs": 7367,
+      "checkedAt": "2026-08-10T07:49:02.118Z",
+      "contentSha256": "0b6449ad6ca68a7d9660cdf5be601a691b91253bec1fabba1a745aac8c0e2645",
+      "bytes": 1390,
+      "validation": "valid-locatieserver-response",
+      "state": "reachable-required-endpoint",
+      "capabilityAvailable": true,
+      "capabilityState": "reachable"
+    },
+    {
+      "sourceClass": "cbs",
+      "capability": "municipality-assembly",
+      "url": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026",
+      "requiredForRun": true,
+      "finalUrl": "https://www.cbs.nl/nl-nl/onze-diensten/methoden/classificaties/overig/gemeentelijke-indelingen-per-jaar/indeling-per-jaar/gemeentelijke-indeling-op-1-januari-2026",
+      "status": 200,
+      "reachable": true,
+      "retries": 0,
+      "durationMs": 5418,
+      "checkedAt": "2026-08-10T07:49:00.170Z",
+      "contentSha256": "7f86f1879ccec87d69d1ecc45f3b65ae69182bc765da95f66d7a1b8de9f1828c",
+      "bytes": 42673,
+      "validation": null,
+      "state": "reachable-required-endpoint",
+      "capabilityAvailable": true,
+      "capabilityState": "reachable"
+    }
+  ],
+  "requiredCapabilitiesPassed": true,
+  "municipalWebsiteResults": [
+    {
+      "municipalityCode": "GM1680",
+      "municipalityName": "Aa en Hunze",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.aaenhunze.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0358",
+      "municipalityName": "Aalsmeer",
+      "requiredForBenchmark": true,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.aalsmeer.nl/verhuurvergunning-bij-opkoopbescherming",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": [
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR749527"
+        },
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR623005"
+        }
+      ]
+    },
+    {
+      "municipalityCode": "GM0197",
+      "municipalityName": "Aalten",
+      "requiredForBenchmark": true,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.aalten.nl/verhuurvergunning",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": [
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR720987"
+        }
+      ]
+    },
+    {
+      "municipalityCode": "GM0059",
+      "municipalityName": "Achtkarspelen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.achtkarspelen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": [
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR705002"
+        }
+      ]
+    },
+    {
+      "municipalityCode": "GM0482",
+      "municipalityName": "Alblasserdam",
+      "requiredForBenchmark": true,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Onttrekkingsvergunning_woonruimte_kamerverhuur",
+          "status": 200,
+          "state": "accessible"
+        },
+        {
+          "url": "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Splitsingsvergunning",
+          "status": 200,
+          "state": "accessible"
+        },
+        {
+          "url": "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Opkoopbescherming",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": [
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR741471"
+        },
+        {
+          "sourceClass": "application",
+          "url": "https://www.ozhz.nl/onttrekkingsvergunningaanvragen/"
+        },
+        {
+          "sourceClass": "application",
+          "url": "https://www.ozhz.nl/een-splitsingsvergunning-aanvragen/"
+        },
+        {
+          "sourceClass": "application",
+          "url": "https://www.alblasserdam.nl/Mediatheek/Inwoners/bouwen_verbouwen_en_wonen/Formulier_vrijstelling_opkoopbescherming.org"
+        }
+      ]
+    },
+    {
+      "municipalityCode": "GM0613",
+      "municipalityName": "Albrandswaard",
+      "requiredForBenchmark": true,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.albrandswaard.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": [
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR741224"
+        },
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR660521"
+        }
+      ]
+    },
+    {
+      "municipalityCode": "GM0361",
+      "municipalityName": "Alkmaar",
+      "requiredForBenchmark": true,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/wonen",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": [
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR713872"
+        },
+        {
+          "sourceClass": "application",
+          "url": "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/huisvesting/kamerverhuur"
+        }
+      ]
+    },
+    {
+      "municipalityCode": "GM0141",
+      "municipalityName": "Almelo",
+      "requiredForBenchmark": true,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.almelo.nl/wonen-bouwen-en-verbouwen/wet-opkoopbescherming-almelo",
+          "status": 200,
+          "state": "accessible"
+        },
+        {
+          "url": "https://www.almelo.nl/wonen-bouwen-en-verbouwen/leegstandsverordening",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": [
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR726069"
+        },
+        {
+          "sourceClass": "gis",
+          "url": "https://services-eu1.arcgis.com/2FmtZGxkWSsSDBQm/arcgis/rest/services/Wijk_Opkoopbescherming/FeatureServer/0"
+        },
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR638723"
+        },
+        {
+          "sourceClass": "application",
+          "url": "https://almelo.nl/bouwen-en-wonen/leegstandsverordening/formulier-leegstandsverordening"
+        }
+      ]
+    },
+    {
+      "municipalityCode": "GM0034",
+      "municipalityName": "Almere",
+      "requiredForBenchmark": true,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.almere.nl/wonen/opkoopbescherming",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": [
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR741425"
+        },
+        {
+          "sourceClass": "application",
+          "url": "https://formulieren.almere.nl/TriplEforms/formulierenoverzicht/nl-NL/evAlmere.aspx"
+        }
+      ]
+    },
+    {
+      "municipalityCode": "GM0484",
+      "municipalityName": "Alphen aan den Rijn",
+      "requiredForBenchmark": true,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.hureninhollandrijnland.nl/",
+          "status": 200,
+          "state": "accessible"
+        },
+        {
+          "url": "https://www.alphenaandenrijn.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": [
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR752466"
+        }
+      ]
+    },
+    {
+      "municipalityCode": "GM1723",
+      "municipalityName": "Alphen-Chaam",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.alphen-chaam.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1959",
+      "municipalityName": "Altena",
+      "requiredForBenchmark": true,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.gemeentealtena.nl/bouwen-en-verbouwen/het-proces-rondom-een-vergunning",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": [
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR699287"
+        },
+        {
+          "sourceClass": "application",
+          "url": "https://omgevingswet.overheid.nl/checken"
+        }
+      ]
+    },
+    {
+      "municipalityCode": "GM0060",
+      "municipalityName": "Ameland",
+      "requiredForBenchmark": true,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.ameland.nl/huisvestingsvergunning",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": [
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR704968"
+        }
+      ]
+    },
+    {
+      "municipalityCode": "GM0307",
+      "municipalityName": "Amersfoort",
+      "requiredForBenchmark": true,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.amersfoort.nl/huren-amersfoort",
+          "status": 200,
+          "state": "accessible"
+        },
+        {
+          "url": "https://www.amersfoort.nl/leegstand-woning",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": [
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR741596"
+        },
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR758403"
+        }
+      ]
+    },
+    {
+      "municipalityCode": "GM0362",
+      "municipalityName": "Amstelveen",
+      "requiredForBenchmark": true,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.amstelveen.nl/leegstand-melden",
+          "status": 200,
+          "state": "accessible"
+        },
+        {
+          "url": "https://www.amstelveen.nl/verhuurvergunning-bij-opkoopbescherming",
+          "status": 200,
+          "state": "accessible"
+        },
+        {
+          "url": "https://www.amstelveen.nl/woningdelen",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": [
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR614436"
+        },
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR748045"
+        },
+        {
+          "sourceClass": "application",
+          "url": "https://omgevingswet.overheid.nl/checken"
+        }
+      ]
+    },
+    {
+      "municipalityCode": "GM0363",
+      "municipalityName": "Amsterdam",
+      "requiredForBenchmark": true,
+      "state": "successfully-discovered-through-another-approved-official-source",
+      "attempted": [
+        {
+          "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/huisvestingsvergunning/",
+          "status": 403,
+          "state": "blocked"
+        },
+        {
+          "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/",
+          "status": 403,
+          "state": "blocked"
+        },
+        {
+          "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/kamer-verhuren/",
+          "status": 403,
+          "state": "blocked"
+        },
+        {
+          "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/vergunning-woningvorming-aanvragen/",
+          "status": 403,
+          "state": "blocked"
+        },
+        {
+          "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/vakantieverhuur/",
+          "status": 403,
+          "state": "blocked"
+        },
+        {
+          "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/opkoopbescherming/",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": [
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR706038"
+        }
+      ]
+    },
+    {
+      "municipalityCode": "GM0200",
+      "municipalityName": "Apeldoorn",
+      "requiredForBenchmark": true,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.apeldoorn.nl/regelen-en-weten/wonen-en-verhuizen/huren-en-kamerverhuur/verhuur-verblijfsruimten-arbeidsmigranten/",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": [
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR754879"
+        }
+      ]
+    },
+    {
+      "municipalityCode": "GM0202",
+      "municipalityName": "Arnhem",
+      "requiredForBenchmark": true,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.arnhem.nl/alle-onderwerpen/wonen/kopen-huren-en-verhuren/",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": [
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR709142"
+        },
+        {
+          "sourceClass": "application",
+          "url": "https://www.entree.nu"
+        },
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR728286"
+        },
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR736697"
+        },
+        {
+          "sourceClass": "application",
+          "url": "https://www.arnhem.nl/wp-content/uploads/2025/01/Aanvraagformulier-verhuurvergunning-opkoopbescherming.pdf"
+        }
+      ]
+    },
+    {
+      "municipalityCode": "GM0106",
+      "municipalityName": "Assen",
+      "requiredForBenchmark": true,
+      "state": "successfully-discovered-through-another-approved-official-source",
+      "attempted": [
+        {
+          "url": "https://www.assen.nl/woning-splitsen-in-aparte-zelfstandige-woningen",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": [
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR750864"
+        },
+        {
+          "sourceClass": "application",
+          "url": "https://omgevingswet.overheid.nl/checken"
+        }
+      ]
+    },
+    {
+      "municipalityCode": "GM0743",
+      "municipalityName": "Asten",
+      "requiredForBenchmark": true,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.asten.nl/wonen-en-verhuizen/vergunning-huisvesting-arbeidsmigranten",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": [
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR740975"
+        },
+        {
+          "sourceClass": "application",
+          "url": "https://www.asten.nl/fileadmin/Asten/PDF-formulieren_producten/Wonen/Vergunning_huisvesten_arbeidsmigranten/Aanvraagformulier_exploitatievergunning_huisvesting_arbeidsmigranten.pdf"
+        }
+      ]
+    },
+    {
+      "municipalityCode": "GM0744",
+      "municipalityName": "Baarle-Nassau",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.baarle-nassau.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0308",
+      "municipalityName": "Baarn",
+      "requiredForBenchmark": true,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.baarn.nl/wonen-en-verhuizen",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": [
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR746230"
+        }
+      ]
+    },
+    {
+      "municipalityCode": "GM0489",
+      "municipalityName": "Barendrecht",
+      "requiredForBenchmark": true,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.barendrecht.nl/direct-regelen/wonen-leefomgeving-verbouwen/wonen-verhuizen/woning-zoeken-sociale-huur/",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": [
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR740024"
+        }
+      ]
+    },
+    {
+      "municipalityCode": "GM0203",
+      "municipalityName": "Barneveld",
+      "requiredForBenchmark": true,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/hulp-bij-wonen/huurwoning-inschrijving",
+          "status": 200,
+          "state": "accessible"
+        },
+        {
+          "url": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/het-gebruik-van-een-woning-veranderen",
+          "status": 200,
+          "state": "accessible"
+        },
+        {
+          "url": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/leegstaande-woonruimte-tijdelijk-verhuren",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": [
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR738588"
+        },
+        {
+          "sourceClass": "application",
+          "url": "https://www.huiswaarts.nu"
+        },
+        {
+          "sourceClass": "application",
+          "url": "https://omgevingswet.overheid.nl/checken"
+        },
+        {
+          "sourceClass": "regulation",
+          "url": "https://wetten.overheid.nl/BWBR0003403"
+        }
+      ]
+    },
+    {
+      "municipalityCode": "GM0888",
+      "municipalityName": "Beek (L.)",
+      "requiredForBenchmark": true,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.gemeentebeek.nl",
+          "status": 200,
+          "state": "accessible"
+        },
+        {
+          "url": "https://www.topinkomens.nl/voor-wnt-instellingen/wnt-register",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": [
+        {
+          "sourceClass": "regulation",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR731804"
+        }
+      ]
+    },
+    {
+      "municipalityCode": "GM1954",
+      "municipalityName": "Beekdaelen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.beekdaelen.nl/",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0889",
+      "municipalityName": "Beesel",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.beesel.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1945",
+      "municipalityName": "Berg en Dal",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.bergendal.nl/",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1724",
+      "municipalityName": "Bergeijk",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.bergeijk.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0893",
+      "municipalityName": "Bergen (L.)",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.bergeijk.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0373",
+      "municipalityName": "Bergen (NH.)",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.bergen-nh.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0748",
+      "municipalityName": "Bergen op Zoom",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.bergenopzoom.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1859",
+      "municipalityName": "Berkelland",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.gemeenteberkelland.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1721",
+      "municipalityName": "Bernheze",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.bernheze.org",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0753",
+      "municipalityName": "Best",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.gemeentebest.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0209",
+      "municipalityName": "Beuningen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.beuningen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0375",
+      "municipalityName": "Beverwijk",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.beverwijk.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0310",
+      "municipalityName": "De Bilt",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.debilt.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1728",
+      "municipalityName": "Bladel",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.bladel.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0376",
+      "municipalityName": "Blaricum",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.blaricum.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0377",
+      "municipalityName": "Bloemendaal",
+      "requiredForBenchmark": false,
+      "state": "unavailable",
+      "attempted": [
+        {
+          "url": "https://eloket.bloemendaal.nl/mozard/!suite09.scherm1089?mWfrs=1221194&mNch=bb5zxgvxwh",
+          "status": 0,
+          "state": "unavailable"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1901",
+      "municipalityName": "Bodegraven-Reeuwijk",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.bodegraven-reeuwijk.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0755",
+      "municipalityName": "Boekel",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.boekel.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1681",
+      "municipalityName": "Borger-Odoorn",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.borger-odoorn.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0147",
+      "municipalityName": "Borne",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.borne.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0654",
+      "municipalityName": "Borsele",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.borsele.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0757",
+      "municipalityName": "Boxtel",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.boxtel.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0758",
+      "municipalityName": "Breda",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.breda.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1876",
+      "municipalityName": "Bronckhorst",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.bronckhorst.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0213",
+      "municipalityName": "Brummen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.brummen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0899",
+      "municipalityName": "Brunssum",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.brunssum.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0312",
+      "municipalityName": "Bunnik",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.bunnik.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0313",
+      "municipalityName": "Bunschoten",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.bunschoten.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0214",
+      "municipalityName": "Buren",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.buren.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0502",
+      "municipalityName": "Capelle aan den IJssel",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.capelleaandenijssel.nl/#",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0383",
+      "municipalityName": "Castricum",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.castricum.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0109",
+      "municipalityName": "Coevorden",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.coevorden.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1706",
+      "municipalityName": "Cranendonck",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.cranendonck.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0216",
+      "municipalityName": "Culemborg",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.culemborg.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0148",
+      "municipalityName": "Dalfsen",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.dalfsen.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1891",
+      "municipalityName": "Dantumadiel",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.dantumadiel.frl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0503",
+      "municipalityName": "Delft",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.delft.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0762",
+      "municipalityName": "Deurne",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.deurne.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0150",
+      "municipalityName": "Deventer",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.deventer.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0384",
+      "municipalityName": "Diemen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.diemen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1980",
+      "municipalityName": "Dijk en Waard",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.dijkenwaard.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1774",
+      "municipalityName": "Dinkelland",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.dinkelland.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0221",
+      "municipalityName": "Doesburg",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.doesburg.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0222",
+      "municipalityName": "Doetinchem",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.doetinchem.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0766",
+      "municipalityName": "Dongen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.dongen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0505",
+      "municipalityName": "Dordrecht",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.dordrecht.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0498",
+      "municipalityName": "Drechterland",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.drechterland.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1719",
+      "municipalityName": "Drimmelen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.drimmelen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0303",
+      "municipalityName": "Dronten",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.dronten.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0225",
+      "municipalityName": "Druten",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.druten.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0226",
+      "municipalityName": "Duiven",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.duiven.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1711",
+      "municipalityName": "Echt-Susteren",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.echt-susteren.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0385",
+      "municipalityName": "Edam-Volendam",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.edam-volendam.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0228",
+      "municipalityName": "Ede",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.ede.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0317",
+      "municipalityName": "Eemnes",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.eemnes.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1979",
+      "municipalityName": "Eemsdelta",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.eemsdelta.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0770",
+      "municipalityName": "Eersel",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.eersel.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1903",
+      "municipalityName": "Eijsden-Margraten",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.eijsden-margraten.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0772",
+      "municipalityName": "Eindhoven",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.eindhoven.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0230",
+      "municipalityName": "Elburg",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.elburg.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0114",
+      "municipalityName": "Emmen",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.emmen.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0388",
+      "municipalityName": "Enkhuizen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.enkhuizen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0153",
+      "municipalityName": "Enschede",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.enschede.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0232",
+      "municipalityName": "Epe",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.epe.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0233",
+      "municipalityName": "Ermelo",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.ermelo.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0777",
+      "municipalityName": "Etten-Leur",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.etten-leur.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1940",
+      "municipalityName": "De Fryske Marren",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.defryskemarren.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0779",
+      "municipalityName": "Geertruidenberg",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.geertruidenberg.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1771",
+      "municipalityName": "Geldrop-Mierlo",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.geldrop-mierlo.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1652",
+      "municipalityName": "Gemert-Bakel",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.gemert-bakel.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0907",
+      "municipalityName": "Gennep",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.gennep.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0784",
+      "municipalityName": "Gilze en Rijen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.topinkomens.nl/voor-wnt-instellingen/wnt-register",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1924",
+      "municipalityName": "Goeree-Overflakkee",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.goeree-overflakkee.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0664",
+      "municipalityName": "Goes",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.goes.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0785",
+      "municipalityName": "Goirle",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.goirle.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1942",
+      "municipalityName": "Gooise Meren",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.gooisemeren.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0512",
+      "municipalityName": "Gorinchem",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.gorinchem.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0513",
+      "municipalityName": "Gouda",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.gouda.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0518",
+      "municipalityName": "Den Haag",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.denhaag.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0014",
+      "municipalityName": "Groningen",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://gemeente.groningen.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1729",
+      "municipalityName": "Gulpen-Wittem",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.gulpen-wittem.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0158",
+      "municipalityName": "Haaksbergen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.haaksbergen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0392",
+      "municipalityName": "Haarlem",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.haarlem.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0394",
+      "municipalityName": "Haarlemmermeer",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.haarlemmermeer.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1655",
+      "municipalityName": "Halderberge",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.halderberge.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0160",
+      "municipalityName": "Hardenberg",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.hardenberg.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0243",
+      "municipalityName": "Harderwijk",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.harderwijk.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0523",
+      "municipalityName": "Hardinxveld-Giessendam",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.hardinxveld-giessendam.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0072",
+      "municipalityName": "Harlingen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.harlingen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0244",
+      "municipalityName": "Hattem",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.hattem.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0396",
+      "municipalityName": "Heemskerk",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.heemskerk.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0397",
+      "municipalityName": "Heemstede",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.heemstede.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0246",
+      "municipalityName": "Heerde",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.heerde.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0074",
+      "municipalityName": "Heerenveen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.heerenveen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0917",
+      "municipalityName": "Heerlen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.heerlen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1658",
+      "municipalityName": "Heeze-Leende",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.heeze-leende.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0399",
+      "municipalityName": "Heiloo",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.heiloo.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0400",
+      "municipalityName": "Den Helder",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.denhelder.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0163",
+      "municipalityName": "Hellendoorn",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.hellendoorn.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0794",
+      "municipalityName": "Helmond",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.helmond.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0531",
+      "municipalityName": "Hendrik-Ido-Ambacht",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.helmond.nl/woo",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0164",
+      "municipalityName": "Hengelo (O.)",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.h-i-ambacht.nl/",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0796",
+      "municipalityName": "'s-Hertogenbosch",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.s-hertogenbosch.nl/woo/",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0252",
+      "municipalityName": "Heumen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.heumen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0797",
+      "municipalityName": "Heusden",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.heusden.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0534",
+      "municipalityName": "Hillegom",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.hillegom.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0798",
+      "municipalityName": "Hilvarenbeek",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.hilvarenbeek.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0402",
+      "municipalityName": "Hilversum",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.hilversum.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1963",
+      "municipalityName": "Hoeksche Waard",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://hoekschewaard.mijnafspraakmaken.nl/client/",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1735",
+      "municipalityName": "Hof van Twente",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.hofvantwente.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1966",
+      "municipalityName": "Het Hogeland",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://hethogeland.nl/",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1911",
+      "municipalityName": "Hollands Kroon",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.hollandskroon.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0118",
+      "municipalityName": "Hoogeveen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.hoogeveen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0405",
+      "municipalityName": "Hoorn",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.hoorn.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1507",
+      "municipalityName": "Horst aan de Maas",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.horstaandemaas.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0321",
+      "municipalityName": "Houten",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.houten.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0406",
+      "municipalityName": "Huizen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.huizen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0677",
+      "municipalityName": "Hulst",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.gemeentehulst.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0353",
+      "municipalityName": "IJsselstein",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.ijsselstein.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1884",
+      "municipalityName": "Kaag en Braassem",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.kaagenbraassem.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0166",
+      "municipalityName": "Kampen",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.kampen.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0678",
+      "municipalityName": "Kapelle",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.kapelle.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0537",
+      "municipalityName": "Katwijk",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.katwijk.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0928",
+      "municipalityName": "Kerkrade",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.kerkrade.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1598",
+      "municipalityName": "Koggenland",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.koggenland.nl/",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0542",
+      "municipalityName": "Krimpen aan den IJssel",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.krimpenaandenijssel.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1931",
+      "municipalityName": "Krimpenerwaard",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.krimpenerwaard.nl/",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1659",
+      "municipalityName": "Laarbeek",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.laarbeek.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1982",
+      "municipalityName": "Land van Cuijk",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.landvancuijk.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0882",
+      "municipalityName": "Landgraaf",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.landgraaf.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0415",
+      "municipalityName": "Landsmeer",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.landsmeer.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1621",
+      "municipalityName": "Lansingerland",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.lansingerland.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0417",
+      "municipalityName": "Laren (NH.)",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.lansingerland.nl/direct-regelen/klacht-of-melding/gemeentelijke-organisatie/woo-verzoek-indienen/",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0080",
+      "municipalityName": "Leeuwarden",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.leeuwarden.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0546",
+      "municipalityName": "Leiden",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.leiden.nl/gemeente",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0547",
+      "municipalityName": "Leiderdorp",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.leiderdorp.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1916",
+      "municipalityName": "Leidschendam-Voorburg",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.leidschendam-voorburg.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0995",
+      "municipalityName": "Lelystad",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.lelystad.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1640",
+      "municipalityName": "Leudal",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.leudal.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0327",
+      "municipalityName": "Leusden",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.leusden.nl/",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1705",
+      "municipalityName": "Lingewaard",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.lingewaard.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0553",
+      "municipalityName": "Lisse",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.lisse.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0262",
+      "municipalityName": "Lochem",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.lochem.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0809",
+      "municipalityName": "Loon op Zand",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.loonopzand.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0331",
+      "municipalityName": "Lopik",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.lopik.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0168",
+      "municipalityName": "Losser",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.losser.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0263",
+      "municipalityName": "Maasdriel",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.maasdriel.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1641",
+      "municipalityName": "Maasgouw",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.gemeentemaasgouw.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1991",
+      "municipalityName": "Maashorst",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.gemeentemaashorst.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0556",
+      "municipalityName": "Maassluis",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.maassluis.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0935",
+      "municipalityName": "Maastricht",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.gemeentemaastricht.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0420",
+      "municipalityName": "Medemblik",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.medemblik.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0938",
+      "municipalityName": "Meerssen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.meerssen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1948",
+      "municipalityName": "Meierijstad",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.meierijstad.nl/home",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0119",
+      "municipalityName": "Meppel",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.meppel.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0687",
+      "municipalityName": "Middelburg (Z.)",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.meppel.nl/direct-regelen/melding-klacht-en-bezwaar/woo-verzoek/",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1842",
+      "municipalityName": "Midden-Delfland",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.middendelfland.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1731",
+      "municipalityName": "Midden-Drenthe",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.middendrenthe.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1952",
+      "municipalityName": "Midden-Groningen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.midden-groningen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1709",
+      "municipalityName": "Moerdijk",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.moerdijk.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1978",
+      "municipalityName": "Molenlanden",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.molenlanden.nl/",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1955",
+      "municipalityName": "Montferland",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.montferland.info/",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0335",
+      "municipalityName": "Montfoort",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.montfoort.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0944",
+      "municipalityName": "Mook en Middelaar",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.mookenmiddelaar.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1740",
+      "municipalityName": "Neder-Betuwe",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.nederbetuwe.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0946",
+      "municipalityName": "Nederweert",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.nederweert.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0356",
+      "municipalityName": "Nieuwegein",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.nieuwegein.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0569",
+      "municipalityName": "Nieuwkoop",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.nieuwkoop.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0267",
+      "municipalityName": "Nijkerk",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.nijkerk.eu",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0268",
+      "municipalityName": "Nijmegen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.nijmegen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1930",
+      "municipalityName": "Nissewaard",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.nissewaard.nl/",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1970",
+      "municipalityName": "Noardeast-Fryslân",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.noardeast-fryslan.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1695",
+      "municipalityName": "Noord-Beveland",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.noord-beveland.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1699",
+      "municipalityName": "Noordenveld",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.noordenveld.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0171",
+      "municipalityName": "Noordoostpolder",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.noordoostpolder.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0575",
+      "municipalityName": "Noordwijk",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.noordwijk.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0820",
+      "municipalityName": "Nuenen, Gerwen en Nederwetten",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.topinkomens.nl/voor-wnt-instellingen/wnt-register",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0302",
+      "municipalityName": "Nunspeet",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.nunspeet.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0579",
+      "municipalityName": "Oegstgeest",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.oegstgeest.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0823",
+      "municipalityName": "Oirschot",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.oirschot.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0824",
+      "municipalityName": "Oisterwijk",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.oisterwijk.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1895",
+      "municipalityName": "Oldambt",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.gemeente-oldambt.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0269",
+      "municipalityName": "Oldebroek",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.oldebroek.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0173",
+      "municipalityName": "Oldenzaal",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.oldenzaal.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1773",
+      "municipalityName": "Olst-Wijhe",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.olst-wijhe.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0175",
+      "municipalityName": "Ommen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.ommen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1586",
+      "municipalityName": "Oost Gelre",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.oostgelre.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0826",
+      "municipalityName": "Oosterhout",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.oosterhout.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0085",
+      "municipalityName": "Ooststellingwerf",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.ooststellingwerf.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0431",
+      "municipalityName": "Oostzaan",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.oostzaan.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0432",
+      "municipalityName": "Opmeer",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.opmeer.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0086",
+      "municipalityName": "Opsterland",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.opsterland.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0828",
+      "municipalityName": "Oss",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.oss.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1509",
+      "municipalityName": "Oude IJsselstreek",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.oude-ijsselstreek.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0437",
+      "municipalityName": "Ouder-Amstel",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.ouder-amstel.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0589",
+      "municipalityName": "Oudewater",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.oudewater.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1734",
+      "municipalityName": "Overbetuwe",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.overbetuwe.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0590",
+      "municipalityName": "Papendrecht",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.papendrecht.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1894",
+      "municipalityName": "Peel en Maas",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.peelenmaas.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0765",
+      "municipalityName": "Pekela",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.pekela.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1926",
+      "municipalityName": "Pijnacker-Nootdorp",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.pijnacker-nootdorp.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0439",
+      "municipalityName": "Purmerend",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.purmerend.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0273",
+      "municipalityName": "Putten",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.putten.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0177",
+      "municipalityName": "Raalte",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.raalte.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0703",
+      "municipalityName": "Reimerswaal",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.reimerswaal.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0274",
+      "municipalityName": "Renkum",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.renkum.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0339",
+      "municipalityName": "Renswoude",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.renswoude.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1667",
+      "municipalityName": "Reusel-De Mierden",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.reuseldemierden.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0275",
+      "municipalityName": "Rheden",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.rheden.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0340",
+      "municipalityName": "Rhenen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.rhenen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0597",
+      "municipalityName": "Ridderkerk",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.ridderkerk.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1742",
+      "municipalityName": "Rijssen-Holten",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.rijssen-holten.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0603",
+      "municipalityName": "Rijswijk (ZH.)",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.rijssen-holten.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1669",
+      "municipalityName": "Roerdalen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.roerdalen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0957",
+      "municipalityName": "Roermond",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.roermond.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0736",
+      "municipalityName": "De Ronde Venen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.derondevenen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1674",
+      "municipalityName": "Roosendaal",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.roosendaal.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0599",
+      "municipalityName": "Rotterdam",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.rotterdam.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0277",
+      "municipalityName": "Rozendaal",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.rozendaal.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0840",
+      "municipalityName": "Rucphen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.rucphen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0441",
+      "municipalityName": "Schagen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.schagen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0279",
+      "municipalityName": "Scherpenzeel",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.scherpenzeel.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0606",
+      "municipalityName": "Schiedam",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.schiedam.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0088",
+      "municipalityName": "Schiermonnikoog",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.schiermonnikoog.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1676",
+      "municipalityName": "Schouwen-Duiveland",
+      "requiredForBenchmark": false,
+      "state": "unavailable",
+      "attempted": [
+        {
+          "url": "https://www.schouwen-duiveland.nl",
+          "status": 0,
+          "state": "unavailable"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0965",
+      "municipalityName": "Simpelveld",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.simpelveld.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0845",
+      "municipalityName": "Sint-Michielsgestel",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.sint-michielsgestel.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1883",
+      "municipalityName": "Sittard-Geleen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.sittard-geleen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0610",
+      "municipalityName": "Sliedrecht",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.sliedrecht.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1714",
+      "municipalityName": "Sluis",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.gemeentesluis.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0090",
+      "municipalityName": "Smallingerland",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.smallingerland.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0342",
+      "municipalityName": "Soest",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.soest.nl/contact",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0847",
+      "municipalityName": "Someren",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.someren.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0848",
+      "municipalityName": "Son en Breugel",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.sonenbreugel.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0037",
+      "municipalityName": "Stadskanaal",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.stadskanaal.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0180",
+      "municipalityName": "Staphorst",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.staphorst.nl/contact-en-openingstijden",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0532",
+      "municipalityName": "Stede Broec",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.stedebroec.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0851",
+      "municipalityName": "Steenbergen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.gemeente-steenbergen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1708",
+      "municipalityName": "Steenwijkerland",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.steenwijkerland.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0971",
+      "municipalityName": "Stein (L.)",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.steenwijkerland.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1904",
+      "municipalityName": "Stichtse Vecht",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.stichtsevecht.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1900",
+      "municipalityName": "Súdwest-Fryslân",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.sudwestfryslan.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0715",
+      "municipalityName": "Terneuzen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.terneuzen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0093",
+      "municipalityName": "Terschelling",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.terschelling.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0448",
+      "municipalityName": "Texel",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.texel.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1525",
+      "municipalityName": "Teylingen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.teylingen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0716",
+      "municipalityName": "Tholen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.tholen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0281",
+      "municipalityName": "Tiel",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.tiel.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0855",
+      "municipalityName": "Tilburg",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.tilburg.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0183",
+      "municipalityName": "Tubbergen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.tubbergen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1700",
+      "municipalityName": "Twenterand",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.twenterand.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1730",
+      "municipalityName": "Tynaarlo",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.tynaarlo.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0737",
+      "municipalityName": "Tytsjerksteradiel",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.tynaarlo.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0450",
+      "municipalityName": "Uitgeest",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.uitgeest.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0451",
+      "municipalityName": "Uithoorn",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.uithoorn.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0184",
+      "municipalityName": "Urk",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.urk.nl/",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0344",
+      "municipalityName": "Utrecht",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.utrecht.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1581",
+      "municipalityName": "Utrechtse Heuvelrug",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.utrecht.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0981",
+      "municipalityName": "Vaals",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.vaals.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0994",
+      "municipalityName": "Valkenburg aan de Geul",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.vaals.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0858",
+      "municipalityName": "Valkenswaard",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.valkenswaard.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0047",
+      "municipalityName": "Veendam",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.veendam.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0345",
+      "municipalityName": "Veenendaal",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.veenendaal.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0717",
+      "municipalityName": "Veere",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.veere.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0861",
+      "municipalityName": "Veldhoven",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.veldhoven.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0453",
+      "municipalityName": "Velsen",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.velsen.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0983",
+      "municipalityName": "Venlo",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.venlo.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0984",
+      "municipalityName": "Venray",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.venray.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1961",
+      "municipalityName": "Vijfheerenlanden",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.vijfheerenlanden.nl/",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0622",
+      "municipalityName": "Vlaardingen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.vlaardingen.nl/Contact",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0096",
+      "municipalityName": "Vlieland",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.vlieland.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0718",
+      "municipalityName": "Vlissingen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.vlissingen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0986",
+      "municipalityName": "Voerendaal",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.voerendaal.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1992",
+      "municipalityName": "Voorne aan Zee",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.voorneaanzee.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0626",
+      "municipalityName": "Voorschoten",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.voorschoten.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0285",
+      "municipalityName": "Voorst",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.voorst.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0865",
+      "municipalityName": "Vught",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.vught.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1949",
+      "municipalityName": "Waadhoeke",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.waadhoeke.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0866",
+      "municipalityName": "Waalre",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.waalre.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0867",
+      "municipalityName": "Waalwijk",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.waalwijk.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0627",
+      "municipalityName": "Waddinxveen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.waddinxveen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0289",
+      "municipalityName": "Wageningen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.wageningen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0629",
+      "municipalityName": "Wassenaar",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.wassenaar.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0852",
+      "municipalityName": "Waterland",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.waterland.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0988",
+      "municipalityName": "Weert",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.weert.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1960",
+      "municipalityName": "West Betuwe",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.westbetuwe.nl/",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0668",
+      "municipalityName": "West Maas en Waal",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.westmaasenwaal.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1969",
+      "municipalityName": "Westerkwartier",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.westerkwartier.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1701",
+      "municipalityName": "Westerveld",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.gemeentewesterveld.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0293",
+      "municipalityName": "Westervoort",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.westervoort.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1950",
+      "municipalityName": "Westerwolde",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.westerwolde.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1783",
+      "municipalityName": "Westland",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.gemeentewestland.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0098",
+      "municipalityName": "Weststellingwerf",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.weststellingwerf.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0189",
+      "municipalityName": "Wierden",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.wierden.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0296",
+      "municipalityName": "Wijchen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.wijchen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1696",
+      "municipalityName": "Wijdemeren",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.wijdemeren.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0352",
+      "municipalityName": "Wijk bij Duurstede",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.wijkbijduurstede.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0294",
+      "municipalityName": "Winterswijk",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.winterswijk.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0873",
+      "municipalityName": "Woensdrecht",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.woensdrecht.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0632",
+      "municipalityName": "Woerden",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.woerden.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1690",
+      "municipalityName": "De Wolden",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://dewolden.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0880",
+      "municipalityName": "Wormerland",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.wormerland.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0351",
+      "municipalityName": "Woudenberg",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.woudenberg.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0479",
+      "municipalityName": "Zaanstad",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.zaanstad.nl/contact/",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0297",
+      "municipalityName": "Zaltbommel",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.zaltbommel.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0473",
+      "municipalityName": "Zandvoort",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.zandvoort.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0050",
+      "municipalityName": "Zeewolde",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.zeewolde.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0355",
+      "municipalityName": "Zeist",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.zeist.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0299",
+      "municipalityName": "Zevenaar",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.zevenaar.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0637",
+      "municipalityName": "Zoetermeer",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.zoetermeer.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0638",
+      "municipalityName": "Zoeterwoude",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.zoeterwoude.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1892",
+      "municipalityName": "Zuidplas",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.zuidplas.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0879",
+      "municipalityName": "Zundert",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.zundert.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0301",
+      "municipalityName": "Zutphen",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.zutphen.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM1896",
+      "municipalityName": "Zwartewaterland",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.zwartewaterland.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0642",
+      "municipalityName": "Zwijndrecht",
+      "requiredForBenchmark": false,
+      "state": "accessible",
+      "attempted": [
+        {
+          "url": "https://www.zwijndrecht.nl",
+          "status": 200,
+          "state": "accessible"
+        }
+      ],
+      "approvedFallbacks": []
+    },
+    {
+      "municipalityCode": "GM0193",
+      "municipalityName": "Zwolle",
+      "requiredForBenchmark": false,
+      "state": "blocked",
+      "attempted": [
+        {
+          "url": "https://www.zwolle.nl",
+          "status": 403,
+          "state": "blocked"
+        }
+      ],
+      "approvedFallbacks": []
+    }
+  ],
+  "websiteRecallPercent": 100,
+  "provenancePassed": true,
+  "sourceCount": 404,
+  "noApprovedEntryPointCount": 0
+}

@@ -13,6 +13,11 @@ console.log('Found batches:',batches);
 for(const batchFile of batches){
   const batch = R(`data/research-batches/${batchFile}`);
   const batchId = batch.batchId||batchFile.replace('.json','');
+  // Skip already-persisted batches (closure.commit present)
+  if(batch.closure && batch.closure.commit){
+    console.log('Skipping already committed batch',batchId,'commit',batch.closure.commit);
+    continue;
+  }
   console.log('\nProcessing',batchFile,'id',batchId);
   // run QA: look for test script test-batch-<id>.mjs
   const scriptName = `scripts/test-batch-${batchId.split(/[-:]/)[1]||batchId}.mjs`;

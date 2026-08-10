@@ -23,9 +23,9 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - name: Run selftest (optional)
+      - name: Run selftest (required)
         run: |
-          node scripts/automation/selftest.mjs || true
+          node scripts/automation/selftest.mjs
       - name: Run per-batch committer
         env:
           SIMULATE: ${{ inputs.simulate }}

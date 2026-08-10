@@ -29,10 +29,29 @@ if(simulate){
   process.exit(0);
 }
 
-run(`git add ${paths.map(p=>`"${p}"`).join(' ')}`);
+run(`git add -- ${paths.map(p=>`"${p}"`).join(' ')}`);
 // ensure there is something to commit
-const status = run('git status --porcelain');
-if(!status) { console.log('No changes to commit'); process.exit(0); }
+const staged = run('git diff --cached --name-only');
+if(!staged){ console.log('No changes to commit'); process.exit(0); }
+const stagedFiles = staged.split('\n').map(s=>s.trim()).filter(Boolean);
+// Ensure only allowed paths are staged
+function isUnderAllowed(file,allowedPaths){
+  for(const p of allowedPaths){
+    // exact match
+    if(file===p) return true;
+    // prefix match for directories
+    if(p.endsWith('/')){ if(file.startsWith(p)) return true; }
+    // if provided path is a directory, allow files under it
+    try{ const stat=fs.statSync(p); if(stat.isDirectory() && file.startsWith(p.endsWith('/')?p:p+'/')) return true; }catch(e){}
+  }
+  return false;
+}
+const notAllowed = stagedFiles.filter(f=>!isUnderAllowed(f,paths));
+if(notAllowed.length){
+  console.error('Refusing to commit: staged files outside allowed paths detected:',notAllowed);
+  console.error('Staged files:',stagedFiles);
+  process.exit(1);
+}
 
 run(`git config user.name "github-actions[bot]"`);
 run(`git config user.email "41898282+github-actions[bot]@users.noreply.github.com"`);

@@ -30,43 +30,60 @@ function historicalProcessed(municipalityCode){
 
 // compute authoritative accounting
 const accounted = {};
-for(const code of municipalities)accounted[code]=null;
+for(const code of municipalities)accounted[code]={state:null,details:{}};
 
-// Step 1: mark municipalities with persisted verification (auto or historical)
-for(const code of municipalities){
-  if(hasPersistedVerification(code)){
-    accounted[code]={state:'auto-verification-persisted'};
-  }
+// Build regs by municipality for outcome mapping
+const regsByMunicipality = new Map();
+for(const r of regs){
+  if(!regsByMunicipality.has(r.municipalityCode)) regsByMunicipality.set(r.municipalityCode,[]);
+  regsByMunicipality.get(r.municipalityCode).push(r);
 }
-// Step 2: mark historical batches not in regs as historical-deep-research-complete if findings indicate deep research but not persisted as regulations
-for(const code of municipalities){
-  if(!accounted[code] && historicalProcessed(code)){
-    accounted[code]={state:'historical-deep-research-complete'};
+
+// assign states and municipality-level canonical outcomes
+function municipalityOutcomeFromRegs(records){
+  // scoring: deep-manual-review (3) > targeted-review (2) > structured-complete (1)
+  const score = { 'deep-manual-review':3, 'targeted-review':2, 'structured-complete':1 };
+  let best = null, bestScore=0;
+  for(const r of records){
+    const outcome = normalizeOutcome(r.verification?.legalReview?.status || r.verification?.content?.status || r.verification?.currentness?.status || r.substantiveVerificationStatus || r.substantiveOutcome || null);
+    if(!outcome) continue;
+    const s = score[outcome]||0;
+    if(s>bestScore){ bestScore=s; best=outcome; }
   }
+  return best;
 }
-// Step 3: discovery-only or not-started
+
 for(const code of municipalities){
-  if(!accounted[code]){
-    const rs = research.find(r=>r.municipalityCode===code);
-    if(!rs) accounted[code]={state:'not-yet-processed'};
-    else{
-      // if research record has discoveryStatus research-only or discoveryBatch but no persisted regs => discovery-only
-      if(rs.discoveryStatus==='research-only' || (!hasPersistedVerification(code) && rs.researchCompletedAt && (!rs.researchedPermitTypes || rs.researchedPermitTypes.length===0))){
-        accounted[code]={state:'discovery-only'};
-      } else if(hasPersistedVerification(code)){
-        accounted[code]={state:'auto-verification-persisted'};
-      } else{
-        accounted[code]={state:'review-required'};
-      }
+  const hasPersist = hasPersistedVerification(code);
+  const inRegs = regsByMunicipality.has(code);
+  const hist = historicalProcessed(code);
+  const rs = research.find(r=>r.municipalityCode===code);
+
+  if(hasPersist){
+    // persisted evidence: auto-verified (includes historical findings that are persisted)
+    accounted[code].state='auto-verification-persisted';
+    if(inRegs) accounted[code].details.outcome = municipalityOutcomeFromRegs(regsByMunicipality.get(code));
+  } else if(hist){
+    // historicalProcessed() returns true only if findings link to regs, so should be treated as persisted
+    accounted[code].state='historical-deep-research-complete';
+    if(inRegs) accounted[code].details.outcome = municipalityOutcomeFromRegs(regsByMunicipality.get(code));
+  } else {
+    if(!rs) accounted[code].state='not-yet-processed';
+    else if(rs.discoveryStatus==='research-only' || (rs.researchCompletedAt && (!rs.researchedPermitTypes || rs.researchedPermitTypes.length===0))) accounted[code].state='discovery-only';
+    else if(rs.researchStatus && ['verified','partially-verified','legal-review-required','source-review'].includes(rs.researchStatus)){
+      // research claims progress but no persisted evidence: inconsistent
+      accounted[code].state='inconsistent-record';
+    } else {
+      accounted[code].state='review-required';
     }
   }
 }
 
-// detect duplicates and inconsistencies
-const allCodes = Object.keys(accounted);
-const duplicates = []; // should be none since use canonical list
-const missing = municipalities.filter(m=>!accounted[m]);
-const inconsistent = [];
+// detect duplicates (in research list) and inconsistencies
+const researchCodes = research.map(r=>r.municipalityCode);
+const duplicateCodes = researchCodes.filter((v,i,a)=>a.indexOf(v)!==i);
+const missing = Object.entries(accounted).filter(([k,v])=>!['auto-verification-persisted','historical-deep-research-complete'].includes(v.state)).map(([k])=>k);
+const inconsistent = Object.entries(accounted).filter(([k,v])=>v.state==='inconsistent-record').map(([k])=>k);
 
 // produce totals by state
 const totals={};
@@ -74,24 +91,38 @@ for(const [code,info] of Object.entries(accounted)){
   totals[info.state]=(totals[info.state]||0)+1;
 }
 
+// municipality-level outcome counts (only consider municipalities with persisted evidence)
+const municipalityOutcomeTotals = { 'structured-complete':0,'targeted-review':0,'deep-manual-review':0 };
+for(const code of municipalities){
+  const info = accounted[code];
+  if(['auto-verification-persisted','historical-deep-research-complete'].includes(info.state)){
+    const outcome = info.details.outcome || null;
+    if(outcome && municipalityOutcomeTotals.hasOwnProperty(outcome)) municipalityOutcomeTotals[outcome]++;
+  }
+}
+
+// regulation-row level counts (separate metric)
+const regulationRowCounts = {
+  structuredCompleteRows: regs.filter(r=>normalizeOutcome(r.verification?.content?.status||r.verification?.currentness?.status||r.substantiveVerificationStatus)==='structured-complete').length,
+  targetedReviewRows: regs.filter(r=>normalizeOutcome(r.verification?.content?.status||r.verification?.currentness?.status||r.substantiveVerificationStatus)==='targeted-review').length,
+  deepManualRows: regs.filter(r=>normalizeOutcome(r.verification?.legalReview?.status||r.verification?.content?.status||r.substantiveVerificationStatus)==='deep-manual-review').length
+};
+
+const completedAccountedTotal = Object.values(accounted).filter(x=>['auto-verification-persisted','historical-deep-research-complete'].includes(x.state)).length;
 const report={
   path:'reports/automation/municipality-accounting.json',
   canonicalTotal:municipalities.length,
-  accountedTotal:Object.keys(accounted).length,
+  completedAccountedTotal,
+  remainingCount:municipalities.length - completedAccountedTotal,
   missingCodes:missing,
-  duplicateCodes:duplicates,
+  duplicateCodes:Array.from(new Set(duplicateCodes)),
+  inconsistentCodes:inconsistent,
   historicalProcessedCount:Object.values(accounted).filter(x=>x.state==='historical-deep-research-complete').length,
   autoProcessedCount:Object.values(accounted).filter(x=>x.state==='auto-verification-persisted').length,
-  structuredCompleteCount:Object.values(accounted).filter(x=>{
-    // inspect regs to see canonical outcome
-    const code = Object.keys(accounted).find(k=>accounted[k]===x);
-    return false;
-  }).length,
-  structuredCompleteCount_by_scan: regs.filter(r=>normalizeOutcome(r.verification?.content?.status||r.verification?.currentness?.status||r.substantiveVerificationStatus)==='structured-complete').length,
-  targetedReviewCount_by_scan: regs.filter(r=>normalizeOutcome(r.verification?.content?.status||r.verification?.currentness?.status||r.substantiveVerificationStatus)==='targeted-review').length,
-  deepManualReviewCount_by_scan: regs.filter(r=>normalizeOutcome(r.verification?.legalReview?.status||r.verification?.content?.status||r.substantiveVerificationStatus)==='deep-manual-review').length,
+  municipalityOutcomeTotals,
+  regulationRowCounts,
   stateTotals:totals,
-  inconsistent:inconsistent
+  details:accounted
 };
 
 // ensure output directory

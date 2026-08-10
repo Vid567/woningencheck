@@ -1,0 +1,1242 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "remaining-53-03-verification",
+  "generatedAt": "2026-08-10T21:35:48.395Z",
+  "sourceBatch": "remaining-53-03",
+  "records": [
+    {
+      "municipalityCode": "GM0755",
+      "municipalityName": "Boekel",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.boekel.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.boekel.nl/formulieren/meldpunt-goed-verhuurderschap",
+        "https://www.boekel.nl/inwoners-en-ondernemers/bouwen-en-wonen/meldpunt-goed-verhuurderschap-en-betaalbare-huur"
+      ],
+      "reachableCandidates": [
+        "https://www.boekel.nl/formulieren/meldpunt-goed-verhuurderschap",
+        "https://www.boekel.nl/inwoners-en-ondernemers/bouwen-en-wonen/meldpunt-goed-verhuurderschap-en-betaalbare-huur"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5820,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "good-landlord-permit"
+      ],
+      "pages": [
+        {
+          "url": "https://www.boekel.nl/formulieren/meldpunt-goed-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.boekel.nl/formulieren/meldpunt-goed-verhuurderschap",
+            "https://www.boekel.nl/formulieren/contactformulier"
+          ],
+          "documentLinks": [
+            "https://www.boekel.nl/formulieren/meldpunt-goed-verhuurderschap",
+            "https://www.boekel.nl/formulieren/contactformulier"
+          ]
+        },
+        {
+          "url": "https://www.boekel.nl/inwoners-en-ondernemers/bouwen-en-wonen/meldpunt-goed-verhuurderschap-en-betaalbare-huur",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.boekel.nl/formulieren/meldpunt-goed-verhuurderschap",
+            "https://www.boekel.nl/formulieren/contactformulier"
+          ],
+          "documentLinks": [
+            "https://www.boekel.nl/formulieren/meldpunt-goed-verhuurderschap",
+            "https://www.boekel.nl/formulieren/contactformulier"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://www.boekel.nl/formulieren/meldpunt-goed-verhuurderschap",
+        "https://www.boekel.nl/formulieren/contactformulier"
+      ],
+      "documentLinks": [
+        "https://www.boekel.nl/formulieren/meldpunt-goed-verhuurderschap",
+        "https://www.boekel.nl/formulieren/contactformulier"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "exceptions"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1681",
+      "municipalityName": "Borger-Odoorn",
+      "province": "Drenthe",
+      "registryHit": true,
+      "municipalSite": "https://www.borger-odoorn.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 2355,
+      "verificationRoute": "deep",
+      "officialPublicationSearch": [
+        {
+          "query": "Borger-Odoorn huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20huisvestingsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borger-Odoorn opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20opkoopbescherming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borger-Odoorn kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borger-Odoorn splitsingsvergunning woningvorming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20splitsingsvergunning%20woningvorming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borger-Odoorn onttrekkingsvergunning woonruimte",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20onttrekkingsvergunning%20woonruimte",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borger-Odoorn leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20leegstandsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borger-Odoorn verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borger-Odoorn vakantieverhuur short stay",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20vakantieverhuur%20short%20stay",
+          "status": 200,
+          "foundCvdr": []
+        }
+      ],
+      "officialRegulationCandidates": [],
+      "verificationStatus": "manual-legal-source-review-required",
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0147",
+      "municipalityName": "Borne",
+      "province": "Overijssel",
+      "registryHit": true,
+      "municipalSite": "https://www.borne.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 2262,
+      "verificationRoute": "deep",
+      "officialPublicationSearch": [
+        {
+          "query": "Borne huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20huisvestingsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borne opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20opkoopbescherming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borne kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borne splitsingsvergunning woningvorming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20splitsingsvergunning%20woningvorming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borne onttrekkingsvergunning woonruimte",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20onttrekkingsvergunning%20woonruimte",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borne leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20leegstandsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borne verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borne vakantieverhuur short stay",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20vakantieverhuur%20short%20stay",
+          "status": 200,
+          "foundCvdr": []
+        }
+      ],
+      "officialRegulationCandidates": [],
+      "verificationStatus": "manual-legal-source-review-required",
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0654",
+      "municipalityName": "Borsele",
+      "province": "Zeeland",
+      "registryHit": true,
+      "municipalSite": "https://www.borsele.nl",
+      "candidateCount": 8,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.borsele.nl/bijeenkomst-huisvesting-medewerkers-fruitpluk",
+        "https://www.borsele.nl/verhuurt-u-een-vakantieverblijf-vergeet-de-verblijfsbelasting-niet-door-te-geven",
+        "https://www.borsele.nl/huisvesting-arbeidsmigranten",
+        "https://www.borsele.nl/wet-goed-verhuurderschap",
+        "https://www.borsele.nl/verhuurmogelijkheden-t-hart",
+        "https://www.borsele.nl/meldpunt-ongewenst-verhuurgedrag",
+        "https://www.borsele.nl/meldingsformulier-meldpunt-goed-verhuurderschap",
+        "https://www.borsele.nl/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte-de-leegstandswet"
+      ],
+      "reachableCandidates": [
+        "https://www.borsele.nl/bijeenkomst-huisvesting-medewerkers-fruitpluk",
+        "https://www.borsele.nl/verhuurt-u-een-vakantieverblijf-vergeet-de-verblijfsbelasting-niet-door-te-geven",
+        "https://www.borsele.nl/huisvesting-arbeidsmigranten",
+        "https://www.borsele.nl/wet-goed-verhuurderschap",
+        "https://www.borsele.nl/verhuurmogelijkheden-t-hart",
+        "https://www.borsele.nl/meldpunt-ongewenst-verhuurgedrag"
+      ],
+      "route": "structured-verification",
+      "durationMs": 7949,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "good-landlord-permit"
+      ],
+      "pages": [
+        {
+          "url": "https://www.borsele.nl/bijeenkomst-huisvesting-medewerkers-fruitpluk",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": false,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.borsele.nl/verhuurt-u-een-vakantieverblijf-vergeet-de-verblijfsbelasting-niet-door-te-geven",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.borsele.nl/huisvesting-arbeidsmigranten",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR693909/1"
+          ],
+          "applicationLinks": [
+            "https://www.borsele.nl/aanvragen-en-regelen"
+          ],
+          "documentLinks": [
+            "https://www.borsele.nl/sites/borsele/files/2022-04/200622%20Notitie%20regionale%20afspraken%20huivesting%20arbeidsmigranten%20De%20Bevelanden%20%281%29.pdf"
+          ]
+        },
+        {
+          "url": "https://www.borsele.nl/wet-goed-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.borsele.nl/verhuurmogelijkheden-t-hart",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.borsele.nl/meldpunt-ongewenst-verhuurgedrag",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.borsele.nl/meldingsformulier-meldpunt-goed-verhuurderschap"
+          ],
+          "documentLinks": [
+            "https://www.borsele.nl/meldingsformulier-meldpunt-goed-verhuurderschap"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [
+        "https://lokaleregelgeving.overheid.nl/CVDR693909/1"
+      ],
+      "applicationLinks": [
+        "https://www.borsele.nl/aanvragen-en-regelen",
+        "https://www.borsele.nl/meldingsformulier-meldpunt-goed-verhuurderschap"
+      ],
+      "documentLinks": [
+        "https://www.borsele.nl/sites/borsele/files/2022-04/200622%20Notitie%20regionale%20afspraken%20huivesting%20arbeidsmigranten%20De%20Bevelanden%20%281%29.pdf",
+        "https://www.borsele.nl/meldingsformulier-meldpunt-goed-verhuurderschap"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": false
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "exceptions",
+        "geographicScope"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0757",
+      "municipalityName": "Boxtel",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.boxtel.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.boxtel.nl/aanvragen-regelen-en-melden/vergunningen/woningsplitsing",
+        "https://www.boxtel.nl/in-de-gemeente/wonen/meldpunt-goed-verhuurderschap",
+        "https://www.boxtel.nl/in-de-gemeente/wonen/woningdelen"
+      ],
+      "reachableCandidates": [
+        "https://www.boxtel.nl/aanvragen-regelen-en-melden/vergunningen/woningsplitsing",
+        "https://www.boxtel.nl/in-de-gemeente/wonen/meldpunt-goed-verhuurderschap",
+        "https://www.boxtel.nl/in-de-gemeente/wonen/woningdelen"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2889,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "good-landlord-permit",
+        "room-rental"
+      ],
+      "pages": [
+        {
+          "url": "https://www.boxtel.nl/aanvragen-regelen-en-melden/vergunningen/woningsplitsing",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR759434?",
+            "https://lokaleregelgeving.overheid.nl/CVDR696394",
+            "https://lokaleregelgeving.overheid.nl/CVDR759434"
+          ],
+          "applicationLinks": [
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/vergunningen/woningsplitsing",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen/bodem-en-grond",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen/bouwcontainer-bouwkeet-of-steiger-plaatsen",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen/bouwtekening-of-bouwdossier-opvragen-of-inzien",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen/slopen-en-asbest-verwijderen",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen/verschillende-woonvormen",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/geboorte-trouwen-en-overlijden",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/geboorte-trouwen-en-overlijden/erkenning-kind"
+          ],
+          "documentLinks": [
+            "https://www.boxtel.nl/contactformulier"
+          ]
+        },
+        {
+          "url": "https://www.boxtel.nl/in-de-gemeente/wonen/meldpunt-goed-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen/bodem-en-grond",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen/bouwcontainer-bouwkeet-of-steiger-plaatsen",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen/bouwtekening-of-bouwdossier-opvragen-of-inzien",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen/slopen-en-asbest-verwijderen",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen/verschillende-woonvormen",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/geboorte-trouwen-en-overlijden",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/geboorte-trouwen-en-overlijden/erkenning-kind",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/geboorte-trouwen-en-overlijden/geboorte-aangeven"
+          ],
+          "documentLinks": [
+            "https://www.boxtel.nl/contactformulier"
+          ]
+        },
+        {
+          "url": "https://www.boxtel.nl/in-de-gemeente/wonen/woningdelen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "room-rental"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR696394"
+          ],
+          "applicationLinks": [
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen/bodem-en-grond",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen/bouwcontainer-bouwkeet-of-steiger-plaatsen",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen/bouwtekening-of-bouwdossier-opvragen-of-inzien",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen/slopen-en-asbest-verwijderen",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen/verschillende-woonvormen",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/geboorte-trouwen-en-overlijden",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/geboorte-trouwen-en-overlijden/erkenning-kind",
+            "https://www.boxtel.nl/aanvragen-regelen-en-melden/geboorte-trouwen-en-overlijden/geboorte-aangeven"
+          ],
+          "documentLinks": [
+            "https://www.boxtel.nl/contactformulier"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [
+        "https://lokaleregelgeving.overheid.nl/CVDR759434?",
+        "https://lokaleregelgeving.overheid.nl/CVDR696394",
+        "https://lokaleregelgeving.overheid.nl/CVDR759434"
+      ],
+      "applicationLinks": [
+        "https://www.boxtel.nl/aanvragen-regelen-en-melden/vergunningen/woningsplitsing",
+        "https://www.boxtel.nl/aanvragen-regelen-en-melden",
+        "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen",
+        "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen/bodem-en-grond",
+        "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen/bouwcontainer-bouwkeet-of-steiger-plaatsen",
+        "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen/bouwtekening-of-bouwdossier-opvragen-of-inzien",
+        "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen/slopen-en-asbest-verwijderen",
+        "https://www.boxtel.nl/aanvragen-regelen-en-melden/bouwen-en-verbouwen/verschillende-woonvormen",
+        "https://www.boxtel.nl/aanvragen-regelen-en-melden/geboorte-trouwen-en-overlijden",
+        "https://www.boxtel.nl/aanvragen-regelen-en-melden/geboorte-trouwen-en-overlijden/erkenning-kind",
+        "https://www.boxtel.nl/aanvragen-regelen-en-melden/geboorte-trouwen-en-overlijden/geboorte-aangeven"
+      ],
+      "documentLinks": [
+        "https://www.boxtel.nl/contactformulier"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "exceptions"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0758",
+      "municipalityName": "Breda",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.breda.nl",
+      "candidateCount": 11,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.breda.nl/breda-stelt-regels-en-boetetabel-vast-voor-eerlijke-woningverhuur",
+        "https://www.breda.nl/duurzaam/ik-ben-verhuurder",
+        "https://www.breda.nl/exploitatievergunning-autoverhuurbedrijf",
+        "https://www.breda.nl/verhuurvergunning-opkoopbescherming",
+        "https://www.breda.nl/splitsingsvergunning-aanvragen",
+        "https://www.breda.nl/exploitatievergunning-autoverhuurbedrijf-eherkenning",
+        "https://www.breda.nl/exploitatievergunning-autoverhuurbedrijf-aanvragen-digid",
+        "https://www.breda.nl/beheerder-wijzigen-vergunning-autoverhuurbedrijf",
+        "https://www.breda.nl/vergunning-tijdelijke-verhuur-woning",
+        "https://www.breda.nl/aanmelden-informatiebijeenkomst-huisvestingsplannen-sport",
+        "https://www.breda.nl/aanmelden-informatiebijeenkomst-huisvestingsplannen-cultuur"
+      ],
+      "reachableCandidates": [
+        "https://www.breda.nl/breda-stelt-regels-en-boetetabel-vast-voor-eerlijke-woningverhuur",
+        "https://www.breda.nl/duurzaam/ik-ben-verhuurder",
+        "https://www.breda.nl/exploitatievergunning-autoverhuurbedrijf",
+        "https://www.breda.nl/verhuurvergunning-opkoopbescherming",
+        "https://www.breda.nl/splitsingsvergunning-aanvragen",
+        "https://www.breda.nl/exploitatievergunning-autoverhuurbedrijf-eherkenning"
+      ],
+      "route": "structured-verification",
+      "durationMs": 7929,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "purchase-protection",
+        "good-landlord-permit",
+        "building-split"
+      ],
+      "pages": [
+        {
+          "url": "https://www.breda.nl/breda-stelt-regels-en-boetetabel-vast-voor-eerlijke-woningverhuur",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": false,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.breda.nl/duurzaam/ik-ben-verhuurder",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": false,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://formulier.breda.nl/f/60206/w/viaproperties"
+          ],
+          "documentLinks": [
+            "https://formulier.breda.nl/f/60206/w/viaproperties"
+          ]
+        },
+        {
+          "url": "https://www.breda.nl/exploitatievergunning-autoverhuurbedrijf",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR713810/1"
+          ],
+          "applicationLinks": [
+            "https://www.breda.nl/exploitatievergunning-autoverhuurbedrijf-eherkenning",
+            "https://www.breda.nl/exploitatievergunning-autoverhuurbedrijf-aanvragen-digid",
+            "https://omgevingswet.overheid.nl/regels-op-de-kaart/",
+            "https://www.breda.nl/sites/default/files/2025-06/bibobformulier-horeca-voor-eenmanszaak.pdf",
+            "https://www.breda.nl/sites/default/files/2025-06/bibobformulier-horeca-voor-vof-cv-maatschap.pdf",
+            "https://www.breda.nl/sites/default/files/2025-06/bibobformulier-horeca-voor-bv-nv-stichting-vereniging.pdf"
+          ],
+          "documentLinks": [
+            "https://www.breda.nl/sites/default/files/2025-06/bibobformulier-horeca-voor-eenmanszaak.pdf",
+            "https://www.breda.nl/sites/default/files/2025-06/bibobformulier-horeca-voor-vof-cv-maatschap.pdf",
+            "https://www.breda.nl/sites/default/files/2025-06/bibobformulier-horeca-voor-bv-nv-stichting-vereniging.pdf",
+            "https://www.breda.nl/file/bijlage-verklaring-beheerder-werkzaam-autoverhuur",
+            "https://www.breda.nl/sites/default/files/2024-12/Bijlage%20verklaring%20beheerder%20werkzaam%20in%20autoverhuur.pdf"
+          ]
+        },
+        {
+          "url": "https://www.breda.nl/verhuurvergunning-opkoopbescherming",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "purchase-protection",
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR695686"
+          ],
+          "applicationLinks": [
+            "https://formulier.breda.nl/f/60316/login"
+          ],
+          "documentLinks": [
+            "https://formulier.breda.nl/f/60316/login"
+          ]
+        },
+        {
+          "url": "https://www.breda.nl/splitsingsvergunning-aanvragen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "building-split"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.breda.nl/splitsingsvergunning-aanvragen"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.breda.nl/exploitatievergunning-autoverhuurbedrijf-eherkenning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.breda.nl/exploitatievergunning-autoverhuurbedrijf-eherkenning",
+            "https://www.eherkenning.nl/",
+            "https://www.breda.nl/external-login/eherkenning/level_3?ReturnTo=https%3A//www.breda.nl/exploitatievergunning-autoverhuurbedrijf-eherkenning"
+          ],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [
+        "https://lokaleregelgeving.overheid.nl/CVDR713810/1",
+        "https://lokaleregelgeving.overheid.nl/CVDR695686"
+      ],
+      "applicationLinks": [
+        "https://formulier.breda.nl/f/60206/w/viaproperties",
+        "https://www.breda.nl/exploitatievergunning-autoverhuurbedrijf-eherkenning",
+        "https://www.breda.nl/exploitatievergunning-autoverhuurbedrijf-aanvragen-digid",
+        "https://omgevingswet.overheid.nl/regels-op-de-kaart/",
+        "https://www.breda.nl/sites/default/files/2025-06/bibobformulier-horeca-voor-eenmanszaak.pdf",
+        "https://www.breda.nl/sites/default/files/2025-06/bibobformulier-horeca-voor-vof-cv-maatschap.pdf",
+        "https://www.breda.nl/sites/default/files/2025-06/bibobformulier-horeca-voor-bv-nv-stichting-vereniging.pdf",
+        "https://formulier.breda.nl/f/60316/login",
+        "https://www.breda.nl/splitsingsvergunning-aanvragen",
+        "https://www.eherkenning.nl/",
+        "https://www.breda.nl/external-login/eherkenning/level_3?ReturnTo=https%3A//www.breda.nl/exploitatievergunning-autoverhuurbedrijf-eherkenning"
+      ],
+      "documentLinks": [
+        "https://formulier.breda.nl/f/60206/w/viaproperties",
+        "https://www.breda.nl/sites/default/files/2025-06/bibobformulier-horeca-voor-eenmanszaak.pdf",
+        "https://www.breda.nl/sites/default/files/2025-06/bibobformulier-horeca-voor-vof-cv-maatschap.pdf",
+        "https://www.breda.nl/sites/default/files/2025-06/bibobformulier-horeca-voor-bv-nv-stichting-vereniging.pdf",
+        "https://www.breda.nl/file/bijlage-verklaring-beheerder-werkzaam-autoverhuur",
+        "https://www.breda.nl/sites/default/files/2024-12/Bijlage%20verklaring%20beheerder%20werkzaam%20in%20autoverhuur.pdf",
+        "https://formulier.breda.nl/f/60316/login"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": false
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "exceptions",
+        "geographicScope"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1876",
+      "municipalityName": "Bronckhorst",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.bronckhorst.nl",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.bronckhorst.nl/wet-goed-verhuurderschap",
+        "https://www.bronckhorst.nl/ongewenst-gedrag-van-verhuurders-melden",
+        "https://www.bronckhorst.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bronckhorst.nl/huisvesting-onderwijs",
+        "https://www.bronckhorst.nl/voorwaarden-woningvergroting-voor-woningsplitsing"
+      ],
+      "reachableCandidates": [
+        "https://www.bronckhorst.nl/wet-goed-verhuurderschap",
+        "https://www.bronckhorst.nl/ongewenst-gedrag-van-verhuurders-melden",
+        "https://www.bronckhorst.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bronckhorst.nl/huisvesting-onderwijs",
+        "https://www.bronckhorst.nl/voorwaarden-woningvergroting-voor-woningsplitsing"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3489,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "good-landlord-permit"
+      ],
+      "pages": [
+        {
+          "url": "https://www.bronckhorst.nl/wet-goed-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.bronckhorst.nl/ongewenst-gedrag-van-verhuurders-melden",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.bronckhorst.nl/tijdelijke-verhuur-leegstaand-pand",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.bronckhorst.nl/huisvesting-onderwijs",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": [
+            "https://cuatro.sim-cdn.nl/bronckhorst82e5ef/uploads/Integraal%20Huisvestingsplan%20Basisonderwijs%202021-2035%20Bronckhorst_4.pdf?cb=2mUTjObr"
+          ]
+        },
+        {
+          "url": "https://www.bronckhorst.nl/voorwaarden-woningvergroting-voor-woningsplitsing",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [],
+      "documentLinks": [
+        "https://cuatro.sim-cdn.nl/bronckhorst82e5ef/uploads/Integraal%20Huisvestingsplan%20Basisonderwijs%202021-2035%20Bronckhorst_4.pdf?cb=2mUTjObr"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": false,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "applicationRoute"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0213",
+      "municipalityName": "Brummen",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.brummen.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.brummen.nl/wonen-en-leefomgeving/wonen-bouwen-en-verbouwen/huren-of-kopen/meldpunt-wet-goed-verhuurderschap",
+        "https://www.brummen.nl/wonen-en-leefomgeving/wonen-bouwen-en-verbouwen/huisvestingsverordening"
+      ],
+      "reachableCandidates": [
+        "https://www.brummen.nl/wonen-en-leefomgeving/wonen-bouwen-en-verbouwen/huren-of-kopen/meldpunt-wet-goed-verhuurderschap",
+        "https://www.brummen.nl/wonen-en-leefomgeving/wonen-bouwen-en-verbouwen/huisvestingsverordening"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2943,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "good-landlord-permit"
+      ],
+      "pages": [
+        {
+          "url": "https://www.brummen.nl/wonen-en-leefomgeving/wonen-bouwen-en-verbouwen/huren-of-kopen/meldpunt-wet-goed-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.burgerberichten.nl/brummen/formulieren/8332b617-3d89-41bc-bd6e-ff0f91d5545f/Melding-ongewenst-verhuurgedrag/introduction"
+          ],
+          "documentLinks": [
+            "https://www.burgerberichten.nl/brummen/formulieren/8332b617-3d89-41bc-bd6e-ff0f91d5545f/Melding-ongewenst-verhuurgedrag/introduction"
+          ]
+        },
+        {
+          "url": "https://www.brummen.nl/wonen-en-leefomgeving/wonen-bouwen-en-verbouwen/huisvestingsverordening",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": [
+            "https://www.brummen.nl/fileadmin/brummen_website/Foto_s_bij_content/Documenten/Huisvestingsverordening_conceptversie_mrt_2026.pdf"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://www.burgerberichten.nl/brummen/formulieren/8332b617-3d89-41bc-bd6e-ff0f91d5545f/Melding-ongewenst-verhuurgedrag/introduction"
+      ],
+      "documentLinks": [
+        "https://www.burgerberichten.nl/brummen/formulieren/8332b617-3d89-41bc-bd6e-ff0f91d5545f/Melding-ongewenst-verhuurgedrag/introduction",
+        "https://www.brummen.nl/fileadmin/brummen_website/Foto_s_bij_content/Documenten/Huisvestingsverordening_conceptversie_mrt_2026.pdf"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": false
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "exceptions",
+        "geographicScope"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0899",
+      "municipalityName": "Brunssum",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.brunssum.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.brunssum.nl/Ondernemers/bedrijven/leegstand_melding",
+        "https://www.brunssum.nl/Duurzaam_Brunssum/Nieuws/Nieuwsberichten_Duurzaamheid/Woonruimte_gezocht_voor_kleine_gevleugelde_medebewoners",
+        "https://www.brunssum.nl/Wonen_en_Leven/Meldingen/Meldpunt_Goed_Verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.brunssum.nl/Ondernemers/bedrijven/leegstand_melding",
+        "https://www.brunssum.nl/Duurzaam_Brunssum/Nieuws/Nieuwsberichten_Duurzaamheid/Woonruimte_gezocht_voor_kleine_gevleugelde_medebewoners",
+        "https://www.brunssum.nl/Wonen_en_Leven/Meldingen/Meldpunt_Goed_Verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3771,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "vacancy-obligation",
+        "good-landlord-permit"
+      ],
+      "pages": [
+        {
+          "url": "https://www.brunssum.nl/Ondernemers/bedrijven/leegstand_melding",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "vacancy-obligation"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.brunssum.nl/Over/Digitale_formulieren/melden_leegstand"
+          ],
+          "documentLinks": [
+            "https://www.brunssum.nl/Over/Digitale_formulieren/melden_leegstand"
+          ]
+        },
+        {
+          "url": "https://www.brunssum.nl/Duurzaam_Brunssum/Nieuws/Nieuwsberichten_Duurzaamheid/Woonruimte_gezocht_voor_kleine_gevleugelde_medebewoners",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.brunssum.nl/Wonen_en_Leven/Meldingen/Meldpunt_Goed_Verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://www.brunssum.nl/Over/Digitale_formulieren/melden_leegstand"
+      ],
+      "documentLinks": [
+        "https://www.brunssum.nl/Over/Digitale_formulieren/melden_leegstand"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": false
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "geographicScope"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0312",
+      "municipalityName": "Bunnik",
+      "province": "Utrecht",
+      "registryHit": true,
+      "municipalSite": "https://www.bunnik.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.bunnik.nl/wonen-en-leefomgeving/kopen-en-huren/huisvestingsvergunning",
+        "https://www.bunnik.nl/wonen-en-leefomgeving/bouwen-en-verbouwen/u-wilt-verbouwen/extra-woonruimte-bij-uw-woning",
+        "https://www.bunnik.nl/wonen-en-leefomgeving/bouwen-en-verbouwen/u-wilt-verbouwen/woning-splitsen"
+      ],
+      "reachableCandidates": [
+        "https://www.bunnik.nl/wonen-en-leefomgeving/kopen-en-huren/huisvestingsvergunning",
+        "https://www.bunnik.nl/wonen-en-leefomgeving/bouwen-en-verbouwen/u-wilt-verbouwen/extra-woonruimte-bij-uw-woning",
+        "https://www.bunnik.nl/wonen-en-leefomgeving/bouwen-en-verbouwen/u-wilt-verbouwen/woning-splitsen"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2990,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "housing-permit",
+        "dwelling-formation"
+      ],
+      "pages": [
+        {
+          "url": "https://www.bunnik.nl/wonen-en-leefomgeving/kopen-en-huren/huisvestingsvergunning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "housing-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.bunnik.nl/fileadmin/bestanden/Formulieren/Bereidverklaring_verhuurder.pdf"
+          ],
+          "documentLinks": [
+            "https://www.bunnik.nl/fileadmin/bestanden/Formulieren/Bereidverklaring_verhuurder.pdf"
+          ]
+        },
+        {
+          "url": "https://www.bunnik.nl/wonen-en-leefomgeving/bouwen-en-verbouwen/u-wilt-verbouwen/extra-woonruimte-bij-uw-woning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [
+            "http://lokaleregelgeving.overheid.nl/CVDR754375",
+            "https://lokaleregelgeving.overheid.nl/CVDR713161/1",
+            "http://lokaleregelgeving.overheid.nl/CVDR754248"
+          ],
+          "applicationLinks": [
+            "https://omgevingswet.overheid.nl/checken"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.bunnik.nl/wonen-en-leefomgeving/bouwen-en-verbouwen/u-wilt-verbouwen/woning-splitsen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "dwelling-formation"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR756552",
+            "https://lokaleregelgeving.overheid.nl/CVDR339161?&amp;show-wti=true"
+          ],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [
+        "http://lokaleregelgeving.overheid.nl/CVDR754375",
+        "https://lokaleregelgeving.overheid.nl/CVDR713161/1",
+        "http://lokaleregelgeving.overheid.nl/CVDR754248",
+        "https://lokaleregelgeving.overheid.nl/CVDR756552",
+        "https://lokaleregelgeving.overheid.nl/CVDR339161?&amp;show-wti=true"
+      ],
+      "applicationLinks": [
+        "https://www.bunnik.nl/fileadmin/bestanden/Formulieren/Bereidverklaring_verhuurder.pdf",
+        "https://omgevingswet.overheid.nl/checken"
+      ],
+      "documentLinks": [
+        "https://www.bunnik.nl/fileadmin/bestanden/Formulieren/Bereidverklaring_verhuurder.pdf"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": false
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "exceptions",
+        "geographicScope"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    }
+  ],
+  "summary": {
+    "municipalities": 10,
+    "structurallyComplete": 0,
+    "targetedReviewRequired": 8,
+    "officialRegulationCandidateFound": 0,
+    "manualLegalSourceReviewRequired": 2,
+    "networkRequests": 124,
+    "networkErrors": 3,
+    "maxConcurrency": 5
+  },
+  "safety": {
+    "legalApprovalAutomatic": false,
+    "automaticPublication": false,
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0,
+    "absenceOfEvidenceIsNotEvidenceOfAbsence": true
+  }
+}

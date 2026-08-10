@@ -1,0 +1,232 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "remaining-53-03",
+  "generatedAt": "2026-08-10T21:35:48.395Z",
+  "records": [
+    {
+      "municipalityCode": "GM0755",
+      "municipalityName": "Boekel",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.boekel.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.boekel.nl/formulieren/meldpunt-goed-verhuurderschap",
+        "https://www.boekel.nl/inwoners-en-ondernemers/bouwen-en-wonen/meldpunt-goed-verhuurderschap-en-betaalbare-huur"
+      ],
+      "reachableCandidates": [
+        "https://www.boekel.nl/formulieren/meldpunt-goed-verhuurderschap",
+        "https://www.boekel.nl/inwoners-en-ondernemers/bouwen-en-wonen/meldpunt-goed-verhuurderschap-en-betaalbare-huur"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5820
+    },
+    {
+      "municipalityCode": "GM1681",
+      "municipalityName": "Borger-Odoorn",
+      "province": "Drenthe",
+      "registryHit": true,
+      "municipalSite": "https://www.borger-odoorn.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 2355
+    },
+    {
+      "municipalityCode": "GM0147",
+      "municipalityName": "Borne",
+      "province": "Overijssel",
+      "registryHit": true,
+      "municipalSite": "https://www.borne.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 2262
+    },
+    {
+      "municipalityCode": "GM0654",
+      "municipalityName": "Borsele",
+      "province": "Zeeland",
+      "registryHit": true,
+      "municipalSite": "https://www.borsele.nl",
+      "candidateCount": 8,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.borsele.nl/bijeenkomst-huisvesting-medewerkers-fruitpluk",
+        "https://www.borsele.nl/verhuurt-u-een-vakantieverblijf-vergeet-de-verblijfsbelasting-niet-door-te-geven",
+        "https://www.borsele.nl/huisvesting-arbeidsmigranten",
+        "https://www.borsele.nl/wet-goed-verhuurderschap",
+        "https://www.borsele.nl/verhuurmogelijkheden-t-hart",
+        "https://www.borsele.nl/meldpunt-ongewenst-verhuurgedrag",
+        "https://www.borsele.nl/meldingsformulier-meldpunt-goed-verhuurderschap",
+        "https://www.borsele.nl/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte-de-leegstandswet"
+      ],
+      "reachableCandidates": [
+        "https://www.borsele.nl/bijeenkomst-huisvesting-medewerkers-fruitpluk",
+        "https://www.borsele.nl/verhuurt-u-een-vakantieverblijf-vergeet-de-verblijfsbelasting-niet-door-te-geven",
+        "https://www.borsele.nl/huisvesting-arbeidsmigranten",
+        "https://www.borsele.nl/wet-goed-verhuurderschap",
+        "https://www.borsele.nl/verhuurmogelijkheden-t-hart",
+        "https://www.borsele.nl/meldpunt-ongewenst-verhuurgedrag"
+      ],
+      "route": "structured-verification",
+      "durationMs": 7949
+    },
+    {
+      "municipalityCode": "GM0757",
+      "municipalityName": "Boxtel",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.boxtel.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.boxtel.nl/aanvragen-regelen-en-melden/vergunningen/woningsplitsing",
+        "https://www.boxtel.nl/in-de-gemeente/wonen/meldpunt-goed-verhuurderschap",
+        "https://www.boxtel.nl/in-de-gemeente/wonen/woningdelen"
+      ],
+      "reachableCandidates": [
+        "https://www.boxtel.nl/aanvragen-regelen-en-melden/vergunningen/woningsplitsing",
+        "https://www.boxtel.nl/in-de-gemeente/wonen/meldpunt-goed-verhuurderschap",
+        "https://www.boxtel.nl/in-de-gemeente/wonen/woningdelen"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2889
+    },
+    {
+      "municipalityCode": "GM0758",
+      "municipalityName": "Breda",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.breda.nl",
+      "candidateCount": 11,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.breda.nl/breda-stelt-regels-en-boetetabel-vast-voor-eerlijke-woningverhuur",
+        "https://www.breda.nl/duurzaam/ik-ben-verhuurder",
+        "https://www.breda.nl/exploitatievergunning-autoverhuurbedrijf",
+        "https://www.breda.nl/verhuurvergunning-opkoopbescherming",
+        "https://www.breda.nl/splitsingsvergunning-aanvragen",
+        "https://www.breda.nl/exploitatievergunning-autoverhuurbedrijf-eherkenning",
+        "https://www.breda.nl/exploitatievergunning-autoverhuurbedrijf-aanvragen-digid",
+        "https://www.breda.nl/beheerder-wijzigen-vergunning-autoverhuurbedrijf",
+        "https://www.breda.nl/vergunning-tijdelijke-verhuur-woning",
+        "https://www.breda.nl/aanmelden-informatiebijeenkomst-huisvestingsplannen-sport",
+        "https://www.breda.nl/aanmelden-informatiebijeenkomst-huisvestingsplannen-cultuur"
+      ],
+      "reachableCandidates": [
+        "https://www.breda.nl/breda-stelt-regels-en-boetetabel-vast-voor-eerlijke-woningverhuur",
+        "https://www.breda.nl/duurzaam/ik-ben-verhuurder",
+        "https://www.breda.nl/exploitatievergunning-autoverhuurbedrijf",
+        "https://www.breda.nl/verhuurvergunning-opkoopbescherming",
+        "https://www.breda.nl/splitsingsvergunning-aanvragen",
+        "https://www.breda.nl/exploitatievergunning-autoverhuurbedrijf-eherkenning"
+      ],
+      "route": "structured-verification",
+      "durationMs": 7929
+    },
+    {
+      "municipalityCode": "GM1876",
+      "municipalityName": "Bronckhorst",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.bronckhorst.nl",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.bronckhorst.nl/wet-goed-verhuurderschap",
+        "https://www.bronckhorst.nl/ongewenst-gedrag-van-verhuurders-melden",
+        "https://www.bronckhorst.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bronckhorst.nl/huisvesting-onderwijs",
+        "https://www.bronckhorst.nl/voorwaarden-woningvergroting-voor-woningsplitsing"
+      ],
+      "reachableCandidates": [
+        "https://www.bronckhorst.nl/wet-goed-verhuurderschap",
+        "https://www.bronckhorst.nl/ongewenst-gedrag-van-verhuurders-melden",
+        "https://www.bronckhorst.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bronckhorst.nl/huisvesting-onderwijs",
+        "https://www.bronckhorst.nl/voorwaarden-woningvergroting-voor-woningsplitsing"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3489
+    },
+    {
+      "municipalityCode": "GM0213",
+      "municipalityName": "Brummen",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.brummen.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.brummen.nl/wonen-en-leefomgeving/wonen-bouwen-en-verbouwen/huren-of-kopen/meldpunt-wet-goed-verhuurderschap",
+        "https://www.brummen.nl/wonen-en-leefomgeving/wonen-bouwen-en-verbouwen/huisvestingsverordening"
+      ],
+      "reachableCandidates": [
+        "https://www.brummen.nl/wonen-en-leefomgeving/wonen-bouwen-en-verbouwen/huren-of-kopen/meldpunt-wet-goed-verhuurderschap",
+        "https://www.brummen.nl/wonen-en-leefomgeving/wonen-bouwen-en-verbouwen/huisvestingsverordening"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2943
+    },
+    {
+      "municipalityCode": "GM0899",
+      "municipalityName": "Brunssum",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.brunssum.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.brunssum.nl/Ondernemers/bedrijven/leegstand_melding",
+        "https://www.brunssum.nl/Duurzaam_Brunssum/Nieuws/Nieuwsberichten_Duurzaamheid/Woonruimte_gezocht_voor_kleine_gevleugelde_medebewoners",
+        "https://www.brunssum.nl/Wonen_en_Leven/Meldingen/Meldpunt_Goed_Verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.brunssum.nl/Ondernemers/bedrijven/leegstand_melding",
+        "https://www.brunssum.nl/Duurzaam_Brunssum/Nieuws/Nieuwsberichten_Duurzaamheid/Woonruimte_gezocht_voor_kleine_gevleugelde_medebewoners",
+        "https://www.brunssum.nl/Wonen_en_Leven/Meldingen/Meldpunt_Goed_Verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3771
+    },
+    {
+      "municipalityCode": "GM0312",
+      "municipalityName": "Bunnik",
+      "province": "Utrecht",
+      "registryHit": true,
+      "municipalSite": "https://www.bunnik.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.bunnik.nl/wonen-en-leefomgeving/kopen-en-huren/huisvestingsvergunning",
+        "https://www.bunnik.nl/wonen-en-leefomgeving/bouwen-en-verbouwen/u-wilt-verbouwen/extra-woonruimte-bij-uw-woning",
+        "https://www.bunnik.nl/wonen-en-leefomgeving/bouwen-en-verbouwen/u-wilt-verbouwen/woning-splitsen"
+      ],
+      "reachableCandidates": [
+        "https://www.bunnik.nl/wonen-en-leefomgeving/kopen-en-huren/huisvestingsvergunning",
+        "https://www.bunnik.nl/wonen-en-leefomgeving/bouwen-en-verbouwen/u-wilt-verbouwen/extra-woonruimte-bij-uw-woning",
+        "https://www.bunnik.nl/wonen-en-leefomgeving/bouwen-en-verbouwen/u-wilt-verbouwen/woning-splitsen"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2990
+    }
+  ],
+  "summary": {
+    "municipalities": 10,
+    "registryHits": 10,
+    "networkRequests": 124,
+    "networkErrors": 3,
+    "maxConcurrency": 5
+  },
+  "safety": {
+    "discoveryIsNotLegalVerification": true,
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0
+  }
+}

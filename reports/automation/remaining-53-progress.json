@@ -1,52 +1,12 @@
 {
-  "generatedAt": "2026-08-10T21:35:34.283Z",
+  "generatedAt": "2026-08-10T21:35:48.397Z",
   "originMainEvidence": {
     "autoVerificationFiles": 11
   },
-  "initialProcessed": 299,
-  "processedAfterBatch": 309,
-  "remainingCount": 33,
+  "initialProcessed": 309,
+  "processedAfterBatch": 319,
+  "remainingCount": 23,
   "remainingMunicipalities": [
-    {
-      "municipalityCode": "GM0755",
-      "municipalityName": "Boekel"
-    },
-    {
-      "municipalityCode": "GM1681",
-      "municipalityName": "Borger-Odoorn"
-    },
-    {
-      "municipalityCode": "GM0147",
-      "municipalityName": "Borne"
-    },
-    {
-      "municipalityCode": "GM0654",
-      "municipalityName": "Borsele"
-    },
-    {
-      "municipalityCode": "GM0757",
-      "municipalityName": "Boxtel"
-    },
-    {
-      "municipalityCode": "GM0758",
-      "municipalityName": "Breda"
-    },
-    {
-      "municipalityCode": "GM1876",
-      "municipalityName": "Bronckhorst"
-    },
-    {
-      "municipalityCode": "GM0213",
-      "municipalityName": "Brummen"
-    },
-    {
-      "municipalityCode": "GM0899",
-      "municipalityName": "Brunssum"
-    },
-    {
-      "municipalityCode": "GM0312",
-      "municipalityName": "Bunnik"
-    },
     {
       "municipalityCode": "GM0313",
       "municipalityName": "Bunschoten"
@@ -140,15 +100,15 @@
       "municipalityName": "Druten"
     }
   ],
-  "lastBatch": "remaining-53-02",
+  "lastBatch": "remaining-53-03",
   "lastBatchSummary": {
     "municipalities": 10,
-    "structurallyComplete": 1,
-    "targetedReviewRequired": 7,
+    "structurallyComplete": 0,
+    "targetedReviewRequired": 8,
     "officialRegulationCandidateFound": 0,
     "manualLegalSourceReviewRequired": 2,
-    "networkRequests": 133,
-    "networkErrors": 1,
+    "networkRequests": 124,
+    "networkErrors": 3,
     "maxConcurrency": 5
   },
   "safety": {

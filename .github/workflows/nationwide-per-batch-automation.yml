@@ -1,0 +1,40 @@
+name: Nationwide per-batch automation (manual)
+
+on:
+  workflow_dispatch:
+    inputs:
+      simulate:
+        description: Run in simulate mode (do not push commits)
+        required: true
+        default: true
+        type: boolean
+
+permissions:
+  contents: write
+
+jobs:
+  per-batch-run:
+    name: Per-batch runner demo
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run selftest (optional)
+        run: |
+          node scripts/automation/selftest.mjs || true
+      - name: Run per-batch committer
+        env:
+          SIMULATE: ${{ inputs.simulate }}
+        run: |
+          node scripts/automation/run-per-batch-committer.mjs
+      - name: Upload per-batch artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: per-batch-run-${{ github.run_number }}
+          path: reports/automation/ reports/automation/* artifacts/selftest/**
+          if-no-files-found: ignore

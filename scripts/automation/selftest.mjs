@@ -24,7 +24,7 @@ const regs = [];
 regs.push({id:'hist-1',municipalityCode:canonical[0],evidence:[{url:'https://example.com/1'}],verification:{content:{status:'verified'},legalReview:{status:'required'}}});
 regs.push({id:'hist-2',municipalityCode:canonical[1],evidence:[{url:'https://example.com/2'}],verification:{content:{status:'verified'}}});
 // auto persisted for next set
-for(let i=2;i<8;i++){
+for(let i=4;i<8;i++){
   regs.push({id:`auto-${i}`,municipalityCode:canonical[i],evidence:[{url:`https://example.com/auto-${i}`}],verification:{content:{status:i%2===0?'verified':'partially-verified'}}});
 }
 W('artifacts/selftest/regulations.json',{records:regs});

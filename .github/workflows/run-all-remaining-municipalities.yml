@@ -56,9 +56,9 @@ jobs:
             echo "Starting $label"
             BATCH_LABEL="$label" BATCH_SIZE="$BATCH_SIZE" ALLOW_EMPTY=true node scripts/run-next-registry-batch.mjs
             BATCH_LABEL="$label" node scripts/verify-registry-batch.mjs
-            node - <<NODE
+            LABEL="$label" node - <<'NODE'
           const fs=require('fs');
-          const label='$label';
+          const label=process.env.LABEL;
           const d=JSON.parse(fs.readFileSync(`data/research-batches/auto/${label}.json`));
           const v=JSON.parse(fs.readFileSync(`data/research-batches/auto/${label}-verification.json`));
           if(d.summary.registryHits!==d.records.length) throw Error('Registry coverage gate failed');

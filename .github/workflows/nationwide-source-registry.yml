@@ -1,0 +1,111 @@
+name: Nationwide source registry
+
+on:
+  workflow_dispatch:
+    inputs:
+      set:
+        description: Run the safe 25-municipality pilot or the gated nationwide assembly
+        required: true
+        default: pilot
+        type: choice
+        options:
+          - pilot
+          - all342
+      commit:
+        description: Commit generated registry files after all gates pass
+        required: true
+        default: false
+        type: boolean
+
+permissions:
+  contents: write
+
+concurrency:
+  group: nationwide-source-registry-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  pilot:
+    name: Connectivity, benchmark-25 and pilot gate
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Offline benchmark-25 selftest
+        run: |
+          node scripts/national-discovery.mjs
+          node scripts/test-national-discovery.mjs
+      - name: Restore pilot checkpoint
+        uses: actions/cache@v4
+        with:
+          path: artifacts/source-registry/checkpoint-pilot.json
+          key: source-registry-pilot-${{ github.run_id }}
+          restore-keys: source-registry-pilot-
+      - name: Connectivity test and live pilot-25
+        run: node scripts/source-registry-runner.mjs --set=pilot
+      - name: Upload pilot registry, comparison, QA, checkpoint and logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bronregister-pilot-${{ github.run_number }}
+          path: artifacts/source-registry/
+          if-no-files-found: error
+          retention-days: 30
+
+  all342:
+    name: Gated all-342 assembly
+    if: inputs.set == 'all342'
+    needs: pilot
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Restore nationwide checkpoint
+        uses: actions/cache@v4
+        with:
+          path: artifacts/source-registry/checkpoint-all342.json
+          key: source-registry-all342-${{ github.run_id }}
+          restore-keys: source-registry-all342-
+      - name: Assemble and check all 342 municipalities
+        run: node scripts/source-registry-runner.mjs --set=all342
+      - name: Preserve nationwide registry, QA, checkpoint and logs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bronregister-342-${{ github.run_number }}
+          path: artifacts/source-registry/
+          if-no-files-found: error
+          retention-days: 30
+      - name: Stage successful nationwide outputs
+        if: inputs.commit == true
+        run: |
+          mkdir -p data/source-registry reports/source-registry
+          cp artifacts/source-registry/bronregister-342.json data/source-registry/bronregister-342.json
+          cp artifacts/source-registry/bronregister-pilot-compare.json reports/source-registry/bronregister-pilot-compare.json
+          cp artifacts/source-registry/registry-qa-all342.json reports/source-registry/registry-qa-all342.json
+          cp artifacts/source-registry/run-summary-all342.md reports/source-registry/run-summary-all342.md
+      - name: Regenerate Excel when the optional workbook runtime is available
+        if: inputs.commit == true
+        shell: bash
+        run: |
+          if node -e "import('@oai/artifact-tool')" 2>/dev/null; then
+            node scripts/generate-research-workbook.mjs
+          else
+            echo 'Excel regeneration not applicable: the source registry is research-only and the optional workbook runtime is not installed.' >> artifacts/source-registry/run-summary-all342.md
+          fi
+      - name: Commit gated results
+        if: inputs.commit == true
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add data/source-registry reports/source-registry
+          git add -u exports/Woningencheck-Onderzoeksdatabase.xlsx exports/workbook-counts.json exports/workbook-dashboard.png
+          git diff --cached --quiet && exit 0
+          git commit -m "Update nationwide source registry"
+          git push

@@ -19,9 +19,12 @@
     "notes": {"type": "string"},
     "discoveryStatus": {"enum": ["discovery-complete"]},
     "discoveryTier": {"type": "integer","minimum": 1,"maximum": 5},
-    "verificationRoute": {"enum": ["structured-verification-required","deep-verification-required","source-incomplete"]},
+    "verificationRoute": {"enum": ["structured-verification","deep-verification","manual-review","structured-verification-required","deep-verification-required","source-incomplete"]},
+    "verificationOutcome": {"enum": ["structured-complete","targeted-review","deep-manual-review"]},
     "discoveryBatch": {"type": "string"},
     "discoveryCheckedAt": {"type": "string","format": "date"}
   },
+  "additionalProperties": false
+}
   "additionalProperties": false
 }

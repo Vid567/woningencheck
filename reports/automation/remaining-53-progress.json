@@ -1,35 +1,22 @@
 {
-  "generatedAt": "2026-08-10T21:37:12.956Z",
+  "generatedAt": "2026-08-10T21:37:24.284Z",
   "originMainEvidence": {
     "autoVerificationFiles": 11
   },
-  "initialProcessed": 329,
-  "processedAfterBatch": 339,
-  "remainingCount": 3,
-  "remainingMunicipalities": [
-    {
-      "municipalityCode": "GM1719",
-      "municipalityName": "Drimmelen"
-    },
-    {
-      "municipalityCode": "GM0303",
-      "municipalityName": "Dronten"
-    },
-    {
-      "municipalityCode": "GM0225",
-      "municipalityName": "Druten"
-    }
-  ],
-  "lastBatch": "remaining-53-05",
+  "initialProcessed": 339,
+  "processedAfterBatch": 342,
+  "remainingCount": 0,
+  "remainingMunicipalities": [],
+  "lastBatch": "remaining-53-06",
   "lastBatchSummary": {
-    "municipalities": 10,
-    "structurallyComplete": 2,
-    "targetedReviewRequired": 7,
+    "municipalities": 3,
+    "structurallyComplete": 1,
+    "targetedReviewRequired": 2,
     "officialRegulationCandidateFound": 0,
-    "manualLegalSourceReviewRequired": 1,
-    "networkRequests": 138,
-    "networkErrors": 0,
-    "maxConcurrency": 5
+    "manualLegalSourceReviewRequired": 0,
+    "networkRequests": 37,
+    "networkErrors": 1,
+    "maxConcurrency": 3
   },
   "safety": {
     "legalApprovalAutomatic": false,

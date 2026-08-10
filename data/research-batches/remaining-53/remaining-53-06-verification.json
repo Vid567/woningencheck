@@ -1,0 +1,343 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "remaining-53-06-verification",
+  "generatedAt": "2026-08-10T21:37:24.282Z",
+  "sourceBatch": "remaining-53-06",
+  "records": [
+    {
+      "municipalityCode": "GM1719",
+      "municipalityName": "Drimmelen",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.drimmelen.nl",
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "candidates": [
+        "https://drimmelen.nl/projecten-en-beleid/volkshuisvestelijk-programma"
+      ],
+      "reachableCandidates": [
+        "https://drimmelen.nl/projecten-en-beleid/volkshuisvestelijk-programma"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2280,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [],
+      "pages": [
+        {
+          "url": "https://drimmelen.nl/projecten-en-beleid/volkshuisvestelijk-programma",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [],
+      "documentLinks": [],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": false,
+        "documents": false,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "applicationRoute",
+        "documents",
+        "exceptions"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0303",
+      "municipalityName": "Dronten",
+      "province": "Flevoland",
+      "registryHit": true,
+      "municipalSite": "https://www.dronten.nl",
+      "candidateCount": 12,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.dronten.nl/home/arbeidsmigrantenhuisvesting/",
+        "https://www.dronten.nl/home/arbeidsmigrantenhuisvesting/arbeidsmigrantenhuisvestiging-veelgestelde-vragen/",
+        "https://www.dronten.nl/home/arbeidsmigrantenhuisvesting/arbeidsmigrantenhuisvestiging-industrieweg-84-86/",
+        "https://www.dronten.nl/home/arbeidsmigrantenhuisvesting/arbeidsmigrantenhuisvestiging-roodbeenweg-17/",
+        "https://www.dronten.nl/home/arbeidsmigrantenhuisvesting/arbeidsmigrantenhuisvestiging-poort-van-dronten/",
+        "https://www.dronten.nl/home/arbeidsmigrantenhuisvesting/arbeidsmigrantenhuisvestiging-colijnweg/",
+        "https://www.dronten.nl/home/arbeidsmigrantenhuisvesting/arbeidsmigrantenhuisvesting-archief-2024/",
+        "https://www.dronten.nl/home/arbeidsmigrantenhuisvesting/arbeidsmigrantenhuisvesting-veelgestelde-vragen-algemeen/",
+        "https://www.dronten.nl/home/arbeidsmigrantenhuisvesting/arbeidsmigrantenhuisvestiging-roodbeenweg-19-21/",
+        "https://www.dronten.nl/home/arbeidsmigrantenhuisvesting/arbeidsmigrantenhuisvestiging-kromme-rijn/",
+        "https://www.dronten.nl/home/arbeidsmigrantenhuisvesting/arbeidsmigrantenhuisvesting-archief-2023-en-ouder/",
+        "https://www.dronten.nl/arbeidsmigrantenhuisvesting-veelgestelde-vragen-sociale-omgeving/"
+      ],
+      "reachableCandidates": [
+        "https://www.dronten.nl/home/arbeidsmigrantenhuisvesting/",
+        "https://www.dronten.nl/home/arbeidsmigrantenhuisvesting/arbeidsmigrantenhuisvestiging-veelgestelde-vragen/",
+        "https://www.dronten.nl/home/arbeidsmigrantenhuisvesting/arbeidsmigrantenhuisvestiging-industrieweg-84-86/",
+        "https://www.dronten.nl/home/arbeidsmigrantenhuisvesting/arbeidsmigrantenhuisvestiging-roodbeenweg-17/",
+        "https://www.dronten.nl/home/arbeidsmigrantenhuisvesting/arbeidsmigrantenhuisvestiging-poort-van-dronten/",
+        "https://www.dronten.nl/home/arbeidsmigrantenhuisvesting/arbeidsmigrantenhuisvestiging-colijnweg/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6762,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [],
+      "pages": [
+        {
+          "url": "https://www.dronten.nl/home/arbeidsmigrantenhuisvesting/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.dronten.nl/home/arbeidsmigrantenhuisvesting/arbeidsmigrantenhuisvestiging-veelgestelde-vragen/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.dronten.nl/home/arbeidsmigrantenhuisvesting/arbeidsmigrantenhuisvestiging-industrieweg-84-86/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.dronten.nl/home/arbeidsmigrantenhuisvesting/arbeidsmigrantenhuisvestiging-roodbeenweg-17/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.dronten.nl/home/arbeidsmigrantenhuisvesting/arbeidsmigrantenhuisvestiging-poort-van-dronten/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.dronten.nl/home/arbeidsmigrantenhuisvesting/arbeidsmigrantenhuisvestiging-colijnweg/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [],
+      "documentLinks": [],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": false,
+        "documents": false,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "applicationRoute",
+        "documents",
+        "exceptions"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0225",
+      "municipalityName": "Druten",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.druten.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.druten.nl/huisvesting-voor-internationale-werknemers",
+        "https://www.druten.nl/meldpunt-problemen-met-verhuurders",
+        "https://www.druten.nl/tijdelijke-verhuur-leegstaand-pand"
+      ],
+      "reachableCandidates": [
+        "https://www.druten.nl/huisvesting-voor-internationale-werknemers",
+        "https://www.druten.nl/meldpunt-problemen-met-verhuurders",
+        "https://www.druten.nl/tijdelijke-verhuur-leegstaand-pand"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5344,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [],
+      "pages": [
+        {
+          "url": "https://www.druten.nl/huisvesting-voor-internationale-werknemers",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR746251"
+          ],
+          "applicationLinks": [
+            "https://forms.druten.nl/contactformulier/startpagina"
+          ],
+          "documentLinks": [
+            "https://forms.druten.nl/contactformulier/startpagina"
+          ]
+        },
+        {
+          "url": "https://www.druten.nl/meldpunt-problemen-met-verhuurders",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://forms.druten.nl/contactformulier/startpagina"
+          ],
+          "documentLinks": [
+            "https://forms.druten.nl/contactformulier/startpagina"
+          ]
+        },
+        {
+          "url": "https://www.druten.nl/tijdelijke-verhuur-leegstaand-pand",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": false,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://forms.druten.nl/contactformulier/startpagina",
+            "https://forms.druten.nl/aanvraagformulier-tijdelijke-verhuur/startpagina"
+          ],
+          "documentLinks": [
+            "https://forms.druten.nl/contactformulier/startpagina",
+            "https://forms.druten.nl/aanvraagformulier-tijdelijke-verhuur/startpagina"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [
+        "https://lokaleregelgeving.overheid.nl/CVDR746251"
+      ],
+      "applicationLinks": [
+        "https://forms.druten.nl/contactformulier/startpagina",
+        "https://forms.druten.nl/aanvraagformulier-tijdelijke-verhuur/startpagina"
+      ],
+      "documentLinks": [
+        "https://forms.druten.nl/contactformulier/startpagina",
+        "https://forms.druten.nl/aanvraagformulier-tijdelijke-verhuur/startpagina"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "structurally-complete-pending-legal-review",
+      "openChecks": [],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    }
+  ],
+  "summary": {
+    "municipalities": 3,
+    "structurallyComplete": 1,
+    "targetedReviewRequired": 2,
+    "officialRegulationCandidateFound": 0,
+    "manualLegalSourceReviewRequired": 0,
+    "networkRequests": 37,
+    "networkErrors": 1,
+    "maxConcurrency": 3
+  },
+  "safety": {
+    "legalApprovalAutomatic": false,
+    "automaticPublication": false,
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0,
+    "absenceOfEvidenceIsNotEvidenceOfAbsence": true
+  }
+}

@@ -1,0 +1,46 @@
+name: Batch 004 gap closure
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/close-batch-004-verification-gaps.mjs'
+      - 'data/research-batches/batch-004-structured-verification.json'
+      - 'data/research-batches/batch-004-deep-verification.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: batch-004-gap-closure
+  cancel-in-progress: false
+
+jobs:
+  close-gaps:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Close Batch 004 verification gaps
+        run: node scripts/close-batch-004-verification-gaps.mjs
+      - name: Safety assertions
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          const x=JSON.parse(fs.readFileSync('data/research-batches/batch-004-gap-closure.json'));
+          if(x.records.length!==20) throw Error('Expected 20 targeted municipalities');
+          if(x.deepReview.length!==4) throw Error('Expected 4 deep-review municipalities');
+          if(x.safety.publicRulesCreated!==0||x.safety.negativeLegalConclusions!==0||x.safety.legalApprovalAutomatic!==false) throw Error('Safety invariant failed');
+          console.log(x.summary);
+          NODE
+      - name: Commit gap-closure results
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/research-batches/batch-004-gap-closure.json docs/research-batches/batch-004-gap-closure.md
+          git diff --cached --quiet && exit 0
+          git commit -m 'Add Batch 004 gap closure results'
+          git pull --rebase origin main
+          git push

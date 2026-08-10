@@ -1,0 +1,61 @@
+name: PR selftest & accounting (artifacts only)
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+
+jobs:
+  selftest-accounting:
+    name: Run selftest + accounting (artifacts only)
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install dependencies (if any)
+        run: |
+          if [ -f package.json ]; then npm ci --no-audit --no-fund; else echo 'No package.json'; fi
+
+      - name: Run deterministic offline selftest
+        run: |
+          node scripts/automation/selftest.mjs
+
+      - name: Run authoritative accounting
+        run: |
+          node scripts/automation/accounting.mjs
+
+      - name: Parse every JSON file in repository
+        run: |
+          set -e
+          echo "Parsing JSON files..."
+          for f in $(git ls-files '*.json'); do
+            echo "VALIDATING: $f"
+            python -m json.tool "$f" >/dev/null
+          done
+
+      - name: Run pipeline verification
+        run: |
+          # run repository verification scripts where available
+          if [ -f scripts/verify-pipeline.mjs ]; then node scripts/verify-pipeline.mjs; fi
+          if [ -f scripts/verify-data.mjs ]; then node scripts/verify-data.mjs; fi
+
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: pr-selftest-accounting-${{ github.run_number }}
+          path: |
+            reports/automation/
+            artifacts/selftest/
+            artifacts/selftest/**
+          if-no-files-found: ignore

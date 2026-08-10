@@ -1,0 +1,1359 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-10T08:09:58.039Z",
+  "purpose": "Calibration check of the first 25 deeply researched municipalities against the current nationwide registry. This does not replace legal review.",
+  "batches": [
+    "batch-001",
+    "batch-002",
+    "batch-003"
+  ],
+  "summary": {
+    "municipalities": 25,
+    "registryHits": 25,
+    "registryPopulated": 25,
+    "knownFindings": 43,
+    "knownSources": 80,
+    "domainCoveredKnownSources": 79,
+    "exactRegistryMatches": 79,
+    "liveChecks": 80,
+    "liveReachable": 64,
+    "networkErrors": 7
+  },
+  "records": [
+    {
+      "municipalityCode": "GM1680",
+      "municipalityName": "Aa en Hunze",
+      "batchIds": [],
+      "reviewLevel": "C",
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "knownFindingCount": 0,
+      "knownSourceCount": 0,
+      "knownSourceRelationships": [],
+      "liveChecks": [],
+      "unresolvedQuestions": [
+        "Geen actuele officiële implementatiebron gevonden; bron-/registercontrole door tweede onderzoeker vereist voordat een negatieve conclusie mogelijk is."
+      ]
+    },
+    {
+      "municipalityCode": "GM0358",
+      "municipalityName": "Aalsmeer",
+      "batchIds": [
+        "batch-001"
+      ],
+      "reviewLevel": "B",
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 3,
+      "knownFindingCount": 2,
+      "knownSourceCount": 3,
+      "knownSourceRelationships": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR749527",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.aalsmeer.nl/verhuurvergunning-bij-opkoopbescherming",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR623005",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR749527",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR749527"
+        },
+        {
+          "url": "https://www.aalsmeer.nl/verhuurvergunning-bij-opkoopbescherming",
+          "status": "error",
+          "ok": false,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR623005",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR623005"
+        }
+      ],
+      "unresolvedQuestions": []
+    },
+    {
+      "municipalityCode": "GM0197",
+      "municipalityName": "Aalten",
+      "batchIds": [
+        "batch-001"
+      ],
+      "reviewLevel": "B",
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 3,
+      "knownFindingCount": 1,
+      "knownSourceCount": 3,
+      "knownSourceRelationships": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR720987",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.aalten.nl/verhuurvergunning",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://aalten-checker.aalten.nl/",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR720987",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR720987"
+        },
+        {
+          "url": "https://www.aalten.nl/verhuurvergunning",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.aalten.nl/verhuurvergunning"
+        },
+        {
+          "url": "https://aalten-checker.aalten.nl/",
+          "status": 403,
+          "ok": false,
+          "finalUrl": "https://aalten-checker.aalten.nl/"
+        }
+      ],
+      "unresolvedQuestions": []
+    },
+    {
+      "municipalityCode": "GM0059",
+      "municipalityName": "Achtkarspelen",
+      "batchIds": [
+        "batch-001"
+      ],
+      "reviewLevel": "C",
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 2,
+      "knownFindingCount": 1,
+      "knownSourceCount": 1,
+      "knownSourceRelationships": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR705002",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR705002",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR705002"
+        }
+      ],
+      "unresolvedQuestions": [
+        "Bepaal of de ontwikkelingsgebonden verhuurmelding als aanvullende taxonomiecategorie moet worden opgenomen."
+      ]
+    },
+    {
+      "municipalityCode": "GM0482",
+      "municipalityName": "Alblasserdam",
+      "batchIds": [
+        "batch-001"
+      ],
+      "reviewLevel": "C",
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 7,
+      "knownFindingCount": 4,
+      "knownSourceCount": 7,
+      "knownSourceRelationships": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR741471",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Onttrekkingsvergunning_woonruimte_kamerverhuur",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.ozhz.nl/onttrekkingsvergunningaanvragen/",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Splitsingsvergunning",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.ozhz.nl/een-splitsingsvergunning-aanvragen/",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Opkoopbescherming",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.alblasserdam.nl/Mediatheek/Inwoners/bouwen_verbouwen_en_wonen/Formulier_vrijstelling_opkoopbescherming.org",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR741471",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR741471"
+        },
+        {
+          "url": "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Onttrekkingsvergunning_woonruimte_kamerverhuur",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Onttrekkingsvergunning_woonruimte_kamerverhuur"
+        },
+        {
+          "url": "https://www.ozhz.nl/onttrekkingsvergunningaanvragen/",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.ozhz.nl/onttrekkingsvergunningaanvragen/"
+        },
+        {
+          "url": "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Splitsingsvergunning",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Splitsingsvergunning"
+        },
+        {
+          "url": "https://www.ozhz.nl/een-splitsingsvergunning-aanvragen/",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.ozhz.nl/een-splitsingsvergunning-aanvragen/"
+        },
+        {
+          "url": "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Opkoopbescherming",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.alblasserdam.nl/Inwoners/Alle_onderwerpen/Bouwen_verbouwen_en_wonen/Opkoopbescherming"
+        },
+        {
+          "url": "https://www.alblasserdam.nl/Mediatheek/Inwoners/bouwen_verbouwen_en_wonen/Formulier_vrijstelling_opkoopbescherming.org",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.alblasserdam.nl/Mediatheek/Inwoners/bouwen_verbouwen_en_wonen/Formulier_vrijstelling_opkoopbescherming.org"
+        }
+      ],
+      "unresolvedQuestions": [
+        "Controleer het exacte actuele toepassingsbereik en de aanvraagroute van CVDR741471."
+      ]
+    },
+    {
+      "municipalityCode": "GM0613",
+      "municipalityName": "Albrandswaard",
+      "batchIds": [
+        "batch-001"
+      ],
+      "reviewLevel": "C",
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 3,
+      "knownFindingCount": 2,
+      "knownSourceCount": 2,
+      "knownSourceRelationships": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR741224",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR660521",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR741224",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR741224"
+        },
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR660521",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR660521"
+        }
+      ],
+      "unresolvedQuestions": [
+        "Bepaal of de ontwikkelingsgebonden verhuurmelding in de publieke woningcheck thuishoort."
+      ]
+    },
+    {
+      "municipalityCode": "GM0361",
+      "municipalityName": "Alkmaar",
+      "batchIds": [
+        "batch-001"
+      ],
+      "reviewLevel": "B",
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 3,
+      "knownFindingCount": 1,
+      "knownSourceCount": 3,
+      "knownSourceRelationships": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR713872",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/wonen",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/huisvesting/kamerverhuur",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR713872",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR713872"
+        },
+        {
+          "url": "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/wonen",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.alkmaar.nl/direct-regelen/wonen-verhuizen-en-verbouwen/wonen/"
+        },
+        {
+          "url": "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/huisvesting/kamerverhuur",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.alkmaar.nl/direct-regelen/vergunningen-en-ontheffingen/kamerverhuur/"
+        }
+      ],
+      "unresolvedQuestions": []
+    },
+    {
+      "municipalityCode": "GM0141",
+      "municipalityName": "Almelo",
+      "batchIds": [
+        "batch-001"
+      ],
+      "reviewLevel": "C",
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 6,
+      "knownFindingCount": 2,
+      "knownSourceCount": 6,
+      "knownSourceRelationships": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR726069",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.almelo.nl/wonen-bouwen-en-verbouwen/wet-opkoopbescherming-almelo",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "mailto:gemeente@almelo.nl",
+          "exactRegistryMatch": false,
+          "domainCovered": false
+        },
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR638723",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.almelo.nl/wonen-bouwen-en-verbouwen/leegstandsverordening",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://almelo.nl/bouwen-en-wonen/leegstandsverordening/formulier-leegstandsverordening",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR726069",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR726069"
+        },
+        {
+          "url": "https://www.almelo.nl/wonen-bouwen-en-verbouwen/wet-opkoopbescherming-almelo",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.almelo.nl/wonen-bouwen-en-verbouwen/wet-opkoopbescherming-almelo"
+        },
+        {
+          "url": "mailto:gemeente@almelo.nl",
+          "status": "error",
+          "ok": false,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR638723",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR638723"
+        },
+        {
+          "url": "https://www.almelo.nl/wonen-bouwen-en-verbouwen/leegstandsverordening",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.almelo.nl/wonen-bouwen-en-verbouwen/leegstandsverordening"
+        },
+        {
+          "url": "https://almelo.nl/bouwen-en-wonen/leegstandsverordening/formulier-leegstandsverordening",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://almelo.nl/bouwen-en-wonen/leegstandsverordening/formulier-leegstandsverordening"
+        }
+      ],
+      "unresolvedQuestions": [
+        "Bevestig de geïndexeerde WOZ-grens voor 2026 en digitaliseer/vergelijk bijlage 1 van de leegstandverordening."
+      ]
+    },
+    {
+      "municipalityCode": "GM0034",
+      "municipalityName": "Almere",
+      "batchIds": [
+        "batch-001"
+      ],
+      "reviewLevel": "B",
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 3,
+      "knownFindingCount": 1,
+      "knownSourceCount": 3,
+      "knownSourceRelationships": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR741425",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.almere.nl/wonen/opkoopbescherming",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://formulieren.almere.nl/TriplEforms/formulierenoverzicht/nl-NL/evAlmere.aspx",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR741425",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR741425"
+        },
+        {
+          "url": "https://www.almere.nl/wonen/opkoopbescherming",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.almere.nl/wonen/opkoopbescherming"
+        },
+        {
+          "url": "https://formulieren.almere.nl/TriplEforms/formulierenoverzicht/nl-NL/evAlmere.aspx",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://formulieren.almere.nl/TriplEforms/formulierenoverzicht/nl-NL/evAlmere.aspx"
+        }
+      ],
+      "unresolvedQuestions": []
+    },
+    {
+      "municipalityCode": "GM0484",
+      "municipalityName": "Alphen aan den Rijn",
+      "batchIds": [
+        "batch-001"
+      ],
+      "reviewLevel": "C",
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 3,
+      "knownFindingCount": 1,
+      "knownSourceCount": 2,
+      "knownSourceRelationships": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR752466",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.hureninhollandrijnland.nl/",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR752466",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR752466"
+        },
+        {
+          "url": "https://www.hureninhollandrijnland.nl/",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.hureninhollandrijnland.nl/"
+        }
+      ],
+      "unresolvedQuestions": [
+        "Geen actuele officiële implementatiebron gevonden; controleer regionale en gemeentelijke registers handmatig voordat een negatieve conclusie mogelijk is."
+      ]
+    },
+    {
+      "municipalityCode": "GM1723",
+      "municipalityName": "Alphen-Chaam",
+      "batchIds": [],
+      "reviewLevel": null,
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "knownFindingCount": 0,
+      "knownSourceCount": 0,
+      "knownSourceRelationships": [],
+      "liveChecks": [],
+      "unresolvedQuestions": []
+    },
+    {
+      "municipalityCode": "GM1959",
+      "municipalityName": "Altena",
+      "batchIds": [
+        "batch-002"
+      ],
+      "reviewLevel": null,
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 3,
+      "knownFindingCount": 1,
+      "knownSourceCount": 3,
+      "knownSourceRelationships": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR699287",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.gemeentealtena.nl/bouwen-en-verbouwen/het-proces-rondom-een-vergunning",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://omgevingswet.overheid.nl/checken",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR699287",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR699287"
+        },
+        {
+          "url": "https://www.gemeentealtena.nl/bouwen-en-verbouwen/het-proces-rondom-een-vergunning",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.gemeentealtena.nl/bouwen-en-verbouwen/het-proces-rondom-een-vergunning"
+        },
+        {
+          "url": "https://omgevingswet.overheid.nl/checken",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://omgevingswet.overheid.nl/checken"
+        }
+      ],
+      "unresolvedQuestions": []
+    },
+    {
+      "municipalityCode": "GM0060",
+      "municipalityName": "Ameland",
+      "batchIds": [
+        "batch-002"
+      ],
+      "reviewLevel": null,
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 2,
+      "knownFindingCount": 2,
+      "knownSourceCount": 2,
+      "knownSourceRelationships": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR704968",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.ameland.nl/huisvestingsvergunning",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR704968",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR704968"
+        },
+        {
+          "url": "https://www.ameland.nl/huisvestingsvergunning",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.ameland.nl/huisvestingsvergunning"
+        }
+      ],
+      "unresolvedQuestions": []
+    },
+    {
+      "municipalityCode": "GM0307",
+      "municipalityName": "Amersfoort",
+      "batchIds": [
+        "batch-002"
+      ],
+      "reviewLevel": null,
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 4,
+      "knownFindingCount": 2,
+      "knownSourceCount": 4,
+      "knownSourceRelationships": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR741596",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.amersfoort.nl/huren-amersfoort",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR758403",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.amersfoort.nl/leegstand-woning",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR741596",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR741596"
+        },
+        {
+          "url": "https://www.amersfoort.nl/huren-amersfoort",
+          "status": "error",
+          "ok": false,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR758403",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR758403"
+        },
+        {
+          "url": "https://www.amersfoort.nl/leegstand-woning",
+          "status": "error",
+          "ok": false,
+          "error": "TypeError: fetch failed"
+        }
+      ],
+      "unresolvedQuestions": []
+    },
+    {
+      "municipalityCode": "GM0362",
+      "municipalityName": "Amstelveen",
+      "batchIds": [
+        "batch-002"
+      ],
+      "reviewLevel": null,
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 6,
+      "knownFindingCount": 3,
+      "knownSourceCount": 6,
+      "knownSourceRelationships": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR614436",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.amstelveen.nl/leegstand-melden",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR748045",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.amstelveen.nl/verhuurvergunning-bij-opkoopbescherming",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.amstelveen.nl/woningdelen",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://omgevingswet.overheid.nl/checken",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR614436",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR614436"
+        },
+        {
+          "url": "https://www.amstelveen.nl/leegstand-melden",
+          "status": "error",
+          "ok": false,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR748045",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR748045"
+        },
+        {
+          "url": "https://www.amstelveen.nl/verhuurvergunning-bij-opkoopbescherming",
+          "status": "error",
+          "ok": false,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "url": "https://www.amstelveen.nl/woningdelen",
+          "status": "error",
+          "ok": false,
+          "error": "TypeError: fetch failed"
+        },
+        {
+          "url": "https://omgevingswet.overheid.nl/checken",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://omgevingswet.overheid.nl/checken"
+        }
+      ],
+      "unresolvedQuestions": []
+    },
+    {
+      "municipalityCode": "GM0363",
+      "municipalityName": "Amsterdam",
+      "batchIds": [
+        "batch-002"
+      ],
+      "reviewLevel": null,
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 7,
+      "knownFindingCount": 6,
+      "knownSourceCount": 7,
+      "knownSourceRelationships": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR706038",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/huisvestingsvergunning/",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/kamer-verhuren/",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/vergunning-woningvorming-aanvragen/",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/vakantieverhuur/",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/opkoopbescherming/",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR706038",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR706038"
+        },
+        {
+          "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/huisvestingsvergunning/",
+          "status": 403,
+          "ok": false,
+          "finalUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/huisvestingsvergunning/"
+        },
+        {
+          "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/",
+          "status": 403,
+          "ok": false,
+          "finalUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/"
+        },
+        {
+          "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/kamer-verhuren/",
+          "status": 403,
+          "ok": false,
+          "finalUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/kamer-verhuren/"
+        },
+        {
+          "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/vergunning-woningvorming-aanvragen/",
+          "status": 403,
+          "ok": false,
+          "finalUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/vergunning-woningvorming-aanvragen/"
+        },
+        {
+          "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/vakantieverhuur/",
+          "status": 403,
+          "ok": false,
+          "finalUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/vakantieverhuur/"
+        },
+        {
+          "url": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/opkoopbescherming/",
+          "status": 403,
+          "ok": false,
+          "finalUrl": "https://www.amsterdam.nl/wonen-bouwen-verbouwen/opkoopbescherming/"
+        }
+      ],
+      "unresolvedQuestions": []
+    },
+    {
+      "municipalityCode": "GM0200",
+      "municipalityName": "Apeldoorn",
+      "batchIds": [
+        "batch-002"
+      ],
+      "reviewLevel": null,
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 2,
+      "knownFindingCount": 1,
+      "knownSourceCount": 2,
+      "knownSourceRelationships": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR754879",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.apeldoorn.nl/regelen-en-weten/wonen-en-verhuizen/huren-en-kamerverhuur/verhuur-verblijfsruimten-arbeidsmigranten/",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR754879",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR754879"
+        },
+        {
+          "url": "https://www.apeldoorn.nl/regelen-en-weten/wonen-en-verhuizen/huren-en-kamerverhuur/verhuur-verblijfsruimten-arbeidsmigranten/",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.apeldoorn.nl/regelen-en-weten/wonen-en-verhuizen/huren-en-kamerverhuur/verhuur-verblijfsruimten-arbeidsmigranten/"
+        }
+      ],
+      "unresolvedQuestions": []
+    },
+    {
+      "municipalityCode": "GM0202",
+      "municipalityName": "Arnhem",
+      "batchIds": [
+        "batch-002"
+      ],
+      "reviewLevel": null,
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 6,
+      "knownFindingCount": 4,
+      "knownSourceCount": 6,
+      "knownSourceRelationships": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR709142",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.arnhem.nl/alle-onderwerpen/wonen/kopen-huren-en-verhuren/",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.entree.nu",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR728286",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR736697",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.arnhem.nl/wp-content/uploads/2025/01/Aanvraagformulier-verhuurvergunning-opkoopbescherming.pdf",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR709142",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR709142"
+        },
+        {
+          "url": "https://www.arnhem.nl/alle-onderwerpen/wonen/kopen-huren-en-verhuren/",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.arnhem.nl/alle-onderwerpen/wonen/kopen-huren-en-verhuren/"
+        },
+        {
+          "url": "https://www.entree.nu",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.entree.nu/"
+        },
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR728286",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR728286"
+        },
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR736697",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR736697"
+        },
+        {
+          "url": "https://www.arnhem.nl/wp-content/uploads/2025/01/Aanvraagformulier-verhuurvergunning-opkoopbescherming.pdf",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.arnhem.nl/wp-content/uploads/2025/01/Aanvraagformulier-verhuurvergunning-opkoopbescherming.pdf"
+        }
+      ],
+      "unresolvedQuestions": []
+    },
+    {
+      "municipalityCode": "GM0106",
+      "municipalityName": "Assen",
+      "batchIds": [
+        "batch-002"
+      ],
+      "reviewLevel": null,
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 3,
+      "knownFindingCount": 1,
+      "knownSourceCount": 3,
+      "knownSourceRelationships": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR750864",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.assen.nl/woning-splitsen-in-aparte-zelfstandige-woningen",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://omgevingswet.overheid.nl/checken",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR750864",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR750864"
+        },
+        {
+          "url": "https://www.assen.nl/woning-splitsen-in-aparte-zelfstandige-woningen",
+          "status": 403,
+          "ok": false,
+          "finalUrl": "https://www.assen.nl/woning-splitsen-in-aparte-zelfstandige-woningen"
+        },
+        {
+          "url": "https://omgevingswet.overheid.nl/checken",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://omgevingswet.overheid.nl/checken"
+        }
+      ],
+      "unresolvedQuestions": []
+    },
+    {
+      "municipalityCode": "GM0743",
+      "municipalityName": "Asten",
+      "batchIds": [
+        "batch-002"
+      ],
+      "reviewLevel": null,
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 3,
+      "knownFindingCount": 1,
+      "knownSourceCount": 3,
+      "knownSourceRelationships": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR740975",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.asten.nl/wonen-en-verhuizen/vergunning-huisvesting-arbeidsmigranten",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.asten.nl/fileadmin/Asten/PDF-formulieren_producten/Wonen/Vergunning_huisvesten_arbeidsmigranten/Aanvraagformulier_exploitatievergunning_huisvesting_arbeidsmigranten.pdf",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR740975",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR740975"
+        },
+        {
+          "url": "https://www.asten.nl/wonen-en-verhuizen/vergunning-huisvesting-arbeidsmigranten",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.asten.nl/wonen-en-verhuizen/vergunning-huisvesting-arbeidsmigranten"
+        },
+        {
+          "url": "https://www.asten.nl/fileadmin/Asten/PDF-formulieren_producten/Wonen/Vergunning_huisvesten_arbeidsmigranten/Aanvraagformulier_exploitatievergunning_huisvesting_arbeidsmigranten.pdf",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.asten.nl/fileadmin/Asten/PDF-formulieren_producten/Wonen/Vergunning_huisvesten_arbeidsmigranten/Aanvraagformulier_exploitatievergunning_huisvesting_arbeidsmigranten.pdf"
+        }
+      ],
+      "unresolvedQuestions": []
+    },
+    {
+      "municipalityCode": "GM0744",
+      "municipalityName": "Baarle-Nassau",
+      "batchIds": [],
+      "reviewLevel": null,
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "knownFindingCount": 0,
+      "knownSourceCount": 0,
+      "knownSourceRelationships": [],
+      "liveChecks": [],
+      "unresolvedQuestions": []
+    },
+    {
+      "municipalityCode": "GM0308",
+      "municipalityName": "Baarn",
+      "batchIds": [
+        "batch-003"
+      ],
+      "reviewLevel": null,
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 2,
+      "knownFindingCount": 1,
+      "knownSourceCount": 2,
+      "knownSourceRelationships": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR746230",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.baarn.nl/wonen-en-verhuizen",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR746230",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR746230"
+        },
+        {
+          "url": "https://www.baarn.nl/wonen-en-verhuizen",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.baarn.nl/wonen-en-verhuizen"
+        }
+      ],
+      "unresolvedQuestions": []
+    },
+    {
+      "municipalityCode": "GM0489",
+      "municipalityName": "Barendrecht",
+      "batchIds": [
+        "batch-003"
+      ],
+      "reviewLevel": null,
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 3,
+      "knownFindingCount": 1,
+      "knownSourceCount": 3,
+      "knownSourceRelationships": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR740024",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.barendrecht.nl/direct-regelen/wonen-leefomgeving-verbouwen/wonen-verhuizen/woning-zoeken-sociale-huur/",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.woonnetrijnmond.nl",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR740024",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR740024"
+        },
+        {
+          "url": "https://www.barendrecht.nl/direct-regelen/wonen-leefomgeving-verbouwen/wonen-verhuizen/woning-zoeken-sociale-huur/",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.barendrecht.nl/direct-regelen/wonen-leefomgeving-verbouwen/wonen-verhuizen/woning-zoeken-sociale-huur/"
+        },
+        {
+          "url": "https://www.woonnetrijnmond.nl",
+          "status": 403,
+          "ok": false,
+          "finalUrl": "https://www.woonnetrijnmond.nl/"
+        }
+      ],
+      "unresolvedQuestions": []
+    },
+    {
+      "municipalityCode": "GM0203",
+      "municipalityName": "Barneveld",
+      "batchIds": [
+        "batch-003"
+      ],
+      "reviewLevel": null,
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 7,
+      "knownFindingCount": 4,
+      "knownSourceCount": 7,
+      "knownSourceRelationships": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR738588",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/hulp-bij-wonen/huurwoning-inschrijving",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.huiswaarts.nu",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/het-gebruik-van-een-woning-veranderen",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://omgevingswet.overheid.nl/checken",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://wetten.overheid.nl/BWBR0003403",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/leegstaande-woonruimte-tijdelijk-verhuren",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR738588",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR738588"
+        },
+        {
+          "url": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/hulp-bij-wonen/huurwoning-inschrijving",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/hulp-bij-wonen/huurwoning-inschrijving"
+        },
+        {
+          "url": "https://www.huiswaarts.nu",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://huiswaarts.mijndak.nl/"
+        },
+        {
+          "url": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/het-gebruik-van-een-woning-veranderen",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/het-gebruik-van-een-woning-veranderen"
+        },
+        {
+          "url": "https://omgevingswet.overheid.nl/checken",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://omgevingswet.overheid.nl/checken"
+        },
+        {
+          "url": "https://wetten.overheid.nl/BWBR0003403",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://wetten.overheid.nl/BWBR0003403/2024-07-01"
+        },
+        {
+          "url": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/leegstaande-woonruimte-tijdelijk-verhuren",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.barneveld.nl/bouwen-wonen-en-verhuizen/wonen/leegstaande-woonruimte-tijdelijk-verhuren"
+        }
+      ],
+      "unresolvedQuestions": []
+    },
+    {
+      "municipalityCode": "GM0888",
+      "municipalityName": "Beek (L.)",
+      "batchIds": [
+        "batch-003"
+      ],
+      "reviewLevel": null,
+      "registryHit": true,
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 3,
+      "knownFindingCount": 1,
+      "knownSourceCount": 2,
+      "knownSourceRelationships": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR731804",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        },
+        {
+          "url": "https://www.gemeentebeek.nl",
+          "exactRegistryMatch": true,
+          "domainCovered": true
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR731804",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://lokaleregelgeving.overheid.nl/CVDR731804"
+        },
+        {
+          "url": "https://www.gemeentebeek.nl",
+          "status": 200,
+          "ok": true,
+          "finalUrl": "https://www.gemeentebeek.nl/"
+        }
+      ],
+      "unresolvedQuestions": []
+    }
+  ],
+  "safety": {
+    "publicRulesChanged": false,
+    "legalStatusesChanged": false,
+    "negativeConclusionsCreated": false
+  }
+}

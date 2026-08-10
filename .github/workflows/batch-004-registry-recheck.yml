@@ -1,0 +1,45 @@
+name: Batch 004 registry recheck
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/recheck-batch-004-with-registry.mjs'
+      - 'data/source-registry/bronregister-342.json'
+      - 'data/research-batches/batch-004-hybrid.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: batch-004-registry-recheck
+  cancel-in-progress: false
+
+jobs:
+  recheck:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Recheck Batch 004 with nationwide registry
+        run: node scripts/recheck-batch-004-with-registry.mjs
+      - name: Safety assertions
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          const x=JSON.parse(fs.readFileSync('data/research-batches/batch-004-registry-recheck.json'));
+          if(x.summary.municipalities!==25) throw Error('Expected 25 municipalities');
+          if(x.summary.registryHits!==25) throw Error('Not all Batch 004 municipalities have registry hits');
+          if(x.safety.publicRulesCreated!==0||x.safety.negativeLegalConclusions!==0||!x.safety.existingBatchUnchanged) throw Error('Safety invariant failed');
+          console.log(x.summary);
+          NODE
+      - name: Commit recheck results
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/research-batches/batch-004-registry-recheck.json docs/research-batches/batch-004-registry-recheck.md
+          git diff --cached --quiet && exit 0
+          git commit -m 'Add Batch 004 registry recheck results'
+          git push

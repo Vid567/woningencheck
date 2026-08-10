@@ -1,0 +1,555 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "auto-national-07",
+  "generatedAt": "2026-08-10T10:09:56.246Z",
+  "selection": {
+    "batchSize": 25,
+    "untouchedOnly": true
+  },
+  "records": [
+    {
+      "municipalityCode": "GM1714",
+      "municipalityName": "Sluis",
+      "province": "Zeeland",
+      "registryHit": true,
+      "municipalSite": "https://www.gemeentesluis.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 7383
+    },
+    {
+      "municipalityCode": "GM0090",
+      "municipalityName": "Smallingerland",
+      "province": "Fryslân",
+      "registryHit": true,
+      "municipalSite": "https://www.smallingerland.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.smallingerland.nl/Onderwerpen/Meldingen/Meldpunt_Goed_Verhuurderschap",
+        "https://www.smallingerland.nl/Onderwerpen/Wonen_en_leefomgeving/Volkshuisvestingsprogramma_2026",
+        "https://www.smallingerland.nl/Onderwerpen/Wonen_en_leefomgeving/Leegstaande_woonruimte_verhuren"
+      ],
+      "reachableCandidates": [
+        "https://www.smallingerland.nl/Onderwerpen/Meldingen/Meldpunt_Goed_Verhuurderschap",
+        "https://www.smallingerland.nl/Onderwerpen/Wonen_en_leefomgeving/Volkshuisvestingsprogramma_2026",
+        "https://www.smallingerland.nl/Onderwerpen/Wonen_en_leefomgeving/Leegstaande_woonruimte_verhuren"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3062
+    },
+    {
+      "municipalityCode": "GM0342",
+      "municipalityName": "Soest",
+      "province": "Utrecht",
+      "registryHit": true,
+      "municipalSite": "https://www.soest.nl/contact",
+      "candidateCount": 9,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.soest.nl/actueel/waterschap-vallei-en-veluwe-stelt-onttrekkingsverbod-oppervlaktewater-in",
+        "https://www.soest.nl/vergunningen/huisvestingsvergunning",
+        "https://www.soest.nl/vluchtelingenopvang-en-tijdelijke-huisvesting",
+        "https://www.soest.nl/vluchtelingenopvang-en-tijdelijke-huisvesting/asielzoekerscentrum-kamp-van-zeist",
+        "https://www.soest.nl/vluchtelingenopvang-en-tijdelijke-huisvesting/veelgestelde-vragen-tijdelijke-huisvesting",
+        "https://www.soest.nl/vluchtelingenopvang-en-tijdelijke-huisvesting/veelgestelde-vragen-asielopvang",
+        "https://www.soest.nl/vluchtelingenopvang-en-tijdelijke-huisvesting/toetsingskader-voor-tijdelijke-woningen-en-asielopvang",
+        "https://www.soest.nl/verhuizen-emigreren-en-wonen/problemen-met-particuliere-verhuurder-melden",
+        "https://www.soest.nl/verhuizen-emigreren-en-wonen/onderzoek-leegstand"
+      ],
+      "reachableCandidates": [
+        "https://www.soest.nl/actueel/waterschap-vallei-en-veluwe-stelt-onttrekkingsverbod-oppervlaktewater-in",
+        "https://www.soest.nl/vergunningen/huisvestingsvergunning",
+        "https://www.soest.nl/vluchtelingenopvang-en-tijdelijke-huisvesting",
+        "https://www.soest.nl/vluchtelingenopvang-en-tijdelijke-huisvesting/asielzoekerscentrum-kamp-van-zeist",
+        "https://www.soest.nl/vluchtelingenopvang-en-tijdelijke-huisvesting/veelgestelde-vragen-tijdelijke-huisvesting",
+        "https://www.soest.nl/vluchtelingenopvang-en-tijdelijke-huisvesting/veelgestelde-vragen-asielopvang"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6581
+    },
+    {
+      "municipalityCode": "GM0847",
+      "municipalityName": "Someren",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.someren.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.someren.nl/gemeente-bestuur-en-organisatie/regelgeving-beleid/beleid/ruimtelijke-ordening-en-volkshuisvesting",
+        "https://www.someren.nl/meldingen-klachten-en-overlast/melding-wet-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.someren.nl/gemeente-bestuur-en-organisatie/regelgeving-beleid/beleid/ruimtelijke-ordening-en-volkshuisvesting",
+        "https://www.someren.nl/meldingen-klachten-en-overlast/melding-wet-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4180
+    },
+    {
+      "municipalityCode": "GM0848",
+      "municipalityName": "Son en Breugel",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.sonenbreugel.nl",
+      "candidateCount": 6,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.sonenbreugel.nl/leegstandwet",
+        "https://www.sonenbreugel.nl/ongewenst-verhuurgedrag",
+        "https://www.sonenbreugel.nl/huisvesting-arbeidsmigranten",
+        "https://www.sonenbreugel.nl/volkshuisvestingsprogramma",
+        "https://www.sonenbreugel.nl/woning-splitsen",
+        "https://www.sonenbreugel.nl/kamergewijze-verhuur"
+      ],
+      "reachableCandidates": [
+        "https://www.sonenbreugel.nl/leegstandwet",
+        "https://www.sonenbreugel.nl/ongewenst-verhuurgedrag",
+        "https://www.sonenbreugel.nl/huisvesting-arbeidsmigranten",
+        "https://www.sonenbreugel.nl/volkshuisvestingsprogramma",
+        "https://www.sonenbreugel.nl/woning-splitsen",
+        "https://www.sonenbreugel.nl/kamergewijze-verhuur"
+      ],
+      "route": "structured-verification",
+      "durationMs": 10925
+    },
+    {
+      "municipalityCode": "GM0037",
+      "municipalityName": "Stadskanaal",
+      "province": "Groningen",
+      "registryHit": true,
+      "municipalSite": "https://www.stadskanaal.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.stadskanaal.nl/inwoners/vergunningen/vergunning-tijdelijke-verhuur-leegstaande-woning",
+        "https://www.stadskanaal.nl/inwoners/meldpunt-goed-verhuurderschap",
+        "https://www.stadskanaal.nl/ondernemers/ondernemersloket/vergunningen-meldingen/exploitatievergunning-kamerverhuurbedrijven"
+      ],
+      "reachableCandidates": [
+        "https://www.stadskanaal.nl/inwoners/vergunningen/vergunning-tijdelijke-verhuur-leegstaande-woning",
+        "https://www.stadskanaal.nl/inwoners/meldpunt-goed-verhuurderschap",
+        "https://www.stadskanaal.nl/ondernemers/ondernemersloket/vergunningen-meldingen/exploitatievergunning-kamerverhuurbedrijven"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4656
+    },
+    {
+      "municipalityCode": "GM0180",
+      "municipalityName": "Staphorst",
+      "province": "Overijssel",
+      "registryHit": true,
+      "municipalSite": "https://www.staphorst.nl/contact-en-openingstijden",
+      "candidateCount": 9,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.staphorst.nl/wet-goed-verhuurderschap",
+        "https://www.staphorst.nl/tijdelijke-woonruimte-op-bestaande-erven",
+        "https://www.staphorst.nl/terugblik-inspiratiedag-vakantieverhuur-van-uw-recreatiewoning",
+        "https://www.staphorst.nl/extra-woonruimte-bij-mijn-huis",
+        "https://www.staphorst.nl/beau-vakantiehuisje-is-centraal-verhuurpunt-in-ijhorst",
+        "https://www.staphorst.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.staphorst.nl/vergoeding-huisvestingsvoorzieningen-scholen",
+        "https://www.staphorst.nl/woning-uit-de-woonruimtevoorraad-halen",
+        "https://www.staphorst.nl/woning-splitsen"
+      ],
+      "reachableCandidates": [
+        "https://www.staphorst.nl/wet-goed-verhuurderschap",
+        "https://www.staphorst.nl/tijdelijke-woonruimte-op-bestaande-erven",
+        "https://www.staphorst.nl/terugblik-inspiratiedag-vakantieverhuur-van-uw-recreatiewoning",
+        "https://www.staphorst.nl/extra-woonruimte-bij-mijn-huis",
+        "https://www.staphorst.nl/beau-vakantiehuisje-is-centraal-verhuurpunt-in-ijhorst",
+        "https://www.staphorst.nl/tijdelijke-verhuur-leegstaand-pand"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4903
+    },
+    {
+      "municipalityCode": "GM0532",
+      "municipalityName": "Stede Broec",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.stedebroec.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 37144
+    },
+    {
+      "municipalityCode": "GM0851",
+      "municipalityName": "Steenbergen",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.gemeente-steenbergen.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 1059
+    },
+    {
+      "municipalityCode": "GM1708",
+      "municipalityName": "Steenwijkerland",
+      "province": "Overijssel",
+      "registryHit": true,
+      "municipalSite": "https://www.steenwijkerland.nl",
+      "candidateCount": 12,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.steenwijkerland.nl/Over_Steenwijkerland/Nieuws/Bekendmakingen/Bekendmakingen_september_2025/Bekendmakingen_30_september_2025/Verkoop_verhuur_verpachting_grond_of_gebouwen",
+        "https://www.steenwijkerland.nl/Over_Steenwijkerland/Nieuws/Bekendmakingen/Bekendmakingen_september_2025/Bekendmakingen_23_september_2025/Verkoop_verhuur_verpachting_grond_of_gebouwen",
+        "https://www.steenwijkerland.nl/Over_Steenwijkerland/Nieuws/Bekendmakingen/Bekendmakingen_augustus_2025/Bekendmakingen_5_augustus_2025/Verkoop_verhuur_verpachting_grond_of_gebouwen",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief/Archief_documenten_vaar_en_verhuurbeleid/Reacties_op_presentatie_vaarbeleid",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief/Archief_documenten_vaar_en_verhuurbeleid/Vragen_over_vaar_en_verhuurbeleid",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief/Archief_documenten_vaar_en_verhuurbeleid/Vaar_en_verhuurbeleid_uitgelegd",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief/Archief_documenten_vaar_en_verhuurbeleid/2020_09_14_Vaar_en_verhuurbeleid",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief/1b_Ontheffingenbeleid_elektrisch_varen",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief/Reactie_GO_bevindingenrapport",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief/Raadsbesluit_vaar_en_verhuurbeleid",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief/Rapport_uitvoering_vaar_en_verhuurbeleid"
+      ],
+      "reachableCandidates": [
+        "https://www.steenwijkerland.nl/Over_Steenwijkerland/Nieuws/Bekendmakingen/Bekendmakingen_september_2025/Bekendmakingen_30_september_2025/Verkoop_verhuur_verpachting_grond_of_gebouwen",
+        "https://www.steenwijkerland.nl/Over_Steenwijkerland/Nieuws/Bekendmakingen/Bekendmakingen_september_2025/Bekendmakingen_23_september_2025/Verkoop_verhuur_verpachting_grond_of_gebouwen",
+        "https://www.steenwijkerland.nl/Over_Steenwijkerland/Nieuws/Bekendmakingen/Bekendmakingen_augustus_2025/Bekendmakingen_5_augustus_2025/Verkoop_verhuur_verpachting_grond_of_gebouwen",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief/Archief_documenten_vaar_en_verhuurbeleid/Reacties_op_presentatie_vaarbeleid",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief/Archief_documenten_vaar_en_verhuurbeleid/Vragen_over_vaar_en_verhuurbeleid",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief/Archief_documenten_vaar_en_verhuurbeleid/Vaar_en_verhuurbeleid_uitgelegd"
+      ],
+      "route": "structured-verification",
+      "durationMs": 7594
+    },
+    {
+      "municipalityCode": "GM0971",
+      "municipalityName": "Stein (L.)",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.steenwijkerland.nl",
+      "candidateCount": 12,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.steenwijkerland.nl/Over_Steenwijkerland/Nieuws/Bekendmakingen/Bekendmakingen_september_2025/Bekendmakingen_30_september_2025/Verkoop_verhuur_verpachting_grond_of_gebouwen",
+        "https://www.steenwijkerland.nl/Over_Steenwijkerland/Nieuws/Bekendmakingen/Bekendmakingen_september_2025/Bekendmakingen_23_september_2025/Verkoop_verhuur_verpachting_grond_of_gebouwen",
+        "https://www.steenwijkerland.nl/Over_Steenwijkerland/Nieuws/Bekendmakingen/Bekendmakingen_augustus_2025/Bekendmakingen_5_augustus_2025/Verkoop_verhuur_verpachting_grond_of_gebouwen",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief/Archief_documenten_vaar_en_verhuurbeleid/Reacties_op_presentatie_vaarbeleid",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief/Archief_documenten_vaar_en_verhuurbeleid/Vragen_over_vaar_en_verhuurbeleid",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief/Archief_documenten_vaar_en_verhuurbeleid/Vaar_en_verhuurbeleid_uitgelegd",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief/Archief_documenten_vaar_en_verhuurbeleid/2020_09_14_Vaar_en_verhuurbeleid",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief/1b_Ontheffingenbeleid_elektrisch_varen",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief/Reactie_GO_bevindingenrapport",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief/Raadsbesluit_vaar_en_verhuurbeleid",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief/Rapport_uitvoering_vaar_en_verhuurbeleid"
+      ],
+      "reachableCandidates": [
+        "https://www.steenwijkerland.nl/Over_Steenwijkerland/Nieuws/Bekendmakingen/Bekendmakingen_september_2025/Bekendmakingen_30_september_2025/Verkoop_verhuur_verpachting_grond_of_gebouwen",
+        "https://www.steenwijkerland.nl/Over_Steenwijkerland/Nieuws/Bekendmakingen/Bekendmakingen_september_2025/Bekendmakingen_23_september_2025/Verkoop_verhuur_verpachting_grond_of_gebouwen",
+        "https://www.steenwijkerland.nl/Over_Steenwijkerland/Nieuws/Bekendmakingen/Bekendmakingen_augustus_2025/Bekendmakingen_5_augustus_2025/Verkoop_verhuur_verpachting_grond_of_gebouwen",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief/Archief_documenten_vaar_en_verhuurbeleid/Reacties_op_presentatie_vaarbeleid",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief/Archief_documenten_vaar_en_verhuurbeleid/Vragen_over_vaar_en_verhuurbeleid",
+        "https://www.steenwijkerland.nl/Inwoners/Leefomgeving/Projecten_in_uitvoering/Giethoorn/Samen_aan_de_slag_in_Giethoorn/Stevig_aanwezig/Vaar_en_verhuurbeleid/Nieuwsarchief/Archief_documenten_vaar_en_verhuurbeleid/Vaar_en_verhuurbeleid_uitgelegd"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6908
+    },
+    {
+      "municipalityCode": "GM1904",
+      "municipalityName": "Stichtse Vecht",
+      "province": "Utrecht",
+      "registryHit": true,
+      "municipalSite": "https://www.stichtsevecht.nl",
+      "candidateCount": 12,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.stichtsevecht.nl/wonen-en-leefomgeving/wonen-en-huisvesting",
+        "https://www.stichtsevecht.nl/wonen-en-leefomgeving/wonen-en-huisvesting/veilig-wonen-en-leven",
+        "https://www.stichtsevecht.nl/wonen-en-leefomgeving/projecten-en-wegwerkzaamheden/nieuw-afvalscheidingsstation-de-splitsing",
+        "https://www.stichtsevecht.nl/wonen-en-leefomgeving/wonen-en-huisvesting/kopen",
+        "https://www.stichtsevecht.nl/wonen-en-leefomgeving/wonen-en-huisvesting/huren",
+        "https://www.stichtsevecht.nl/wonen-en-leefomgeving/wonen-en-huisvesting/veilig-wonen-en-leven/meldpunt-problemen-met-verhuurder",
+        "https://www.stichtsevecht.nl/wonen-en-leefomgeving/wonen-en-huisvesting/veilig-wonen-en-leven/meldpunt-illegale-verhuur",
+        "https://www.stichtsevecht.nl/wonen-en-leefomgeving/wonen-en-huisvesting/veilig-wonen-en-leven/woonoverlast",
+        "https://www.stichtsevecht.nl/wonen-en-leefomgeving/wonen-en-huisvesting/starterslening-aanvragen",
+        "https://www.stichtsevecht.nl/wonen-en-leefomgeving/wonen-en-huisvesting/huisnummer-aanvragen-of-veranderen",
+        "https://www.stichtsevecht.nl/wonen-en-leefomgeving/wonen-en-huisvesting/onze-12-kernen",
+        "https://www.stichtsevecht.nl/wonen-en-leefomgeving/wonen-en-huisvesting/brievenbussticker-nee-nee-en-nee-ja"
+      ],
+      "reachableCandidates": [
+        "https://www.stichtsevecht.nl/wonen-en-leefomgeving/wonen-en-huisvesting",
+        "https://www.stichtsevecht.nl/wonen-en-leefomgeving/wonen-en-huisvesting/veilig-wonen-en-leven",
+        "https://www.stichtsevecht.nl/wonen-en-leefomgeving/projecten-en-wegwerkzaamheden/nieuw-afvalscheidingsstation-de-splitsing",
+        "https://www.stichtsevecht.nl/wonen-en-leefomgeving/wonen-en-huisvesting/kopen",
+        "https://www.stichtsevecht.nl/wonen-en-leefomgeving/wonen-en-huisvesting/huren",
+        "https://www.stichtsevecht.nl/wonen-en-leefomgeving/wonen-en-huisvesting/veilig-wonen-en-leven/meldpunt-problemen-met-verhuurder"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4163
+    },
+    {
+      "municipalityCode": "GM1900",
+      "municipalityName": "Súdwest-Fryslân",
+      "province": "Fryslân",
+      "registryHit": true,
+      "municipalSite": "https://www.sudwestfryslan.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 2902
+    },
+    {
+      "municipalityCode": "GM0715",
+      "municipalityName": "Terneuzen",
+      "province": "Zeeland",
+      "registryHit": true,
+      "municipalSite": "https://www.terneuzen.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 8929
+    },
+    {
+      "municipalityCode": "GM0093",
+      "municipalityName": "Terschelling",
+      "province": "Fryslân",
+      "registryHit": true,
+      "municipalSite": "https://www.terschelling.nl",
+      "candidateCount": 9,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.terschelling.nl/huisvestingsvergunning-terschelling",
+        "https://www.terschelling.nl/leegstand-melden",
+        "https://www.terschelling.nl/leegstand-melding-terschelling",
+        "https://www.terschelling.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.terschelling.nl/woning-uit-de-woonruimtevoorraad-halen",
+        "https://www.terschelling.nl/concept-huisvestingsverordening-terschelling-2023",
+        "https://www.terschelling.nl/woning-splitsen",
+        "https://www.terschelling.nl/verhuurvergunning-opkoopbescherming",
+        "https://www.terschelling.nl/meldpunt-ongewenst-verhuurgedrag"
+      ],
+      "reachableCandidates": [
+        "https://www.terschelling.nl/huisvestingsvergunning-terschelling",
+        "https://www.terschelling.nl/leegstand-melden",
+        "https://www.terschelling.nl/leegstand-melding-terschelling",
+        "https://www.terschelling.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.terschelling.nl/woning-uit-de-woonruimtevoorraad-halen",
+        "https://www.terschelling.nl/concept-huisvestingsverordening-terschelling-2023"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4161
+    },
+    {
+      "municipalityCode": "GM0448",
+      "municipalityName": "Texel",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.texel.nl",
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "candidates": [
+        "https://www.texel.nl/huisvestingsvergunning-vragenlijst-of-aanvraag/"
+      ],
+      "reachableCandidates": [
+        "https://www.texel.nl/huisvestingsvergunning-vragenlijst-of-aanvraag/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5535
+    },
+    {
+      "municipalityCode": "GM1525",
+      "municipalityName": "Teylingen",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.teylingen.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 7721
+    },
+    {
+      "municipalityCode": "GM0716",
+      "municipalityName": "Tholen",
+      "province": "Zeeland",
+      "registryHit": true,
+      "municipalSite": "https://www.tholen.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.tholen.nl/wonen-en-verhuizen/meldpunt-goed-verhuurderschap",
+        "https://www.tholen.nl/samenvoegen-of-onttrekken-van-een-woning",
+        "https://www.tholen.nl/producten-en-dienstenoverzicht/woning-splitsen-in-aparte-zelfstandige-woningen"
+      ],
+      "reachableCandidates": [
+        "https://www.tholen.nl/wonen-en-verhuizen/meldpunt-goed-verhuurderschap",
+        "https://www.tholen.nl/samenvoegen-of-onttrekken-van-een-woning",
+        "https://www.tholen.nl/producten-en-dienstenoverzicht/woning-splitsen-in-aparte-zelfstandige-woningen"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4209
+    },
+    {
+      "municipalityCode": "GM0281",
+      "municipalityName": "Tiel",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.tiel.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 248
+    },
+    {
+      "municipalityCode": "GM0855",
+      "municipalityName": "Tilburg",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.tilburg.nl",
+      "candidateCount": 12,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.tilburg.nl/inwoners/vergunningen/verhuurvergunning-opkoopbescherming/",
+        "https://www.tilburg.nl/inwoners/vergunningen/huisvestingsvergunning/",
+        "https://www.tilburg.nl/inwoners/vergunningen/kamerverhuur/",
+        "https://www.tilburg.nl/inwoners/vergunningen/registratie-toeristische-woningverhuur/",
+        "https://www.tilburg.nl/inwoners/vergunningen/vergunning-tijdelijke-verhuur/",
+        "https://www.tilburg.nl/inwoners/wonen-en-verhuizen/leegstand/",
+        "https://www.tilburg.nl/ondernemers/bouwen-en-vestigen/leegstand/",
+        "https://www.tilburg.nl/gemeente/welkom-in-tilburg/huisvesting-arbeidsmigranten/",
+        "https://www.tilburg.nl/inwoners/vergunningen/huisvestingsvergunning/adressenlijst/",
+        "https://www.tilburg.nl/gemeente/welkom-in-tilburg/huisvesting-arbeidsmigranten/veelgestelde-vragen-qa-huisvesting-arbeidsmigranten/",
+        "https://www.tilburg.nl/gemeente/actueel/infopunt-midden-brabant/huisvesting-in-tilburg/",
+        "https://www.tilburg.nl/nieuws/item/tilburg-ondertekent-nieuw-convenant-studentenhuisvesting-2025-2030/?tx_news_pi1%5Bday%5D=18&tx_news_pi1%5Bmonth%5D=12&tx_news_pi1%5Byear%5D=2025&cHash=e9e9518b4026b3bbfb5a7874e5efb621"
+      ],
+      "reachableCandidates": [
+        "https://www.tilburg.nl/inwoners/vergunningen/verhuurvergunning-opkoopbescherming/",
+        "https://www.tilburg.nl/inwoners/vergunningen/huisvestingsvergunning/",
+        "https://www.tilburg.nl/inwoners/vergunningen/kamerverhuur/",
+        "https://www.tilburg.nl/inwoners/vergunningen/registratie-toeristische-woningverhuur/",
+        "https://www.tilburg.nl/inwoners/vergunningen/vergunning-tijdelijke-verhuur/",
+        "https://www.tilburg.nl/inwoners/wonen-en-verhuizen/leegstand/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5576
+    },
+    {
+      "municipalityCode": "GM0183",
+      "municipalityName": "Tubbergen",
+      "province": "Overijssel",
+      "registryHit": true,
+      "municipalSite": "https://www.tubbergen.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.tubbergen.nl/gemeentelijke-huisvesting",
+        "https://www.tubbergen.nl/meldpunt-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.tubbergen.nl/gemeentelijke-huisvesting",
+        "https://www.tubbergen.nl/meldpunt-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3052
+    },
+    {
+      "municipalityCode": "GM1700",
+      "municipalityName": "Twenterand",
+      "province": "Overijssel",
+      "registryHit": true,
+      "municipalSite": "https://www.twenterand.nl",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.twenterand.nl/weet-aan-wie-u-verhuurt",
+        "https://www.twenterand.nl/woning-splitsen",
+        "https://www.twenterand.nl/samenvoegen-of-onttrekken-van-een-woning",
+        "https://www.twenterand.nl/publicaties-verkopenverhuur-gronden-of-panden",
+        "https://www.twenterand.nl/meldpunt-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.twenterand.nl/weet-aan-wie-u-verhuurt",
+        "https://www.twenterand.nl/woning-splitsen",
+        "https://www.twenterand.nl/samenvoegen-of-onttrekken-van-een-woning",
+        "https://www.twenterand.nl/publicaties-verkopenverhuur-gronden-of-panden",
+        "https://www.twenterand.nl/meldpunt-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3950
+    },
+    {
+      "municipalityCode": "GM1730",
+      "municipalityName": "Tynaarlo",
+      "province": "Drenthe",
+      "registryHit": true,
+      "municipalSite": "https://www.tynaarlo.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 1203
+    },
+    {
+      "municipalityCode": "GM0737",
+      "municipalityName": "Tytsjerksteradiel",
+      "province": "Fryslân",
+      "registryHit": true,
+      "municipalSite": "https://www.tynaarlo.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 992
+    },
+    {
+      "municipalityCode": "GM0450",
+      "municipalityName": "Uitgeest",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.uitgeest.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.uitgeest.nl/aanvragen-en-regelen/tijdelijke-verhuur-woning/",
+        "https://www.uitgeest.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden/"
+      ],
+      "reachableCandidates": [
+        "https://www.uitgeest.nl/aanvragen-en-regelen/tijdelijke-verhuur-woning/",
+        "https://www.uitgeest.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2824
+    }
+  ],
+  "summary": {
+    "municipalities": 25,
+    "registryHits": 25,
+    "structuredVerification": 16,
+    "deepVerificationNeeded": 9,
+    "manualReviewRequired": 0,
+    "totalCandidates": 102,
+    "networkRequests": 219,
+    "networkErrors": 4,
+    "maxConcurrency": 5
+  },
+  "safety": {
+    "discoveryIsNotLegalVerification": true,
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0
+  }
+}

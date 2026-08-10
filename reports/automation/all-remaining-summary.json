@@ -1,0 +1,15 @@
+{
+  "generatedAt": "2026-08-10T10:11:59.059Z",
+  "canonicalMunicipalities": 342,
+  "automaticVerificationRecords": 263,
+  "statusCounts": {
+    "manual-legal-source-review-required": 55,
+    "targeted-review-required": 176,
+    "structurally-complete-pending-legal-review": 32
+  },
+  "safety": {
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0,
+    "legalApprovalAutomatic": false
+  }
+}

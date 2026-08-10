@@ -1,0 +1,603 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "auto-national-06",
+  "generatedAt": "2026-08-10T10:09:00.254Z",
+  "selection": {
+    "batchSize": 25,
+    "untouchedOnly": true
+  },
+  "records": [
+    {
+      "municipalityCode": "GM0177",
+      "municipalityName": "Raalte",
+      "province": "Overijssel",
+      "registryHit": true,
+      "municipalSite": "https://www.raalte.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 2510
+    },
+    {
+      "municipalityCode": "GM0703",
+      "municipalityName": "Reimerswaal",
+      "province": "Zeeland",
+      "registryHit": true,
+      "municipalSite": "https://www.reimerswaal.nl",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://reimerswaal.nl/woo-verzoek-openbaarmaking-gegevens-omzettingsvergunning-kamerverhuur",
+        "https://reimerswaal.nl/tijdelijke-verhuur-van-leegstaande-woning",
+        "https://reimerswaal.nl/huisvesting-arbeidsmigranten",
+        "https://reimerswaal.nl/meldpunt-ongewenst-verhuurgedrag",
+        "https://reimerswaal.nl/meldpunt-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.reimerswaal.nl/woo-verzoek-openbaarmaking-gegevens-omzettingsvergunning-kamerverhuur",
+        "https://www.reimerswaal.nl/tijdelijke-verhuur-van-leegstaande-woning",
+        "https://www.reimerswaal.nl/huisvesting-arbeidsmigranten",
+        "https://www.reimerswaal.nl/meldpunt-ongewenst-verhuurgedrag",
+        "https://www.reimerswaal.nl/meldpunt-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6843
+    },
+    {
+      "municipalityCode": "GM0274",
+      "municipalityName": "Renkum",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.renkum.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.renkum.nl/Ondernemers/Bouwen_en_vestigen/Registreren_toeristische_verhuur",
+        "https://www.renkum.nl/Inwoners/Bouwen_en_verbouwen/Splitsen_woning_of_perceel"
+      ],
+      "reachableCandidates": [
+        "https://www.renkum.nl/Ondernemers/Bouwen_en_vestigen/Registreren_toeristische_verhuur",
+        "https://www.renkum.nl/Inwoners/Bouwen_en_verbouwen/Splitsen_woning_of_perceel"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3143
+    },
+    {
+      "municipalityCode": "GM0339",
+      "municipalityName": "Renswoude",
+      "province": "Utrecht",
+      "registryHit": true,
+      "municipalSite": "https://www.renswoude.nl",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.renswoude.nl/verbod-op-onttrekken-van-water-is-opgeheven",
+        "https://www.renswoude.nl/openbare-verhuurprocedure-voor-de-aula-in-renswoude",
+        "https://www.renswoude.nl/binnenkort-verhuur-sociale-huurwoningen-door-het-woningbedrijf",
+        "https://www.renswoude.nl/problemen-met-een-verhuurder"
+      ],
+      "reachableCandidates": [
+        "https://www.renswoude.nl/verbod-op-onttrekken-van-water-is-opgeheven",
+        "https://www.renswoude.nl/openbare-verhuurprocedure-voor-de-aula-in-renswoude",
+        "https://www.renswoude.nl/binnenkort-verhuur-sociale-huurwoningen-door-het-woningbedrijf",
+        "https://www.renswoude.nl/problemen-met-een-verhuurder"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4023
+    },
+    {
+      "municipalityCode": "GM1667",
+      "municipalityName": "Reusel-De Mierden",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.reuseldemierden.nl",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.reuseldemierden.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.reuseldemierden.nl/bekendmakingen-verkoop-of-verhuur-van-gemeentelijke-grond-en-vastgoed",
+        "https://www.reuseldemierden.nl/meldpunt-ongewenst-gedrag-verhuurders",
+        "https://www.reuseldemierden.nl/water-onttrekken-of-lozen"
+      ],
+      "reachableCandidates": [
+        "https://www.reuseldemierden.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.reuseldemierden.nl/bekendmakingen-verkoop-of-verhuur-van-gemeentelijke-grond-en-vastgoed",
+        "https://www.reuseldemierden.nl/meldpunt-ongewenst-gedrag-verhuurders",
+        "https://www.reuseldemierden.nl/water-onttrekken-of-lozen"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4582
+    },
+    {
+      "municipalityCode": "GM0275",
+      "municipalityName": "Rheden",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.rheden.nl",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.rheden.nl/privacy/algemene-privacyverklaring/specifieke-privacyverklaringen/privacyverklaring-wet-goed-verhuurderschap/",
+        "https://www.rheden.nl/inwoners/wonen-en-jouw-buurt/wonen/kopen-huren-en-verhuren/woningsplitsen-en-huisnummering/",
+        "https://www.rheden.nl/ondernemen/vergunningen-en-regelgeving/vergunningen-en-ontheffingen-ondernemers/exploitatievergunning-voor-kamerverhuur/",
+        "https://www.rheden.nl/product/woning-splitsen-en-huisnummering/",
+        "https://www.rheden.nl/product/meldpunt-goed-verhuurderschap/"
+      ],
+      "reachableCandidates": [
+        "https://www.rheden.nl/privacy/algemene-privacyverklaring/specifieke-privacyverklaringen/privacyverklaring-wet-goed-verhuurderschap/",
+        "https://www.rheden.nl/inwoners/wonen-en-jouw-buurt/wonen/kopen-huren-en-verhuren/woningsplitsen-en-huisnummering/",
+        "https://www.rheden.nl/ondernemen/vergunningen-en-regelgeving/vergunningen-en-ontheffingen-ondernemers/exploitatievergunning-voor-kamerverhuur/",
+        "https://www.rheden.nl/product/woning-splitsen-en-huisnummering/",
+        "https://www.rheden.nl/product/meldpunt-goed-verhuurderschap/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6545
+    },
+    {
+      "municipalityCode": "GM0340",
+      "municipalityName": "Rhenen",
+      "province": "Utrecht",
+      "registryHit": true,
+      "municipalSite": "https://www.rhenen.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.rhenen.nl/info-over-de-gemeente/bouwen-en-wonen/volkshuisvestingsprogramma-rhenen",
+        "https://www.rhenen.nl/ondersteuning-zorg-en-inkomen/wet-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.rhenen.nl/info-over-de-gemeente/bouwen-en-wonen/volkshuisvestingsprogramma-rhenen",
+        "https://www.rhenen.nl/ondersteuning-zorg-en-inkomen/wet-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4172
+    },
+    {
+      "municipalityCode": "GM0597",
+      "municipalityName": "Ridderkerk",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.ridderkerk.nl",
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "candidates": [
+        "https://www.ridderkerk.nl/veelgestelde-vragen-lokaal-woonruimtebemiddelingssysteem/"
+      ],
+      "reachableCandidates": [
+        "https://www.ridderkerk.nl/veelgestelde-vragen-lokaal-woonruimtebemiddelingssysteem/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6254
+    },
+    {
+      "municipalityCode": "GM1742",
+      "municipalityName": "Rijssen-Holten",
+      "province": "Overijssel",
+      "registryHit": true,
+      "municipalSite": "https://www.rijssen-holten.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.rijssen-holten.nl/actueel/nieuwe-regels-maken-kamerverhuur-en-woningsplitsing-mogelijk/",
+        "https://www.rijssen-holten.nl/direct-regelen/ondernemen/uw-bedrijf/bedrijfshuisvesting",
+        "https://www.rijssen-holten.nl/direct-regelen/verbouwen-en-wonen/wonen/wet-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.rijssen-holten.nl/actueel/nieuwe-regels-maken-kamerverhuur-en-woningsplitsing-mogelijk/",
+        "https://www.rijssen-holten.nl/direct-regelen/ondernemen/uw-bedrijf/bedrijfshuisvesting/",
+        "https://www.rijssen-holten.nl/direct-regelen/verbouwen-en-wonen/wonen/wet-goed-verhuurderschap/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 29223
+    },
+    {
+      "municipalityCode": "GM0603",
+      "municipalityName": "Rijswijk (ZH.)",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.rijssen-holten.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.rijssen-holten.nl/actueel/nieuwe-regels-maken-kamerverhuur-en-woningsplitsing-mogelijk/",
+        "https://www.rijssen-holten.nl/direct-regelen/ondernemen/uw-bedrijf/bedrijfshuisvesting",
+        "https://www.rijssen-holten.nl/direct-regelen/verbouwen-en-wonen/wonen/wet-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.rijssen-holten.nl/actueel/nieuwe-regels-maken-kamerverhuur-en-woningsplitsing-mogelijk/",
+        "https://www.rijssen-holten.nl/direct-regelen/ondernemen/uw-bedrijf/bedrijfshuisvesting/",
+        "https://www.rijssen-holten.nl/direct-regelen/verbouwen-en-wonen/wonen/wet-goed-verhuurderschap/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 28788
+    },
+    {
+      "municipalityCode": "GM1669",
+      "municipalityName": "Roerdalen",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.roerdalen.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.roerdalen.nl/klacht-of-melding-over-verhuurder",
+        "https://www.roerdalen.nl/college-stelt-vernieuwd-integraal-huisvestingsplan-ihp-vast",
+        "https://www.roerdalen.nl/tijdelijke-verhuur-leegstaand-pand"
+      ],
+      "reachableCandidates": [
+        "https://www.roerdalen.nl/klacht-of-melding-over-verhuurder",
+        "https://www.roerdalen.nl/college-stelt-vernieuwd-integraal-huisvestingsplan-ihp-vast",
+        "https://www.roerdalen.nl/tijdelijke-verhuur-leegstaand-pand"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3973
+    },
+    {
+      "municipalityCode": "GM0957",
+      "municipalityName": "Roermond",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.roermond.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 2082
+    },
+    {
+      "municipalityCode": "GM0736",
+      "municipalityName": "De Ronde Venen",
+      "province": "Utrecht",
+      "registryHit": true,
+      "municipalSite": "https://www.derondevenen.nl",
+      "candidateCount": 6,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.derondevenen.nl/Productcatalogus/Wetten/Huisvestingsverordening_Regio_Utrecht_2019_De_Ronde_Venen",
+        "https://www.derondevenen.nl/Bestuur_en_organisatie/Actueel/Nieuws/Particuliere_vakantieverhuur_vanaf_2026_met_registratienummer",
+        "https://www.derondevenen.nl/Wonen_en_leven/Wonen_groen_en_duurzaamheid/Registratienummer_voor_toeristische_verhuur",
+        "https://www.derondevenen.nl/Wonen_en_leven/Wonen_groen_en_duurzaamheid/Woning_splitsen",
+        "https://www.derondevenen.nl/Wonen_en_leven/Wonen_groen_en_duurzaamheid/Een_woning_zoeken_huren_of_kopen/Huisvestingsvergunning_aanvragen",
+        "https://www.derondevenen.nl/Wonen_en_leven/Wonen_groen_en_duurzaamheid/Een_woning_zoeken_huren_of_kopen/Hospitaverhuur"
+      ],
+      "reachableCandidates": [
+        "https://www.derondevenen.nl/Productcatalogus/Wetten/Huisvestingsverordening_Regio_Utrecht_2019_De_Ronde_Venen",
+        "https://www.derondevenen.nl/Bestuur_en_organisatie/Actueel/Nieuws/Particuliere_vakantieverhuur_vanaf_2026_met_registratienummer",
+        "https://www.derondevenen.nl/Wonen_en_leven/Wonen_groen_en_duurzaamheid/Registratienummer_voor_toeristische_verhuur",
+        "https://www.derondevenen.nl/Wonen_en_leven/Wonen_groen_en_duurzaamheid/Woning_splitsen",
+        "https://www.derondevenen.nl/Wonen_en_leven/Wonen_groen_en_duurzaamheid/Een_woning_zoeken_huren_of_kopen/Huisvestingsvergunning_aanvragen",
+        "https://www.derondevenen.nl/Wonen_en_leven/Wonen_groen_en_duurzaamheid/Een_woning_zoeken_huren_of_kopen/Hospitaverhuur"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6232
+    },
+    {
+      "municipalityCode": "GM1674",
+      "municipalityName": "Roosendaal",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.roosendaal.nl",
+      "candidateCount": 9,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.roosendaal.nl/publicatie-didam-voornemen-tot-verhuur-van-een-parkeerplaats-aan-de-lindenburg-te-roosendaal/",
+        "https://www.roosendaal.nl/voornemen-tot-verhuur-van-een-parkeerplaats-aan-de-lindenburg-te-roosendaal/",
+        "https://www.roosendaal.nl/huisvestingsverordening/",
+        "https://www.roosendaal.nl/publicatie-didam-verhuur-stichting-dorpshuis-nisipa/",
+        "https://www.roosendaal.nl/projecten/boomhoefstraat-te-wouw-onttrekking-ontwerpbesluit/",
+        "https://www.roosendaal.nl/projecten/plantagebaan-te-wouw-onttrekking-ontwerpbesluit/",
+        "https://www.roosendaal.nl/projecten/nucleonweg-te-roosendaal-onttrekking-ontwerpbesluit/",
+        "https://www.roosendaal.nl/projecten/heistraat-te-wouwse-plantage-onttrekking-ontwerpbesluit/",
+        "https://www.roosendaal.nl/projecten/hulsdonksestraat-onttrekking-ontwerpbesluit/"
+      ],
+      "reachableCandidates": [
+        "https://www.roosendaal.nl/publicatie-didam-voornemen-tot-verhuur-van-een-parkeerplaats-aan-de-lindenburg-te-roosendaal/",
+        "https://www.roosendaal.nl/voornemen-tot-verhuur-van-een-parkeerplaats-aan-de-lindenburg-te-roosendaal/",
+        "https://www.roosendaal.nl/huisvestingsverordening/",
+        "https://www.roosendaal.nl/publicatie-didam-verhuur-stichting-dorpshuis-nisipa/",
+        "https://www.roosendaal.nl/projecten/boomhoefstraat-te-wouw-onttrekking-ontwerpbesluit/",
+        "https://www.roosendaal.nl/projecten/plantagebaan-te-wouw-onttrekking-ontwerpbesluit/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 12556
+    },
+    {
+      "municipalityCode": "GM0277",
+      "municipalityName": "Rozendaal",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.rozendaal.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 10459
+    },
+    {
+      "municipalityCode": "GM0840",
+      "municipalityName": "Rucphen",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.rucphen.nl",
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "candidates": [
+        "https://www.rucphen.nl/Gemeentewinkel/Tijdelijke-verhuur-woningen-vergunning"
+      ],
+      "reachableCandidates": [
+        "https://www.rucphen.nl/Gemeentewinkel/Tijdelijke-verhuur-woningen-vergunning"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2078
+    },
+    {
+      "municipalityCode": "GM0441",
+      "municipalityName": "Schagen",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.schagen.nl",
+      "candidateCount": 11,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.schagen.nl/huisvesting-arbeidsmigranten",
+        "https://www.schagen.nl/regels-voor-verhuur-woning",
+        "https://www.schagen.nl/hospitaverhuur",
+        "https://www.schagen.nl/leegstandwet",
+        "https://www.schagen.nl/ongewenst-gedrag-van-verhuurders-melden",
+        "https://www.schagen.nl/huisvestingsvergunning",
+        "https://www.schagen.nl/huisvestingsindicatie",
+        "https://www.schagen.nl/melding-ongewenst-gedrag-van-verhuurder",
+        "https://www.schagen.nl/aanvraagformulier-huisvestingsvergunning",
+        "https://www.schagen.nl/huisvestingsindicatie-check",
+        "https://www.schagen.nl/aanvraagformulier-huisvestingsindicatie"
+      ],
+      "reachableCandidates": [
+        "https://www.schagen.nl/huisvesting-arbeidsmigranten",
+        "https://www.schagen.nl/regels-voor-verhuur-woning",
+        "https://www.schagen.nl/hospitaverhuur",
+        "https://www.schagen.nl/leegstandwet",
+        "https://www.schagen.nl/ongewenst-gedrag-van-verhuurders-melden",
+        "https://www.schagen.nl/huisvestingsvergunning"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5539
+    },
+    {
+      "municipalityCode": "GM0279",
+      "municipalityName": "Scherpenzeel",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.scherpenzeel.nl",
+      "candidateCount": 7,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.scherpenzeel.nl/problemen-met-verhuurder-melden",
+        "https://www.scherpenzeel.nl/waterschap-vallei-en-veluwe-stelt-onttrekkingsverbod-oppervlaktewater-in",
+        "https://www.scherpenzeel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing",
+        "https://www.scherpenzeel.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.scherpenzeel.nl/huisvestingsvergunning",
+        "https://www.scherpenzeel.nl/kosten-urgentieverklaring-woonruimte-2026",
+        "https://www.scherpenzeel.nl/leegstand-melden"
+      ],
+      "reachableCandidates": [
+        "https://www.scherpenzeel.nl/problemen-met-verhuurder-melden",
+        "https://www.scherpenzeel.nl/waterschap-vallei-en-veluwe-stelt-onttrekkingsverbod-oppervlaktewater-in",
+        "https://www.scherpenzeel.nl/volkshuisvesting-leefomgeving-en-stedelijke-vernieuwing",
+        "https://www.scherpenzeel.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.scherpenzeel.nl/huisvestingsvergunning",
+        "https://www.scherpenzeel.nl/kosten-urgentieverklaring-woonruimte-2026"
+      ],
+      "route": "structured-verification",
+      "durationMs": 15977
+    },
+    {
+      "municipalityCode": "GM0606",
+      "municipalityName": "Schiedam",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.schiedam.nl",
+      "candidateCount": 12,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.schiedam.nl/nieuws/schiedam-scherpt-succesvolle-leegstands-aanpak-aan",
+        "https://www.schiedam.nl/nieuws/meldpunt-ongewenst-verhuurgedrag-van-start",
+        "https://www.schiedam.nl/a-tot-z/huisvestingsvergunning",
+        "https://www.schiedam.nl/a-tot-z/leegstandmelding",
+        "https://www.schiedam.nl/a-tot-z/vergunning-tot-tijdelijke-verhuur-van-een-woonruimte",
+        "https://www.schiedam.nl/a-tot-z/onttrekkingsvergunning",
+        "https://www.schiedam.nl/a-tot-z/splitsingsvergunning-kadastraal-splitsen",
+        "https://www.schiedam.nl/a-tot-z/vergunning-woningvorming-bouwkundig-splitsen",
+        "https://www.schiedam.nl/a-tot-z/verhuurdersvergunning",
+        "https://www.schiedam.nl/a-tot-z/goed-verhuurderschap",
+        "https://www.schiedam.nl/a-tot-z/opkoopbescherming",
+        "https://www.schiedam.nl/a-tot-z/ik-ben-huurder-en-wil-een-melding-van-ongewenst-verhuurgedrag-maken"
+      ],
+      "reachableCandidates": [
+        "https://www.schiedam.nl/nieuws/schiedam-scherpt-succesvolle-leegstands-aanpak-aan",
+        "https://www.schiedam.nl/nieuws/meldpunt-ongewenst-verhuurgedrag-van-start",
+        "https://www.schiedam.nl/a-tot-z/leegstandmelding",
+        "https://www.schiedam.nl/a-tot-z/vergunning-tot-tijdelijke-verhuur-van-een-woonruimte",
+        "https://www.schiedam.nl/a-tot-z/onttrekkingsvergunning"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2055
+    },
+    {
+      "municipalityCode": "GM0088",
+      "municipalityName": "Schiermonnikoog",
+      "province": "Fryslân",
+      "registryHit": true,
+      "municipalSite": "https://www.schiermonnikoog.nl",
+      "candidateCount": 9,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.schiermonnikoog.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.schiermonnikoog.nl/ongewenst-verhuurgedrag",
+        "https://www.schiermonnikoog.nl/concept-huisvestingsverordening-2024-2028-ter-inzage",
+        "https://www.schiermonnikoog.nl/extra-toelichting-huisvestingsverordening",
+        "https://www.schiermonnikoog.nl/vergunning-splitsen-woonruimte",
+        "https://www.schiermonnikoog.nl/vergunning-voor-onttrekken-samenvoegen-en-vormen-van-woonruimte",
+        "https://www.schiermonnikoog.nl/inspraak-ontwerp-huisvestingsverordening-urgent-woningzoekenden-fryslan-urgentieverordening",
+        "https://www.schiermonnikoog.nl/nieuwsbericht-intrekken-beleidsregels-huisvestingsverordening",
+        "https://www.schiermonnikoog.nl/huisvestingsvergunning-schiermonnikoog"
+      ],
+      "reachableCandidates": [
+        "https://www.schiermonnikoog.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.schiermonnikoog.nl/ongewenst-verhuurgedrag",
+        "https://www.schiermonnikoog.nl/concept-huisvestingsverordening-2024-2028-ter-inzage",
+        "https://www.schiermonnikoog.nl/extra-toelichting-huisvestingsverordening",
+        "https://www.schiermonnikoog.nl/vergunning-splitsen-woonruimte",
+        "https://www.schiermonnikoog.nl/vergunning-voor-onttrekken-samenvoegen-en-vormen-van-woonruimte"
+      ],
+      "route": "structured-verification",
+      "durationMs": 7283
+    },
+    {
+      "municipalityCode": "GM1676",
+      "municipalityName": "Schouwen-Duiveland",
+      "province": "Zeeland",
+      "registryHit": true,
+      "municipalSite": "https://www.schouwen-duiveland.nl",
+      "candidateCount": 9,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.schouwen-duiveland.nl/nieuws-en-actualiteiten/bekendmaking-voornemen-tot-verhuur-kantoor-en-bedrijfsruimten-transferiumgebouw-in-renesse",
+        "https://www.schouwen-duiveland.nl/wonen-en-verhuizen/wonen-op-schouwen-duiveland/tijdelijke-verhuur-van-een-woning-die-leeg-staat",
+        "https://www.schouwen-duiveland.nl/wonen-en-verhuizen/wonen-op-schouwen-duiveland/wet-goed-verhuurderschap",
+        "https://www.schouwen-duiveland.nl/vergunningen-ontheffingen-en-belastingen/overige-vergunningen/vergunning-huisvestingswet",
+        "https://www.schouwen-duiveland.nl/vluchtelingen/nieuwe-locaties-voor-opvang-en-huisvesting",
+        "https://www.schouwen-duiveland.nl/vluchtelingen/nieuwe-locaties-voor-opvang-en-huisvesting/locatie-voor-opvang-oekraiense-vluchtelingen",
+        "https://www.schouwen-duiveland.nl/vluchtelingen/nieuwe-locaties-voor-opvang-en-huisvesting/driekoningenlaan-in-zierikzee",
+        "https://www.schouwen-duiveland.nl/vluchtelingen/nieuwe-locaties-voor-opvang-en-huisvesting/karnemelksvaart-in-zierikzee",
+        "https://www.schouwen-duiveland.nl/vluchtelingen/nieuwe-locaties-voor-opvang-en-huisvesting/hotel-de-zilvermeeuw-in-burgh-haamstede"
+      ],
+      "reachableCandidates": [
+        "https://www.schouwen-duiveland.nl/nieuws-en-actualiteiten/bekendmaking-voornemen-tot-verhuur-kantoor-en-bedrijfsruimten-transferiumgebouw-in-renesse",
+        "https://www.schouwen-duiveland.nl/wonen-en-verhuizen/wonen-op-schouwen-duiveland/tijdelijke-verhuur-van-een-woning-die-leeg-staat",
+        "https://www.schouwen-duiveland.nl/wonen-en-verhuizen/wonen-op-schouwen-duiveland/wet-goed-verhuurderschap",
+        "https://www.schouwen-duiveland.nl/vergunningen-ontheffingen-en-belastingen/overige-vergunningen/vergunning-huisvestingswet",
+        "https://www.schouwen-duiveland.nl/vluchtelingen/nieuwe-locaties-voor-opvang-en-huisvesting",
+        "https://www.schouwen-duiveland.nl/vluchtelingen/nieuwe-locaties-voor-opvang-en-huisvesting/locatie-voor-opvang-oekraiense-vluchtelingen"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6088
+    },
+    {
+      "municipalityCode": "GM0965",
+      "municipalityName": "Simpelveld",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.simpelveld.nl",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.simpelveld.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.simpelveld.nl/vergoeding-huisvestingsvoorzieningen-scholen",
+        "https://www.simpelveld.nl/onttrekkingsverbod-voor-beken-en-sloten-oppervlaktewater-in-zuid-limburg",
+        "https://www.simpelveld.nl/wet-goed-verhuurderschap",
+        "https://www.simpelveld.nl/wet-goed-verhuurderschap-0"
+      ],
+      "reachableCandidates": [
+        "https://www.simpelveld.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.simpelveld.nl/vergoeding-huisvestingsvoorzieningen-scholen",
+        "https://www.simpelveld.nl/onttrekkingsverbod-voor-beken-en-sloten-oppervlaktewater-in-zuid-limburg",
+        "https://www.simpelveld.nl/wet-goed-verhuurderschap",
+        "https://www.simpelveld.nl/wet-goed-verhuurderschap-0"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3425
+    },
+    {
+      "municipalityCode": "GM0845",
+      "municipalityName": "Sint-Michielsgestel",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.sint-michielsgestel.nl",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.sint-michielsgestel.nl/aanvragen-regelen-en-melden/vergunningen/tijdelijke-verhuur-leegstaande-woning",
+        "https://www.sint-michielsgestel.nl/aanvragen-regelen-en-melden/vergunningen/woningsplitsing",
+        "https://www.sint-michielsgestel.nl/in-de-gemeente/wonen/meldpunt-goed-verhuurderschap",
+        "https://www.sint-michielsgestel.nl/programma-volkshuisvesting",
+        "https://www.sint-michielsgestel.nl/in-de-gemeente/wonen/woningdelen"
+      ],
+      "reachableCandidates": [
+        "https://www.sint-michielsgestel.nl/aanvragen-regelen-en-melden/vergunningen/tijdelijke-verhuur-leegstaande-woning",
+        "https://www.sint-michielsgestel.nl/aanvragen-regelen-en-melden/vergunningen/woningsplitsing",
+        "https://www.sint-michielsgestel.nl/in-de-gemeente/wonen/meldpunt-goed-verhuurderschap",
+        "https://www.sint-michielsgestel.nl/programma-volkshuisvesting",
+        "https://www.sint-michielsgestel.nl/in-de-gemeente/wonen/woningdelen"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2340
+    },
+    {
+      "municipalityCode": "GM1883",
+      "municipalityName": "Sittard-Geleen",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.sittard-geleen.nl",
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "candidates": [
+        "https://sittard-geleen.nl/project/nieuwe-huisvesting-vidar/"
+      ],
+      "reachableCandidates": [
+        "https://sittard-geleen.nl/project/nieuwe-huisvesting-vidar/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 7338
+    },
+    {
+      "municipalityCode": "GM0610",
+      "municipalityName": "Sliedrecht",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.sliedrecht.nl",
+      "candidateCount": 9,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.sliedrecht.nl/Wonen_omgeving/Wonen/Opkoopbescherming",
+        "https://www.sliedrecht.nl/Wonen_omgeving/Wonen/Gemeentegrond_snippergroen/Grondbeleid/Meer_informatie_over_grondbeleid/Beleids_en_toetsingskaders_voor_verhuur_en_verkoop_van_snippergroen",
+        "https://www.sliedrecht.nl/Wonen_omgeving/Omgeving/Vergunningen_meldingen_en_ontheffingen/Wonen/13_Omgevingsvergunning_onttrekken_woonruimte",
+        "https://www.sliedrecht.nl/Wonen_omgeving/Omgeving/Vergunningen_meldingen_en_ontheffingen/Wonen/Leegstandsvergunning/Aanvraag_verlenging_vergunning_tot_tijdelijke_verhuur_van_leegstaande_woonruimte",
+        "https://www.sliedrecht.nl/Sociaal/Onderwijs/Het_Integraal_Huisvestingsplan",
+        "https://www.sliedrecht.nl/Nieuws_bekendmakingen/Nieuws/2025/April/Gemeente_vraagt_krediet_aan_voor_tijdelijke_huisvesting_CBS_Oranje_Nassau",
+        "https://www.sliedrecht.nl/Wonen_omgeving/Omgeving/Vergunningen_meldingen_en_ontheffingen/Wonen/Kamerverhuur_omzetten_zelfstandige_woonruimte",
+        "https://www.sliedrecht.nl/Wonen_omgeving/Omgeving/Vergunningen_meldingen_en_ontheffingen/Wonen/Leegstandsvergunning",
+        "https://www.sliedrecht.nl/Wonen_omgeving/Wonen/Wonen/Wet_goed_verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.sliedrecht.nl/Wonen_omgeving/Wonen/Opkoopbescherming",
+        "https://www.sliedrecht.nl/Wonen_omgeving/Wonen/Gemeentegrond_snippergroen/Grondbeleid/Meer_informatie_over_grondbeleid/Beleids_en_toetsingskaders_voor_verhuur_en_verkoop_van_snippergroen",
+        "https://www.sliedrecht.nl/Wonen_omgeving/Omgeving/Vergunningen_meldingen_en_ontheffingen/Wonen/13_Omgevingsvergunning_onttrekken_woonruimte",
+        "https://www.sliedrecht.nl/Wonen_omgeving/Omgeving/Vergunningen_meldingen_en_ontheffingen/Wonen/Leegstandsvergunning/Aanvraag_verlenging_vergunning_tot_tijdelijke_verhuur_van_leegstaande_woonruimte",
+        "https://www.sliedrecht.nl/Sociaal/Onderwijs/Het_Integraal_Huisvestingsplan",
+        "https://www.sliedrecht.nl/Nieuws_bekendmakingen/Nieuws/2025/April/Gemeente_vraagt_krediet_aan_voor_tijdelijke_huisvesting_CBS_Oranje_Nassau"
+      ],
+      "route": "structured-verification",
+      "durationMs": 7512
+    }
+  ],
+  "summary": {
+    "municipalities": 25,
+    "registryHits": 25,
+    "structuredVerification": 22,
+    "deepVerificationNeeded": 3,
+    "manualReviewRequired": 0,
+    "totalCandidates": 116,
+    "networkRequests": 242,
+    "networkErrors": 3,
+    "maxConcurrency": 5
+  },
+  "safety": {
+    "discoveryIsNotLegalVerification": true,
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0
+  }
+}

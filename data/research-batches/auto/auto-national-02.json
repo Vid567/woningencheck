@@ -1,0 +1,569 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "auto-national-02",
+  "generatedAt": "2026-08-10T10:05:57.931Z",
+  "selection": {
+    "batchSize": 25,
+    "untouchedOnly": true
+  },
+  "records": [
+    {
+      "municipalityCode": "GM0796",
+      "municipalityName": "'s-Hertogenbosch",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.s-hertogenbosch.nl/woo/",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.s-hertogenbosch.nl/huisvesting-arbeidsmigranten/",
+        "https://www.s-hertogenbosch.nl/inwoner/bouwen-en-wonen/huur-of-koopwoning/goed-verhuurderschap/",
+        "https://www.s-hertogenbosch.nl/inwoner/bouwen-en-wonen/huur-of-koopwoning/opkoopbescherming/",
+        "https://www.s-hertogenbosch.nl/cultuur/atelierverhuur/",
+        "https://www.s-hertogenbosch.nl/nieuws/samen-met-bossche-woningcorporaties-maken-we-hospitaverhuur-makkelijker/"
+      ],
+      "reachableCandidates": [
+        "https://www.s-hertogenbosch.nl/huisvesting-arbeidsmigranten/",
+        "https://www.s-hertogenbosch.nl/inwoner/bouwen-en-wonen/huur-of-koopwoning/goed-verhuurderschap/",
+        "https://www.s-hertogenbosch.nl/inwoner/bouwen-en-wonen/huur-of-koopwoning/opkoopbescherming/",
+        "https://www.s-hertogenbosch.nl/cultuur/atelierverhuur/",
+        "https://www.s-hertogenbosch.nl/nieuws/samen-met-bossche-woningcorporaties-maken-we-hospitaverhuur-makkelijker/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 7663
+    },
+    {
+      "municipalityCode": "GM0252",
+      "municipalityName": "Heumen",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.heumen.nl",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.heumen.nl/woning-splitsen",
+        "https://www.heumen.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.heumen.nl/meldpunt-wet-goed-verhuurderschap-0",
+        "https://www.heumen.nl/in-2024-een-nieuwe-huisvestingsverordening"
+      ],
+      "reachableCandidates": [
+        "https://www.heumen.nl/woning-splitsen",
+        "https://www.heumen.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.heumen.nl/meldpunt-wet-goed-verhuurderschap-0",
+        "https://www.heumen.nl/in-2024-een-nieuwe-huisvestingsverordening"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4171
+    },
+    {
+      "municipalityCode": "GM0797",
+      "municipalityName": "Heusden",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.heusden.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 5785
+    },
+    {
+      "municipalityCode": "GM0534",
+      "municipalityName": "Hillegom",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.hillegom.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 7995
+    },
+    {
+      "municipalityCode": "GM0798",
+      "municipalityName": "Hilvarenbeek",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.hilvarenbeek.nl",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.hilvarenbeek.nl/wonen-bouwen-verbouwen/meldpunt-wet-goed-verhuurderschap",
+        "https://www.hilvarenbeek.nl/wonen-bouwen-verbouwen/meldpunt-wet-goed-verhuurderschap/veelgestelde-vragen-wet-goed-verhuurderschap",
+        "https://www.hilvarenbeek.nl/wonen-bouwen-verbouwen/meldpunt-wet-goed-verhuurderschap/reporting-centre-for-misconduct-by-landlords",
+        "https://www.hilvarenbeek.nl/wonen-bouwen-verbouwen/woning-en-kavelsplitsing"
+      ],
+      "reachableCandidates": [
+        "https://www.hilvarenbeek.nl/wonen-bouwen-verbouwen/meldpunt-wet-goed-verhuurderschap",
+        "https://www.hilvarenbeek.nl/wonen-bouwen-verbouwen/meldpunt-wet-goed-verhuurderschap/veelgestelde-vragen-wet-goed-verhuurderschap",
+        "https://www.hilvarenbeek.nl/wonen-bouwen-verbouwen/meldpunt-wet-goed-verhuurderschap/reporting-centre-for-misconduct-by-landlords",
+        "https://www.hilvarenbeek.nl/wonen-bouwen-verbouwen/woning-en-kavelsplitsing"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6782
+    },
+    {
+      "municipalityCode": "GM0402",
+      "municipalityName": "Hilversum",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.hilversum.nl",
+      "candidateCount": 7,
+      "reachableCount": 6,
+      "candidates": [
+        "https://hilversum.nl/wonen/splitsing-gebouw-woning-enof-verhuur-kamers",
+        "https://hilversum.nl/duurzaamheid/verduurzamen-als-particuliere-verhuurder",
+        "https://hilversum.nl/wonen/toeristische-woningverhuur",
+        "https://hilversum.nl/wonen/opkoopbescherming",
+        "https://hilversum.nl/wonen/wet-goed-verhuurderschap-wet-betaalbare-huur",
+        "https://hilversum.nl/wonen/hospitaverhuur",
+        "https://hilversum.nl/wonen/leegstand-melden"
+      ],
+      "reachableCandidates": [
+        "https://hilversum.nl/wonen/splitsing-gebouw-woning-enof-verhuur-kamers",
+        "https://hilversum.nl/duurzaamheid/verduurzamen-als-particuliere-verhuurder",
+        "https://hilversum.nl/wonen/toeristische-woningverhuur",
+        "https://hilversum.nl/wonen/opkoopbescherming",
+        "https://hilversum.nl/wonen/wet-goed-verhuurderschap-wet-betaalbare-huur",
+        "https://hilversum.nl/wonen/hospitaverhuur"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3372
+    },
+    {
+      "municipalityCode": "GM1963",
+      "municipalityName": "Hoeksche Waard",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://hoekschewaard.mijnafspraakmaken.nl/client/",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 1141
+    },
+    {
+      "municipalityCode": "GM1735",
+      "municipalityName": "Hof van Twente",
+      "province": "Overijssel",
+      "registryHit": true,
+      "municipalSite": "https://www.hofvantwente.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 6723
+    },
+    {
+      "municipalityCode": "GM1966",
+      "municipalityName": "Het Hogeland",
+      "province": "Groningen",
+      "registryHit": true,
+      "municipalSite": "https://hethogeland.nl/",
+      "candidateCount": 12,
+      "reachableCount": 6,
+      "candidates": [
+        "https://hethogeland.nl/nieuws/nieuwsbericht/artikel/kamers-met-aandacht-verhuur-een-kamer-en-help-jongeren",
+        "https://hethogeland.nl/verhuur-ruimtes-en-sportvelden",
+        "https://hethogeland.nl/te-koop-te-huur/bekendmaking-verkoop-en-verhuur-1-op-1/verkoop-gronden-en-gebouwen",
+        "https://hethogeland.nl/te-koop-te-huur/bekendmaking-verkoop-en-verhuur-1-op-1",
+        "https://hethogeland.nl/te-koop-te-huur/bekendmaking-verkoop-en-verhuur-1-op-1/plan-grondverhuur/opstalrecht-voor-opvangplekken-vluchtelingen",
+        "https://hethogeland.nl/te-koop-te-huur/bekendmaking-verkoop-en-verhuur-1-op-1/plan-voor-grondverkoop-voor-vernieuwing-centrum-uithuizen",
+        "https://hethogeland.nl/te-koop-te-huur/bekendmaking-verkoop-en-verhuur-1-op-1/kantens-kooistraat-verkoop-en-in-gebruik-geven-grond",
+        "https://hethogeland.nl/te-koop-te-huur/bekendmaking-verkoop-en-verhuur-1-op-1/appartementsrecht-en-opstalrecht-sportlaan-12-bedum",
+        "https://hethogeland.nl/klacht-bezwaar-en-beroep/klacht-over-woningverhuur",
+        "https://hethogeland.nl/te-koop-te-huur/bekendmaking-verkoop-en-verhuur-1-op-1/verkoop-de-komeet-uithuizen",
+        "https://hethogeland.nl/te-koop-te-huur/bekendmaking-verkoop-en-verhuur-1-op-1/verkoop-de-komeet-uithuizen/voornemen-tot-verkoop-van-de-komeet",
+        "https://hethogeland.nl/te-koop-te-huur/bekendmaking-verkoop-en-verhuur-1-op-1/verkoop-bouwkavels-munster-fase-2-en-3-winsum"
+      ],
+      "reachableCandidates": [
+        "https://hethogeland.nl/nieuws/nieuwsbericht/artikel/kamers-met-aandacht-verhuur-een-kamer-en-help-jongeren",
+        "https://hethogeland.nl/verhuur-ruimtes-en-sportvelden",
+        "https://hethogeland.nl/te-koop-te-huur/bekendmaking-verkoop-en-verhuur-1-op-1/verkoop-gronden-en-gebouwen",
+        "https://hethogeland.nl/te-koop-te-huur/bekendmaking-verkoop-en-verhuur-1-op-1",
+        "https://hethogeland.nl/te-koop-te-huur/bekendmaking-verkoop-en-verhuur-1-op-1/plan-grondverhuur/opstalrecht-voor-opvangplekken-vluchtelingen",
+        "https://hethogeland.nl/te-koop-te-huur/bekendmaking-verkoop-en-verhuur-1-op-1/plan-voor-grondverkoop-voor-vernieuwing-centrum-uithuizen"
+      ],
+      "route": "structured-verification",
+      "durationMs": 8943
+    },
+    {
+      "municipalityCode": "GM1911",
+      "municipalityName": "Hollands Kroon",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.hollandskroon.nl",
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "candidates": [
+        "https://www.hollandskroon.nl/ontwikkelingen/lopende-projecten/tijdelijke-huisvesting/contactgegevens-tijdelijke-woningen-hoornseweg-middenmeer/"
+      ],
+      "reachableCandidates": [
+        "https://www.hollandskroon.nl/ontwikkelingen/lopende-projecten/tijdelijke-huisvesting/contactgegevens-tijdelijke-woningen-hoornseweg-middenmeer/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 8136
+    },
+    {
+      "municipalityCode": "GM0118",
+      "municipalityName": "Hoogeveen",
+      "province": "Drenthe",
+      "registryHit": true,
+      "municipalSite": "https://www.hoogeveen.nl",
+      "candidateCount": 9,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.hoogeveen.nl/vergunningen/woning-of-kamerverhuur/",
+        "https://www.hoogeveen.nl/klacht-en-bezwaar/klacht-melden-over-verhuurder/",
+        "https://www.hoogeveen.nl/raad-en-college/visies-en-plannen/huisvestingsbeleid-arbeidsmigranten/",
+        "https://www.hoogeveen.nl/vergunningen/vergunning-tijdelijke-verhuur-leegstaand-pand/",
+        "https://www.hoogeveen.nl/wonen/woonruimte-toevoegen/",
+        "https://www.hoogeveen.nl/wonen/woonruimte-toevoegen/inwoning/",
+        "https://www.hoogeveen.nl/wonen/woonruimte-toevoegen/mantelzorgwoning/",
+        "https://www.hoogeveen.nl/wonen/woonruimte-toevoegen/collectief-particulier-opdrachtgeverschap-cpo/",
+        "https://www.hoogeveen.nl/wonen/woonruimte-toevoegen/woning-splitsen/"
+      ],
+      "reachableCandidates": [
+        "https://www.hoogeveen.nl/vergunningen/woning-of-kamerverhuur/",
+        "https://www.hoogeveen.nl/klacht-en-bezwaar/klacht-melden-over-verhuurder/",
+        "https://www.hoogeveen.nl/raad-en-college/visies-en-plannen/huisvestingsbeleid-arbeidsmigranten/",
+        "https://www.hoogeveen.nl/vergunningen/vergunning-tijdelijke-verhuur-leegstaand-pand/",
+        "https://www.hoogeveen.nl/wonen/woonruimte-toevoegen/",
+        "https://www.hoogeveen.nl/wonen/woonruimte-toevoegen/inwoning/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 1738
+    },
+    {
+      "municipalityCode": "GM0405",
+      "municipalityName": "Hoorn",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.hoorn.nl",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.hoorn.nl/vakantieverhuur",
+        "https://www.hoorn.nl/meldpunt-verhuur",
+        "https://www.hoorn.nl/opvang-vluchtelingen/Waarom-woonruimte-voor-vluchtelingen-terwijl-woningbouw-voor-inwoners-lang-duurt.html",
+        "https://www.hoorn.nl/Woning-splitsen",
+        "https://www.hoorn.nl/Woning-splitsen/Mag-ik-een-schuur-op-eigen-terrein-ombouwen-tot-zelfstandige-woning.html"
+      ],
+      "reachableCandidates": [
+        "https://www.hoorn.nl/vakantieverhuur",
+        "https://www.hoorn.nl/meldpunt-verhuur",
+        "https://www.hoorn.nl/opvang-vluchtelingen/Waarom-woonruimte-voor-vluchtelingen-terwijl-woningbouw-voor-inwoners-lang-duurt.html",
+        "https://www.hoorn.nl/Woning-splitsen",
+        "https://www.hoorn.nl/Woning-splitsen/Mag-ik-een-schuur-op-eigen-terrein-ombouwen-tot-zelfstandige-woning.html"
+      ],
+      "route": "structured-verification",
+      "durationMs": 8495
+    },
+    {
+      "municipalityCode": "GM1507",
+      "municipalityName": "Horst aan de Maas",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.horstaandemaas.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 2226
+    },
+    {
+      "municipalityCode": "GM0321",
+      "municipalityName": "Houten",
+      "province": "Utrecht",
+      "registryHit": true,
+      "municipalSite": "https://www.houten.nl",
+      "candidateCount": 6,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.houten.nl/sport-cultuur-en-recreatie/accommodatie-verhuur",
+        "https://www.houten.nl/ondernemen/grond-kopen-pachten-of-huren/verkoop-of-verhuur-van-gemeentelijk-vastgoed-en-grond",
+        "https://www.houten.nl/wonen-verhuizen-en-verbouwen/woning-zoeken/leegstandswet",
+        "https://www.houten.nl/wonen-verhuizen-en-verbouwen/bouwen-en-verbouwen/woning-splitsen-of-woning-omzetten",
+        "https://www.houten.nl/wonen-verhuizen-en-verbouwen/woning-zoeken/melden-van-ongewenst-gedrag-van-verhuurders",
+        "https://www.houten.nl/wonen-verhuizen-en-verbouwen/woning-zoeken/aanvragen-huisvestingsvergunning"
+      ],
+      "reachableCandidates": [
+        "https://www.houten.nl/sport-cultuur-en-recreatie/accommodatie-verhuur",
+        "https://www.houten.nl/ondernemen/grond-kopen-pachten-of-huren/verkoop-of-verhuur-van-gemeentelijk-vastgoed-en-grond",
+        "https://www.houten.nl/wonen-verhuizen-en-verbouwen/woning-zoeken/leegstandswet",
+        "https://www.houten.nl/wonen-verhuizen-en-verbouwen/bouwen-en-verbouwen/woning-splitsen-of-woning-omzetten",
+        "https://www.houten.nl/wonen-verhuizen-en-verbouwen/woning-zoeken/melden-van-ongewenst-gedrag-van-verhuurders",
+        "https://www.houten.nl/wonen-verhuizen-en-verbouwen/woning-zoeken/aanvragen-huisvestingsvergunning"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4119
+    },
+    {
+      "municipalityCode": "GM0406",
+      "municipalityName": "Huizen",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.huizen.nl",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.huizen.nl/meldpunt-problemen-met-verhuurder",
+        "https://www.huizen.nl/huisvesting-oekrainers-en-huizers",
+        "https://www.huizen.nl/gemeente-kiest-voor-verlenging-huur-van-hotel-newport-voor-huisvesting-oekrainers",
+        "https://www.huizen.nl/tijdelijke-verhuur-van-woning-of-gebouw"
+      ],
+      "reachableCandidates": [
+        "https://www.huizen.nl/meldpunt-problemen-met-verhuurder",
+        "https://www.huizen.nl/huisvesting-oekrainers-en-huizers",
+        "https://www.huizen.nl/gemeente-kiest-voor-verlenging-huur-van-hotel-newport-voor-huisvesting-oekrainers",
+        "https://www.huizen.nl/tijdelijke-verhuur-van-woning-of-gebouw"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3988
+    },
+    {
+      "municipalityCode": "GM0677",
+      "municipalityName": "Hulst",
+      "province": "Zeeland",
+      "registryHit": true,
+      "municipalSite": "https://www.gemeentehulst.nl",
+      "candidateCount": 8,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.gemeentehulst.nl/Inwoners/Wonen_ver_bouwen/Vergunning_tot_tijdelijke_verhuur_van_leegstaande_woonruimte",
+        "https://www.gemeentehulst.nl/Inwoners/Wonen_ver_bouwen/Wet_goed_verhuurderschap",
+        "https://www.gemeentehulst.nl/PDC/Wetten/Huisvestingswet_2014",
+        "https://www.gemeentehulst.nl/Inwoners/Opvang_vluchtelingen/Kaders_huisvestingslocatie_Spoorweg_Hulst",
+        "https://www.gemeentehulst.nl/Inwoners/Opvang_vluchtelingen/Presentatie_flexibele_huisvestingslocatie",
+        "https://www.gemeentehulst.nl/PDC/Thema_s_Levensgebeurtenissen/Sub_thema_s/Leven_reizen_papieren/Registratie_woonruimte",
+        "https://www.gemeentehulst.nl/PDC/Wetten/Leegstandwet",
+        "https://www.gemeentehulst.nl/Inwoners/Opvang_vluchtelingen/Veel_gestelde_vragen_en_antwoorden_flexibele_huisvestingslocatie_Spoorweg_Hulst"
+      ],
+      "reachableCandidates": [
+        "https://www.gemeentehulst.nl/Inwoners/Wonen_ver_bouwen/Vergunning_tot_tijdelijke_verhuur_van_leegstaande_woonruimte",
+        "https://www.gemeentehulst.nl/Inwoners/Wonen_ver_bouwen/Wet_goed_verhuurderschap",
+        "https://www.gemeentehulst.nl/PDC/Wetten/Huisvestingswet_2014",
+        "https://www.gemeentehulst.nl/Inwoners/Opvang_vluchtelingen/Kaders_huisvestingslocatie_Spoorweg_Hulst",
+        "https://www.gemeentehulst.nl/Inwoners/Opvang_vluchtelingen/Presentatie_flexibele_huisvestingslocatie",
+        "https://www.gemeentehulst.nl/PDC/Thema_s_Levensgebeurtenissen/Sub_thema_s/Leven_reizen_papieren/Registratie_woonruimte"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6411
+    },
+    {
+      "municipalityCode": "GM0353",
+      "municipalityName": "IJsselstein",
+      "province": "Utrecht",
+      "registryHit": true,
+      "municipalSite": "https://www.ijsselstein.nl",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.ijsselstein.nl/verhuur-volkstuinen",
+        "https://www.ijsselstein.nl/melding-ongewenst-verhuurgedrag",
+        "https://www.ijsselstein.nl/tijdelijke-woonruimte-via-onder-de-pannen",
+        "https://www.ijsselstein.nl/opkoopbescherming"
+      ],
+      "reachableCandidates": [
+        "https://www.ijsselstein.nl/verhuur-volkstuinen",
+        "https://www.ijsselstein.nl/melding-ongewenst-verhuurgedrag",
+        "https://www.ijsselstein.nl/tijdelijke-woonruimte-via-onder-de-pannen",
+        "https://www.ijsselstein.nl/opkoopbescherming"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6661
+    },
+    {
+      "municipalityCode": "GM1884",
+      "municipalityName": "Kaag en Braassem",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.kaagenbraassem.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.kaagenbraassem.nl/Inwoners_en_ondernemers/Wonen/Huis_kopen_huren_of_verhuren/Meldpunt_problemen_met_verhuurder",
+        "https://www.kaagenbraassem.nl/Inwoners_en_ondernemers/Wonen/Huis_kopen_huren_of_verhuren/Huisvestingsvergunning"
+      ],
+      "reachableCandidates": [
+        "https://www.kaagenbraassem.nl/Inwoners_en_ondernemers/Wonen/Huis_kopen_huren_of_verhuren/Meldpunt_problemen_met_verhuurder",
+        "https://www.kaagenbraassem.nl/Inwoners_en_ondernemers/Wonen/Huis_kopen_huren_of_verhuren/Huisvestingsvergunning"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2029
+    },
+    {
+      "municipalityCode": "GM0166",
+      "municipalityName": "Kampen",
+      "province": "Overijssel",
+      "registryHit": true,
+      "municipalSite": "https://www.kampen.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 2208
+    },
+    {
+      "municipalityCode": "GM0678",
+      "municipalityName": "Kapelle",
+      "province": "Zeeland",
+      "registryHit": true,
+      "municipalSite": "https://www.kapelle.nl",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.kapelle.nl/tijdelijke-huisvesting-speciale-scholen-kapelle",
+        "https://www.kapelle.nl/meldpunt-ongewenst-verhuurgedrag",
+        "https://www.kapelle.nl/huisvesting-speciale-scholen-kapelle",
+        "https://www.kapelle.nl/melding-ongewenst-verhuurgedrag"
+      ],
+      "reachableCandidates": [
+        "https://www.kapelle.nl/tijdelijke-huisvesting-speciale-scholen-kapelle",
+        "https://www.kapelle.nl/meldpunt-ongewenst-verhuurgedrag",
+        "https://www.kapelle.nl/huisvesting-speciale-scholen-kapelle",
+        "https://www.kapelle.nl/melding-ongewenst-verhuurgedrag"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5772
+    },
+    {
+      "municipalityCode": "GM0537",
+      "municipalityName": "Katwijk",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.katwijk.nl",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.katwijk.nl/recreatie/toeristische-verhuur-van-woonruimte",
+        "https://www.katwijk.nl/recreatie/toeristische-verhuur-van-woonruimte/registratie-en-meldplicht-toeristische-verhuur",
+        "https://www.katwijk.nl/wonen-en-verbouwen/verhuizen-binnen-of-naar-katwijk/tijdelijke-verhuur-te-koop-staande-woning",
+        "https://www.katwijk.nl/wonen-en-verbouwen/woning-omzetten-splitsen-of-samenvoegen",
+        "https://www.katwijk.nl/wonen-en-verbouwen/meldpunt-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.katwijk.nl/recreatie/toeristische-verhuur-van-woonruimte",
+        "https://www.katwijk.nl/recreatie/toeristische-verhuur-van-woonruimte/registratie-en-meldplicht-toeristische-verhuur",
+        "https://www.katwijk.nl/wonen-en-verbouwen/verhuizen-binnen-of-naar-katwijk/tijdelijke-verhuur-te-koop-staande-woning",
+        "https://www.katwijk.nl/wonen-en-verbouwen/woning-omzetten-splitsen-of-samenvoegen",
+        "https://www.katwijk.nl/wonen-en-verbouwen/meldpunt-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3585
+    },
+    {
+      "municipalityCode": "GM0928",
+      "municipalityName": "Kerkrade",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.kerkrade.nl",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.kerkrade.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.kerkrade.nl/woning-splitsen",
+        "https://www.kerkrade.nl/kamerverhuur-en-woningsplitsing",
+        "https://www.kerkrade.nl/ongewenst-verhuurgedrag-van-verhuurders-melden"
+      ],
+      "reachableCandidates": [
+        "https://www.kerkrade.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.kerkrade.nl/woning-splitsen",
+        "https://www.kerkrade.nl/kamerverhuur-en-woningsplitsing",
+        "https://www.kerkrade.nl/ongewenst-verhuurgedrag-van-verhuurders-melden"
+      ],
+      "route": "structured-verification",
+      "durationMs": 17853
+    },
+    {
+      "municipalityCode": "GM1598",
+      "municipalityName": "Koggenland",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.koggenland.nl/",
+      "candidateCount": 7,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.koggenland.nl/meldpunt-verhuurdersgedrag",
+        "https://www.koggenland.nl/bekendmaking-tot-voornemen-tot-verhuur-van-gemeentelijk-onroerend-goed-een-gedeelte-van-de-brede",
+        "https://www.koggenland.nl/aanbieden-huisvesting-aan-oekraiense-vluchtelingen",
+        "https://www.koggenland.nl/leegstand-melden",
+        "https://www.koggenland.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.koggenland.nl/woning-splitsen",
+        "https://www.koggenland.nl/verkoop-en-verhuur"
+      ],
+      "reachableCandidates": [
+        "https://www.koggenland.nl/meldpunt-verhuurdersgedrag",
+        "https://www.koggenland.nl/bekendmaking-tot-voornemen-tot-verhuur-van-gemeentelijk-onroerend-goed-een-gedeelte-van-de-brede",
+        "https://www.koggenland.nl/aanbieden-huisvesting-aan-oekraiense-vluchtelingen",
+        "https://www.koggenland.nl/leegstand-melden",
+        "https://www.koggenland.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.koggenland.nl/woning-splitsen"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5002
+    },
+    {
+      "municipalityCode": "GM0542",
+      "municipalityName": "Krimpen aan den IJssel",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.krimpenaandenijssel.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://krimpenaandenijssel.nl/onderzoek-naar-mogelijke-splitsingnieuwbouw-octoof-mozaiek-is-klaar/",
+        "https://krimpenaandenijssel.nl/werkzaamheden-voor-tijdelijke-huisvesting-van-basisschool-het-mozaiek-aan-de-wielerbaan-sportsingel-zijn-gestart/"
+      ],
+      "reachableCandidates": [
+        "https://krimpenaandenijssel.nl/onderzoek-naar-mogelijke-splitsingnieuwbouw-octoof-mozaiek-is-klaar/",
+        "https://krimpenaandenijssel.nl/werkzaamheden-voor-tijdelijke-huisvesting-van-basisschool-het-mozaiek-aan-de-wielerbaan-sportsingel-zijn-gestart/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 10763
+    },
+    {
+      "municipalityCode": "GM1931",
+      "municipalityName": "Krimpenerwaard",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.krimpenerwaard.nl/",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.krimpenerwaard.nl/nieuwe-huisvesting-voor-de-kromme-draai",
+        "https://www.krimpenerwaard.nl/huisvestingsvergunning",
+        "https://www.krimpenerwaard.nl/slecht-verhuurderschap-melden"
+      ],
+      "reachableCandidates": [
+        "https://www.krimpenerwaard.nl/nieuwe-huisvesting-voor-de-kromme-draai",
+        "https://www.krimpenerwaard.nl/huisvestingsvergunning",
+        "https://www.krimpenerwaard.nl/slecht-verhuurderschap-melden"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3639
+    }
+  ],
+  "summary": {
+    "municipalities": 25,
+    "registryHits": 25,
+    "structuredVerification": 19,
+    "deepVerificationNeeded": 6,
+    "manualReviewRequired": 0,
+    "totalCandidates": 96,
+    "networkRequests": 225,
+    "networkErrors": 5,
+    "maxConcurrency": 5
+  },
+  "safety": {
+    "discoveryIsNotLegalVerification": true,
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0
+  }
+}

@@ -1,0 +1,3423 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "auto-national-04-verification",
+  "generatedAt": "2026-08-10T10:07:37.104Z",
+  "sourceBatch": "auto-national-04",
+  "records": [
+    {
+      "municipalityCode": "GM1948",
+      "municipalityName": "Meierijstad",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.meierijstad.nl/home",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.meierijstad.nl/Alle_onderwerpen/Wonen/Onderwerpen_wonen/Kopen_huren_en_verhuren/Meldpunt_ongewenst_verhuurgedrag",
+        "https://www.meierijstad.nl/Nieuws/2026/Februari_2026/Meierijstad_versoepelt_regels_voor_woningsplitsing",
+        "https://www.meierijstad.nl/Alle_onderwerpen/Wonen/Onderwerpen_wonen/Beleid_en_visie/Woningsplitsing",
+        "https://www.meierijstad.nl/Alle_onderwerpen/Vergunningen/Vergunning_tijdelijke_verhuur_woning"
+      ],
+      "reachableCandidates": [
+        "https://www.meierijstad.nl/Alle_onderwerpen/Wonen/Onderwerpen_wonen/Kopen_huren_en_verhuren/Meldpunt_ongewenst_verhuurgedrag",
+        "https://www.meierijstad.nl/Nieuws/2026/Februari_2026/Meierijstad_versoepelt_regels_voor_woningsplitsing",
+        "https://www.meierijstad.nl/Alle_onderwerpen/Wonen/Onderwerpen_wonen/Beleid_en_visie/Woningsplitsing",
+        "https://www.meierijstad.nl/Alle_onderwerpen/Vergunningen/Vergunning_tijdelijke_verhuur_woning"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6516,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [],
+      "pages": [
+        {
+          "url": "https://www.meierijstad.nl/Alle_onderwerpen/Wonen/Onderwerpen_wonen/Kopen_huren_en_verhuren/Meldpunt_ongewenst_verhuurgedrag",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.meierijstad.nl/Contact/Contactformulieren",
+            "https://www.meierijstad.nl/Formulieren/Melding_ongewenst_verhuurgedrag"
+          ],
+          "documentLinks": [
+            "https://www.meierijstad.nl/Contact/Contactformulieren",
+            "https://www.meierijstad.nl/Formulieren/Melding_ongewenst_verhuurgedrag"
+          ]
+        },
+        {
+          "url": "https://www.meierijstad.nl/Nieuws/2026/Februari_2026/Meierijstad_versoepelt_regels_voor_woningsplitsing",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.meierijstad.nl/Contact/Contactformulieren"
+          ],
+          "documentLinks": [
+            "https://www.meierijstad.nl/Contact/Contactformulieren"
+          ]
+        },
+        {
+          "url": "https://www.meierijstad.nl/Alle_onderwerpen/Wonen/Onderwerpen_wonen/Beleid_en_visie/Woningsplitsing",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.meierijstad.nl/Contact/Contactformulieren",
+            "https://omgevingswet.overheid.nl/home"
+          ],
+          "documentLinks": [
+            "https://www.meierijstad.nl/Contact/Contactformulieren"
+          ]
+        },
+        {
+          "url": "https://www.meierijstad.nl/Alle_onderwerpen/Vergunningen/Vergunning_tijdelijke_verhuur_woning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.meierijstad.nl/Contact/Contactformulieren",
+            "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte"
+          ],
+          "documentLinks": [
+            "https://www.meierijstad.nl/Contact/Contactformulieren",
+            "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://www.meierijstad.nl/Contact/Contactformulieren",
+        "https://www.meierijstad.nl/Formulieren/Melding_ongewenst_verhuurgedrag",
+        "https://omgevingswet.overheid.nl/home",
+        "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte"
+      ],
+      "documentLinks": [
+        "https://www.meierijstad.nl/Contact/Contactformulieren",
+        "https://www.meierijstad.nl/Formulieren/Melding_ongewenst_verhuurgedrag",
+        "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation"
+      ],
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0119",
+      "municipalityName": "Meppel",
+      "province": "Drenthe",
+      "registryHit": true,
+      "municipalSite": "https://www.meppel.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 5663,
+      "verificationRoute": "deep",
+      "officialPublicationSearch": [
+        {
+          "query": "Meppel huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Meppel%20huisvestingsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Meppel opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Meppel%20opkoopbescherming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Meppel kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Meppel%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Meppel splitsingsvergunning woningvorming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Meppel%20splitsingsvergunning%20woningvorming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Meppel onttrekkingsvergunning woonruimte",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Meppel%20onttrekkingsvergunning%20woonruimte",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Meppel leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Meppel%20leegstandsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Meppel verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Meppel%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Meppel vakantieverhuur short stay",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Meppel%20vakantieverhuur%20short%20stay",
+          "status": 200,
+          "foundCvdr": []
+        }
+      ],
+      "officialRegulationCandidates": [],
+      "verificationStatus": "manual-legal-source-review-required",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0687",
+      "municipalityName": "Middelburg (Z.)",
+      "province": "Zeeland",
+      "registryHit": true,
+      "municipalSite": "https://www.meppel.nl/direct-regelen/melding-klacht-en-bezwaar/woo-verzoek/",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 5791,
+      "verificationRoute": "deep",
+      "officialPublicationSearch": [
+        {
+          "query": "Middelburg (Z.) huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Middelburg%20(Z.)%20huisvestingsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Middelburg (Z.) opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Middelburg%20(Z.)%20opkoopbescherming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Middelburg (Z.) kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Middelburg%20(Z.)%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Middelburg (Z.) splitsingsvergunning woningvorming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Middelburg%20(Z.)%20splitsingsvergunning%20woningvorming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Middelburg (Z.) onttrekkingsvergunning woonruimte",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Middelburg%20(Z.)%20onttrekkingsvergunning%20woonruimte",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Middelburg (Z.) leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Middelburg%20(Z.)%20leegstandsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Middelburg (Z.) verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Middelburg%20(Z.)%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Middelburg (Z.) vakantieverhuur short stay",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Middelburg%20(Z.)%20vakantieverhuur%20short%20stay",
+          "status": 200,
+          "foundCvdr": []
+        }
+      ],
+      "officialRegulationCandidates": [],
+      "verificationStatus": "manual-legal-source-review-required",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1842",
+      "municipalityName": "Midden-Delfland",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.middendelfland.nl",
+      "candidateCount": 8,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.middendelfland.nl/prestatieafspraken-volkshuisvesting",
+        "https://www.middendelfland.nl/huisvestingsvergunning",
+        "https://www.middendelfland.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.middendelfland.nl/woonruimte-anders-gebruiken-onttrekkingsvergunning-omzettingsvergunning-samenvoegingsvergunning",
+        "https://www.middendelfland.nl/vergoeding-huisvestingsvoorzieningen-scholen",
+        "https://www.middendelfland.nl/woning-splitsen",
+        "https://www.middendelfland.nl/meldpunt-ongewenst-verhuurgedrag",
+        "https://www.middendelfland.nl/problemen-met-uw-verhuurder-wat-kunt-u-zelf-doen"
+      ],
+      "reachableCandidates": [
+        "https://www.middendelfland.nl/prestatieafspraken-volkshuisvesting",
+        "https://www.middendelfland.nl/huisvestingsvergunning",
+        "https://www.middendelfland.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.middendelfland.nl/woonruimte-anders-gebruiken-onttrekkingsvergunning-omzettingsvergunning-samenvoegingsvergunning",
+        "https://www.middendelfland.nl/vergoeding-huisvestingsvoorzieningen-scholen",
+        "https://www.middendelfland.nl/woning-splitsen"
+      ],
+      "route": "structured-verification",
+      "durationMs": 8492,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "housing-permit",
+        "room-rental",
+        "withdrawal-merger",
+        "dwelling-formation"
+      ],
+      "pages": [
+        {
+          "url": "https://www.middendelfland.nl/prestatieafspraken-volkshuisvesting",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": [
+            "https://cuatro.sim-cdn.nl/middendelfland/uploads/prestatieafspraken_gemeente_midden-delfland_2024-2027_jaarschijf_2025_website.pdf?cb=9dxk4dAH",
+            "https://cuatro.sim-cdn.nl/middendelfland/uploads/prestatieafspraken_gemeente_midden-delfland_2024-2027_jaarschijf_2024_website.pdf?cb=FaKrT74w"
+          ]
+        },
+        {
+          "url": "https://www.middendelfland.nl/huisvestingsvergunning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "housing-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": true
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR700775"
+          ],
+          "applicationLinks": [
+            "https://www.middendelfland.nl/images/logo/digid.svg",
+            "https://mijn.middendelfland.nl/aanvragen/10401/persoon/huisvestingsvergunning"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.middendelfland.nl/tijdelijke-verhuur-leegstaand-pand",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "http://www.rijksoverheid.nl/documenten-en-publicaties/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte.html",
+            "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte"
+          ],
+          "documentLinks": [
+            "http://www.rijksoverheid.nl/documenten-en-publicaties/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte.html",
+            "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte"
+          ]
+        },
+        {
+          "url": "https://www.middendelfland.nl/woonruimte-anders-gebruiken-onttrekkingsvergunning-omzettingsvergunning-samenvoegingsvergunning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "room-rental",
+            "withdrawal-merger"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR700775"
+          ],
+          "applicationLinks": [
+            "https://www.middendelfland.nl/images/logo/digid.svg",
+            "https://www.rijksoverheid.nl/onderwerpen/omgevingswet/vraag-en-antwoord/wanneer-moet-ik-een-omgevingsvergunning-aanvragen",
+            "https://omgevingswet.overheid.nl/home",
+            "https://mijn.middendelfland.nl/aanvragen/10500/persoon/woonruimte-splitsing-onttrekking-samenvoeging-omzetting-of-woningvorming-vergunning"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.middendelfland.nl/vergoeding-huisvestingsvoorzieningen-scholen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.middendelfland.nl/woning-splitsen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "dwelling-formation"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR700775"
+          ],
+          "applicationLinks": [
+            "https://www.middendelfland.nl/images/logo/digid.svg",
+            "https://www.rijksoverheid.nl/onderwerpen/omgevingswet/vraag-en-antwoord/wanneer-moet-ik-een-omgevingsvergunning-aanvragen",
+            "https://omgevingswet.overheid.nl/home",
+            "https://mijn.middendelfland.nl/aanvragen/10500/persoon/woonruimte-splitsing-onttrekking-samenvoeging-omzetting-of-woningvorming-vergunning"
+          ],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [
+        "https://lokaleregelgeving.overheid.nl/CVDR700775"
+      ],
+      "applicationLinks": [
+        "https://www.middendelfland.nl/images/logo/digid.svg",
+        "https://mijn.middendelfland.nl/aanvragen/10401/persoon/huisvestingsvergunning",
+        "http://www.rijksoverheid.nl/documenten-en-publicaties/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte.html",
+        "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte",
+        "https://www.rijksoverheid.nl/onderwerpen/omgevingswet/vraag-en-antwoord/wanneer-moet-ik-een-omgevingsvergunning-aanvragen",
+        "https://omgevingswet.overheid.nl/home",
+        "https://mijn.middendelfland.nl/aanvragen/10500/persoon/woonruimte-splitsing-onttrekking-samenvoeging-omzetting-of-woningvorming-vergunning"
+      ],
+      "documentLinks": [
+        "https://cuatro.sim-cdn.nl/middendelfland/uploads/prestatieafspraken_gemeente_midden-delfland_2024-2027_jaarschijf_2025_website.pdf?cb=9dxk4dAH",
+        "https://cuatro.sim-cdn.nl/middendelfland/uploads/prestatieafspraken_gemeente_midden-delfland_2024-2027_jaarschijf_2024_website.pdf?cb=FaKrT74w",
+        "http://www.rijksoverheid.nl/documenten-en-publicaties/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte.html",
+        "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "structurally-complete-pending-legal-review",
+      "openChecks": [],
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1731",
+      "municipalityName": "Midden-Drenthe",
+      "province": "Drenthe",
+      "registryHit": true,
+      "municipalSite": "https://www.middendrenthe.nl",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.middendrenthe.nl/bouwen-wonen/vergunning-tijdelijke-verhuur-aanvragen",
+        "https://www.middendrenthe.nl/melding-doen/ongewenst-verhuurdergedrag-melden",
+        "https://www.middendrenthe.nl/formulieren/ongewenst-gedrag-verhuurder",
+        "https://www.middendrenthe.nl/formulieren/vergunning-tijdelijke-verhuur-aanvragen",
+        "https://www.middendrenthe.nl/formulieren/verlenging-vergunning-tijdelijke-verhuur-aanvragen"
+      ],
+      "reachableCandidates": [
+        "https://www.middendrenthe.nl/bouwen-wonen/vergunning-tijdelijke-verhuur-aanvragen",
+        "https://www.middendrenthe.nl/melding-doen/ongewenst-verhuurdergedrag-melden",
+        "https://www.middendrenthe.nl/formulieren/ongewenst-gedrag-verhuurder",
+        "https://www.middendrenthe.nl/formulieren/vergunning-tijdelijke-verhuur-aanvragen",
+        "https://www.middendrenthe.nl/formulieren/verlenging-vergunning-tijdelijke-verhuur-aanvragen"
+      ],
+      "route": "structured-verification",
+      "durationMs": 9287,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [],
+      "pages": [
+        {
+          "url": "https://www.middendrenthe.nl/bouwen-wonen/vergunning-tijdelijke-verhuur-aanvragen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.middendrenthe.nl/bouwen-wonen/vergunning-tijdelijke-verhuur-aanvragen",
+            "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=4606&lang=nl_nl&readid=startcontent&url=https%3A%2F%2Fwww.middendrenthe.nl%2Fbouwen-wonen%2Fvergunning-tijdelijke-verhuur-aanvragen",
+            "https://www.middendrenthe.nl/formulieren/vergunning-tijdelijke-verhuur-aanvragen",
+            "https://www.middendrenthe.nl/fileadmin/Formulieren_vergunningen/Formulier_tijdelijke_verhuur_Leegstandwet.pdf"
+          ],
+          "documentLinks": [
+            "https://www.middendrenthe.nl/formulieren/vergunning-tijdelijke-verhuur-aanvragen",
+            "https://www.middendrenthe.nl/fileadmin/Formulieren_vergunningen/Formulier_tijdelijke_verhuur_Leegstandwet.pdf"
+          ]
+        },
+        {
+          "url": "https://www.middendrenthe.nl/melding-doen/ongewenst-verhuurdergedrag-melden",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.middendrenthe.nl/formulieren/ongewenst-gedrag-verhuurder"
+          ],
+          "documentLinks": [
+            "https://www.middendrenthe.nl/formulieren/ongewenst-gedrag-verhuurder"
+          ]
+        },
+        {
+          "url": "https://www.middendrenthe.nl/formulieren/ongewenst-gedrag-verhuurder",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.middendrenthe.nl/formulieren/ongewenst-gedrag-verhuurder",
+            "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=4606&lang=nl_nl&readid=startcontent&url=https%3A%2F%2Fwww.middendrenthe.nl%2Fformulieren%2Fongewenst-gedrag-verhuurder",
+            "https://www.middendrenthe.nl/formulieren"
+          ],
+          "documentLinks": [
+            "https://www.middendrenthe.nl/formulieren/ongewenst-gedrag-verhuurder",
+            "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=4606&lang=nl_nl&readid=startcontent&url=https%3A%2F%2Fwww.middendrenthe.nl%2Fformulieren%2Fongewenst-gedrag-verhuurder",
+            "https://www.middendrenthe.nl/formulieren"
+          ]
+        },
+        {
+          "url": "https://www.middendrenthe.nl/formulieren/vergunning-tijdelijke-verhuur-aanvragen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.middendrenthe.nl/formulieren/vergunning-tijdelijke-verhuur-aanvragen",
+            "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=4606&lang=nl_nl&readid=startcontent&url=https%3A%2F%2Fwww.middendrenthe.nl%2Fformulieren%2Fvergunning-tijdelijke-verhuur-aanvragen",
+            "https://www.middendrenthe.nl/formulieren"
+          ],
+          "documentLinks": [
+            "https://www.middendrenthe.nl/formulieren/vergunning-tijdelijke-verhuur-aanvragen",
+            "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=4606&lang=nl_nl&readid=startcontent&url=https%3A%2F%2Fwww.middendrenthe.nl%2Fformulieren%2Fvergunning-tijdelijke-verhuur-aanvragen",
+            "https://www.middendrenthe.nl/formulieren"
+          ]
+        },
+        {
+          "url": "https://www.middendrenthe.nl/formulieren/verlenging-vergunning-tijdelijke-verhuur-aanvragen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.middendrenthe.nl/formulieren/verlenging-vergunning-tijdelijke-verhuur-aanvragen",
+            "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=4606&lang=nl_nl&readid=startcontent&url=https%3A%2F%2Fwww.middendrenthe.nl%2Fformulieren%2Fverlenging-vergunning-tijdelijke-verhuur-aanvragen",
+            "https://www.middendrenthe.nl/formulieren"
+          ],
+          "documentLinks": [
+            "https://www.middendrenthe.nl/formulieren/verlenging-vergunning-tijdelijke-verhuur-aanvragen",
+            "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=4606&lang=nl_nl&readid=startcontent&url=https%3A%2F%2Fwww.middendrenthe.nl%2Fformulieren%2Fverlenging-vergunning-tijdelijke-verhuur-aanvragen",
+            "https://www.middendrenthe.nl/formulieren"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://www.middendrenthe.nl/bouwen-wonen/vergunning-tijdelijke-verhuur-aanvragen",
+        "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=4606&lang=nl_nl&readid=startcontent&url=https%3A%2F%2Fwww.middendrenthe.nl%2Fbouwen-wonen%2Fvergunning-tijdelijke-verhuur-aanvragen",
+        "https://www.middendrenthe.nl/formulieren/vergunning-tijdelijke-verhuur-aanvragen",
+        "https://www.middendrenthe.nl/fileadmin/Formulieren_vergunningen/Formulier_tijdelijke_verhuur_Leegstandwet.pdf",
+        "https://www.middendrenthe.nl/formulieren/ongewenst-gedrag-verhuurder",
+        "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=4606&lang=nl_nl&readid=startcontent&url=https%3A%2F%2Fwww.middendrenthe.nl%2Fformulieren%2Fongewenst-gedrag-verhuurder",
+        "https://www.middendrenthe.nl/formulieren",
+        "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=4606&lang=nl_nl&readid=startcontent&url=https%3A%2F%2Fwww.middendrenthe.nl%2Fformulieren%2Fvergunning-tijdelijke-verhuur-aanvragen",
+        "https://www.middendrenthe.nl/formulieren/verlenging-vergunning-tijdelijke-verhuur-aanvragen",
+        "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=4606&lang=nl_nl&readid=startcontent&url=https%3A%2F%2Fwww.middendrenthe.nl%2Fformulieren%2Fverlenging-vergunning-tijdelijke-verhuur-aanvragen"
+      ],
+      "documentLinks": [
+        "https://www.middendrenthe.nl/formulieren/vergunning-tijdelijke-verhuur-aanvragen",
+        "https://www.middendrenthe.nl/fileadmin/Formulieren_vergunningen/Formulier_tijdelijke_verhuur_Leegstandwet.pdf",
+        "https://www.middendrenthe.nl/formulieren/ongewenst-gedrag-verhuurder",
+        "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=4606&lang=nl_nl&readid=startcontent&url=https%3A%2F%2Fwww.middendrenthe.nl%2Fformulieren%2Fongewenst-gedrag-verhuurder",
+        "https://www.middendrenthe.nl/formulieren",
+        "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=4606&lang=nl_nl&readid=startcontent&url=https%3A%2F%2Fwww.middendrenthe.nl%2Fformulieren%2Fvergunning-tijdelijke-verhuur-aanvragen",
+        "https://www.middendrenthe.nl/formulieren/verlenging-vergunning-tijdelijke-verhuur-aanvragen",
+        "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=4606&lang=nl_nl&readid=startcontent&url=https%3A%2F%2Fwww.middendrenthe.nl%2Fformulieren%2Fverlenging-vergunning-tijdelijke-verhuur-aanvragen"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": false
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "geographicScope"
+      ],
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1952",
+      "municipalityName": "Midden-Groningen",
+      "province": "Groningen",
+      "registryHit": true,
+      "municipalSite": "https://www.midden-groningen.nl",
+      "candidateCount": 6,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.midden-groningen.nl/vaststelling-bestemmingsplan-herontwikkeling-camping-steendam-besluit-hogere-waarden-wet-geluidhinder-besluit-onttrekking-weg-aan-het-openbaar-verkeer-en-verleende-omgevingsvergunning-damsterweg-32z-steendam",
+        "https://www.midden-groningen.nl/ontwerp-wijzigingsbesluit-omgevingsplan-kamerverhuur-en-hospitaverhuur",
+        "https://www.midden-groningen.nl/volkshuisvestingsfonds",
+        "https://www.midden-groningen.nl/verhuur-sportaccommodaties",
+        "https://www.midden-groningen.nl/ongewenst-gedrag-van-verhuurders-melden",
+        "https://www.midden-groningen.nl/verhuurdersvergunning-aanvragen-opkoopbescherming"
+      ],
+      "reachableCandidates": [
+        "https://www.midden-groningen.nl/vaststelling-bestemmingsplan-herontwikkeling-camping-steendam-besluit-hogere-waarden-wet-geluidhinder-besluit-onttrekking-weg-aan-het-openbaar-verkeer-en-verleende-omgevingsvergunning-damsterweg-32z-steendam",
+        "https://www.midden-groningen.nl/ontwerp-wijzigingsbesluit-omgevingsplan-kamerverhuur-en-hospitaverhuur",
+        "https://www.midden-groningen.nl/volkshuisvestingsfonds",
+        "https://www.midden-groningen.nl/verhuur-sportaccommodaties",
+        "https://www.midden-groningen.nl/ongewenst-gedrag-van-verhuurders-melden",
+        "https://www.midden-groningen.nl/verhuurdersvergunning-aanvragen-opkoopbescherming"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6004,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "withdrawal-merger",
+        "room-rental",
+        "purchase-protection"
+      ],
+      "pages": [
+        {
+          "url": "https://www.midden-groningen.nl/vaststelling-bestemmingsplan-herontwikkeling-camping-steendam-besluit-hogere-waarden-wet-geluidhinder-besluit-onttrekking-weg-aan-het-openbaar-verkeer-en-verleende-omgevingsvergunning-damsterweg-32z-steendam",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "withdrawal-merger"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "http://www.omgevingswet.overheid.nl/regels-op-de-kaart",
+            "https://www.midden-groningen.nl/contactformulier",
+            "https://www.midden-groningen.nl/reactieformulier-over-deze-website"
+          ],
+          "documentLinks": [
+            "https://www.midden-groningen.nl/sites/default/files/2024-06/Besluit%20Hogere%20waarden%20Wgh%20Steendam%20Damsterweg%2032Z.pdf",
+            "https://www.midden-groningen.nl/sites/default/files/2024-06/Besluit%20onttrekking%20weg%20aan%20openbaar%20verkeer%20Steendam%20Damsterweg%2032Z.pdf",
+            "https://www.midden-groningen.nl/sites/default/files/2024-06/Omgevingsvergunning%20loods%20Steendam%20Damsterweg%2032Z.pdf",
+            "https://www.midden-groningen.nl/contactformulier",
+            "https://www.midden-groningen.nl/reactieformulier-over-deze-website"
+          ]
+        },
+        {
+          "url": "https://www.midden-groningen.nl/ontwerp-wijzigingsbesluit-omgevingsplan-kamerverhuur-en-hospitaverhuur",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "room-rental"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "http://www.omgevingswet.overheid.nl/",
+            "https://www.midden-groningen.nl/contactformulier",
+            "https://www.midden-groningen.nl/reactieformulier-over-deze-website"
+          ],
+          "documentLinks": [
+            "https://www.midden-groningen.nl/sites/default/files/2026-01/besluitpreview-13.pdf",
+            "https://www.midden-groningen.nl/contactformulier",
+            "https://www.midden-groningen.nl/reactieformulier-over-deze-website"
+          ]
+        },
+        {
+          "url": "https://www.midden-groningen.nl/volkshuisvestingsfonds",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.midden-groningen.nl/contactformulier",
+            "https://www.midden-groningen.nl/reactieformulier-over-deze-website"
+          ],
+          "documentLinks": [
+            "https://www.midden-groningen.nl/contactformulier",
+            "https://www.midden-groningen.nl/reactieformulier-over-deze-website"
+          ]
+        },
+        {
+          "url": "https://www.midden-groningen.nl/verhuur-sportaccommodaties",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.midden-groningen.nl/contactformulier",
+            "https://www.midden-groningen.nl/reactieformulier-over-deze-website"
+          ],
+          "documentLinks": [
+            "https://www.midden-groningen.nl/contactformulier",
+            "https://www.midden-groningen.nl/reactieformulier-over-deze-website"
+          ]
+        },
+        {
+          "url": "https://www.midden-groningen.nl/ongewenst-gedrag-van-verhuurders-melden",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.midden-groningen.nl/contactformulier",
+            "https://www.midden-groningen.nl/reactieformulier-over-deze-website"
+          ],
+          "documentLinks": [
+            "https://www.midden-groningen.nl/contactformulier",
+            "https://www.midden-groningen.nl/reactieformulier-over-deze-website"
+          ]
+        },
+        {
+          "url": "https://www.midden-groningen.nl/verhuurdersvergunning-aanvragen-opkoopbescherming",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "purchase-protection"
+          ],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": true
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR714276/1"
+          ],
+          "applicationLinks": [
+            "https://www.midden-groningen.nl/verhuurdersvergunning-aanvragen-opkoopbescherming",
+            "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=9599&amp;lang=nl_nl&amp;readid=l-main&amp;readclass=l-highlighted%2Cl-top&amp;url=https%3A%2F%2Fwww.midden-groningen.nl%2Fverhuurdersvergunning-aanvragen-opkoopbescherming",
+            "https://www.midden-groningen.nl/contactformulier",
+            "https://www.midden-groningen.nl/reactieformulier-over-deze-website"
+          ],
+          "documentLinks": [
+            "https://www.midden-groningen.nl/sites/default/files/2024-01/Postcodes%20CBS%20wijken%20en%20buurten%20opkoopbescherming.pdf",
+            "https://www.midden-groningen.nl/contactformulier",
+            "https://www.midden-groningen.nl/reactieformulier-over-deze-website"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [
+        "https://lokaleregelgeving.overheid.nl/CVDR714276/1"
+      ],
+      "applicationLinks": [
+        "http://www.omgevingswet.overheid.nl/regels-op-de-kaart",
+        "https://www.midden-groningen.nl/contactformulier",
+        "https://www.midden-groningen.nl/reactieformulier-over-deze-website",
+        "http://www.omgevingswet.overheid.nl/",
+        "https://www.midden-groningen.nl/verhuurdersvergunning-aanvragen-opkoopbescherming",
+        "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=9599&amp;lang=nl_nl&amp;readid=l-main&amp;readclass=l-highlighted%2Cl-top&amp;url=https%3A%2F%2Fwww.midden-groningen.nl%2Fverhuurdersvergunning-aanvragen-opkoopbescherming"
+      ],
+      "documentLinks": [
+        "https://www.midden-groningen.nl/sites/default/files/2024-06/Besluit%20Hogere%20waarden%20Wgh%20Steendam%20Damsterweg%2032Z.pdf",
+        "https://www.midden-groningen.nl/sites/default/files/2024-06/Besluit%20onttrekking%20weg%20aan%20openbaar%20verkeer%20Steendam%20Damsterweg%2032Z.pdf",
+        "https://www.midden-groningen.nl/sites/default/files/2024-06/Omgevingsvergunning%20loods%20Steendam%20Damsterweg%2032Z.pdf",
+        "https://www.midden-groningen.nl/contactformulier",
+        "https://www.midden-groningen.nl/reactieformulier-over-deze-website",
+        "https://www.midden-groningen.nl/sites/default/files/2026-01/besluitpreview-13.pdf",
+        "https://www.midden-groningen.nl/sites/default/files/2024-01/Postcodes%20CBS%20wijken%20en%20buurten%20opkoopbescherming.pdf"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "structurally-complete-pending-legal-review",
+      "openChecks": [],
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1709",
+      "municipalityName": "Moerdijk",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.moerdijk.nl",
+      "candidateCount": 6,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.moerdijk.nl/veelgestelde-vragen-verzoek-huisvesting-arbeidsmigranten-in-zevenbergen/",
+        "https://www.moerdijk.nl/bijeenkomst-volkshuisvestingsprogramma-13-mei/",
+        "https://www.moerdijk.nl/bijeenkomst-volkshuisvestingsprogramma-8-mei/",
+        "https://www.moerdijk.nl/bijeenkomst-volkshuisvestingsprogramma-15-mei/",
+        "https://www.moerdijk.nl/bijeenkomst-volkshuisvestingsprogramma-6-mei/",
+        "https://www.moerdijk.nl/arbeidsmigranten/huisvesting/veelgestelde-vragen-over-kansrijke-initiatieven-huisvesting-arbeidsmigranten/"
+      ],
+      "reachableCandidates": [
+        "https://www.moerdijk.nl/veelgestelde-vragen-verzoek-huisvesting-arbeidsmigranten-in-zevenbergen/",
+        "https://www.moerdijk.nl/bijeenkomst-volkshuisvestingsprogramma-13-mei/",
+        "https://www.moerdijk.nl/bijeenkomst-volkshuisvestingsprogramma-8-mei/",
+        "https://www.moerdijk.nl/bijeenkomst-volkshuisvestingsprogramma-15-mei/",
+        "https://www.moerdijk.nl/bijeenkomst-volkshuisvestingsprogramma-6-mei/",
+        "https://www.moerdijk.nl/arbeidsmigranten/huisvesting/veelgestelde-vragen-over-kansrijke-initiatieven-huisvesting-arbeidsmigranten/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 14198,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [],
+      "pages": [
+        {
+          "url": "https://www.moerdijk.nl/veelgestelde-vragen-verzoek-huisvesting-arbeidsmigranten-in-zevenbergen/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.moerdijk.nl/bijeenkomst-volkshuisvestingsprogramma-13-mei/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.moerdijk.nl/bijeenkomst-volkshuisvestingsprogramma-8-mei/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.moerdijk.nl/bijeenkomst-volkshuisvestingsprogramma-15-mei/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.moerdijk.nl/bijeenkomst-volkshuisvestingsprogramma-6-mei/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.moerdijk.nl/arbeidsmigranten/huisvesting/veelgestelde-vragen-over-kansrijke-initiatieven-huisvesting-arbeidsmigranten/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [],
+      "documentLinks": [],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": false,
+        "documents": false,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "applicationRoute",
+        "documents",
+        "exceptions"
+      ],
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1978",
+      "municipalityName": "Molenlanden",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.molenlanden.nl/",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.molenlanden.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.molenlanden.nl/ontwerp-volkshuisvestingsprogramma",
+        "https://www.molenlanden.nl/leegstandwet",
+        "https://www.molenlanden.nl/urgentie-woonruimte"
+      ],
+      "reachableCandidates": [
+        "https://www.molenlanden.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.molenlanden.nl/ontwerp-volkshuisvestingsprogramma",
+        "https://www.molenlanden.nl/leegstandwet",
+        "https://www.molenlanden.nl/urgentie-woonruimte"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3323,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "good-landlord-permit",
+        "vacancy-obligation"
+      ],
+      "pages": [
+        {
+          "url": "https://www.molenlanden.nl/meldpunt-wet-goed-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://webformulieren.molenlanden.nl/?modelname=klacht_ongewenst_verhuurgedrag",
+            "https://www.tabliswonen.nl/contactformulier",
+            "https://www.lwwonen.info/over-ons/organisatie/compliment-of-klacht/formulier-klacht-indienen"
+          ],
+          "documentLinks": [
+            "https://webformulieren.molenlanden.nl/?modelname=klacht_ongewenst_verhuurgedrag",
+            "https://www.tabliswonen.nl/contactformulier",
+            "https://www.lwwonen.info/over-ons/organisatie/compliment-of-klacht/formulier-klacht-indienen"
+          ]
+        },
+        {
+          "url": "https://www.molenlanden.nl/ontwerp-volkshuisvestingsprogramma",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": [
+            "https://www.molenlanden.nl/sites/default/files/2026-07/25.181-ontwerp-volkshuisvestingsprogramma-gemeente-molenlanden-stec-groep.pdf"
+          ]
+        },
+        {
+          "url": "https://www.molenlanden.nl/leegstandwet",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "vacancy-obligation"
+          ],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": true
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR730488/1"
+          ],
+          "applicationLinks": [
+            "https://www.molenlanden.nl/sites/default/files/2021-06/Aanvraagformulier%20verlenging%20tijdelijke%20verhuur%20leegstaande%20woning.pdf"
+          ],
+          "documentLinks": [
+            "https://www.molenlanden.nl/sites/default/files/2021-06/Aanvraag%20vergunning%20tijdelijke%20verhuur%20leegstaande%20woonruimte.pdf",
+            "https://www.molenlanden.nl/sites/default/files/2021-06/Aanvraagformulier%20verlenging%20tijdelijke%20verhuur%20leegstaande%20woning.pdf"
+          ]
+        },
+        {
+          "url": "https://www.molenlanden.nl/urgentie-woonruimte",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": false,
+            "application": true,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://zorg.molenlanden.nl/formulier?formulierid=26"
+          ],
+          "documentLinks": [
+            "https://zorg.molenlanden.nl/formulier?formulierid=26"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [
+        "https://lokaleregelgeving.overheid.nl/CVDR730488/1"
+      ],
+      "applicationLinks": [
+        "https://webformulieren.molenlanden.nl/?modelname=klacht_ongewenst_verhuurgedrag",
+        "https://www.tabliswonen.nl/contactformulier",
+        "https://www.lwwonen.info/over-ons/organisatie/compliment-of-klacht/formulier-klacht-indienen",
+        "https://www.molenlanden.nl/sites/default/files/2021-06/Aanvraagformulier%20verlenging%20tijdelijke%20verhuur%20leegstaande%20woning.pdf",
+        "https://zorg.molenlanden.nl/formulier?formulierid=26"
+      ],
+      "documentLinks": [
+        "https://webformulieren.molenlanden.nl/?modelname=klacht_ongewenst_verhuurgedrag",
+        "https://www.tabliswonen.nl/contactformulier",
+        "https://www.lwwonen.info/over-ons/organisatie/compliment-of-klacht/formulier-klacht-indienen",
+        "https://www.molenlanden.nl/sites/default/files/2026-07/25.181-ontwerp-volkshuisvestingsprogramma-gemeente-molenlanden-stec-groep.pdf",
+        "https://www.molenlanden.nl/sites/default/files/2021-06/Aanvraag%20vergunning%20tijdelijke%20verhuur%20leegstaande%20woonruimte.pdf",
+        "https://www.molenlanden.nl/sites/default/files/2021-06/Aanvraagformulier%20verlenging%20tijdelijke%20verhuur%20leegstaande%20woning.pdf",
+        "https://zorg.molenlanden.nl/formulier?formulierid=26"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "structurally-complete-pending-legal-review",
+      "openChecks": [],
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1955",
+      "municipalityName": "Montferland",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.montferland.info/",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.montferland.info/opvang-en-huisvesting",
+        "https://www.montferland.info/meldpunt-goed-verhuurderschap",
+        "https://www.montferland.info/verhuurder-ann-het-gezellig-om-een-jong-persoon-huis-te-hebben",
+        "https://www.montferland.info/tijdelijke-verhuur-leegstaand-pand"
+      ],
+      "reachableCandidates": [
+        "https://www.montferland.info/opvang-en-huisvesting",
+        "https://www.montferland.info/meldpunt-goed-verhuurderschap",
+        "https://www.montferland.info/verhuurder-ann-het-gezellig-om-een-jong-persoon-huis-te-hebben",
+        "https://www.montferland.info/tijdelijke-verhuur-leegstaand-pand"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3979,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "good-landlord-permit"
+      ],
+      "pages": [
+        {
+          "url": "https://www.montferland.info/opvang-en-huisvesting",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://formulieren.montferland.info/form/contactformulier/eerste-stap-0"
+          ],
+          "documentLinks": [
+            "https://formulieren.montferland.info/form/contactformulier/eerste-stap-0"
+          ]
+        },
+        {
+          "url": "https://www.montferland.info/meldpunt-goed-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://formulieren.montferland.info/form/meldpunt-goed-verhuurderschap/huurt-u-van-een-particuliere-verhuurder-0",
+            "https://formulieren.montferland.info/form/contactformulier/eerste-stap-0"
+          ],
+          "documentLinks": [
+            "https://formulieren.montferland.info/form/meldpunt-goed-verhuurderschap/huurt-u-van-een-particuliere-verhuurder-0",
+            "https://formulieren.montferland.info/form/contactformulier/eerste-stap-0"
+          ]
+        },
+        {
+          "url": "https://www.montferland.info/verhuurder-ann-het-gezellig-om-een-jong-persoon-huis-te-hebben",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://formulieren.montferland.info/form/contactformulier/eerste-stap-0"
+          ],
+          "documentLinks": [
+            "https://formulieren.montferland.info/form/contactformulier/eerste-stap-0"
+          ]
+        },
+        {
+          "url": "https://www.montferland.info/tijdelijke-verhuur-leegstaand-pand",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte",
+            "https://formulieren.montferland.info/form/contactformulier/eerste-stap-0"
+          ],
+          "documentLinks": [
+            "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte",
+            "https://formulieren.montferland.info/form/contactformulier/eerste-stap-0"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://formulieren.montferland.info/form/contactformulier/eerste-stap-0",
+        "https://formulieren.montferland.info/form/meldpunt-goed-verhuurderschap/huurt-u-van-een-particuliere-verhuurder-0",
+        "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte"
+      ],
+      "documentLinks": [
+        "https://formulieren.montferland.info/form/contactformulier/eerste-stap-0",
+        "https://formulieren.montferland.info/form/meldpunt-goed-verhuurderschap/huurt-u-van-een-particuliere-verhuurder-0",
+        "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": false
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "geographicScope"
+      ],
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0335",
+      "municipalityName": "Montfoort",
+      "province": "Utrecht",
+      "registryHit": true,
+      "municipalSite": "https://www.montfoort.nl",
+      "candidateCount": 10,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.montfoort.nl/Alle_onderwerpen/Nieuws/Nieuwsarchief/Nieuwsberichten_2023/College_wil_versneld_huisvesting_mogelijk_maken_voor_jongeren_en_nieuwkomers",
+        "https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur",
+        "https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken",
+        "https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur",
+        "https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning",
+        "https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning",
+        "https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen",
+        "https://www.montfoort.nl/Alle_onderwerpen/Wonen/Huisvestingsvergunning",
+        "https://www.montfoort.nl/Alle_onderwerpen/Wonen/Volkshuisvestingsprogramma",
+        "https://www.montfoort.nl/Alle_onderwerpen/Nieuws/Nieuwsarchief/Nieuwsberichten_2026/Volkshuisvestingsprogramma"
+      ],
+      "reachableCandidates": [
+        "https://www.montfoort.nl/Alle_onderwerpen/Nieuws/Nieuwsarchief/Nieuwsberichten_2023/College_wil_versneld_huisvesting_mogelijk_maken_voor_jongeren_en_nieuwkomers",
+        "https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur",
+        "https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken",
+        "https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur",
+        "https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning",
+        "https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3418,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "withdrawal-merger",
+        "dwelling-formation",
+        "building-split"
+      ],
+      "pages": [
+        {
+          "url": "https://www.montfoort.nl/Alle_onderwerpen/Nieuws/Nieuwsarchief/Nieuwsberichten_2023/College_wil_versneld_huisvesting_mogelijk_maken_voor_jongeren_en_nieuwkomers",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": false,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://mijn.montfoort.nl/aanvragen/567/onbekend/informeren-individuele-klant"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://mijn.montfoort.nl/aanvragen/567/onbekend/informeren-individuele-klant"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "withdrawal-merger"
+          ],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.facebook.com/sharer.php?u=www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken&amp;t=Aanvraagformulier+woning+onttrekken",
+            "https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken&amp;title=Aanvraagformulier+woning+onttrekken&amp;source=Gemeente+Montfoort&amp;summary=",
+            "https://www.twitter.com/share?text=Aanvraagformulier+woning+onttrekken&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken",
+            "https://pinterest.com/pin/create/button/?url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken&amp;description=Aanvraagformulier+woning+onttrekken&amp;media=https://www.montfoort.nl/dsresource?objectid=7dd5c90f-f76a-4b77-baf0-eabc31232cfc",
+            "https://api.whatsapp.com/send?text=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken&amp;title=Aanvraagformulier+woning+onttrekken",
+            "mailto:?body=Beste,%0D%0A%20%0D%0AIk%20zag%20deze%20pagina%20op%20de%20site%20van%20Gemeente%20Montfoort%20en%20wilde%20deze%20met%20je%20delen.%0D%0A%20%0D%0Ahttps://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken&subject=Aanvraagformulier%20woning%20onttrekken%20-%20Gemeente%20Montfoort",
+            "https://mijn.montfoort.nl/aanvragen/567/onbekend/informeren-individuele-klant"
+          ],
+          "documentLinks": [
+            "https://www.facebook.com/sharer.php?u=www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken&amp;t=Aanvraagformulier+woning+onttrekken",
+            "https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken&amp;title=Aanvraagformulier+woning+onttrekken&amp;source=Gemeente+Montfoort&amp;summary=",
+            "https://www.twitter.com/share?text=Aanvraagformulier+woning+onttrekken&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken",
+            "https://pinterest.com/pin/create/button/?url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken&amp;description=Aanvraagformulier+woning+onttrekken&amp;media=https://www.montfoort.nl/dsresource?objectid=7dd5c90f-f76a-4b77-baf0-eabc31232cfc",
+            "https://api.whatsapp.com/send?text=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken&amp;title=Aanvraagformulier+woning+onttrekken",
+            "mailto:?body=Beste,%0D%0A%20%0D%0AIk%20zag%20deze%20pagina%20op%20de%20site%20van%20Gemeente%20Montfoort%20en%20wilde%20deze%20met%20je%20delen.%0D%0A%20%0D%0Ahttps://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken&subject=Aanvraagformulier%20woning%20onttrekken%20-%20Gemeente%20Montfoort"
+          ]
+        },
+        {
+          "url": "https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.facebook.com/sharer.php?u=www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur&amp;t=Aanvraagformulier+tijdelijke+verhuur",
+            "https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur&amp;title=Aanvraagformulier+tijdelijke+verhuur&amp;source=Gemeente+Montfoort&amp;summary=",
+            "https://www.twitter.com/share?text=Aanvraagformulier+tijdelijke+verhuur&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur",
+            "https://pinterest.com/pin/create/button/?url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur&amp;description=Aanvraagformulier+tijdelijke+verhuur&amp;media=https://www.montfoort.nl/dsresource?objectid=7dd5c90f-f76a-4b77-baf0-eabc31232cfc",
+            "https://api.whatsapp.com/send?text=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur&amp;title=Aanvraagformulier+tijdelijke+verhuur",
+            "mailto:?body=Beste,%0D%0A%20%0D%0AIk%20zag%20deze%20pagina%20op%20de%20site%20van%20Gemeente%20Montfoort%20en%20wilde%20deze%20met%20je%20delen.%0D%0A%20%0D%0Ahttps://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur&subject=Aanvraagformulier%20tijdelijke%20verhuur%20-%20Gemeente%20Montfoort",
+            "https://mijn.montfoort.nl/aanvragen/567/onbekend/informeren-individuele-klant"
+          ],
+          "documentLinks": [
+            "https://www.facebook.com/sharer.php?u=www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur&amp;t=Aanvraagformulier+tijdelijke+verhuur",
+            "https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur&amp;title=Aanvraagformulier+tijdelijke+verhuur&amp;source=Gemeente+Montfoort&amp;summary=",
+            "https://www.twitter.com/share?text=Aanvraagformulier+tijdelijke+verhuur&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur",
+            "https://pinterest.com/pin/create/button/?url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur&amp;description=Aanvraagformulier+tijdelijke+verhuur&amp;media=https://www.montfoort.nl/dsresource?objectid=7dd5c90f-f76a-4b77-baf0-eabc31232cfc",
+            "https://api.whatsapp.com/send?text=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur&amp;title=Aanvraagformulier+tijdelijke+verhuur",
+            "mailto:?body=Beste,%0D%0A%20%0D%0AIk%20zag%20deze%20pagina%20op%20de%20site%20van%20Gemeente%20Montfoort%20en%20wilde%20deze%20met%20je%20delen.%0D%0A%20%0D%0Ahttps://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur&subject=Aanvraagformulier%20tijdelijke%20verhuur%20-%20Gemeente%20Montfoort"
+          ]
+        },
+        {
+          "url": "https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "dwelling-formation",
+            "building-split"
+          ],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.facebook.com/sharer.php?u=www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning&amp;t=Aanvraagformulier+splitsingsvergunning",
+            "https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning&amp;title=Aanvraagformulier+splitsingsvergunning&amp;source=Gemeente+Montfoort&amp;summary=",
+            "https://www.twitter.com/share?text=Aanvraagformulier+splitsingsvergunning&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning",
+            "https://pinterest.com/pin/create/button/?url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning&amp;description=Aanvraagformulier+splitsingsvergunning&amp;media=https://www.montfoort.nl/dsresource?objectid=7dd5c90f-f76a-4b77-baf0-eabc31232cfc",
+            "https://api.whatsapp.com/send?text=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning&amp;title=Aanvraagformulier+splitsingsvergunning",
+            "mailto:?body=Beste,%0D%0A%20%0D%0AIk%20zag%20deze%20pagina%20op%20de%20site%20van%20Gemeente%20Montfoort%20en%20wilde%20deze%20met%20je%20delen.%0D%0A%20%0D%0Ahttps://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning&subject=Aanvraagformulier%20splitsingsvergunning%20-%20Gemeente%20Montfoort",
+            "https://mijn.montfoort.nl/aanvragen/567/onbekend/informeren-individuele-klant"
+          ],
+          "documentLinks": [
+            "https://www.facebook.com/sharer.php?u=www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning&amp;t=Aanvraagformulier+splitsingsvergunning",
+            "https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning&amp;title=Aanvraagformulier+splitsingsvergunning&amp;source=Gemeente+Montfoort&amp;summary=",
+            "https://www.twitter.com/share?text=Aanvraagformulier+splitsingsvergunning&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning",
+            "https://pinterest.com/pin/create/button/?url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning&amp;description=Aanvraagformulier+splitsingsvergunning&amp;media=https://www.montfoort.nl/dsresource?objectid=7dd5c90f-f76a-4b77-baf0-eabc31232cfc",
+            "https://api.whatsapp.com/send?text=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning&amp;title=Aanvraagformulier+splitsingsvergunning",
+            "mailto:?body=Beste,%0D%0A%20%0D%0AIk%20zag%20deze%20pagina%20op%20de%20site%20van%20Gemeente%20Montfoort%20en%20wilde%20deze%20met%20je%20delen.%0D%0A%20%0D%0Ahttps://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning&subject=Aanvraagformulier%20splitsingsvergunning%20-%20Gemeente%20Montfoort"
+          ]
+        },
+        {
+          "url": "https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "withdrawal-merger"
+          ],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://mijn.montfoort.nl/aanvragen/567/onbekend/informeren-individuele-klant"
+          ],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://mijn.montfoort.nl/aanvragen/567/onbekend/informeren-individuele-klant",
+        "https://www.facebook.com/sharer.php?u=www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken&amp;t=Aanvraagformulier+woning+onttrekken",
+        "https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken&amp;title=Aanvraagformulier+woning+onttrekken&amp;source=Gemeente+Montfoort&amp;summary=",
+        "https://www.twitter.com/share?text=Aanvraagformulier+woning+onttrekken&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken",
+        "https://pinterest.com/pin/create/button/?url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken&amp;description=Aanvraagformulier+woning+onttrekken&amp;media=https://www.montfoort.nl/dsresource?objectid=7dd5c90f-f76a-4b77-baf0-eabc31232cfc",
+        "https://api.whatsapp.com/send?text=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken&amp;title=Aanvraagformulier+woning+onttrekken",
+        "mailto:?body=Beste,%0D%0A%20%0D%0AIk%20zag%20deze%20pagina%20op%20de%20site%20van%20Gemeente%20Montfoort%20en%20wilde%20deze%20met%20je%20delen.%0D%0A%20%0D%0Ahttps://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken&subject=Aanvraagformulier%20woning%20onttrekken%20-%20Gemeente%20Montfoort",
+        "https://www.facebook.com/sharer.php?u=www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur&amp;t=Aanvraagformulier+tijdelijke+verhuur",
+        "https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur&amp;title=Aanvraagformulier+tijdelijke+verhuur&amp;source=Gemeente+Montfoort&amp;summary=",
+        "https://www.twitter.com/share?text=Aanvraagformulier+tijdelijke+verhuur&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur",
+        "https://pinterest.com/pin/create/button/?url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur&amp;description=Aanvraagformulier+tijdelijke+verhuur&amp;media=https://www.montfoort.nl/dsresource?objectid=7dd5c90f-f76a-4b77-baf0-eabc31232cfc",
+        "https://api.whatsapp.com/send?text=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur&amp;title=Aanvraagformulier+tijdelijke+verhuur",
+        "mailto:?body=Beste,%0D%0A%20%0D%0AIk%20zag%20deze%20pagina%20op%20de%20site%20van%20Gemeente%20Montfoort%20en%20wilde%20deze%20met%20je%20delen.%0D%0A%20%0D%0Ahttps://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur&subject=Aanvraagformulier%20tijdelijke%20verhuur%20-%20Gemeente%20Montfoort",
+        "https://www.facebook.com/sharer.php?u=www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning&amp;t=Aanvraagformulier+splitsingsvergunning",
+        "https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning&amp;title=Aanvraagformulier+splitsingsvergunning&amp;source=Gemeente+Montfoort&amp;summary=",
+        "https://www.twitter.com/share?text=Aanvraagformulier+splitsingsvergunning&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning",
+        "https://pinterest.com/pin/create/button/?url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning&amp;description=Aanvraagformulier+splitsingsvergunning&amp;media=https://www.montfoort.nl/dsresource?objectid=7dd5c90f-f76a-4b77-baf0-eabc31232cfc",
+        "https://api.whatsapp.com/send?text=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning&amp;title=Aanvraagformulier+splitsingsvergunning",
+        "mailto:?body=Beste,%0D%0A%20%0D%0AIk%20zag%20deze%20pagina%20op%20de%20site%20van%20Gemeente%20Montfoort%20en%20wilde%20deze%20met%20je%20delen.%0D%0A%20%0D%0Ahttps://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning&subject=Aanvraagformulier%20splitsingsvergunning%20-%20Gemeente%20Montfoort"
+      ],
+      "documentLinks": [
+        "https://www.facebook.com/sharer.php?u=www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken&amp;t=Aanvraagformulier+woning+onttrekken",
+        "https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken&amp;title=Aanvraagformulier+woning+onttrekken&amp;source=Gemeente+Montfoort&amp;summary=",
+        "https://www.twitter.com/share?text=Aanvraagformulier+woning+onttrekken&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken",
+        "https://pinterest.com/pin/create/button/?url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken&amp;description=Aanvraagformulier+woning+onttrekken&amp;media=https://www.montfoort.nl/dsresource?objectid=7dd5c90f-f76a-4b77-baf0-eabc31232cfc",
+        "https://api.whatsapp.com/send?text=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken&amp;title=Aanvraagformulier+woning+onttrekken",
+        "mailto:?body=Beste,%0D%0A%20%0D%0AIk%20zag%20deze%20pagina%20op%20de%20site%20van%20Gemeente%20Montfoort%20en%20wilde%20deze%20met%20je%20delen.%0D%0A%20%0D%0Ahttps://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Onttrekkingsvergunning/Aanvraagformulier_woning_onttrekken&subject=Aanvraagformulier%20woning%20onttrekken%20-%20Gemeente%20Montfoort",
+        "https://www.facebook.com/sharer.php?u=www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur&amp;t=Aanvraagformulier+tijdelijke+verhuur",
+        "https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur&amp;title=Aanvraagformulier+tijdelijke+verhuur&amp;source=Gemeente+Montfoort&amp;summary=",
+        "https://www.twitter.com/share?text=Aanvraagformulier+tijdelijke+verhuur&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur",
+        "https://pinterest.com/pin/create/button/?url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur&amp;description=Aanvraagformulier+tijdelijke+verhuur&amp;media=https://www.montfoort.nl/dsresource?objectid=7dd5c90f-f76a-4b77-baf0-eabc31232cfc",
+        "https://api.whatsapp.com/send?text=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur&amp;title=Aanvraagformulier+tijdelijke+verhuur",
+        "mailto:?body=Beste,%0D%0A%20%0D%0AIk%20zag%20deze%20pagina%20op%20de%20site%20van%20Gemeente%20Montfoort%20en%20wilde%20deze%20met%20je%20delen.%0D%0A%20%0D%0Ahttps://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Tijdelijke_verhuur/Aanvraagformulier_tijdelijke_verhuur&subject=Aanvraagformulier%20tijdelijke%20verhuur%20-%20Gemeente%20Montfoort",
+        "https://www.facebook.com/sharer.php?u=www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning&amp;t=Aanvraagformulier+splitsingsvergunning",
+        "https://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning&amp;title=Aanvraagformulier+splitsingsvergunning&amp;source=Gemeente+Montfoort&amp;summary=",
+        "https://www.twitter.com/share?text=Aanvraagformulier+splitsingsvergunning&amp;url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning",
+        "https://pinterest.com/pin/create/button/?url=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning&amp;description=Aanvraagformulier+splitsingsvergunning&amp;media=https://www.montfoort.nl/dsresource?objectid=7dd5c90f-f76a-4b77-baf0-eabc31232cfc",
+        "https://api.whatsapp.com/send?text=https://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning&amp;title=Aanvraagformulier+splitsingsvergunning",
+        "mailto:?body=Beste,%0D%0A%20%0D%0AIk%20zag%20deze%20pagina%20op%20de%20site%20van%20Gemeente%20Montfoort%20en%20wilde%20deze%20met%20je%20delen.%0D%0A%20%0D%0Ahttps://www.montfoort.nl/Alle_onderwerpen/Wonen/Bestaande_woningen_aanpassen_woningvoorraad/Woning_splitsen/Aanvraagformulier_splitsingsvergunning&subject=Aanvraagformulier%20splitsingsvergunning%20-%20Gemeente%20Montfoort"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation"
+      ],
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0944",
+      "municipalityName": "Mook en Middelaar",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.mookenmiddelaar.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.mookenmiddelaar.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.mookenmiddelaar.nl/woning-splitsen"
+      ],
+      "reachableCandidates": [
+        "https://www.mookenmiddelaar.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.mookenmiddelaar.nl/woning-splitsen"
+      ],
+      "route": "structured-verification",
+      "durationMs": 9072,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "dwelling-formation"
+      ],
+      "pages": [
+        {
+          "url": "https://www.mookenmiddelaar.nl/tijdelijke-verhuur-leegstaand-pand",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte"
+          ],
+          "documentLinks": [
+            "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte",
+            "https://www.mookenmiddelaar.nl/_flysystem/media/huisregels-gemeentehuis-mook-en-middelaar.pdf"
+          ]
+        },
+        {
+          "url": "https://www.mookenmiddelaar.nl/woning-splitsen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "dwelling-formation"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.omgevingsloket.nl/"
+          ],
+          "documentLinks": [
+            "https://www.mookenmiddelaar.nl/_flysystem/media/huisregels-gemeentehuis-mook-en-middelaar.pdf"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte",
+        "https://www.omgevingsloket.nl/"
+      ],
+      "documentLinks": [
+        "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte",
+        "https://www.mookenmiddelaar.nl/_flysystem/media/huisregels-gemeentehuis-mook-en-middelaar.pdf"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation"
+      ],
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1740",
+      "municipalityName": "Neder-Betuwe",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.nederbetuwe.nl",
+      "candidateCount": 6,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.nederbetuwe.nl/bouwen-en-wonen/kopen-en-huren/verkoop-en-verhuur-groenstroken",
+        "https://www.nederbetuwe.nl/ondernemen/wetten-regels-en-vergunningen/huisvesting-tijdelijke-arbeidskrachten-in-land-en-tuinbouw",
+        "https://www.nederbetuwe.nl/ondernemen/kantoorhuisvesting",
+        "https://www.nederbetuwe.nl/bouwen-en-wonen/kopen-en-huren/verkoop-en-verhuur-groenstroken/veelgestelde-vragen",
+        "https://www.nederbetuwe.nl/bouwen-en-wonen/kopen-en-huren/verkoop-en-verhuur-groenstroken/overzicht-bijkomende-kosten",
+        "https://www.nederbetuwe.nl/een-melding-doen/meldpunt-wet-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.nederbetuwe.nl/bouwen-en-wonen/kopen-en-huren/verkoop-en-verhuur-groenstroken",
+        "https://www.nederbetuwe.nl/ondernemen/wetten-regels-en-vergunningen/huisvesting-tijdelijke-arbeidskrachten-in-land-en-tuinbouw",
+        "https://www.nederbetuwe.nl/ondernemen/kantoorhuisvesting",
+        "https://www.nederbetuwe.nl/bouwen-en-wonen/kopen-en-huren/verkoop-en-verhuur-groenstroken/veelgestelde-vragen",
+        "https://www.nederbetuwe.nl/bouwen-en-wonen/kopen-en-huren/verkoop-en-verhuur-groenstroken/overzicht-bijkomende-kosten",
+        "https://www.nederbetuwe.nl/een-melding-doen/meldpunt-wet-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6825,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "good-landlord-permit"
+      ],
+      "pages": [
+        {
+          "url": "https://www.nederbetuwe.nl/bouwen-en-wonen/kopen-en-huren/verkoop-en-verhuur-groenstroken",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false,
+            "threshold": true
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR718640",
+            "https://lokaleregelgeving.overheid.nl/CVDR734392"
+          ],
+          "applicationLinks": [
+            "https://www.e-inwoner.nl/prod/fr/Neder-Betuwe/NB_aanvraag_aankoop_gemeentegrond/new.digid"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.nederbetuwe.nl/ondernemen/wetten-regels-en-vergunningen/huisvesting-tijdelijke-arbeidskrachten-in-land-en-tuinbouw",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.nederbetuwe.nl/ondernemen/kantoorhuisvesting",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.omgevingsloket.nl/%C2%A0%C2%A0"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.nederbetuwe.nl/bouwen-en-wonen/kopen-en-huren/verkoop-en-verhuur-groenstroken/veelgestelde-vragen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.nederbetuwe.nl/bouwen-en-wonen/kopen-en-huren/verkoop-en-verhuur-groenstroken/overzicht-bijkomende-kosten",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.nederbetuwe.nl/een-melding-doen/meldpunt-wet-goed-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.e-inwoner.nl/prod/fr/Neder-Betuwe/NB_melding_goed_verhuurderschap/new.digid"
+          ],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [
+        "https://lokaleregelgeving.overheid.nl/CVDR718640",
+        "https://lokaleregelgeving.overheid.nl/CVDR734392"
+      ],
+      "applicationLinks": [
+        "https://www.e-inwoner.nl/prod/fr/Neder-Betuwe/NB_aanvraag_aankoop_gemeentegrond/new.digid",
+        "https://www.omgevingsloket.nl/%C2%A0%C2%A0",
+        "https://www.e-inwoner.nl/prod/fr/Neder-Betuwe/NB_melding_goed_verhuurderschap/new.digid"
+      ],
+      "documentLinks": [],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": false,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "documents"
+      ],
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0946",
+      "municipalityName": "Nederweert",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.nederweert.nl",
+      "candidateCount": 9,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.nederweert.nl/vergunningen-tijdelijke-verhuur-op-grond-van-leegstandswet",
+        "https://www.nederweert.nl/pand-verhuren-lees-hier-tips-voor-veilige-verhuur",
+        "https://www.nederweert.nl/ondermijnende-signalen-bij-verhuur-van-panden",
+        "https://www.nederweert.nl/lees-hier-tips-voor-veilige-verhuur",
+        "https://www.nederweert.nl/meldpunt-goed-verhuurderschap",
+        "https://www.nederweert.nl/beleidsnotitie-huisvesting-internationale-werknemers-2025-gemeente-nederweert",
+        "https://www.nederweert.nl/woning-bouwen-of-splitsen-wordt-makkelijker",
+        "https://www.nederweert.nl/beleidsregel-bouwen-van-een-of-twee-woningen-en-woningsplitsing",
+        "https://www.nederweert.nl/huisvesting-internationale-werknemers"
+      ],
+      "reachableCandidates": [
+        "https://www.nederweert.nl/vergunningen-tijdelijke-verhuur-op-grond-van-leegstandswet",
+        "https://www.nederweert.nl/pand-verhuren-lees-hier-tips-voor-veilige-verhuur",
+        "https://www.nederweert.nl/ondermijnende-signalen-bij-verhuur-van-panden",
+        "https://www.nederweert.nl/lees-hier-tips-voor-veilige-verhuur",
+        "https://www.nederweert.nl/meldpunt-goed-verhuurderschap",
+        "https://www.nederweert.nl/beleidsnotitie-huisvesting-internationale-werknemers-2025-gemeente-nederweert"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5771,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "vacancy-obligation",
+        "good-landlord-permit"
+      ],
+      "pages": [
+        {
+          "url": "https://www.nederweert.nl/vergunningen-tijdelijke-verhuur-op-grond-van-leegstandswet",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "vacancy-obligation"
+          ],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte",
+            "http://www.rijksoverheid.nl/documenten-en-publicaties/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte.html"
+          ],
+          "documentLinks": [
+            "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte",
+            "http://www.rijksoverheid.nl/documenten-en-publicaties/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte.html"
+          ]
+        },
+        {
+          "url": "https://www.nederweert.nl/pand-verhuren-lees-hier-tips-voor-veilige-verhuur",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.nederweert.nl/ondermijnende-signalen-bij-verhuur-van-panden",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.nederweert.nl/lees-hier-tips-voor-veilige-verhuur",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.nederweert.nl/meldpunt-goed-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.nederweert.nl/beleidsnotitie-huisvesting-internationale-werknemers-2025-gemeente-nederweert",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte",
+        "http://www.rijksoverheid.nl/documenten-en-publicaties/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte.html"
+      ],
+      "documentLinks": [
+        "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte",
+        "http://www.rijksoverheid.nl/documenten-en-publicaties/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte.html"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation"
+      ],
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0356",
+      "municipalityName": "Nieuwegein",
+      "province": "Utrecht",
+      "registryHit": true,
+      "municipalSite": "https://www.nieuwegein.nl",
+      "candidateCount": 6,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.nieuwegein.nl/wonen-en-leefomgeving/wonen/wet-goed-verhuurderschap",
+        "https://www.nieuwegein.nl/vergunningen/huisvestingsvergunning",
+        "https://www.nieuwegein.nl/vergunningen/leegstandsvergunning",
+        "https://www.nieuwegein.nl/vergunningen/splitsen/omzetten-woonruimte",
+        "https://www.nieuwegein.nl/vergunningen/verhuur",
+        "https://www.nieuwegein.nl/nieuws-projecten/officiele-opening-zeepfabriek-als-tijdelijke-verhuurlocatie-voor-start-ups-en-andere-bedrijven"
+      ],
+      "reachableCandidates": [
+        "https://www.nieuwegein.nl/wonen-en-leefomgeving/wonen/wet-goed-verhuurderschap",
+        "https://www.nieuwegein.nl/vergunningen/huisvestingsvergunning",
+        "https://www.nieuwegein.nl/vergunningen/leegstandsvergunning",
+        "https://www.nieuwegein.nl/vergunningen/splitsen/omzetten-woonruimte",
+        "https://www.nieuwegein.nl/vergunningen/verhuur",
+        "https://www.nieuwegein.nl/nieuws-projecten/officiele-opening-zeepfabriek-als-tijdelijke-verhuurlocatie-voor-start-ups-en-andere-bedrijven"
+      ],
+      "route": "structured-verification",
+      "durationMs": 9822,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "good-landlord-permit",
+        "housing-permit",
+        "vacancy-obligation"
+      ],
+      "pages": [
+        {
+          "url": "https://www.nieuwegein.nl/wonen-en-leefomgeving/wonen/wet-goed-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.nieuwegein.nl/vergunningen/huisvestingsvergunning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "housing-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false,
+            "threshold": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Burgerzaken/Invulbare_pdf/Aanvraagformulier_huisvestingsvergunning_2025.pdf"
+          ],
+          "documentLinks": [
+            "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Burgerzaken/Invulbare_pdf/Verhuurdersverklaring_2025.pdf",
+            "https://docreader.readspeaker.com/docreader/?cid=bpdfe&amp;lang=nl_nl&amp;url=https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Burgerzaken/Invulbare_pdf/Verhuurdersverklaring_2025.pdf",
+            "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Burgerzaken/Invulbare_pdf/Aanvraagformulier_huisvestingsvergunning_2025.pdf"
+          ]
+        },
+        {
+          "url": "https://www.nieuwegein.nl/vergunningen/leegstandsvergunning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "vacancy-obligation"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte",
+            "mailto:omgevingsloket@nieuwegein.nl"
+          ],
+          "documentLinks": [
+            "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte"
+          ]
+        },
+        {
+          "url": "https://www.nieuwegein.nl/vergunningen/splitsen/omzetten-woonruimte",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Vergunningen/Aanvraagformulier_Splitsingsvergunning-2026.pdf",
+            "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Vergunningen/Aanvraagformulier_Vergunning_voor_woningvorming-2026.pdf",
+            "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Vergunningen/Aanvraagformulier_Omzettingsvergunning-2026.pdf",
+            "mailto:omgevingsloket@nieuwegein.nl"
+          ],
+          "documentLinks": [
+            "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Vergunningen/Aanvraagformulier_Splitsingsvergunning-2026.pdf",
+            "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Vergunningen/Aanvraagformulier_Vergunning_voor_woningvorming-2026.pdf",
+            "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Vergunningen/Aanvraagformulier_Omzettingsvergunning-2026.pdf"
+          ]
+        },
+        {
+          "url": "https://www.nieuwegein.nl/vergunningen/verhuur",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false,
+            "threshold": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": [
+            "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Vergunningen/Vergunning_voor_verhuur-bloed_of_aanverwantschap-2026.pdf",
+            "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Vergunningen/Vergunning_voor_tijdelijke_verhuur-2026.pdf",
+            "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Vergunningen/Vergunning_voor_verhuur-winkel-kantoor-bedrijfsruimte-2026.pdf"
+          ]
+        },
+        {
+          "url": "https://www.nieuwegein.nl/nieuws-projecten/officiele-opening-zeepfabriek-als-tijdelijke-verhuurlocatie-voor-start-ups-en-andere-bedrijven",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": false,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Burgerzaken/Invulbare_pdf/Aanvraagformulier_huisvestingsvergunning_2025.pdf",
+        "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte",
+        "mailto:omgevingsloket@nieuwegein.nl",
+        "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Vergunningen/Aanvraagformulier_Splitsingsvergunning-2026.pdf",
+        "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Vergunningen/Aanvraagformulier_Vergunning_voor_woningvorming-2026.pdf",
+        "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Vergunningen/Aanvraagformulier_Omzettingsvergunning-2026.pdf"
+      ],
+      "documentLinks": [
+        "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Burgerzaken/Invulbare_pdf/Verhuurdersverklaring_2025.pdf",
+        "https://docreader.readspeaker.com/docreader/?cid=bpdfe&amp;lang=nl_nl&amp;url=https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Burgerzaken/Invulbare_pdf/Verhuurdersverklaring_2025.pdf",
+        "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Burgerzaken/Invulbare_pdf/Aanvraagformulier_huisvestingsvergunning_2025.pdf",
+        "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte",
+        "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Vergunningen/Aanvraagformulier_Splitsingsvergunning-2026.pdf",
+        "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Vergunningen/Aanvraagformulier_Vergunning_voor_woningvorming-2026.pdf",
+        "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Vergunningen/Aanvraagformulier_Omzettingsvergunning-2026.pdf",
+        "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Vergunningen/Vergunning_voor_verhuur-bloed_of_aanverwantschap-2026.pdf",
+        "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Vergunningen/Vergunning_voor_tijdelijke_verhuur-2026.pdf",
+        "https://www.nieuwegein.nl/fileadmin/gemeente_nieuwegein/Vergunningen/Vergunning_voor_verhuur-winkel-kantoor-bedrijfsruimte-2026.pdf"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "exceptions"
+      ],
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0569",
+      "municipalityName": "Nieuwkoop",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.nieuwkoop.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.nieuwkoop.nl/meldpunt-ongewenst-verhuurgedrag",
+        "https://www.nieuwkoop.nl/vergunning-verleend-voor-huisvesting-144-arbeidsmigranten-aan-de-kruisweg-in-woubrugge"
+      ],
+      "reachableCandidates": [
+        "https://www.nieuwkoop.nl/meldpunt-ongewenst-verhuurgedrag",
+        "https://www.nieuwkoop.nl/vergunning-verleend-voor-huisvesting-144-arbeidsmigranten-aan-de-kruisweg-in-woubrugge"
+      ],
+      "route": "structured-verification",
+      "durationMs": 7828,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [],
+      "pages": [
+        {
+          "url": "https://www.nieuwkoop.nl/meldpunt-ongewenst-verhuurgedrag",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.nieuwkoop.nl/vergunning-verleend-voor-huisvesting-144-arbeidsmigranten-aan-de-kruisweg-in-woubrugge",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [],
+      "documentLinks": [],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": false,
+        "documents": false,
+        "exceptions": false,
+        "geographicScope": false
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "applicationRoute",
+        "documents",
+        "exceptions",
+        "geographicScope"
+      ],
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0267",
+      "municipalityName": "Nijkerk",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.nijkerk.eu",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.nijkerk.eu/leegstand-melden",
+        "https://www.nijkerk.eu/huisvestingsvergunning",
+        "https://www.nijkerk.eu/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.nijkerk.eu/woning-uit-de-woonruimtevoorraad-halen",
+        "https://www.nijkerk.eu/tijdelijke-woonruimte-op-eigen-erf"
+      ],
+      "reachableCandidates": [
+        "https://www.nijkerk.eu/leegstand-melden",
+        "https://www.nijkerk.eu/huisvestingsvergunning",
+        "https://www.nijkerk.eu/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.nijkerk.eu/woning-uit-de-woonruimtevoorraad-halen",
+        "https://www.nijkerk.eu/tijdelijke-woonruimte-op-eigen-erf"
+      ],
+      "route": "structured-verification",
+      "durationMs": 15142,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "vacancy-obligation",
+        "housing-permit"
+      ],
+      "pages": [
+        {
+          "url": "https://www.nijkerk.eu/leegstand-melden",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "vacancy-obligation"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": false,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.nijkerk.eu/huisvestingsvergunning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "housing-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.nijkerk.eu/tijdelijke-verhuur-leegstaand-pand",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": false,
+            "threshold": true
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR752222/2"
+          ],
+          "applicationLinks": [
+            "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte"
+          ],
+          "documentLinks": [
+            "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte"
+          ]
+        },
+        {
+          "url": "https://www.nijkerk.eu/woning-uit-de-woonruimtevoorraad-halen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.nijkerk.eu/tijdelijke-woonruimte-op-eigen-erf",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": false,
+            "threshold": true
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR733971/1"
+          ],
+          "applicationLinks": [
+            "https://omgevingswet.overheid.nl/home"
+          ],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [
+        "https://lokaleregelgeving.overheid.nl/CVDR752222/2",
+        "https://lokaleregelgeving.overheid.nl/CVDR733971/1"
+      ],
+      "applicationLinks": [
+        "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte",
+        "https://omgevingswet.overheid.nl/home"
+      ],
+      "documentLinks": [
+        "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": false
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "geographicScope"
+      ],
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0268",
+      "municipalityName": "Nijmegen",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.nijmegen.nl",
+      "candidateCount": 8,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.nijmegen.nl/diensten/bouwen/water-lozen-of-onttrekken/",
+        "https://www.nijmegen.nl/diensten/wonen/tijdelijke-verhuur-woonruimte/",
+        "https://www.nijmegen.nl/formulieren/water-onttrekken-enof-lozen/",
+        "https://www.nijmegen.nl/diensten/wonen/opkoopbescherming/",
+        "https://www.nijmegen.nl/diensten/wonen/woning-splitsen/",
+        "https://www.nijmegen.nl/diensten/energieloket-energie-besparen/u-huurt-of-verhuurt-een-huurwoning/",
+        "https://www.nijmegen.nl/huis-delen/jan-verhuurt-een-kamer-aan-yasia/",
+        "https://www.nijmegen.nl/diensten/wonen/tijdelijke-verhuur-woning/"
+      ],
+      "reachableCandidates": [
+        "https://www.nijmegen.nl/diensten/bouwen/water-lozen-of-onttrekken/",
+        "https://www.nijmegen.nl/diensten/wonen/tijdelijke-verhuur-woonruimte/",
+        "https://www.nijmegen.nl/formulieren/water-onttrekken-enof-lozen/",
+        "https://www.nijmegen.nl/diensten/wonen/opkoopbescherming/",
+        "https://www.nijmegen.nl/diensten/wonen/woning-splitsen/",
+        "https://www.nijmegen.nl/diensten/energieloket-energie-besparen/u-huurt-of-verhuurt-een-huurwoning/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5432,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "withdrawal-merger",
+        "purchase-protection",
+        "dwelling-formation"
+      ],
+      "pages": [
+        {
+          "url": "https://www.nijmegen.nl/diensten/bouwen/water-lozen-of-onttrekken/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "withdrawal-merger"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.nijmegen.nl/formulieren/water-onttrekken-enof-lozen/",
+            "https://formulier.nijmegen.nl/water-lozen-op-het-riool-melden/startpagina",
+            "https://formulier.nijmegen.nl/water-lozen-op-de-bodem-melden",
+            "https://formulier.nijmegen.nl/contactformulier/startpagina/"
+          ],
+          "documentLinks": [
+            "https://www.nijmegen.nl/formulieren/water-onttrekken-enof-lozen/",
+            "https://formulier.nijmegen.nl/water-lozen-op-het-riool-melden/startpagina",
+            "https://formulier.nijmegen.nl/water-lozen-op-de-bodem-melden",
+            "https://formulier.nijmegen.nl/contactformulier/startpagina/"
+          ]
+        },
+        {
+          "url": "https://www.nijmegen.nl/diensten/wonen/tijdelijke-verhuur-woonruimte/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": false,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://formulier.nijmegen.nl/vergunning-aanvragen-tijdelijk-verhuren-woonruimte/",
+            "https://formulier.nijmegen.nl/contactformulier/startpagina/"
+          ],
+          "documentLinks": [
+            "https://formulier.nijmegen.nl/vergunning-aanvragen-tijdelijk-verhuren-woonruimte/",
+            "https://formulier.nijmegen.nl/contactformulier/startpagina/"
+          ]
+        },
+        {
+          "url": "https://www.nijmegen.nl/formulieren/water-onttrekken-enof-lozen/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "withdrawal-merger"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://formulier.nijmegen.nl/contactformulier/startpagina/"
+          ],
+          "documentLinks": [
+            "https://formulier.nijmegen.nl/contactformulier/startpagina/"
+          ]
+        },
+        {
+          "url": "https://www.nijmegen.nl/diensten/wonen/opkoopbescherming/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "purchase-protection"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false,
+            "threshold": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://formulier.nijmegen.nl/vergunningaanvragenverhurenwoonruimte",
+            "https://formulier.nijmegen.nl/contactformulier/startpagina/"
+          ],
+          "documentLinks": [
+            "https://formulier.nijmegen.nl/vergunningaanvragenverhurenwoonruimte",
+            "https://formulier.nijmegen.nl/contactformulier/startpagina/"
+          ]
+        },
+        {
+          "url": "https://www.nijmegen.nl/diensten/wonen/woning-splitsen/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "dwelling-formation"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false,
+            "threshold": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://omgevingswet.overheid.nl/checken",
+            "https://omgevingswet.overheid.nl/aanvragen",
+            "https://formulier.nijmegen.nl/contactformulier/startpagina/"
+          ],
+          "documentLinks": [
+            "https://formulier.nijmegen.nl/contactformulier/startpagina/"
+          ]
+        },
+        {
+          "url": "https://www.nijmegen.nl/diensten/energieloket-energie-besparen/u-huurt-of-verhuurt-een-huurwoning/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://formulier.nijmegen.nl/contactformulier/startpagina/"
+          ],
+          "documentLinks": [
+            "https://formulier.nijmegen.nl/contactformulier/startpagina/"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://www.nijmegen.nl/formulieren/water-onttrekken-enof-lozen/",
+        "https://formulier.nijmegen.nl/water-lozen-op-het-riool-melden/startpagina",
+        "https://formulier.nijmegen.nl/water-lozen-op-de-bodem-melden",
+        "https://formulier.nijmegen.nl/contactformulier/startpagina/",
+        "https://formulier.nijmegen.nl/vergunning-aanvragen-tijdelijk-verhuren-woonruimte/",
+        "https://formulier.nijmegen.nl/vergunningaanvragenverhurenwoonruimte",
+        "https://omgevingswet.overheid.nl/checken",
+        "https://omgevingswet.overheid.nl/aanvragen"
+      ],
+      "documentLinks": [
+        "https://www.nijmegen.nl/formulieren/water-onttrekken-enof-lozen/",
+        "https://formulier.nijmegen.nl/water-lozen-op-het-riool-melden/startpagina",
+        "https://formulier.nijmegen.nl/water-lozen-op-de-bodem-melden",
+        "https://formulier.nijmegen.nl/contactformulier/startpagina/",
+        "https://formulier.nijmegen.nl/vergunning-aanvragen-tijdelijk-verhuren-woonruimte/",
+        "https://formulier.nijmegen.nl/vergunningaanvragenverhurenwoonruimte"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation"
+      ],
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1930",
+      "municipalityName": "Nissewaard",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.nissewaard.nl/",
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "candidates": [
+        "https://www.nissewaard.nl/wonen-en-leefomgeving/kopen-en-huren/ongewenst-gedrag-verhuurder-melden"
+      ],
+      "reachableCandidates": [
+        "https://www.nissewaard.nl/wonen-en-leefomgeving/kopen-en-huren/ongewenst-gedrag-verhuurder-melden"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3283,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [],
+      "pages": [
+        {
+          "url": "https://www.nissewaard.nl/wonen-en-leefomgeving/kopen-en-huren/ongewenst-gedrag-verhuurder-melden",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [],
+      "documentLinks": [],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": false,
+        "documents": false,
+        "exceptions": false,
+        "geographicScope": false
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "applicationRoute",
+        "documents",
+        "exceptions",
+        "geographicScope"
+      ],
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1970",
+      "municipalityName": "Noardeast-Fryslân",
+      "province": "Fryslân",
+      "registryHit": true,
+      "municipalSite": "https://www.noardeast-fryslan.nl",
+      "candidateCount": 9,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.noardeast-fryslan.nl/interessepeiling-verhuur-bedrijfs-ruimten-enof-kantoren-burdaard",
+        "https://www.noardeast-fryslan.nl/verhuur-grond-en-gebouwen",
+        "https://www.noardeast-fryslan.nl/verkoopverhuur-bekendmaking-gemeentelijke-groenstroken",
+        "https://www.noardeast-fryslan.nl/inspraak-ontwerp-huisvestingsverordening-urgent-woningzoekenden-fryslan-urgentieverordening-gemeente-noardeast-fryslan",
+        "https://www.noardeast-fryslan.nl/tijdelijke-verhuur-bedrijfsruimte-holwerderweg-21-dokkum",
+        "https://www.noardeast-fryslan.nl/bekendmaking-voornemen-tot-tijdelijke-verhuur-bedrijfsruimte",
+        "https://www.noardeast-fryslan.nl/volkshuisvestingsfonds",
+        "https://www.noardeast-fryslan.nl/verhuur-van-te-koop-staande-leegstaande-woning",
+        "https://www.noardeast-fryslan.nl/meldpunt-problemen-met-verhuurder"
+      ],
+      "reachableCandidates": [
+        "https://www.noardeast-fryslan.nl/interessepeiling-verhuur-bedrijfs-ruimten-enof-kantoren-burdaard",
+        "https://www.noardeast-fryslan.nl/verhuur-grond-en-gebouwen",
+        "https://www.noardeast-fryslan.nl/verkoopverhuur-bekendmaking-gemeentelijke-groenstroken",
+        "https://www.noardeast-fryslan.nl/inspraak-ontwerp-huisvestingsverordening-urgent-woningzoekenden-fryslan-urgentieverordening-gemeente-noardeast-fryslan",
+        "https://www.noardeast-fryslan.nl/tijdelijke-verhuur-bedrijfsruimte-holwerderweg-21-dokkum",
+        "https://www.noardeast-fryslan.nl/bekendmaking-voornemen-tot-tijdelijke-verhuur-bedrijfsruimte"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4823,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [],
+      "pages": [
+        {
+          "url": "https://www.noardeast-fryslan.nl/interessepeiling-verhuur-bedrijfs-ruimten-enof-kantoren-burdaard",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.noardeast-fryslan.nl/verhuur-grond-en-gebouwen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": false,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.noardeast-fryslan.nl/verkoopverhuur-bekendmaking-gemeentelijke-groenstroken",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": false,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.noardeast-fryslan.nl/inspraak-ontwerp-huisvestingsverordening-urgent-woningzoekenden-fryslan-urgentieverordening-gemeente-noardeast-fryslan",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": [
+            "https://www.noardeast-fryslan.nl/sites/default/files/2025-03/huisvestingsverordening-urgent-woningzoekenden-fryslan-urgentieverordening-algemeen-20241216_0.pdf"
+          ]
+        },
+        {
+          "url": "https://www.noardeast-fryslan.nl/tijdelijke-verhuur-bedrijfsruimte-holwerderweg-21-dokkum",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.noardeast-fryslan.nl/bekendmaking-voornemen-tot-tijdelijke-verhuur-bedrijfsruimte",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [],
+      "documentLinks": [
+        "https://www.noardeast-fryslan.nl/sites/default/files/2025-03/huisvestingsverordening-urgent-woningzoekenden-fryslan-urgentieverordening-algemeen-20241216_0.pdf"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": false,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "applicationRoute",
+        "exceptions"
+      ],
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1695",
+      "municipalityName": "Noord-Beveland",
+      "province": "Zeeland",
+      "registryHit": true,
+      "municipalSite": "https://www.noord-beveland.nl",
+      "candidateCount": 9,
+      "reachableCount": 6,
+      "candidates": [
+        "https://noord-beveland.nl/verhuur-vakantieonderkomens-en-kamers-aan-derden",
+        "https://noord-beveland.nl/regionale-afspraken-huisvesting-arbeidsmigranten",
+        "https://noord-beveland.nl/woo-besluit-kamerverhuur",
+        "https://noord-beveland.nl/wet-goed-verhuurderschap-en-wet-betaalbare-huur",
+        "https://noord-beveland.nl/verhuur-vakantieonderkomens-en-kamers-aan-derden-0",
+        "https://noord-beveland.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://noord-beveland.nl/wet-toeristische-verhuur",
+        "https://noord-beveland.nl/meldingsformulier-meldpunt-goed-verhuurderschap",
+        "https://noord-beveland.nl/verhuur-accommodatie"
+      ],
+      "reachableCandidates": [
+        "https://www.noord-beveland.nl/verhuur-vakantieonderkomens-en-kamers-aan-derden",
+        "https://www.noord-beveland.nl/regionale-afspraken-huisvesting-arbeidsmigranten",
+        "https://www.noord-beveland.nl/woo-besluit-kamerverhuur",
+        "https://www.noord-beveland.nl/wet-goed-verhuurderschap-en-wet-betaalbare-huur",
+        "https://www.noord-beveland.nl/verhuur-vakantieonderkomens-en-kamers-aan-derden-0",
+        "https://www.noord-beveland.nl/tijdelijke-verhuur-leegstaand-pand"
+      ],
+      "route": "structured-verification",
+      "durationMs": 8514,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "room-rental",
+        "good-landlord-permit"
+      ],
+      "pages": [
+        {
+          "url": "https://www.noord-beveland.nl/verhuur-vakantieonderkomens-en-kamers-aan-derden",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": false,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.noord-beveland.nl/regionale-afspraken-huisvesting-arbeidsmigranten",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": false,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": [
+            "https://www.noord-beveland.nl/sites/noord_beveland/files/2022-02/200622%20Notitie%20regionale%20afspraken%20huisvesting%20arbeidsmigranten%20De%20Bevelanden.pdf"
+          ]
+        },
+        {
+          "url": "https://www.noord-beveland.nl/woo-besluit-kamerverhuur",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "room-rental"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": false,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": [
+            "https://www.noord-beveland.nl/sites/noord_beveland/files/2022-09/Woo-verzoek%20en%20besluit%20kamerverhuur_0.pdf"
+          ]
+        },
+        {
+          "url": "https://www.noord-beveland.nl/wet-goed-verhuurderschap-en-wet-betaalbare-huur",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.noord-beveland.nl/aanvragen-melden-en-regelen",
+            "https://www.noord-beveland.nl/meldingsformulier-meldpunt-goed-verhuurderschap"
+          ],
+          "documentLinks": [
+            "https://www.noord-beveland.nl/meldingsformulier-meldpunt-goed-verhuurderschap"
+          ]
+        },
+        {
+          "url": "https://www.noord-beveland.nl/verhuur-vakantieonderkomens-en-kamers-aan-derden-0",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.noord-beveland.nl/tijdelijke-verhuur-leegstaand-pand",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte"
+          ],
+          "documentLinks": [
+            "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://www.noord-beveland.nl/aanvragen-melden-en-regelen",
+        "https://www.noord-beveland.nl/meldingsformulier-meldpunt-goed-verhuurderschap",
+        "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte"
+      ],
+      "documentLinks": [
+        "https://www.noord-beveland.nl/sites/noord_beveland/files/2022-02/200622%20Notitie%20regionale%20afspraken%20huisvesting%20arbeidsmigranten%20De%20Bevelanden.pdf",
+        "https://www.noord-beveland.nl/sites/noord_beveland/files/2022-09/Woo-verzoek%20en%20besluit%20kamerverhuur_0.pdf",
+        "https://www.noord-beveland.nl/meldingsformulier-meldpunt-goed-verhuurderschap",
+        "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": false
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "exceptions",
+        "geographicScope"
+      ],
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1699",
+      "municipalityName": "Noordenveld",
+      "province": "Drenthe",
+      "registryHit": true,
+      "municipalSite": "https://www.noordenveld.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.noordenveld.nl/klacht-over-verhuurder-melden",
+        "https://www.noordenveld.nl/ongewenst-verhuurgedrag-melden"
+      ],
+      "reachableCandidates": [
+        "https://www.noordenveld.nl/klacht-over-verhuurder-melden",
+        "https://www.noordenveld.nl/ongewenst-verhuurgedrag-melden"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2344,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [],
+      "pages": [
+        {
+          "url": "https://www.noordenveld.nl/klacht-over-verhuurder-melden",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.rijksoverheid.nl/onderwerpen/woning-huren/vraag-en-antwoord/mag-mijn-verhuurder-inkomensgegevens-aanvragen-voor-de-huurverhoging"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.noordenveld.nl/ongewenst-verhuurgedrag-melden",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": false,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://www.rijksoverheid.nl/onderwerpen/woning-huren/vraag-en-antwoord/mag-mijn-verhuurder-inkomensgegevens-aanvragen-voor-de-huurverhoging"
+      ],
+      "documentLinks": [],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": false,
+        "exceptions": false,
+        "geographicScope": false
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "documents",
+        "exceptions",
+        "geographicScope"
+      ],
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0171",
+      "municipalityName": "Noordoostpolder",
+      "province": "Flevoland",
+      "registryHit": true,
+      "municipalSite": "https://www.noordoostpolder.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 2046,
+      "verificationRoute": "deep",
+      "officialPublicationSearch": [
+        {
+          "query": "Noordoostpolder huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Noordoostpolder%20huisvestingsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Noordoostpolder opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Noordoostpolder%20opkoopbescherming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Noordoostpolder kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Noordoostpolder%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Noordoostpolder splitsingsvergunning woningvorming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Noordoostpolder%20splitsingsvergunning%20woningvorming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Noordoostpolder onttrekkingsvergunning woonruimte",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Noordoostpolder%20onttrekkingsvergunning%20woonruimte",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Noordoostpolder leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Noordoostpolder%20leegstandsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Noordoostpolder verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Noordoostpolder%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Noordoostpolder vakantieverhuur short stay",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Noordoostpolder%20vakantieverhuur%20short%20stay",
+          "status": 200,
+          "foundCvdr": []
+        }
+      ],
+      "officialRegulationCandidates": [],
+      "verificationStatus": "manual-legal-source-review-required",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0575",
+      "municipalityName": "Noordwijk",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.noordwijk.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 5527,
+      "verificationRoute": "deep",
+      "officialPublicationSearch": [
+        {
+          "query": "Noordwijk huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Noordwijk%20huisvestingsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Noordwijk opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Noordwijk%20opkoopbescherming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Noordwijk kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Noordwijk%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Noordwijk splitsingsvergunning woningvorming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Noordwijk%20splitsingsvergunning%20woningvorming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Noordwijk onttrekkingsvergunning woonruimte",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Noordwijk%20onttrekkingsvergunning%20woonruimte",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Noordwijk leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Noordwijk%20leegstandsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Noordwijk verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Noordwijk%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Noordwijk vakantieverhuur short stay",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Noordwijk%20vakantieverhuur%20short%20stay",
+          "status": 200,
+          "foundCvdr": []
+        }
+      ],
+      "officialRegulationCandidates": [],
+      "verificationStatus": "manual-legal-source-review-required",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0820",
+      "municipalityName": "Nuenen, Gerwen en Nederwetten",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.topinkomens.nl/voor-wnt-instellingen/wnt-register",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 3188,
+      "verificationRoute": "deep",
+      "officialPublicationSearch": [
+        {
+          "query": "Nuenen, Gerwen en Nederwetten huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Nuenen%2C%20Gerwen%20en%20Nederwetten%20huisvestingsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Nuenen, Gerwen en Nederwetten opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Nuenen%2C%20Gerwen%20en%20Nederwetten%20opkoopbescherming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Nuenen, Gerwen en Nederwetten kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Nuenen%2C%20Gerwen%20en%20Nederwetten%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Nuenen, Gerwen en Nederwetten splitsingsvergunning woningvorming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Nuenen%2C%20Gerwen%20en%20Nederwetten%20splitsingsvergunning%20woningvorming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Nuenen, Gerwen en Nederwetten onttrekkingsvergunning woonruimte",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Nuenen%2C%20Gerwen%20en%20Nederwetten%20onttrekkingsvergunning%20woonruimte",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Nuenen, Gerwen en Nederwetten leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Nuenen%2C%20Gerwen%20en%20Nederwetten%20leegstandsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Nuenen, Gerwen en Nederwetten verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Nuenen%2C%20Gerwen%20en%20Nederwetten%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Nuenen, Gerwen en Nederwetten vakantieverhuur short stay",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Nuenen%2C%20Gerwen%20en%20Nederwetten%20vakantieverhuur%20short%20stay",
+          "status": 200,
+          "foundCvdr": []
+        }
+      ],
+      "officialRegulationCandidates": [],
+      "verificationStatus": "manual-legal-source-review-required",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0302",
+      "municipalityName": "Nunspeet",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.nunspeet.nl",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.nunspeet.nl/bouwen-en-wonen/leegstaande-woonruimte-verhuren",
+        "https://www.nunspeet.nl/iets-melden-bij-de-gemeente/meldpunt-klachten-verhuurders",
+        "https://www.nunspeet.nl/over-nunspeet/plannen-en-projecten/omgevingsprogramma-volkshuisvesting-1-1",
+        "https://www.nunspeet.nl/bestuur-organisatie/werkenbij/teammanager-ruimtelijke-ordening-en-volkshuisvesting"
+      ],
+      "reachableCandidates": [
+        "https://www.nunspeet.nl/bouwen-en-wonen/leegstaande-woonruimte-verhuren",
+        "https://www.nunspeet.nl/iets-melden-bij-de-gemeente/meldpunt-klachten-verhuurders",
+        "https://www.nunspeet.nl/over-nunspeet/plannen-en-projecten/omgevingsprogramma-volkshuisvesting-1-1",
+        "https://www.nunspeet.nl/bestuur-organisatie/werkenbij/teammanager-ruimtelijke-ordening-en-volkshuisvesting"
+      ],
+      "route": "structured-verification",
+      "durationMs": 7925,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [],
+      "pages": [
+        {
+          "url": "https://www.nunspeet.nl/bouwen-en-wonen/leegstaande-woonruimte-verhuren",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.nunspeet.nl/iets-melden-bij-de-gemeente/meldpunt-klachten-verhuurders",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false,
+            "threshold": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.nunspeet.nl/over-nunspeet/plannen-en-projecten/omgevingsprogramma-volkshuisvesting-1-1",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": false,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.nunspeet.nl/bestuur-organisatie/werkenbij/teammanager-ruimtelijke-ordening-en-volkshuisvesting",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true,
+            "threshold": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [],
+      "documentLinks": [],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": false,
+        "documents": false,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "applicationRoute",
+        "documents",
+        "exceptions"
+      ],
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    }
+  ],
+  "summary": {
+    "municipalities": 25,
+    "structuredProcessed": 20,
+    "deepProcessed": 5,
+    "structurallyComplete": 3,
+    "targetedReviewRequired": 17,
+    "officialRegulationCandidateFound": 0,
+    "manualLegalSourceReviewRequired": 5,
+    "networkRequests": 133,
+    "networkErrors": 0,
+    "maxConcurrency": 5
+  },
+  "safety": {
+    "legalApprovalAutomatic": false,
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0,
+    "absenceOfDiscoveryIsNotAbsenceOfRegulation": true
+  }
+}

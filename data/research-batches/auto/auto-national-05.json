@@ -1,0 +1,595 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "auto-national-05",
+  "generatedAt": "2026-08-10T10:08:07.946Z",
+  "selection": {
+    "batchSize": 25,
+    "untouchedOnly": true
+  },
+  "records": [
+    {
+      "municipalityCode": "GM0579",
+      "municipalityName": "Oegstgeest",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.oegstgeest.nl",
+      "candidateCount": 10,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.oegstgeest.nl/inwoners/wonen-verbouwen-en-leefomgeving/wonen/huisvestingsverordening",
+        "https://www.oegstgeest.nl/inwoners/wonen-verbouwen-en-leefomgeving/wonen/huisvestingsverordening/omzetting-naar-onzelfstandige-woonruimte-kamerverhuur",
+        "https://www.oegstgeest.nl/inwoners/wonen-verbouwen-en-leefomgeving/wonen/huisvestingsverordening/onttrekking-samenvoeging-omzetten-zelfstandig-of-woningvorming-woonruimten",
+        "https://www.oegstgeest.nl/inwoners/wonen-verbouwen-en-leefomgeving/wonen/huisvestingsverordening/splitsing-in-appartementsrechten",
+        "https://www.oegstgeest.nl/splitsing-woning-1",
+        "https://www.oegstgeest.nl/onttrekking-organisaties",
+        "https://www.oegstgeest.nl/aanvragen-leegstandvergunning",
+        "https://www.oegstgeest.nl/inwoners/wonen-verbouwen-en-leefomgeving/wonen/leegstandvergunning",
+        "https://www.oegstgeest.nl/meldpunt-ongewenst-verhuurgedrag",
+        "https://www.oegstgeest.nl/inwoners/wonen-verbouwen-en-leefomgeving/meldpunt-ongewenst-verhuurgedrag"
+      ],
+      "reachableCandidates": [
+        "https://www.oegstgeest.nl/inwoners/wonen-verbouwen-en-leefomgeving/wonen/huisvestingsverordening",
+        "https://www.oegstgeest.nl/inwoners/wonen-verbouwen-en-leefomgeving/wonen/huisvestingsverordening/omzetting-naar-onzelfstandige-woonruimte-kamerverhuur",
+        "https://www.oegstgeest.nl/inwoners/wonen-verbouwen-en-leefomgeving/wonen/huisvestingsverordening/onttrekking-samenvoeging-omzetten-zelfstandig-of-woningvorming-woonruimten",
+        "https://www.oegstgeest.nl/inwoners/wonen-verbouwen-en-leefomgeving/wonen/huisvestingsverordening/splitsing-in-appartementsrechten",
+        "https://www.oegstgeest.nl/splitsing-woning-1",
+        "https://www.oegstgeest.nl/onttrekking-organisaties"
+      ],
+      "route": "structured-verification",
+      "durationMs": 13163
+    },
+    {
+      "municipalityCode": "GM0823",
+      "municipalityName": "Oirschot",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.oirschot.nl",
+      "candidateCount": 9,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.oirschot.nl/leegstand-melden",
+        "https://www.oirschot.nl/woning-splitsen",
+        "https://www.oirschot.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.oirschot.nl/woning-uit-de-woonruimtevoorraad-halen",
+        "https://www.oirschot.nl/vergoeding-huisvestingsvoorzieningen-scholen",
+        "https://www.oirschot.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.oirschot.nl/volkshuisvestingsprogramma",
+        "https://www.oirschot.nl/volkshuisvestingsprogramma-vastgesteld",
+        "https://www.oirschot.nl/hospitaverhuur"
+      ],
+      "reachableCandidates": [
+        "https://www.oirschot.nl/leegstand-melden",
+        "https://www.oirschot.nl/woning-splitsen",
+        "https://www.oirschot.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.oirschot.nl/woning-uit-de-woonruimtevoorraad-halen",
+        "https://www.oirschot.nl/vergoeding-huisvestingsvoorzieningen-scholen",
+        "https://www.oirschot.nl/meldpunt-wet-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6370
+    },
+    {
+      "municipalityCode": "GM0824",
+      "municipalityName": "Oisterwijk",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.oisterwijk.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.oisterwijk.nl/wonen-en-verhuizen/meldpunt-goed-verhuurderschap-en-betaalbare-huur",
+        "https://www.oisterwijk.nl/wonen-en-verhuizen/hospitaverhuur"
+      ],
+      "reachableCandidates": [
+        "https://www.oisterwijk.nl/wonen-en-verhuizen/meldpunt-goed-verhuurderschap-en-betaalbare-huur",
+        "https://www.oisterwijk.nl/wonen-en-verhuizen/hospitaverhuur"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4766
+    },
+    {
+      "municipalityCode": "GM1895",
+      "municipalityName": "Oldambt",
+      "province": "Groningen",
+      "registryHit": true,
+      "municipalSite": "https://www.gemeente-oldambt.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 2706
+    },
+    {
+      "municipalityCode": "GM0269",
+      "municipalityName": "Oldebroek",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.oldebroek.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.oldebroek.nl/Inwoners/Wonen_en_leefomgeving/Wet_goed_verhuurderschap",
+        "https://www.oldebroek.nl/Inwoners/Wonen_en_leefomgeving/Leegstaande_woonruimte_verhuren",
+        "https://www.oldebroek.nl/Bestuur_en_organisatie/Actueel/Nieuwsberichten/Juni_2026/Waterschap_Vallei_en_Veluwe_stelt_onttrekkingsverbod_oppervlaktewater_in"
+      ],
+      "reachableCandidates": [
+        "https://www.oldebroek.nl/Inwoners/Wonen_en_leefomgeving/Wet_goed_verhuurderschap",
+        "https://www.oldebroek.nl/Inwoners/Wonen_en_leefomgeving/Leegstaande_woonruimte_verhuren",
+        "https://www.oldebroek.nl/Bestuur_en_organisatie/Actueel/Nieuwsberichten/Juni_2026/Waterschap_Vallei_en_Veluwe_stelt_onttrekkingsverbod_oppervlaktewater_in"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6243
+    },
+    {
+      "municipalityCode": "GM0173",
+      "municipalityName": "Oldenzaal",
+      "province": "Overijssel",
+      "registryHit": true,
+      "municipalSite": "https://www.oldenzaal.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 2275
+    },
+    {
+      "municipalityCode": "GM1773",
+      "municipalityName": "Olst-Wijhe",
+      "province": "Overijssel",
+      "registryHit": true,
+      "municipalSite": "https://www.olst-wijhe.nl",
+      "candidateCount": 12,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.olst-wijhe.nl/prullenbak/producten-en-diensten/producten-en-diensten-1/tijdelijke-verhuur-woningen-vergunning",
+        "https://www.olst-wijhe.nl/tijdelijkeverhuur",
+        "https://www.olst-wijhe.nl/bestuur/besluiten-van-raad-en-college/b-amp-w-besluiten/2024/6/3/b-amp-w-besluiten-28-05-2024/woningsplitsing-kleinschalige-verzoeken-bebouwdekom",
+        "https://www.olst-wijhe.nl/bestuur/besluiten-van-raad-en-college/b-amp-w-besluiten/2025/12/8/b-amp-w-besluiten-02-12-2025/omgevingsvergunning-splitsen-woning-het-anem-18-wijhe-1",
+        "https://www.olst-wijhe.nl/bestuur/besluiten-van-raad-en-college/b-amp-w-besluiten/2025/12/15/b-amp-w-besluiten-09-12-2025/raadsinfobrief-toezegging-nr-57-huisvestingsverordening-1",
+        "https://www.olst-wijhe.nl/bestuur/besluiten-van-raad-en-college/b-amp-w-besluiten/2026/2/9/b-amp-w-besluiten-03-02-2026/aanvraagformulier-huisvesting-onderwijs-1",
+        "https://www.olst-wijhe.nl/bestuur/besluiten-van-raad-en-college/b-amp-w-besluiten/2026/3/8/b-amp-w-besluiten-03-03-2026/extern-bureau-huisvestingsplan-1",
+        "https://www.olst-wijhe.nl/bestuur/besluiten-van-raad-en-college/b-amp-w-besluiten/2026/4/23/b-amp-w-besluiten-21-04-2026/verzoek-splitsen-engeweg-wijhe",
+        "https://www.olst-wijhe.nl/bestuur/besluiten-van-raad-en-college/b-amp-w-besluiten/2026/6/1/b-amp-w-besluiten-26-05-2026/evaluatie-beleid-woningsplitsing",
+        "https://www.olst-wijhe.nl/bestuur/besluiten-van-raad-en-college/b-amp-w-besluiten/2026/6/1/b-amp-w-besluiten-26-05-2026/evaluatie-beleid-woningsplitsing-1",
+        "https://www.olst-wijhe.nl/bestuur/besluiten-van-raad-en-college/b-amp-w-besluiten/2026/6/15/b-amp-w-besluiten-09-06-2026/splitsen-woning-mengerweg-15",
+        "https://www.olst-wijhe.nl/bestuur/openbare-bekendmakingen/alle-bekendmakingen/verordening-voorzieningen-huisvesting-onderwijs-gemeente-olst-wijhe-2020"
+      ],
+      "reachableCandidates": [
+        "https://www.olst-wijhe.nl/tijdelijkeverhuur",
+        "https://www.olst-wijhe.nl/bestuur/besluiten-van-raad-en-college/b-amp-w-besluiten/2024/6/3/b-amp-w-besluiten-28-05-2024/woningsplitsing-kleinschalige-verzoeken-bebouwdekom",
+        "https://www.olst-wijhe.nl/bestuur/besluiten-van-raad-en-college/b-amp-w-besluiten/2025/12/8/b-amp-w-besluiten-02-12-2025/omgevingsvergunning-splitsen-woning-het-anem-18-wijhe-1",
+        "https://www.olst-wijhe.nl/bestuur/besluiten-van-raad-en-college/b-amp-w-besluiten/2025/12/15/b-amp-w-besluiten-09-12-2025/raadsinfobrief-toezegging-nr-57-huisvestingsverordening-1",
+        "https://www.olst-wijhe.nl/bestuur/besluiten-van-raad-en-college/b-amp-w-besluiten/2026/2/9/b-amp-w-besluiten-03-02-2026/aanvraagformulier-huisvesting-onderwijs-1"
+      ],
+      "route": "structured-verification",
+      "durationMs": 9711
+    },
+    {
+      "municipalityCode": "GM0175",
+      "municipalityName": "Ommen",
+      "province": "Overijssel",
+      "registryHit": true,
+      "municipalSite": "https://www.ommen.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.ommen.nl/woningsplitsing/",
+        "https://www.ommen.nl/ongewenst-verhuurgedrag-melden/"
+      ],
+      "reachableCandidates": [
+        "https://www.ommen.nl/woningsplitsing/",
+        "https://www.ommen.nl/ongewenst-verhuurgedrag-melden/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 9947
+    },
+    {
+      "municipalityCode": "GM1586",
+      "municipalityName": "Oost Gelre",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.oostgelre.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 2027
+    },
+    {
+      "municipalityCode": "GM0826",
+      "municipalityName": "Oosterhout",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.oosterhout.nl",
+      "candidateCount": 12,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.oosterhout.nl/huisvesting-en-opvang-aandachtsgroepen",
+        "https://www.oosterhout.nl/bouwen-verbouwen-en-wonen/wonen/woning-splitsen",
+        "https://www.oosterhout.nl/melding-klacht-en-bezwaar/melden-bij-de-gemeente/meldpunt-goed-verhuurderschap",
+        "https://www.oosterhout.nl/bouwen-verbouwen-en-wonen/regels-rondom-bouwen/verhuur-en-verkoop-grond-of-gebouw",
+        "https://www.oosterhout.nl/huisvesting-en-opvang-aandachtsgroepen/opvang-oekrainers",
+        "https://www.oosterhout.nl/huisvesting-en-opvang-aandachtsgroepen/asielopvang",
+        "https://www.oosterhout.nl/huisvesting-en-opvang-aandachtsgroepen/asielopvang/meest-gestelde-vragen-opvang-gr8-hotel",
+        "https://www.oosterhout.nl/huisvesting-en-opvang-aandachtsgroepen/opvang-oekrainers/veel-gestelde-vragen-opvang-oekrainers",
+        "https://www.oosterhout.nl/huisvesting-en-opvang-aandachtsgroepen/arbeidsmigranten",
+        "https://www.oosterhout.nl/huisvesting-en-opvang-aandachtsgroepen/arbeidsmigranten/voor-bedrijven-en-werkgevers",
+        "https://www.oosterhout.nl/huisvesting-en-opvang-aandachtsgroepen/arbeidsmigranten/voor-arbeidsmigranten",
+        "https://www.oosterhout.nl/huisvesting-en-opvang-aandachtsgroepen/arbeidsmigranten/voor-inwoners-van-oosterhout"
+      ],
+      "reachableCandidates": [
+        "https://www.oosterhout.nl/huisvesting-en-opvang-aandachtsgroepen",
+        "https://www.oosterhout.nl/bouwen-verbouwen-en-wonen/wonen/woning-splitsen",
+        "https://www.oosterhout.nl/melding-klacht-en-bezwaar/melden-bij-de-gemeente/meldpunt-goed-verhuurderschap",
+        "https://www.oosterhout.nl/bouwen-verbouwen-en-wonen/regels-rondom-bouwen/verhuur-en-verkoop-grond-of-gebouw",
+        "https://www.oosterhout.nl/huisvesting-en-opvang-aandachtsgroepen/opvang-oekrainers",
+        "https://www.oosterhout.nl/huisvesting-en-opvang-aandachtsgroepen/asielopvang"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5864
+    },
+    {
+      "municipalityCode": "GM0085",
+      "municipalityName": "Ooststellingwerf",
+      "province": "Fryslân",
+      "registryHit": true,
+      "municipalSite": "https://www.ooststellingwerf.nl",
+      "candidateCount": 8,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.ooststellingwerf.nl/tijdelijk-verhuur-leegstaande-woning",
+        "https://www.ooststellingwerf.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.ooststellingwerf.nl/gemeente-ooststellingwerf-onderzoekt-locaties-voor-tijdelijke-woonruimte",
+        "https://www.ooststellingwerf.nl/friese-gemeenten-zorgen-samen-voor-snellere-huisvesting-voor-kwetsbare-groepen",
+        "https://www.ooststellingwerf.nl/voornemen-voortzetten-verhuur-biosintrum-in-oosterwolde",
+        "https://www.ooststellingwerf.nl/voornemen-verhuur-moskampweg-7-oosterwolde",
+        "https://www.ooststellingwerf.nl/verhuur-en-beheer-nanningaweg-46",
+        "https://www.ooststellingwerf.nl/klacht-over-huurwoning-of-verhuurder"
+      ],
+      "reachableCandidates": [
+        "https://www.ooststellingwerf.nl/tijdelijk-verhuur-leegstaande-woning",
+        "https://www.ooststellingwerf.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.ooststellingwerf.nl/gemeente-ooststellingwerf-onderzoekt-locaties-voor-tijdelijke-woonruimte",
+        "https://www.ooststellingwerf.nl/friese-gemeenten-zorgen-samen-voor-snellere-huisvesting-voor-kwetsbare-groepen",
+        "https://www.ooststellingwerf.nl/voornemen-voortzetten-verhuur-biosintrum-in-oosterwolde",
+        "https://www.ooststellingwerf.nl/voornemen-verhuur-moskampweg-7-oosterwolde"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5727
+    },
+    {
+      "municipalityCode": "GM0431",
+      "municipalityName": "Oostzaan",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.oostzaan.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://oostzaan.nl/leefomgeving-en-natuur/bestemmingsplan/woonruimteverdeling",
+        "https://oostzaan.nl/melding-doen/wet-goed-verhuurderschap-wgv"
+      ],
+      "reachableCandidates": [
+        "https://oostzaan.nl/leefomgeving-en-natuur/bestemmingsplan/woonruimteverdeling",
+        "https://oostzaan.nl/melding-doen/wet-goed-verhuurderschap-wgv"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2787
+    },
+    {
+      "municipalityCode": "GM0432",
+      "municipalityName": "Opmeer",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.opmeer.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.opmeer.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.opmeer.nl/woning-splitsen",
+        "https://www.opmeer.nl/meldpunt-wet-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.opmeer.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.opmeer.nl/woning-splitsen",
+        "https://www.opmeer.nl/meldpunt-wet-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5268
+    },
+    {
+      "municipalityCode": "GM0086",
+      "municipalityName": "Opsterland",
+      "province": "Fryslân",
+      "registryHit": true,
+      "municipalSite": "https://www.opsterland.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.opsterland.nl/huisvestingvluchtelingen",
+        "https://www.opsterland.nl/meldpunt-problemen-met-verhuurder"
+      ],
+      "reachableCandidates": [
+        "https://www.opsterland.nl/huisvestingvluchtelingen",
+        "https://www.opsterland.nl/meldpunt-problemen-met-verhuurder"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6023
+    },
+    {
+      "municipalityCode": "GM0828",
+      "municipalityName": "Oss",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.oss.nl",
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "candidates": [
+        "https://www.oss.nl/inwoners/Actueel-2/nieuwsberichten/nieuws/Tijdelijke-huisvesting-Verdihuis-in-klooster-Benedictuslaan.htm"
+      ],
+      "reachableCandidates": [
+        "https://www.oss.nl/inwoners/Actueel-2/nieuwsberichten/nieuws/Tijdelijke-huisvesting-Verdihuis-in-klooster-Benedictuslaan.htm"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2229
+    },
+    {
+      "municipalityCode": "GM1509",
+      "municipalityName": "Oude IJsselstreek",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.oude-ijsselstreek.nl",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.oude-ijsselstreek.nl/sportaccommodaties-verhuur-gemeente",
+        "https://www.oude-ijsselstreek.nl/huisvesting-vluchtelingen",
+        "https://www.oude-ijsselstreek.nl/verduurzamen-voor-verhuurders",
+        "https://www.oude-ijsselstreek.nl/aanvraag-verhuurvergunning",
+        "https://www.oude-ijsselstreek.nl/meldpunt-ongewenst-verhuurgedrag"
+      ],
+      "reachableCandidates": [
+        "https://www.oude-ijsselstreek.nl/sportaccommodaties-verhuur-gemeente",
+        "https://www.oude-ijsselstreek.nl/huisvesting-vluchtelingen",
+        "https://www.oude-ijsselstreek.nl/verduurzamen-voor-verhuurders",
+        "https://www.oude-ijsselstreek.nl/aanvraag-verhuurvergunning",
+        "https://www.oude-ijsselstreek.nl/meldpunt-ongewenst-verhuurgedrag"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6036
+    },
+    {
+      "municipalityCode": "GM0437",
+      "municipalityName": "Ouder-Amstel",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.ouder-amstel.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.ouder-amstel.nl/Home/Over_deze_website/Privacyverklaring_meldpunt_problemen_met_verhuurders",
+        "https://www.ouder-amstel.nl/Home/Wonen_en_leefomgeving/Melding_ongewenst_gedrag_van_verhuurders",
+        "https://www.ouder-amstel.nl/Home/Wonen_en_leefomgeving/Toeristische_verhuur_Regels_in_Ouder_Amstel"
+      ],
+      "reachableCandidates": [
+        "https://www.ouder-amstel.nl/Home/Over_deze_website/Privacyverklaring_meldpunt_problemen_met_verhuurders",
+        "https://www.ouder-amstel.nl/Home/Wonen_en_leefomgeving/Melding_ongewenst_gedrag_van_verhuurders",
+        "https://www.ouder-amstel.nl/Home/Wonen_en_leefomgeving/Toeristische_verhuur_Regels_in_Ouder_Amstel"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2810
+    },
+    {
+      "municipalityCode": "GM0589",
+      "municipalityName": "Oudewater",
+      "province": "Utrecht",
+      "registryHit": true,
+      "municipalSite": "https://www.oudewater.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.oudewater.nl/Formulieren/Melding_ongewenst_gedrag_verhuurder",
+        "https://www.oudewater.nl/Vergunning/Splitsingsvergunning"
+      ],
+      "reachableCandidates": [
+        "https://www.oudewater.nl/Formulieren/Melding_ongewenst_gedrag_verhuurder",
+        "https://www.oudewater.nl/Vergunning/Splitsingsvergunning"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2184
+    },
+    {
+      "municipalityCode": "GM1734",
+      "municipalityName": "Overbetuwe",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.overbetuwe.nl",
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "candidates": [
+        "https://www.overbetuwe.nl/melden-te-hoge-huurprijs-of-problemen-met-verhuurders"
+      ],
+      "reachableCandidates": [
+        "https://www.overbetuwe.nl/melden-te-hoge-huurprijs-of-problemen-met-verhuurders"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3061
+    },
+    {
+      "municipalityCode": "GM0590",
+      "municipalityName": "Papendrecht",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.papendrecht.nl",
+      "candidateCount": 10,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.papendrecht.nl/Openbare_ruimte/Actuele_projecten/Nieuwsbrief_huisvesting_VO_scholen_juli_2025",
+        "https://www.papendrecht.nl/Wonen_en_ver_bouwen/Opkoopbescherming/Aanvraagformulier_verhuurvergunning_opkoopbescherming",
+        "https://www.papendrecht.nl/Vergunningen/Leegstandvergunning/Aanvraagformulier_vergunning_Leegstandwet",
+        "https://www.papendrecht.nl/Openbare_ruimte/Actuele_projecten/Nieuwsbrief_huisvesting_VO_scholen_mei_2025",
+        "https://www.papendrecht.nl/Vluchtelingen/Algemene_informatie_en_aanpak/Langetermijn_visie_huisvesting_en_integratie_vluchtelingen_juli_2024",
+        "https://www.papendrecht.nl/Wonen_en_ver_bouwen/Opkoopbescherming",
+        "https://www.papendrecht.nl/Vergunningen/Verhuren_woning_of_kamers/Aanvraagformulier_APV_kamerverhuur_versie_8_oktober",
+        "https://www.papendrecht.nl/Vergunningen/Leegstandvergunning",
+        "https://www.papendrecht.nl/Vluchtelingen/Seringenstraat/Bestuurlijke_stukken/Bijlage_6_bij_RIB_9_juni_Huisvestingswet_huisvesting_vergunninghouders_pdf_2_329_kB",
+        "https://www.papendrecht.nl/Vluchtelingen/Seringenstraat/Bestuurlijke_stukken/Bijlage_1_bij_collegevoorstel_Huisvestingsplan_Vergunninghouders_Papendrecht_230626_pdf_485_kB"
+      ],
+      "reachableCandidates": [
+        "https://www.papendrecht.nl/Openbare_ruimte/Actuele_projecten/Nieuwsbrief_huisvesting_VO_scholen_juli_2025",
+        "https://www.papendrecht.nl/Wonen_en_ver_bouwen/Opkoopbescherming/Aanvraagformulier_verhuurvergunning_opkoopbescherming",
+        "https://www.papendrecht.nl/Vergunningen/Leegstandvergunning/Aanvraagformulier_vergunning_Leegstandwet",
+        "https://www.papendrecht.nl/Openbare_ruimte/Actuele_projecten/Nieuwsbrief_huisvesting_VO_scholen_mei_2025",
+        "https://www.papendrecht.nl/Vluchtelingen/Algemene_informatie_en_aanpak/Langetermijn_visie_huisvesting_en_integratie_vluchtelingen_juli_2024",
+        "https://www.papendrecht.nl/Wonen_en_ver_bouwen/Opkoopbescherming"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3830
+    },
+    {
+      "municipalityCode": "GM1894",
+      "municipalityName": "Peel en Maas",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.peelenmaas.nl",
+      "candidateCount": 12,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.peelenmaas.nl/bouwen-en-wonen/woningsplitsing-en-kavelsplitsing",
+        "https://www.peelenmaas.nl/melden-bij-de-gemeente/problemen-met-verhuurder-melden",
+        "https://www.peelenmaas.nl/projecten-en-werkzaamheden/projecten/buurtcollege/tijdelijke-huisvesting",
+        "https://www.peelenmaas.nl/projecten-en-werkzaamheden/projecten/buurtcollege/tijdelijke-huisvesting-officieel-in-gebruik",
+        "https://www.peelenmaas.nl/projecten-en-werkzaamheden/projecten/kindcentrum-de-kemp-egchel/tijdelijke-huisvesting",
+        "https://www.peelenmaas.nl/projecten-en-werkzaamheden/projecten/kloostergebouw-koningslust/ad-hoc-partner-in-leegstandsbeheer",
+        "https://www.peelenmaas.nl/projecten-en-werkzaamheden/projecten/panningen-zuid-voetbalvelden/tijdelijke-huisvesting-buurtcollege",
+        "https://www.peelenmaas.nl/projecten-en-werkzaamheden/woningbouwprojecten/de-pas-helden/tijdelijke-huisvesting-buurtcollege",
+        "https://www.peelenmaas.nl/projecten-en-werkzaamheden/woningbouwprojecten/kuukven-baarlo/start-verhuur-36-sociale-huurwoningen",
+        "https://www.peelenmaas.nl/projecten-en-werkzaamheden/woningbouwprojecten/panningen-zuid-wietel/tijdelijke-huisvesting-buurtcollege",
+        "https://www.peelenmaas.nl/vergunning-of-toestemming/arbeidsmigranten-huisvesten",
+        "https://www.peelenmaas.nl/nieuws/2026/07/08/tijdelijke-huisvesting-kc-de-kemp"
+      ],
+      "reachableCandidates": [
+        "https://www.peelenmaas.nl/bouwen-en-wonen/woningsplitsing-en-kavelsplitsing",
+        "https://www.peelenmaas.nl/melden-bij-de-gemeente/problemen-met-verhuurder-melden",
+        "https://www.peelenmaas.nl/projecten-en-werkzaamheden/projecten/buurtcollege/tijdelijke-huisvesting",
+        "https://www.peelenmaas.nl/projecten-en-werkzaamheden/projecten/buurtcollege/tijdelijke-huisvesting-officieel-in-gebruik",
+        "https://www.peelenmaas.nl/projecten-en-werkzaamheden/projecten/kindcentrum-de-kemp-egchel/tijdelijke-huisvesting",
+        "https://www.peelenmaas.nl/projecten-en-werkzaamheden/projecten/kloostergebouw-koningslust/ad-hoc-partner-in-leegstandsbeheer"
+      ],
+      "route": "structured-verification",
+      "durationMs": 7352
+    },
+    {
+      "municipalityCode": "GM0765",
+      "municipalityName": "Pekela",
+      "province": "Groningen",
+      "registryHit": true,
+      "municipalSite": "https://www.pekela.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.pekela.nl/Homepage/Bouwen_en_omgeving/Melding_ongewenst_verhuurgedrag",
+        "https://www.pekela.nl/Homepage/Openbare_Orde_en_Veiligheid/Weet_aan_wie_u_verhuurt"
+      ],
+      "reachableCandidates": [
+        "https://www.pekela.nl/Homepage/Bouwen_en_omgeving/Melding_ongewenst_verhuurgedrag",
+        "https://www.pekela.nl/Homepage/Openbare_Orde_en_Veiligheid/Weet_aan_wie_u_verhuurt"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4892
+    },
+    {
+      "municipalityCode": "GM1926",
+      "municipalityName": "Pijnacker-Nootdorp",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.pijnacker-nootdorp.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 9843
+    },
+    {
+      "municipalityCode": "GM0439",
+      "municipalityName": "Purmerend",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.purmerend.nl",
+      "candidateCount": 12,
+      "reachableCount": 6,
+      "candidates": [
+        "https://purmerend.nl/wonen/wonen-purmerend/huur-en-verhuur/ongewenst-gedrag-van-verhuurders-melden",
+        "https://purmerend.nl/wonen/wonen-purmerend/huur-en-verhuur/pilot-hospitaverhuur-wooncompagnie",
+        "https://purmerend.nl/leven/onderwijs/integraal-huisvestingsplan-onderwijs",
+        "https://purmerend.nl/toeristischeverhuur",
+        "https://purmerend.nl/aanvragen/vergunningen-en-ontheffingen/wonen/vergunning-voor-woningvorming-omzetting-naar-kamers",
+        "https://purmerend.nl/aanvragen/vergunningen-en-ontheffingen/wonen/vergunning-voor-samenvoeging-en-onttrekking-van-woonruimte",
+        "https://purmerend.nl/aanvragen/vergunningen-en-ontheffingen/wonen/leegstandvergunning",
+        "https://purmerend.nl/aanvragen/vergunningen-en-ontheffingen/wonen/huisvestingsvergunning",
+        "https://purmerend.nl/wonen/wonen-purmerend/huur-en-verhuur/woning-huren",
+        "https://purmerend.nl/wonen/wonen-purmerend/huur-en-verhuur/tijdelijke-woningen",
+        "https://purmerend.nl/wonen/wonen-purmerend/huur-en-verhuur/regeling-55-verhuisvoordeel",
+        "https://purmerend.nl/wonen/bouwen-en-verbouwen/algemene-informatie/wijziging-woonruimte"
+      ],
+      "reachableCandidates": [
+        "https://purmerend.nl/wonen/wonen-purmerend/huur-en-verhuur/ongewenst-gedrag-van-verhuurders-melden",
+        "https://purmerend.nl/wonen/wonen-purmerend/huur-en-verhuur/pilot-hospitaverhuur-wooncompagnie",
+        "https://purmerend.nl/leven/onderwijs/integraal-huisvestingsplan-onderwijs",
+        "https://purmerend.nl/toeristischeverhuur",
+        "https://purmerend.nl/aanvragen/vergunningen-en-ontheffingen/wonen/vergunning-voor-woningvorming-omzetting-naar-kamers",
+        "https://purmerend.nl/aanvragen/vergunningen-en-ontheffingen/wonen/vergunning-voor-samenvoeging-en-onttrekking-van-woonruimte"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4636
+    },
+    {
+      "municipalityCode": "GM0273",
+      "municipalityName": "Putten",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.putten.nl",
+      "candidateCount": 7,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.putten.nl/Wonen_en_verhuizen/Huis_kopen_huren_of_verhuren/Wet_goed_verhuurderschap",
+        "https://www.putten.nl/Bouwen_Verbouwen/Omgevingsplan_Bestemmingsplannen/Beleidsnota_s_Beleidsregels/Beleid_huisvesting_arbeidsmigranten/Beleidsregels_huisvesting_arbeidsmigranten_PDF_144kB",
+        "https://www.putten.nl/Wonen_en_verhuizen/Huis_kopen_huren_of_verhuren/Vergunning_tijdelijke_verhuur_woningen",
+        "https://www.putten.nl/Nieuwkomers_Vluchtelingen/Hulp_aan_Oekraine/Hulp_aan_Oekraine_nl/Huisvesting_Oekra_ners_aanmelding_online",
+        "https://www.putten.nl/Nieuws/Minister_Volkshuisvesting_en_Ruimtelijke_Ordening_op_bezoek_in_Putten",
+        "https://www.putten.nl/Bouwen_Verbouwen/Omgevingsplan_Bestemmingsplannen/Beleidsnota_s_Beleidsregels/Beleid_huisvesting_arbeidsmigranten",
+        "https://www.putten.nl/formulieren/Onderwijs_Kinderopvang/Aanvraag_huisvesting_onderwijs"
+      ],
+      "reachableCandidates": [
+        "https://www.putten.nl/Wonen_en_verhuizen/Huis_kopen_huren_of_verhuren/Wet_goed_verhuurderschap",
+        "https://www.putten.nl/Bouwen_Verbouwen/Omgevingsplan_Bestemmingsplannen/Beleidsnota_s_Beleidsregels/Beleid_huisvesting_arbeidsmigranten/Beleidsregels_huisvesting_arbeidsmigranten_PDF_144kB",
+        "https://www.putten.nl/Wonen_en_verhuizen/Huis_kopen_huren_of_verhuren/Vergunning_tijdelijke_verhuur_woningen",
+        "https://www.putten.nl/Nieuwkomers_Vluchtelingen/Hulp_aan_Oekraine/Hulp_aan_Oekraine_nl/Huisvesting_Oekra_ners_aanmelding_online",
+        "https://www.putten.nl/Nieuws/Minister_Volkshuisvesting_en_Ruimtelijke_Ordening_op_bezoek_in_Putten",
+        "https://www.putten.nl/Bouwen_Verbouwen/Omgevingsplan_Bestemmingsplannen/Beleidsnota_s_Beleidsregels/Beleid_huisvesting_arbeidsmigranten"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6629
+    }
+  ],
+  "summary": {
+    "municipalities": 25,
+    "registryHits": 25,
+    "structuredVerification": 21,
+    "deepVerificationNeeded": 4,
+    "manualReviewRequired": 0,
+    "totalCandidates": 120,
+    "networkRequests": 205,
+    "networkErrors": 1,
+    "maxConcurrency": 5
+  },
+  "safety": {
+    "discoveryIsNotLegalVerification": true,
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0
+  }
+}

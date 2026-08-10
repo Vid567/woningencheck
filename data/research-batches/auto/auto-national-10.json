@@ -1,0 +1,321 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "auto-national-10",
+  "generatedAt": "2026-08-10T10:11:53.704Z",
+  "selection": {
+    "batchSize": 25,
+    "untouchedOnly": true
+  },
+  "records": [
+    {
+      "municipalityCode": "GM0297",
+      "municipalityName": "Zaltbommel",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.zaltbommel.nl",
+      "candidateCount": 9,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.zaltbommel.nl/inwoner-en-ondernemer/openbare-ruimte-en-verkeer/projecten/gameren/huisvesting-school-met-de-bijbel-gymzaal-gameren",
+        "https://www.zaltbommel.nl/inwoner-en-ondernemer/omgevingswet/wegwijzer/vergunning-kamerverhuur",
+        "https://www.zaltbommel.nl/inwoner-en-ondernemer/omgevingswet/wegwijzer/vergunning-woningsplitsing",
+        "https://www.zaltbommel.nl/inwoner-en-ondernemer/openbare-ruimte-en-verkeer/projecten/brakel/huisvesting-scholen-en-gymzaal-brakel",
+        "https://www.zaltbommel.nl/inwoner-en-ondernemer/wonen-en-leven/kamerverhuur-in-uw-eigen-huis",
+        "https://www.zaltbommel.nl/inwoner-en-ondernemer/wonen-en-leven/leegstandwet",
+        "https://www.zaltbommel.nl/inwoner-en-ondernemer/wonen-en-leven/internationale-werknemers/geconcentreerde-huisvesting",
+        "https://www.zaltbommel.nl/inwoner-en-ondernemer/wonen-en-leven/internationale-werknemers/huisvesting-internationale-werknemers-in-woningen",
+        "https://www.zaltbommel.nl/inwoner-en-ondernemer/wonen-en-leven/internationale-werknemers/huisvesting-internationale-werknemers-op-het-terrein-van-de-werkgever"
+      ],
+      "reachableCandidates": [
+        "https://www.zaltbommel.nl/inwoner-en-ondernemer/openbare-ruimte-en-verkeer/projecten/gameren/huisvesting-school-met-de-bijbel-gymzaal-gameren",
+        "https://www.zaltbommel.nl/inwoner-en-ondernemer/omgevingswet/wegwijzer/vergunning-kamerverhuur",
+        "https://www.zaltbommel.nl/inwoner-en-ondernemer/omgevingswet/wegwijzer/vergunning-woningsplitsing",
+        "https://www.zaltbommel.nl/inwoner-en-ondernemer/openbare-ruimte-en-verkeer/projecten/brakel/huisvesting-scholen-en-gymzaal-brakel",
+        "https://www.zaltbommel.nl/inwoner-en-ondernemer/wonen-en-leven/kamerverhuur-in-uw-eigen-huis",
+        "https://www.zaltbommel.nl/inwoner-en-ondernemer/wonen-en-leven/leegstandwet"
+      ],
+      "route": "structured-verification",
+      "durationMs": 8460
+    },
+    {
+      "municipalityCode": "GM0473",
+      "municipalityName": "Zandvoort",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.zandvoort.nl",
+      "candidateCount": 7,
+      "reachableCount": 6,
+      "candidates": [
+        "https://zandvoort.nl/volkshuisvestingsprogramma",
+        "https://zandvoort.nl/regels-toeristische-verhuur",
+        "https://zandvoort.nl/toeristische-verhuur-registreren",
+        "https://zandvoort.nl/verhuurvergunning-opkoopbescherming",
+        "https://zandvoort.nl/meldpunt-problemen-met-verhuurder",
+        "https://zandvoort.nl/regels-hospitaverhuur",
+        "https://zandvoort.nl/vergunning-tijdelijke-verhuur-bij-leegstand"
+      ],
+      "reachableCandidates": [
+        "https://zandvoort.nl/volkshuisvestingsprogramma",
+        "https://zandvoort.nl/regels-toeristische-verhuur",
+        "https://zandvoort.nl/toeristische-verhuur-registreren",
+        "https://zandvoort.nl/verhuurvergunning-opkoopbescherming",
+        "https://zandvoort.nl/meldpunt-problemen-met-verhuurder",
+        "https://zandvoort.nl/regels-hospitaverhuur"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6356
+    },
+    {
+      "municipalityCode": "GM0050",
+      "municipalityName": "Zeewolde",
+      "province": "Flevoland",
+      "registryHit": true,
+      "municipalSite": "https://www.zeewolde.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.zeewolde.nl/ongewenst-verhuurgedrag-melden",
+        "https://www.zeewolde.nl/tijdelijke-huisvesting-arbeidsmigranten"
+      ],
+      "reachableCandidates": [
+        "https://www.zeewolde.nl/ongewenst-verhuurgedrag-melden",
+        "https://www.zeewolde.nl/tijdelijke-huisvesting-arbeidsmigranten"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3706
+    },
+    {
+      "municipalityCode": "GM0355",
+      "municipalityName": "Zeist",
+      "province": "Utrecht",
+      "registryHit": true,
+      "municipalSite": "https://www.zeist.nl",
+      "candidateCount": 12,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.zeist.nl/wonen/huisvesting-en-opvang",
+        "https://www.zeist.nl/projecten-en-participatie/projectenoverzicht/volkshuisvestingsprogramma",
+        "https://www.zeist.nl/wonen/bouwen-en-verbouwen/splitsen-en-omzetten-van-woningen",
+        "https://www.zeist.nl/wonen/verhuizen/huisvestingsvergunning",
+        "https://www.zeist.nl/wonen/huren-of-kopen/leegstandsvergunning",
+        "https://www.zeist.nl/wonen/huren-of-kopen/opkoopbescherming",
+        "https://www.zeist.nl/wonen/huren-of-kopen/meldpunt-goed-verhuurderschap",
+        "https://www.zeist.nl/wonen/huisvesting-en-opvang/woonurgentie",
+        "https://www.zeist.nl/wonen/huisvesting-en-opvang/oekraiense-vluchtelingen",
+        "https://www.zeist.nl/wonen/huisvesting-en-opvang/doelgroepenverordening",
+        "https://www.zeist.nl/wonen/huisvesting-en-opvang/kamp-van-zeist",
+        "https://www.zeist.nl/wonen/huisvesting-en-opvang/wooncoach"
+      ],
+      "reachableCandidates": [
+        "https://www.zeist.nl/wonen/huisvesting-en-opvang",
+        "https://www.zeist.nl/projecten-en-participatie/projectenoverzicht/volkshuisvestingsprogramma",
+        "https://www.zeist.nl/wonen/bouwen-en-verbouwen/splitsen-en-omzetten-van-woningen",
+        "https://www.zeist.nl/wonen/verhuizen/huisvestingsvergunning",
+        "https://www.zeist.nl/wonen/huren-of-kopen/leegstandsvergunning",
+        "https://www.zeist.nl/wonen/huren-of-kopen/opkoopbescherming"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4205
+    },
+    {
+      "municipalityCode": "GM0299",
+      "municipalityName": "Zevenaar",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.zevenaar.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 2598
+    },
+    {
+      "municipalityCode": "GM0637",
+      "municipalityName": "Zoetermeer",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.zoetermeer.nl",
+      "candidateCount": 8,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.zoetermeer.nl/verkoop-of-verhuur-vastgoed-gemeente",
+        "https://www.zoetermeer.nl/meldpunt-ongewenst-verhuurderschap",
+        "https://www.zoetermeer.nl/verdeling-woonruimte",
+        "https://www.zoetermeer.nl/huisvestingsvergunning",
+        "https://www.zoetermeer.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.zoetermeer.nl/tijdelijke-verhuur-te-koop-staande-woning",
+        "https://www.zoetermeer.nl/wijzigen-gebruik-woonruimte",
+        "https://www.zoetermeer.nl/splitsingsvergunning"
+      ],
+      "reachableCandidates": [
+        "https://www.zoetermeer.nl/verkoop-of-verhuur-vastgoed-gemeente",
+        "https://www.zoetermeer.nl/meldpunt-ongewenst-verhuurderschap",
+        "https://www.zoetermeer.nl/verdeling-woonruimte",
+        "https://www.zoetermeer.nl/huisvestingsvergunning",
+        "https://www.zoetermeer.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.zoetermeer.nl/tijdelijke-verhuur-te-koop-staande-woning"
+      ],
+      "route": "structured-verification",
+      "durationMs": 12314
+    },
+    {
+      "municipalityCode": "GM0638",
+      "municipalityName": "Zoeterwoude",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.zoeterwoude.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.zoeterwoude.nl/inwoners/actueel/hulp-voor-oekraine/aanbieden-van-woonruimte-voor-vluchtelingen-uit-oekraine",
+        "https://www.zoeterwoude.nl/meldpunt-goed-verhuurderschap",
+        "https://www.zoeterwoude.nl/inwoners/wonen/meldpunt-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.zoeterwoude.nl/inwoners/actueel/hulp-voor-oekraine/aanbieden-van-woonruimte-voor-vluchtelingen-uit-oekraine",
+        "https://www.zoeterwoude.nl/meldpunt-goed-verhuurderschap",
+        "https://www.zoeterwoude.nl/inwoners/wonen/meldpunt-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5690
+    },
+    {
+      "municipalityCode": "GM1892",
+      "municipalityName": "Zuidplas",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.zuidplas.nl",
+      "candidateCount": 7,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.zuidplas.nl/integraal-huisvestingsplan-onderwijs-ihp",
+        "https://www.zuidplas.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.zuidplas.nl/woning-uit-de-woonruimtevoorraad-halen",
+        "https://www.zuidplas.nl/huisvestingsvergunning",
+        "https://www.zuidplas.nl/melding-ongewenst-verhuurgedrag",
+        "https://www.zuidplas.nl/meldpunt-voor-particuliere-huurders-tegen-ongewenst-verhuurgedrag",
+        "https://www.zuidplas.nl/inspraak-ontwerp-huisvestingsverordening-gemeente-zuidplas-2025"
+      ],
+      "reachableCandidates": [
+        "https://www.zuidplas.nl/integraal-huisvestingsplan-onderwijs-ihp",
+        "https://www.zuidplas.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.zuidplas.nl/woning-uit-de-woonruimtevoorraad-halen",
+        "https://www.zuidplas.nl/huisvestingsvergunning",
+        "https://www.zuidplas.nl/melding-ongewenst-verhuurgedrag",
+        "https://www.zuidplas.nl/meldpunt-voor-particuliere-huurders-tegen-ongewenst-verhuurgedrag"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4115
+    },
+    {
+      "municipalityCode": "GM0879",
+      "municipalityName": "Zundert",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.zundert.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.zundert.nl/belasting-en-vergunningen/leegstandwet",
+        "https://www.zundert.nl/wonen/wet-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.zundert.nl/belasting-en-vergunningen/leegstandwet",
+        "https://www.zundert.nl/wonen/wet-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4322
+    },
+    {
+      "municipalityCode": "GM0301",
+      "municipalityName": "Zutphen",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.zutphen.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 4389
+    },
+    {
+      "municipalityCode": "GM1896",
+      "municipalityName": "Zwartewaterland",
+      "province": "Overijssel",
+      "registryHit": true,
+      "municipalSite": "https://www.zwartewaterland.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.zwartewaterland.nl/huisvesting-arbeidsmigranten",
+        "https://www.zwartewaterland.nl/meldpunt-goed-verhuurderschap",
+        "https://www.zwartewaterland.nl/verduurzamen-particuliere-verhuurders"
+      ],
+      "reachableCandidates": [
+        "https://www.zwartewaterland.nl/huisvesting-arbeidsmigranten",
+        "https://www.zwartewaterland.nl/meldpunt-goed-verhuurderschap",
+        "https://www.zwartewaterland.nl/verduurzamen-particuliere-verhuurders"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6713
+    },
+    {
+      "municipalityCode": "GM0642",
+      "municipalityName": "Zwijndrecht",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.zwijndrecht.nl",
+      "candidateCount": 6,
+      "reachableCount": 6,
+      "candidates": [
+        "https://zwijndrecht.nl/Alle_onderwerpen/Melden_bij_de_gemeente/Meldpunt_Ongewenst_Verhuurgedrag",
+        "https://zwijndrecht.nl/Alle_onderwerpen/Wonen/Opkoopbescherming",
+        "https://zwijndrecht.nl/Alle_onderwerpen/Ondernemen/Bedrijfshuisvesting/Meldingen_bedrijfsomgeving",
+        "https://zwijndrecht.nl/Alle_onderwerpen/Ondernemen/Bedrijfshuisvesting/Bedrijventerreinen",
+        "https://zwijndrecht.nl/Alle_onderwerpen/Wonen/Leegstaande_woonruimte_verhuren",
+        "https://zwijndrecht.nl/Alle_onderwerpen/Ondernemen/Bedrijfshuisvesting"
+      ],
+      "reachableCandidates": [
+        "https://zwijndrecht.nl/Alle_onderwerpen/Melden_bij_de_gemeente/Meldpunt_Ongewenst_Verhuurgedrag",
+        "https://zwijndrecht.nl/Alle_onderwerpen/Wonen/Opkoopbescherming",
+        "https://zwijndrecht.nl/Alle_onderwerpen/Ondernemen/Bedrijfshuisvesting/Meldingen_bedrijfsomgeving",
+        "https://zwijndrecht.nl/Alle_onderwerpen/Ondernemen/Bedrijfshuisvesting/Bedrijventerreinen",
+        "https://zwijndrecht.nl/Alle_onderwerpen/Wonen/Leegstaande_woonruimte_verhuren",
+        "https://zwijndrecht.nl/Alle_onderwerpen/Ondernemen/Bedrijfshuisvesting"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6439
+    },
+    {
+      "municipalityCode": "GM0193",
+      "municipalityName": "Zwolle",
+      "province": "Overijssel",
+      "registryHit": true,
+      "municipalSite": "https://www.zwolle.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 1901
+    }
+  ],
+  "summary": {
+    "municipalities": 13,
+    "registryHits": 13,
+    "structuredVerification": 10,
+    "deepVerificationNeeded": 3,
+    "manualReviewRequired": 0,
+    "totalCandidates": 59,
+    "networkRequests": 106,
+    "networkErrors": 0,
+    "maxConcurrency": 5
+  },
+  "safety": {
+    "discoveryIsNotLegalVerification": true,
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0
+  }
+}

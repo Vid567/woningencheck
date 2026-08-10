@@ -1,0 +1,643 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "auto-national-08",
+  "generatedAt": "2026-08-10T10:10:41.677Z",
+  "selection": {
+    "batchSize": 25,
+    "untouchedOnly": true
+  },
+  "records": [
+    {
+      "municipalityCode": "GM0451",
+      "municipalityName": "Uithoorn",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.uithoorn.nl",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.uithoorn.nl/Home/wonen/Huren_en_kopen_in_Uithoorn/resultaten_vragenlijst_woonruimteverdeling_15_gemeenten",
+        "https://www.uithoorn.nl/Home/Over_deze_website/Privacyverklaring/Privacyverklaring_meldpunt_problemen_met_verhuurders",
+        "https://www.uithoorn.nl/Home/wonen/Vergunning_en_van_de_woonruimtevoorraad",
+        "https://www.uithoorn.nl/Home/Projecten/Huisvesting_arbeidsmigranten_Dwarsweg_18",
+        "https://www.uithoorn.nl/Home/wonen/Melding_ongewenst_gedrag_van_verhuurders"
+      ],
+      "reachableCandidates": [
+        "https://www.uithoorn.nl/Home/wonen/Huren_en_kopen_in_Uithoorn/resultaten_vragenlijst_woonruimteverdeling_15_gemeenten",
+        "https://www.uithoorn.nl/Home/Over_deze_website/Privacyverklaring/Privacyverklaring_meldpunt_problemen_met_verhuurders",
+        "https://www.uithoorn.nl/Home/wonen/Vergunning_en_van_de_woonruimtevoorraad",
+        "https://www.uithoorn.nl/Home/Projecten/Huisvesting_arbeidsmigranten_Dwarsweg_18",
+        "https://www.uithoorn.nl/Home/wonen/Melding_ongewenst_gedrag_van_verhuurders"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2709
+    },
+    {
+      "municipalityCode": "GM0184",
+      "municipalityName": "Urk",
+      "province": "Flevoland",
+      "registryHit": true,
+      "municipalSite": "https://www.urk.nl/",
+      "candidateCount": 7,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.urk.nl/vergoeding-huisvestingsvoorzieningen-scholen",
+        "https://www.urk.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.urk.nl/woning-splitsen",
+        "https://www.urk.nl/voorgenomen-gronduitgifte-in-verhuur-van-perceel-grond-aan-de-straatweg-18",
+        "https://www.urk.nl/ter-inzagelegging-ontwerpbeleidsregels-woningsplitsing-woningomzetting-en-woninguitbreiding",
+        "https://www.urk.nl/meldpunt-problemen-met-verhuurder",
+        "https://www.urk.nl/kamerverhuur-vergunningen-en-controles"
+      ],
+      "reachableCandidates": [
+        "https://www.urk.nl/vergoeding-huisvestingsvoorzieningen-scholen",
+        "https://www.urk.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.urk.nl/woning-splitsen",
+        "https://www.urk.nl/voorgenomen-gronduitgifte-in-verhuur-van-perceel-grond-aan-de-straatweg-18",
+        "https://www.urk.nl/ter-inzagelegging-ontwerpbeleidsregels-woningsplitsing-woningomzetting-en-woninguitbreiding",
+        "https://www.urk.nl/meldpunt-problemen-met-verhuurder"
+      ],
+      "route": "structured-verification",
+      "durationMs": 10112
+    },
+    {
+      "municipalityCode": "GM0344",
+      "municipalityName": "Utrecht",
+      "province": "Utrecht",
+      "registryHit": true,
+      "municipalSite": "https://www.utrecht.nl",
+      "candidateCount": 9,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.utrecht.nl/wonen-en-leven/wonen/gebruik-woonruimte-veranderen",
+        "https://www.utrecht.nl/wonen-en-leven/wonen/gebruik-woonruimte-veranderen/woning-onderverhuren",
+        "https://www.utrecht.nl/wonen-en-leven/wonen/gebruik-woonruimte-veranderen/kamers-onderverhuren",
+        "https://www.utrecht.nl/wonen-en-leven/vrije-tijd/sport/sportlocaties/sportzalen-en-gymzalen-huren/algemene-voorwaarden-verhuur-sportlocaties-en-ruimten-in-buurtcentra",
+        "https://www.utrecht.nl/wonen-en-leven/wonen/uw-huurwoning/hulp-bij-problemen-met-huur/verhuuradressen-die-niet-in-orde-zijn",
+        "https://www.utrecht.nl/wonen-en-leven/wonen/gebruik-woonruimte-veranderen/woningdelen",
+        "https://www.utrecht.nl/wonen-en-leven/wonen/gebruik-woonruimte-veranderen/geluidsplan-bij-woning-splitsen",
+        "https://www.utrecht.nl/wonen-en-leven/vrije-tijd/sport/sportlocaties/sportzalen-en-gymzalen-huren/algemene-voorwaarden-verhuur-sportlocaties-en-ruimten-in-buurtcentra/gebruiksvoorwaarden-sportlocaties-en-ruimten-buurtcentra",
+        "https://www.utrecht.nl/nieuws/nieuwsbericht-gemeente-utrecht/prijsgrens-opkoopbescherming-stijgt-naar-eur686000"
+      ],
+      "reachableCandidates": [
+        "https://www.utrecht.nl/wonen-en-leven/wonen/gebruik-woonruimte-veranderen",
+        "https://www.utrecht.nl/wonen-en-leven/wonen/gebruik-woonruimte-veranderen/woning-onderverhuren",
+        "https://www.utrecht.nl/wonen-en-leven/wonen/gebruik-woonruimte-veranderen/kamers-onderverhuren",
+        "https://www.utrecht.nl/wonen-en-leven/vrije-tijd/sport/sportlocaties/sportzalen-en-gymzalen-huren/algemene-voorwaarden-verhuur-sportlocaties-en-ruimten-in-buurtcentra",
+        "https://www.utrecht.nl/wonen-en-leven/wonen/uw-huurwoning/hulp-bij-problemen-met-huur/verhuuradressen-die-niet-in-orde-zijn",
+        "https://www.utrecht.nl/wonen-en-leven/wonen/gebruik-woonruimte-veranderen/woningdelen"
+      ],
+      "route": "structured-verification",
+      "durationMs": 17059
+    },
+    {
+      "municipalityCode": "GM1581",
+      "municipalityName": "Utrechtse Heuvelrug",
+      "province": "Utrecht",
+      "registryHit": true,
+      "municipalSite": "https://www.utrecht.nl",
+      "candidateCount": 9,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.utrecht.nl/wonen-en-leven/wonen/gebruik-woonruimte-veranderen",
+        "https://www.utrecht.nl/wonen-en-leven/wonen/gebruik-woonruimte-veranderen/woning-onderverhuren",
+        "https://www.utrecht.nl/wonen-en-leven/wonen/gebruik-woonruimte-veranderen/kamers-onderverhuren",
+        "https://www.utrecht.nl/wonen-en-leven/vrije-tijd/sport/sportlocaties/sportzalen-en-gymzalen-huren/algemene-voorwaarden-verhuur-sportlocaties-en-ruimten-in-buurtcentra",
+        "https://www.utrecht.nl/wonen-en-leven/wonen/uw-huurwoning/hulp-bij-problemen-met-huur/verhuuradressen-die-niet-in-orde-zijn",
+        "https://www.utrecht.nl/wonen-en-leven/wonen/gebruik-woonruimte-veranderen/woningdelen",
+        "https://www.utrecht.nl/wonen-en-leven/wonen/gebruik-woonruimte-veranderen/geluidsplan-bij-woning-splitsen",
+        "https://www.utrecht.nl/wonen-en-leven/vrije-tijd/sport/sportlocaties/sportzalen-en-gymzalen-huren/algemene-voorwaarden-verhuur-sportlocaties-en-ruimten-in-buurtcentra/gebruiksvoorwaarden-sportlocaties-en-ruimten-buurtcentra",
+        "https://www.utrecht.nl/nieuws/nieuwsbericht-gemeente-utrecht/prijsgrens-opkoopbescherming-stijgt-naar-eur686000"
+      ],
+      "reachableCandidates": [
+        "https://www.utrecht.nl/wonen-en-leven/wonen/gebruik-woonruimte-veranderen",
+        "https://www.utrecht.nl/wonen-en-leven/wonen/gebruik-woonruimte-veranderen/woning-onderverhuren",
+        "https://www.utrecht.nl/wonen-en-leven/wonen/gebruik-woonruimte-veranderen/kamers-onderverhuren",
+        "https://www.utrecht.nl/wonen-en-leven/vrije-tijd/sport/sportlocaties/sportzalen-en-gymzalen-huren/algemene-voorwaarden-verhuur-sportlocaties-en-ruimten-in-buurtcentra",
+        "https://www.utrecht.nl/wonen-en-leven/wonen/uw-huurwoning/hulp-bij-problemen-met-huur/verhuuradressen-die-niet-in-orde-zijn",
+        "https://www.utrecht.nl/wonen-en-leven/wonen/gebruik-woonruimte-veranderen/woningdelen"
+      ],
+      "route": "structured-verification",
+      "durationMs": 16977
+    },
+    {
+      "municipalityCode": "GM0981",
+      "municipalityName": "Vaals",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.vaals.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.vaals.nl/inwoners/melden/leegstand-melden",
+        "https://www.vaals.nl/inwoners/melden/meldpunt-goed-verhuurderschap",
+        "https://www.vaals.nl/actueel/2024/02/03/meldpunt-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.vaals.nl/inwoners/melden/leegstand-melden",
+        "https://www.vaals.nl/inwoners/melden/meldpunt-goed-verhuurderschap",
+        "https://www.vaals.nl/actueel/2024/02/03/meldpunt-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6358
+    },
+    {
+      "municipalityCode": "GM0994",
+      "municipalityName": "Valkenburg aan de Geul",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.vaals.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.vaals.nl/inwoners/melden/leegstand-melden",
+        "https://www.vaals.nl/inwoners/melden/meldpunt-goed-verhuurderschap",
+        "https://www.vaals.nl/actueel/2024/02/03/meldpunt-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.vaals.nl/inwoners/melden/leegstand-melden",
+        "https://www.vaals.nl/inwoners/melden/meldpunt-goed-verhuurderschap",
+        "https://www.vaals.nl/actueel/2024/02/03/meldpunt-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5760
+    },
+    {
+      "municipalityCode": "GM0858",
+      "municipalityName": "Valkenswaard",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.valkenswaard.nl",
+      "candidateCount": 10,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.valkenswaard.nl/bedrijventerreinen-en-huisvesting",
+        "https://www.valkenswaard.nl/woning-splitsen",
+        "https://www.valkenswaard.nl/melding-ongewenst-verhuurgedrag-0",
+        "https://www.valkenswaard.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.valkenswaard.nl/verhuur-van-een-brandweerkazerne-met-ondergrond-en-verdere-toebehoren-gelegen-aan-de",
+        "https://www.valkenswaard.nl/gemeente-valkenswaard-zet-in-op-nieuwe-huisvesting-voor-basisscholen-agnetendal-en-sint-martinus",
+        "https://www.valkenswaard.nl/huisvestingsvergunning",
+        "https://www.valkenswaard.nl/woning-uit-de-woonruimtevoorraad-halen",
+        "https://www.valkenswaard.nl/controle-huisvesting-arbeidsmigranten-in-valkenswaard",
+        "https://www.valkenswaard.nl/huisvesting"
+      ],
+      "reachableCandidates": [
+        "https://www.valkenswaard.nl/bedrijventerreinen-en-huisvesting",
+        "https://www.valkenswaard.nl/woning-splitsen",
+        "https://www.valkenswaard.nl/melding-ongewenst-verhuurgedrag-0",
+        "https://www.valkenswaard.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.valkenswaard.nl/verhuur-van-een-brandweerkazerne-met-ondergrond-en-verdere-toebehoren-gelegen-aan-de",
+        "https://www.valkenswaard.nl/gemeente-valkenswaard-zet-in-op-nieuwe-huisvesting-voor-basisscholen-agnetendal-en-sint-martinus"
+      ],
+      "route": "structured-verification",
+      "durationMs": 10177
+    },
+    {
+      "municipalityCode": "GM0047",
+      "municipalityName": "Veendam",
+      "province": "Groningen",
+      "registryHit": true,
+      "municipalSite": "https://www.veendam.nl",
+      "candidateCount": 7,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.veendam.nl/Onderwerpen/Bouwen_en_verbouwen/Splitsingsvergunning_woonruimte",
+        "https://www.veendam.nl/Onderwerpen/Bouwen_en_verbouwen/Omzettingsvergunning_kamerverhuur",
+        "https://www.veendam.nl/Onderwerpen/Ondernemen/Leegstand_melden",
+        "https://www.veendam.nl/Onderwerpen/Actueel/Tegemoetkoming_huurders_sociale_huurwoningen_in_de_particuliere_verhuur",
+        "https://www.veendam.nl/Onderwerpen/Hulp_en_ondersteuning/Jouwbespaarcoach/Ik_heb_een_huurhuis/Ik_heb_een_huurhuis/Contact_met_de_verhuurder",
+        "https://www.veendam.nl/Onderwerpen/Hulp_en_ondersteuning/Wet_goed_verhuurderschap",
+        "https://www.veendam.nl/Onderwerpen/Jeugd_onderwijs_en_ontwikkeling/Huisvesting_scholen"
+      ],
+      "reachableCandidates": [
+        "https://www.veendam.nl/Onderwerpen/Bouwen_en_verbouwen/Splitsingsvergunning_woonruimte",
+        "https://www.veendam.nl/Onderwerpen/Bouwen_en_verbouwen/Omzettingsvergunning_kamerverhuur",
+        "https://www.veendam.nl/Onderwerpen/Ondernemen/Leegstand_melden",
+        "https://www.veendam.nl/Onderwerpen/Actueel/Tegemoetkoming_huurders_sociale_huurwoningen_in_de_particuliere_verhuur",
+        "https://www.veendam.nl/Onderwerpen/Hulp_en_ondersteuning/Jouwbespaarcoach/Ik_heb_een_huurhuis/Ik_heb_een_huurhuis/Contact_met_de_verhuurder",
+        "https://www.veendam.nl/Onderwerpen/Hulp_en_ondersteuning/Wet_goed_verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3522
+    },
+    {
+      "municipalityCode": "GM0345",
+      "municipalityName": "Veenendaal",
+      "province": "Utrecht",
+      "registryHit": true,
+      "municipalSite": "https://www.veenendaal.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.veenendaal.nl/wonen-en-leefomgeving/bouwen-verbouwen-en-slopen/woningsplitsing",
+        "https://www.veenendaal.nl/wonen-en-leefomgeving/kopen-en-huren/wet-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.veenendaal.nl/wonen-en-leefomgeving/bouwen-verbouwen-en-slopen/woningsplitsing",
+        "https://www.veenendaal.nl/wonen-en-leefomgeving/kopen-en-huren/wet-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3458
+    },
+    {
+      "municipalityCode": "GM0717",
+      "municipalityName": "Veere",
+      "province": "Zeeland",
+      "registryHit": true,
+      "municipalSite": "https://www.veere.nl",
+      "candidateCount": 11,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.veere.nl/verhuur-gebouwen",
+        "https://www.veere.nl/verkoop-verhuur",
+        "https://www.veere.nl/kamerverhuur-bed-en-breakfast",
+        "https://www.veere.nl/verhuur",
+        "https://www.veere.nl/recreatieve-verhuur-van-een-aan-uit-of-bijgebouw-bij-een-reguliere-woning-of-bedrijfswoning",
+        "https://www.veere.nl/recreatieve-verhuur",
+        "https://www.veere.nl/vakantieverhuurrecreatieve-verhuur-recreatiewoning",
+        "https://www.veere.nl/uitleg-begrippen-verhuur",
+        "https://www.veere.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.veere.nl/gemeente-veere-neemt-maatregelen-tegen-langdurige-leegstand",
+        "https://www.veere.nl/gemeente-veere-kiest-overloopterrein-in-zoutelande-als-voorkeurslocatie-voor-tijdelijke-huisvesting"
+      ],
+      "reachableCandidates": [
+        "https://www.veere.nl/verhuur-gebouwen",
+        "https://www.veere.nl/verkoop-verhuur",
+        "https://www.veere.nl/kamerverhuur-bed-en-breakfast",
+        "https://www.veere.nl/verhuur",
+        "https://www.veere.nl/recreatieve-verhuur-van-een-aan-uit-of-bijgebouw-bij-een-reguliere-woning-of-bedrijfswoning",
+        "https://www.veere.nl/recreatieve-verhuur"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5085
+    },
+    {
+      "municipalityCode": "GM0861",
+      "municipalityName": "Veldhoven",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.veldhoven.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.veldhoven.nl/hospitaverhuur",
+        "https://www.veldhoven.nl/leegstandvergunning",
+        "https://www.veldhoven.nl/meld-problemen-met-een-verhuurder"
+      ],
+      "reachableCandidates": [
+        "https://www.veldhoven.nl/hospitaverhuur",
+        "https://www.veldhoven.nl/leegstandvergunning",
+        "https://www.veldhoven.nl/meld-problemen-met-een-verhuurder"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4031
+    },
+    {
+      "municipalityCode": "GM0453",
+      "municipalityName": "Velsen",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.velsen.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 2034
+    },
+    {
+      "municipalityCode": "GM0983",
+      "municipalityName": "Venlo",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.venlo.nl",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.venlo.nl/ongewenst-verhuurgedrag-melden",
+        "https://www.venlo.nl/hospitaverhuur",
+        "https://www.venlo.nl/woonruimte-verhuren-aan-arbeidsmigranten",
+        "https://www.venlo.nl/leegstaande-woonruimte-verhuren",
+        "https://www.venlo.nl/opkoopbescherming"
+      ],
+      "reachableCandidates": [
+        "https://www.venlo.nl/ongewenst-verhuurgedrag-melden",
+        "https://www.venlo.nl/hospitaverhuur",
+        "https://www.venlo.nl/woonruimte-verhuren-aan-arbeidsmigranten",
+        "https://www.venlo.nl/leegstaande-woonruimte-verhuren",
+        "https://www.venlo.nl/opkoopbescherming"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3661
+    },
+    {
+      "municipalityCode": "GM0984",
+      "municipalityName": "Venray",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.venray.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 1947
+    },
+    {
+      "municipalityCode": "GM1961",
+      "municipalityName": "Vijfheerenlanden",
+      "province": "Utrecht",
+      "registryHit": true,
+      "municipalSite": "https://www.vijfheerenlanden.nl/",
+      "candidateCount": 7,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.vijfheerenlanden.nl/huisvesting-arbeidsmigranten",
+        "https://www.vijfheerenlanden.nl/huisvesting-specifieke-doelgroepen-en-integratie",
+        "https://www.vijfheerenlanden.nl/huisvestingsvergunning",
+        "https://www.vijfheerenlanden.nl/meldpunt-ongewenste-verhuurpraktijken",
+        "https://www.vijfheerenlanden.nl/tijdelijke-huisvesting-monnikendreef",
+        "https://www.vijfheerenlanden.nl/projecten/hoef-en-haag-tijdelijke-huisvesting-scholen",
+        "https://www.vijfheerenlanden.nl/nieuws/2026/06/02/aanpak-langdurige-leegstand-woningen-in-vijfheerenlanden"
+      ],
+      "reachableCandidates": [
+        "https://www.vijfheerenlanden.nl/huisvesting-arbeidsmigranten",
+        "https://www.vijfheerenlanden.nl/huisvesting-specifieke-doelgroepen-en-integratie",
+        "https://www.vijfheerenlanden.nl/huisvestingsvergunning",
+        "https://www.vijfheerenlanden.nl/meldpunt-ongewenste-verhuurpraktijken",
+        "https://www.vijfheerenlanden.nl/tijdelijke-huisvesting-monnikendreef",
+        "https://www.vijfheerenlanden.nl/projecten/hoef-en-haag-tijdelijke-huisvesting-scholen"
+      ],
+      "route": "structured-verification",
+      "durationMs": 8904
+    },
+    {
+      "municipalityCode": "GM0622",
+      "municipalityName": "Vlaardingen",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.vlaardingen.nl/Contact",
+      "candidateCount": 11,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.vlaardingen.nl/Onderwerpen/Wonen/Vergunning_tijdelijk_verhuren_koopwoning_Leegstandwet/Vragen_en_antwoorden/Waar_moet_ik_rekening_mee_houden_als_ik_het_tijdelijke_verhuurcontract_met_de_huurder_s_van_mijn_koopwoning_opstel",
+        "https://www.vlaardingen.nl/Onderwerpen/Woon_Energieloket_home/Ik_huur_een_woning_home/In_actie_komen/In_gesprek_met_mijn_verhuurder",
+        "https://www.vlaardingen.nl/Onderwerpen/Projecten_in_de_stad/Projecten_Holy/Drevenbuurt_aardgasvrij/Veelgestelde_vragen_drevenbuurt/Vragen_over_een_warmtenetten/In_Groningen_hebben_ze_slechte_ervaringen_met_boringen_Als_we_in_de_toekomst_met_geothermie_warmte_aan_de_bodem_onttrekken_komt_er_ook_aardgas_vrij_Kan_dit_op_lange_termijn_leiden_tot_een_instabiele_ondergrond",
+        "https://www.vlaardingen.nl/Onderwerpen/Wonen/Vergunning_tijdelijk_verhuren_koopwoning_Leegstandwet/Vragen_en_antwoorden/Heb_ik_een_huisvestingsvergunning_nodig",
+        "https://www.vlaardingen.nl/Onderwerpen/Projecten_in_de_stad/Stadsprogramma_s_Vlaardingen/Stadsprogramma_Nieuwe_Binnenstad/Vragen_en_antwoorden/Winkels/Wat_doet_de_gemeente_aan_de_leegstand",
+        "https://www.vlaardingen.nl/Onderwerpen/Wonen/Servicepunt_Woningverbetering_home/Servicepunt_Woningverbetering/Onderverhuur_en_overbewoning_appartementen",
+        "https://www.vlaardingen.nl/Onderwerpen/Wonen/Meldpunt_Ongewenst_Verhuurgedrag",
+        "https://www.vlaardingen.nl/Onderwerpen/Wonen/Vergunning_tijdelijk_verhuren_koopwoning_Leegstandwet",
+        "https://www.vlaardingen.nl/Onderwerpen/Wonen/Woning_onttrekken_samenvoegen_splitsen_of_omzetten",
+        "https://www.vlaardingen.nl/Onderwerpen/Wonen/Huisvestingsvergunning_voor_betaalbare_nieuwbouw",
+        "https://www.vlaardingen.nl/Organisatie/Nieuws_en_actualiteiten/Nieuwsbrieven/Nieuwsbrief_Langdurige_opvang_Oekra_ense_ontheemden/6_februari_2024/Delen_ervaringen_en_lessons_learned_Checklist_flexibele_huisvesting_Oekraiense_ontheemden/Checklist_flexibele_huisvesting_Oekra_ense_ontheemden"
+      ],
+      "reachableCandidates": [
+        "https://www.vlaardingen.nl/Onderwerpen/Wonen/Vergunning_tijdelijk_verhuren_koopwoning_Leegstandwet/Vragen_en_antwoorden/Waar_moet_ik_rekening_mee_houden_als_ik_het_tijdelijke_verhuurcontract_met_de_huurder_s_van_mijn_koopwoning_opstel",
+        "https://www.vlaardingen.nl/Onderwerpen/Woon_Energieloket_home/Ik_huur_een_woning_home/In_actie_komen/In_gesprek_met_mijn_verhuurder",
+        "https://www.vlaardingen.nl/Onderwerpen/Projecten_in_de_stad/Projecten_Holy/Drevenbuurt_aardgasvrij/Veelgestelde_vragen_drevenbuurt/Vragen_over_een_warmtenetten/In_Groningen_hebben_ze_slechte_ervaringen_met_boringen_Als_we_in_de_toekomst_met_geothermie_warmte_aan_de_bodem_onttrekken_komt_er_ook_aardgas_vrij_Kan_dit_op_lange_termijn_leiden_tot_een_instabiele_ondergrond",
+        "https://www.vlaardingen.nl/Onderwerpen/Wonen/Vergunning_tijdelijk_verhuren_koopwoning_Leegstandwet/Vragen_en_antwoorden/Heb_ik_een_huisvestingsvergunning_nodig",
+        "https://www.vlaardingen.nl/Onderwerpen/Projecten_in_de_stad/Stadsprogramma_s_Vlaardingen/Stadsprogramma_Nieuwe_Binnenstad/Vragen_en_antwoorden/Winkels/Wat_doet_de_gemeente_aan_de_leegstand",
+        "https://www.vlaardingen.nl/Onderwerpen/Wonen/Servicepunt_Woningverbetering_home/Servicepunt_Woningverbetering/Onderverhuur_en_overbewoning_appartementen"
+      ],
+      "route": "structured-verification",
+      "durationMs": 10785
+    },
+    {
+      "municipalityCode": "GM0096",
+      "municipalityName": "Vlieland",
+      "province": "Fryslân",
+      "registryHit": true,
+      "municipalSite": "https://www.vlieland.nl",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.vlieland.nl/voorgenomen-verhuur-snippergroen-voor-sparrenlaan-11",
+        "https://www.vlieland.nl/voorgenomen-verhuur-snippergroen-voor-sparrenlaan-11-0",
+        "https://www.vlieland.nl/huisvestingsverordening-gemeente-vlieland-2025-2029",
+        "https://www.vlieland.nl/huisvestingsvergunning"
+      ],
+      "reachableCandidates": [
+        "https://www.vlieland.nl/voorgenomen-verhuur-snippergroen-voor-sparrenlaan-11",
+        "https://www.vlieland.nl/voorgenomen-verhuur-snippergroen-voor-sparrenlaan-11-0",
+        "https://www.vlieland.nl/huisvestingsverordening-gemeente-vlieland-2025-2029",
+        "https://www.vlieland.nl/huisvestingsvergunning"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5455
+    },
+    {
+      "municipalityCode": "GM0718",
+      "municipalityName": "Vlissingen",
+      "province": "Zeeland",
+      "registryHit": true,
+      "municipalSite": "https://www.vlissingen.nl",
+      "candidateCount": 12,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.vlissingen.nl/huisvesting-internationale-werknemers-baskensburg-west",
+        "https://www.vlissingen.nl/meldpunt-problemen-met-verhuurders",
+        "https://www.vlissingen.nl/studiefinanciering-en-huisvesting",
+        "https://www.vlissingen.nl/woning-splitsen-in-aparte-zelfstandige-woningen",
+        "https://www.vlissingen.nl/tijdelijke-verhuurvergunning",
+        "https://www.vlissingen.nl/meldpunt-kamerverhuur",
+        "https://www.vlissingen.nl/verhuur-accommodaties-makelpunt-walcheren",
+        "https://www.vlissingen.nl/onroerende-zaak-verpacht-verhuur-verkoop",
+        "https://www.vlissingen.nl/onttrekking-samenvoeging-en-omzettingsvergunning",
+        "https://www.vlissingen.nl/huisvesting-primair-en-voortgezet-onderwijs-vergoeding-onderhoud",
+        "https://www.vlissingen.nl/verhuur-gemeentelijke-accommodaties",
+        "https://www.vlissingen.nl/volkshuisvestingprogramma"
+      ],
+      "reachableCandidates": [
+        "https://www.vlissingen.nl/huisvesting-internationale-werknemers-baskensburg-west",
+        "https://www.vlissingen.nl/meldpunt-problemen-met-verhuurders",
+        "https://www.vlissingen.nl/studiefinanciering-en-huisvesting",
+        "https://www.vlissingen.nl/woning-splitsen-in-aparte-zelfstandige-woningen",
+        "https://www.vlissingen.nl/tijdelijke-verhuurvergunning",
+        "https://www.vlissingen.nl/meldpunt-kamerverhuur"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4272
+    },
+    {
+      "municipalityCode": "GM0986",
+      "municipalityName": "Voerendaal",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.voerendaal.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.voerendaal.nl/aanvragen-en-regelen/bouwen-en-wonen/wet-goed-verhuurderschap",
+        "https://www.voerendaal.nl/over-voerendaal/nieuws/gemeente-werkt-aan-zorgvuldige-aanpak-voor-huisvesting-en-opvang-bijzondere-doelgroepen"
+      ],
+      "reachableCandidates": [
+        "https://www.voerendaal.nl/aanvragen-en-regelen/bouwen-en-wonen/wet-goed-verhuurderschap",
+        "https://www.voerendaal.nl/over-voerendaal/nieuws/gemeente-werkt-aan-zorgvuldige-aanpak-voor-huisvesting-en-opvang-bijzondere-doelgroepen"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3776
+    },
+    {
+      "municipalityCode": "GM1992",
+      "municipalityName": "Voorne aan Zee",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.voorneaanzee.nl",
+      "candidateCount": 7,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.voorneaanzee.nl/huisvesting-en-opvang",
+        "https://www.voorneaanzee.nl/volkshuisvestelijke-regels",
+        "https://www.voorneaanzee.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.voorneaanzee.nl/vergoeding-huisvestingsvoorzieningen-scholen",
+        "https://www.voorneaanzee.nl/woning-splitsen",
+        "https://www.voorneaanzee.nl/kamerverhuur",
+        "https://www.voorneaanzee.nl/wet-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.voorneaanzee.nl/huisvesting-en-opvang",
+        "https://www.voorneaanzee.nl/volkshuisvestelijke-regels",
+        "https://www.voorneaanzee.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.voorneaanzee.nl/vergoeding-huisvestingsvoorzieningen-scholen",
+        "https://www.voorneaanzee.nl/woning-splitsen",
+        "https://www.voorneaanzee.nl/kamerverhuur"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4686
+    },
+    {
+      "municipalityCode": "GM0626",
+      "municipalityName": "Voorschoten",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.voorschoten.nl",
+      "candidateCount": 10,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.voorschoten.nl/toeristische-verhuur",
+        "https://www.voorschoten.nl/woning-splitsen",
+        "https://www.voorschoten.nl/woning-uit-de-woonruimtevoorraad-halen",
+        "https://www.voorschoten.nl/huisvestingsvergunning",
+        "https://www.voorschoten.nl/vergoeding-huisvestingsvoorzieningen-scholen",
+        "https://www.voorschoten.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.voorschoten.nl/kamers-met-aandacht-zoekt-nieuwe-verhuurders",
+        "https://www.voorschoten.nl/misstanden-particuliere-verhuur",
+        "https://www.voorschoten.nl/gemeente-wil-zilverfabriek-kopen-voor-huisvesting-gemeentehuis",
+        "https://www.voorschoten.nl/raad-akkoord-met-koop-zilverfabriek-voor-huisvesting-gemeentehuis"
+      ],
+      "reachableCandidates": [
+        "https://www.voorschoten.nl/toeristische-verhuur",
+        "https://www.voorschoten.nl/woning-splitsen",
+        "https://www.voorschoten.nl/woning-uit-de-woonruimtevoorraad-halen",
+        "https://www.voorschoten.nl/huisvestingsvergunning",
+        "https://www.voorschoten.nl/vergoeding-huisvestingsvoorzieningen-scholen",
+        "https://www.voorschoten.nl/tijdelijke-verhuur-leegstaand-pand"
+      ],
+      "route": "structured-verification",
+      "durationMs": 8425
+    },
+    {
+      "municipalityCode": "GM0285",
+      "municipalityName": "Voorst",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.voorst.nl",
+      "candidateCount": 9,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.voorst.nl/wonen-bouw/bouw/woningsplitsing",
+        "https://www.voorst.nl/nieuws/artikel/waterschap-vallei-en-veluwe-stelt-onttrekkingsverbod-oppervlaktewater-in-2",
+        "https://www.voorst.nl/nieuws/artikel/waterschap-verbiedt-onttrekken-van-water-uit-sloten-en-beken",
+        "https://www.voorst.nl/nieuws/artikel/extra-raadsvergadering-op-donderdag-21-april-2022-om-2000-uur-tijdelijke-huisvesting-gemeentehuis",
+        "https://www.voorst.nl/nieuws/artikel/waterschap-vallei-en-veluwe-stelt-onttrekkingsverbod-oppervlaktewater-in",
+        "https://www.voorst.nl/nieuws/artikel/waterschap-vallei-en-veluwe-stelt-onttrekkingsverbod-oppervlaktewater-in-1",
+        "https://www.voorst.nl/nieuws/artikel/grenspaal-t-loo-nr-24-5-m-voor-splitsing-dalkweg-henkenburgweg",
+        "https://www.voorst.nl/nieuws/artikel/waterschap-vallei-en-veluwe-breidt-onttrekkingsverbod-oppervlaktewater-uit",
+        "https://www.voorst.nl/nieuws/artikel/tijdelijke-huisvesting-basisschool-martinus-twello"
+      ],
+      "reachableCandidates": [
+        "https://www.voorst.nl/wonen-bouw/bouw/woningsplitsing",
+        "https://www.voorst.nl/nieuws/artikel/waterschap-vallei-en-veluwe-stelt-onttrekkingsverbod-oppervlaktewater-in-2",
+        "https://www.voorst.nl/nieuws/artikel/waterschap-verbiedt-onttrekken-van-water-uit-sloten-en-beken",
+        "https://www.voorst.nl/nieuws/artikel/extra-raadsvergadering-op-donderdag-21-april-2022-om-2000-uur-tijdelijke-huisvesting-gemeentehuis",
+        "https://www.voorst.nl/nieuws/artikel/waterschap-vallei-en-veluwe-stelt-onttrekkingsverbod-oppervlaktewater-in",
+        "https://www.voorst.nl/nieuws/artikel/waterschap-vallei-en-veluwe-stelt-onttrekkingsverbod-oppervlaktewater-in-1"
+      ],
+      "route": "structured-verification",
+      "durationMs": 11957
+    },
+    {
+      "municipalityCode": "GM0865",
+      "municipalityName": "Vught",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.vught.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 1929
+    },
+    {
+      "municipalityCode": "GM1949",
+      "municipalityName": "Waadhoeke",
+      "province": "Fryslân",
+      "registryHit": true,
+      "municipalSite": "https://www.waadhoeke.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.waadhoeke.nl/vergunningen/leegstaande-woonruimte-verhuren",
+        "https://www.waadhoeke.nl/meldpunt-verhuurders",
+        "https://www.waadhoeke.nl/vergunningen/huisvesting-van-arbeidsmigranten"
+      ],
+      "reachableCandidates": [
+        "https://www.waadhoeke.nl/vergunningen/leegstaande-woonruimte-verhuren",
+        "https://www.waadhoeke.nl/meldpunt-verhuurders",
+        "https://www.waadhoeke.nl/vergunningen/huisvesting-van-arbeidsmigranten"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6395
+    },
+    {
+      "municipalityCode": "GM0866",
+      "municipalityName": "Waalre",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.waalre.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.waalre.nl/inwoners-en-ondernemers/leegstand-vergunningen-tijdelijke-verhuur.html",
+        "https://www.waalre.nl/inwoners-en-ondernemers/ongewenst-gedrag-van-verhuurders-melden",
+        "https://www.waalre.nl/nieuws/2026/07/13/ook-gemeente-waalre-zet-in-op-meer-woonruimte-via-hospitaverhuur"
+      ],
+      "reachableCandidates": [
+        "https://www.waalre.nl/inwoners-en-ondernemers/leegstand-vergunningen-tijdelijke-verhuur.html",
+        "https://www.waalre.nl/inwoners-en-ondernemers/ongewenst-gedrag-van-verhuurders-melden",
+        "https://www.waalre.nl/nieuws/2026/07/13/ook-gemeente-waalre-zet-in-op-meer-woonruimte-via-hospitaverhuur"
+      ],
+      "route": "structured-verification",
+      "durationMs": 8736
+    }
+  ],
+  "summary": {
+    "municipalities": 25,
+    "registryHits": 25,
+    "structuredVerification": 22,
+    "deepVerificationNeeded": 3,
+    "manualReviewRequired": 0,
+    "totalCandidates": 142,
+    "networkRequests": 223,
+    "networkErrors": 0,
+    "maxConcurrency": 5
+  },
+  "safety": {
+    "discoveryIsNotLegalVerification": true,
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0
+  }
+}

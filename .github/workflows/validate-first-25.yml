@@ -1,0 +1,47 @@
+name: Validate first 25 researched municipalities
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/validate-first-25-against-registry.mjs'
+      - 'data/source-registry/bronregister-342.json'
+      - 'data/research-batches/batch-001.json'
+      - 'data/research-batches/batch-002.json'
+      - 'data/research-batches/batch-003.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: validate-first-25
+  cancel-in-progress: false
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate first 25 against nationwide registry
+        run: node scripts/validate-first-25-against-registry.mjs
+      - name: Safety assertions
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          const x=JSON.parse(fs.readFileSync('reports/validation/first-25-registry-validation.json'));
+          if(x.summary.municipalities!==25) throw Error('Expected 25 municipalities');
+          if(x.summary.registryHits!==25) throw Error('Not all first 25 have registry hits');
+          if(x.safety.publicRulesChanged||x.safety.legalStatusesChanged||x.safety.negativeConclusionsCreated) throw Error('Safety invariant failed');
+          console.log(x.summary);
+          NODE
+      - name: Commit validation report
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add reports/validation/first-25-registry-validation.json reports/validation/first-25-registry-validation.md
+          git diff --cached --quiet && exit 0
+          git commit -m 'Add first 25 registry validation report'
+          git push

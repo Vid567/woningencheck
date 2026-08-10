@@ -1,0 +1,1208 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "remaining-53-01-verification",
+  "generatedAt": "2026-08-10T21:34:56.814Z",
+  "sourceBatch": "remaining-53-01",
+  "records": [
+    {
+      "municipalityCode": "GM1680",
+      "municipalityName": "Aa en Hunze",
+      "province": "Drenthe",
+      "registryHit": true,
+      "municipalSite": "https://www.aaenhunze.nl",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Verhuur_leegstaande_woning/Leegstandwet_tijdelijke_verhuur_woonruimte",
+        "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Woningsplitsing/Meer_mogelijk_onder_n_dak_Aa_en_Hunze_helpt_inwoners_bij_woningdeling_en_woningsplitsing",
+        "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Melding_ongewenst_verhuurdergedrag",
+        "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Woningsplitsing",
+        "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Verhuur_leegstaande_woning"
+      ],
+      "reachableCandidates": [
+        "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Verhuur_leegstaande_woning/Leegstandwet_tijdelijke_verhuur_woonruimte",
+        "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Woningsplitsing/Meer_mogelijk_onder_n_dak_Aa_en_Hunze_helpt_inwoners_bij_woningdeling_en_woningsplitsing",
+        "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Melding_ongewenst_verhuurdergedrag",
+        "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Woningsplitsing",
+        "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Verhuur_leegstaande_woning"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2745,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "vacancy-obligation"
+      ],
+      "pages": [
+        {
+          "url": "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Verhuur_leegstaande_woning/Leegstandwet_tijdelijke_verhuur_woonruimte",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "vacancy-obligation"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.aaenhunze.nl/Contact/Overzicht_formulieren"
+          ],
+          "documentLinks": [
+            "https://www.aaenhunze.nl/Contact/Overzicht_formulieren"
+          ]
+        },
+        {
+          "url": "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Woningsplitsing/Meer_mogelijk_onder_n_dak_Aa_en_Hunze_helpt_inwoners_bij_woningdeling_en_woningsplitsing",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.aaenhunze.nl/Contact/Overzicht_formulieren"
+          ],
+          "documentLinks": [
+            "https://www.aaenhunze.nl/Contact/Overzicht_formulieren"
+          ]
+        },
+        {
+          "url": "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Melding_ongewenst_verhuurdergedrag",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.aaenhunze.nl/Contact/Overzicht_formulieren"
+          ],
+          "documentLinks": [
+            "https://www.aaenhunze.nl/Contact/Overzicht_formulieren"
+          ]
+        },
+        {
+          "url": "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Woningsplitsing",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR743799/"
+          ],
+          "applicationLinks": [
+            "https://www.aaenhunze.nl/Contact/Overzicht_formulieren",
+            "https://loket.aaenhunze.nl/aanvraag?schema=contactformulierwoningsplitsing&amp;productsleutel=WONINGSPLITSING"
+          ],
+          "documentLinks": [
+            "https://www.aaenhunze.nl/Contact/Overzicht_formulieren",
+            "https://loket.aaenhunze.nl/aanvraag?schema=contactformulierwoningsplitsing&amp;productsleutel=WONINGSPLITSING"
+          ]
+        },
+        {
+          "url": "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Verhuur_leegstaande_woning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.aaenhunze.nl/Contact/Overzicht_formulieren"
+          ],
+          "documentLinks": [
+            "https://www.aaenhunze.nl/Contact/Overzicht_formulieren"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [
+        "https://lokaleregelgeving.overheid.nl/CVDR743799/"
+      ],
+      "applicationLinks": [
+        "https://www.aaenhunze.nl/Contact/Overzicht_formulieren",
+        "https://loket.aaenhunze.nl/aanvraag?schema=contactformulierwoningsplitsing&amp;productsleutel=WONINGSPLITSING"
+      ],
+      "documentLinks": [
+        "https://www.aaenhunze.nl/Contact/Overzicht_formulieren",
+        "https://loket.aaenhunze.nl/aanvraag?schema=contactformulierwoningsplitsing&amp;productsleutel=WONINGSPLITSING"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "exceptions"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1723",
+      "municipalityName": "Alphen-Chaam",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.alphen-chaam.nl",
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "candidates": [
+        "https://www.alphen-chaam.nl/ongewenst-verhuurgedrag-melden"
+      ],
+      "reachableCandidates": [
+        "https://www.alphen-chaam.nl/ongewenst-verhuurgedrag-melden"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3413,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [],
+      "pages": [
+        {
+          "url": "https://www.alphen-chaam.nl/ongewenst-verhuurgedrag-melden",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": false,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [],
+      "documentLinks": [],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": false,
+        "documents": false,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "applicationRoute",
+        "documents"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0744",
+      "municipalityName": "Baarle-Nassau",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.baarle-nassau.nl",
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "candidates": [
+        "https://www.baarle-nassau.nl/wonen-en-verbouwen/wonen/ongewenst-verhuurgedrag-melden"
+      ],
+      "reachableCandidates": [
+        "https://www.baarle-nassau.nl/wonen-en-verbouwen/wonen/ongewenst-verhuurgedrag-melden"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3424,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [],
+      "pages": [
+        {
+          "url": "https://www.baarle-nassau.nl/wonen-en-verbouwen/wonen/ongewenst-verhuurgedrag-melden",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": false,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [],
+      "documentLinks": [],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": false,
+        "documents": false,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "applicationRoute",
+        "documents"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1954",
+      "municipalityName": "Beekdaelen",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.beekdaelen.nl/",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.beekdaelen.nl/huisvestingsvergunning",
+        "https://www.beekdaelen.nl/meldpunt-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.beekdaelen.nl/huisvestingsvergunning",
+        "https://www.beekdaelen.nl/meldpunt-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3965,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "housing-permit",
+        "good-landlord-permit"
+      ],
+      "pages": [
+        {
+          "url": "https://www.beekdaelen.nl/huisvestingsvergunning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "housing-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": false,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.beekdaelen.nl/meldpunt-goed-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [],
+      "documentLinks": [],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": false,
+        "documents": false,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "applicationRoute",
+        "documents",
+        "exceptions"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0889",
+      "municipalityName": "Beesel",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.beesel.nl",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.beesel.nl/inwoners/wonen/meldpunt-slecht-verhuurderschap",
+        "https://www.beesel.nl/inwoners/wonen/woningsplitsing",
+        "https://www.beesel.nl/nieuws/2026/06/30/nieuwe-huisvestingsverordening-voorrang-voor-sociale-huurwoningen-in-beesel",
+        "https://www.beesel.nl/nieuws/2026/04/02/nieuw-beleid-voor-woningsplitsing",
+        "https://www.beesel.nl/nieuws/2025/10/07/noord-limburgse-gemeenten-werken-samen-aan-nieuwe-huisvestingsverordening"
+      ],
+      "reachableCandidates": [
+        "https://www.beesel.nl/inwoners/wonen/meldpunt-slecht-verhuurderschap",
+        "https://www.beesel.nl/inwoners/wonen/woningsplitsing",
+        "https://www.beesel.nl/nieuws/2026/06/30/nieuwe-huisvestingsverordening-voorrang-voor-sociale-huurwoningen-in-beesel",
+        "https://www.beesel.nl/nieuws/2026/04/02/nieuw-beleid-voor-woningsplitsing",
+        "https://www.beesel.nl/nieuws/2025/10/07/noord-limburgse-gemeenten-werken-samen-aan-nieuwe-huisvestingsverordening"
+      ],
+      "route": "structured-verification",
+      "durationMs": 8183,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [],
+      "pages": [
+        {
+          "url": "https://www.beesel.nl/inwoners/wonen/meldpunt-slecht-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.beesel.nl/inwoners/wonen/woningsplitsing",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR759954"
+          ],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.beesel.nl/nieuws/2026/06/30/nieuwe-huisvestingsverordening-voorrang-voor-sociale-huurwoningen-in-beesel",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://formulier.horstaandemaas.nl/woonurgentie-aanvragen/startpagina"
+          ],
+          "documentLinks": [
+            "https://formulier.horstaandemaas.nl/woonurgentie-aanvragen/startpagina"
+          ]
+        },
+        {
+          "url": "https://www.beesel.nl/nieuws/2026/04/02/nieuw-beleid-voor-woningsplitsing",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR759954"
+          ],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.beesel.nl/nieuws/2025/10/07/noord-limburgse-gemeenten-werken-samen-aan-nieuwe-huisvestingsverordening",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [
+        "https://lokaleregelgeving.overheid.nl/CVDR759954"
+      ],
+      "applicationLinks": [
+        "https://formulier.horstaandemaas.nl/woonurgentie-aanvragen/startpagina"
+      ],
+      "documentLinks": [
+        "https://formulier.horstaandemaas.nl/woonurgentie-aanvragen/startpagina"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "exceptions"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1945",
+      "municipalityName": "Berg en Dal",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.bergendal.nl/",
+      "candidateCount": 6,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.bergendal.nl/bekendmakingen-voorgenomen-verhuur-of-verkoop",
+        "https://www.bergendal.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.bergendal.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bergendal.nl/woning-splitsen",
+        "https://www.bergendal.nl/huisvestingsvergunning",
+        "https://www.bergendal.nl/vergoeding-huisvestingsvoorzieningen-scholen"
+      ],
+      "reachableCandidates": [
+        "https://www.bergendal.nl/bekendmakingen-voorgenomen-verhuur-of-verkoop",
+        "https://www.bergendal.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.bergendal.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bergendal.nl/woning-splitsen",
+        "https://www.bergendal.nl/huisvestingsvergunning",
+        "https://www.bergendal.nl/vergoeding-huisvestingsvoorzieningen-scholen"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4987,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "good-landlord-permit",
+        "dwelling-formation",
+        "housing-permit"
+      ],
+      "pages": [
+        {
+          "url": "https://www.bergendal.nl/bekendmakingen-voorgenomen-verhuur-of-verkoop",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.bergendal.nl/meldpunt-wet-goed-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.bergendal.nl/form/contactformulier-meldpunt-goed-verhuurderschap"
+          ],
+          "documentLinks": [
+            "https://www.bergendal.nl/form/contactformulier-meldpunt-goed-verhuurderschap"
+          ]
+        },
+        {
+          "url": "https://www.bergendal.nl/tijdelijke-verhuur-leegstaand-pand",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.bergendal.nl/woning-splitsen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "dwelling-formation"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "http://www.omgevingsloket.nl/"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.bergendal.nl/huisvestingsvergunning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "housing-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.bergendal.nl/vergoeding-huisvestingsvoorzieningen-scholen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://www.bergendal.nl/form/contactformulier-meldpunt-goed-verhuurderschap",
+        "http://www.omgevingsloket.nl/"
+      ],
+      "documentLinks": [
+        "https://www.bergendal.nl/form/contactformulier-meldpunt-goed-verhuurderschap"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1724",
+      "municipalityName": "Bergeijk",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.bergeijk.nl",
+      "candidateCount": 7,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.bergeijk.nl/verhuur",
+        "https://www.bergeijk.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.bergeijk.nl/privacyverklaring-meldpunt-wet-goed-verhuurderschap",
+        "https://www.bergeijk.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bergeijk.nl/woning-uit-de-woonruimtevoorraad-halen",
+        "https://www.bergeijk.nl/huisvesting",
+        "https://www.bergeijk.nl/richtlijnen-huisvesting-arbeidsmigranten"
+      ],
+      "reachableCandidates": [
+        "https://www.bergeijk.nl/verhuur",
+        "https://www.bergeijk.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.bergeijk.nl/privacyverklaring-meldpunt-wet-goed-verhuurderschap",
+        "https://www.bergeijk.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bergeijk.nl/woning-uit-de-woonruimtevoorraad-halen",
+        "https://www.bergeijk.nl/huisvesting"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5139,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "good-landlord-permit"
+      ],
+      "pages": [
+        {
+          "url": "https://www.bergeijk.nl/verhuur",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.bergeijk.nl/images/logo/digid.svg",
+            "https://www.bergeijk.nl/eherkenning"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.bergeijk.nl/meldpunt-wet-goed-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.bergeijk.nl/images/logo/digid.svg",
+            "https://www.bergeijk.nl/form/melding-ongewenst-verhuurgedrag-digid/informatie-vooraf-0-2",
+            "https://www.rijksoverheid.nl/vraag-en-antwoord/woning-huren/mag-mijn-verhuurder-inkomensgegevens-aanvragen-voor-de-huurverhoging",
+            "https://www.bergeijk.nl/eherkenning"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.bergeijk.nl/privacyverklaring-meldpunt-wet-goed-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.bergeijk.nl/eherkenning"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.bergeijk.nl/tijdelijke-verhuur-leegstaand-pand",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.bergeijk.nl/eherkenning"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.bergeijk.nl/woning-uit-de-woonruimtevoorraad-halen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.bergeijk.nl/eherkenning"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.bergeijk.nl/huisvesting",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.bergeijk.nl/eherkenning"
+          ],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://www.bergeijk.nl/images/logo/digid.svg",
+        "https://www.bergeijk.nl/eherkenning",
+        "https://www.bergeijk.nl/form/melding-ongewenst-verhuurgedrag-digid/informatie-vooraf-0-2",
+        "https://www.rijksoverheid.nl/vraag-en-antwoord/woning-huren/mag-mijn-verhuurder-inkomensgegevens-aanvragen-voor-de-huurverhoging"
+      ],
+      "documentLinks": [],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": false,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "documents"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0893",
+      "municipalityName": "Bergen (L.)",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.bergeijk.nl",
+      "candidateCount": 7,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.bergeijk.nl/verhuur",
+        "https://www.bergeijk.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.bergeijk.nl/privacyverklaring-meldpunt-wet-goed-verhuurderschap",
+        "https://www.bergeijk.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bergeijk.nl/woning-uit-de-woonruimtevoorraad-halen",
+        "https://www.bergeijk.nl/huisvesting",
+        "https://www.bergeijk.nl/richtlijnen-huisvesting-arbeidsmigranten"
+      ],
+      "reachableCandidates": [
+        "https://www.bergeijk.nl/verhuur",
+        "https://www.bergeijk.nl/privacyverklaring-meldpunt-wet-goed-verhuurderschap",
+        "https://www.bergeijk.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bergeijk.nl/huisvesting"
+      ],
+      "route": "structured-verification",
+      "durationMs": 40563,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "good-landlord-permit"
+      ],
+      "pages": [
+        {
+          "url": "https://www.bergeijk.nl/verhuur",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.bergeijk.nl/images/logo/digid.svg",
+            "https://www.bergeijk.nl/eherkenning"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.bergeijk.nl/privacyverklaring-meldpunt-wet-goed-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.bergeijk.nl/eherkenning"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.bergeijk.nl/tijdelijke-verhuur-leegstaand-pand",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.bergeijk.nl/eherkenning"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.bergeijk.nl/huisvesting",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.bergeijk.nl/eherkenning"
+          ],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://www.bergeijk.nl/images/logo/digid.svg",
+        "https://www.bergeijk.nl/eherkenning"
+      ],
+      "documentLinks": [],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": false,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "documents"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0373",
+      "municipalityName": "Bergen (NH.)",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.bergen-nh.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.bergen-nh.nl/aanvragen-en-regelen/tijdelijke-verhuur-woning",
+        "https://www.bergen-nh.nl/aanvragen-en-regelen/woning-splitsen",
+        "https://www.bergen-nh.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden"
+      ],
+      "reachableCandidates": [
+        "https://www.bergen-nh.nl/aanvragen-en-regelen/tijdelijke-verhuur-woning",
+        "https://www.bergen-nh.nl/aanvragen-en-regelen/woning-splitsen",
+        "https://www.bergen-nh.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2786,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "dwelling-formation"
+      ],
+      "pages": [
+        {
+          "url": "https://www.bergen-nh.nl/aanvragen-en-regelen/tijdelijke-verhuur-woning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.bergen-nh.nl/aanvragen-en-regelen",
+            "https://www.bergen-nh.nl/aanvragen-en-regelen/tijdelijke-verhuur-woning",
+            "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=10850&amp;amp;lang=nl_nl&amp;amp;readid=content&amp;amp;url=https://www.bergen-nh.nl/aanvragen-en-regelen/tijdelijke-verhuur-woning",
+            "https://www.bergen-nh.nl/fileadmin/BUCH/formulieren/verhuur/Formulier-tijdelijke-verhuur-leegstaande-woonruimte-aanvragen.pdf",
+            "https://www.bergen-nh.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden",
+            "https://www.facebook.com/sharer/sharer.php?u=https://www.bergen-nh.nl/aanvragen-en-regelen/tijdelijke-verhuur-woning",
+            "https://bsky.app/intent/compose?text=https://www.bergen-nh.nl/aanvragen-en-regelen/tijdelijke-verhuur-woning",
+            "https://www.linkedin.com/sharing/share-offsite/?url=https://www.bergen-nh.nl/aanvragen-en-regelen/tijdelijke-verhuur-woning",
+            "https://twitter.com/intent/tweet?url=https://www.bergen-nh.nl/aanvragen-en-regelen/tijdelijke-verhuur-woning&amp;text=Tijdelijke%20verhuur%20woning",
+            "mailto:?subject=Tijdelijke%20verhuur%20woning&amp;body=https://www.bergen-nh.nl/aanvragen-en-regelen/tijdelijke-verhuur-woning"
+          ],
+          "documentLinks": [
+            "https://www.bergen-nh.nl/fileadmin/BUCH/formulieren/verhuur/Formulier-tijdelijke-verhuur-leegstaande-woonruimte-aanvragen.pdf"
+          ]
+        },
+        {
+          "url": "https://www.bergen-nh.nl/aanvragen-en-regelen/woning-splitsen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "dwelling-formation"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR607367/1"
+          ],
+          "applicationLinks": [
+            "https://www.bergen-nh.nl/aanvragen-en-regelen",
+            "https://www.bergen-nh.nl/aanvragen-en-regelen/woning-splitsen",
+            "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=10850&amp;amp;lang=nl_nl&amp;amp;readid=content&amp;amp;url=https://www.bergen-nh.nl/aanvragen-en-regelen/woning-splitsen",
+            "https://omgevingswet.overheid.nl/home",
+            "https://www.facebook.com/sharer/sharer.php?u=https://www.bergen-nh.nl/aanvragen-en-regelen/woning-splitsen",
+            "https://bsky.app/intent/compose?text=https://www.bergen-nh.nl/aanvragen-en-regelen/woning-splitsen",
+            "https://www.linkedin.com/sharing/share-offsite/?url=https://www.bergen-nh.nl/aanvragen-en-regelen/woning-splitsen",
+            "https://twitter.com/intent/tweet?url=https://www.bergen-nh.nl/aanvragen-en-regelen/woning-splitsen&amp;text=Woning%20splitsen",
+            "mailto:?subject=Woning%20splitsen&amp;body=https://www.bergen-nh.nl/aanvragen-en-regelen/woning-splitsen",
+            "https://wa.me/?text=https://www.bergen-nh.nl/aanvragen-en-regelen/woning-splitsen"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.bergen-nh.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.bergen-nh.nl/aanvragen-en-regelen",
+            "https://www.bergen-nh.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden",
+            "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=10850&amp;amp;lang=nl_nl&amp;amp;readid=content&amp;amp;url=https://www.bergen-nh.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden",
+            "https://www.burgerberichten.nl/buch/formulieren/d26d2dc3-9b1f-498a-b64d-ad23d2059e22/Melding-ongewenst-verhuurgedrag",
+            "https://www.facebook.com/sharer/sharer.php?u=https://www.bergen-nh.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden",
+            "https://bsky.app/intent/compose?text=https://www.bergen-nh.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden",
+            "https://www.linkedin.com/sharing/share-offsite/?url=https://www.bergen-nh.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden",
+            "https://twitter.com/intent/tweet?url=https://www.bergen-nh.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden&amp;text=Ongewenst%20verhuurgedrag%20melden",
+            "mailto:?subject=Ongewenst%20verhuurgedrag%20melden&amp;body=https://www.bergen-nh.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden",
+            "https://wa.me/?text=https://www.bergen-nh.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden"
+          ],
+          "documentLinks": [
+            "https://www.burgerberichten.nl/buch/formulieren/d26d2dc3-9b1f-498a-b64d-ad23d2059e22/Melding-ongewenst-verhuurgedrag"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [
+        "https://lokaleregelgeving.overheid.nl/CVDR607367/1"
+      ],
+      "applicationLinks": [
+        "https://www.bergen-nh.nl/aanvragen-en-regelen",
+        "https://www.bergen-nh.nl/aanvragen-en-regelen/tijdelijke-verhuur-woning",
+        "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=10850&amp;amp;lang=nl_nl&amp;amp;readid=content&amp;amp;url=https://www.bergen-nh.nl/aanvragen-en-regelen/tijdelijke-verhuur-woning",
+        "https://www.bergen-nh.nl/fileadmin/BUCH/formulieren/verhuur/Formulier-tijdelijke-verhuur-leegstaande-woonruimte-aanvragen.pdf",
+        "https://www.bergen-nh.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden",
+        "https://www.facebook.com/sharer/sharer.php?u=https://www.bergen-nh.nl/aanvragen-en-regelen/tijdelijke-verhuur-woning",
+        "https://bsky.app/intent/compose?text=https://www.bergen-nh.nl/aanvragen-en-regelen/tijdelijke-verhuur-woning",
+        "https://www.linkedin.com/sharing/share-offsite/?url=https://www.bergen-nh.nl/aanvragen-en-regelen/tijdelijke-verhuur-woning",
+        "https://twitter.com/intent/tweet?url=https://www.bergen-nh.nl/aanvragen-en-regelen/tijdelijke-verhuur-woning&amp;text=Tijdelijke%20verhuur%20woning",
+        "mailto:?subject=Tijdelijke%20verhuur%20woning&amp;body=https://www.bergen-nh.nl/aanvragen-en-regelen/tijdelijke-verhuur-woning",
+        "https://www.bergen-nh.nl/aanvragen-en-regelen/woning-splitsen",
+        "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=10850&amp;amp;lang=nl_nl&amp;amp;readid=content&amp;amp;url=https://www.bergen-nh.nl/aanvragen-en-regelen/woning-splitsen",
+        "https://omgevingswet.overheid.nl/home",
+        "https://www.facebook.com/sharer/sharer.php?u=https://www.bergen-nh.nl/aanvragen-en-regelen/woning-splitsen",
+        "https://bsky.app/intent/compose?text=https://www.bergen-nh.nl/aanvragen-en-regelen/woning-splitsen",
+        "https://www.linkedin.com/sharing/share-offsite/?url=https://www.bergen-nh.nl/aanvragen-en-regelen/woning-splitsen",
+        "https://twitter.com/intent/tweet?url=https://www.bergen-nh.nl/aanvragen-en-regelen/woning-splitsen&amp;text=Woning%20splitsen",
+        "mailto:?subject=Woning%20splitsen&amp;body=https://www.bergen-nh.nl/aanvragen-en-regelen/woning-splitsen",
+        "https://wa.me/?text=https://www.bergen-nh.nl/aanvragen-en-regelen/woning-splitsen",
+        "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=10850&amp;amp;lang=nl_nl&amp;amp;readid=content&amp;amp;url=https://www.bergen-nh.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden",
+        "https://www.burgerberichten.nl/buch/formulieren/d26d2dc3-9b1f-498a-b64d-ad23d2059e22/Melding-ongewenst-verhuurgedrag",
+        "https://www.facebook.com/sharer/sharer.php?u=https://www.bergen-nh.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden",
+        "https://bsky.app/intent/compose?text=https://www.bergen-nh.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden",
+        "https://www.linkedin.com/sharing/share-offsite/?url=https://www.bergen-nh.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden",
+        "https://twitter.com/intent/tweet?url=https://www.bergen-nh.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden&amp;text=Ongewenst%20verhuurgedrag%20melden",
+        "mailto:?subject=Ongewenst%20verhuurgedrag%20melden&amp;body=https://www.bergen-nh.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden",
+        "https://wa.me/?text=https://www.bergen-nh.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden"
+      ],
+      "documentLinks": [
+        "https://www.bergen-nh.nl/fileadmin/BUCH/formulieren/verhuur/Formulier-tijdelijke-verhuur-leegstaande-woonruimte-aanvragen.pdf",
+        "https://www.burgerberichten.nl/buch/formulieren/d26d2dc3-9b1f-498a-b64d-ad23d2059e22/Melding-ongewenst-verhuurgedrag"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": false
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "geographicScope"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0748",
+      "municipalityName": "Bergen op Zoom",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.bergenopzoom.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 36690,
+      "verificationRoute": "deep",
+      "officialPublicationSearch": [
+        {
+          "query": "Bergen op Zoom huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20op%20Zoom%20huisvestingsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bergen op Zoom opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20op%20Zoom%20opkoopbescherming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bergen op Zoom kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20op%20Zoom%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bergen op Zoom splitsingsvergunning woningvorming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20op%20Zoom%20splitsingsvergunning%20woningvorming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bergen op Zoom onttrekkingsvergunning woonruimte",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20op%20Zoom%20onttrekkingsvergunning%20woonruimte",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bergen op Zoom leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20op%20Zoom%20leegstandsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bergen op Zoom verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20op%20Zoom%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bergen op Zoom vakantieverhuur short stay",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20op%20Zoom%20vakantieverhuur%20short%20stay",
+          "status": 200,
+          "foundCvdr": []
+        }
+      ],
+      "officialRegulationCandidates": [],
+      "verificationStatus": "manual-legal-source-review-required",
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    }
+  ],
+  "summary": {
+    "municipalities": 10,
+    "structurallyComplete": 0,
+    "targetedReviewRequired": 9,
+    "officialRegulationCandidateFound": 0,
+    "manualLegalSourceReviewRequired": 1,
+    "networkRequests": 119,
+    "networkErrors": 4,
+    "maxConcurrency": 5
+  },
+  "safety": {
+    "legalApprovalAutomatic": false,
+    "automaticPublication": false,
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0,
+    "absenceOfEvidenceIsNotEvidenceOfAbsence": true
+  }
+}

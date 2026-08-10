@@ -1,0 +1,237 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "remaining-53-01",
+  "generatedAt": "2026-08-10T21:34:56.814Z",
+  "records": [
+    {
+      "municipalityCode": "GM1680",
+      "municipalityName": "Aa en Hunze",
+      "province": "Drenthe",
+      "registryHit": true,
+      "municipalSite": "https://www.aaenhunze.nl",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Verhuur_leegstaande_woning/Leegstandwet_tijdelijke_verhuur_woonruimte",
+        "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Woningsplitsing/Meer_mogelijk_onder_n_dak_Aa_en_Hunze_helpt_inwoners_bij_woningdeling_en_woningsplitsing",
+        "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Melding_ongewenst_verhuurdergedrag",
+        "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Woningsplitsing",
+        "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Verhuur_leegstaande_woning"
+      ],
+      "reachableCandidates": [
+        "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Verhuur_leegstaande_woning/Leegstandwet_tijdelijke_verhuur_woonruimte",
+        "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Woningsplitsing/Meer_mogelijk_onder_n_dak_Aa_en_Hunze_helpt_inwoners_bij_woningdeling_en_woningsplitsing",
+        "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Melding_ongewenst_verhuurdergedrag",
+        "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Woningsplitsing",
+        "https://www.aaenhunze.nl/Alle_onderwerpen/wonen/Alle_onderwerpen_bouwen_en_wonen/Verhuur_leegstaande_woning"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2745
+    },
+    {
+      "municipalityCode": "GM1723",
+      "municipalityName": "Alphen-Chaam",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.alphen-chaam.nl",
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "candidates": [
+        "https://www.alphen-chaam.nl/ongewenst-verhuurgedrag-melden"
+      ],
+      "reachableCandidates": [
+        "https://www.alphen-chaam.nl/ongewenst-verhuurgedrag-melden"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3413
+    },
+    {
+      "municipalityCode": "GM0744",
+      "municipalityName": "Baarle-Nassau",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.baarle-nassau.nl",
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "candidates": [
+        "https://www.baarle-nassau.nl/wonen-en-verbouwen/wonen/ongewenst-verhuurgedrag-melden"
+      ],
+      "reachableCandidates": [
+        "https://www.baarle-nassau.nl/wonen-en-verbouwen/wonen/ongewenst-verhuurgedrag-melden"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3424
+    },
+    {
+      "municipalityCode": "GM1954",
+      "municipalityName": "Beekdaelen",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.beekdaelen.nl/",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.beekdaelen.nl/huisvestingsvergunning",
+        "https://www.beekdaelen.nl/meldpunt-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.beekdaelen.nl/huisvestingsvergunning",
+        "https://www.beekdaelen.nl/meldpunt-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3965
+    },
+    {
+      "municipalityCode": "GM0889",
+      "municipalityName": "Beesel",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.beesel.nl",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.beesel.nl/inwoners/wonen/meldpunt-slecht-verhuurderschap",
+        "https://www.beesel.nl/inwoners/wonen/woningsplitsing",
+        "https://www.beesel.nl/nieuws/2026/06/30/nieuwe-huisvestingsverordening-voorrang-voor-sociale-huurwoningen-in-beesel",
+        "https://www.beesel.nl/nieuws/2026/04/02/nieuw-beleid-voor-woningsplitsing",
+        "https://www.beesel.nl/nieuws/2025/10/07/noord-limburgse-gemeenten-werken-samen-aan-nieuwe-huisvestingsverordening"
+      ],
+      "reachableCandidates": [
+        "https://www.beesel.nl/inwoners/wonen/meldpunt-slecht-verhuurderschap",
+        "https://www.beesel.nl/inwoners/wonen/woningsplitsing",
+        "https://www.beesel.nl/nieuws/2026/06/30/nieuwe-huisvestingsverordening-voorrang-voor-sociale-huurwoningen-in-beesel",
+        "https://www.beesel.nl/nieuws/2026/04/02/nieuw-beleid-voor-woningsplitsing",
+        "https://www.beesel.nl/nieuws/2025/10/07/noord-limburgse-gemeenten-werken-samen-aan-nieuwe-huisvestingsverordening"
+      ],
+      "route": "structured-verification",
+      "durationMs": 8183
+    },
+    {
+      "municipalityCode": "GM1945",
+      "municipalityName": "Berg en Dal",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.bergendal.nl/",
+      "candidateCount": 6,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.bergendal.nl/bekendmakingen-voorgenomen-verhuur-of-verkoop",
+        "https://www.bergendal.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.bergendal.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bergendal.nl/woning-splitsen",
+        "https://www.bergendal.nl/huisvestingsvergunning",
+        "https://www.bergendal.nl/vergoeding-huisvestingsvoorzieningen-scholen"
+      ],
+      "reachableCandidates": [
+        "https://www.bergendal.nl/bekendmakingen-voorgenomen-verhuur-of-verkoop",
+        "https://www.bergendal.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.bergendal.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bergendal.nl/woning-splitsen",
+        "https://www.bergendal.nl/huisvestingsvergunning",
+        "https://www.bergendal.nl/vergoeding-huisvestingsvoorzieningen-scholen"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4987
+    },
+    {
+      "municipalityCode": "GM1724",
+      "municipalityName": "Bergeijk",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.bergeijk.nl",
+      "candidateCount": 7,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.bergeijk.nl/verhuur",
+        "https://www.bergeijk.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.bergeijk.nl/privacyverklaring-meldpunt-wet-goed-verhuurderschap",
+        "https://www.bergeijk.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bergeijk.nl/woning-uit-de-woonruimtevoorraad-halen",
+        "https://www.bergeijk.nl/huisvesting",
+        "https://www.bergeijk.nl/richtlijnen-huisvesting-arbeidsmigranten"
+      ],
+      "reachableCandidates": [
+        "https://www.bergeijk.nl/verhuur",
+        "https://www.bergeijk.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.bergeijk.nl/privacyverklaring-meldpunt-wet-goed-verhuurderschap",
+        "https://www.bergeijk.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bergeijk.nl/woning-uit-de-woonruimtevoorraad-halen",
+        "https://www.bergeijk.nl/huisvesting"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5139
+    },
+    {
+      "municipalityCode": "GM0893",
+      "municipalityName": "Bergen (L.)",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.bergeijk.nl",
+      "candidateCount": 7,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.bergeijk.nl/verhuur",
+        "https://www.bergeijk.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.bergeijk.nl/privacyverklaring-meldpunt-wet-goed-verhuurderschap",
+        "https://www.bergeijk.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bergeijk.nl/woning-uit-de-woonruimtevoorraad-halen",
+        "https://www.bergeijk.nl/huisvesting",
+        "https://www.bergeijk.nl/richtlijnen-huisvesting-arbeidsmigranten"
+      ],
+      "reachableCandidates": [
+        "https://www.bergeijk.nl/verhuur",
+        "https://www.bergeijk.nl/privacyverklaring-meldpunt-wet-goed-verhuurderschap",
+        "https://www.bergeijk.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bergeijk.nl/huisvesting"
+      ],
+      "route": "structured-verification",
+      "durationMs": 40563
+    },
+    {
+      "municipalityCode": "GM0373",
+      "municipalityName": "Bergen (NH.)",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.bergen-nh.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.bergen-nh.nl/aanvragen-en-regelen/tijdelijke-verhuur-woning",
+        "https://www.bergen-nh.nl/aanvragen-en-regelen/woning-splitsen",
+        "https://www.bergen-nh.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden"
+      ],
+      "reachableCandidates": [
+        "https://www.bergen-nh.nl/aanvragen-en-regelen/tijdelijke-verhuur-woning",
+        "https://www.bergen-nh.nl/aanvragen-en-regelen/woning-splitsen",
+        "https://www.bergen-nh.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2786
+    },
+    {
+      "municipalityCode": "GM0748",
+      "municipalityName": "Bergen op Zoom",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.bergenopzoom.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 36690
+    }
+  ],
+  "summary": {
+    "municipalities": 10,
+    "registryHits": 10,
+    "networkRequests": 119,
+    "networkErrors": 4,
+    "maxConcurrency": 5
+  },
+  "safety": {
+    "discoveryIsNotLegalVerification": true,
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0
+  }
+}

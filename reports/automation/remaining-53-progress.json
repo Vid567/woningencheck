@@ -1,0 +1,201 @@
+{
+  "generatedAt": "2026-08-10T21:34:56.828Z",
+  "originMainEvidence": {
+    "autoVerificationFiles": 11
+  },
+  "initialProcessed": 289,
+  "processedAfterBatch": 299,
+  "remainingCount": 43,
+  "remainingMunicipalities": [
+    {
+      "municipalityCode": "GM1859",
+      "municipalityName": "Berkelland"
+    },
+    {
+      "municipalityCode": "GM1721",
+      "municipalityName": "Bernheze"
+    },
+    {
+      "municipalityCode": "GM0753",
+      "municipalityName": "Best"
+    },
+    {
+      "municipalityCode": "GM0209",
+      "municipalityName": "Beuningen"
+    },
+    {
+      "municipalityCode": "GM0375",
+      "municipalityName": "Beverwijk"
+    },
+    {
+      "municipalityCode": "GM0310",
+      "municipalityName": "De Bilt"
+    },
+    {
+      "municipalityCode": "GM1728",
+      "municipalityName": "Bladel"
+    },
+    {
+      "municipalityCode": "GM0376",
+      "municipalityName": "Blaricum"
+    },
+    {
+      "municipalityCode": "GM0377",
+      "municipalityName": "Bloemendaal"
+    },
+    {
+      "municipalityCode": "GM1901",
+      "municipalityName": "Bodegraven-Reeuwijk"
+    },
+    {
+      "municipalityCode": "GM0755",
+      "municipalityName": "Boekel"
+    },
+    {
+      "municipalityCode": "GM1681",
+      "municipalityName": "Borger-Odoorn"
+    },
+    {
+      "municipalityCode": "GM0147",
+      "municipalityName": "Borne"
+    },
+    {
+      "municipalityCode": "GM0654",
+      "municipalityName": "Borsele"
+    },
+    {
+      "municipalityCode": "GM0757",
+      "municipalityName": "Boxtel"
+    },
+    {
+      "municipalityCode": "GM0758",
+      "municipalityName": "Breda"
+    },
+    {
+      "municipalityCode": "GM1876",
+      "municipalityName": "Bronckhorst"
+    },
+    {
+      "municipalityCode": "GM0213",
+      "municipalityName": "Brummen"
+    },
+    {
+      "municipalityCode": "GM0899",
+      "municipalityName": "Brunssum"
+    },
+    {
+      "municipalityCode": "GM0312",
+      "municipalityName": "Bunnik"
+    },
+    {
+      "municipalityCode": "GM0313",
+      "municipalityName": "Bunschoten"
+    },
+    {
+      "municipalityCode": "GM0214",
+      "municipalityName": "Buren"
+    },
+    {
+      "municipalityCode": "GM0502",
+      "municipalityName": "Capelle aan den IJssel"
+    },
+    {
+      "municipalityCode": "GM0383",
+      "municipalityName": "Castricum"
+    },
+    {
+      "municipalityCode": "GM0109",
+      "municipalityName": "Coevorden"
+    },
+    {
+      "municipalityCode": "GM1706",
+      "municipalityName": "Cranendonck"
+    },
+    {
+      "municipalityCode": "GM0216",
+      "municipalityName": "Culemborg"
+    },
+    {
+      "municipalityCode": "GM0148",
+      "municipalityName": "Dalfsen"
+    },
+    {
+      "municipalityCode": "GM1891",
+      "municipalityName": "Dantumadiel"
+    },
+    {
+      "municipalityCode": "GM0503",
+      "municipalityName": "Delft"
+    },
+    {
+      "municipalityCode": "GM0762",
+      "municipalityName": "Deurne"
+    },
+    {
+      "municipalityCode": "GM0150",
+      "municipalityName": "Deventer"
+    },
+    {
+      "municipalityCode": "GM0384",
+      "municipalityName": "Diemen"
+    },
+    {
+      "municipalityCode": "GM1980",
+      "municipalityName": "Dijk en Waard"
+    },
+    {
+      "municipalityCode": "GM1774",
+      "municipalityName": "Dinkelland"
+    },
+    {
+      "municipalityCode": "GM0221",
+      "municipalityName": "Doesburg"
+    },
+    {
+      "municipalityCode": "GM0222",
+      "municipalityName": "Doetinchem"
+    },
+    {
+      "municipalityCode": "GM0766",
+      "municipalityName": "Dongen"
+    },
+    {
+      "municipalityCode": "GM0505",
+      "municipalityName": "Dordrecht"
+    },
+    {
+      "municipalityCode": "GM0498",
+      "municipalityName": "Drechterland"
+    },
+    {
+      "municipalityCode": "GM1719",
+      "municipalityName": "Drimmelen"
+    },
+    {
+      "municipalityCode": "GM0303",
+      "municipalityName": "Dronten"
+    },
+    {
+      "municipalityCode": "GM0225",
+      "municipalityName": "Druten"
+    }
+  ],
+  "lastBatch": "remaining-53-01",
+  "lastBatchSummary": {
+    "municipalities": 10,
+    "structurallyComplete": 0,
+    "targetedReviewRequired": 9,
+    "officialRegulationCandidateFound": 0,
+    "manualLegalSourceReviewRequired": 1,
+    "networkRequests": 119,
+    "networkErrors": 4,
+    "maxConcurrency": 5
+  },
+  "safety": {
+    "legalApprovalAutomatic": false,
+    "automaticPublication": false,
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0,
+    "absenceOfEvidenceIsNotEvidenceOfAbsence": true
+  }
+}

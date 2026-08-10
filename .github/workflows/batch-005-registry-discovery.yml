@@ -1,0 +1,45 @@
+name: Batch 005 registry-backed discovery
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/batch-005-registry-discovery.yml'
+      - 'scripts/run-batch-005-registry-discovery.mjs'
+      - 'scripts/test-batch-005-registry-discovery.mjs'
+      - 'data/source-registry/bronregister-342.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run next 25 municipalities from nationwide source registry
+        run: node scripts/run-batch-005-registry-discovery.mjs
+      - name: Validate batch 005 safety and registry coverage
+        run: node scripts/test-batch-005-registry-discovery.mjs
+      - name: Commit discovery outputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/research-batches/batch-005-registry-discovery.json \
+                  docs/research-batches/batch-005-registry-discovery.md \
+                  data/research-status.json
+          if git diff --cached --quiet; then
+            echo 'No output changes to commit.'
+            exit 0
+          fi
+          git commit -m 'Record registry-backed discovery batch 005'
+          git push origin HEAD:main

@@ -1,7 +1,17 @@
 import fs from "node:fs";
-const read=path=>JSON.parse(fs.readFileSync(path,"utf8"));
-const productionJson=fs.readdirSync("data",{recursive:true}).filter(path=>String(path).endsWith(".json")).map(path=>`data/${String(path).replaceAll("\\","/")}`);
-for(const path of productionJson)read(path);
+const stripBOM = s => s && s[0] === '\uFEFF' ? s.slice(1) : s;
+const read = path => {
+  try {
+    const raw = stripBOM(fs.readFileSync(path, "utf8"));
+    return JSON.parse(raw);
+  } catch (e) {
+    console.error(`JSON parse error for ${path}: ${e.message}`);
+    throw e;
+  }
+};
+const productionJson = fs.readdirSync("data", { recursive: true }).filter(path => String(path).endsWith(".json")).map(path => `data/${String(path).replaceAll("\\","/")}`);
+for (const path of productionJson) read(path);
+
 const data=read("data/municipalities-2026.json"),rules=read("data/regulations.json").records,sources=read("data/sources.json").sources;
 const app=fs.readFileSync("assets/app.js","utf8"),fail=message=>{console.error(`FAIL: ${message}`);process.exitCode=1};
 if(data.municipalities.length!==342)fail(`expected 342 municipalities, got ${data.municipalities.length}`);

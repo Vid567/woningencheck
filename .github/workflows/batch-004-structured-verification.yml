@@ -42,4 +42,5 @@ jobs:
           git add data/research-batches/batch-004-structured-verification.json docs/research-batches/batch-004-structured-verification.md
           git diff --cached --quiet && exit 0
           git commit -m 'Add Batch 004 structured verification results'
+          git pull --rebase origin main
           git push

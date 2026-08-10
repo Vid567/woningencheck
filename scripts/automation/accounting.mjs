@@ -35,9 +35,17 @@ for(const code of municipalities)accounted[code]={state:null,details:{}};
 // Build regs by municipality for outcome mapping
 const regsByMunicipality = new Map();
 for(const r of regs){
+  if(!r || !r.municipalityCode) continue;
   if(!regsByMunicipality.has(r.municipalityCode)) regsByMunicipality.set(r.municipalityCode,[]);
   regsByMunicipality.get(r.municipalityCode).push(r);
 }
+
+// diagnostic counts for debugging why persisted regs are undercounted
+const regsTotal = regs.length;
+const regsUniqueMunicipalities = Array.from(new Set(regs.map(r=>r && r.municipalityCode).filter(Boolean))).length;
+const regsWithEvidenceMunicipalities = Array.from(new Set(regs.filter(r=>r && Array.isArray(r.evidence) && r.evidence.length>0 && r.municipalityCode).map(r=>r.municipalityCode))).length;
+const regsWithVerificationMunicipalities = Array.from(new Set(regs.filter(r=>r && r.verification && r.municipalityCode).map(r=>r.municipalityCode))).length;
+const regsSampleMunicipalities = Array.from(new Set(regs.map(r=>r && r.municipalityCode).filter(Boolean))).slice(0,20);
 
 // assign states and municipality-level canonical outcomes
 function municipalityOutcomeFromRegs(records){
@@ -121,6 +129,13 @@ const report={
   autoProcessedCount:Object.values(accounted).filter(x=>x.state==='auto-verification-persisted').length,
   municipalityOutcomeTotals,
   regulationRowCounts,
+  regsDiagnostics: {
+    regsTotal,
+    regsUniqueMunicipalities,
+    regsWithEvidenceMunicipalities,
+    regsWithVerificationMunicipalities,
+    regsSampleMunicipalities
+  },
   stateTotals:totals,
   details:accounted
 };

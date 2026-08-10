@@ -14,6 +14,7 @@ on:
   push:
     paths:
       - 'scripts/run-next-registry-batch.mjs'
+      - 'scripts/verify-registry-batch.mjs'
       - '.github/workflows/next-registry-batch.yml'
 
 permissions:
@@ -58,5 +59,44 @@ jobs:
           git add "data/research-batches/auto/${label}.json" "docs/research-batches/auto/${label}.md"
           git diff --cached --quiet && exit 0
           git commit -m "Add ${label} registry discovery results"
+          git pull --rebase origin main
+          git push
+
+  verification:
+    needs: discovery
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Verify discovered municipalities automatically
+        env:
+          BATCH_LABEL: ${{ github.event.inputs.batch_label || 'auto-next-25' }}
+        run: node scripts/verify-registry-batch.mjs
+      - name: Verification safety assertions
+        env:
+          BATCH_LABEL: ${{ github.event.inputs.batch_label || 'auto-next-25' }}
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          const label=(process.env.BATCH_LABEL||'auto-next-25').replace(/[^a-z0-9._-]+/gi,'-').toLowerCase();
+          const x=JSON.parse(fs.readFileSync(`data/research-batches/auto/${label}-verification.json`));
+          if(x.summary.municipalities<1) throw Error('No verification records');
+          if(x.safety.publicRulesCreated!==0||x.safety.negativeLegalConclusions!==0||x.safety.legalApprovalAutomatic!==false) throw Error('Verification safety invariant failed');
+          console.log(x.summary);
+          NODE
+      - name: Commit verification results
+        env:
+          BATCH_LABEL: ${{ github.event.inputs.batch_label || 'auto-next-25' }}
+        run: |
+          label=$(echo "$BATCH_LABEL" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9._-]+/-/g')
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "data/research-batches/auto/${label}-verification.json" "docs/research-batches/auto/${label}-verification.md"
+          git diff --cached --quiet && exit 0
+          git commit -m "Add ${label} automatic verification results"
           git pull --rebase origin main
           git push

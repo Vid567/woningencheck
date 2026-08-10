@@ -4,41 +4,41 @@ Discoveryresultaten worden automatisch doorgezet naar structurele of diepe verif
 
 | Gemeente | Route | Status | Regelingskandidaten |
 | --- | --- | --- | ---: |
-| Duiven | deep | manual-legal-source-review-required | 0 |
-| Echt-Susteren | structured | targeted-review-required | 0 |
-| Edam-Volendam | structured | targeted-review-required | 1 |
-| Ede | structured | targeted-review-required | 4 |
-| Eemnes | structured | targeted-review-required | 0 |
-| Eemsdelta | structured | targeted-review-required | 0 |
-| Eersel | structured | structurally-complete-pending-legal-review | 2 |
-| Eijsden-Margraten | structured | targeted-review-required | 0 |
-| Eindhoven | structured | structurally-complete-pending-legal-review | 1 |
-| Elburg | structured | targeted-review-required | 0 |
-| Enkhuizen | deep | manual-legal-source-review-required | 0 |
-| Enschede | deep | manual-legal-source-review-required | 0 |
-| Epe | structured | targeted-review-required | 1 |
-| Ermelo | structured | structurally-complete-pending-legal-review | 3 |
-| Etten-Leur | structured | targeted-review-required | 0 |
-| De Fryske Marren | structured | targeted-review-required | 0 |
-| Geertruidenberg | structured | targeted-review-required | 0 |
-| Geldrop-Mierlo | structured | targeted-review-required | 0 |
-| Gemert-Bakel | deep | manual-legal-source-review-required | 0 |
-| Gennep | structured | targeted-review-required | 1 |
-| Gilze en Rijen | deep | manual-legal-source-review-required | 0 |
-| Goeree-Overflakkee | structured | targeted-review-required | 0 |
-| Goes | structured | targeted-review-required | 0 |
-| Goirle | structured | targeted-review-required | 0 |
-| Gooise Meren | structured | targeted-review-required | 0 |
+| Gorinchem | deep | manual-legal-source-review-required | 0 |
+| Gouda | structured | targeted-review-required | 0 |
+| Groningen | deep | manual-legal-source-review-required | 0 |
+| Gulpen-Wittem | structured | targeted-review-required | 2 |
+| Haaksbergen | deep | manual-legal-source-review-required | 0 |
+| Haarlem | structured | targeted-review-required | 3 |
+| Haarlemmermeer | deep | manual-legal-source-review-required | 0 |
+| Halderberge | structured | targeted-review-required | 0 |
+| Hardenberg | structured | targeted-review-required | 0 |
+| Harderwijk | structured | targeted-review-required | 0 |
+| Hardinxveld-Giessendam | structured | targeted-review-required | 0 |
+| Harlingen | structured | targeted-review-required | 0 |
+| Hattem | structured | targeted-review-required | 2 |
+| Heemskerk | structured | targeted-review-required | 0 |
+| Heemstede | structured | targeted-review-required | 3 |
+| Heerde | structured | targeted-review-required | 2 |
+| Heerenveen | structured | targeted-review-required | 1 |
+| Heerlen | structured | targeted-review-required | 1 |
+| Heeze-Leende | structured | structurally-complete-pending-legal-review | 1 |
+| Heiloo | structured | targeted-review-required | 0 |
+| Den Helder | structured | targeted-review-required | 0 |
+| Hellendoorn | structured | targeted-review-required | 0 |
+| Helmond | deep | manual-legal-source-review-required | 0 |
+| Hendrik-Ido-Ambacht | deep | manual-legal-source-review-required | 0 |
+| Hengelo (O.) | structured | targeted-review-required | 0 |
 
 ## Samenvatting
 
 - Gemeenten: 25
-- Structureel verwerkt: 20
-- Diep verwerkt: 5
-- Structureel compleet, juridische review nodig: 3
-- Gerichte review nodig: 17
+- Structureel verwerkt: 19
+- Diep verwerkt: 6
+- Structureel compleet, juridische review nodig: 1
+- Gerichte review nodig: 18
 - Officiële regelingskandidaat gevonden: 0
-- Handmatige juridische bronreview: 5
-- Netwerkrequests: 115
+- Handmatige juridische bronreview: 6
+- Netwerkrequests: 127
 - Netwerkerrors: 0
 - Publieke regels: 0

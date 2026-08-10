@@ -6,6 +6,7 @@ on:
     paths:
       - 'scripts/verify-batch-004-deep.mjs'
       - 'data/research-batches/batch-004-registry-recheck.json'
+      - '.github/workflows/batch-004-deep-verification.yml'
 
 permissions:
   contents: write

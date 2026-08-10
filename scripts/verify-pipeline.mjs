@@ -43,11 +43,11 @@ for(const record of regulations){
   for(const url of [record.officialInformationUrl,record.officialApplicationUrl,record.officialRegulationUrl])if(url&&!url.startsWith("https://"))fail(`${record.id}: official URL is not HTTPS`);
   if(record.officialInformationUrl && record.officialApplicationUrl && record.officialInformationUrl===record.officialApplicationUrl&&record.applicationUrlStatus!=="same-as-info-verified")fail(`${record.id}: duplicate info/application URL lacks explicit verification`);
   if(!record.verification||!record.verification.legalReview)fail(`${record.id}: verification layers missing`);
-  if(record.verification.legalReview.status==="approved")fail(`${record.id}: legal review may not be automatically approved`);
+  if(record.verification?.legalReview?.status==="approved")fail(`${record.id}: legal review may not be automatically approved`);
   if(!record.evidence?.length)fail(`${record.id}: verified claim has no evidence`);
   for(const evidence of record.evidence)if(!evidence.url?.startsWith("https://"))fail(`${record.id}: evidence metadata missing official HTTPS URL`);
   if(record.temporal?.status === "expired" && record.verification?.currentness?.status === "verified-current") fail(`${record.id}: expired record treated as current`);
-  if(record.conflictStatus!=="none-found"&&(record.verification.content.status==="verified"||record.verification.currentness.status==="verified-current"))fail(`${record.id}: conflict record marked fully verified`);
+  if(record.conflictStatus!=="none-found" && ((record.verification?.content?.status==="verified") || (record.verification?.currentness?.status==="verified-current")))fail(`${record.id}: conflict record marked fully verified`);
   for(const document of record.requiredDocuments){for(const key of ["name","requirement","description","responsibleAuthority","lastVerifiedAt","classification"])if(!document[key])fail(`${record.id}: required document metadata missing ${key}`);if(document.classification==="user-supplied-document"&&document.officialTemplateUrl)fail(`${record.id}: user-supplied document must not fabricate template URL`)}
   for(const document of record.applicationDocuments)if(!document.url?.startsWith("https://")||!document.classification||!document.lastVerifiedAt)fail(`${record.id}: application document metadata invalid`);
 }

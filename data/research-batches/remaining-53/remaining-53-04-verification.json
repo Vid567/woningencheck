@@ -1,0 +1,1147 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "remaining-53-04-verification",
+  "generatedAt": "2026-08-10T21:36:18.291Z",
+  "sourceBatch": "remaining-53-04",
+  "records": [
+    {
+      "municipalityCode": "GM0313",
+      "municipalityName": "Bunschoten",
+      "province": "Utrecht",
+      "registryHit": true,
+      "municipalSite": "https://www.bunschoten.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.bunschoten.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bunschoten.nl/verduurzamen-voor-particuliere-verhuurders",
+        "https://www.bunschoten.nl/woonruimtecommissie"
+      ],
+      "reachableCandidates": [
+        "https://www.bunschoten.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bunschoten.nl/verduurzamen-voor-particuliere-verhuurders",
+        "https://www.bunschoten.nl/woonruimtecommissie"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3242,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [],
+      "pages": [
+        {
+          "url": "https://www.bunschoten.nl/tijdelijke-verhuur-leegstaand-pand",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.bunschoten.nl/form/contactformulier/algemeen-contactformulier-voor-vragen-en-suggesties-0"
+          ],
+          "documentLinks": [
+            "https://www.bunschoten.nl/form/contactformulier/algemeen-contactformulier-voor-vragen-en-suggesties-0"
+          ]
+        },
+        {
+          "url": "https://www.bunschoten.nl/verduurzamen-voor-particuliere-verhuurders",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.bunschoten.nl/form/contactformulier/algemeen-contactformulier-voor-vragen-en-suggesties-0"
+          ],
+          "documentLinks": [
+            "https://www.bunschoten.nl/form/contactformulier/algemeen-contactformulier-voor-vragen-en-suggesties-0"
+          ]
+        },
+        {
+          "url": "https://www.bunschoten.nl/woonruimtecommissie",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR742245/1"
+          ],
+          "applicationLinks": [
+            "https://www.bunschoten.nl/form/contactformulier/algemeen-contactformulier-voor-vragen-en-suggesties-0"
+          ],
+          "documentLinks": [
+            "https://www.bunschoten.nl/form/contactformulier/algemeen-contactformulier-voor-vragen-en-suggesties-0"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [
+        "https://lokaleregelgeving.overheid.nl/CVDR742245/1"
+      ],
+      "applicationLinks": [
+        "https://www.bunschoten.nl/form/contactformulier/algemeen-contactformulier-voor-vragen-en-suggesties-0"
+      ],
+      "documentLinks": [
+        "https://www.bunschoten.nl/form/contactformulier/algemeen-contactformulier-voor-vragen-en-suggesties-0"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "structurally-complete-pending-legal-review",
+      "openChecks": [],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0214",
+      "municipalityName": "Buren",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.buren.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.buren.nl/direct-regelen/melding-ongewenst-verhuurgedrag/",
+        "https://www.buren.nl/direct-regelen/volkshuisvestingsbeleid/"
+      ],
+      "reachableCandidates": [
+        "https://www.buren.nl/direct-regelen/melding-ongewenst-verhuurgedrag/",
+        "https://www.buren.nl/direct-regelen/volkshuisvestingsbeleid/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 25115,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [],
+      "pages": [
+        {
+          "url": "https://www.buren.nl/direct-regelen/melding-ongewenst-verhuurgedrag/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": false,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.buren.nl/direct-regelen/volkshuisvestingsbeleid/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": false,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [],
+      "documentLinks": [],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": false,
+        "documents": false,
+        "exceptions": false,
+        "geographicScope": false
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "applicationRoute",
+        "documents",
+        "exceptions",
+        "geographicScope"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0502",
+      "municipalityName": "Capelle aan den IJssel",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.capelleaandenijssel.nl/#",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.capelleaandenijssel.nl/wet-goed-verhuurderschap",
+        "https://www.capelleaandenijssel.nl/verhuurder",
+        "https://www.capelleaandenijssel.nl/woonruimte-voor-ouderen",
+        "https://www.capelleaandenijssel.nl/verhuurvergunning-opkoopbescherming"
+      ],
+      "reachableCandidates": [
+        "https://www.capelleaandenijssel.nl/wet-goed-verhuurderschap",
+        "https://www.capelleaandenijssel.nl/verhuurder",
+        "https://www.capelleaandenijssel.nl/woonruimte-voor-ouderen",
+        "https://www.capelleaandenijssel.nl/verhuurvergunning-opkoopbescherming"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4187,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "good-landlord-permit",
+        "purchase-protection"
+      ],
+      "pages": [
+        {
+          "url": "https://www.capelleaandenijssel.nl/wet-goed-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.capelleaandenijssel.nl/melden-aanvragen"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.capelleaandenijssel.nl/verhuurder",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.capelleaandenijssel.nl/melden-aanvragen"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.capelleaandenijssel.nl/woonruimte-voor-ouderen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.capelleaandenijssel.nl/melden-aanvragen"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.capelleaandenijssel.nl/verhuurvergunning-opkoopbescherming",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "purchase-protection",
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.capelleaandenijssel.nl/melden-aanvragen",
+            "https://www.capelleaandenijssel.nl/contactformulier",
+            "https://eloket.ijsselgemeenten.nl/formulier/nl-NL/Capelle/scOpkoopbescherming.aspx",
+            "https://www.digid.nl/",
+            "https://eherkenning.nl/",
+            "https://eloket.ijsselgemeenten.nl/formulier/nl-NL/Capelle/scContactformulier.aspx",
+            "https://omgevingswet.overheid.nl/regels-op-de-kaart/viewer/(documenten/gemeente/rechter-paneel:document/NL.IMRO.0502.BPParapluWonen-4001/regels)?regelsandere=regels&amp;locatie=Rivierweg%20111,%202903AR%20Capelle%20aan%20den%20IJssel&amp;geodocId=nl-imro-0502-bpparapluwonen-4001&amp;session=70f2a292-429a-4f98-8b5d-f5d489b11a01"
+          ],
+          "documentLinks": [
+            "https://www.capelleaandenijssel.nl/contactformulier",
+            "https://eloket.ijsselgemeenten.nl/formulier/nl-NL/Capelle/scOpkoopbescherming.aspx",
+            "https://eloket.ijsselgemeenten.nl/formulier/nl-NL/Capelle/scContactformulier.aspx"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://www.capelleaandenijssel.nl/melden-aanvragen",
+        "https://www.capelleaandenijssel.nl/contactformulier",
+        "https://eloket.ijsselgemeenten.nl/formulier/nl-NL/Capelle/scOpkoopbescherming.aspx",
+        "https://www.digid.nl/",
+        "https://eherkenning.nl/",
+        "https://eloket.ijsselgemeenten.nl/formulier/nl-NL/Capelle/scContactformulier.aspx",
+        "https://omgevingswet.overheid.nl/regels-op-de-kaart/viewer/(documenten/gemeente/rechter-paneel:document/NL.IMRO.0502.BPParapluWonen-4001/regels)?regelsandere=regels&amp;locatie=Rivierweg%20111,%202903AR%20Capelle%20aan%20den%20IJssel&amp;geodocId=nl-imro-0502-bpparapluwonen-4001&amp;session=70f2a292-429a-4f98-8b5d-f5d489b11a01"
+      ],
+      "documentLinks": [
+        "https://www.capelleaandenijssel.nl/contactformulier",
+        "https://eloket.ijsselgemeenten.nl/formulier/nl-NL/Capelle/scOpkoopbescherming.aspx",
+        "https://eloket.ijsselgemeenten.nl/formulier/nl-NL/Capelle/scContactformulier.aspx"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0383",
+      "municipalityName": "Castricum",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.castricum.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.castricum.nl/aanvragen-en-regelen/tijdelijk-verhuur-woning/",
+        "https://www.castricum.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden/"
+      ],
+      "reachableCandidates": [
+        "https://www.castricum.nl/aanvragen-en-regelen/tijdelijk-verhuur-woning/",
+        "https://www.castricum.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2857,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [],
+      "pages": [
+        {
+          "url": "https://www.castricum.nl/aanvragen-en-regelen/tijdelijk-verhuur-woning/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.castricum.nl/aanvragen-en-regelen",
+            "https://www.castricum.nl/aanvragen-en-regelen/tijdelijk-verhuur-woning/",
+            "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=10854&amp;amp;lang=nl_nl&amp;amp;readid=content&amp;amp;url=https://www.castricum.nl/aanvragen-en-regelen/tijdelijk-verhuur-woning/",
+            "https://www.castricum.nl/fileadmin/BUCH/formulieren/verhuur/Formulier-tijdelijke-verhuur-leegstaande-woonruimte-aanvragen.pdf",
+            "https://www.castricum.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden/",
+            "https://www.facebook.com/sharer/sharer.php?u=https://www.castricum.nl/aanvragen-en-regelen/tijdelijk-verhuur-woning",
+            "https://bsky.app/intent/compose?text=https://www.castricum.nl/aanvragen-en-regelen/tijdelijk-verhuur-woning",
+            "https://www.linkedin.com/sharing/share-offsite/?url=https://www.castricum.nl/aanvragen-en-regelen/tijdelijk-verhuur-woning",
+            "https://twitter.com/intent/tweet?url=https://www.castricum.nl/aanvragen-en-regelen/tijdelijk-verhuur-woning&amp;text=Tijdelijke%20verhuur%20woning",
+            "mailto:?subject=Tijdelijke%20verhuur%20woning&amp;body=https://www.castricum.nl/aanvragen-en-regelen/tijdelijk-verhuur-woning"
+          ],
+          "documentLinks": [
+            "https://www.castricum.nl/fileadmin/BUCH/formulieren/verhuur/Formulier-tijdelijke-verhuur-leegstaande-woonruimte-aanvragen.pdf"
+          ]
+        },
+        {
+          "url": "https://www.castricum.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.castricum.nl/aanvragen-en-regelen",
+            "https://www.castricum.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden/",
+            "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=10854&amp;amp;lang=nl_nl&amp;amp;readid=content&amp;amp;url=https://www.castricum.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden/",
+            "https://www.burgerberichten.nl/buch/formulieren/d26d2dc3-9b1f-498a-b64d-ad23d2059e22/Melding-ongewenst-verhuurgedrag",
+            "https://www.facebook.com/sharer/sharer.php?u=https://www.castricum.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden",
+            "https://bsky.app/intent/compose?text=https://www.castricum.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden",
+            "https://www.linkedin.com/sharing/share-offsite/?url=https://www.castricum.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden",
+            "https://twitter.com/intent/tweet?url=https://www.castricum.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden&amp;text=Ongewenst%20verhuurgedrag%20melden",
+            "mailto:?subject=Ongewenst%20verhuurgedrag%20melden&amp;body=https://www.castricum.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden",
+            "https://wa.me/?text=https://www.castricum.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden"
+          ],
+          "documentLinks": [
+            "https://www.burgerberichten.nl/buch/formulieren/d26d2dc3-9b1f-498a-b64d-ad23d2059e22/Melding-ongewenst-verhuurgedrag"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://www.castricum.nl/aanvragen-en-regelen",
+        "https://www.castricum.nl/aanvragen-en-regelen/tijdelijk-verhuur-woning/",
+        "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=10854&amp;amp;lang=nl_nl&amp;amp;readid=content&amp;amp;url=https://www.castricum.nl/aanvragen-en-regelen/tijdelijk-verhuur-woning/",
+        "https://www.castricum.nl/fileadmin/BUCH/formulieren/verhuur/Formulier-tijdelijke-verhuur-leegstaande-woonruimte-aanvragen.pdf",
+        "https://www.castricum.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden/",
+        "https://www.facebook.com/sharer/sharer.php?u=https://www.castricum.nl/aanvragen-en-regelen/tijdelijk-verhuur-woning",
+        "https://bsky.app/intent/compose?text=https://www.castricum.nl/aanvragen-en-regelen/tijdelijk-verhuur-woning",
+        "https://www.linkedin.com/sharing/share-offsite/?url=https://www.castricum.nl/aanvragen-en-regelen/tijdelijk-verhuur-woning",
+        "https://twitter.com/intent/tweet?url=https://www.castricum.nl/aanvragen-en-regelen/tijdelijk-verhuur-woning&amp;text=Tijdelijke%20verhuur%20woning",
+        "mailto:?subject=Tijdelijke%20verhuur%20woning&amp;body=https://www.castricum.nl/aanvragen-en-regelen/tijdelijk-verhuur-woning",
+        "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=10854&amp;amp;lang=nl_nl&amp;amp;readid=content&amp;amp;url=https://www.castricum.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden/",
+        "https://www.burgerberichten.nl/buch/formulieren/d26d2dc3-9b1f-498a-b64d-ad23d2059e22/Melding-ongewenst-verhuurgedrag",
+        "https://www.facebook.com/sharer/sharer.php?u=https://www.castricum.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden",
+        "https://bsky.app/intent/compose?text=https://www.castricum.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden",
+        "https://www.linkedin.com/sharing/share-offsite/?url=https://www.castricum.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden",
+        "https://twitter.com/intent/tweet?url=https://www.castricum.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden&amp;text=Ongewenst%20verhuurgedrag%20melden",
+        "mailto:?subject=Ongewenst%20verhuurgedrag%20melden&amp;body=https://www.castricum.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden",
+        "https://wa.me/?text=https://www.castricum.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden"
+      ],
+      "documentLinks": [
+        "https://www.castricum.nl/fileadmin/BUCH/formulieren/verhuur/Formulier-tijdelijke-verhuur-leegstaande-woonruimte-aanvragen.pdf",
+        "https://www.burgerberichten.nl/buch/formulieren/d26d2dc3-9b1f-498a-b64d-ad23d2059e22/Melding-ongewenst-verhuurgedrag"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": false
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "geographicScope"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0109",
+      "municipalityName": "Coevorden",
+      "province": "Drenthe",
+      "registryHit": true,
+      "municipalSite": "https://www.coevorden.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 2368,
+      "verificationRoute": "deep",
+      "officialPublicationSearch": [
+        {
+          "query": "Coevorden huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Coevorden%20huisvestingsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Coevorden opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Coevorden%20opkoopbescherming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Coevorden kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Coevorden%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Coevorden splitsingsvergunning woningvorming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Coevorden%20splitsingsvergunning%20woningvorming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Coevorden onttrekkingsvergunning woonruimte",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Coevorden%20onttrekkingsvergunning%20woonruimte",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Coevorden leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Coevorden%20leegstandsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Coevorden verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Coevorden%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Coevorden vakantieverhuur short stay",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Coevorden%20vakantieverhuur%20short%20stay",
+          "status": 200,
+          "foundCvdr": []
+        }
+      ],
+      "officialRegulationCandidates": [],
+      "verificationStatus": "manual-legal-source-review-required",
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1706",
+      "municipalityName": "Cranendonck",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.cranendonck.nl",
+      "candidateCount": 6,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.cranendonck.nl/melding-ongewenst-verhuurgedrag-en-te-hoge-huur",
+        "https://www.cranendonck.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.cranendonck.nl/woning-splitsen",
+        "https://www.cranendonck.nl/huisvestingsvergunning",
+        "https://www.cranendonck.nl/vergoeding-huisvestingsvoorzieningen-scholen",
+        "https://www.cranendonck.nl/leegstand-melden"
+      ],
+      "reachableCandidates": [
+        "https://www.cranendonck.nl/melding-ongewenst-verhuurgedrag-en-te-hoge-huur",
+        "https://www.cranendonck.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.cranendonck.nl/woning-splitsen",
+        "https://www.cranendonck.nl/huisvestingsvergunning",
+        "https://www.cranendonck.nl/vergoeding-huisvestingsvoorzieningen-scholen",
+        "https://www.cranendonck.nl/leegstand-melden"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4195,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "dwelling-formation",
+        "housing-permit",
+        "vacancy-obligation"
+      ],
+      "pages": [
+        {
+          "url": "https://www.cranendonck.nl/melding-ongewenst-verhuurgedrag-en-te-hoge-huur",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.cranendonck.nl/tijdelijke-verhuur-leegstaand-pand",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.cranendonck.nl/images/logo/digid.svg",
+            "https://www.cranendonck.nl/images/logo/eherkenning.gif",
+            "https://www.cranendonck.nl/form/verlenging-van-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte-digid",
+            "https://www.cranendonck.nl/form/verlenging-van-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte-eherkenning"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.cranendonck.nl/woning-splitsen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "dwelling-formation"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://omgevingswet.overheid.nl/home"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.cranendonck.nl/huisvestingsvergunning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "housing-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.cranendonck.nl/vergoeding-huisvestingsvoorzieningen-scholen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.cranendonck.nl/leegstand-melden",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "vacancy-obligation"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://www.cranendonck.nl/images/logo/digid.svg",
+        "https://www.cranendonck.nl/images/logo/eherkenning.gif",
+        "https://www.cranendonck.nl/form/verlenging-van-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte-digid",
+        "https://www.cranendonck.nl/form/verlenging-van-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte-eherkenning",
+        "https://omgevingswet.overheid.nl/home"
+      ],
+      "documentLinks": [],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": false,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "documents"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0216",
+      "municipalityName": "Culemborg",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.culemborg.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 2038,
+      "verificationRoute": "deep",
+      "officialPublicationSearch": [
+        {
+          "query": "Culemborg huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Culemborg%20huisvestingsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Culemborg opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Culemborg%20opkoopbescherming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Culemborg kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Culemborg%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Culemborg splitsingsvergunning woningvorming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Culemborg%20splitsingsvergunning%20woningvorming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Culemborg onttrekkingsvergunning woonruimte",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Culemborg%20onttrekkingsvergunning%20woonruimte",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Culemborg leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Culemborg%20leegstandsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Culemborg verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Culemborg%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Culemborg vakantieverhuur short stay",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Culemborg%20vakantieverhuur%20short%20stay",
+          "status": 200,
+          "foundCvdr": []
+        }
+      ],
+      "officialRegulationCandidates": [],
+      "verificationStatus": "manual-legal-source-review-required",
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0148",
+      "municipalityName": "Dalfsen",
+      "province": "Overijssel",
+      "registryHit": true,
+      "municipalSite": "https://www.dalfsen.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 225,
+      "verificationRoute": "deep",
+      "officialPublicationSearch": [
+        {
+          "query": "Dalfsen huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Dalfsen%20huisvestingsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Dalfsen opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Dalfsen%20opkoopbescherming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Dalfsen kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Dalfsen%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Dalfsen splitsingsvergunning woningvorming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Dalfsen%20splitsingsvergunning%20woningvorming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Dalfsen onttrekkingsvergunning woonruimte",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Dalfsen%20onttrekkingsvergunning%20woonruimte",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Dalfsen leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Dalfsen%20leegstandsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Dalfsen verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Dalfsen%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Dalfsen vakantieverhuur short stay",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Dalfsen%20vakantieverhuur%20short%20stay",
+          "status": 200,
+          "foundCvdr": []
+        }
+      ],
+      "officialRegulationCandidates": [],
+      "verificationStatus": "manual-legal-source-review-required",
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1891",
+      "municipalityName": "Dantumadiel",
+      "province": "Fryslân",
+      "registryHit": true,
+      "municipalSite": "https://www.dantumadiel.frl",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.dantumadiel.frl/meldpunt-ongewenst-verhuurderschap",
+        "https://www.dantumadiel.frl/meldpunt-verhuurderschap",
+        "https://www.dantumadiel.frl/inspraak-ontwerp-huisvestingsverordening-urgent-woningzoekenden-fryslan-urgentieverordening",
+        "https://www.dantumadiel.frl/verhuur-van-te-koop-staande-leegstaande-woning-0",
+        "https://www.dantumadiel.frl/volkshuisvestingsfonds"
+      ],
+      "reachableCandidates": [
+        "https://www.dantumadiel.frl/meldpunt-ongewenst-verhuurderschap",
+        "https://www.dantumadiel.frl/meldpunt-verhuurderschap",
+        "https://www.dantumadiel.frl/inspraak-ontwerp-huisvestingsverordening-urgent-woningzoekenden-fryslan-urgentieverordening",
+        "https://www.dantumadiel.frl/verhuur-van-te-koop-staande-leegstaande-woning-0",
+        "https://www.dantumadiel.frl/volkshuisvestingsfonds"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3998,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [],
+      "pages": [
+        {
+          "url": "https://www.dantumadiel.frl/meldpunt-ongewenst-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": false,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.dantumadiel.frl/meldpunt-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.dantumadiel.frl/inspraak-ontwerp-huisvestingsverordening-urgent-woningzoekenden-fryslan-urgentieverordening",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": [
+            "https://www.dantumadiel.frl/sites/default/files/2025-03/ontwerp-huisvestingsverordening-urgent-woningzoekenden-fryslan-urgentieverordening.pdf"
+          ]
+        },
+        {
+          "url": "https://www.dantumadiel.frl/verhuur-van-te-koop-staande-leegstaande-woning-0",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": false,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.dantumadiel.frl/volkshuisvestingsfonds",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [],
+      "documentLinks": [
+        "https://www.dantumadiel.frl/sites/default/files/2025-03/ontwerp-huisvestingsverordening-urgent-woningzoekenden-fryslan-urgentieverordening.pdf"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": false,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "applicationRoute"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0503",
+      "municipalityName": "Delft",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.delft.nl",
+      "candidateCount": 10,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.delft.nl/voorwaarden-voor-verhuur",
+        "https://www.delft.nl/ontheffing-voor-onttrekken-woonruimte",
+        "https://www.delft.nl/hospitaverhuur",
+        "https://www.delft.nl/ongewenst-verhuurgedrag-melden",
+        "https://www.delft.nl/vergunning-voor-woningvorming",
+        "https://www.delft.nl/omzettingsvergunning-kamerverhuur",
+        "https://www.delft.nl/tijdelijke-verhuur-bij-leegstand",
+        "https://www.delft.nl/onttrekkingsvergunning",
+        "https://www.delft.nl/huisvestingsvergunning",
+        "https://www.delft.nl/splitsingsvergunning"
+      ],
+      "reachableCandidates": [
+        "https://www.delft.nl/voorwaarden-voor-verhuur",
+        "https://www.delft.nl/ontheffing-voor-onttrekken-woonruimte",
+        "https://www.delft.nl/hospitaverhuur",
+        "https://www.delft.nl/ongewenst-verhuurgedrag-melden",
+        "https://www.delft.nl/vergunning-voor-woningvorming",
+        "https://www.delft.nl/omzettingsvergunning-kamerverhuur"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4223,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "withdrawal-merger",
+        "dwelling-formation",
+        "room-rental"
+      ],
+      "pages": [
+        {
+          "url": "https://www.delft.nl/voorwaarden-voor-verhuur",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.delft.nl/ontheffing-voor-onttrekken-woonruimte",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "withdrawal-merger"
+          ],
+          "signals": {
+            "exceptions": true,
+            "documents": false,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR626682/2"
+          ],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.delft.nl/hospitaverhuur",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.delft.nl/ongewenst-verhuurgedrag-melden",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.delft.nl/vergunning-voor-woningvorming",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "dwelling-formation"
+          ],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR626682/2"
+          ],
+          "applicationLinks": [
+            "https://www.delft.nl/sites/default/files/2021-06/Machtigingsformulier-vergunning-woning-verhuren.pdf"
+          ],
+          "documentLinks": [
+            "https://www.delft.nl/sites/default/files/2021-06/Machtigingsformulier-vergunning-woning-verhuren.pdf"
+          ]
+        },
+        {
+          "url": "https://www.delft.nl/omzettingsvergunning-kamerverhuur",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "room-rental"
+          ],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR626682/2"
+          ],
+          "applicationLinks": [
+            "https://www.delft.nl/sites/default/files/2021-06/Machtigingsformulier-vergunning-woning-verhuren.pdf"
+          ],
+          "documentLinks": [
+            "https://www.delft.nl/sites/default/files/2021-06/Machtigingsformulier-vergunning-woning-verhuren.pdf"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [
+        "https://lokaleregelgeving.overheid.nl/CVDR626682/2"
+      ],
+      "applicationLinks": [
+        "https://www.delft.nl/sites/default/files/2021-06/Machtigingsformulier-vergunning-woning-verhuren.pdf"
+      ],
+      "documentLinks": [
+        "https://www.delft.nl/sites/default/files/2021-06/Machtigingsformulier-vergunning-woning-verhuren.pdf"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "structurally-complete-pending-legal-review",
+      "openChecks": [],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    }
+  ],
+  "summary": {
+    "municipalities": 10,
+    "structurallyComplete": 2,
+    "targetedReviewRequired": 5,
+    "officialRegulationCandidateFound": 0,
+    "manualLegalSourceReviewRequired": 3,
+    "networkRequests": 126,
+    "networkErrors": 0,
+    "maxConcurrency": 5
+  },
+  "safety": {
+    "legalApprovalAutomatic": false,
+    "automaticPublication": false,
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0,
+    "absenceOfEvidenceIsNotEvidenceOfAbsence": true
+  }
+}

@@ -1,0 +1,223 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "remaining-53-04",
+  "generatedAt": "2026-08-10T21:36:18.290Z",
+  "records": [
+    {
+      "municipalityCode": "GM0313",
+      "municipalityName": "Bunschoten",
+      "province": "Utrecht",
+      "registryHit": true,
+      "municipalSite": "https://www.bunschoten.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.bunschoten.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bunschoten.nl/verduurzamen-voor-particuliere-verhuurders",
+        "https://www.bunschoten.nl/woonruimtecommissie"
+      ],
+      "reachableCandidates": [
+        "https://www.bunschoten.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bunschoten.nl/verduurzamen-voor-particuliere-verhuurders",
+        "https://www.bunschoten.nl/woonruimtecommissie"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3242
+    },
+    {
+      "municipalityCode": "GM0214",
+      "municipalityName": "Buren",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.buren.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.buren.nl/direct-regelen/melding-ongewenst-verhuurgedrag/",
+        "https://www.buren.nl/direct-regelen/volkshuisvestingsbeleid/"
+      ],
+      "reachableCandidates": [
+        "https://www.buren.nl/direct-regelen/melding-ongewenst-verhuurgedrag/",
+        "https://www.buren.nl/direct-regelen/volkshuisvestingsbeleid/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 25115
+    },
+    {
+      "municipalityCode": "GM0502",
+      "municipalityName": "Capelle aan den IJssel",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.capelleaandenijssel.nl/#",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.capelleaandenijssel.nl/wet-goed-verhuurderschap",
+        "https://www.capelleaandenijssel.nl/verhuurder",
+        "https://www.capelleaandenijssel.nl/woonruimte-voor-ouderen",
+        "https://www.capelleaandenijssel.nl/verhuurvergunning-opkoopbescherming"
+      ],
+      "reachableCandidates": [
+        "https://www.capelleaandenijssel.nl/wet-goed-verhuurderschap",
+        "https://www.capelleaandenijssel.nl/verhuurder",
+        "https://www.capelleaandenijssel.nl/woonruimte-voor-ouderen",
+        "https://www.capelleaandenijssel.nl/verhuurvergunning-opkoopbescherming"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4187
+    },
+    {
+      "municipalityCode": "GM0383",
+      "municipalityName": "Castricum",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.castricum.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.castricum.nl/aanvragen-en-regelen/tijdelijk-verhuur-woning/",
+        "https://www.castricum.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden/"
+      ],
+      "reachableCandidates": [
+        "https://www.castricum.nl/aanvragen-en-regelen/tijdelijk-verhuur-woning/",
+        "https://www.castricum.nl/aanvragen-en-regelen/ongewenst-verhuurgedrag-melden/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2857
+    },
+    {
+      "municipalityCode": "GM0109",
+      "municipalityName": "Coevorden",
+      "province": "Drenthe",
+      "registryHit": true,
+      "municipalSite": "https://www.coevorden.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 2368
+    },
+    {
+      "municipalityCode": "GM1706",
+      "municipalityName": "Cranendonck",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.cranendonck.nl",
+      "candidateCount": 6,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.cranendonck.nl/melding-ongewenst-verhuurgedrag-en-te-hoge-huur",
+        "https://www.cranendonck.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.cranendonck.nl/woning-splitsen",
+        "https://www.cranendonck.nl/huisvestingsvergunning",
+        "https://www.cranendonck.nl/vergoeding-huisvestingsvoorzieningen-scholen",
+        "https://www.cranendonck.nl/leegstand-melden"
+      ],
+      "reachableCandidates": [
+        "https://www.cranendonck.nl/melding-ongewenst-verhuurgedrag-en-te-hoge-huur",
+        "https://www.cranendonck.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.cranendonck.nl/woning-splitsen",
+        "https://www.cranendonck.nl/huisvestingsvergunning",
+        "https://www.cranendonck.nl/vergoeding-huisvestingsvoorzieningen-scholen",
+        "https://www.cranendonck.nl/leegstand-melden"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4195
+    },
+    {
+      "municipalityCode": "GM0216",
+      "municipalityName": "Culemborg",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.culemborg.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 2038
+    },
+    {
+      "municipalityCode": "GM0148",
+      "municipalityName": "Dalfsen",
+      "province": "Overijssel",
+      "registryHit": true,
+      "municipalSite": "https://www.dalfsen.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 225
+    },
+    {
+      "municipalityCode": "GM1891",
+      "municipalityName": "Dantumadiel",
+      "province": "Fryslân",
+      "registryHit": true,
+      "municipalSite": "https://www.dantumadiel.frl",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.dantumadiel.frl/meldpunt-ongewenst-verhuurderschap",
+        "https://www.dantumadiel.frl/meldpunt-verhuurderschap",
+        "https://www.dantumadiel.frl/inspraak-ontwerp-huisvestingsverordening-urgent-woningzoekenden-fryslan-urgentieverordening",
+        "https://www.dantumadiel.frl/verhuur-van-te-koop-staande-leegstaande-woning-0",
+        "https://www.dantumadiel.frl/volkshuisvestingsfonds"
+      ],
+      "reachableCandidates": [
+        "https://www.dantumadiel.frl/meldpunt-ongewenst-verhuurderschap",
+        "https://www.dantumadiel.frl/meldpunt-verhuurderschap",
+        "https://www.dantumadiel.frl/inspraak-ontwerp-huisvestingsverordening-urgent-woningzoekenden-fryslan-urgentieverordening",
+        "https://www.dantumadiel.frl/verhuur-van-te-koop-staande-leegstaande-woning-0",
+        "https://www.dantumadiel.frl/volkshuisvestingsfonds"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3998
+    },
+    {
+      "municipalityCode": "GM0503",
+      "municipalityName": "Delft",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.delft.nl",
+      "candidateCount": 10,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.delft.nl/voorwaarden-voor-verhuur",
+        "https://www.delft.nl/ontheffing-voor-onttrekken-woonruimte",
+        "https://www.delft.nl/hospitaverhuur",
+        "https://www.delft.nl/ongewenst-verhuurgedrag-melden",
+        "https://www.delft.nl/vergunning-voor-woningvorming",
+        "https://www.delft.nl/omzettingsvergunning-kamerverhuur",
+        "https://www.delft.nl/tijdelijke-verhuur-bij-leegstand",
+        "https://www.delft.nl/onttrekkingsvergunning",
+        "https://www.delft.nl/huisvestingsvergunning",
+        "https://www.delft.nl/splitsingsvergunning"
+      ],
+      "reachableCandidates": [
+        "https://www.delft.nl/voorwaarden-voor-verhuur",
+        "https://www.delft.nl/ontheffing-voor-onttrekken-woonruimte",
+        "https://www.delft.nl/hospitaverhuur",
+        "https://www.delft.nl/ongewenst-verhuurgedrag-melden",
+        "https://www.delft.nl/vergunning-voor-woningvorming",
+        "https://www.delft.nl/omzettingsvergunning-kamerverhuur"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4223
+    }
+  ],
+  "summary": {
+    "municipalities": 10,
+    "registryHits": 10,
+    "networkRequests": 126,
+    "networkErrors": 0,
+    "maxConcurrency": 5
+  },
+  "safety": {
+    "discoveryIsNotLegalVerification": true,
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0
+  }
+}

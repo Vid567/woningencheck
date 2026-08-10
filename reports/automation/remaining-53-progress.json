@@ -1,52 +1,12 @@
 {
-  "generatedAt": "2026-08-10T21:35:48.397Z",
+  "generatedAt": "2026-08-10T21:36:18.293Z",
   "originMainEvidence": {
     "autoVerificationFiles": 11
   },
-  "initialProcessed": 309,
-  "processedAfterBatch": 319,
-  "remainingCount": 23,
+  "initialProcessed": 319,
+  "processedAfterBatch": 329,
+  "remainingCount": 13,
   "remainingMunicipalities": [
-    {
-      "municipalityCode": "GM0313",
-      "municipalityName": "Bunschoten"
-    },
-    {
-      "municipalityCode": "GM0214",
-      "municipalityName": "Buren"
-    },
-    {
-      "municipalityCode": "GM0502",
-      "municipalityName": "Capelle aan den IJssel"
-    },
-    {
-      "municipalityCode": "GM0383",
-      "municipalityName": "Castricum"
-    },
-    {
-      "municipalityCode": "GM0109",
-      "municipalityName": "Coevorden"
-    },
-    {
-      "municipalityCode": "GM1706",
-      "municipalityName": "Cranendonck"
-    },
-    {
-      "municipalityCode": "GM0216",
-      "municipalityName": "Culemborg"
-    },
-    {
-      "municipalityCode": "GM0148",
-      "municipalityName": "Dalfsen"
-    },
-    {
-      "municipalityCode": "GM1891",
-      "municipalityName": "Dantumadiel"
-    },
-    {
-      "municipalityCode": "GM0503",
-      "municipalityName": "Delft"
-    },
     {
       "municipalityCode": "GM0762",
       "municipalityName": "Deurne"
@@ -100,15 +60,15 @@
       "municipalityName": "Druten"
     }
   ],
-  "lastBatch": "remaining-53-03",
+  "lastBatch": "remaining-53-04",
   "lastBatchSummary": {
     "municipalities": 10,
-    "structurallyComplete": 0,
-    "targetedReviewRequired": 8,
+    "structurallyComplete": 2,
+    "targetedReviewRequired": 5,
     "officialRegulationCandidateFound": 0,
-    "manualLegalSourceReviewRequired": 2,
-    "networkRequests": 124,
-    "networkErrors": 3,
+    "manualLegalSourceReviewRequired": 3,
+    "networkRequests": 126,
+    "networkErrors": 0,
     "maxConcurrency": 5
   },
   "safety": {

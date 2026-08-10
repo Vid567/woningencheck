@@ -1110,7 +1110,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM0312",
@@ -1125,7 +1130,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM0313",
@@ -1140,7 +1150,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM0214",
@@ -1155,7 +1170,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM0502",
@@ -1170,7 +1190,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM0383",
@@ -1185,7 +1210,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM0109",
@@ -1200,7 +1230,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM1706",
@@ -1215,7 +1250,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM0216",
@@ -1230,7 +1270,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM0148",
@@ -1245,7 +1290,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM1891",
@@ -1260,7 +1310,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM0503",
@@ -1275,7 +1330,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM0762",
@@ -1290,7 +1350,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM0150",
@@ -1305,7 +1370,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM0384",
@@ -1320,7 +1390,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM1980",
@@ -1335,7 +1410,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM1774",
@@ -1350,7 +1430,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM0221",
@@ -1365,7 +1450,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM0222",
@@ -1380,7 +1470,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM0766",
@@ -1395,7 +1490,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM0505",
@@ -1410,7 +1510,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM0498",
@@ -1425,7 +1530,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM1719",
@@ -1440,7 +1550,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM0303",
@@ -1455,7 +1570,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM0225",
@@ -1470,7 +1590,12 @@
       "unresolvedQuestions": [],
       "conflicts": [],
       "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "discoveryStatus": "discovery-complete",
+      "discoveryTier": 4,
+      "verificationRoute": "deep-verification-needed",
+      "discoveryBatch": "batch-005-registry-discovery",
+      "discoveryCheckedAt": "2026-08-10"
     },
     {
       "municipalityCode": "GM0226",

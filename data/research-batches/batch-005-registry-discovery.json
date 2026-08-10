@@ -1,0 +1,966 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "batch-005-registry-discovery",
+  "generatedAt": "2026-08-10T07:56:28.223Z",
+  "startedAt": "2026-08-10T07:56:22.489Z",
+  "registry": {
+    "path": "data/source-registry/bronregister-342.json",
+    "generatedAt": "2026-08-10T07:49:02.125Z",
+    "municipalityCount": 342,
+    "selectedRegistryHits": 25
+  },
+  "selection": {
+    "count": 25,
+    "untouchedOnly": true,
+    "municipality26Processed": false
+  },
+  "records": [
+    {
+      "queuePosition": 1,
+      "municipalityCode": "GM0899",
+      "municipalityName": "Brunssum",
+      "province": "Limburg",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.brunssum.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.brunssum.nl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 200,
+          "reachable": true,
+          "finalUrl": "https://www.brunssum.nl/",
+          "durationMs": 823
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 823
+    },
+    {
+      "queuePosition": 2,
+      "municipalityCode": "GM0312",
+      "municipalityName": "Bunnik",
+      "province": "Utrecht",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.bunnik.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.bunnik.nl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 200,
+          "reachable": true,
+          "finalUrl": "https://www.bunnik.nl/",
+          "durationMs": 764
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 765
+    },
+    {
+      "queuePosition": 3,
+      "municipalityCode": "GM0313",
+      "municipalityName": "Bunschoten",
+      "province": "Utrecht",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.bunschoten.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.bunschoten.nl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 200,
+          "reachable": true,
+          "finalUrl": "https://www.bunschoten.nl/",
+          "durationMs": 1077
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 1077
+    },
+    {
+      "queuePosition": 4,
+      "municipalityCode": "GM0214",
+      "municipalityName": "Buren",
+      "province": "Gelderland",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.buren.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.buren.nl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 200,
+          "reachable": true,
+          "finalUrl": "https://www.buren.nl/",
+          "durationMs": 1285
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 1285
+    },
+    {
+      "queuePosition": 5,
+      "municipalityCode": "GM0502",
+      "municipalityName": "Capelle aan den IJssel",
+      "province": "Zuid-Holland",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.capelleaandenijssel.nl/#",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.capelleaandenijssel.nl/#",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 200,
+          "reachable": true,
+          "finalUrl": "https://www.capelleaandenijssel.nl/",
+          "durationMs": 1264
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 1264
+    },
+    {
+      "queuePosition": 6,
+      "municipalityCode": "GM0383",
+      "municipalityName": "Castricum",
+      "province": "Noord-Holland",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.castricum.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.castricum.nl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 200,
+          "reachable": true,
+          "finalUrl": "https://www.castricum.nl/",
+          "durationMs": 781
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 781
+    },
+    {
+      "queuePosition": 7,
+      "municipalityCode": "GM0109",
+      "municipalityName": "Coevorden",
+      "province": "Drenthe",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.coevorden.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.coevorden.nl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 403,
+          "reachable": false,
+          "finalUrl": "https://www.coevorden.nl/",
+          "durationMs": 1108
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 1108
+    },
+    {
+      "queuePosition": 8,
+      "municipalityCode": "GM1706",
+      "municipalityName": "Cranendonck",
+      "province": "Noord-Brabant",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.cranendonck.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.cranendonck.nl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 200,
+          "reachable": true,
+          "finalUrl": "https://www.cranendonck.nl/",
+          "durationMs": 798
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 798
+    },
+    {
+      "queuePosition": 9,
+      "municipalityCode": "GM0216",
+      "municipalityName": "Culemborg",
+      "province": "Gelderland",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.culemborg.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.culemborg.nl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 403,
+          "reachable": false,
+          "finalUrl": "https://www.culemborg.nl/",
+          "durationMs": 705
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 705
+    },
+    {
+      "queuePosition": 10,
+      "municipalityCode": "GM0148",
+      "municipalityName": "Dalfsen",
+      "province": "Overijssel",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.dalfsen.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.dalfsen.nl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 403,
+          "reachable": false,
+          "finalUrl": "https://www.dalfsen.nl/",
+          "durationMs": 687
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 687
+    },
+    {
+      "queuePosition": 11,
+      "municipalityCode": "GM1891",
+      "municipalityName": "Dantumadiel",
+      "province": "Fryslân",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.dantumadiel.frl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.dantumadiel.frl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 200,
+          "reachable": true,
+          "finalUrl": "https://www.dantumadiel.frl/",
+          "durationMs": 723
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 723
+    },
+    {
+      "queuePosition": 12,
+      "municipalityCode": "GM0503",
+      "municipalityName": "Delft",
+      "province": "Zuid-Holland",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.delft.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.delft.nl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 200,
+          "reachable": true,
+          "finalUrl": "https://www.delft.nl/",
+          "durationMs": 569
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 569
+    },
+    {
+      "queuePosition": 13,
+      "municipalityCode": "GM0762",
+      "municipalityName": "Deurne",
+      "province": "Noord-Brabant",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.deurne.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.deurne.nl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 200,
+          "reachable": true,
+          "finalUrl": "https://www.deurne.nl/",
+          "durationMs": 1207
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 1207
+    },
+    {
+      "queuePosition": 14,
+      "municipalityCode": "GM0150",
+      "municipalityName": "Deventer",
+      "province": "Overijssel",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.deventer.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.deventer.nl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 200,
+          "reachable": true,
+          "finalUrl": "https://www.deventer.nl/",
+          "durationMs": 756
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 756
+    },
+    {
+      "queuePosition": 15,
+      "municipalityCode": "GM0384",
+      "municipalityName": "Diemen",
+      "province": "Noord-Holland",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.diemen.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.diemen.nl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 200,
+          "reachable": true,
+          "finalUrl": "https://www.diemen.nl/",
+          "durationMs": 869
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 869
+    },
+    {
+      "queuePosition": 16,
+      "municipalityCode": "GM1980",
+      "municipalityName": "Dijk en Waard",
+      "province": "Noord-Holland",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.dijkenwaard.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.dijkenwaard.nl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 200,
+          "reachable": true,
+          "finalUrl": "https://www.dijkenwaard.nl/",
+          "durationMs": 1059
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 1059
+    },
+    {
+      "queuePosition": 17,
+      "municipalityCode": "GM1774",
+      "municipalityName": "Dinkelland",
+      "province": "Overijssel",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.dinkelland.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.dinkelland.nl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 200,
+          "reachable": true,
+          "finalUrl": "https://www.dinkelland.nl/",
+          "durationMs": 859
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 859
+    },
+    {
+      "queuePosition": 18,
+      "municipalityCode": "GM0221",
+      "municipalityName": "Doesburg",
+      "province": "Gelderland",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.doesburg.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.doesburg.nl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 200,
+          "reachable": true,
+          "finalUrl": "https://www.doesburg.nl/",
+          "durationMs": 936
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 936
+    },
+    {
+      "queuePosition": 19,
+      "municipalityCode": "GM0222",
+      "municipalityName": "Doetinchem",
+      "province": "Gelderland",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.doetinchem.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.doetinchem.nl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 200,
+          "reachable": true,
+          "finalUrl": "https://www.doetinchem.nl/",
+          "durationMs": 1093
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 1093
+    },
+    {
+      "queuePosition": 20,
+      "municipalityCode": "GM0766",
+      "municipalityName": "Dongen",
+      "province": "Noord-Brabant",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.dongen.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.dongen.nl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 200,
+          "reachable": true,
+          "finalUrl": "https://www.dongen.nl/",
+          "durationMs": 1173
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 1173
+    },
+    {
+      "queuePosition": 21,
+      "municipalityCode": "GM0505",
+      "municipalityName": "Dordrecht",
+      "province": "Zuid-Holland",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.dordrecht.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.dordrecht.nl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 200,
+          "reachable": true,
+          "finalUrl": "https://cms.dordrecht.nl/",
+          "durationMs": 1195
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 1195
+    },
+    {
+      "queuePosition": 22,
+      "municipalityCode": "GM0498",
+      "municipalityName": "Drechterland",
+      "province": "Noord-Holland",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.drechterland.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.drechterland.nl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 200,
+          "reachable": true,
+          "finalUrl": "https://www.drechterland.nl/",
+          "durationMs": 1691
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 1691
+    },
+    {
+      "queuePosition": 23,
+      "municipalityCode": "GM1719",
+      "municipalityName": "Drimmelen",
+      "province": "Noord-Brabant",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.drimmelen.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.drimmelen.nl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 200,
+          "reachable": true,
+          "finalUrl": "https://drimmelen.nl/",
+          "durationMs": 1356
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 1356
+    },
+    {
+      "queuePosition": 24,
+      "municipalityCode": "GM0303",
+      "municipalityName": "Dronten",
+      "province": "Flevoland",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.dronten.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.dronten.nl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 200,
+          "reachable": true,
+          "finalUrl": "https://www.dronten.nl/",
+          "durationMs": 1150
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 1150
+    },
+    {
+      "queuePosition": 25,
+      "municipalityCode": "GM0225",
+      "municipalityName": "Druten",
+      "province": "Gelderland",
+      "registryStatus": "registry-populated",
+      "registrySourceCount": 1,
+      "candidatePermitTypes": [],
+      "discoveryStatus": "discovery-complete",
+      "researchStatus": "not-started",
+      "verificationRoute": "deep-verification-needed",
+      "sourceCandidates": [
+        {
+          "url": "https://www.druten.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "liveChecks": [
+        {
+          "url": "https://www.druten.nl",
+          "sourceClass": "municipal-site",
+          "official": true,
+          "status": 200,
+          "reachable": true,
+          "finalUrl": "https://www.druten.nl/",
+          "durationMs": 1390
+        }
+      ],
+      "reachableSubstantiveCount": 0,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false,
+      "durationMs": 1390
+    }
+  ],
+  "triage": {
+    "structuredVerification": [],
+    "deepVerificationNeeded": [
+      "GM0899",
+      "GM0312",
+      "GM0313",
+      "GM0214",
+      "GM0502",
+      "GM0383",
+      "GM0109",
+      "GM1706",
+      "GM0216",
+      "GM0148",
+      "GM1891",
+      "GM0503",
+      "GM0762",
+      "GM0150",
+      "GM0384",
+      "GM1980",
+      "GM1774",
+      "GM0221",
+      "GM0222",
+      "GM0766",
+      "GM0505",
+      "GM0498",
+      "GM1719",
+      "GM0303",
+      "GM0225"
+    ]
+  },
+  "findings": [],
+  "verifiedFindings": [],
+  "publicRulesCreated": 0,
+  "safety": {
+    "discoveryIsNotLegalVerification": true,
+    "negativeLegalConclusions": 0,
+    "publicRulesCreated": 0,
+    "boundedConcurrency": 5,
+    "sourceRegistryRequired": true
+  },
+  "performance": {
+    "durationMs": 5734,
+    "networkRequests": 25,
+    "errors": 0,
+    "maxConcurrency": 5
+  },
+  "finalRecommendation": "CONTINUE REGISTRY-BACKED DISCOVERY; SEND STRUCTURED CASES TO VERIFICATION AND PARK DEEP CASES SEPARATELY"
+}

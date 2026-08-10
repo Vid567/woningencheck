@@ -1,4 +1,5 @@
 name: Process remaining 53 municipalities
+run-name: Process remaining 53 municipalities — checkpointed run
 
 on:
   push:

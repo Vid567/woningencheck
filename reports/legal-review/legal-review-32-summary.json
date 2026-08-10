@@ -1,0 +1,24 @@
+{
+  "generatedAt": "2026-08-10T11:25:37.584Z",
+  "municipalities": 32,
+  "municipalitiesWithCurrentRelevantRegulations": 23,
+  "currentRelevantRegulations": 34,
+  "totalOfficialCandidatesChecked": 54,
+  "statusCounts": {
+    "current-official-regulations-found-human-review-required": 23,
+    "official-source-review-required": 3,
+    "official-regulations-found-validity-review-required": 6
+  },
+  "networkRequests": 310,
+  "networkErrors": 0,
+  "retries": 0,
+  "maxConcurrency": 4,
+  "safety": {
+    "researchOnly": true,
+    "legalApprovalAutomatic": false,
+    "automaticPublication": false,
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0,
+    "absenceOfEvidenceIsNotEvidenceOfAbsence": true
+  }
+}

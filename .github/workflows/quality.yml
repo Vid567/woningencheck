@@ -27,6 +27,20 @@ jobs:
       - run: node scripts/test-batch-004-hybrid.mjs
       - run: node scripts/test-national-discovery.mjs
       - run: node scripts/verify-dynamic-parameters.mjs
+      - name: Run automation selftest
+        run: |
+          node scripts/automation/selftest.mjs
+      - name: Run authoritative accounting
+        run: |
+          node scripts/automation/accounting.mjs
+      - name: Upload automation artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: automation-selftest-accounting-${{ github.run_number }}
+          path: |
+            reports/automation/
+            artifacts/selftest/
+          if-no-files-found: ignore
       - uses: actions/setup-python@v5
         with: {python-version: '3.12'}
       - run: pip install jsonschema openpyxl

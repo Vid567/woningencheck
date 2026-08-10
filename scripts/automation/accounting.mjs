@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import {execSync} from 'node:child_process';
 import {normalizeOutcome, normalizeRoute} from './status-normalize.mjs';
 
 const R=path=>JSON.parse(fs.readFileSync(path,'utf8'));
@@ -6,8 +7,29 @@ const W=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n');
 
 const municipalities=R('data/municipalities-2026.json').municipalities.map(m=>m.code);
 const research=R('data/research-status.json').records;
-const regs=R('data/regulations.json').records;
+let regs = R('data/regulations.json').records;
 const batchFiles=fs.readdirSync('data/research-batches').filter(n=>n.endsWith('.json')).map(n=>({name:n,content:R('data/research-batches/'+n)}));
+
+// If the current branch's regulations appear incomplete, attempt to merge persisted regulations from origin/main
+try{
+  const MIN_EXPECTED_REGS = 200; // heuristic: nationwide should have many persisted regs
+  if(!Array.isArray(regs) || regs.length < MIN_EXPECTED_REGS){
+    try{
+      // fetch main (shallow) and read the file from origin/main
+      execSync('git fetch origin main --depth=1', {stdio:['ignore','ignore','ignore']});
+      const mainRaw = execSync('git show origin/main:data/regulations.json', {encoding:'utf8'});
+      const mainRegs = JSON.parse(mainRaw).records || [];
+      // merge by id: prefer branch regs, but include records from main not present in branch
+      const byId = new Map();
+      for(const r of mainRegs) if(r && r.id) byId.set(r.id,r);
+      for(const r of regs) if(r && r.id) byId.set(r.id,r);
+      regs = Array.from(byId.values());
+      console.log(`Merged regulations: branch had ${regs.length}, main provided ${mainRegs.length}`);
+    }catch(err){
+      console.warn('Could not fetch/merge origin/main regulations:',err.message);
+    }
+  }
+}catch(e){console.warn('Regulations merge check failed:',e.message)}
 
 // helper: determine if municipality has persisted verification evidence
 function hasPersistedVerification(municipalityCode){

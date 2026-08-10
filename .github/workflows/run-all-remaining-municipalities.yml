@@ -1,0 +1,88 @@
+name: Run all remaining municipalities
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: 'Municipalities per batch (1-50)'
+        required: false
+        default: '25'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: all-remaining-municipalities
+  cancel-in-progress: false
+
+jobs:
+  process-all:
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Process every remaining municipality in safe batches
+        env:
+          BATCH_SIZE: ${{ github.event.inputs.batch_size || '25' }}
+        run: |
+          set -euo pipefail
+          mkdir -p reports/automation
+          processed_batches=0
+          while true; do
+            remaining=$(node - <<'NODE'
+          const fs=require('fs');
+          const municipalities=JSON.parse(fs.readFileSync('data/municipalities-2026.json')).municipalities;
+          const status=JSON.parse(fs.readFileSync('data/research-status.json'));
+          const processed=new Set();
+          for(const p of ['data/research-batches/batch-001.json','data/research-batches/batch-002.json','data/research-batches/batch-003.json','data/research-batches/batch-004-hybrid.json','data/research-batches/batch-005-registry-discovery.json']){
+            try{const x=JSON.parse(fs.readFileSync(p));for(const r of (x.municipalities||x.records||[]))processed.add(r.municipalityCode)}catch{}
+          }
+          try{for(const n of fs.readdirSync('data/research-batches/auto').filter(n=>n.endsWith('.json')&&!n.endsWith('-verification.json'))){const x=JSON.parse(fs.readFileSync('data/research-batches/auto/'+n));for(const r of (x.records||[]))processed.add(r.municipalityCode)}}catch{}
+          const sm=new Map((status.records||[]).map(r=>[r.municipalityCode,r]));
+          const q=municipalities.filter(m=>!processed.has(m.code)&&(sm.get(m.code)?.researchStatus||sm.get(m.code)?.status||'not-started')==='not-started');
+          process.stdout.write(String(q.length));
+          NODE
+          )
+            echo "Remaining municipalities: $remaining"
+            if [ "$remaining" -eq 0 ]; then break; fi
+            processed_batches=$((processed_batches+1))
+            label=$(printf 'auto-national-%02d' "$processed_batches")
+            echo "Starting $label"
+            BATCH_LABEL="$label" BATCH_SIZE="$BATCH_SIZE" ALLOW_EMPTY=true node scripts/run-next-registry-batch.mjs
+            BATCH_LABEL="$label" node scripts/verify-registry-batch.mjs
+            node - <<NODE
+          const fs=require('fs');
+          const label='$label';
+          const d=JSON.parse(fs.readFileSync(`data/research-batches/auto/${label}.json`));
+          const v=JSON.parse(fs.readFileSync(`data/research-batches/auto/${label}-verification.json`));
+          if(d.summary.registryHits!==d.records.length) throw Error('Registry coverage gate failed');
+          if(d.safety.publicRulesCreated!==0||d.safety.negativeLegalConclusions!==0) throw Error('Discovery safety gate failed');
+          if(v.safety.publicRulesCreated!==0||v.safety.negativeLegalConclusions!==0||v.safety.legalApprovalAutomatic!==false) throw Error('Verification safety gate failed');
+          console.log({discovery:d.summary,verification:v.summary});
+          NODE
+          done
+          node - <<'NODE'
+          const fs=require('fs');
+          const municipalities=JSON.parse(fs.readFileSync('data/municipalities-2026.json')).municipalities;
+          const files=fs.readdirSync('data/research-batches/auto').filter(n=>n.endsWith('-verification.json'));
+          const records=[];
+          for(const n of files){const x=JSON.parse(fs.readFileSync('data/research-batches/auto/'+n));records.push(...(x.records||[]))}
+          const unique=new Map(records.map(r=>[r.municipalityCode,r]));
+          const statusCounts={};for(const r of unique.values())statusCounts[r.verificationStatus]=(statusCounts[r.verificationStatus]||0)+1;
+          const report={generatedAt:new Date().toISOString(),canonicalMunicipalities:municipalities.length,automaticVerificationRecords:unique.size,statusCounts,safety:{publicRulesCreated:0,negativeLegalConclusions:0,legalApprovalAutomatic:false}};
+          fs.writeFileSync('reports/automation/all-remaining-summary.json',JSON.stringify(report,null,2)+'\n');
+          fs.writeFileSync('reports/automation/all-remaining-summary.md',`# Landelijke automatische onderzoeksrun\n\n- Canonieke gemeenten: ${report.canonicalMunicipalities}\n- Automatisch geverifieerde batchrecords: ${report.automaticVerificationRecords}\n- Publieke regels automatisch aangemaakt: 0\n- Juridische goedkeuring automatisch: nee\n\n## Statussen\n\n${Object.entries(statusCounts).map(([k,v])=>`- ${k}: ${v}`).join('\n')}\n`);
+          console.log(report);
+          NODE
+      - name: Commit all generated research results
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/research-batches/auto docs/research-batches/auto reports/automation
+          git diff --cached --quiet && exit 0
+          git commit -m 'Process all remaining municipalities through registry pipeline'
+          git pull --rebase origin main
+          git push

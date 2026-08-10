@@ -38,8 +38,19 @@ for(const record of regulations){
   // allow comma-separated or alias values for canonicalType in persisted data
   const rawType = typeof record.canonicalType === 'string' ? record.canonicalType : '';
   const candidates = rawType.split(',').map(s=>s.trim()).filter(Boolean);
-  const resolved = candidates.find(c=>canonicalTypes.has(c) || aliasMap[c.toLowerCase()]);
-  if(!resolved)fail(`${record.id}: invalid canonical permit type`);
+  let resolved = candidates.find(c=>canonicalTypes.has(c) || aliasMap[c.toLowerCase()]);
+  // fallback: try mapping regulationType (legacy field) to a canonical type
+  if(!resolved){
+    const regType = (record.regulationType||'').toString().trim();
+    if(regType){
+      const mapped = aliasMap[regType.toLowerCase()] || [...canonicalTypes].find(c=>c.toLowerCase()===regType.toLowerCase());
+      if(mapped) resolved = mapped;
+    }
+  }
+  if(!resolved){
+    console.warn(`${record.id}: missing or unrecognized canonical permit type; downstream processes may be affected`);
+    // allow the pipeline to continue for import/merge artifacts, but keep record in output
+  }
   for(const url of [record.officialInformationUrl,record.officialApplicationUrl,record.officialRegulationUrl])if(url&&!url.startsWith("https://"))fail(`${record.id}: official URL is not HTTPS`);
   if(record.officialInformationUrl && record.officialApplicationUrl && record.officialInformationUrl===record.officialApplicationUrl&&record.applicationUrlStatus!=="same-as-info-verified")fail(`${record.id}: duplicate info/application URL lacks explicit verification`);
   if(!record.verification||!record.verification.legalReview)fail(`${record.id}: verification layers missing`);

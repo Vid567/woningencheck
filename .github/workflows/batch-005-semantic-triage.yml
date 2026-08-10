@@ -1,0 +1,44 @@
+name: Batch 005 semantic triage
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/triage-batch-005-candidates.mjs'
+      - 'data/research-batches/batch-005-registry-enrichment.json'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: batch-005-semantic-triage
+  cancel-in-progress: false
+
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Semantic triage
+        run: node scripts/triage-batch-005-candidates.mjs
+      - name: Safety assertions
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          const x=JSON.parse(fs.readFileSync('data/research-batches/batch-005-semantic-triage.json'));
+          if(x.records.length!==25) throw Error('Expected 25 municipalities');
+          if(x.safety.publicRulesCreated!==0||x.safety.negativeLegalConclusions!==0) throw Error('Safety invariant failed');
+          for(const r of x.records) for(const c of r.candidates){ if(!c.url.startsWith('https://')) throw Error('Non-HTTPS candidate'); }
+          console.log(x.summary);
+          NODE
+      - name: Commit triage results
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/research-batches/batch-005-semantic-triage.json docs/research-batches/batch-005-semantic-triage.md
+          git diff --cached --quiet && exit 0
+          git commit -m 'Add Batch 005 semantic triage results'
+          git push

@@ -1,5 +1,14 @@
 import fs from "node:fs";
-const read=path=>JSON.parse(fs.readFileSync(path,"utf8"));
+const stripBOM = s => s && s[0] === '\uFEFF' ? s.slice(1) : s;
+const read = path => {
+  try{
+    const raw = stripBOM(fs.readFileSync(path,'utf8'));
+    return JSON.parse(raw);
+  }catch(e){
+    console.error(`JSON parse error for ${path}: ${e.message}`);
+    throw e;
+  }
+};
 const fail=message=>{console.error(`FAIL: ${message}`);process.exitCode=1};
 const municipalities=read("data/municipalities-2026.json").municipalities;
 const research=read("data/research-status.json").records;

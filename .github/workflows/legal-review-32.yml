@@ -1,0 +1,50 @@
+name: Legal review 32 municipalities
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/legal-review-32.mjs'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: legal-review-32
+  cancel-in-progress: false
+
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run official-source legal research for exact 32
+        run: node scripts/legal-review-32.mjs
+      - name: Enforce legal safety gates
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          const p='data/legal-review/legal-review-32.json';
+          const x=JSON.parse(fs.readFileSync(p,'utf8'));
+          if(x.selection.actualCount!==32) throw Error(`Expected 32 municipalities, got ${x.selection.actualCount}`);
+          if(x.safety.legalApprovalAutomatic!==false) throw Error('Automatic legal approval must remain false');
+          if(x.safety.automaticPublication!==false) throw Error('Automatic publication must remain false');
+          if(x.safety.publicRulesCreated!==0) throw Error('Public rules were created');
+          if(x.safety.negativeLegalConclusions!==0) throw Error('Negative legal conclusions were created');
+          if(x.records.some(r=>r.legalApproval!==false||r.publicationAllowed!==false||r.humanReviewRequired!==true)) throw Error('Per-record legal safety gate failed');
+          console.log(x.summary);
+          NODE
+      - name: Commit legal research results
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/legal-review reports/legal-review
+          git diff --cached --quiet && exit 0
+          git commit -m 'Add legal research review for 32 municipalities'
+          git pull --rebase origin main
+          git push

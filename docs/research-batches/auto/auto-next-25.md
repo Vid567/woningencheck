@@ -4,40 +4,40 @@ Automatische registry-backed discovery voor de volgende nog niet onderzochte gem
 
 | Gemeente | Registry-hit | Kandidaten | Live | Route |
 | --- | --- | ---: | ---: | --- |
-| Duiven | ja | 0 | 0 | deep-verification-needed |
-| Echt-Susteren | ja | 2 | 2 | structured-verification |
-| Edam-Volendam | ja | 3 | 3 | structured-verification |
-| Ede | ja | 8 | 6 | structured-verification |
-| Eemnes | ja | 2 | 1 | structured-verification |
-| Eemsdelta | ja | 8 | 6 | structured-verification |
-| Eersel | ja | 4 | 4 | structured-verification |
-| Eijsden-Margraten | ja | 1 | 1 | structured-verification |
-| Eindhoven | ja | 4 | 4 | structured-verification |
-| Elburg | ja | 8 | 6 | structured-verification |
-| Enkhuizen | ja | 0 | 0 | deep-verification-needed |
-| Enschede | ja | 0 | 0 | deep-verification-needed |
-| Epe | ja | 6 | 6 | structured-verification |
-| Ermelo | ja | 5 | 5 | structured-verification |
-| Etten-Leur | ja | 2 | 2 | structured-verification |
-| De Fryske Marren | ja | 2 | 2 | structured-verification |
-| Geertruidenberg | ja | 8 | 6 | structured-verification |
-| Geldrop-Mierlo | ja | 4 | 4 | structured-verification |
-| Gemert-Bakel | ja | 0 | 0 | deep-verification-needed |
-| Gennep | ja | 4 | 4 | structured-verification |
-| Gilze en Rijen | ja | 0 | 0 | deep-verification-needed |
-| Goeree-Overflakkee | ja | 7 | 6 | structured-verification |
-| Goes | ja | 5 | 5 | structured-verification |
-| Goirle | ja | 1 | 1 | structured-verification |
-| Gooise Meren | ja | 2 | 1 | structured-verification |
+| Gorinchem | ja | 0 | 0 | deep-verification-needed |
+| Gouda | ja | 1 | 1 | structured-verification |
+| Groningen | ja | 0 | 0 | deep-verification-needed |
+| Gulpen-Wittem | ja | 2 | 2 | structured-verification |
+| Haaksbergen | ja | 0 | 0 | deep-verification-needed |
+| Haarlem | ja | 12 | 6 | structured-verification |
+| Haarlemmermeer | ja | 0 | 0 | deep-verification-needed |
+| Halderberge | ja | 4 | 4 | structured-verification |
+| Hardenberg | ja | 4 | 4 | structured-verification |
+| Harderwijk | ja | 3 | 3 | structured-verification |
+| Hardinxveld-Giessendam | ja | 4 | 4 | structured-verification |
+| Harlingen | ja | 5 | 5 | structured-verification |
+| Hattem | ja | 7 | 6 | structured-verification |
+| Heemskerk | ja | 3 | 3 | structured-verification |
+| Heemstede | ja | 12 | 6 | structured-verification |
+| Heerde | ja | 10 | 6 | structured-verification |
+| Heerenveen | ja | 4 | 4 | structured-verification |
+| Heerlen | ja | 5 | 5 | structured-verification |
+| Heeze-Leende | ja | 10 | 6 | structured-verification |
+| Heiloo | ja | 2 | 2 | structured-verification |
+| Den Helder | ja | 7 | 6 | structured-verification |
+| Hellendoorn | ja | 5 | 5 | structured-verification |
+| Helmond | ja | 0 | 0 | deep-verification-needed |
+| Hendrik-Ido-Ambacht | ja | 0 | 0 | deep-verification-needed |
+| Hengelo (O.) | ja | 1 | 1 | structured-verification |
 
 ## Samenvatting
 
 - Gemeenten: 25
 - Registry-hits: 25
-- Structurele verificatie: 20
-- Diepe verificatie: 5
+- Structurele verificatie: 19
+- Diepe verificatie: 6
 - Handmatige review: 0
-- Kandidaten: 86
-- Netwerkrequests: 209
-- Netwerkerrors: 7
+- Kandidaten: 101
+- Netwerkrequests: 213
+- Netwerkerrors: 0
 - Publieke regels: 0

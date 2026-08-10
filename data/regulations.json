@@ -1,4 +1,4 @@
-{
+﻿{
     "schemaVersion":  "1.0.0",
     "records":  [
                     {
@@ -9,9 +9,9 @@
                         "regulationType":  "opkoopbescherming",
                         "scopeType":  "gemeente",
                         "scopeValue":  "Den Haag, voor woningen binnen de toepasselijke WOZ-grens",
-                        "shortDescription":  "Voor in 2026 ingeschreven aankopen noemt de gemeente een WOZ-grens tot en met â‚¬ 470.000. De bescherming ziet op de eerste vier jaar na inschrijving.",
-                        "conditions":  "De officiÃ«le pagina noemt onder meer familieverhuur, tijdelijke verhuur en gekoppelde bedrijfsruimte als mogelijke vergunningssituaties.",
-                        "exceptions":  "Zie de officiÃ«le pagina en verordening; adres- en verwervingssituatie zijn bepalend.",
+                        "shortDescription":  "Voor in 2026 ingeschreven aankopen noemt de gemeente een WOZ-grens tot en met Ã¢â€šÂ¬ 470.000. De bescherming ziet op de eerste vier jaar na inschrijving.",
+                        "conditions":  "De officiÃƒÂ«le pagina noemt onder meer familieverhuur, tijdelijke verhuur en gekoppelde bedrijfsruimte als mogelijke vergunningssituaties.",
+                        "exceptions":  "Zie de officiÃƒÂ«le pagina en verordening; adres- en verwervingssituatie zijn bepalend.",
                         "officialInformationUrl":  "https://www.denhaag.nl/nl/vergunningen-en-ontheffingen/opkoopbescherming-in-den-haag-vergunning-aanvragen/",
                         "officialApplicationUrl":  "https://www.denhaag.nl/nl/vergunningen-en-ontheffingen/opkoopbescherming-in-den-haag-vergunning-aanvragen/",
                         "applicationUrlStatus":  "same-as-info-verified",
@@ -71,7 +71,7 @@
                         "endDate":  null,
                         "sourcePublicationDate":  null,
                         "lastVerificationDate":  "2026-08-09",
-                        "sourceVerificationStatus":  "official source found â€” automated recheck pending",
+                        "sourceVerificationStatus":  "official source found Ã¢â‚¬â€ automated recheck pending",
                         "legalReviewStatus":  "not reviewed",
                         "notes":  "2026 threshold captured from municipal page; legal reviewer must validate complete applicability.",
                         "canonicalType":  "purchase-protection",
@@ -118,7 +118,7 @@
                         "evidence":  [
                                          {
                                              "claimId":  "den-haag-opkoop-2026-applicability",
-                                             "claim":  "Opkoopbescherming: Voor in 2026 ingeschreven aankopen noemt de gemeente een WOZ-grens tot en met â‚¬ 470.000. De bescherming ziet op de eerste vier jaar na inschrijving.",
+                                             "claim":  "Opkoopbescherming: Voor in 2026 ingeschreven aankopen noemt de gemeente een WOZ-grens tot en met Ã¢â€šÂ¬ 470.000. De bescherming ziet op de eerste vier jaar na inschrijving.",
                                              "evidenceType":  "official-information",
                                              "url":  "https://www.denhaag.nl/nl/vergunningen-en-ontheffingen/opkoopbescherming-in-den-haag-vergunning-aanvragen/",
                                              "identifier":  null,
@@ -138,7 +138,7 @@
                                          },
                                          {
                                              "claimId":  "den-haag-opkoop-2026-application",
-                                             "claim":  "OfficiÃ«le aanvraagroute voor Opkoopbescherming",
+                                             "claim":  "OfficiÃƒÂ«le aanvraagroute voor Opkoopbescherming",
                                              "evidenceType":  "official-application",
                                              "url":  "https://www.denhaag.nl/nl/vergunningen-en-ontheffingen/opkoopbescherming-in-den-haag-vergunning-aanvragen/",
                                              "identifier":  null,
@@ -183,8 +183,8 @@
                         "regulationType":  "opkoopbescherming",
                         "scopeType":  "wijk",
                         "scopeValue":  "Angelslo, Bargeres, Emmerhout en Emmermeer",
-                        "shortDescription":  "De gemeente vermeldt opkoopbescherming sinds 1 juli 2023 voor woningen met een WOZ-waarde tot â‚¬ 250.000 in vier wijken.",
-                        "conditions":  "De officiÃ«le pagina noemt een verbodstermijn van vier jaar en vergunningmogelijkheden voor specifieke uitzonderingen.",
+                        "shortDescription":  "De gemeente vermeldt opkoopbescherming sinds 1 juli 2023 voor woningen met een WOZ-waarde tot Ã¢â€šÂ¬ 250.000 in vier wijken.",
+                        "conditions":  "De officiÃƒÂ«le pagina noemt een verbodstermijn van vier jaar en vergunningmogelijkheden voor specifieke uitzonderingen.",
                         "exceptions":  "Familieverhuur, tijdelijk gebruik en een woning gekoppeld aan winkel-, kantoor- of bedrijfsruimte worden genoemd; controleer de bron.",
                         "officialInformationUrl":  "https://gemeente.emmen.nl/opkoopbescherming-en-verhuurvergunning-aanvragen",
                         "officialApplicationUrl":  "https://gemeente.emmen.nl/opkoopbescherming-en-verhuurvergunning-aanvragen",
@@ -193,9 +193,9 @@
                         "requiredDocuments":  [
                                                   {
                                                       "id":  "emmen-opkoop-2023-required-1",
-                                                      "name":  "Bewijsstukken voor de toepasselijke uitzondering; het officiÃ«le digitale formulier bepaalt de vereiste bijlagen",
+                                                      "name":  "Bewijsstukken voor de toepasselijke uitzondering; het officiÃƒÂ«le digitale formulier bepaalt de vereiste bijlagen",
                                                       "requirement":  "conditional",
-                                                      "description":  "Bewijsstukken voor de toepasselijke uitzondering; het officiÃ«le digitale formulier bepaalt de vereiste bijlagen",
+                                                      "description":  "Bewijsstukken voor de toepasselijke uitzondering; het officiÃƒÂ«le digitale formulier bepaalt de vereiste bijlagen",
                                                       "officialInstructionsUrl":  "https://gemeente.emmen.nl/opkoopbescherming-en-verhuurvergunning-aanvragen",
                                                       "officialTemplateUrl":  null,
                                                       "onlineFormUrl":  "https://gemeente.emmen.nl/opkoopbescherming-en-verhuurvergunning-aanvragen",
@@ -213,7 +213,7 @@
                         "endDate":  "2027-07-01",
                         "sourcePublicationDate":  "2023-06-29",
                         "lastVerificationDate":  "2026-08-09",
-                        "sourceVerificationStatus":  "official source found â€” automated recheck pending",
+                        "sourceVerificationStatus":  "official source found Ã¢â‚¬â€ automated recheck pending",
                         "legalReviewStatus":  "not reviewed",
                         "notes":  "CVDR states the regulation expires 1 July 2027.",
                         "canonicalType":  "purchase-protection",
@@ -260,7 +260,7 @@
                         "evidence":  [
                                          {
                                              "claimId":  "emmen-opkoop-2023-applicability",
-                                             "claim":  "Opkoopbescherming: De gemeente vermeldt opkoopbescherming sinds 1 juli 2023 voor woningen met een WOZ-waarde tot â‚¬ 250.000 in vier wijken.",
+                                             "claim":  "Opkoopbescherming: De gemeente vermeldt opkoopbescherming sinds 1 juli 2023 voor woningen met een WOZ-waarde tot Ã¢â€šÂ¬ 250.000 in vier wijken.",
                                              "evidenceType":  "official-information",
                                              "url":  "https://gemeente.emmen.nl/opkoopbescherming-en-verhuurvergunning-aanvragen",
                                              "identifier":  null,
@@ -280,7 +280,7 @@
                                          },
                                          {
                                              "claimId":  "emmen-opkoop-2023-application",
-                                             "claim":  "OfficiÃ«le aanvraagroute voor Opkoopbescherming",
+                                             "claim":  "OfficiÃƒÂ«le aanvraagroute voor Opkoopbescherming",
                                              "evidenceType":  "official-application",
                                              "url":  "https://gemeente.emmen.nl/opkoopbescherming-en-verhuurvergunning-aanvragen",
                                              "identifier":  null,
@@ -384,7 +384,7 @@
                         "endDate":  "2028-01-01",
                         "sourcePublicationDate":  "2023-12-21",
                         "lastVerificationDate":  "2026-08-09",
-                        "sourceVerificationStatus":  "official source found â€” automated recheck pending",
+                        "sourceVerificationStatus":  "official source found Ã¢â‚¬â€ automated recheck pending",
                         "legalReviewStatus":  "not reviewed",
                         "notes":  "NHG-linked threshold changes; resolve dynamically or reverify annually before displaying a numeric amount.",
                         "canonicalType":  "purchase-protection",
@@ -451,7 +451,7 @@
                                          },
                                          {
                                              "claimId":  "leiden-opkoop-2024-application",
-                                             "claim":  "OfficiÃ«le aanvraagroute voor Opkoopbescherming",
+                                             "claim":  "OfficiÃƒÂ«le aanvraagroute voor Opkoopbescherming",
                                              "evidenceType":  "official-application",
                                              "url":  "https://gemeente.leiden.nl/formulieren/aanvraag-verhuurvergunning-opkoopbescherming/",
                                              "identifier":  null,
@@ -646,7 +646,7 @@
                         "endDate":  "2028-01-01",
                         "sourcePublicationDate":  "2023-12-21",
                         "lastVerificationDate":  "2026-08-09",
-                        "sourceVerificationStatus":  "official regulation found â€” municipal URL requires automated recheck",
+                        "sourceVerificationStatus":  "official regulation found Ã¢â‚¬â€ municipal URL requires automated recheck",
                         "legalReviewStatus":  "not reviewed",
                         "notes":  "Address-level result requires map/quotum ingestion before it can be definitive.",
                         "canonicalType":  "conversion-permit",
@@ -713,7 +713,7 @@
                                          },
                                          {
                                              "claimId":  "leiden-omzetting-2024-application",
-                                             "claim":  "OfficiÃ«le aanvraagroute voor Woning omzetten naar kamerverhuur",
+                                             "claim":  "OfficiÃƒÂ«le aanvraagroute voor Woning omzetten naar kamerverhuur",
                                              "evidenceType":  "official-application",
                                              "url":  "https://gemeente.leiden.nl/formulieren/aanvraag-omzettingsvergunning-digid/",
                                              "identifier":  null,
@@ -731,7 +731,7 @@
                                               "version":  "1.0.0",
                                               "conclusiveWhenMatched":  false,
                                               "matchMessage":  "Uw adres ligt in een aangewezen deel van Leiden. Uw voorgenomen gebruik bepaalt of een vergunning nodig kan zijn.",
-                                              "geographicNoMatchMessage":  "Dit adres ligt volgens de officiÃ«le buurtgegevens en de gecontroleerde kaart niet in het aangewezen gebied voor deze Leidse omzettingsvergunning.",
+                                              "geographicNoMatchMessage":  "Dit adres ligt volgens de officiÃƒÂ«le buurtgegevens en de gecontroleerde kaart niet in het aangewezen gebied voor deze Leidse omzettingsvergunning.",
                                               "conditions":  [
                                                                  {
                                                                      "id":  "municipality",
@@ -751,7 +751,7 @@
                                                                      "source":  "user-input",
                                                                      "operator":  "equals",
                                                                      "value":  "yes",
-                                                                     "question":  "Wilt u de woning verhuren aan meerdere personen die niet samen Ã©Ã©n huishouden vormen?",
+                                                                     "question":  "Wilt u de woning verhuren aan meerdere personen die niet samen ÃƒÂ©ÃƒÂ©n huishouden vormen?",
                                                                      "answerType":  "yes-no",
                                                                      "evidenceSection":  "Artikel 1 en artikel 2",
                                                                      "evidenceUrl":  "https://lokaleregelgeving.overheid.nl/CVDR711669"
@@ -810,9 +810,9 @@
                         "requiredDocuments":  [
                                                   {
                                                       "id":  "rotterdam-opkoop-required-1",
-                                                      "name":  "Documenten uit de officiÃ«le stap â€˜Documenten verzamelenâ€™; vereisten verschillen per toestemming of uitzondering",
+                                                      "name":  "Documenten uit de officiÃƒÂ«le stap Ã¢â‚¬ËœDocumenten verzamelenÃ¢â‚¬â„¢; vereisten verschillen per toestemming of uitzondering",
                                                       "requirement":  "conditional",
-                                                      "description":  "Documenten uit de officiÃ«le stap â€˜Documenten verzamelenâ€™; vereisten verschillen per toestemming of uitzondering",
+                                                      "description":  "Documenten uit de officiÃƒÂ«le stap Ã¢â‚¬ËœDocumenten verzamelenÃ¢â‚¬â„¢; vereisten verschillen per toestemming of uitzondering",
                                                       "officialInstructionsUrl":  "https://www.rotterdam.nl/vergunning-of-toestemming-opkoopbescherming-aanvragen",
                                                       "officialTemplateUrl":  null,
                                                       "onlineFormUrl":  "https://formulier.rotterdam.nl/vergunning-opkoopbescherming/",
@@ -830,7 +830,7 @@
                         "endDate":  "2029-07-01",
                         "sourcePublicationDate":  null,
                         "lastVerificationDate":  "2026-08-09",
-                        "sourceVerificationStatus":  "official source found â€” automated recheck pending",
+                        "sourceVerificationStatus":  "official source found Ã¢â‚¬â€ automated recheck pending",
                         "legalReviewStatus":  "not reviewed",
                         "notes":  "Numeric threshold and complete neighbourhood list deliberately omitted pending substantive verification of the 2026 regulation.",
                         "canonicalType":  "purchase-protection",
@@ -897,7 +897,7 @@
                                          },
                                          {
                                              "claimId":  "rotterdam-opkoop-application",
-                                             "claim":  "OfficiÃ«le aanvraagroute voor Opkoopbescherming",
+                                             "claim":  "OfficiÃƒÂ«le aanvraagroute voor Opkoopbescherming",
                                              "evidenceType":  "official-application",
                                              "url":  "https://formulier.rotterdam.nl/vergunning-opkoopbescherming/",
                                              "identifier":  null,
@@ -970,9 +970,9 @@
                         "title":  "Vergunning kamerverhuur",
                         "regulationType":  "omzettingsvergunning",
                         "scopeType":  "kaart",
-                        "scopeValue":  "gebieden op de officiÃ«le Kaart kamerverhuur",
-                        "shortDescription":  "De gemeente meldt dat voor kamergewijze bewoning meestal een vergunning nodig is en verwijst naar een officiÃ«le kaart.",
-                        "conditions":  "De gemeentepagina noemt bewoning door meer dan twee personen die niet als Ã©Ã©n gezin leven als relevant uitgangspunt.",
+                        "scopeValue":  "gebieden op de officiÃƒÂ«le Kaart kamerverhuur",
+                        "shortDescription":  "De gemeente meldt dat voor kamergewijze bewoning meestal een vergunning nodig is en verwijst naar een officiÃƒÂ«le kaart.",
+                        "conditions":  "De gemeentepagina noemt bewoning door meer dan twee personen die niet als ÃƒÂ©ÃƒÂ©n gezin leven als relevant uitgangspunt.",
                         "exceptions":  "De kaart, huishoudsituatie en overige voorwaarden bepalen of een aanvraag mogelijk is.",
                         "officialInformationUrl":  "https://www.rotterdam.nl/vergunning-kamerverhuur-aanvragen",
                         "officialApplicationUrl":  "https://formulier.rotterdam.nl/vergunning-kamerverhuur-aanvragen/",
@@ -981,9 +981,9 @@
                         "requiredDocuments":  [
                                                   {
                                                       "id":  "rotterdam-kamerverhuur-2026-required-1",
-                                                      "name":  "Documenten en woninggegevens die het officiÃ«le Rotterdamse aanvraagformulier voor de gekozen situatie vraagt",
+                                                      "name":  "Documenten en woninggegevens die het officiÃƒÂ«le Rotterdamse aanvraagformulier voor de gekozen situatie vraagt",
                                                       "requirement":  "conditional",
-                                                      "description":  "Documenten en woninggegevens die het officiÃ«le Rotterdamse aanvraagformulier voor de gekozen situatie vraagt",
+                                                      "description":  "Documenten en woninggegevens die het officiÃƒÂ«le Rotterdamse aanvraagformulier voor de gekozen situatie vraagt",
                                                       "officialInstructionsUrl":  "https://www.rotterdam.nl/vergunning-kamerverhuur-aanvragen",
                                                       "officialTemplateUrl":  null,
                                                       "onlineFormUrl":  "https://formulier.rotterdam.nl/vergunning-kamerverhuur-aanvragen/",
@@ -1001,7 +1001,7 @@
                         "endDate":  "2029-07-01",
                         "sourcePublicationDate":  null,
                         "lastVerificationDate":  "2026-08-09",
-                        "sourceVerificationStatus":  "official source found â€” automated recheck pending",
+                        "sourceVerificationStatus":  "official source found Ã¢â‚¬â€ automated recheck pending",
                         "legalReviewStatus":  "not reviewed",
                         "notes":  "Address-level result requires official map ingestion.",
                         "canonicalType":  "conversion-permit",
@@ -1048,7 +1048,7 @@
                         "evidence":  [
                                          {
                                              "claimId":  "rotterdam-kamerverhuur-2026-applicability",
-                                             "claim":  "Vergunning kamerverhuur: De gemeente meldt dat voor kamergewijze bewoning meestal een vergunning nodig is en verwijst naar een officiÃ«le kaart.",
+                                             "claim":  "Vergunning kamerverhuur: De gemeente meldt dat voor kamergewijze bewoning meestal een vergunning nodig is en verwijst naar een officiÃƒÂ«le kaart.",
                                              "evidenceType":  "official-information",
                                              "url":  "https://www.rotterdam.nl/vergunning-kamerverhuur-aanvragen",
                                              "identifier":  null,
@@ -1068,7 +1068,7 @@
                                          },
                                          {
                                              "claimId":  "rotterdam-kamerverhuur-2026-application",
-                                             "claim":  "OfficiÃ«le aanvraagroute voor Vergunning kamerverhuur",
+                                             "claim":  "OfficiÃƒÂ«le aanvraagroute voor Vergunning kamerverhuur",
                                              "evidenceType":  "official-application",
                                              "url":  "https://formulier.rotterdam.nl/vergunning-kamerverhuur-aanvragen/",
                                              "identifier":  null,
@@ -2129,7 +2129,7 @@
                         "id":  "baarn",
                         "municipalityCode":  "GM0308",
                         "municipalityName":  "Baarn",
-                        "title":  "Huisvestingsverordening regio Amersfoort â€“ gemeente Baarn",
+                        "title":  "Huisvestingsverordening regio Amersfoort Ã¢â‚¬â€œ gemeente Baarn",
                         "canonicalType":  "housing-permit",
                         "officialRegulationUrl":  "https://lokaleregelgeving.overheid.nl/CVDR746230",
                         "verification":  {

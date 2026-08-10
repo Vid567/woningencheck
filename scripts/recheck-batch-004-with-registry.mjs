@@ -1,3 +1,4 @@
+// Registry-backed rerun of Batch 004 to verify the former discovery bootstrap blocker is resolved.
 import fs from 'node:fs/promises';
 import { performance } from 'node:perf_hooks';
 

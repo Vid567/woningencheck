@@ -1,0 +1,555 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "auto-next-25",
+  "generatedAt": "2026-08-10T08:53:35.154Z",
+  "selection": {
+    "batchSize": 25,
+    "untouchedOnly": true
+  },
+  "records": [
+    {
+      "municipalityCode": "GM0226",
+      "municipalityName": "Duiven",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.duiven.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 2286
+    },
+    {
+      "municipalityCode": "GM1711",
+      "municipalityName": "Echt-Susteren",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.echt-susteren.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.echt-susteren.nl/verhuur-van-te-koop-staande-leegstaande-woning",
+        "https://www.echt-susteren.nl/meldpunt-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.echt-susteren.nl/verhuur-van-te-koop-staande-leegstaande-woning",
+        "https://www.echt-susteren.nl/meldpunt-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4791
+    },
+    {
+      "municipalityCode": "GM0385",
+      "municipalityName": "Edam-Volendam",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.edam-volendam.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.edam-volendam.nl/wet-goed-verhuurderschap",
+        "https://www.edam-volendam.nl/verhuur-van-te-koop-staande-leegstaande-woning",
+        "https://www.edam-volendam.nl/toeristische-verhuur-van-woningen-0"
+      ],
+      "reachableCandidates": [
+        "https://www.edam-volendam.nl/wet-goed-verhuurderschap",
+        "https://www.edam-volendam.nl/verhuur-van-te-koop-staande-leegstaande-woning",
+        "https://www.edam-volendam.nl/toeristische-verhuur-van-woningen-0"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4306
+    },
+    {
+      "municipalityCode": "GM0228",
+      "municipalityName": "Ede",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.ede.nl",
+      "candidateCount": 8,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.ede.nl/aanvragen-en-regelen/meldpunt-problemen-met-verhuurders",
+        "https://www.ede.nl/in-de-gemeente-ede/meer-woonruimte-zonder-nieuwbouw",
+        "https://www.ede.nl/in-de-gemeente-ede/meer-woonruimte-zonder-nieuwbouw/een-woning-delen",
+        "https://www.ede.nl/in-de-gemeente-ede/meer-woonruimte-zonder-nieuwbouw/een-woning-splitsen",
+        "https://www.ede.nl/in-de-gemeente-ede/meer-woonruimte-zonder-nieuwbouw/een-kavel-splitsen-om-er-een-extra-woning-op-te-bouwen",
+        "https://www.ede.nl/in-de-gemeente-ede/meer-woonruimte-zonder-nieuwbouw/tijdelijke-woonruimte-op-eigen-terrein-realiseren",
+        "https://www.ede.nl/in-de-gemeente-ede/meer-woonruimte-zonder-nieuwbouw/hoe-john-voor-eur-333000-een-villa-kocht-in-bennekom",
+        "https://www.ede.nl/aanvragen-en-regelen/tijdelijke-verhuur-leegstaande-woning"
+      ],
+      "reachableCandidates": [
+        "https://www.ede.nl/aanvragen-en-regelen/meldpunt-problemen-met-verhuurders",
+        "https://www.ede.nl/in-de-gemeente-ede/meer-woonruimte-zonder-nieuwbouw",
+        "https://www.ede.nl/in-de-gemeente-ede/meer-woonruimte-zonder-nieuwbouw/een-woning-delen",
+        "https://www.ede.nl/in-de-gemeente-ede/meer-woonruimte-zonder-nieuwbouw/een-woning-splitsen",
+        "https://www.ede.nl/in-de-gemeente-ede/meer-woonruimte-zonder-nieuwbouw/een-kavel-splitsen-om-er-een-extra-woning-op-te-bouwen",
+        "https://www.ede.nl/in-de-gemeente-ede/meer-woonruimte-zonder-nieuwbouw/tijdelijke-woonruimte-op-eigen-terrein-realiseren"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5532
+    },
+    {
+      "municipalityCode": "GM0317",
+      "municipalityName": "Eemnes",
+      "province": "Utrecht",
+      "registryHit": true,
+      "municipalSite": "https://www.eemnes.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.eemnes.nl/meldpunt-goed-verhuurderschap",
+        "https://www.eemnes.nl/tijdelijke-huisvesting-atelier-het-gooi"
+      ],
+      "reachableCandidates": [
+        "https://www.eemnes.nl/meldpunt-goed-verhuurderschap",
+        "https://www.eemnes.nl/tijdelijke-huisvesting-atelier-het-gooi"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3596
+    },
+    {
+      "municipalityCode": "GM1979",
+      "municipalityName": "Eemsdelta",
+      "province": "Groningen",
+      "registryHit": true,
+      "municipalSite": "https://www.eemsdelta.nl",
+      "candidateCount": 8,
+      "reachableCount": 6,
+      "candidates": [
+        "https://eemsdelta.nl/bekendmaking-verkoop-en-verhuur-grond-en-gebouwen",
+        "https://eemsdelta.nl/overzicht-verkoop-en-verhuur-grond-en-gebouwen",
+        "https://eemsdelta.nl/tijdelijke-huisvesting",
+        "https://eemsdelta.nl/volkshuisvestingsfonds",
+        "https://eemsdelta.nl/ongewenst-verhuurgedrag",
+        "https://eemsdelta.nl/formulier-aanmelding-huisvesting-vluchtelingen-oekraine",
+        "https://eemsdelta.nl/informatie-over-verkoopverhuur-onroerende-zaken-opvragen",
+        "https://eemsdelta.nl/aanmeldformulier-startgesprek-volkshuisvestingsfonds"
+      ],
+      "reachableCandidates": [
+        "https://www.eemsdelta.nl/bekendmaking-verkoop-en-verhuur-grond-en-gebouwen",
+        "https://www.eemsdelta.nl/overzicht-verkoop-en-verhuur-grond-en-gebouwen",
+        "https://www.eemsdelta.nl/tijdelijke-huisvesting",
+        "https://www.eemsdelta.nl/volkshuisvestingsfonds",
+        "https://www.eemsdelta.nl/ongewenst-verhuurgedrag",
+        "https://www.eemsdelta.nl/formulier-aanmelding-huisvesting-vluchtelingen-oekraine"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6249
+    },
+    {
+      "municipalityCode": "GM0770",
+      "municipalityName": "Eersel",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.eersel.nl",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.eersel.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.eersel.nl/woning-splitsen-of-delen",
+        "https://www.eersel.nl/verhuurinlichtingen-woz",
+        "https://www.eersel.nl/integraal-huisvestingsplan-ihp-onderwijs"
+      ],
+      "reachableCandidates": [
+        "https://www.eersel.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.eersel.nl/woning-splitsen-of-delen",
+        "https://www.eersel.nl/verhuurinlichtingen-woz",
+        "https://www.eersel.nl/integraal-huisvestingsplan-ihp-onderwijs"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6008
+    },
+    {
+      "municipalityCode": "GM1903",
+      "municipalityName": "Eijsden-Margraten",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.eijsden-margraten.nl",
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "candidates": [
+        "https://www.eijsden-margraten.nl/nl/Nieuws/Bibliotheek-Eijsden-krijgt-tijdelijke-huisvesting-en-werkt-toe-naar-een-toekomstbestendige-locatie.html"
+      ],
+      "reachableCandidates": [
+        "https://www.eijsden-margraten.nl/nl/Nieuws/Bibliotheek-Eijsden-krijgt-tijdelijke-huisvesting-en-werkt-toe-naar-een-toekomstbestendige-locatie.html"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2312
+    },
+    {
+      "municipalityCode": "GM0772",
+      "municipalityName": "Eindhoven",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.eindhoven.nl",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.eindhoven.nl/stad-en-wonen/wonen/opkoopbescherming",
+        "https://www.eindhoven.nl/stad-en-wonen/wonen/woningsplitsing",
+        "https://www.eindhoven.nl/bouwen/grond-en-vastgoed/verhuur-en-verkoop-gemeentelijk-vastgoed",
+        "https://www.eindhoven.nl/bouwen/vergunningen/leegstandvergunning"
+      ],
+      "reachableCandidates": [
+        "https://www.eindhoven.nl/stad-en-wonen/wonen/opkoopbescherming",
+        "https://www.eindhoven.nl/stad-en-wonen/wonen/woningsplitsing",
+        "https://www.eindhoven.nl/bouwen/grond-en-vastgoed/verhuur-en-verkoop-gemeentelijk-vastgoed",
+        "https://www.eindhoven.nl/bouwen/vergunningen/leegstandvergunning"
+      ],
+      "route": "structured-verification",
+      "durationMs": 2752
+    },
+    {
+      "municipalityCode": "GM0230",
+      "municipalityName": "Elburg",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.elburg.nl",
+      "candidateCount": 8,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.elburg.nl/Contact/Melding_doen/Meldpunt_klachten_verhuurders",
+        "https://www.elburg.nl/Digitale_gids_Elburg/Zoek_in_de_digitale_gids/Huisvesting/Hulp_en_advies",
+        "https://www.elburg.nl/Digitale_gids_Elburg/Zoek_in_de_digitale_gids/Huisvesting/Huurders_en_bewonersverenigingen",
+        "https://www.elburg.nl/Digitale_gids_Elburg/Zoek_in_de_digitale_gids/Huisvesting/Woningcorporaties",
+        "https://www.elburg.nl/Actueel/Nieuwsberichten/Nieuws_juni_2026/Waterschap_Vallei_en_Veluwe_stelt_onttrekkingsverbod_oppervlaktewater_in",
+        "https://www.elburg.nl/Digitale_gids_Elburg/Zoek_in_de_digitale_gids/Huisvesting",
+        "https://www.elburg.nl/Sport_cultuur_en_recreatie/Sport/Verhuur_Gymzalen/Regels_voor_het_gebruik_van_de_gemeentelijke_gymzalen",
+        "https://www.elburg.nl/Sport_cultuur_en_recreatie/Sport/Verhuur_Gymzalen"
+      ],
+      "reachableCandidates": [
+        "https://www.elburg.nl/Contact/Melding_doen/Meldpunt_klachten_verhuurders",
+        "https://www.elburg.nl/Digitale_gids_Elburg/Zoek_in_de_digitale_gids/Huisvesting/Hulp_en_advies",
+        "https://www.elburg.nl/Digitale_gids_Elburg/Zoek_in_de_digitale_gids/Huisvesting/Huurders_en_bewonersverenigingen",
+        "https://www.elburg.nl/Digitale_gids_Elburg/Zoek_in_de_digitale_gids/Huisvesting/Woningcorporaties",
+        "https://www.elburg.nl/Actueel/Nieuwsberichten/Nieuws_juni_2026/Waterschap_Vallei_en_Veluwe_stelt_onttrekkingsverbod_oppervlaktewater_in",
+        "https://www.elburg.nl/Digitale_gids_Elburg/Zoek_in_de_digitale_gids/Huisvesting"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4569
+    },
+    {
+      "municipalityCode": "GM0388",
+      "municipalityName": "Enkhuizen",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.enkhuizen.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 37135
+    },
+    {
+      "municipalityCode": "GM0153",
+      "municipalityName": "Enschede",
+      "province": "Overijssel",
+      "registryHit": true,
+      "municipalSite": "https://www.enschede.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 2233
+    },
+    {
+      "municipalityCode": "GM0232",
+      "municipalityName": "Epe",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.epe.nl",
+      "candidateCount": 6,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.epe.nl/problemen-verhuurders",
+        "https://www.epe.nl/opvang-en-huisvesting-oekraiense-vluchtelingen",
+        "https://www.epe.nl/nadeelcompensatie-bij-noodopvang-en-tijdelijke-huisvesting",
+        "https://www.epe.nl/huisvestingsvergunning",
+        "https://www.epe.nl/nieuwsbrieven-tijdelijke-huisvesting",
+        "https://www.epe.nl/wet-goed-verhuurderschap-en-wet-betaalbare-huur"
+      ],
+      "reachableCandidates": [
+        "https://www.epe.nl/wet-goed-verhuurderschap-en-wet-betaalbare-huur",
+        "https://www.epe.nl/opvang-en-huisvesting-oekraiense-vluchtelingen",
+        "https://www.epe.nl/nadeelcompensatie-bij-noodopvang-en-tijdelijke-huisvesting",
+        "https://www.epe.nl/huisvestingsvergunning",
+        "https://www.epe.nl/nieuwsbrieven-tijdelijke-huisvesting",
+        "https://www.epe.nl/wet-goed-verhuurderschap-en-wet-betaalbare-huur"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6269
+    },
+    {
+      "municipalityCode": "GM0233",
+      "municipalityName": "Ermelo",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.ermelo.nl",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.ermelo.nl/melding-klacht-en-aansprakelijk-stellen-gemeente/meldpunt-ongewenst-verhuurdersgedrag",
+        "https://www.ermelo.nl/wonen-en-verhuizen/huisvestingsvergunning-nieuwbouw-sociale-koopwoning",
+        "https://www.ermelo.nl/wonen-en-verhuizen/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.ermelo.nl/omgevingsplein/bouwen-en-verbouwen/kavelsplitsing-aanvragen",
+        "https://www.ermelo.nl/omgevingsplein/bouwen-en-verbouwen/woningsplitsing-aanvragen"
+      ],
+      "reachableCandidates": [
+        "https://www.ermelo.nl/melding-klacht-en-aansprakelijk-stellen-gemeente/meldpunt-ongewenst-verhuurdersgedrag",
+        "https://www.ermelo.nl/wonen-en-verhuizen/huisvestingsvergunning-nieuwbouw-sociale-koopwoning",
+        "https://www.ermelo.nl/wonen-en-verhuizen/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.ermelo.nl/omgevingsplein/bouwen-en-verbouwen/kavelsplitsing-aanvragen",
+        "https://www.ermelo.nl/omgevingsplein/bouwen-en-verbouwen/woningsplitsing-aanvragen"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4935
+    },
+    {
+      "municipalityCode": "GM0777",
+      "municipalityName": "Etten-Leur",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.etten-leur.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.etten-leur.nl/product/verhuur-leegstaande-woning/",
+        "https://www.etten-leur.nl/product/verhuur-trouwkerkje/"
+      ],
+      "reachableCandidates": [
+        "https://www.etten-leur.nl/product/verhuur-leegstaande-woning/",
+        "https://www.etten-leur.nl/product/verhuur-trouwkerkje/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4730
+    },
+    {
+      "municipalityCode": "GM1940",
+      "municipalityName": "De Fryske Marren",
+      "province": "Fryslân",
+      "registryHit": true,
+      "municipalSite": "https://www.defryskemarren.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.defryskemarren.nl/melden-ongewenst-verhuurgedrag/",
+        "https://www.defryskemarren.nl/projecten/mfc-balk/aanvraagformulier-opvragen-documenten-huisvesting-mfc-balk/"
+      ],
+      "reachableCandidates": [
+        "https://www.defryskemarren.nl/melden-ongewenst-verhuurgedrag/",
+        "https://www.defryskemarren.nl/projecten/mfc-balk/aanvraagformulier-opvragen-documenten-huisvesting-mfc-balk/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 10124
+    },
+    {
+      "municipalityCode": "GM0779",
+      "municipalityName": "Geertruidenberg",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.geertruidenberg.nl",
+      "candidateCount": 8,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.geertruidenberg.nl/leegstandwet",
+        "https://www.geertruidenberg.nl/voornemen-tot-verhuur-van-ruimte-voor-een-ontmoetingsfunctie-de-nieuw-te-realiseren-mfa-hooipolder",
+        "https://www.geertruidenberg.nl/voornemen-tot-verhuur-medicatie-uitgifteautomaat-mfa-hooipolder",
+        "https://www.geertruidenberg.nl/voornemen-tot-verhuur-fysiotherapieruimte-mfa-hooipolder",
+        "https://www.geertruidenberg.nl/meldpunt-problemen-met-uw-verhuurder",
+        "https://www.geertruidenberg.nl/woningsplitsing",
+        "https://www.geertruidenberg.nl/voornemen-tot-verhuur-van-ruimte-ten-behoeve-van-kinderopvang-de-nieuw-te-realiseren-mfa-hooipolder",
+        "https://www.geertruidenberg.nl/voornemen-verhuurverkoop-reststrook-grond-oude-melkhaven-raamsdonk"
+      ],
+      "reachableCandidates": [
+        "https://www.geertruidenberg.nl/leegstandwet",
+        "https://www.geertruidenberg.nl/voornemen-tot-verhuur-van-ruimte-voor-een-ontmoetingsfunctie-de-nieuw-te-realiseren-mfa-hooipolder",
+        "https://www.geertruidenberg.nl/voornemen-tot-verhuur-medicatie-uitgifteautomaat-mfa-hooipolder",
+        "https://www.geertruidenberg.nl/voornemen-tot-verhuur-fysiotherapieruimte-mfa-hooipolder",
+        "https://www.geertruidenberg.nl/meldpunt-problemen-met-uw-verhuurder",
+        "https://www.geertruidenberg.nl/woningsplitsing"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4308
+    },
+    {
+      "municipalityCode": "GM1771",
+      "municipalityName": "Geldrop-Mierlo",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.geldrop-mierlo.nl",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.geldrop-mierlo.nl/hospitaverhuur",
+        "https://www.geldrop-mierlo.nl/ongewenst-gedrag-van-verhuurders-melden",
+        "https://www.geldrop-mierlo.nl/vergunning-op-basis-van-de-leegstandwet",
+        "https://www.geldrop-mierlo.nl/kavelsplitsing"
+      ],
+      "reachableCandidates": [
+        "https://www.geldrop-mierlo.nl/hospitaverhuur",
+        "https://www.geldrop-mierlo.nl/ongewenst-gedrag-van-verhuurders-melden",
+        "https://www.geldrop-mierlo.nl/vergunning-op-basis-van-de-leegstandwet",
+        "https://www.geldrop-mierlo.nl/kavelsplitsing"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6762
+    },
+    {
+      "municipalityCode": "GM1652",
+      "municipalityName": "Gemert-Bakel",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.gemert-bakel.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 2426
+    },
+    {
+      "municipalityCode": "GM0907",
+      "municipalityName": "Gennep",
+      "province": "Limburg",
+      "registryHit": true,
+      "municipalSite": "https://www.gennep.nl",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.gennep.nl/beleid-voor-kamerverhuur",
+        "https://www.gennep.nl/woning-splitsen",
+        "https://www.gennep.nl/huisvesting-internationale-werknemers",
+        "https://www.gennep.nl/meldpunt-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.gennep.nl/beleid-voor-kamerverhuur",
+        "https://www.gennep.nl/woning-splitsen",
+        "https://www.gennep.nl/huisvesting-internationale-werknemers",
+        "https://www.gennep.nl/meldpunt-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3639
+    },
+    {
+      "municipalityCode": "GM0784",
+      "municipalityName": "Gilze en Rijen",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.topinkomens.nl/voor-wnt-instellingen/wnt-register",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 2937
+    },
+    {
+      "municipalityCode": "GM1924",
+      "municipalityName": "Goeree-Overflakkee",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.goeree-overflakkee.nl",
+      "candidateCount": 7,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.goeree-overflakkee.nl/huisvesting-oekraiense-vluchtelingen-in-oud-kantoorpand",
+        "https://www.goeree-overflakkee.nl/de-gemeente-goeree-overflakkee-gaat-optreden-tegen-woningonttrekking",
+        "https://www.goeree-overflakkee.nl/huisvestingarbeidsmigranten",
+        "https://www.goeree-overflakkee.nl/raadsleden-schellevis-en-spelt-splitsen-zich-af-naar-sociaal-democratische-partij",
+        "https://www.goeree-overflakkee.nl/plannen-voor-huisvesting-arbeidsmigranten-nabij-melissant",
+        "https://www.goeree-overflakkee.nl/bewonersavond-nieuwe-tonge-over-tijdelijke-huisvesting",
+        "https://www.goeree-overflakkee.nl/melding-maken-over-een-particuliere-verhuurder"
+      ],
+      "reachableCandidates": [
+        "https://www.goeree-overflakkee.nl/huisvesting-oekraiense-vluchtelingen-in-oud-kantoorpand",
+        "https://www.goeree-overflakkee.nl/de-gemeente-goeree-overflakkee-gaat-optreden-tegen-woningonttrekking",
+        "https://www.goeree-overflakkee.nl/huisvestingarbeidsmigranten",
+        "https://www.goeree-overflakkee.nl/raadsleden-schellevis-en-spelt-splitsen-zich-af-naar-sociaal-democratische-partij",
+        "https://www.goeree-overflakkee.nl/plannen-voor-huisvesting-arbeidsmigranten-nabij-melissant",
+        "https://www.goeree-overflakkee.nl/bewonersavond-nieuwe-tonge-over-tijdelijke-huisvesting"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5720
+    },
+    {
+      "municipalityCode": "GM0664",
+      "municipalityName": "Goes",
+      "province": "Zeeland",
+      "registryHit": true,
+      "municipalSite": "https://www.goes.nl",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://goes.nl/leegstandswet",
+        "https://goes.nl/verhuur-van-binnensportaccommodaties",
+        "https://goes.nl/hospitaverhuur",
+        "https://goes.nl/meldpunt-ongewenst-verhuurgedrag",
+        "https://goes.nl/meldingsformulier-meldpunt-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.goes.nl/leegstandswet",
+        "https://www.goes.nl/verhuur-van-binnensportaccommodaties",
+        "https://www.goes.nl/hospitaverhuur",
+        "https://www.goes.nl/meldpunt-ongewenst-verhuurgedrag",
+        "https://www.goes.nl/meldingsformulier-meldpunt-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 8958
+    },
+    {
+      "municipalityCode": "GM0785",
+      "municipalityName": "Goirle",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.goirle.nl",
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "candidates": [
+        "https://www.goirle.nl/verhuizen/meldpunt-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.goirle.nl/verhuizen/meldpunt-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3706
+    },
+    {
+      "municipalityCode": "GM1942",
+      "municipalityName": "Gooise Meren",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.gooisemeren.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://gooisemeren.nl/verhuizen-en-wonen/klacht-over-woningverhuurder-melden/",
+        "https://gooisemeren.nl/bouwen-en-verbouwen/vergunning-voor-splitsen-van-woningen/"
+      ],
+      "reachableCandidates": [
+        "https://gooisemeren.nl/verhuizen-en-wonen/klacht-over-woningverhuurder-melden/",
+        "https://gooisemeren.nl/bouwen-en-verbouwen/vergunning-voor-splitsen-van-woningen/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 14669
+    }
+  ],
+  "summary": {
+    "municipalities": 25,
+    "registryHits": 25,
+    "structuredVerification": 20,
+    "deepVerificationNeeded": 5,
+    "manualReviewRequired": 0,
+    "totalCandidates": 86,
+    "networkRequests": 209,
+    "networkErrors": 6,
+    "maxConcurrency": 5
+  },
+  "safety": {
+    "discoveryIsNotLegalVerification": true,
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0
+  }
+}

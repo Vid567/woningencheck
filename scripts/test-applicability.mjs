@@ -1,7 +1,9 @@
 ﻿import assert from "node:assert/strict";
 import fs from "node:fs";
 import {buildAddressContext,evaluateRule,isApplicationRouteRelevant,STATES} from "../assets/applicability.js";
-const records=JSON.parse(fs.readFileSync("data/regulations.json","utf8")).records;
+const stripBOM = s => s && s[0] === '\uFEFF' ? s.slice(1) : s;
+const readJson = path => JSON.parse(stripBOM(fs.readFileSync(path,'utf8')));
+const records = readJson("data/regulations.json").records;
 const op=records.find(x=>x.id==="leiden-opkoop-2024"),om=records.find(x=>x.id==="leiden-omzetting-2024");
 const context=(neighborhood,postcode="2315SW",street="Trompstraat")=>({municipality:{code:"GM0546"},location:{neighborhoodName:neighborhood,districtName:"Binnenstad-Noord"},address:{postcode,street,houseNumber:51},property:{wozValue:null}});
 const synthetic=condition=>({conflictStatus:"none-found",applicability:{conclusiveWhenMatched:true,matchMessage:"match",geographicNoMatchMessage:"no",conditions:[condition]}});

@@ -1,0 +1,75 @@
+name: Process remaining 53 municipalities
+
+on:
+  push:
+    paths:
+      - 'scripts/automation/process-remaining-53.mjs'
+      - '.github/workflows/process-remaining-53.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: process-remaining-53
+  cancel-in-progress: false
+
+jobs:
+  process:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: feature/per-batch-commit
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Fetch authoritative main evidence
+        run: git fetch origin main --depth=1
+      - name: Process remaining municipalities in checkpointed batches
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          for n in 1 2 3 4 5 6; do
+            echo "=== remaining-53 batch $n ==="
+            BATCH_NO="$n" BATCH_SIZE=10 node scripts/automation/process-remaining-53.mjs
+            node - <<'NODE'
+          const fs=require('fs');
+          const p='reports/automation/remaining-53-progress.json';
+          const x=JSON.parse(fs.readFileSync(p,'utf8').replace(/^\uFEFF/,''));
+          if(x.safety.legalApprovalAutomatic!==false) throw Error('legal approval safety failed');
+          if(x.safety.automaticPublication!==false) throw Error('publication safety failed');
+          if(x.safety.publicRulesCreated!==0) throw Error('public rule safety failed');
+          if(x.safety.negativeLegalConclusions!==0) throw Error('negative conclusion safety failed');
+          console.log({remaining:x.remainingCount,lastBatch:x.lastBatch});
+          NODE
+            git add data/research-batches/remaining-53/ reports/automation/remaining-53-progress.json
+            if ! git diff --cached --quiet; then
+              git commit -m "Checkpoint remaining 53 batch ${n}"
+              git pull --rebase origin feature/per-batch-commit
+              git push origin HEAD:feature/per-batch-commit
+            fi
+            remaining=$(node -e "const x=require('./reports/automation/remaining-53-progress.json'); process.stdout.write(String(x.remainingCount))")
+            if [ "$remaining" = "0" ]; then break; fi
+          done
+      - name: Final completion gate
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          const x=JSON.parse(fs.readFileSync('reports/automation/remaining-53-progress.json','utf8').replace(/^\uFEFF/,''));
+          if(x.remainingCount!==0) throw Error(`Remaining municipality count is ${x.remainingCount}, expected 0`);
+          console.log('REMAINING 53 AUTOMATION COMPLETE');
+          NODE
+      - name: Upload final report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: remaining-53-${{ github.run_number }}
+          path: |
+            reports/automation/remaining-53-progress.json
+            data/research-batches/remaining-53/
+          if-no-files-found: error

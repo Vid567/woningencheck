@@ -2,7 +2,8 @@ import fs from 'node:fs';
 import {execSync} from 'node:child_process';
 import {normalizeOutcome, normalizeRoute} from './status-normalize.mjs';
 
-const R=path=>JSON.parse(fs.readFileSync(path,'utf8'));
+const stripBOM = s => s && s[0] === '\uFEFF' ? s.slice(1) : s;
+const R = path => JSON.parse(stripBOM(fs.readFileSync(path,'utf8')));
 const W=(p,v)=>fs.writeFileSync(p,JSON.stringify(v,null,2)+'\n');
 
 const municipalities=R('data/municipalities-2026.json').municipalities.map(m=>m.code);
@@ -184,4 +185,4 @@ const report={
 // ensure output directory
 try{fs.mkdirSync('reports/automation',{recursive:true})}catch{}
 W(report.path,report);
-console.log(JSON.stringify({message:'Accounting written',path:report.path,summary:{canonicalTotal:report.canonicalTotal,accountedTotal:report.accountedTotal,autoProcessed:report.autoProcessedCount,historicalProcessed:report.historicalProcessedCount}},null,2));
+console.log(JSON.stringify({message:'Accounting written',path:report.path,summary:{canonicalTotal:report.canonicalTotal,completedAccountedTotal:report.completedAccountedTotal,autoProcessed:report.autoProcessedCount,historicalProcessed:report.historicalProcessedCount}},null,2));

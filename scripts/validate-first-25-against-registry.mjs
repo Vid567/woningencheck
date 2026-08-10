@@ -1,3 +1,4 @@
+// Calibration validation for batches 001–003 against the current nationwide source registry.
 import fs from 'node:fs/promises';
 
 const read=async p=>JSON.parse(await fs.readFile(p,'utf8'));

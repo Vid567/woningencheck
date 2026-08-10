@@ -1,0 +1,62 @@
+name: Next registry-backed batch
+
+on:
+  workflow_dispatch:
+    inputs:
+      batch_size:
+        description: 'Number of municipalities (1-50)'
+        required: false
+        default: '25'
+      batch_label:
+        description: 'Batch label'
+        required: false
+        default: 'auto-next-25'
+  push:
+    paths:
+      - 'scripts/run-next-registry-batch.mjs'
+      - '.github/workflows/next-registry-batch.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: next-registry-batch
+  cancel-in-progress: false
+
+jobs:
+  discovery:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run next registry-backed batch
+        env:
+          BATCH_SIZE: ${{ github.event.inputs.batch_size || '25' }}
+          BATCH_LABEL: ${{ github.event.inputs.batch_label || 'auto-next-25' }}
+        run: node scripts/run-next-registry-batch.mjs
+      - name: Safety assertions
+        env:
+          BATCH_LABEL: ${{ github.event.inputs.batch_label || 'auto-next-25' }}
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          const label=(process.env.BATCH_LABEL||'auto-next-25').replace(/[^a-z0-9._-]+/gi,'-').toLowerCase();
+          const x=JSON.parse(fs.readFileSync(`data/research-batches/auto/${label}.json`));
+          if(x.summary.registryHits!==x.records.length) throw Error('Missing registry hits');
+          if(x.safety.publicRulesCreated!==0||x.safety.negativeLegalConclusions!==0) throw Error('Safety invariant failed');
+          console.log(x.summary);
+          NODE
+      - name: Commit batch results
+        env:
+          BATCH_LABEL: ${{ github.event.inputs.batch_label || 'auto-next-25' }}
+        run: |
+          label=$(echo "$BATCH_LABEL" | tr '[:upper:]' '[:lower:]' | sed -E 's/[^a-z0-9._-]+/-/g')
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add "data/research-batches/auto/${label}.json" "docs/research-batches/auto/${label}.md"
+          git diff --cached --quiet && exit 0
+          git commit -m "Add ${label} registry discovery results"
+          git pull --rebase origin main
+          git push

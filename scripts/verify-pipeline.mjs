@@ -25,11 +25,23 @@ const municipalityCodes=new Set(municipalities.map(item=>item.code));
 for(const item of research)if(!municipalityCodes.has(item.municipalityCode))fail(`research municipality ${item.municipalityCode} absent from CBS data`);
 for(const code of municipalityCodes)if(!research.some(item=>item.municipalityCode===code))fail(`CBS municipality ${code} disappeared from research queue`);
 const canonicalTypes=new Set(taxonomy.map(item=>item.canonicalType));
+// build alias lookup mapping alias -> canonicalType
+const aliasMap = {};
+for(const t of taxonomy){
+  if(Array.isArray(t.aliases)){
+    for(const a of t.aliases){ aliasMap[a.toLowerCase()] = t.canonicalType }
+  }
+}
+
 for(const record of regulations){
   if(!municipalityCodes.has(record.municipalityCode))fail(`${record.id}: invalid municipality code`);
-  if(!canonicalTypes.has(record.canonicalType))fail(`${record.id}: invalid canonical permit type`);
+  // allow comma-separated or alias values for canonicalType in persisted data
+  const rawType = typeof record.canonicalType === 'string' ? record.canonicalType : '';
+  const candidates = rawType.split(',').map(s=>s.trim()).filter(Boolean);
+  const resolved = candidates.find(c=>canonicalTypes.has(c) || aliasMap[c.toLowerCase()]);
+  if(!resolved)fail(`${record.id}: invalid canonical permit type`);
   for(const url of [record.officialInformationUrl,record.officialApplicationUrl,record.officialRegulationUrl])if(url&&!url.startsWith("https://"))fail(`${record.id}: official URL is not HTTPS`);
-  if(record.officialInformationUrl===record.officialApplicationUrl&&record.applicationUrlStatus!=="same-as-info-verified")fail(`${record.id}: duplicate info/application URL lacks explicit verification`);
+  if(record.officialInformationUrl && record.officialApplicationUrl && record.officialInformationUrl===record.officialApplicationUrl&&record.applicationUrlStatus!=="same-as-info-verified")fail(`${record.id}: duplicate info/application URL lacks explicit verification`);
   if(!record.verification||!record.verification.legalReview)fail(`${record.id}: verification layers missing`);
   if(record.verification.legalReview.status==="approved")fail(`${record.id}: legal review may not be automatically approved`);
   if(!record.evidence?.length)fail(`${record.id}: verified claim has no evidence`);

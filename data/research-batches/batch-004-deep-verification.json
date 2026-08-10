@@ -1,0 +1,416 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "batch-004-deep-verification",
+  "generatedAt": "2026-08-10T08:22:08.707Z",
+  "records": [
+    {
+      "municipalityCode": "GM0377",
+      "municipalityName": "Bloemendaal",
+      "municipalSite": "https://eloket.bloemendaal.nl/mozard/!suite09.scherm1089?mWfrs=1221194&mNch=bb5zxgvxwh",
+      "registrySources": [
+        {
+          "url": "https://eloket.bloemendaal.nl/mozard/!suite09.scherm1089?mWfrs=1221194&mNch=bb5zxgvxwh",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "officialPublicationSearch": [
+        {
+          "query": "Bloemendaal huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20huisvestingsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bloemendaal opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20opkoopbescherming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bloemendaal kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bloemendaal splitsingsvergunning woningvorming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20splitsingsvergunning%20woningvorming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bloemendaal onttrekkingsvergunning woonruimte",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20onttrekkingsvergunning%20woonruimte",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bloemendaal leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20leegstandsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bloemendaal verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bloemendaal vakantieverhuur short stay",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20vakantieverhuur%20short%20stay",
+          "status": 200,
+          "foundCvdr": []
+        }
+      ],
+      "officialRegulationCandidates": [],
+      "municipalHomepageSearch": [
+        {
+          "term": "huisvest",
+          "matches": []
+        },
+        {
+          "term": "verhuur",
+          "matches": []
+        },
+        {
+          "term": "opkoop",
+          "matches": []
+        },
+        {
+          "term": "kamer",
+          "matches": []
+        },
+        {
+          "term": "splits",
+          "matches": []
+        },
+        {
+          "term": "onttrek",
+          "matches": []
+        },
+        {
+          "term": "leegstand",
+          "matches": []
+        }
+      ],
+      "gisCandidates": [],
+      "verificationStatus": "manual-legal-source-review-required",
+      "negativeLegalConclusion": false,
+      "publicOutputCreated": false
+    },
+    {
+      "municipalityCode": "GM1901",
+      "municipalityName": "Bodegraven-Reeuwijk",
+      "municipalSite": "https://www.bodegraven-reeuwijk.nl",
+      "registrySources": [
+        {
+          "url": "https://www.bodegraven-reeuwijk.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "officialPublicationSearch": [
+        {
+          "query": "Bodegraven-Reeuwijk huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20huisvestingsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bodegraven-Reeuwijk opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20opkoopbescherming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bodegraven-Reeuwijk kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bodegraven-Reeuwijk splitsingsvergunning woningvorming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20splitsingsvergunning%20woningvorming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bodegraven-Reeuwijk onttrekkingsvergunning woonruimte",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20onttrekkingsvergunning%20woonruimte",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bodegraven-Reeuwijk leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20leegstandsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bodegraven-Reeuwijk verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bodegraven-Reeuwijk vakantieverhuur short stay",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20vakantieverhuur%20short%20stay",
+          "status": 200,
+          "foundCvdr": []
+        }
+      ],
+      "officialRegulationCandidates": [],
+      "municipalHomepageSearch": [
+        {
+          "term": "huisvest",
+          "matches": []
+        },
+        {
+          "term": "verhuur",
+          "matches": []
+        },
+        {
+          "term": "opkoop",
+          "matches": []
+        },
+        {
+          "term": "kamer",
+          "matches": []
+        },
+        {
+          "term": "splits",
+          "matches": []
+        },
+        {
+          "term": "onttrek",
+          "matches": []
+        },
+        {
+          "term": "leegstand",
+          "matches": []
+        }
+      ],
+      "gisCandidates": [],
+      "verificationStatus": "manual-legal-source-review-required",
+      "negativeLegalConclusion": false,
+      "publicOutputCreated": false
+    },
+    {
+      "municipalityCode": "GM1681",
+      "municipalityName": "Borger-Odoorn",
+      "municipalSite": "https://www.borger-odoorn.nl",
+      "registrySources": [
+        {
+          "url": "https://www.borger-odoorn.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "officialPublicationSearch": [
+        {
+          "query": "Borger-Odoorn huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20huisvestingsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borger-Odoorn opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20opkoopbescherming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borger-Odoorn kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borger-Odoorn splitsingsvergunning woningvorming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20splitsingsvergunning%20woningvorming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borger-Odoorn onttrekkingsvergunning woonruimte",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20onttrekkingsvergunning%20woonruimte",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borger-Odoorn leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20leegstandsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borger-Odoorn verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borger-Odoorn vakantieverhuur short stay",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20vakantieverhuur%20short%20stay",
+          "status": 200,
+          "foundCvdr": []
+        }
+      ],
+      "officialRegulationCandidates": [],
+      "municipalHomepageSearch": [
+        {
+          "term": "huisvest",
+          "matches": []
+        },
+        {
+          "term": "verhuur",
+          "matches": []
+        },
+        {
+          "term": "opkoop",
+          "matches": []
+        },
+        {
+          "term": "kamer",
+          "matches": []
+        },
+        {
+          "term": "splits",
+          "matches": []
+        },
+        {
+          "term": "onttrek",
+          "matches": []
+        },
+        {
+          "term": "leegstand",
+          "matches": []
+        }
+      ],
+      "gisCandidates": [],
+      "verificationStatus": "manual-legal-source-review-required",
+      "negativeLegalConclusion": false,
+      "publicOutputCreated": false
+    },
+    {
+      "municipalityCode": "GM0147",
+      "municipalityName": "Borne",
+      "municipalSite": "https://www.borne.nl",
+      "registrySources": [
+        {
+          "url": "https://www.borne.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "officialPublicationSearch": [
+        {
+          "query": "Borne huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20huisvestingsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borne opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20opkoopbescherming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borne kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borne splitsingsvergunning woningvorming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20splitsingsvergunning%20woningvorming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borne onttrekkingsvergunning woonruimte",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20onttrekkingsvergunning%20woonruimte",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borne leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20leegstandsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borne verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borne vakantieverhuur short stay",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20vakantieverhuur%20short%20stay",
+          "status": 200,
+          "foundCvdr": []
+        }
+      ],
+      "officialRegulationCandidates": [],
+      "municipalHomepageSearch": [
+        {
+          "term": "huisvest",
+          "matches": []
+        },
+        {
+          "term": "verhuur",
+          "matches": []
+        },
+        {
+          "term": "opkoop",
+          "matches": []
+        },
+        {
+          "term": "kamer",
+          "matches": []
+        },
+        {
+          "term": "splits",
+          "matches": []
+        },
+        {
+          "term": "onttrek",
+          "matches": []
+        },
+        {
+          "term": "leegstand",
+          "matches": []
+        }
+      ],
+      "gisCandidates": [],
+      "verificationStatus": "manual-legal-source-review-required",
+      "negativeLegalConclusion": false,
+      "publicOutputCreated": false
+    }
+  ],
+  "summary": {
+    "municipalities": 4,
+    "withRegulationCandidates": 0,
+    "manualLegalSourceReviewRequired": 4,
+    "withGisCandidate": 0,
+    "networkRequests": 36,
+    "networkErrors": 1
+  },
+  "safety": {
+    "absenceOfDiscoveryIsNotAbsenceOfRegulation": true,
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0
+  }
+}

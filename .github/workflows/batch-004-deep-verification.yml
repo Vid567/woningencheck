@@ -1,0 +1,39 @@
+name: Batch 004 deep verification
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/verify-batch-004-deep.mjs'
+      - 'data/research-batches/batch-004-registry-recheck.json'
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run deep verification
+        run: node scripts/verify-batch-004-deep.mjs
+      - name: Safety assertions
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          const x=JSON.parse(fs.readFileSync('data/research-batches/batch-004-deep-verification.json'));
+          if(x.records.length!==4) throw Error('Expected 4 municipalities');
+          if(x.safety.publicRulesCreated!==0||x.safety.negativeLegalConclusions!==0) throw Error('Safety invariant failed');
+          console.log(x.summary);
+          NODE
+      - name: Commit deep verification results
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/research-batches/batch-004-deep-verification.json docs/research-batches/batch-004-deep-verification.md
+          git diff --cached --quiet && exit 0
+          git commit -m 'Add Batch 004 deep verification results'
+          git push

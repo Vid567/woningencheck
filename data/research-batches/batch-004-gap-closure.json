@@ -1,0 +1,1999 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "batch-004-gap-closure",
+  "generatedAt": "2026-08-10T08:50:44.243Z",
+  "records": [
+    {
+      "municipalityCode": "GM1954",
+      "municipalityName": "Beekdaelen",
+      "candidatePermitTypes": [
+        "housing-permit",
+        "good-landlord-permit"
+      ],
+      "searches": [
+        {
+          "query": "Beekdaelen huisvestingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beekdaelen%20huisvestingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beekdaelen verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beekdaelen%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beekdaelen huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beekdaelen%20huisvestingsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beekdaelen opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beekdaelen%20opkoopbescherming",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beekdaelen kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beekdaelen%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beekdaelen woningvorming splitsingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beekdaelen%20woningvorming%20splitsingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beekdaelen onttrekkingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beekdaelen%20onttrekkingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beekdaelen leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beekdaelen%20leegstandsverordening",
+          "status": 200,
+          "cvdrIds": []
+        }
+      ],
+      "checkedRegulations": [],
+      "trustedOfficialRegulations": [],
+      "evidenceCompleteness": {
+        "officialRegulation": false,
+        "applicationRoute": false,
+        "documents": false,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "openChecks": [
+        "officialRegulation",
+        "applicationRoute",
+        "documents",
+        "exceptions"
+      ],
+      "verificationStatus": "targeted-review-required",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0889",
+      "municipalityName": "Beesel",
+      "candidatePermitTypes": [],
+      "searches": [
+        {
+          "query": "Beesel huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beesel%20huisvestingsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beesel opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beesel%20opkoopbescherming",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beesel kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beesel%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beesel woningvorming splitsingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beesel%20woningvorming%20splitsingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beesel onttrekkingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beesel%20onttrekkingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beesel leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beesel%20leegstandsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beesel verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beesel%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "cvdrIds": []
+        }
+      ],
+      "checkedRegulations": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR759954",
+          "status": 200,
+          "reachable": true,
+          "authorityMatch": true,
+          "signals": {
+            "effective": true,
+            "exceptions": false,
+            "geography": true,
+            "threshold": false,
+            "application": true,
+            "documents": true
+          }
+        }
+      ],
+      "trustedOfficialRegulations": [
+        "https://lokaleregelgeving.overheid.nl/CVDR759954"
+      ],
+      "evidenceCompleteness": {
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "openChecks": [
+        "exceptions"
+      ],
+      "verificationStatus": "targeted-review-required",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1945",
+      "municipalityName": "Berg en Dal",
+      "candidatePermitTypes": [
+        "good-landlord-permit",
+        "dwelling-formation",
+        "housing-permit"
+      ],
+      "searches": [
+        {
+          "query": "Berg en Dal verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Berg%20en%20Dal%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Berg en Dal woningvorming woningsplitsing",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Berg%20en%20Dal%20woningvorming%20woningsplitsing",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Berg en Dal huisvestingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Berg%20en%20Dal%20huisvestingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Berg en Dal huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Berg%20en%20Dal%20huisvestingsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Berg en Dal opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Berg%20en%20Dal%20opkoopbescherming",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Berg en Dal kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Berg%20en%20Dal%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Berg en Dal woningvorming splitsingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Berg%20en%20Dal%20woningvorming%20splitsingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Berg en Dal onttrekkingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Berg%20en%20Dal%20onttrekkingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        }
+      ],
+      "checkedRegulations": [],
+      "trustedOfficialRegulations": [],
+      "evidenceCompleteness": {
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "openChecks": [
+        "officialRegulation"
+      ],
+      "verificationStatus": "targeted-review-required",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1724",
+      "municipalityName": "Bergeijk",
+      "candidatePermitTypes": [
+        "good-landlord-permit"
+      ],
+      "searches": [
+        {
+          "query": "Bergeijk verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergeijk%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergeijk huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergeijk%20huisvestingsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergeijk opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergeijk%20opkoopbescherming",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergeijk kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergeijk%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergeijk woningvorming splitsingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergeijk%20woningvorming%20splitsingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergeijk onttrekkingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergeijk%20onttrekkingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergeijk leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergeijk%20leegstandsverordening",
+          "status": 200,
+          "cvdrIds": []
+        }
+      ],
+      "checkedRegulations": [],
+      "trustedOfficialRegulations": [],
+      "evidenceCompleteness": {
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": false,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "openChecks": [
+        "officialRegulation",
+        "documents"
+      ],
+      "verificationStatus": "targeted-review-required",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0893",
+      "municipalityName": "Bergen (L.)",
+      "candidatePermitTypes": [
+        "good-landlord-permit"
+      ],
+      "searches": [
+        {
+          "query": "Bergen (L.) verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20(L.)%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergen (L.) huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20(L.)%20huisvestingsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergen (L.) opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20(L.)%20opkoopbescherming",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergen (L.) kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20(L.)%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergen (L.) woningvorming splitsingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20(L.)%20woningvorming%20splitsingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergen (L.) onttrekkingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20(L.)%20onttrekkingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergen (L.) leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20(L.)%20leegstandsverordening",
+          "status": 200,
+          "cvdrIds": []
+        }
+      ],
+      "checkedRegulations": [],
+      "trustedOfficialRegulations": [],
+      "evidenceCompleteness": {
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": false,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "openChecks": [
+        "officialRegulation",
+        "documents"
+      ],
+      "verificationStatus": "targeted-review-required",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0373",
+      "municipalityName": "Bergen (NH.)",
+      "candidatePermitTypes": [
+        "dwelling-formation"
+      ],
+      "searches": [
+        {
+          "query": "Bergen (NH.) woningvorming woningsplitsing",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20(NH.)%20woningvorming%20woningsplitsing",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergen (NH.) huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20(NH.)%20huisvestingsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergen (NH.) opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20(NH.)%20opkoopbescherming",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergen (NH.) kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20(NH.)%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergen (NH.) woningvorming splitsingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20(NH.)%20woningvorming%20splitsingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergen (NH.) onttrekkingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20(NH.)%20onttrekkingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergen (NH.) leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20(NH.)%20leegstandsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergen (NH.) verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20(NH.)%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "cvdrIds": []
+        }
+      ],
+      "checkedRegulations": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR607367/1",
+          "status": 200,
+          "reachable": true,
+          "authorityMatch": true,
+          "signals": {
+            "effective": true,
+            "exceptions": true,
+            "geography": true,
+            "threshold": true,
+            "application": true,
+            "documents": true
+          }
+        }
+      ],
+      "trustedOfficialRegulations": [
+        "https://lokaleregelgeving.overheid.nl/CVDR607367/1"
+      ],
+      "evidenceCompleteness": {
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "openChecks": [],
+      "verificationStatus": "structurally-complete-pending-legal-review",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0748",
+      "municipalityName": "Bergen op Zoom",
+      "candidatePermitTypes": [
+        "vacancy-obligation"
+      ],
+      "searches": [
+        {
+          "query": "Bergen op Zoom leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20op%20Zoom%20leegstandsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergen op Zoom huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20op%20Zoom%20huisvestingsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergen op Zoom opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20op%20Zoom%20opkoopbescherming",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergen op Zoom kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20op%20Zoom%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergen op Zoom woningvorming splitsingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20op%20Zoom%20woningvorming%20splitsingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergen op Zoom onttrekkingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20op%20Zoom%20onttrekkingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bergen op Zoom verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bergen%20op%20Zoom%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "cvdrIds": []
+        }
+      ],
+      "checkedRegulations": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR665674/1",
+          "status": 200,
+          "reachable": true,
+          "authorityMatch": true,
+          "signals": {
+            "effective": true,
+            "exceptions": true,
+            "geography": true,
+            "threshold": false,
+            "application": true,
+            "documents": true
+          }
+        },
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR762246",
+          "status": 200,
+          "reachable": true,
+          "authorityMatch": true,
+          "signals": {
+            "effective": true,
+            "exceptions": false,
+            "geography": true,
+            "threshold": true,
+            "application": true,
+            "documents": true
+          }
+        }
+      ],
+      "trustedOfficialRegulations": [
+        "https://lokaleregelgeving.overheid.nl/CVDR665674/1",
+        "https://lokaleregelgeving.overheid.nl/CVDR762246"
+      ],
+      "evidenceCompleteness": {
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "openChecks": [],
+      "verificationStatus": "structurally-complete-pending-legal-review",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1859",
+      "municipalityName": "Berkelland",
+      "candidatePermitTypes": [],
+      "searches": [
+        {
+          "query": "Berkelland huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Berkelland%20huisvestingsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Berkelland opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Berkelland%20opkoopbescherming",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Berkelland kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Berkelland%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Berkelland woningvorming splitsingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Berkelland%20woningvorming%20splitsingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Berkelland onttrekkingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Berkelland%20onttrekkingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Berkelland leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Berkelland%20leegstandsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Berkelland verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Berkelland%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "cvdrIds": []
+        }
+      ],
+      "checkedRegulations": [],
+      "trustedOfficialRegulations": [],
+      "evidenceCompleteness": {
+        "officialRegulation": false,
+        "applicationRoute": false,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "openChecks": [
+        "officialRegulation",
+        "applicationRoute",
+        "exceptions"
+      ],
+      "verificationStatus": "targeted-review-required",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1721",
+      "municipalityName": "Bernheze",
+      "candidatePermitTypes": [],
+      "searches": [
+        {
+          "query": "Bernheze huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bernheze%20huisvestingsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bernheze opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bernheze%20opkoopbescherming",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bernheze kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bernheze%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bernheze woningvorming splitsingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bernheze%20woningvorming%20splitsingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bernheze onttrekkingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bernheze%20onttrekkingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bernheze leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bernheze%20leegstandsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bernheze verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bernheze%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "cvdrIds": []
+        }
+      ],
+      "checkedRegulations": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR711416",
+          "status": 200,
+          "reachable": true,
+          "authorityMatch": true,
+          "signals": {
+            "effective": true,
+            "exceptions": false,
+            "geography": true,
+            "threshold": true,
+            "application": true,
+            "documents": true
+          }
+        },
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR755007",
+          "status": 200,
+          "reachable": true,
+          "authorityMatch": true,
+          "signals": {
+            "effective": true,
+            "exceptions": true,
+            "geography": true,
+            "threshold": true,
+            "application": true,
+            "documents": true
+          }
+        },
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR656696/1",
+          "status": 200,
+          "reachable": true,
+          "authorityMatch": true,
+          "signals": {
+            "effective": true,
+            "exceptions": true,
+            "geography": true,
+            "threshold": false,
+            "application": true,
+            "documents": true
+          }
+        },
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR724030/1",
+          "status": 200,
+          "reachable": true,
+          "authorityMatch": true,
+          "signals": {
+            "effective": true,
+            "exceptions": true,
+            "geography": true,
+            "threshold": false,
+            "application": true,
+            "documents": true
+          }
+        }
+      ],
+      "trustedOfficialRegulations": [
+        "https://lokaleregelgeving.overheid.nl/CVDR711416",
+        "https://lokaleregelgeving.overheid.nl/CVDR755007",
+        "https://lokaleregelgeving.overheid.nl/CVDR656696/1",
+        "https://lokaleregelgeving.overheid.nl/CVDR724030/1"
+      ],
+      "evidenceCompleteness": {
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "openChecks": [],
+      "verificationStatus": "structurally-complete-pending-legal-review",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0753",
+      "municipalityName": "Best",
+      "candidatePermitTypes": [
+        "good-landlord-permit"
+      ],
+      "searches": [
+        {
+          "query": "Best verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Best%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Best huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Best%20huisvestingsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Best opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Best%20opkoopbescherming",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Best kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Best%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Best woningvorming splitsingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Best%20woningvorming%20splitsingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Best onttrekkingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Best%20onttrekkingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Best leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Best%20leegstandsverordening",
+          "status": 200,
+          "cvdrIds": []
+        }
+      ],
+      "checkedRegulations": [],
+      "trustedOfficialRegulations": [],
+      "evidenceCompleteness": {
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": false
+      },
+      "openChecks": [
+        "officialRegulation",
+        "geographicScope"
+      ],
+      "verificationStatus": "targeted-review-required",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0209",
+      "municipalityName": "Beuningen",
+      "candidatePermitTypes": [
+        "good-landlord-permit"
+      ],
+      "searches": [
+        {
+          "query": "Beuningen verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beuningen%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beuningen huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beuningen%20huisvestingsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beuningen opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beuningen%20opkoopbescherming",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beuningen kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beuningen%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beuningen woningvorming splitsingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beuningen%20woningvorming%20splitsingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beuningen onttrekkingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beuningen%20onttrekkingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beuningen leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beuningen%20leegstandsverordening",
+          "status": 200,
+          "cvdrIds": []
+        }
+      ],
+      "checkedRegulations": [],
+      "trustedOfficialRegulations": [],
+      "evidenceCompleteness": {
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "openChecks": [
+        "officialRegulation",
+        "exceptions"
+      ],
+      "verificationStatus": "targeted-review-required",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0375",
+      "municipalityName": "Beverwijk",
+      "candidatePermitTypes": [
+        "vacancy-obligation",
+        "good-landlord-permit"
+      ],
+      "searches": [
+        {
+          "query": "Beverwijk leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beverwijk%20leegstandsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beverwijk verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beverwijk%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beverwijk huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beverwijk%20huisvestingsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beverwijk opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beverwijk%20opkoopbescherming",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beverwijk kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beverwijk%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beverwijk woningvorming splitsingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beverwijk%20woningvorming%20splitsingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Beverwijk onttrekkingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Beverwijk%20onttrekkingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        }
+      ],
+      "checkedRegulations": [],
+      "trustedOfficialRegulations": [],
+      "evidenceCompleteness": {
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "openChecks": [
+        "officialRegulation",
+        "exceptions"
+      ],
+      "verificationStatus": "targeted-review-required",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1728",
+      "municipalityName": "Bladel",
+      "candidatePermitTypes": [
+        "dwelling-formation"
+      ],
+      "searches": [
+        {
+          "query": "Bladel woningvorming woningsplitsing",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bladel%20woningvorming%20woningsplitsing",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bladel huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bladel%20huisvestingsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bladel opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bladel%20opkoopbescherming",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bladel kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bladel%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bladel woningvorming splitsingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bladel%20woningvorming%20splitsingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bladel onttrekkingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bladel%20onttrekkingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bladel leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bladel%20leegstandsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bladel verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bladel%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "cvdrIds": []
+        }
+      ],
+      "checkedRegulations": [],
+      "trustedOfficialRegulations": [],
+      "evidenceCompleteness": {
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "openChecks": [
+        "officialRegulation"
+      ],
+      "verificationStatus": "targeted-review-required",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0376",
+      "municipalityName": "Blaricum",
+      "candidatePermitTypes": [
+        "good-landlord-permit"
+      ],
+      "searches": [
+        {
+          "query": "Blaricum verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Blaricum%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Blaricum huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Blaricum%20huisvestingsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Blaricum opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Blaricum%20opkoopbescherming",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Blaricum kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Blaricum%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Blaricum woningvorming splitsingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Blaricum%20woningvorming%20splitsingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Blaricum onttrekkingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Blaricum%20onttrekkingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Blaricum leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Blaricum%20leegstandsverordening",
+          "status": 200,
+          "cvdrIds": []
+        }
+      ],
+      "checkedRegulations": [],
+      "trustedOfficialRegulations": [],
+      "evidenceCompleteness": {
+        "officialRegulation": false,
+        "applicationRoute": false,
+        "documents": false,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "openChecks": [
+        "officialRegulation",
+        "applicationRoute",
+        "documents",
+        "exceptions"
+      ],
+      "verificationStatus": "targeted-review-required",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0755",
+      "municipalityName": "Boekel",
+      "candidatePermitTypes": [
+        "good-landlord-permit"
+      ],
+      "searches": [
+        {
+          "query": "Boekel verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Boekel%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Boekel huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Boekel%20huisvestingsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Boekel opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Boekel%20opkoopbescherming",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Boekel kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Boekel%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Boekel woningvorming splitsingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Boekel%20woningvorming%20splitsingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Boekel onttrekkingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Boekel%20onttrekkingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Boekel leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Boekel%20leegstandsverordening",
+          "status": 200,
+          "cvdrIds": []
+        }
+      ],
+      "checkedRegulations": [],
+      "trustedOfficialRegulations": [],
+      "evidenceCompleteness": {
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "openChecks": [
+        "officialRegulation",
+        "exceptions"
+      ],
+      "verificationStatus": "targeted-review-required",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0654",
+      "municipalityName": "Borsele",
+      "candidatePermitTypes": [
+        "good-landlord-permit"
+      ],
+      "searches": [
+        {
+          "query": "Borsele verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borsele%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Borsele huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borsele%20huisvestingsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Borsele opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borsele%20opkoopbescherming",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Borsele kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borsele%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Borsele woningvorming splitsingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borsele%20woningvorming%20splitsingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Borsele onttrekkingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borsele%20onttrekkingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Borsele leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borsele%20leegstandsverordening",
+          "status": 200,
+          "cvdrIds": []
+        }
+      ],
+      "checkedRegulations": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR693909/1",
+          "status": 200,
+          "reachable": true,
+          "authorityMatch": true,
+          "signals": {
+            "effective": true,
+            "exceptions": true,
+            "geography": true,
+            "threshold": true,
+            "application": false,
+            "documents": true
+          }
+        }
+      ],
+      "trustedOfficialRegulations": [
+        "https://lokaleregelgeving.overheid.nl/CVDR693909/1"
+      ],
+      "evidenceCompleteness": {
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "openChecks": [],
+      "verificationStatus": "structurally-complete-pending-legal-review",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0757",
+      "municipalityName": "Boxtel",
+      "candidatePermitTypes": [
+        "good-landlord-permit",
+        "room-rental"
+      ],
+      "searches": [
+        {
+          "query": "Boxtel verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Boxtel%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Boxtel kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Boxtel%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Boxtel huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Boxtel%20huisvestingsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Boxtel opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Boxtel%20opkoopbescherming",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Boxtel woningvorming splitsingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Boxtel%20woningvorming%20splitsingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Boxtel onttrekkingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Boxtel%20onttrekkingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Boxtel leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Boxtel%20leegstandsverordening",
+          "status": 200,
+          "cvdrIds": []
+        }
+      ],
+      "checkedRegulations": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR759434?",
+          "status": 200,
+          "reachable": true,
+          "authorityMatch": true,
+          "signals": {
+            "effective": true,
+            "exceptions": false,
+            "geography": true,
+            "threshold": true,
+            "application": true,
+            "documents": true
+          }
+        },
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR696394",
+          "status": 200,
+          "reachable": true,
+          "authorityMatch": true,
+          "signals": {
+            "effective": true,
+            "exceptions": true,
+            "geography": true,
+            "threshold": false,
+            "application": false,
+            "documents": true
+          }
+        },
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR759434",
+          "status": 200,
+          "reachable": true,
+          "authorityMatch": true,
+          "signals": {
+            "effective": true,
+            "exceptions": false,
+            "geography": true,
+            "threshold": true,
+            "application": true,
+            "documents": true
+          }
+        }
+      ],
+      "trustedOfficialRegulations": [
+        "https://lokaleregelgeving.overheid.nl/CVDR759434?",
+        "https://lokaleregelgeving.overheid.nl/CVDR696394",
+        "https://lokaleregelgeving.overheid.nl/CVDR759434"
+      ],
+      "evidenceCompleteness": {
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "openChecks": [],
+      "verificationStatus": "structurally-complete-pending-legal-review",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0758",
+      "municipalityName": "Breda",
+      "candidatePermitTypes": [
+        "purchase-protection",
+        "good-landlord-permit",
+        "building-split"
+      ],
+      "searches": [
+        {
+          "query": "Breda opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Breda%20opkoopbescherming",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Breda verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Breda%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Breda splitsingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Breda%20splitsingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Breda huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Breda%20huisvestingsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Breda kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Breda%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Breda woningvorming splitsingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Breda%20woningvorming%20splitsingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Breda onttrekkingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Breda%20onttrekkingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Breda leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Breda%20leegstandsverordening",
+          "status": 200,
+          "cvdrIds": []
+        }
+      ],
+      "checkedRegulations": [
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR713810/1",
+          "status": 200,
+          "reachable": true,
+          "authorityMatch": true,
+          "signals": {
+            "effective": true,
+            "exceptions": true,
+            "geography": true,
+            "threshold": true,
+            "application": true,
+            "documents": true
+          }
+        },
+        {
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR695686",
+          "status": 200,
+          "reachable": true,
+          "authorityMatch": true,
+          "signals": {
+            "effective": true,
+            "exceptions": false,
+            "geography": true,
+            "threshold": true,
+            "application": true,
+            "documents": true
+          }
+        }
+      ],
+      "trustedOfficialRegulations": [
+        "https://lokaleregelgeving.overheid.nl/CVDR713810/1",
+        "https://lokaleregelgeving.overheid.nl/CVDR695686"
+      ],
+      "evidenceCompleteness": {
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "openChecks": [],
+      "verificationStatus": "structurally-complete-pending-legal-review",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1876",
+      "municipalityName": "Bronckhorst",
+      "candidatePermitTypes": [
+        "good-landlord-permit"
+      ],
+      "searches": [
+        {
+          "query": "Bronckhorst verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bronckhorst%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bronckhorst huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bronckhorst%20huisvestingsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bronckhorst opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bronckhorst%20opkoopbescherming",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bronckhorst kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bronckhorst%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bronckhorst woningvorming splitsingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bronckhorst%20woningvorming%20splitsingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bronckhorst onttrekkingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bronckhorst%20onttrekkingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Bronckhorst leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bronckhorst%20leegstandsverordening",
+          "status": 200,
+          "cvdrIds": []
+        }
+      ],
+      "checkedRegulations": [],
+      "trustedOfficialRegulations": [],
+      "evidenceCompleteness": {
+        "officialRegulation": false,
+        "applicationRoute": false,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "openChecks": [
+        "officialRegulation",
+        "applicationRoute"
+      ],
+      "verificationStatus": "targeted-review-required",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0213",
+      "municipalityName": "Brummen",
+      "candidatePermitTypes": [
+        "good-landlord-permit"
+      ],
+      "searches": [
+        {
+          "query": "Brummen verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Brummen%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Brummen huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Brummen%20huisvestingsverordening",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Brummen opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Brummen%20opkoopbescherming",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Brummen kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Brummen%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Brummen woningvorming splitsingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Brummen%20woningvorming%20splitsingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Brummen onttrekkingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Brummen%20onttrekkingsvergunning",
+          "status": 200,
+          "cvdrIds": []
+        },
+        {
+          "query": "Brummen leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Brummen%20leegstandsverordening",
+          "status": 200,
+          "cvdrIds": []
+        }
+      ],
+      "checkedRegulations": [],
+      "trustedOfficialRegulations": [],
+      "evidenceCompleteness": {
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": false
+      },
+      "openChecks": [
+        "officialRegulation",
+        "exceptions",
+        "geographicScope"
+      ],
+      "verificationStatus": "targeted-review-required",
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    }
+  ],
+  "deepReview": [
+    {
+      "municipalityCode": "GM0377",
+      "municipalityName": "Bloemendaal",
+      "municipalSite": "https://eloket.bloemendaal.nl/mozard/!suite09.scherm1089?mWfrs=1221194&mNch=bb5zxgvxwh",
+      "registrySources": [
+        {
+          "url": "https://eloket.bloemendaal.nl/mozard/!suite09.scherm1089?mWfrs=1221194&mNch=bb5zxgvxwh",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "officialPublicationSearch": [
+        {
+          "query": "Bloemendaal huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20huisvestingsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bloemendaal opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20opkoopbescherming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bloemendaal kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bloemendaal splitsingsvergunning woningvorming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20splitsingsvergunning%20woningvorming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bloemendaal onttrekkingsvergunning woonruimte",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20onttrekkingsvergunning%20woonruimte",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bloemendaal leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20leegstandsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bloemendaal verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bloemendaal vakantieverhuur short stay",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20vakantieverhuur%20short%20stay",
+          "status": 200,
+          "foundCvdr": []
+        }
+      ],
+      "officialRegulationCandidates": [],
+      "municipalHomepageSearch": [
+        {
+          "term": "huisvest",
+          "matches": []
+        },
+        {
+          "term": "verhuur",
+          "matches": []
+        },
+        {
+          "term": "opkoop",
+          "matches": []
+        },
+        {
+          "term": "kamer",
+          "matches": []
+        },
+        {
+          "term": "splits",
+          "matches": []
+        },
+        {
+          "term": "onttrek",
+          "matches": []
+        },
+        {
+          "term": "leegstand",
+          "matches": []
+        }
+      ],
+      "gisCandidates": [],
+      "verificationStatus": "manual-legal-source-review-required",
+      "negativeLegalConclusion": false,
+      "publicOutputCreated": false
+    },
+    {
+      "municipalityCode": "GM1901",
+      "municipalityName": "Bodegraven-Reeuwijk",
+      "municipalSite": "https://www.bodegraven-reeuwijk.nl",
+      "registrySources": [
+        {
+          "url": "https://www.bodegraven-reeuwijk.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "officialPublicationSearch": [
+        {
+          "query": "Bodegraven-Reeuwijk huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20huisvestingsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bodegraven-Reeuwijk opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20opkoopbescherming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bodegraven-Reeuwijk kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bodegraven-Reeuwijk splitsingsvergunning woningvorming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20splitsingsvergunning%20woningvorming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bodegraven-Reeuwijk onttrekkingsvergunning woonruimte",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20onttrekkingsvergunning%20woonruimte",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bodegraven-Reeuwijk leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20leegstandsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bodegraven-Reeuwijk verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bodegraven-Reeuwijk vakantieverhuur short stay",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20vakantieverhuur%20short%20stay",
+          "status": 200,
+          "foundCvdr": []
+        }
+      ],
+      "officialRegulationCandidates": [],
+      "municipalHomepageSearch": [
+        {
+          "term": "huisvest",
+          "matches": []
+        },
+        {
+          "term": "verhuur",
+          "matches": []
+        },
+        {
+          "term": "opkoop",
+          "matches": []
+        },
+        {
+          "term": "kamer",
+          "matches": []
+        },
+        {
+          "term": "splits",
+          "matches": []
+        },
+        {
+          "term": "onttrek",
+          "matches": []
+        },
+        {
+          "term": "leegstand",
+          "matches": []
+        }
+      ],
+      "gisCandidates": [],
+      "verificationStatus": "manual-legal-source-review-required",
+      "negativeLegalConclusion": false,
+      "publicOutputCreated": false
+    },
+    {
+      "municipalityCode": "GM1681",
+      "municipalityName": "Borger-Odoorn",
+      "municipalSite": "https://www.borger-odoorn.nl",
+      "registrySources": [
+        {
+          "url": "https://www.borger-odoorn.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "officialPublicationSearch": [
+        {
+          "query": "Borger-Odoorn huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20huisvestingsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borger-Odoorn opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20opkoopbescherming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borger-Odoorn kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borger-Odoorn splitsingsvergunning woningvorming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20splitsingsvergunning%20woningvorming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borger-Odoorn onttrekkingsvergunning woonruimte",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20onttrekkingsvergunning%20woonruimte",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borger-Odoorn leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20leegstandsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borger-Odoorn verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borger-Odoorn vakantieverhuur short stay",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borger-Odoorn%20vakantieverhuur%20short%20stay",
+          "status": 200,
+          "foundCvdr": []
+        }
+      ],
+      "officialRegulationCandidates": [],
+      "municipalHomepageSearch": [
+        {
+          "term": "huisvest",
+          "matches": []
+        },
+        {
+          "term": "verhuur",
+          "matches": []
+        },
+        {
+          "term": "opkoop",
+          "matches": []
+        },
+        {
+          "term": "kamer",
+          "matches": []
+        },
+        {
+          "term": "splits",
+          "matches": []
+        },
+        {
+          "term": "onttrek",
+          "matches": []
+        },
+        {
+          "term": "leegstand",
+          "matches": []
+        }
+      ],
+      "gisCandidates": [],
+      "verificationStatus": "manual-legal-source-review-required",
+      "negativeLegalConclusion": false,
+      "publicOutputCreated": false
+    },
+    {
+      "municipalityCode": "GM0147",
+      "municipalityName": "Borne",
+      "municipalSite": "https://www.borne.nl",
+      "registrySources": [
+        {
+          "url": "https://www.borne.nl",
+          "sourceClass": "municipal-site",
+          "descriptors": [
+            "Official municipal website seeded from the Register van Overheidsorganisaties; discovery entry point only, not a legal conclusion."
+          ]
+        }
+      ],
+      "officialPublicationSearch": [
+        {
+          "query": "Borne huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20huisvestingsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borne opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20opkoopbescherming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borne kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borne splitsingsvergunning woningvorming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20splitsingsvergunning%20woningvorming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borne onttrekkingsvergunning woonruimte",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20onttrekkingsvergunning%20woonruimte",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borne leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20leegstandsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borne verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Borne vakantieverhuur short stay",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Borne%20vakantieverhuur%20short%20stay",
+          "status": 200,
+          "foundCvdr": []
+        }
+      ],
+      "officialRegulationCandidates": [],
+      "municipalHomepageSearch": [
+        {
+          "term": "huisvest",
+          "matches": []
+        },
+        {
+          "term": "verhuur",
+          "matches": []
+        },
+        {
+          "term": "opkoop",
+          "matches": []
+        },
+        {
+          "term": "kamer",
+          "matches": []
+        },
+        {
+          "term": "splits",
+          "matches": []
+        },
+        {
+          "term": "onttrek",
+          "matches": []
+        },
+        {
+          "term": "leegstand",
+          "matches": []
+        }
+      ],
+      "gisCandidates": [],
+      "verificationStatus": "manual-legal-source-review-required",
+      "negativeLegalConclusion": false,
+      "publicOutputCreated": false
+    }
+  ],
+  "summary": {
+    "targetedMunicipalities": 20,
+    "newStructurallyComplete": 6,
+    "targetedReviewRequired": 14,
+    "deepManualReview": 4,
+    "withTrustedOfficialRegulation": 7,
+    "networkRequests": 159,
+    "networkErrors": 0
+  },
+  "safety": {
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0,
+    "legalApprovalAutomatic": false
+  }
+}

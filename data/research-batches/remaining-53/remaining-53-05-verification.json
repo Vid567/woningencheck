@@ -1,0 +1,1344 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "remaining-53-05-verification",
+  "generatedAt": "2026-08-10T21:37:12.954Z",
+  "sourceBatch": "remaining-53-05",
+  "records": [
+    {
+      "municipalityCode": "GM0762",
+      "municipalityName": "Deurne",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.deurne.nl",
+      "candidateCount": 7,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.deurne.nl/exploitatievergunning-huisvesting-arbeidsmigranten",
+        "https://www.deurne.nl/melding-wet-goed-verhuurderschap",
+        "https://www.deurne.nl/woning-splitsen",
+        "https://www.deurne.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.deurne.nl/huisvestingsvergunning",
+        "https://www.deurne.nl/leegstand-melden",
+        "https://www.deurne.nl/huisvesting-arbeidsmigranten"
+      ],
+      "reachableCandidates": [
+        "https://www.deurne.nl/exploitatievergunning-huisvesting-arbeidsmigranten",
+        "https://www.deurne.nl/melding-wet-goed-verhuurderschap",
+        "https://www.deurne.nl/woning-splitsen",
+        "https://www.deurne.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.deurne.nl/huisvestingsvergunning",
+        "https://www.deurne.nl/leegstand-melden"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4562,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "good-landlord-permit",
+        "dwelling-formation",
+        "housing-permit",
+        "vacancy-obligation"
+      ],
+      "pages": [
+        {
+          "url": "https://www.deurne.nl/exploitatievergunning-huisvesting-arbeidsmigranten",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR651877"
+          ],
+          "applicationLinks": [
+            "https://cuatro.sim-cdn.nl/deurne/uploads/aanvraagformulier%20exploitatievergunning%20huisvesting%20arbeidsmigranten_3.pdf?cb=IeYSQeK3",
+            "https://cuatro.sim-cdn.nl/deurne/uploads/Bibob%20vragenformulier%20voor%20aanvraag%20exploitatievergunning%20huisvesting%20arbeidmigranten_3.pdf?cb=HfK99M1z"
+          ],
+          "documentLinks": [
+            "https://cuatro.sim-cdn.nl/deurne/uploads/aanvraagformulier%20exploitatievergunning%20huisvesting%20arbeidsmigranten_3.pdf?cb=IeYSQeK3",
+            "https://cuatro.sim-cdn.nl/deurne/uploads/Bibob%20vragenformulier%20voor%20aanvraag%20exploitatievergunning%20huisvesting%20arbeidmigranten_3.pdf?cb=HfK99M1z"
+          ]
+        },
+        {
+          "url": "https://www.deurne.nl/melding-wet-goed-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.deurne.nl/woning-splitsen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "dwelling-formation"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.deurne.nl/tijdelijke-verhuur-leegstaand-pand",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.deurne.nl/images/logo/digid.svg"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.deurne.nl/huisvestingsvergunning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "housing-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.deurne.nl/leegstand-melden",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "vacancy-obligation"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [
+        "https://lokaleregelgeving.overheid.nl/CVDR651877"
+      ],
+      "applicationLinks": [
+        "https://cuatro.sim-cdn.nl/deurne/uploads/aanvraagformulier%20exploitatievergunning%20huisvesting%20arbeidsmigranten_3.pdf?cb=IeYSQeK3",
+        "https://cuatro.sim-cdn.nl/deurne/uploads/Bibob%20vragenformulier%20voor%20aanvraag%20exploitatievergunning%20huisvesting%20arbeidmigranten_3.pdf?cb=HfK99M1z",
+        "https://www.deurne.nl/images/logo/digid.svg"
+      ],
+      "documentLinks": [
+        "https://cuatro.sim-cdn.nl/deurne/uploads/aanvraagformulier%20exploitatievergunning%20huisvesting%20arbeidsmigranten_3.pdf?cb=IeYSQeK3",
+        "https://cuatro.sim-cdn.nl/deurne/uploads/Bibob%20vragenformulier%20voor%20aanvraag%20exploitatievergunning%20huisvesting%20arbeidmigranten_3.pdf?cb=HfK99M1z"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "structurally-complete-pending-legal-review",
+      "openChecks": [],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0150",
+      "municipalityName": "Deventer",
+      "province": "Overijssel",
+      "registryHit": true,
+      "municipalSite": "https://www.deventer.nl",
+      "candidateCount": 7,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.deventer.nl/nieuws/gemeente-koopt-en-verhuurt-brink-40-43-aan-tactus-verslavingszorg",
+        "https://www.deventer.nl/ondernemen/vergunningen-en-regelingen-voor-ondernemers/woning-kopen-en-meteen-verhuren-vergunning-opkoopbescherming",
+        "https://www.deventer.nl/duurzaamheid/natuurvriendelijk-isoleren/huizen-isoleren-renoveren-of-slopen-als-verhuurder-of-woningcorporatie",
+        "https://www.deventer.nl/wonen/woning-zoeken/studentenhuisvesting",
+        "https://www.deventer.nl/wonen/meldpunt-verhuur-ik-heb-een-klacht-over-mijn-verhuurder",
+        "https://www.deventer.nl/wonen/betaalbare-nieuwbouwwoning-kopen-huisvestingsvergunning",
+        "https://www.deventer.nl/bouwen-verbouwen-en-slopen/vergunningen-en-meldingen-bouw-verbouw-en-sloop/woningsplitsing"
+      ],
+      "reachableCandidates": [
+        "https://www.deventer.nl/nieuws/gemeente-koopt-en-verhuurt-brink-40-43-aan-tactus-verslavingszorg",
+        "https://www.deventer.nl/ondernemen/vergunningen-en-regelingen-voor-ondernemers/woning-kopen-en-meteen-verhuren-vergunning-opkoopbescherming",
+        "https://www.deventer.nl/duurzaamheid/natuurvriendelijk-isoleren/huizen-isoleren-renoveren-of-slopen-als-verhuurder-of-woningcorporatie",
+        "https://www.deventer.nl/wonen/woning-zoeken/studentenhuisvesting",
+        "https://www.deventer.nl/wonen/meldpunt-verhuur-ik-heb-een-klacht-over-mijn-verhuurder",
+        "https://www.deventer.nl/wonen/betaalbare-nieuwbouwwoning-kopen-huisvestingsvergunning"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5509,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "purchase-protection",
+        "housing-permit"
+      ],
+      "pages": [
+        {
+          "url": "https://www.deventer.nl/nieuws/gemeente-koopt-en-verhuurt-brink-40-43-aan-tactus-verslavingszorg",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.deventer.nl/ondernemen/vergunningen-en-regelingen-voor-ondernemers/woning-kopen-en-meteen-verhuren-vergunning-opkoopbescherming",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "purchase-protection"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.deventer.nl/duurzaamheid/natuurvriendelijk-isoleren/huizen-isoleren-renoveren-of-slopen-als-verhuurder-of-woningcorporatie",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": [
+            "https://www.deventer.nl/fileadmin/deventer_website/Duurzaamheid/soortenmanagementplan-deventer.pdf",
+            "https://www.deventer.nl/fileadmin/deventer_website/Duurzaamheid/ontheffing-wnb-bebouwde-kom-gemeente-deventer.pdf"
+          ]
+        },
+        {
+          "url": "https://www.deventer.nl/wonen/woning-zoeken/studentenhuisvesting",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.deventer.nl/wonen/meldpunt-verhuur-ik-heb-een-klacht-over-mijn-verhuurder",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.deventer.nl/wonen/betaalbare-nieuwbouwwoning-kopen-huisvestingsvergunning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "housing-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR756535/1"
+          ],
+          "applicationLinks": [
+            "https://www.deventer.nl/huisvestingsvergunning-aanvraagformulier"
+          ],
+          "documentLinks": [
+            "https://www.deventer.nl/huisvestingsvergunning-aanvraagformulier"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [
+        "https://lokaleregelgeving.overheid.nl/CVDR756535/1"
+      ],
+      "applicationLinks": [
+        "https://www.deventer.nl/huisvestingsvergunning-aanvraagformulier"
+      ],
+      "documentLinks": [
+        "https://www.deventer.nl/fileadmin/deventer_website/Duurzaamheid/soortenmanagementplan-deventer.pdf",
+        "https://www.deventer.nl/fileadmin/deventer_website/Duurzaamheid/ontheffing-wnb-bebouwde-kom-gemeente-deventer.pdf",
+        "https://www.deventer.nl/huisvestingsvergunning-aanvraagformulier"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "structurally-complete-pending-legal-review",
+      "openChecks": [],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0384",
+      "municipalityName": "Diemen",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.diemen.nl",
+      "candidateCount": 12,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.diemen.nl/ZAAI_Diemen/Vergunningen/Exploitatievergunning_autoverhuurbranche/Formulier_Wet_Bibob_2024",
+        "https://www.diemen.nl/ZAAI_Diemen/Vergunningen/Exploitatievergunning_autoverhuurbranche/Format_bedrijfsplan_autoverhuurbranche_exploitatievergunning",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Hulp_en_ondersteuning/Melding_ongewenst_gedrag_van_verhuurders/Discriminatie_op_de_woningmarkt_brochure",
+        "https://www.diemen.nl/Onderwerpen/Algemeen/Privacyverklaring/Privacyverklaring_meldpunt_problemen_met_verhuurders",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_sociale_huurwoning/Huisvestingsvergunning/Aanvraagformulier_huisvestingsvergunning",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_koopwoning/Gebruik_woonruimte_veranderen/Vakantieverhuur_en_Bed_Breakfast",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_koopwoning/Gebruik_woonruimte_veranderen",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_sociale_huurwoning/Directe_bemiddeling_huisvesting_leerkrachten",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_koopwoning/Gebruik_woonruimte_veranderen/Hospitaverhuur",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_koopwoning/Gebruik_woonruimte_veranderen/Tweede_woning",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_koopwoning/Gebruik_woonruimte_veranderen/Samenvoegen",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_koopwoning/Gebruik_woonruimte_veranderen/Kamergewijze_verhuur"
+      ],
+      "reachableCandidates": [
+        "https://www.diemen.nl/ZAAI_Diemen/Vergunningen/Exploitatievergunning_autoverhuurbranche/Formulier_Wet_Bibob_2024",
+        "https://www.diemen.nl/ZAAI_Diemen/Vergunningen/Exploitatievergunning_autoverhuurbranche/Format_bedrijfsplan_autoverhuurbranche_exploitatievergunning",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Hulp_en_ondersteuning/Melding_ongewenst_gedrag_van_verhuurders/Discriminatie_op_de_woningmarkt_brochure",
+        "https://www.diemen.nl/Onderwerpen/Algemeen/Privacyverklaring/Privacyverklaring_meldpunt_problemen_met_verhuurders",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_sociale_huurwoning/Huisvestingsvergunning/Aanvraagformulier_huisvestingsvergunning",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_koopwoning/Gebruik_woonruimte_veranderen/Vakantieverhuur_en_Bed_Breakfast"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5276,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "housing-permit",
+        "holiday-rental"
+      ],
+      "pages": [
+        {
+          "url": "https://www.diemen.nl/ZAAI_Diemen/Vergunningen/Exploitatievergunning_autoverhuurbranche/Formulier_Wet_Bibob_2024",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=11333&amp;lang=nl_nl&amp;voice=Ilse&amp;readid=row1,row2,row3,row4,footer_columns&amp;url=https://www.diemen.nl/ZAAI_Diemen/Vergunningen/Exploitatievergunning_autoverhuurbranche/Formulier_Wet_Bibob_2024"
+          ],
+          "documentLinks": [
+            "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=11333&amp;lang=nl_nl&amp;voice=Ilse&amp;readid=row1,row2,row3,row4,footer_columns&amp;url=https://www.diemen.nl/ZAAI_Diemen/Vergunningen/Exploitatievergunning_autoverhuurbranche/Formulier_Wet_Bibob_2024"
+          ]
+        },
+        {
+          "url": "https://www.diemen.nl/ZAAI_Diemen/Vergunningen/Exploitatievergunning_autoverhuurbranche/Format_bedrijfsplan_autoverhuurbranche_exploitatievergunning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.diemen.nl/Onderwerpen/Wonen/Hulp_en_ondersteuning/Melding_ongewenst_gedrag_van_verhuurders/Discriminatie_op_de_woningmarkt_brochure",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.diemen.nl/Onderwerpen/Algemeen/Privacyverklaring/Privacyverklaring_meldpunt_problemen_met_verhuurders",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_sociale_huurwoning/Huisvestingsvergunning/Aanvraagformulier_huisvestingsvergunning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "housing-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=11333&amp;lang=nl_nl&amp;voice=Ilse&amp;readid=row1,row2,row3,row4,footer_columns&amp;url=https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_sociale_huurwoning/Huisvestingsvergunning/Aanvraagformulier_huisvestingsvergunning"
+          ],
+          "documentLinks": [
+            "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=11333&amp;lang=nl_nl&amp;voice=Ilse&amp;readid=row1,row2,row3,row4,footer_columns&amp;url=https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_sociale_huurwoning/Huisvestingsvergunning/Aanvraagformulier_huisvestingsvergunning"
+          ]
+        },
+        {
+          "url": "https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_koopwoning/Gebruik_woonruimte_veranderen/Vakantieverhuur_en_Bed_Breakfast",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "holiday-rental"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR732702"
+          ],
+          "applicationLinks": [
+            "https://omgevingswet.overheid.nl/"
+          ],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [
+        "https://lokaleregelgeving.overheid.nl/CVDR732702"
+      ],
+      "applicationLinks": [
+        "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=11333&amp;lang=nl_nl&amp;voice=Ilse&amp;readid=row1,row2,row3,row4,footer_columns&amp;url=https://www.diemen.nl/ZAAI_Diemen/Vergunningen/Exploitatievergunning_autoverhuurbranche/Formulier_Wet_Bibob_2024",
+        "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=11333&amp;lang=nl_nl&amp;voice=Ilse&amp;readid=row1,row2,row3,row4,footer_columns&amp;url=https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_sociale_huurwoning/Huisvestingsvergunning/Aanvraagformulier_huisvestingsvergunning",
+        "https://omgevingswet.overheid.nl/"
+      ],
+      "documentLinks": [
+        "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=11333&amp;lang=nl_nl&amp;voice=Ilse&amp;readid=row1,row2,row3,row4,footer_columns&amp;url=https://www.diemen.nl/ZAAI_Diemen/Vergunningen/Exploitatievergunning_autoverhuurbranche/Formulier_Wet_Bibob_2024",
+        "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=11333&amp;lang=nl_nl&amp;voice=Ilse&amp;readid=row1,row2,row3,row4,footer_columns&amp;url=https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_sociale_huurwoning/Huisvestingsvergunning/Aanvraagformulier_huisvestingsvergunning"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "exceptions"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1980",
+      "municipalityName": "Dijk en Waard",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.dijkenwaard.nl",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.dijkenwaard.nl/wonen-en-leven/wonen/tijdelijke-verhuur-bij-leegstand",
+        "https://www.dijkenwaard.nl/wonen-en-leven/wonen/huisvestingsvergunning-aanvragen",
+        "https://www.dijkenwaard.nl/wonen-en-leven/wonen/problemen-met-particuliere-verhuurder-melden",
+        "https://www.dijkenwaard.nl/actueel/nieuws/ruimere-regels-voor-tijdelijke-huisvesting-op-eigen-erf-1"
+      ],
+      "reachableCandidates": [
+        "https://www.dijkenwaard.nl/wonen-en-leven/wonen/tijdelijke-verhuur-bij-leegstand",
+        "https://www.dijkenwaard.nl/wonen-en-leven/wonen/huisvestingsvergunning-aanvragen",
+        "https://www.dijkenwaard.nl/wonen-en-leven/wonen/problemen-met-particuliere-verhuurder-melden",
+        "https://www.dijkenwaard.nl/actueel/nieuws/ruimere-regels-voor-tijdelijke-huisvesting-op-eigen-erf-1"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6106,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "vacancy-obligation",
+        "housing-permit"
+      ],
+      "pages": [
+        {
+          "url": "https://www.dijkenwaard.nl/wonen-en-leven/wonen/tijdelijke-verhuur-bij-leegstand",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "vacancy-obligation"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://mijn.dijkenwaard.nl/aanvragen/8460/persoon/contactformulier-tijdelijke-verhuur-bij-leegstand"
+          ],
+          "documentLinks": [
+            "https://mijn.dijkenwaard.nl/aanvragen/8460/persoon/contactformulier-tijdelijke-verhuur-bij-leegstand"
+          ]
+        },
+        {
+          "url": "https://www.dijkenwaard.nl/wonen-en-leven/wonen/huisvestingsvergunning-aanvragen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "housing-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.dijkenwaard.nl/wonen-en-leven/wonen/huisvestingsvergunning-aanvragen",
+            "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=12769&amp;amp;lang=nl_nl&amp;amp;readid=content&amp;amp;url=https://www.dijkenwaard.nl/wonen-en-leven/wonen/huisvestingsvergunning-aanvragen",
+            "https://mijn.dijkenwaard.nl/aanvragen/1359/persoon/huisvestingsvergunning-aanvragen"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.dijkenwaard.nl/wonen-en-leven/wonen/problemen-met-particuliere-verhuurder-melden",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://mijn.dijkenwaard.nl/aanvragen/6045/onbekend/goed-verhuurderschap"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.dijkenwaard.nl/actueel/nieuws/ruimere-regels-voor-tijdelijke-huisvesting-op-eigen-erf-1",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://mijn.dijkenwaard.nl/aanvragen/8460/persoon/contactformulier-tijdelijke-verhuur-bij-leegstand",
+        "https://www.dijkenwaard.nl/wonen-en-leven/wonen/huisvestingsvergunning-aanvragen",
+        "https://app-eu.readspeaker.com/cgi-bin/rsent?customerid=12769&amp;amp;lang=nl_nl&amp;amp;readid=content&amp;amp;url=https://www.dijkenwaard.nl/wonen-en-leven/wonen/huisvestingsvergunning-aanvragen",
+        "https://mijn.dijkenwaard.nl/aanvragen/1359/persoon/huisvestingsvergunning-aanvragen",
+        "https://mijn.dijkenwaard.nl/aanvragen/6045/onbekend/goed-verhuurderschap"
+      ],
+      "documentLinks": [
+        "https://mijn.dijkenwaard.nl/aanvragen/8460/persoon/contactformulier-tijdelijke-verhuur-bij-leegstand"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "exceptions"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1774",
+      "municipalityName": "Dinkelland",
+      "province": "Overijssel",
+      "registryHit": true,
+      "municipalSite": "https://www.dinkelland.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.dinkelland.nl/huisvestingsprogramma",
+        "https://www.dinkelland.nl/ter-inzage-volkshuisvestingsprogramma-2025-2029-ontwerpwijzigingen",
+        "https://www.dinkelland.nl/meldpunt-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.dinkelland.nl/huisvestingsprogramma",
+        "https://www.dinkelland.nl/ter-inzage-volkshuisvestingsprogramma-2025-2029-ontwerpwijzigingen",
+        "https://www.dinkelland.nl/meldpunt-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3360,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "good-landlord-permit"
+      ],
+      "pages": [
+        {
+          "url": "https://www.dinkelland.nl/huisvestingsprogramma",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": false,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": [
+            "https://www.dinkelland.nl/sites/default/files/2025-05/2024-97-volkshuisvestingsprogramma-2025-2029-bijlage.pdf"
+          ]
+        },
+        {
+          "url": "https://www.dinkelland.nl/ter-inzage-volkshuisvestingsprogramma-2025-2029-ontwerpwijzigingen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": false,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": [
+            "https://www.dinkelland.nl/sites/default/files/2026-05/was-wordt-lijst-volkshuisvestingsprogramma-2025-2029-versie-1.3-1.pdf",
+            "https://www.dinkelland.nl/sites/default/files/2026-05/a_volkshuisvestingsprogramma_versie-1.3-april-2026-1.pdf"
+          ]
+        },
+        {
+          "url": "https://www.dinkelland.nl/meldpunt-goed-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://mijn.noaberkracht.nl/auth/digid?failure_endpoint=https%3A%2F%2Fmijn.noaberkracht.nl%2Fauth%2Fdigid%3Fsuccess_endpoint%3Dhttps%253A%252F%252Fmijn.noaberkracht.nl%252Fzaak%252Fcreate%252Fwebformulier%252F%253Fztc_aanvrager_type%253Dnatuurlijk_persoon%2526authenticatie_methode%253Ddigid%2526zaaktype_id%253D1324%2526sessreset%253D1%26failure_endpoint%3D&amp;success_endpoint=https%3A%2F%2Fmijn.noaberkracht.nl%2Fzaak%2Fcreate%2Fwebformulier%2F%3Fauthenticatie_methode%3Ddigid%26ztc_aanvrager_type%3Dnatuurlijk_persoon%26zaaktype_id%3D2611%26sessreset%3D1",
+            "https://mijn.noaberkracht.nl/zaak/create/webformulier?ztc_aanvrager_type=unknown&amp;afronden=1&amp;zaaktype_id=2611&amp;sessreset=1&amp;aanvrager=betrokkene-natuurlijk_persoon-1"
+          ],
+          "documentLinks": [
+            "https://mijn.noaberkracht.nl/auth/digid?failure_endpoint=https%3A%2F%2Fmijn.noaberkracht.nl%2Fauth%2Fdigid%3Fsuccess_endpoint%3Dhttps%253A%252F%252Fmijn.noaberkracht.nl%252Fzaak%252Fcreate%252Fwebformulier%252F%253Fztc_aanvrager_type%253Dnatuurlijk_persoon%2526authenticatie_methode%253Ddigid%2526zaaktype_id%253D1324%2526sessreset%253D1%26failure_endpoint%3D&amp;success_endpoint=https%3A%2F%2Fmijn.noaberkracht.nl%2Fzaak%2Fcreate%2Fwebformulier%2F%3Fauthenticatie_methode%3Ddigid%26ztc_aanvrager_type%3Dnatuurlijk_persoon%26zaaktype_id%3D2611%26sessreset%3D1",
+            "https://mijn.noaberkracht.nl/zaak/create/webformulier?ztc_aanvrager_type=unknown&amp;afronden=1&amp;zaaktype_id=2611&amp;sessreset=1&amp;aanvrager=betrokkene-natuurlijk_persoon-1"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://mijn.noaberkracht.nl/auth/digid?failure_endpoint=https%3A%2F%2Fmijn.noaberkracht.nl%2Fauth%2Fdigid%3Fsuccess_endpoint%3Dhttps%253A%252F%252Fmijn.noaberkracht.nl%252Fzaak%252Fcreate%252Fwebformulier%252F%253Fztc_aanvrager_type%253Dnatuurlijk_persoon%2526authenticatie_methode%253Ddigid%2526zaaktype_id%253D1324%2526sessreset%253D1%26failure_endpoint%3D&amp;success_endpoint=https%3A%2F%2Fmijn.noaberkracht.nl%2Fzaak%2Fcreate%2Fwebformulier%2F%3Fauthenticatie_methode%3Ddigid%26ztc_aanvrager_type%3Dnatuurlijk_persoon%26zaaktype_id%3D2611%26sessreset%3D1",
+        "https://mijn.noaberkracht.nl/zaak/create/webformulier?ztc_aanvrager_type=unknown&amp;afronden=1&amp;zaaktype_id=2611&amp;sessreset=1&amp;aanvrager=betrokkene-natuurlijk_persoon-1"
+      ],
+      "documentLinks": [
+        "https://www.dinkelland.nl/sites/default/files/2025-05/2024-97-volkshuisvestingsprogramma-2025-2029-bijlage.pdf",
+        "https://www.dinkelland.nl/sites/default/files/2026-05/was-wordt-lijst-volkshuisvestingsprogramma-2025-2029-versie-1.3-1.pdf",
+        "https://www.dinkelland.nl/sites/default/files/2026-05/a_volkshuisvestingsprogramma_versie-1.3-april-2026-1.pdf",
+        "https://mijn.noaberkracht.nl/auth/digid?failure_endpoint=https%3A%2F%2Fmijn.noaberkracht.nl%2Fauth%2Fdigid%3Fsuccess_endpoint%3Dhttps%253A%252F%252Fmijn.noaberkracht.nl%252Fzaak%252Fcreate%252Fwebformulier%252F%253Fztc_aanvrager_type%253Dnatuurlijk_persoon%2526authenticatie_methode%253Ddigid%2526zaaktype_id%253D1324%2526sessreset%253D1%26failure_endpoint%3D&amp;success_endpoint=https%3A%2F%2Fmijn.noaberkracht.nl%2Fzaak%2Fcreate%2Fwebformulier%2F%3Fauthenticatie_methode%3Ddigid%26ztc_aanvrager_type%3Dnatuurlijk_persoon%26zaaktype_id%3D2611%26sessreset%3D1",
+        "https://mijn.noaberkracht.nl/zaak/create/webformulier?ztc_aanvrager_type=unknown&amp;afronden=1&amp;zaaktype_id=2611&amp;sessreset=1&amp;aanvrager=betrokkene-natuurlijk_persoon-1"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": false
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "exceptions",
+        "geographicScope"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0221",
+      "municipalityName": "Doesburg",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.doesburg.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.doesburg.nl/voorbereidingsbesluit-wijziging-regulering-huisvesting-binnenstad",
+        "https://www.doesburg.nl/ongewenst-gedrag-verhuurders-melden"
+      ],
+      "reachableCandidates": [
+        "https://www.doesburg.nl/voorbereidingsbesluit-wijziging-regulering-huisvesting-binnenstad",
+        "https://www.doesburg.nl/ongewenst-gedrag-verhuurders-melden"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3083,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [],
+      "pages": [
+        {
+          "url": "https://www.doesburg.nl/voorbereidingsbesluit-wijziging-regulering-huisvesting-binnenstad",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.doesburg.nl/voorziening-aanvragen-wmo"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.doesburg.nl/ongewenst-gedrag-verhuurders-melden",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.doesburg.nl/images/logo/digid.svg",
+            "https://www.doesburg.nl/voorziening-aanvragen-wmo"
+          ],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://www.doesburg.nl/voorziening-aanvragen-wmo",
+        "https://www.doesburg.nl/images/logo/digid.svg"
+      ],
+      "documentLinks": [],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": false,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "documents",
+        "exceptions"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0222",
+      "municipalityName": "Doetinchem",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.doetinchem.nl",
+      "candidateCount": 10,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.doetinchem.nl/beleidskader-huisvesting-tijdelijke-arbeidsmigranten-in-doetinchem",
+        "https://www.doetinchem.nl/beleidskader-huisvesting-tijdelijke-arbeidsmigranten-in-de-regio-achterhoek",
+        "https://www.doetinchem.nl/transformatieloket-leegstand-en-herbestemming",
+        "https://www.doetinchem.nl/meldpunt-ongewenst-verhuurderschap",
+        "https://www.doetinchem.nl/rectificatie-bekendmaking-specifieke-gevallen-woningsplitsing-2023-gemeente-doetinchem",
+        "https://www.doetinchem.nl/leegstand-vergunning-voor-tijdelijke-verhuur",
+        "https://www.doetinchem.nl/onderwijs-vergoeding-huisvestingsvoorzieningen",
+        "https://www.doetinchem.nl/leegstand-en-herbestemming",
+        "https://www.doetinchem.nl/beleidsregel-kamerverhuur-in-de-gemeente-doetinchem-2021",
+        "https://www.doetinchem.nl/verkoop-verhuur-gemeentelijke-eigendommen"
+      ],
+      "reachableCandidates": [
+        "https://www.doetinchem.nl/beleidskader-huisvesting-tijdelijke-arbeidsmigranten-in-doetinchem",
+        "https://www.doetinchem.nl/beleidskader-huisvesting-tijdelijke-arbeidsmigranten-in-de-regio-achterhoek",
+        "https://www.doetinchem.nl/transformatieloket-leegstand-en-herbestemming",
+        "https://www.doetinchem.nl/meldpunt-ongewenst-verhuurderschap",
+        "https://www.doetinchem.nl/rectificatie-bekendmaking-specifieke-gevallen-woningsplitsing-2023-gemeente-doetinchem",
+        "https://www.doetinchem.nl/leegstand-vergunning-voor-tijdelijke-verhuur"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3956,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "vacancy-obligation"
+      ],
+      "pages": [
+        {
+          "url": "https://www.doetinchem.nl/beleidskader-huisvesting-tijdelijke-arbeidsmigranten-in-doetinchem",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://eformulieren.doetinchem.nl/contactformulier"
+          ],
+          "documentLinks": [
+            "https://eformulieren.doetinchem.nl/contactformulier"
+          ]
+        },
+        {
+          "url": "https://www.doetinchem.nl/beleidskader-huisvesting-tijdelijke-arbeidsmigranten-in-de-regio-achterhoek",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://eformulieren.doetinchem.nl/contactformulier"
+          ],
+          "documentLinks": [
+            "https://eformulieren.doetinchem.nl/contactformulier"
+          ]
+        },
+        {
+          "url": "https://www.doetinchem.nl/transformatieloket-leegstand-en-herbestemming",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "vacancy-obligation"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://eformulieren.doetinchem.nl/contactformulier"
+          ],
+          "documentLinks": [
+            "https://eformulieren.doetinchem.nl/contactformulier"
+          ]
+        },
+        {
+          "url": "https://www.doetinchem.nl/meldpunt-ongewenst-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://eformulieren.doetinchem.nl/melding-ongewenst-verhuurderschap",
+            "https://eformulieren.doetinchem.nl/contactformulier"
+          ],
+          "documentLinks": [
+            "https://eformulieren.doetinchem.nl/melding-ongewenst-verhuurderschap",
+            "https://eformulieren.doetinchem.nl/contactformulier"
+          ]
+        },
+        {
+          "url": "https://www.doetinchem.nl/rectificatie-bekendmaking-specifieke-gevallen-woningsplitsing-2023-gemeente-doetinchem",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://eformulieren.doetinchem.nl/contactformulier"
+          ],
+          "documentLinks": [
+            "https://eformulieren.doetinchem.nl/contactformulier"
+          ]
+        },
+        {
+          "url": "https://www.doetinchem.nl/leegstand-vergunning-voor-tijdelijke-verhuur",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "vacancy-obligation"
+          ],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://eformulieren.doetinchem.nl/contactformulier"
+          ],
+          "documentLinks": [
+            "https://eformulieren.doetinchem.nl/contactformulier"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://eformulieren.doetinchem.nl/contactformulier",
+        "https://eformulieren.doetinchem.nl/melding-ongewenst-verhuurderschap"
+      ],
+      "documentLinks": [
+        "https://eformulieren.doetinchem.nl/contactformulier",
+        "https://eformulieren.doetinchem.nl/melding-ongewenst-verhuurderschap"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0766",
+      "municipalityName": "Dongen",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.dongen.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.dongen.nl/verhuizen-wonen-verhuren/verhuren/vergunning-tijdelijke-verhuur",
+        "https://www.dongen.nl/verhuizen-wonen-verhuren/verhuren/hospitaverhuur",
+        "https://www.dongen.nl/melding-doen/melden-veiligheid/ongewenst-verhuurgedrag"
+      ],
+      "reachableCandidates": [
+        "https://www.dongen.nl/verhuizen-wonen-verhuren/verhuren/vergunning-tijdelijke-verhuur",
+        "https://www.dongen.nl/verhuizen-wonen-verhuren/verhuren/hospitaverhuur",
+        "https://www.dongen.nl/melding-doen/melden-veiligheid/ongewenst-verhuurgedrag"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4268,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [],
+      "pages": [
+        {
+          "url": "https://www.dongen.nl/verhuizen-wonen-verhuren/verhuren/vergunning-tijdelijke-verhuur",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte",
+            "https://www.burgerberichten.nl/dongen/formulieren/b4f02d8a-6239-4fd2-9336-e1f0ecc9ab5d/Algemeen-contactformulier/questions"
+          ],
+          "documentLinks": [
+            "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte",
+            "https://www.burgerberichten.nl/dongen/formulieren/b4f02d8a-6239-4fd2-9336-e1f0ecc9ab5d/Algemeen-contactformulier/questions"
+          ]
+        },
+        {
+          "url": "https://www.dongen.nl/verhuizen-wonen-verhuren/verhuren/hospitaverhuur",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": false,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.burgerberichten.nl/dongen/formulieren/b4f02d8a-6239-4fd2-9336-e1f0ecc9ab5d/Algemeen-contactformulier/questions"
+          ],
+          "documentLinks": [
+            "https://www.burgerberichten.nl/dongen/formulieren/b4f02d8a-6239-4fd2-9336-e1f0ecc9ab5d/Algemeen-contactformulier/questions"
+          ]
+        },
+        {
+          "url": "https://www.dongen.nl/melding-doen/melden-veiligheid/ongewenst-verhuurgedrag",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://archief02.archiefweb.eu/archives/archiefweb/20260725124814/https://www.burgerberichten.nl/dongen/formulieren/8dce24b1-1d0d-4006-b8a5-8c8193223d6f/Melding-ongewenst-gedrag-verhuurder/questions",
+            "https://www.burgerberichten.nl/dongen/formulieren/b4f02d8a-6239-4fd2-9336-e1f0ecc9ab5d/Algemeen-contactformulier/questions"
+          ],
+          "documentLinks": [
+            "https://archief02.archiefweb.eu/archives/archiefweb/20260725124814/https://www.burgerberichten.nl/dongen/formulieren/8dce24b1-1d0d-4006-b8a5-8c8193223d6f/Melding-ongewenst-gedrag-verhuurder/questions",
+            "https://www.burgerberichten.nl/dongen/formulieren/b4f02d8a-6239-4fd2-9336-e1f0ecc9ab5d/Algemeen-contactformulier/questions"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte",
+        "https://www.burgerberichten.nl/dongen/formulieren/b4f02d8a-6239-4fd2-9336-e1f0ecc9ab5d/Algemeen-contactformulier/questions",
+        "https://archief02.archiefweb.eu/archives/archiefweb/20260725124814/https://www.burgerberichten.nl/dongen/formulieren/8dce24b1-1d0d-4006-b8a5-8c8193223d6f/Melding-ongewenst-gedrag-verhuurder/questions"
+      ],
+      "documentLinks": [
+        "https://www.rijksoverheid.nl/documenten/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte",
+        "https://www.burgerberichten.nl/dongen/formulieren/b4f02d8a-6239-4fd2-9336-e1f0ecc9ab5d/Algemeen-contactformulier/questions",
+        "https://archief02.archiefweb.eu/archives/archiefweb/20260725124814/https://www.burgerberichten.nl/dongen/formulieren/8dce24b1-1d0d-4006-b8a5-8c8193223d6f/Melding-ongewenst-gedrag-verhuurder/questions"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": false
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "exceptions",
+        "geographicScope"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0505",
+      "municipalityName": "Dordrecht",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.dordrecht.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 4852,
+      "verificationRoute": "deep",
+      "officialPublicationSearch": [
+        {
+          "query": "Dordrecht huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Dordrecht%20huisvestingsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Dordrecht opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Dordrecht%20opkoopbescherming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Dordrecht kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Dordrecht%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Dordrecht splitsingsvergunning woningvorming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Dordrecht%20splitsingsvergunning%20woningvorming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Dordrecht onttrekkingsvergunning woonruimte",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Dordrecht%20onttrekkingsvergunning%20woonruimte",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Dordrecht leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Dordrecht%20leegstandsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Dordrecht verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Dordrecht%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Dordrecht vakantieverhuur short stay",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Dordrecht%20vakantieverhuur%20short%20stay",
+          "status": 200,
+          "foundCvdr": []
+        }
+      ],
+      "officialRegulationCandidates": [],
+      "verificationStatus": "manual-legal-source-review-required",
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0498",
+      "municipalityName": "Drechterland",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.drechterland.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.drechterland.nl/actueel/maakt-generatiewonen-en-woningsplitsing-mogelijk",
+        "https://www.drechterland.nl/actueel/locatieonderzoek-huisvesting-buitenlandse-werknemers-afgerond",
+        "https://www.drechterland.nl/actueel/online-enquete-gestart-naar-huisvesting-buitenlandse-werknemers"
+      ],
+      "reachableCandidates": [
+        "https://www.drechterland.nl/actueel/maakt-generatiewonen-en-woningsplitsing-mogelijk/",
+        "https://www.drechterland.nl/actueel/locatieonderzoek-huisvesting-buitenlandse-werknemers-afgerond/",
+        "https://www.drechterland.nl/actueel/online-enquete-gestart-naar-huisvesting-buitenlandse-werknemers/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 42717,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [],
+      "pages": [
+        {
+          "url": "https://www.drechterland.nl/actueel/maakt-generatiewonen-en-woningsplitsing-mogelijk/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://openformulieren.drechterland.nl/contactformulier/",
+            "https://www.kcmsurvey.com/qSwuc847cc63da9dc1f01dd03a93MaSd?webformulieren=Niet"
+          ],
+          "documentLinks": [
+            "https://openformulieren.drechterland.nl/contactformulier/",
+            "https://www.kcmsurvey.com/qSwuc847cc63da9dc1f01dd03a93MaSd?webformulieren=Niet"
+          ]
+        },
+        {
+          "url": "https://www.drechterland.nl/actueel/locatieonderzoek-huisvesting-buitenlandse-werknemers-afgerond/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://openformulieren.drechterland.nl/contactformulier/",
+            "https://www.kcmsurvey.com/qSwuc847cc63da9dc1f01dd03a93MaSd?webformulieren=Niet"
+          ],
+          "documentLinks": [
+            "https://openformulieren.drechterland.nl/contactformulier/",
+            "https://www.kcmsurvey.com/qSwuc847cc63da9dc1f01dd03a93MaSd?webformulieren=Niet"
+          ]
+        },
+        {
+          "url": "https://www.drechterland.nl/actueel/online-enquete-gestart-naar-huisvesting-buitenlandse-werknemers/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://openformulieren.drechterland.nl/contactformulier/",
+            "https://www.kcmsurvey.com/qSwuc847cc63da9dc1f01dd03a93MaSd?webformulieren=Niet"
+          ],
+          "documentLinks": [
+            "https://openformulieren.drechterland.nl/contactformulier/",
+            "https://www.kcmsurvey.com/qSwuc847cc63da9dc1f01dd03a93MaSd?webformulieren=Niet"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://openformulieren.drechterland.nl/contactformulier/",
+        "https://www.kcmsurvey.com/qSwuc847cc63da9dc1f01dd03a93MaSd?webformulieren=Niet"
+      ],
+      "documentLinks": [
+        "https://openformulieren.drechterland.nl/contactformulier/",
+        "https://www.kcmsurvey.com/qSwuc847cc63da9dc1f01dd03a93MaSd?webformulieren=Niet"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": false
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "exceptions",
+        "geographicScope"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    }
+  ],
+  "summary": {
+    "municipalities": 10,
+    "structurallyComplete": 2,
+    "targetedReviewRequired": 7,
+    "officialRegulationCandidateFound": 0,
+    "manualLegalSourceReviewRequired": 1,
+    "networkRequests": 138,
+    "networkErrors": 0,
+    "maxConcurrency": 5
+  },
+  "safety": {
+    "legalApprovalAutomatic": false,
+    "automaticPublication": false,
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0,
+    "absenceOfEvidenceIsNotEvidenceOfAbsence": true
+  }
+}

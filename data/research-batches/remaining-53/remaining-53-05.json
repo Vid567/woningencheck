@@ -1,0 +1,257 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "remaining-53-05",
+  "generatedAt": "2026-08-10T21:37:12.954Z",
+  "records": [
+    {
+      "municipalityCode": "GM0762",
+      "municipalityName": "Deurne",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.deurne.nl",
+      "candidateCount": 7,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.deurne.nl/exploitatievergunning-huisvesting-arbeidsmigranten",
+        "https://www.deurne.nl/melding-wet-goed-verhuurderschap",
+        "https://www.deurne.nl/woning-splitsen",
+        "https://www.deurne.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.deurne.nl/huisvestingsvergunning",
+        "https://www.deurne.nl/leegstand-melden",
+        "https://www.deurne.nl/huisvesting-arbeidsmigranten"
+      ],
+      "reachableCandidates": [
+        "https://www.deurne.nl/exploitatievergunning-huisvesting-arbeidsmigranten",
+        "https://www.deurne.nl/melding-wet-goed-verhuurderschap",
+        "https://www.deurne.nl/woning-splitsen",
+        "https://www.deurne.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.deurne.nl/huisvestingsvergunning",
+        "https://www.deurne.nl/leegstand-melden"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4562
+    },
+    {
+      "municipalityCode": "GM0150",
+      "municipalityName": "Deventer",
+      "province": "Overijssel",
+      "registryHit": true,
+      "municipalSite": "https://www.deventer.nl",
+      "candidateCount": 7,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.deventer.nl/nieuws/gemeente-koopt-en-verhuurt-brink-40-43-aan-tactus-verslavingszorg",
+        "https://www.deventer.nl/ondernemen/vergunningen-en-regelingen-voor-ondernemers/woning-kopen-en-meteen-verhuren-vergunning-opkoopbescherming",
+        "https://www.deventer.nl/duurzaamheid/natuurvriendelijk-isoleren/huizen-isoleren-renoveren-of-slopen-als-verhuurder-of-woningcorporatie",
+        "https://www.deventer.nl/wonen/woning-zoeken/studentenhuisvesting",
+        "https://www.deventer.nl/wonen/meldpunt-verhuur-ik-heb-een-klacht-over-mijn-verhuurder",
+        "https://www.deventer.nl/wonen/betaalbare-nieuwbouwwoning-kopen-huisvestingsvergunning",
+        "https://www.deventer.nl/bouwen-verbouwen-en-slopen/vergunningen-en-meldingen-bouw-verbouw-en-sloop/woningsplitsing"
+      ],
+      "reachableCandidates": [
+        "https://www.deventer.nl/nieuws/gemeente-koopt-en-verhuurt-brink-40-43-aan-tactus-verslavingszorg",
+        "https://www.deventer.nl/ondernemen/vergunningen-en-regelingen-voor-ondernemers/woning-kopen-en-meteen-verhuren-vergunning-opkoopbescherming",
+        "https://www.deventer.nl/duurzaamheid/natuurvriendelijk-isoleren/huizen-isoleren-renoveren-of-slopen-als-verhuurder-of-woningcorporatie",
+        "https://www.deventer.nl/wonen/woning-zoeken/studentenhuisvesting",
+        "https://www.deventer.nl/wonen/meldpunt-verhuur-ik-heb-een-klacht-over-mijn-verhuurder",
+        "https://www.deventer.nl/wonen/betaalbare-nieuwbouwwoning-kopen-huisvestingsvergunning"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5509
+    },
+    {
+      "municipalityCode": "GM0384",
+      "municipalityName": "Diemen",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.diemen.nl",
+      "candidateCount": 12,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.diemen.nl/ZAAI_Diemen/Vergunningen/Exploitatievergunning_autoverhuurbranche/Formulier_Wet_Bibob_2024",
+        "https://www.diemen.nl/ZAAI_Diemen/Vergunningen/Exploitatievergunning_autoverhuurbranche/Format_bedrijfsplan_autoverhuurbranche_exploitatievergunning",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Hulp_en_ondersteuning/Melding_ongewenst_gedrag_van_verhuurders/Discriminatie_op_de_woningmarkt_brochure",
+        "https://www.diemen.nl/Onderwerpen/Algemeen/Privacyverklaring/Privacyverklaring_meldpunt_problemen_met_verhuurders",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_sociale_huurwoning/Huisvestingsvergunning/Aanvraagformulier_huisvestingsvergunning",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_koopwoning/Gebruik_woonruimte_veranderen/Vakantieverhuur_en_Bed_Breakfast",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_koopwoning/Gebruik_woonruimte_veranderen",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_sociale_huurwoning/Directe_bemiddeling_huisvesting_leerkrachten",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_koopwoning/Gebruik_woonruimte_veranderen/Hospitaverhuur",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_koopwoning/Gebruik_woonruimte_veranderen/Tweede_woning",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_koopwoning/Gebruik_woonruimte_veranderen/Samenvoegen",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_koopwoning/Gebruik_woonruimte_veranderen/Kamergewijze_verhuur"
+      ],
+      "reachableCandidates": [
+        "https://www.diemen.nl/ZAAI_Diemen/Vergunningen/Exploitatievergunning_autoverhuurbranche/Formulier_Wet_Bibob_2024",
+        "https://www.diemen.nl/ZAAI_Diemen/Vergunningen/Exploitatievergunning_autoverhuurbranche/Format_bedrijfsplan_autoverhuurbranche_exploitatievergunning",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Hulp_en_ondersteuning/Melding_ongewenst_gedrag_van_verhuurders/Discriminatie_op_de_woningmarkt_brochure",
+        "https://www.diemen.nl/Onderwerpen/Algemeen/Privacyverklaring/Privacyverklaring_meldpunt_problemen_met_verhuurders",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_sociale_huurwoning/Huisvestingsvergunning/Aanvraagformulier_huisvestingsvergunning",
+        "https://www.diemen.nl/Onderwerpen/Wonen/Ik_heb_of_wil_een_koopwoning/Gebruik_woonruimte_veranderen/Vakantieverhuur_en_Bed_Breakfast"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5276
+    },
+    {
+      "municipalityCode": "GM1980",
+      "municipalityName": "Dijk en Waard",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.dijkenwaard.nl",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.dijkenwaard.nl/wonen-en-leven/wonen/tijdelijke-verhuur-bij-leegstand",
+        "https://www.dijkenwaard.nl/wonen-en-leven/wonen/huisvestingsvergunning-aanvragen",
+        "https://www.dijkenwaard.nl/wonen-en-leven/wonen/problemen-met-particuliere-verhuurder-melden",
+        "https://www.dijkenwaard.nl/actueel/nieuws/ruimere-regels-voor-tijdelijke-huisvesting-op-eigen-erf-1"
+      ],
+      "reachableCandidates": [
+        "https://www.dijkenwaard.nl/wonen-en-leven/wonen/tijdelijke-verhuur-bij-leegstand",
+        "https://www.dijkenwaard.nl/wonen-en-leven/wonen/huisvestingsvergunning-aanvragen",
+        "https://www.dijkenwaard.nl/wonen-en-leven/wonen/problemen-met-particuliere-verhuurder-melden",
+        "https://www.dijkenwaard.nl/actueel/nieuws/ruimere-regels-voor-tijdelijke-huisvesting-op-eigen-erf-1"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6106
+    },
+    {
+      "municipalityCode": "GM1774",
+      "municipalityName": "Dinkelland",
+      "province": "Overijssel",
+      "registryHit": true,
+      "municipalSite": "https://www.dinkelland.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.dinkelland.nl/huisvestingsprogramma",
+        "https://www.dinkelland.nl/ter-inzage-volkshuisvestingsprogramma-2025-2029-ontwerpwijzigingen",
+        "https://www.dinkelland.nl/meldpunt-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.dinkelland.nl/huisvestingsprogramma",
+        "https://www.dinkelland.nl/ter-inzage-volkshuisvestingsprogramma-2025-2029-ontwerpwijzigingen",
+        "https://www.dinkelland.nl/meldpunt-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3360
+    },
+    {
+      "municipalityCode": "GM0221",
+      "municipalityName": "Doesburg",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.doesburg.nl",
+      "candidateCount": 2,
+      "reachableCount": 2,
+      "candidates": [
+        "https://www.doesburg.nl/voorbereidingsbesluit-wijziging-regulering-huisvesting-binnenstad",
+        "https://www.doesburg.nl/ongewenst-gedrag-verhuurders-melden"
+      ],
+      "reachableCandidates": [
+        "https://www.doesburg.nl/voorbereidingsbesluit-wijziging-regulering-huisvesting-binnenstad",
+        "https://www.doesburg.nl/ongewenst-gedrag-verhuurders-melden"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3083
+    },
+    {
+      "municipalityCode": "GM0222",
+      "municipalityName": "Doetinchem",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.doetinchem.nl",
+      "candidateCount": 10,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.doetinchem.nl/beleidskader-huisvesting-tijdelijke-arbeidsmigranten-in-doetinchem",
+        "https://www.doetinchem.nl/beleidskader-huisvesting-tijdelijke-arbeidsmigranten-in-de-regio-achterhoek",
+        "https://www.doetinchem.nl/transformatieloket-leegstand-en-herbestemming",
+        "https://www.doetinchem.nl/meldpunt-ongewenst-verhuurderschap",
+        "https://www.doetinchem.nl/rectificatie-bekendmaking-specifieke-gevallen-woningsplitsing-2023-gemeente-doetinchem",
+        "https://www.doetinchem.nl/leegstand-vergunning-voor-tijdelijke-verhuur",
+        "https://www.doetinchem.nl/onderwijs-vergoeding-huisvestingsvoorzieningen",
+        "https://www.doetinchem.nl/leegstand-en-herbestemming",
+        "https://www.doetinchem.nl/beleidsregel-kamerverhuur-in-de-gemeente-doetinchem-2021",
+        "https://www.doetinchem.nl/verkoop-verhuur-gemeentelijke-eigendommen"
+      ],
+      "reachableCandidates": [
+        "https://www.doetinchem.nl/beleidskader-huisvesting-tijdelijke-arbeidsmigranten-in-doetinchem",
+        "https://www.doetinchem.nl/beleidskader-huisvesting-tijdelijke-arbeidsmigranten-in-de-regio-achterhoek",
+        "https://www.doetinchem.nl/transformatieloket-leegstand-en-herbestemming",
+        "https://www.doetinchem.nl/meldpunt-ongewenst-verhuurderschap",
+        "https://www.doetinchem.nl/rectificatie-bekendmaking-specifieke-gevallen-woningsplitsing-2023-gemeente-doetinchem",
+        "https://www.doetinchem.nl/leegstand-vergunning-voor-tijdelijke-verhuur"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3956
+    },
+    {
+      "municipalityCode": "GM0766",
+      "municipalityName": "Dongen",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.dongen.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.dongen.nl/verhuizen-wonen-verhuren/verhuren/vergunning-tijdelijke-verhuur",
+        "https://www.dongen.nl/verhuizen-wonen-verhuren/verhuren/hospitaverhuur",
+        "https://www.dongen.nl/melding-doen/melden-veiligheid/ongewenst-verhuurgedrag"
+      ],
+      "reachableCandidates": [
+        "https://www.dongen.nl/verhuizen-wonen-verhuren/verhuren/vergunning-tijdelijke-verhuur",
+        "https://www.dongen.nl/verhuizen-wonen-verhuren/verhuren/hospitaverhuur",
+        "https://www.dongen.nl/melding-doen/melden-veiligheid/ongewenst-verhuurgedrag"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4268
+    },
+    {
+      "municipalityCode": "GM0505",
+      "municipalityName": "Dordrecht",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.dordrecht.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 4852
+    },
+    {
+      "municipalityCode": "GM0498",
+      "municipalityName": "Drechterland",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.drechterland.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.drechterland.nl/actueel/maakt-generatiewonen-en-woningsplitsing-mogelijk",
+        "https://www.drechterland.nl/actueel/locatieonderzoek-huisvesting-buitenlandse-werknemers-afgerond",
+        "https://www.drechterland.nl/actueel/online-enquete-gestart-naar-huisvesting-buitenlandse-werknemers"
+      ],
+      "reachableCandidates": [
+        "https://www.drechterland.nl/actueel/maakt-generatiewonen-en-woningsplitsing-mogelijk/",
+        "https://www.drechterland.nl/actueel/locatieonderzoek-huisvesting-buitenlandse-werknemers-afgerond/",
+        "https://www.drechterland.nl/actueel/online-enquete-gestart-naar-huisvesting-buitenlandse-werknemers/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 42717
+    }
+  ],
+  "summary": {
+    "municipalities": 10,
+    "registryHits": 10,
+    "networkRequests": 138,
+    "networkErrors": 0,
+    "maxConcurrency": 5
+  },
+  "safety": {
+    "discoveryIsNotLegalVerification": true,
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0
+  }
+}

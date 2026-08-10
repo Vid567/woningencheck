@@ -1,52 +1,12 @@
 {
-  "generatedAt": "2026-08-10T21:36:18.293Z",
+  "generatedAt": "2026-08-10T21:37:12.956Z",
   "originMainEvidence": {
     "autoVerificationFiles": 11
   },
-  "initialProcessed": 319,
-  "processedAfterBatch": 329,
-  "remainingCount": 13,
+  "initialProcessed": 329,
+  "processedAfterBatch": 339,
+  "remainingCount": 3,
   "remainingMunicipalities": [
-    {
-      "municipalityCode": "GM0762",
-      "municipalityName": "Deurne"
-    },
-    {
-      "municipalityCode": "GM0150",
-      "municipalityName": "Deventer"
-    },
-    {
-      "municipalityCode": "GM0384",
-      "municipalityName": "Diemen"
-    },
-    {
-      "municipalityCode": "GM1980",
-      "municipalityName": "Dijk en Waard"
-    },
-    {
-      "municipalityCode": "GM1774",
-      "municipalityName": "Dinkelland"
-    },
-    {
-      "municipalityCode": "GM0221",
-      "municipalityName": "Doesburg"
-    },
-    {
-      "municipalityCode": "GM0222",
-      "municipalityName": "Doetinchem"
-    },
-    {
-      "municipalityCode": "GM0766",
-      "municipalityName": "Dongen"
-    },
-    {
-      "municipalityCode": "GM0505",
-      "municipalityName": "Dordrecht"
-    },
-    {
-      "municipalityCode": "GM0498",
-      "municipalityName": "Drechterland"
-    },
     {
       "municipalityCode": "GM1719",
       "municipalityName": "Drimmelen"
@@ -60,14 +20,14 @@
       "municipalityName": "Druten"
     }
   ],
-  "lastBatch": "remaining-53-04",
+  "lastBatch": "remaining-53-05",
   "lastBatchSummary": {
     "municipalities": 10,
     "structurallyComplete": 2,
-    "targetedReviewRequired": 5,
+    "targetedReviewRequired": 7,
     "officialRegulationCandidateFound": 0,
-    "manualLegalSourceReviewRequired": 3,
-    "networkRequests": 126,
+    "manualLegalSourceReviewRequired": 1,
+    "networkRequests": 138,
     "networkErrors": 0,
     "maxConcurrency": 5
   },

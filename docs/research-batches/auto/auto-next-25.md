@@ -8,7 +8,7 @@ Automatische registry-backed discovery voor de volgende nog niet onderzochte gem
 | Echt-Susteren | ja | 2 | 2 | structured-verification |
 | Edam-Volendam | ja | 3 | 3 | structured-verification |
 | Ede | ja | 8 | 6 | structured-verification |
-| Eemnes | ja | 2 | 2 | structured-verification |
+| Eemnes | ja | 2 | 1 | structured-verification |
 | Eemsdelta | ja | 8 | 6 | structured-verification |
 | Eersel | ja | 4 | 4 | structured-verification |
 | Eijsden-Margraten | ja | 1 | 1 | structured-verification |
@@ -28,7 +28,7 @@ Automatische registry-backed discovery voor de volgende nog niet onderzochte gem
 | Goeree-Overflakkee | ja | 7 | 6 | structured-verification |
 | Goes | ja | 5 | 5 | structured-verification |
 | Goirle | ja | 1 | 1 | structured-verification |
-| Gooise Meren | ja | 2 | 2 | structured-verification |
+| Gooise Meren | ja | 2 | 1 | structured-verification |
 
 ## Samenvatting
 
@@ -39,5 +39,5 @@ Automatische registry-backed discovery voor de volgende nog niet onderzochte gem
 - Handmatige review: 0
 - Kandidaten: 86
 - Netwerkrequests: 209
-- Netwerkerrors: 6
+- Netwerkerrors: 7
 - Publieke regels: 0

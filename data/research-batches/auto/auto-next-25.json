@@ -1,7 +1,7 @@
 {
   "schemaVersion": "1.0.0",
   "batchId": "auto-next-25",
-  "generatedAt": "2026-08-10T08:53:35.154Z",
+  "generatedAt": "2026-08-10T08:56:42.894Z",
   "selection": {
     "batchSize": 25,
     "untouchedOnly": true
@@ -18,7 +18,7 @@
       "candidates": [],
       "reachableCandidates": [],
       "route": "deep-verification-needed",
-      "durationMs": 2286
+      "durationMs": 2685
     },
     {
       "municipalityCode": "GM1711",
@@ -37,7 +37,7 @@
         "https://www.echt-susteren.nl/meldpunt-goed-verhuurderschap"
       ],
       "route": "structured-verification",
-      "durationMs": 4791
+      "durationMs": 3646
     },
     {
       "municipalityCode": "GM0385",
@@ -58,7 +58,7 @@
         "https://www.edam-volendam.nl/toeristische-verhuur-van-woningen-0"
       ],
       "route": "structured-verification",
-      "durationMs": 4306
+      "durationMs": 2821
     },
     {
       "municipalityCode": "GM0228",
@@ -87,7 +87,7 @@
         "https://www.ede.nl/in-de-gemeente-ede/meer-woonruimte-zonder-nieuwbouw/tijdelijke-woonruimte-op-eigen-terrein-realiseren"
       ],
       "route": "structured-verification",
-      "durationMs": 5532
+      "durationMs": 5823
     },
     {
       "municipalityCode": "GM0317",
@@ -96,17 +96,16 @@
       "registryHit": true,
       "municipalSite": "https://www.eemnes.nl",
       "candidateCount": 2,
-      "reachableCount": 2,
+      "reachableCount": 1,
       "candidates": [
         "https://www.eemnes.nl/meldpunt-goed-verhuurderschap",
         "https://www.eemnes.nl/tijdelijke-huisvesting-atelier-het-gooi"
       ],
       "reachableCandidates": [
-        "https://www.eemnes.nl/meldpunt-goed-verhuurderschap",
         "https://www.eemnes.nl/tijdelijke-huisvesting-atelier-het-gooi"
       ],
       "route": "structured-verification",
-      "durationMs": 3596
+      "durationMs": 4029
     },
     {
       "municipalityCode": "GM1979",
@@ -135,7 +134,7 @@
         "https://www.eemsdelta.nl/formulier-aanmelding-huisvesting-vluchtelingen-oekraine"
       ],
       "route": "structured-verification",
-      "durationMs": 6249
+      "durationMs": 4715
     },
     {
       "municipalityCode": "GM0770",
@@ -158,7 +157,7 @@
         "https://www.eersel.nl/integraal-huisvestingsplan-ihp-onderwijs"
       ],
       "route": "structured-verification",
-      "durationMs": 6008
+      "durationMs": 11678
     },
     {
       "municipalityCode": "GM1903",
@@ -175,7 +174,7 @@
         "https://www.eijsden-margraten.nl/nl/Nieuws/Bibliotheek-Eijsden-krijgt-tijdelijke-huisvesting-en-werkt-toe-naar-een-toekomstbestendige-locatie.html"
       ],
       "route": "structured-verification",
-      "durationMs": 2312
+      "durationMs": 2513
     },
     {
       "municipalityCode": "GM0772",
@@ -198,7 +197,7 @@
         "https://www.eindhoven.nl/bouwen/vergunningen/leegstandvergunning"
       ],
       "route": "structured-verification",
-      "durationMs": 2752
+      "durationMs": 2946
     },
     {
       "municipalityCode": "GM0230",
@@ -227,7 +226,7 @@
         "https://www.elburg.nl/Digitale_gids_Elburg/Zoek_in_de_digitale_gids/Huisvesting"
       ],
       "route": "structured-verification",
-      "durationMs": 4569
+      "durationMs": 4896
     },
     {
       "municipalityCode": "GM0388",
@@ -240,7 +239,7 @@
       "candidates": [],
       "reachableCandidates": [],
       "route": "deep-verification-needed",
-      "durationMs": 37135
+      "durationMs": 38008
     },
     {
       "municipalityCode": "GM0153",
@@ -253,7 +252,7 @@
       "candidates": [],
       "reachableCandidates": [],
       "route": "deep-verification-needed",
-      "durationMs": 2233
+      "durationMs": 2482
     },
     {
       "municipalityCode": "GM0232",
@@ -280,7 +279,7 @@
         "https://www.epe.nl/wet-goed-verhuurderschap-en-wet-betaalbare-huur"
       ],
       "route": "structured-verification",
-      "durationMs": 6269
+      "durationMs": 6419
     },
     {
       "municipalityCode": "GM0233",
@@ -305,7 +304,7 @@
         "https://www.ermelo.nl/omgevingsplein/bouwen-en-verbouwen/woningsplitsing-aanvragen"
       ],
       "route": "structured-verification",
-      "durationMs": 4935
+      "durationMs": 4991
     },
     {
       "municipalityCode": "GM0777",
@@ -324,7 +323,7 @@
         "https://www.etten-leur.nl/product/verhuur-trouwkerkje/"
       ],
       "route": "structured-verification",
-      "durationMs": 4730
+      "durationMs": 5481
     },
     {
       "municipalityCode": "GM1940",
@@ -343,7 +342,7 @@
         "https://www.defryskemarren.nl/projecten/mfc-balk/aanvraagformulier-opvragen-documenten-huisvesting-mfc-balk/"
       ],
       "route": "structured-verification",
-      "durationMs": 10124
+      "durationMs": 10243
     },
     {
       "municipalityCode": "GM0779",
@@ -372,7 +371,7 @@
         "https://www.geertruidenberg.nl/woningsplitsing"
       ],
       "route": "structured-verification",
-      "durationMs": 4308
+      "durationMs": 4152
     },
     {
       "municipalityCode": "GM1771",
@@ -395,7 +394,7 @@
         "https://www.geldrop-mierlo.nl/kavelsplitsing"
       ],
       "route": "structured-verification",
-      "durationMs": 6762
+      "durationMs": 6538
     },
     {
       "municipalityCode": "GM1652",
@@ -408,7 +407,7 @@
       "candidates": [],
       "reachableCandidates": [],
       "route": "deep-verification-needed",
-      "durationMs": 2426
+      "durationMs": 2513
     },
     {
       "municipalityCode": "GM0907",
@@ -431,7 +430,7 @@
         "https://www.gennep.nl/meldpunt-goed-verhuurderschap"
       ],
       "route": "structured-verification",
-      "durationMs": 3639
+      "durationMs": 4015
     },
     {
       "municipalityCode": "GM0784",
@@ -444,7 +443,7 @@
       "candidates": [],
       "reachableCandidates": [],
       "route": "deep-verification-needed",
-      "durationMs": 2937
+      "durationMs": 3297
     },
     {
       "municipalityCode": "GM1924",
@@ -472,7 +471,7 @@
         "https://www.goeree-overflakkee.nl/bewonersavond-nieuwe-tonge-over-tijdelijke-huisvesting"
       ],
       "route": "structured-verification",
-      "durationMs": 5720
+      "durationMs": 5768
     },
     {
       "municipalityCode": "GM0664",
@@ -497,7 +496,7 @@
         "https://www.goes.nl/meldingsformulier-meldpunt-goed-verhuurderschap"
       ],
       "route": "structured-verification",
-      "durationMs": 8958
+      "durationMs": 4720
     },
     {
       "municipalityCode": "GM0785",
@@ -514,7 +513,7 @@
         "https://www.goirle.nl/verhuizen/meldpunt-goed-verhuurderschap"
       ],
       "route": "structured-verification",
-      "durationMs": 3706
+      "durationMs": 4018
     },
     {
       "municipalityCode": "GM1942",
@@ -523,17 +522,16 @@
       "registryHit": true,
       "municipalSite": "https://www.gooisemeren.nl",
       "candidateCount": 2,
-      "reachableCount": 2,
+      "reachableCount": 1,
       "candidates": [
         "https://gooisemeren.nl/verhuizen-en-wonen/klacht-over-woningverhuurder-melden/",
         "https://gooisemeren.nl/bouwen-en-verbouwen/vergunning-voor-splitsen-van-woningen/"
       ],
       "reachableCandidates": [
-        "https://gooisemeren.nl/verhuizen-en-wonen/klacht-over-woningverhuurder-melden/",
-        "https://gooisemeren.nl/bouwen-en-verbouwen/vergunning-voor-splitsen-van-woningen/"
+        "https://gooisemeren.nl/verhuizen-en-wonen/klacht-over-woningverhuurder-melden/"
       ],
       "route": "structured-verification",
-      "durationMs": 14669
+      "durationMs": 11305
     }
   ],
   "summary": {
@@ -544,7 +542,7 @@
     "manualReviewRequired": 0,
     "totalCandidates": 86,
     "networkRequests": 209,
-    "networkErrors": 6,
+    "networkErrors": 7,
     "maxConcurrency": 5
   },
   "safety": {

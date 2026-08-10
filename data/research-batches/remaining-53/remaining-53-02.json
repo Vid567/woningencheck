@@ -1,0 +1,240 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "remaining-53-02",
+  "generatedAt": "2026-08-10T21:35:34.281Z",
+  "records": [
+    {
+      "municipalityCode": "GM1859",
+      "municipalityName": "Berkelland",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.gemeenteberkelland.nl",
+      "candidateCount": 5,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.gemeenteberkelland.nl/volkshuisvestingsprogramma/",
+        "https://www.gemeenteberkelland.nl/samenvatting-volkshuisvestingsprogramma-2026-2035/",
+        "https://www.gemeenteberkelland.nl/uitgeschreven-factsheet-enquete-volkshuisvestingsprogramma/",
+        "https://www.gemeenteberkelland.nl/actueel/volkshuisvestingsprogramma-2026-2035-vastgesteld-2",
+        "https://www.gemeenteberkelland.nl/actueel/volkshuisvestingsprogramma-2026-2035-vastgesteld"
+      ],
+      "reachableCandidates": [
+        "https://www.gemeenteberkelland.nl/volkshuisvestingsprogramma/",
+        "https://www.gemeenteberkelland.nl/samenvatting-volkshuisvestingsprogramma-2026-2035/",
+        "https://www.gemeenteberkelland.nl/uitgeschreven-factsheet-enquete-volkshuisvestingsprogramma/",
+        "https://www.gemeenteberkelland.nl/actueel/volkshuisvestingsprogramma-2026-2035-vastgesteld/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 31252
+    },
+    {
+      "municipalityCode": "GM1721",
+      "municipalityName": "Bernheze",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.bernheze.org",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.bernheze.org/contact/meldingen-en-klachten/melding-of-klacht-over-verhuur-woning/",
+        "https://www.bernheze.org/inwoners-en-ondernemers/wonen/programma-volkshuisvesting/",
+        "https://www.bernheze.org/inwoners-en-ondernemers/wonen/veiligheid/verhuurovereenkomst-buitengebied/",
+        "https://www.bernheze.org/inwoners-en-ondernemers/wonen/verhuur-leegstaande-woning/"
+      ],
+      "reachableCandidates": [
+        "https://www.bernheze.org/contact/meldingen-en-klachten/melding-of-klacht-over-verhuur-woning/",
+        "https://www.bernheze.org/inwoners-en-ondernemers/wonen/programma-volkshuisvesting/",
+        "https://www.bernheze.org/inwoners-en-ondernemers/wonen/veiligheid/verhuurovereenkomst-buitengebied/",
+        "https://www.bernheze.org/inwoners-en-ondernemers/wonen/verhuur-leegstaande-woning/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6283
+    },
+    {
+      "municipalityCode": "GM0753",
+      "municipalityName": "Best",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.gemeentebest.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.gemeentebest.nl/hospitaverhuur",
+        "https://www.gemeentebest.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.gemeentebest.nl/verhuur-leegstaande-woning"
+      ],
+      "reachableCandidates": [
+        "https://www.gemeentebest.nl/hospitaverhuur",
+        "https://www.gemeentebest.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.gemeentebest.nl/verhuur-leegstaande-woning"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4625
+    },
+    {
+      "municipalityCode": "GM0209",
+      "municipalityName": "Beuningen",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.beuningen.nl",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.beuningen.nl/nieuwsbrief-6-huisvesting-vluchtelingen",
+        "https://www.beuningen.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.beuningen.nl/nieuwsbrief-huisvesting-vluchtelingen-schoenaker",
+        "https://www.beuningen.nl/nieuwsbrief-2-huisvesting-vluchtelingen-schoenaker",
+        "https://www.beuningen.nl/nieuwsbrief-3-huisvesting-vluchtelingen-schoenaker"
+      ],
+      "reachableCandidates": [
+        "https://www.beuningen.nl/nieuwsbrief-6-huisvesting-vluchtelingen",
+        "https://www.beuningen.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.beuningen.nl/nieuwsbrief-huisvesting-vluchtelingen-schoenaker",
+        "https://www.beuningen.nl/nieuwsbrief-2-huisvesting-vluchtelingen-schoenaker",
+        "https://www.beuningen.nl/nieuwsbrief-3-huisvesting-vluchtelingen-schoenaker"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4803
+    },
+    {
+      "municipalityCode": "GM0375",
+      "municipalityName": "Beverwijk",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.beverwijk.nl",
+      "candidateCount": 8,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.beverwijk.nl/tijdelijk-verhuur-woning",
+        "https://www.beverwijk.nl/woningleegstand",
+        "https://www.beverwijk.nl/melding-wet-goed-verhuurderschap",
+        "https://www.beverwijk.nl/verhuur-strook-grond-aan-de-adrichemlaan-1a",
+        "https://www.beverwijk.nl/huisvestingsverordening",
+        "https://www.beverwijk.nl/verhuurvergunning-wijk-aan-zee",
+        "https://www.beverwijk.nl/strengere-regels-voor-woningdelen-en-woningsplitsen",
+        "https://www.beverwijk.nl/huisvestingsvergunning"
+      ],
+      "reachableCandidates": [
+        "https://www.beverwijk.nl/tijdelijk-verhuur-woning",
+        "https://www.beverwijk.nl/woningleegstand",
+        "https://www.beverwijk.nl/melding-wet-goed-verhuurderschap",
+        "https://www.beverwijk.nl/verhuur-strook-grond-aan-de-adrichemlaan-1a",
+        "https://www.beverwijk.nl/huisvestingsverordening",
+        "https://www.beverwijk.nl/verhuurvergunning-wijk-aan-zee"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5304
+    },
+    {
+      "municipalityCode": "GM0310",
+      "municipalityName": "De Bilt",
+      "province": "Utrecht",
+      "registryHit": true,
+      "municipalSite": "https://www.debilt.nl",
+      "candidateCount": 12,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.debilt.nl/vergunningen-en-belastingen/verbouwen-en-slopen/leegstaande-woonruimte-verhuren",
+        "https://www.debilt.nl/vergunningen-en-belastingen/verbouwen-en-slopen/onttrekkingsvergunning-woonruimte",
+        "https://www.debilt.nl/vergunningen-en-belastingen/verbouwen-en-slopen/splitsingsvergunning",
+        "https://www.debilt.nl/wonen/verhuizen/huisvestingsvergunning",
+        "https://www.debilt.nl/wonen/verhuren-van-koopwoningen/veelgestelde-vragen-invoering-opkoopbescherming",
+        "https://www.debilt.nl/wonen/verhuren-van-koopwoningen/opkoopbescherming-in-gemeente-de-bilt",
+        "https://www.debilt.nl/wonen/woonbeleid/huisvestingsverordening",
+        "https://www.debilt.nl/wonen/woning-huren/meldpunt-ongewenst-gedrag-particuliere-verhuurders",
+        "https://www.debilt.nl/nieuwsoverzicht/opkoopbescherming-in-gemeente-de-bilt",
+        "https://www.debilt.nl/nieuwsoverzicht/splitsen-van-woningen-in-gemeente-wordt-makkelijker",
+        "https://www.debilt.nl/nieuwsoverzicht/meld-te-hoge-huur-en-ongewenst-verhuurgedrag-bij-de-gemeente",
+        "https://www.debilt.nl/nieuwsoverzicht/raad-de-bilt-wil-unaniem-extra-onderzoek-naar-huisvesting-gemeentehuis"
+      ],
+      "reachableCandidates": [
+        "https://www.debilt.nl/vergunningen-en-belastingen/verbouwen-en-slopen/leegstaande-woonruimte-verhuren",
+        "https://www.debilt.nl/vergunningen-en-belastingen/verbouwen-en-slopen/onttrekkingsvergunning-woonruimte",
+        "https://www.debilt.nl/vergunningen-en-belastingen/verbouwen-en-slopen/splitsingsvergunning",
+        "https://www.debilt.nl/wonen/verhuizen/huisvestingsvergunning",
+        "https://www.debilt.nl/wonen/verhuren-van-koopwoningen/veelgestelde-vragen-invoering-opkoopbescherming",
+        "https://www.debilt.nl/wonen/verhuren-van-koopwoningen/opkoopbescherming-in-gemeente-de-bilt"
+      ],
+      "route": "structured-verification",
+      "durationMs": 9402
+    },
+    {
+      "municipalityCode": "GM1728",
+      "municipalityName": "Bladel",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.bladel.nl",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.bladel.nl/meldpunt-ongewenst-verhuurschap",
+        "https://www.bladel.nl/woning-splitsen",
+        "https://www.bladel.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bladel.nl/huisvesting"
+      ],
+      "reachableCandidates": [
+        "https://www.bladel.nl/meldpunt-ongewenst-verhuurschap",
+        "https://www.bladel.nl/woning-splitsen",
+        "https://www.bladel.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bladel.nl/huisvesting"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3996
+    },
+    {
+      "municipalityCode": "GM0376",
+      "municipalityName": "Blaricum",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.blaricum.nl",
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "candidates": [
+        "https://www.blaricum.nl/meldpunt-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.blaricum.nl/meldpunt-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3164
+    },
+    {
+      "municipalityCode": "GM0377",
+      "municipalityName": "Bloemendaal",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://eloket.bloemendaal.nl/mozard/!suite09.scherm1089?mWfrs=1221194&mNch=bb5zxgvxwh",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 10119
+    },
+    {
+      "municipalityCode": "GM1901",
+      "municipalityName": "Bodegraven-Reeuwijk",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.bodegraven-reeuwijk.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 1944
+    }
+  ],
+  "summary": {
+    "municipalities": 10,
+    "registryHits": 10,
+    "networkRequests": 133,
+    "networkErrors": 1,
+    "maxConcurrency": 5
+  },
+  "safety": {
+    "discoveryIsNotLegalVerification": true,
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0
+  }
+}

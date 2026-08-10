@@ -1,0 +1,1267 @@
+{
+  "schemaVersion": "1.0.0",
+  "batchId": "remaining-53-02-verification",
+  "generatedAt": "2026-08-10T21:35:34.281Z",
+  "sourceBatch": "remaining-53-02",
+  "records": [
+    {
+      "municipalityCode": "GM1859",
+      "municipalityName": "Berkelland",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.gemeenteberkelland.nl",
+      "candidateCount": 5,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.gemeenteberkelland.nl/volkshuisvestingsprogramma/",
+        "https://www.gemeenteberkelland.nl/samenvatting-volkshuisvestingsprogramma-2026-2035/",
+        "https://www.gemeenteberkelland.nl/uitgeschreven-factsheet-enquete-volkshuisvestingsprogramma/",
+        "https://www.gemeenteberkelland.nl/actueel/volkshuisvestingsprogramma-2026-2035-vastgesteld-2",
+        "https://www.gemeenteberkelland.nl/actueel/volkshuisvestingsprogramma-2026-2035-vastgesteld"
+      ],
+      "reachableCandidates": [
+        "https://www.gemeenteberkelland.nl/volkshuisvestingsprogramma/",
+        "https://www.gemeenteberkelland.nl/samenvatting-volkshuisvestingsprogramma-2026-2035/",
+        "https://www.gemeenteberkelland.nl/uitgeschreven-factsheet-enquete-volkshuisvestingsprogramma/",
+        "https://www.gemeenteberkelland.nl/actueel/volkshuisvestingsprogramma-2026-2035-vastgesteld/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 31252,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [],
+      "pages": [
+        {
+          "url": "https://www.gemeenteberkelland.nl/volkshuisvestingsprogramma/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": [
+            "https://www.gemeenteberkelland.nl/wp-content/uploads/2025/11/Factsheet-enquete-volkshuisvestingsprogramma.pdf"
+          ]
+        },
+        {
+          "url": "https://www.gemeenteberkelland.nl/samenvatting-volkshuisvestingsprogramma-2026-2035/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.gemeenteberkelland.nl/uitgeschreven-factsheet-enquete-volkshuisvestingsprogramma/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": false,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.gemeenteberkelland.nl/actueel/volkshuisvestingsprogramma-2026-2035-vastgesteld/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [],
+      "documentLinks": [
+        "https://www.gemeenteberkelland.nl/wp-content/uploads/2025/11/Factsheet-enquete-volkshuisvestingsprogramma.pdf"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": false,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "applicationRoute",
+        "exceptions"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1721",
+      "municipalityName": "Bernheze",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.bernheze.org",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.bernheze.org/contact/meldingen-en-klachten/melding-of-klacht-over-verhuur-woning/",
+        "https://www.bernheze.org/inwoners-en-ondernemers/wonen/programma-volkshuisvesting/",
+        "https://www.bernheze.org/inwoners-en-ondernemers/wonen/veiligheid/verhuurovereenkomst-buitengebied/",
+        "https://www.bernheze.org/inwoners-en-ondernemers/wonen/verhuur-leegstaande-woning/"
+      ],
+      "reachableCandidates": [
+        "https://www.bernheze.org/contact/meldingen-en-klachten/melding-of-klacht-over-verhuur-woning/",
+        "https://www.bernheze.org/inwoners-en-ondernemers/wonen/programma-volkshuisvesting/",
+        "https://www.bernheze.org/inwoners-en-ondernemers/wonen/veiligheid/verhuurovereenkomst-buitengebied/",
+        "https://www.bernheze.org/inwoners-en-ondernemers/wonen/verhuur-leegstaande-woning/"
+      ],
+      "route": "structured-verification",
+      "durationMs": 6283,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [],
+      "pages": [
+        {
+          "url": "https://www.bernheze.org/contact/meldingen-en-klachten/melding-of-klacht-over-verhuur-woning/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR711416"
+          ],
+          "applicationLinks": [
+            "https://www.bernheze.org/formulieren/melding-of-klacht-over-verhuur-woning/"
+          ],
+          "documentLinks": [
+            "https://www.bernheze.org/formulieren/melding-of-klacht-over-verhuur-woning/"
+          ]
+        },
+        {
+          "url": "https://www.bernheze.org/inwoners-en-ondernemers/wonen/programma-volkshuisvesting/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [
+            "http://lokaleregelgeving.overheid.nl/CVDR755007"
+          ],
+          "applicationLinks": [],
+          "documentLinks": [
+            "https://www.bernheze.org/data/downloadables/5/4/5/9/kader-woningbouwprijzen-2026-gemeente-bernheze.pdf"
+          ]
+        },
+        {
+          "url": "https://www.bernheze.org/inwoners-en-ondernemers/wonen/veiligheid/verhuurovereenkomst-buitengebied/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.bernheze.org/inwoners-en-ondernemers/wonen/verhuur-leegstaande-woning/",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR656696/1",
+            "https://lokaleregelgeving.overheid.nl/CVDR724030/1"
+          ],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [
+        "https://lokaleregelgeving.overheid.nl/CVDR711416",
+        "http://lokaleregelgeving.overheid.nl/CVDR755007",
+        "https://lokaleregelgeving.overheid.nl/CVDR656696/1",
+        "https://lokaleregelgeving.overheid.nl/CVDR724030/1"
+      ],
+      "applicationLinks": [
+        "https://www.bernheze.org/formulieren/melding-of-klacht-over-verhuur-woning/"
+      ],
+      "documentLinks": [
+        "https://www.bernheze.org/formulieren/melding-of-klacht-over-verhuur-woning/",
+        "https://www.bernheze.org/data/downloadables/5/4/5/9/kader-woningbouwprijzen-2026-gemeente-bernheze.pdf"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "exceptions"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0753",
+      "municipalityName": "Best",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.gemeentebest.nl",
+      "candidateCount": 3,
+      "reachableCount": 3,
+      "candidates": [
+        "https://www.gemeentebest.nl/hospitaverhuur",
+        "https://www.gemeentebest.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.gemeentebest.nl/verhuur-leegstaande-woning"
+      ],
+      "reachableCandidates": [
+        "https://www.gemeentebest.nl/hospitaverhuur",
+        "https://www.gemeentebest.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.gemeentebest.nl/verhuur-leegstaande-woning"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4625,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "good-landlord-permit"
+      ],
+      "pages": [
+        {
+          "url": "https://www.gemeentebest.nl/hospitaverhuur",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.gemeentebest.nl/meldpunt-wet-goed-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": [
+            "https://www.gemeentebest.nl/data/downloadables/1/3/1/4/6/20240911-meldpunt-wet-goed-verhuurderschap.pdf"
+          ]
+        },
+        {
+          "url": "https://www.gemeentebest.nl/verhuur-leegstaande-woning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.gemeentebest.nl/formulieren/leegstandvergunning",
+            "https://www.gemeentebest.nl/formulieren/leegstandvergunning-bedrijf"
+          ],
+          "documentLinks": [
+            "https://www.gemeentebest.nl/formulieren/leegstandvergunning",
+            "https://www.gemeentebest.nl/formulieren/leegstandvergunning-bedrijf"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://www.gemeentebest.nl/formulieren/leegstandvergunning",
+        "https://www.gemeentebest.nl/formulieren/leegstandvergunning-bedrijf"
+      ],
+      "documentLinks": [
+        "https://www.gemeentebest.nl/data/downloadables/1/3/1/4/6/20240911-meldpunt-wet-goed-verhuurderschap.pdf",
+        "https://www.gemeentebest.nl/formulieren/leegstandvergunning",
+        "https://www.gemeentebest.nl/formulieren/leegstandvergunning-bedrijf"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": false
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "geographicScope"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0209",
+      "municipalityName": "Beuningen",
+      "province": "Gelderland",
+      "registryHit": true,
+      "municipalSite": "https://www.beuningen.nl",
+      "candidateCount": 5,
+      "reachableCount": 5,
+      "candidates": [
+        "https://www.beuningen.nl/nieuwsbrief-6-huisvesting-vluchtelingen",
+        "https://www.beuningen.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.beuningen.nl/nieuwsbrief-huisvesting-vluchtelingen-schoenaker",
+        "https://www.beuningen.nl/nieuwsbrief-2-huisvesting-vluchtelingen-schoenaker",
+        "https://www.beuningen.nl/nieuwsbrief-3-huisvesting-vluchtelingen-schoenaker"
+      ],
+      "reachableCandidates": [
+        "https://www.beuningen.nl/nieuwsbrief-6-huisvesting-vluchtelingen",
+        "https://www.beuningen.nl/meldpunt-wet-goed-verhuurderschap",
+        "https://www.beuningen.nl/nieuwsbrief-huisvesting-vluchtelingen-schoenaker",
+        "https://www.beuningen.nl/nieuwsbrief-2-huisvesting-vluchtelingen-schoenaker",
+        "https://www.beuningen.nl/nieuwsbrief-3-huisvesting-vluchtelingen-schoenaker"
+      ],
+      "route": "structured-verification",
+      "durationMs": 4803,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "good-landlord-permit"
+      ],
+      "pages": [
+        {
+          "url": "https://www.beuningen.nl/nieuwsbrief-6-huisvesting-vluchtelingen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.beuningen.nl/form/contactformulier-vluchtelingeninformatie"
+          ],
+          "documentLinks": [
+            "https://www.beuningen.nl/form/contactformulier-vluchtelingeninformatie"
+          ]
+        },
+        {
+          "url": "https://www.beuningen.nl/meldpunt-wet-goed-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://mijn.beuningen.nl/aanvragen/1958/onbekend/meldpunt-goed-verhuurderschap"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.beuningen.nl/nieuwsbrief-huisvesting-vluchtelingen-schoenaker",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.beuningen.nl/form/contactformulier-vluchtelingeninformatie"
+          ],
+          "documentLinks": [
+            "https://www.beuningen.nl/form/contactformulier-vluchtelingeninformatie"
+          ]
+        },
+        {
+          "url": "https://www.beuningen.nl/nieuwsbrief-2-huisvesting-vluchtelingen-schoenaker",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.beuningen.nl/form/contactformulier-vluchtelingeninformatie"
+          ],
+          "documentLinks": [
+            "https://www.beuningen.nl/form/contactformulier-vluchtelingeninformatie"
+          ]
+        },
+        {
+          "url": "https://www.beuningen.nl/nieuwsbrief-3-huisvesting-vluchtelingen-schoenaker",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.beuningen.nl/form/contactformulier-vluchtelingeninformatie"
+          ],
+          "documentLinks": [
+            "https://www.beuningen.nl/form/contactformulier-vluchtelingeninformatie"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://www.beuningen.nl/form/contactformulier-vluchtelingeninformatie",
+        "https://mijn.beuningen.nl/aanvragen/1958/onbekend/meldpunt-goed-verhuurderschap"
+      ],
+      "documentLinks": [
+        "https://www.beuningen.nl/form/contactformulier-vluchtelingeninformatie"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "exceptions"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0375",
+      "municipalityName": "Beverwijk",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.beverwijk.nl",
+      "candidateCount": 8,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.beverwijk.nl/tijdelijk-verhuur-woning",
+        "https://www.beverwijk.nl/woningleegstand",
+        "https://www.beverwijk.nl/melding-wet-goed-verhuurderschap",
+        "https://www.beverwijk.nl/verhuur-strook-grond-aan-de-adrichemlaan-1a",
+        "https://www.beverwijk.nl/huisvestingsverordening",
+        "https://www.beverwijk.nl/verhuurvergunning-wijk-aan-zee",
+        "https://www.beverwijk.nl/strengere-regels-voor-woningdelen-en-woningsplitsen",
+        "https://www.beverwijk.nl/huisvestingsvergunning"
+      ],
+      "reachableCandidates": [
+        "https://www.beverwijk.nl/tijdelijk-verhuur-woning",
+        "https://www.beverwijk.nl/woningleegstand",
+        "https://www.beverwijk.nl/melding-wet-goed-verhuurderschap",
+        "https://www.beverwijk.nl/verhuur-strook-grond-aan-de-adrichemlaan-1a",
+        "https://www.beverwijk.nl/huisvestingsverordening",
+        "https://www.beverwijk.nl/verhuurvergunning-wijk-aan-zee"
+      ],
+      "route": "structured-verification",
+      "durationMs": 5304,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "vacancy-obligation",
+        "good-landlord-permit"
+      ],
+      "pages": [
+        {
+          "url": "https://www.beverwijk.nl/tijdelijk-verhuur-woning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.beverwijk.nl/aanvragen-en-regelen"
+          ],
+          "documentLinks": [
+            "https://cuatro.sim-cdn.nl/beverwijk12c2a8/uploads/aanvraag%20vergunning%20tot%20tijdelijke%20verhuur%20van%20leegstaande%20woomruimte_0.pdf?cb=cMw0Zt75"
+          ]
+        },
+        {
+          "url": "https://www.beverwijk.nl/woningleegstand",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "vacancy-obligation"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.beverwijk.nl/form/meldformulier-leegstand/eerste-stap-0-5",
+            "https://www.beverwijk.nl/form/contactformulier-woning-leegstand/uw-vraag-of-opmerking-0",
+            "https://www.beverwijk.nl/aanvragen-en-regelen"
+          ],
+          "documentLinks": [
+            "https://www.beverwijk.nl/form/meldformulier-leegstand/eerste-stap-0-5",
+            "https://www.beverwijk.nl/form/contactformulier-woning-leegstand/uw-vraag-of-opmerking-0"
+          ]
+        },
+        {
+          "url": "https://www.beverwijk.nl/melding-wet-goed-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.beverwijk.nl/aanvragen-en-regelen"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.beverwijk.nl/verhuur-strook-grond-aan-de-adrichemlaan-1a",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.beverwijk.nl/aanvragen-en-regelen"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.beverwijk.nl/huisvestingsverordening",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.beverwijk.nl/aanvragen-en-regelen"
+          ],
+          "documentLinks": [
+            "https://cuatro.sim-cdn.nl/beverwijk12c2a8/uploads/concept_huisvestingsverordening_2026_zuid-kennemerland_ijmond_gemeente_beverwijk.pdf?cb=N7uz6gTs",
+            "https://cuatro.sim-cdn.nl/beverwijk12c2a8/uploads/nadere_regels_woonurgentie_bij_huisvestingsverordeningen_zuid-kennemerland_ijmond.pdf?cb=aC3meeZI"
+          ]
+        },
+        {
+          "url": "https://www.beverwijk.nl/verhuurvergunning-wijk-aan-zee",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.beverwijk.nl/aanvragen-en-regelen"
+          ],
+          "documentLinks": [
+            "https://cuatro.sim-cdn.nl/beverwijk12c2a8/uploads/huisvestingsverordening_2026_gemeente_beverwijk.pdf?cb=FgsqHdlv"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://www.beverwijk.nl/aanvragen-en-regelen",
+        "https://www.beverwijk.nl/form/meldformulier-leegstand/eerste-stap-0-5",
+        "https://www.beverwijk.nl/form/contactformulier-woning-leegstand/uw-vraag-of-opmerking-0"
+      ],
+      "documentLinks": [
+        "https://cuatro.sim-cdn.nl/beverwijk12c2a8/uploads/aanvraag%20vergunning%20tot%20tijdelijke%20verhuur%20van%20leegstaande%20woomruimte_0.pdf?cb=cMw0Zt75",
+        "https://www.beverwijk.nl/form/meldformulier-leegstand/eerste-stap-0-5",
+        "https://www.beverwijk.nl/form/contactformulier-woning-leegstand/uw-vraag-of-opmerking-0",
+        "https://cuatro.sim-cdn.nl/beverwijk12c2a8/uploads/concept_huisvestingsverordening_2026_zuid-kennemerland_ijmond_gemeente_beverwijk.pdf?cb=N7uz6gTs",
+        "https://cuatro.sim-cdn.nl/beverwijk12c2a8/uploads/nadere_regels_woonurgentie_bij_huisvestingsverordeningen_zuid-kennemerland_ijmond.pdf?cb=aC3meeZI",
+        "https://cuatro.sim-cdn.nl/beverwijk12c2a8/uploads/huisvestingsverordening_2026_gemeente_beverwijk.pdf?cb=FgsqHdlv"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "exceptions"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0310",
+      "municipalityName": "De Bilt",
+      "province": "Utrecht",
+      "registryHit": true,
+      "municipalSite": "https://www.debilt.nl",
+      "candidateCount": 12,
+      "reachableCount": 6,
+      "candidates": [
+        "https://www.debilt.nl/vergunningen-en-belastingen/verbouwen-en-slopen/leegstaande-woonruimte-verhuren",
+        "https://www.debilt.nl/vergunningen-en-belastingen/verbouwen-en-slopen/onttrekkingsvergunning-woonruimte",
+        "https://www.debilt.nl/vergunningen-en-belastingen/verbouwen-en-slopen/splitsingsvergunning",
+        "https://www.debilt.nl/wonen/verhuizen/huisvestingsvergunning",
+        "https://www.debilt.nl/wonen/verhuren-van-koopwoningen/veelgestelde-vragen-invoering-opkoopbescherming",
+        "https://www.debilt.nl/wonen/verhuren-van-koopwoningen/opkoopbescherming-in-gemeente-de-bilt",
+        "https://www.debilt.nl/wonen/woonbeleid/huisvestingsverordening",
+        "https://www.debilt.nl/wonen/woning-huren/meldpunt-ongewenst-gedrag-particuliere-verhuurders",
+        "https://www.debilt.nl/nieuwsoverzicht/opkoopbescherming-in-gemeente-de-bilt",
+        "https://www.debilt.nl/nieuwsoverzicht/splitsen-van-woningen-in-gemeente-wordt-makkelijker",
+        "https://www.debilt.nl/nieuwsoverzicht/meld-te-hoge-huur-en-ongewenst-verhuurgedrag-bij-de-gemeente",
+        "https://www.debilt.nl/nieuwsoverzicht/raad-de-bilt-wil-unaniem-extra-onderzoek-naar-huisvesting-gemeentehuis"
+      ],
+      "reachableCandidates": [
+        "https://www.debilt.nl/vergunningen-en-belastingen/verbouwen-en-slopen/leegstaande-woonruimte-verhuren",
+        "https://www.debilt.nl/vergunningen-en-belastingen/verbouwen-en-slopen/onttrekkingsvergunning-woonruimte",
+        "https://www.debilt.nl/vergunningen-en-belastingen/verbouwen-en-slopen/splitsingsvergunning",
+        "https://www.debilt.nl/wonen/verhuizen/huisvestingsvergunning",
+        "https://www.debilt.nl/wonen/verhuren-van-koopwoningen/veelgestelde-vragen-invoering-opkoopbescherming",
+        "https://www.debilt.nl/wonen/verhuren-van-koopwoningen/opkoopbescherming-in-gemeente-de-bilt"
+      ],
+      "route": "structured-verification",
+      "durationMs": 9402,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "withdrawal-merger",
+        "building-split",
+        "housing-permit",
+        "purchase-protection"
+      ],
+      "pages": [
+        {
+          "url": "https://www.debilt.nl/vergunningen-en-belastingen/verbouwen-en-slopen/leegstaande-woonruimte-verhuren",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://mijn.debilt.nl/aanvragen/1427/persoon/leegstaand-gebouw-verhuur-vergunning",
+            "https://mijn.debilt.nl/aanvragen/1427/organisatie/leegstaand-gebouw-verhuur-vergunning",
+            "https://mijn.debilt.nl/aanvragen/2252/onbekend/contactformulier"
+          ],
+          "documentLinks": [
+            "https://mijn.debilt.nl/aanvragen/2252/onbekend/contactformulier"
+          ]
+        },
+        {
+          "url": "https://www.debilt.nl/vergunningen-en-belastingen/verbouwen-en-slopen/onttrekkingsvergunning-woonruimte",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "withdrawal-merger"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR725706/1"
+          ],
+          "applicationLinks": [
+            "https://mijn.debilt.nl/aanvragen/45/persoon/onttrekkingsvergunning",
+            "https://mijn.debilt.nl/aanvragen/45/organisatie/onttrekkingsvergunning",
+            "https://omgevingswet.overheid.nl/",
+            "https://mijn.debilt.nl/aanvragen/2252/onbekend/contactformulier"
+          ],
+          "documentLinks": [
+            "https://mijn.debilt.nl/aanvragen/2252/onbekend/contactformulier"
+          ]
+        },
+        {
+          "url": "https://www.debilt.nl/vergunningen-en-belastingen/verbouwen-en-slopen/splitsingsvergunning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "building-split"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://mijn.debilt.nl/aanvragen/48/persoon/splitsingsvergunning",
+            "https://mijn.debilt.nl/aanvragen/48/organisatie/splitsingsvergunning",
+            "https://www.omgevingsloket.nl/",
+            "https://mijn.debilt.nl/aanvragen/2252/onbekend/contactformulier"
+          ],
+          "documentLinks": [
+            "https://mijn.debilt.nl/aanvragen/2252/onbekend/contactformulier"
+          ]
+        },
+        {
+          "url": "https://www.debilt.nl/wonen/verhuizen/huisvestingsvergunning",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "housing-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://mijn.debilt.nl/aanvragen/2252/onbekend/contactformulier"
+          ],
+          "documentLinks": [
+            "https://mijn.debilt.nl/aanvragen/2252/onbekend/contactformulier"
+          ]
+        },
+        {
+          "url": "https://www.debilt.nl/wonen/verhuren-van-koopwoningen/veelgestelde-vragen-invoering-opkoopbescherming",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "purchase-protection"
+          ],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [
+            "https://lokaleregelgeving.overheid.nl/CVDR725706/1"
+          ],
+          "applicationLinks": [
+            "https://mijn.debilt.nl/aanvragen/2252/onbekend/contactformulier"
+          ],
+          "documentLinks": [
+            "https://mijn.debilt.nl/aanvragen/2252/onbekend/contactformulier"
+          ]
+        },
+        {
+          "url": "https://www.debilt.nl/wonen/verhuren-van-koopwoningen/opkoopbescherming-in-gemeente-de-bilt",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "purchase-protection"
+          ],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": false
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://mijn.debilt.nl/aanvragen/932/persoon/verhuurvergunning-opkoopbescherming",
+            "https://mijn.debilt.nl/aanvragen/932/organisatie/verhuurvergunning-opkoopbescherming",
+            "https://mijn.debilt.nl/aanvragen/2252/onbekend/contactformulier"
+          ],
+          "documentLinks": [
+            "https://mijn.debilt.nl/aanvragen/2252/onbekend/contactformulier"
+          ]
+        }
+      ],
+      "officialRegulationLinks": [
+        "https://lokaleregelgeving.overheid.nl/CVDR725706/1"
+      ],
+      "applicationLinks": [
+        "https://mijn.debilt.nl/aanvragen/1427/persoon/leegstaand-gebouw-verhuur-vergunning",
+        "https://mijn.debilt.nl/aanvragen/1427/organisatie/leegstaand-gebouw-verhuur-vergunning",
+        "https://mijn.debilt.nl/aanvragen/2252/onbekend/contactformulier",
+        "https://mijn.debilt.nl/aanvragen/45/persoon/onttrekkingsvergunning",
+        "https://mijn.debilt.nl/aanvragen/45/organisatie/onttrekkingsvergunning",
+        "https://omgevingswet.overheid.nl/",
+        "https://mijn.debilt.nl/aanvragen/48/persoon/splitsingsvergunning",
+        "https://mijn.debilt.nl/aanvragen/48/organisatie/splitsingsvergunning",
+        "https://www.omgevingsloket.nl/",
+        "https://mijn.debilt.nl/aanvragen/932/persoon/verhuurvergunning-opkoopbescherming",
+        "https://mijn.debilt.nl/aanvragen/932/organisatie/verhuurvergunning-opkoopbescherming"
+      ],
+      "documentLinks": [
+        "https://mijn.debilt.nl/aanvragen/2252/onbekend/contactformulier"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": true,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "structurally-complete-pending-legal-review",
+      "openChecks": [],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1728",
+      "municipalityName": "Bladel",
+      "province": "Noord-Brabant",
+      "registryHit": true,
+      "municipalSite": "https://www.bladel.nl",
+      "candidateCount": 4,
+      "reachableCount": 4,
+      "candidates": [
+        "https://www.bladel.nl/meldpunt-ongewenst-verhuurschap",
+        "https://www.bladel.nl/woning-splitsen",
+        "https://www.bladel.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bladel.nl/huisvesting"
+      ],
+      "reachableCandidates": [
+        "https://www.bladel.nl/meldpunt-ongewenst-verhuurschap",
+        "https://www.bladel.nl/woning-splitsen",
+        "https://www.bladel.nl/tijdelijke-verhuur-leegstaand-pand",
+        "https://www.bladel.nl/huisvesting"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3996,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "dwelling-formation"
+      ],
+      "pages": [
+        {
+          "url": "https://www.bladel.nl/meldpunt-ongewenst-verhuurschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.bladel.nl/aanvragen-en-regelen",
+            "https://www.bladel.nl/eherkenning"
+          ],
+          "documentLinks": []
+        },
+        {
+          "url": "https://www.bladel.nl/woning-splitsen",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "dwelling-formation"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.bladel.nl/form/contactformulier-vth-bladel/contactformulier-vth-bladel-0",
+            "http://www.omgevingsloket.nl/",
+            "https://www.bladel.nl/aanvragen-en-regelen",
+            "https://www.bladel.nl/eherkenning"
+          ],
+          "documentLinks": [
+            "https://www.bladel.nl/form/contactformulier-vth-bladel/contactformulier-vth-bladel-0"
+          ]
+        },
+        {
+          "url": "https://www.bladel.nl/tijdelijke-verhuur-leegstaand-pand",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": true,
+            "documents": true,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "http://www.rijksoverheid.nl/documenten-en-publicaties/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte.html",
+            "https://www.bladel.nl/aanvragen-en-regelen",
+            "https://www.bladel.nl/eherkenning"
+          ],
+          "documentLinks": [
+            "http://www.rijksoverheid.nl/documenten-en-publicaties/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte.html"
+          ]
+        },
+        {
+          "url": "https://www.bladel.nl/huisvesting",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": true,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [
+            "https://www.bladel.nl/aanvragen-en-regelen",
+            "https://www.bladel.nl/eherkenning"
+          ],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [
+        "https://www.bladel.nl/aanvragen-en-regelen",
+        "https://www.bladel.nl/eherkenning",
+        "https://www.bladel.nl/form/contactformulier-vth-bladel/contactformulier-vth-bladel-0",
+        "http://www.omgevingsloket.nl/",
+        "http://www.rijksoverheid.nl/documenten-en-publicaties/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte.html"
+      ],
+      "documentLinks": [
+        "https://www.bladel.nl/form/contactformulier-vth-bladel/contactformulier-vth-bladel-0",
+        "http://www.rijksoverheid.nl/documenten-en-publicaties/formulieren/2013/07/04/aanvraag-vergunning-tot-tijdelijke-verhuur-van-leegstaande-woonruimte.html"
+      ],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": true,
+        "documents": true,
+        "exceptions": true,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0376",
+      "municipalityName": "Blaricum",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.blaricum.nl",
+      "candidateCount": 1,
+      "reachableCount": 1,
+      "candidates": [
+        "https://www.blaricum.nl/meldpunt-goed-verhuurderschap"
+      ],
+      "reachableCandidates": [
+        "https://www.blaricum.nl/meldpunt-goed-verhuurderschap"
+      ],
+      "route": "structured-verification",
+      "durationMs": 3164,
+      "verificationRoute": "structured",
+      "candidatePermitTypes": [
+        "good-landlord-permit"
+      ],
+      "pages": [
+        {
+          "url": "https://www.blaricum.nl/meldpunt-goed-verhuurderschap",
+          "status": 200,
+          "reachable": true,
+          "candidatePermitTypes": [
+            "good-landlord-permit"
+          ],
+          "signals": {
+            "exceptions": false,
+            "documents": false,
+            "application": false,
+            "geography": true
+          },
+          "officialRegulationLinks": [],
+          "applicationLinks": [],
+          "documentLinks": []
+        }
+      ],
+      "officialRegulationLinks": [],
+      "applicationLinks": [],
+      "documentLinks": [],
+      "evidenceCompleteness": {
+        "municipalInformation": true,
+        "officialRegulation": false,
+        "applicationRoute": false,
+        "documents": false,
+        "exceptions": false,
+        "geographicScope": true
+      },
+      "verificationStatus": "targeted-review-required",
+      "openChecks": [
+        "officialRegulation",
+        "applicationRoute",
+        "documents",
+        "exceptions"
+      ],
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM0377",
+      "municipalityName": "Bloemendaal",
+      "province": "Noord-Holland",
+      "registryHit": true,
+      "municipalSite": "https://eloket.bloemendaal.nl/mozard/!suite09.scherm1089?mWfrs=1221194&mNch=bb5zxgvxwh",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 10119,
+      "verificationRoute": "deep",
+      "officialPublicationSearch": [
+        {
+          "query": "Bloemendaal huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20huisvestingsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bloemendaal opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20opkoopbescherming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bloemendaal kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bloemendaal splitsingsvergunning woningvorming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20splitsingsvergunning%20woningvorming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bloemendaal onttrekkingsvergunning woonruimte",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20onttrekkingsvergunning%20woonruimte",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bloemendaal leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20leegstandsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bloemendaal verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bloemendaal vakantieverhuur short stay",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bloemendaal%20vakantieverhuur%20short%20stay",
+          "status": 200,
+          "foundCvdr": []
+        }
+      ],
+      "officialRegulationCandidates": [],
+      "verificationStatus": "manual-legal-source-review-required",
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    },
+    {
+      "municipalityCode": "GM1901",
+      "municipalityName": "Bodegraven-Reeuwijk",
+      "province": "Zuid-Holland",
+      "registryHit": true,
+      "municipalSite": "https://www.bodegraven-reeuwijk.nl",
+      "candidateCount": 0,
+      "reachableCount": 0,
+      "candidates": [],
+      "reachableCandidates": [],
+      "route": "deep-verification-needed",
+      "durationMs": 1944,
+      "verificationRoute": "deep",
+      "officialPublicationSearch": [
+        {
+          "query": "Bodegraven-Reeuwijk huisvestingsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20huisvestingsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bodegraven-Reeuwijk opkoopbescherming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20opkoopbescherming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bodegraven-Reeuwijk kamerverhuur omzettingsvergunning",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20kamerverhuur%20omzettingsvergunning",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bodegraven-Reeuwijk splitsingsvergunning woningvorming",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20splitsingsvergunning%20woningvorming",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bodegraven-Reeuwijk onttrekkingsvergunning woonruimte",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20onttrekkingsvergunning%20woonruimte",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bodegraven-Reeuwijk leegstandsverordening",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20leegstandsverordening",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bodegraven-Reeuwijk verhuurvergunning goed verhuurderschap",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20verhuurvergunning%20goed%20verhuurderschap",
+          "status": 200,
+          "foundCvdr": []
+        },
+        {
+          "query": "Bodegraven-Reeuwijk vakantieverhuur short stay",
+          "url": "https://lokaleregelgeving.overheid.nl/zoeken?query=Bodegraven-Reeuwijk%20vakantieverhuur%20short%20stay",
+          "status": 200,
+          "foundCvdr": []
+        }
+      ],
+      "officialRegulationCandidates": [],
+      "verificationStatus": "manual-legal-source-review-required",
+      "legalApproval": false,
+      "publicationAllowed": false,
+      "publicOutputCreated": false,
+      "negativeLegalConclusion": false
+    }
+  ],
+  "summary": {
+    "municipalities": 10,
+    "structurallyComplete": 1,
+    "targetedReviewRequired": 7,
+    "officialRegulationCandidateFound": 0,
+    "manualLegalSourceReviewRequired": 2,
+    "networkRequests": 133,
+    "networkErrors": 1,
+    "maxConcurrency": 5
+  },
+  "safety": {
+    "legalApprovalAutomatic": false,
+    "automaticPublication": false,
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0,
+    "absenceOfEvidenceIsNotEvidenceOfAbsence": true
+  }
+}

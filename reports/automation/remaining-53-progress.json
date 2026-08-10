@@ -1,52 +1,12 @@
 {
-  "generatedAt": "2026-08-10T21:34:56.828Z",
+  "generatedAt": "2026-08-10T21:35:34.283Z",
   "originMainEvidence": {
     "autoVerificationFiles": 11
   },
-  "initialProcessed": 289,
-  "processedAfterBatch": 299,
-  "remainingCount": 43,
+  "initialProcessed": 299,
+  "processedAfterBatch": 309,
+  "remainingCount": 33,
   "remainingMunicipalities": [
-    {
-      "municipalityCode": "GM1859",
-      "municipalityName": "Berkelland"
-    },
-    {
-      "municipalityCode": "GM1721",
-      "municipalityName": "Bernheze"
-    },
-    {
-      "municipalityCode": "GM0753",
-      "municipalityName": "Best"
-    },
-    {
-      "municipalityCode": "GM0209",
-      "municipalityName": "Beuningen"
-    },
-    {
-      "municipalityCode": "GM0375",
-      "municipalityName": "Beverwijk"
-    },
-    {
-      "municipalityCode": "GM0310",
-      "municipalityName": "De Bilt"
-    },
-    {
-      "municipalityCode": "GM1728",
-      "municipalityName": "Bladel"
-    },
-    {
-      "municipalityCode": "GM0376",
-      "municipalityName": "Blaricum"
-    },
-    {
-      "municipalityCode": "GM0377",
-      "municipalityName": "Bloemendaal"
-    },
-    {
-      "municipalityCode": "GM1901",
-      "municipalityName": "Bodegraven-Reeuwijk"
-    },
     {
       "municipalityCode": "GM0755",
       "municipalityName": "Boekel"
@@ -180,15 +140,15 @@
       "municipalityName": "Druten"
     }
   ],
-  "lastBatch": "remaining-53-01",
+  "lastBatch": "remaining-53-02",
   "lastBatchSummary": {
     "municipalities": 10,
-    "structurallyComplete": 0,
-    "targetedReviewRequired": 9,
+    "structurallyComplete": 1,
+    "targetedReviewRequired": 7,
     "officialRegulationCandidateFound": 0,
-    "manualLegalSourceReviewRequired": 1,
-    "networkRequests": 119,
-    "networkErrors": 4,
+    "manualLegalSourceReviewRequired": 2,
+    "networkRequests": 133,
+    "networkErrors": 1,
     "maxConcurrency": 5
   },
   "safety": {

@@ -5,6 +5,7 @@ const read=async p=>JSON.parse(await fs.readFile(p,'utf8'));
 const write=async(p,v)=>fs.writeFile(p,JSON.stringify(v,null,2)+'\n');
 const batchSize=Math.max(1,Math.min(50,Number(process.env.BATCH_SIZE||25)));
 const batchLabel=process.env.BATCH_LABEL||`auto-${new Date().toISOString().slice(0,10)}`;
+const allowEmpty=String(process.env.ALLOW_EMPTY||'false').toLowerCase()==='true';
 const municipalities=(await read('data/municipalities-2026.json')).municipalities;
 const registry=await read('data/source-registry/bronregister-342.json');
 const status=await read('data/research-status.json');
@@ -12,10 +13,19 @@ const processed=new Set();
 for(const path of ['data/research-batches/batch-001.json','data/research-batches/batch-002.json','data/research-batches/batch-003.json','data/research-batches/batch-004-hybrid.json','data/research-batches/batch-005-registry-discovery.json']){
  try{const x=await read(path);for(const r of (x.municipalities||x.records||[]))processed.add(r.municipalityCode);}catch{}
 }
+try{
+ const names=await fs.readdir('data/research-batches/auto');
+ for(const name of names.filter(n=>n.endsWith('.json')&&!n.endsWith('-verification.json'))){
+  try{const x=await read(`data/research-batches/auto/${name}`);for(const r of (x.records||[]))processed.add(r.municipalityCode);}catch{}
+ }
+}catch{}
 const statusByCode=new Map((status.records||[]).map(r=>[r.municipalityCode,r]));
 const regByCode=new Map((registry.records||[]).map(r=>[r.municipalityCode,r]));
 const queue=municipalities.filter(m=>!processed.has(m.code) && (statusByCode.get(m.code)?.researchStatus||statusByCode.get(m.code)?.status||'not-started')==='not-started').slice(0,batchSize);
-if(!queue.length) throw new Error('No unprocessed not-started municipalities remain');
+if(!queue.length){
+ if(allowEmpty){console.log(JSON.stringify({done:true,remaining:0,processed:processed.size},null,2));process.exit(0)}
+ throw new Error('No unprocessed not-started municipalities remain');
+}
 const UA='WoningencheckResearchBot/2.0 (+https://woningencheck.nl)';
 const keywords=['huisvest','verhuur','kamerverhuur','opkoop','splits','onttrekk','leegstand','vakantieverhuur','short-stay','shortstay','woonruimte','woningdelen','woningvorming'];
 const noise=[/zaalverhuur/i,/onderwijshuisvesting/i,/grondwater/i,/weiland/i,/subsidie/i,/ouderenhuisvesting/i,/statushouder/i];

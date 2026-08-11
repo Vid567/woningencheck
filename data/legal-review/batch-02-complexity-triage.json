@@ -1,0 +1,23 @@
+{
+  "schemaVersion":"1.0.0",
+  "generatedAt":"2026-08-11",
+  "standard":"municipality-batch-complexity-standard.json",
+  "assessment":[
+    {"municipality":"Ede","classification":"heavy-batch","reason":"multiple room-rental/splitting routes and urban/rural criteria, but manageable as the batch's single heavy municipality"},
+    {"municipality":"Eemnes","classification":"normal-batch","reason":"initially simple generic Omgevingsloket route; targeted legal search remains"},
+    {"municipality":"Eemsdelta","classification":"normal-batch","reason":"generic application route currently dominates; targeted municipal housing framework remains to be established"},
+    {"municipality":"Eindhoven","classification":"standalone-mandatory","reason":"large city plus multiple distinct housing regimes, geographic op-slot areas, 2026 transition rules, room rental, splitting, purchase protection, separate products/forms and mapping dependencies"},
+    {"municipality":"Elburg","classification":"normal-batch","reason":"well-defined generic route and concept documents; targeted housing-specific legal search remains"},
+    {"municipality":"Emmen","classification":"heavy-candidate-but-batch-manageable","reason":"purchase protection is geographically limited and room-rental/splitting still require review; if second regime proves complex it will be split out automatically"},
+    {"municipality":"Enkhuizen","classification":"normal-batch","reason":"generic spatial route plus current splitting case evidence; no broad multi-product regime established yet"},
+    {"municipality":"Enschede","classification":"standalone-preferred","reason":"dedicated room-rental framework, legal/pending map, hospita route, enforcement categories and likely geography/policy interaction"},
+    {"municipality":"Epe","classification":"normal-batch","reason":"generic Omgevingsloket/concept route with current splitting evidence; substantive housing framework still targeted"},
+    {"municipality":"Ermelo","classification":"heavy-batch","reason":"detailed splitting policy, document/study package and parcel-splitting route; manageable if researched separately from other heavy cases within the cycle"}
+  ],
+  "executionDecision":{
+    "standaloneNow":["Eindhoven"],
+    "standaloneAfterBatchCore":["Enschede"],
+    "batchCore":["Ede","Eemnes","Eemsdelta","Elburg","Emmen","Enkhuizen","Epe","Ermelo"],
+    "rule":"If Emmen or Ermelo crosses score 8 during deepening, it is automatically removed from the batch and completed standalone without waiting for user approval."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "schemaVersion":"1.0.0",
+  "generatedAt":"2026-08-11",
+  "standard":"closure-gate-no-avoidable-open-ends.json",
+  "scope":"Mandatory final source sweep for residual non-address-specific questions that survived earlier closure rounds.",
+  "records":[
+    {
+      "municipality":"Brummen",
+      "previousRemaining":"definitive adoption/current status of Huisvestingsverordening 2026; specific ordinary room-rental/splitting framework",
+      "finalSweepResult":"The current municipal Huisvestingsverordening page still describes the 2026 instrument as a concept that was placed for consultation and states that council adoption was expected later. The current college-decision archive confirms the March 2026 decision concerned consultation of the concept, not final adoption. No positively adopted current Brummen Huisvestingsverordening 2026 was established in this final sweep.",
+      "finalClassification":"not-further-determinable-current-adoption-plus-address-dynamic",
+      "closedOrResolved":["concept status is confirmed; draft is excluded as current law"],
+      "allowedRemaining":["definitive adoption can only be encoded once an official adopted publication is positively found","ordinary room-rental/splitting remains governed through current address/activity Omgevingsplan route unless a later specific instrument is published"],
+      "officialSources":["https://www.brummen.nl/wonen-en-leefomgeving/wonen-bouwen-en-verbouwen/huisvestingsverordening","https://www.brummen.nl/bestuur-en-organisatie/college/collegebesluiten"]
+    },
+    {
+      "municipality":"Beesel",
+      "previousRemaining":"confirm current 2026 legal/procedural effect of older room-rental policy under Omgevingswet",
+      "finalSweepResult":"The legacy Beleidsregel kamerverhuur remains officially published, but uses Wabo/bestemmingsplan terminology. A separate 2026 woningsplitsing policy is explicitly grounded in the Omgevingswet and requires a BOPA. In addition, Huisvestingsverordening Beesel 2026 is council-adopted and effective from 1 July 2026. Therefore the older room-rental policy is retained only as substantive municipal policy evidence; the current procedural permission route must be determined through the Omgevingswet/Omgevingsplan rather than by copying its obsolete Wabo procedure wording.",
+      "finalClassification":"address-omgevingsplan-dynamic-only-for-room-rental",
+      "closedOrResolved":["currentness issue of procedural terminology","current 2026 splitting legal basis","current 2026 housing-regulation existence"],
+      "allowedRemaining":["address/activity-specific Omgevingsplan result and dynamically required application materials for ordinary room rental"],
+      "officialSources":["https://lokaleregelgeving.overheid.nl/CVDR672797","https://lokaleregelgeving.overheid.nl/CVDR759954","https://lokaleregelgeving.overheid.nl/CVDR762614"]
+    },
+    {
+      "municipality":"Delft",
+      "previousRemaining":"remaining article-5:2/form fields and annex-III details",
+      "finalSweepResult":"The current Huisvestingsverordening Delft 2023 is positively current from 1 July 2026. Chapter 5 contains the current splitsingsvergunning regime. Article 5:1 ties permit duty to Annex III categories; article 5:2 requires the designated application form and core applicant, representative, address, cadastral, building-year, nature and current-use information. Current 2026 Legesverordening provides the operative fee tiers. The remaining Annex III applicability is building/address category determination rather than unresolved generic law.",
+      "finalClassification":"address-building-category-only",
+      "closedOrResolved":["current governing regulation","article/form relationship","generic scope mechanism","current 2026 fee tiers"],
+      "allowedRemaining":["determine Annex III/building-category applicability for the concrete property","use current form for any additional case-specific fields/attachments"],
+      "officialSources":["https://lokaleregelgeving.overheid.nl/CVDR697876/4","https://lokaleregelgeving.overheid.nl/CVDR697876/1","https://lokaleregelgeving.overheid.nl/CVDR749246/2"]
+    },
+    {
+      "municipality":"Doesburg",
+      "previousRemaining":"current substantive ordinary room-rental rule, especially Binnenstad status; splitting permit evidence/fee",
+      "finalSweepResult":"The current Huisvestingsverordening Doesburg 2024 is in force through 2027, but the official text located in this sweep concerns housing allocation rather than establishing the missing ordinary room-rental conversion regime. The 2026 fee table reserves the Huisvestingswet fee lines for conversion, woningvorming and splitting rather than setting operational amounts, so it is not evidence of a current substantive permit regime. The current municipal house-number/Omgevingsplan route remains valid for actual splitting projects. After repeated official-source searches, no stronger current citywide ordinary-room-rental rule was positively established.",
+      "finalClassification":"not-further-determinable-substantive-room-rental-plus-address-omgevingsplan",
+      "closedOrResolved":["current Huisvestingsverordening 2024 currentness","2026 fee table is non-substantive/reserved for conversion/splitting","current practical splitting/Omgevingsplan route"],
+      "allowedRemaining":["ordinary room-rental substantive rule classified as not further determinable from current public official sources after repeated searches","concrete address must be checked in current Omgevingsplan for actual permission"],
+      "officialSources":["https://lokaleregelgeving.overheid.nl/CVDR706058","https://lokaleregelgeving.overheid.nl/CVDR752605/1","https://www.doesburg.nl/huisnummer-aanvragen-of-veranderen","https://www.doesburg.nl/omgevingsplan-aanpassen"]
+    }
+  ],
+  "summary":{"municipalitiesFinalSwept":4,"avoidableOpenEndsRemaining":0,"allResidualsNowAllowedClasses":true,"importantCorrections":["Brummen concept regulation is not treated as adopted law","Beesel legacy Wabo wording is not used as the 2026 procedural route","Delft generic splitsingsrecht is closed; only property-category applicability remains","Doesburg reserved fee lines are not treated as proof of a substantive housing permit regime"]}
+}

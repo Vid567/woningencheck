@@ -1,0 +1,64 @@
+{
+  "schemaVersion":"1.0.0",
+  "generatedAt":"2026-08-11",
+  "municipality":"Eindhoven",
+  "classification":"standalone",
+  "method":"Standalone current-source deep dive plus fresh retest. Current municipal product pages, current 2026 policy, current 2026 fee regulation and recent 2026 permit decisions were cross-checked.",
+  "statusAfterRetest":"substantially-complete-geography-address-and-calculated-fee-remain",
+  "legalFramework":{
+    "kamerbewoningAndSplitting":"Omgevingsplan prohibits changing a dwelling to kamerbewoning or multiple dwellings without omgevingsvergunning. Current assessment policy is Beleidsregels kamerbewoning en woningsplitsing Eindhoven 2026, effective 2026-01-01.",
+    "areaModel":["centrumgebied","restgebied","op-slotgebieden"],
+    "opSlotAreas":["Woensel-West","Limbeek-Noord","Limbeek-Zuid","Doornakkers-Oost","Doornakkers-West","Bennekel-Oost","Hemelrijken","Gildebuurt"],
+    "thirtyMetreRule":"Outside listed exceptions, permit is refused when the property is wholly/partly within or touched by a 30-metre circle measured from the centre point of an existing legal room-rental/split property or an earlier pending qualifying application. The rule does not apply in the centre, specified flats/complexes, legal room additions, transition cases and qualifying upper dwellings over non-residential functions outside op-slot areas; a liveability test still applies.",
+    "kamerQuality":"For room rental, rooms average at least 14 m2 without qualifying shared living/kitchen space, or average at least 10 m2 with shared living room >=7.5 m2 plus kitchen >=5 m2 or shared living-kitchen >=12.5 m2. Max one person per room.",
+    "otherAssessment":"Liveability, privacy, sound mitigation, parking and other housing-quality requirements apply according to the policy and case.",
+    "transition2026":"From 2026-01-01 through 2026-12-31, specified long-existing room-rental and split situations in original op-slot areas can seek legalization if evidence meets the policy dates/conditions. New room rental and new splitting remain prohibited in op-slot areas.",
+    "opkoopbescherming":"For qualifying existing dwellings bought after 2022-04-01 with WOZ below EUR 355000 in designated neighbourhoods, letting is generally prohibited without a permit unless an exception applies. Since 2024 new-build dwellings are no longer covered by opkoopbescherming."
+  },
+  "application":{
+    "kamerverhuur":{
+      "channel":"Omgevingsloket",
+      "permit":"omgevingsvergunning for use contrary to Omgevingsplan",
+      "requiredDocuments":["site drawing showing at least two streets, e.g. cadastral map","existing legal floor plans with room functions","new floor plans with room numbers/functions and shared facilities","drawing of on-site parking where present","result of municipal parking-standard calculation tool","authorization when filed by representative"],
+      "drawingQuality":"drawings scaled or dimensioned",
+      "decisionPeriod":"usually 8 weeks; one extension of 6 weeks possible; incomplete-application supplementation suspends the period",
+      "fees":"2026 fee is activity/calculation dependent; current Legesverordening 2026 must be applied rather than inventing one flat amount"
+    },
+    "woningsplitsing":{
+      "channel":"Omgevingsloket",
+      "permit":"omgevingsvergunning; one application can combine deviation/use and building activities",
+      "requiredDocuments":["site drawing showing at least two streets","existing legal floor plans with room functions","new floor plans identifying each new dwelling/studio and internal functions","drawing of on-site parking where present","result of parking-standard calculation tool","authorization when filed by representative"],
+      "drawingQuality":"drawings scaled or dimensioned",
+      "decisionPeriod":"usually 8 weeks; one extension of 6 weeks possible; supplementation suspends the period",
+      "fees":"2026 fee is calculated from the applicable Omgevingswet activities/current tariff table; building-cost reference table includes woningsplitsing at EUR 231 per m2 as a cost-reference category, not automatically the final permit fee"
+    },
+    "opkoopbescherming":{
+      "channel":"municipal digital Verhuurvergunning form",
+      "authentication":"DigiD or eHerkenning; separate no-login form available for applicants without either credential or abroad",
+      "fee2026":"EUR 281.00",
+      "exceptions":"close family; inseparable business-premises dwelling; after at least one year owner occupation, temporary non-tourist letting for max one year; possible hardship clause"
+    }
+  },
+  "freshRetestEvidence":{
+    "recent2026Decisions":"Multiple June 2026 municipal permit decisions for transition-regime room rental confirm actual use of the 2026 regime.",
+    "observedDecisionDocuments":["floor-plan/drawing files","parking calculations in several cases","liveability assessment/forms","permit decision","application summary"],
+    "interpretation":"These decisions corroborate the current product-page document requirements but are not used to invent a universal extra attachment list."
+  },
+  "officialSources":[
+    "https://www.eindhoven.nl/stad-en-wonen/wonen/huren-en-verhuren-in-eindhoven/kamerverhuur",
+    "https://www.eindhoven.nl/stad-en-wonen/wonen/woningsplitsing",
+    "https://www.eindhoven.nl/stad-en-wonen/wonen/huren-en-verhuren-in-eindhoven/kamerverhuur/tijdelijke-overgangsregeling-op",
+    "https://www.eindhoven.nl/stad-en-wonen/wonen/opkoopbescherming",
+    "https://lokaleregelgeving.overheid.nl/CVDR748084",
+    "https://lokaleregelgeving.overheid.nl/CVDR746561",
+    "https://publicaties.eindhoven.nl/dossier/EHV-ZP2026-004187",
+    "https://publicaties.eindhoven.nl/dossier/EHV-ZP2026-000809"
+  ],
+  "remaining":[
+    "address/BAG/geometry calculation for 30-metre circle, centre/rest/op-slot classification and nearby legal/pending room-rental/splitting properties",
+    "address-specific Omgevingsplan/building-activity check",
+    "calculate exact 2026 omgevingsvergunning fee for a concrete project because the tariff is activity/project composed",
+    "for opkoopbescherming: address/neighbourhood eligibility and exception-specific evidence from the live form"
+  ],
+  "closureAssessment":"Standalone generic legal, policy, application-document and procedure research is substantially complete. Remaining work is legitimately case/address/geometry dependent or requires project-specific fee calculation; these should not block batch-level legal research closure."
+}

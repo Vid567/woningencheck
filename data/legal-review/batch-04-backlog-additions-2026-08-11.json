@@ -1,0 +1,17 @@
+{
+ "schemaVersion":"1.0.0","generatedAt":"2026-08-11","batch":"04","coverageAfterBatch":72,"genericResearchCompleteAfterBatch":72,"avoidableOpenEndsAfterBatch":0,
+ "legitimateFollowUp":[
+  {"municipality":"Gouda","class":"address-plus-future-watch","remaining":"concrete address/current Omgevingsplan and activity-generated documents/exact fee; formal friendswoning-pilot adoption watch"},
+  {"municipality":"'s-Gravenhage","class":"address-capacity-dynamic","remaining":"live address neighbourhood eligibility, 10%/33.3% capacity, current Omgevingsplan and project-specific building evidence"},
+  {"municipality":"Groningen","class":"address-exception-dynamic","remaining":"address environment test/current plan; exceptional-room-rental evidence; project-specific omgevingsvergunning package"},
+  {"municipality":"Gulpen-Wittem","class":"address-current-plan-dynamic","remaining":"address/current-plan outcome; generated documents/studies and exact selected 2026 tariff"},
+  {"municipality":"Haaksbergen","class":"address-current-plan-dynamic","remaining":"ordinary room-rental/splitting outside narrow buitengebied-inwoning policy; project-specific studies/fee"},
+  {"municipality":"Haarlem","class":"address-neighbourhood-dynamic","remaining":"neighbourhood/area applicability and concrete building/omgevingsplan activity requirements"},
+  {"municipality":"Haarlemmermeer","class":"address-lib-dynamic","remaining":"address/LIB/current-plan result, generated checklist and exact activity fee; ordinary bedroom-rental branch where distinct"},
+  {"municipality":"Halderberge","class":"address-current-plan-dynamic","remaining":"address/current-plan outcome, activity-specific final documents/studies and exact tariff"},
+  {"municipality":"Hardenberg","class":"address-plus-future-watch","remaining":"address/current-plan and generated project package; formal adoption/publication of announced broader kamerverhuurbeleid"},
+  {"municipality":"Harderwijk","class":"address-current-plan-dynamic","remaining":"address/current-plan applicability, exact activity-combination fee and case-specific extra studies"}
+ ],
+ "quality":{"mandatoryRetest":"10/10 PASS","municipalityOwnership":"PASS","applicationDocuments":"10/10 researched/registered under public-or-dynamic standard","feesCurrentness":"PASS","futureSignalsSeparated":"PASS","crossMunicipalityContamination":"PASS"},
+ "next":"Merge these entries into authoritative research-backlog and synchronize Excel from 62 to 72 municipalities."
+}

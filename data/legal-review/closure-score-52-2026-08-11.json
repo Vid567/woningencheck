@@ -1,0 +1,17 @@
+{
+  "schemaVersion":"1.0.0",
+  "generatedAt":"2026-08-11",
+  "scope":"First 52 researched municipalities after batch-02 mandatory retest/final sweep.",
+  "municipalities":52,
+  "mandatoryRetestCompleted":52,
+  "closureFinalSweepCompleted":52,
+  "genericResearchComplete":52,
+  "avoidableGenericOpenEnds":0,
+  "genericResearchCoveragePercent":100.0,
+  "batch02":{"municipalities":10,"names":["Ede","Eemnes","Eemsdelta","Elburg","Emmen","Enkhuizen","Epe","Ermelo","Eindhoven","Enschede"],"finalSweep":"PASS","genericResearchComplete":10,"avoidableGenericOpenEnds":0,"applicationDocumentsRegistered":10},
+  "qualityNotes":["Eemnes superseded tariff not encoded without current successor tariff match","Eemsdelta superseded fee material excluded","Emmen unrelated/activity-specific tariffs not generalized","Enkhuizen future structured Omgevingsplan retained as watch","Eindhoven 2026 transition expiry retained for 2027 recheck","Enschede article-number/version drift retained as currentness QA rule"],
+  "caveat":"100% is generic research coverage under the defined closure standard. Concrete property outcomes can still depend on address, geometry, current Omgevingsplan components, live Omgevingsloket/form branches, case-specific studies and exact project fees.",
+  "excelSyncStatus":"BLOCKED_BY_ARTIFACT_TOOL_STARTUP_TIMEOUT_IN_CURRENT_RUNTIME",
+  "excelTarget":"woningencheck_gemeenten_v2_52van52_definitief.xlsx",
+  "next":"Retry Excel synchronization when the spreadsheet runtime is available; JSON/backlog consolidation itself is complete and authoritative."
+}

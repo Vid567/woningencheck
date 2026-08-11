@@ -1,0 +1,52 @@
+{
+  "schemaVersion":"1.0.0",
+  "generatedAt":"2026-08-11",
+  "batch":"04",
+  "municipality":"Hardenberg",
+  "status":"generic-research-complete-with-current-policy-development-watch",
+  "findings":{
+    "currentPlan":"Omgevingsplan gemeente Hardenberg CVDR696200 remains the controlling address-specific spatial source.",
+    "woningsplitsingPolicy":"Hardenberg still publishes the Kaderstellende beleidsnotitie woningsplitsing bij inwoning, adopted 20-02-2018 and effective 01-03-2018. It is a narrow policy for requests involving pre-existing inwoning situations that conflict with the applicable plan; it is not generalized to every dwelling or every splitting project.",
+    "currentPractice":"Official 2025 college decisions include an omgevingsvergunning granted for splitting the dwelling at Nieuwe Burgerkampweg 3/3b, confirming that woningsplitsing is processed through the omgevingsvergunning/spatial route where applicable.",
+    "roomRentalCurrentStatus":"The current Beleidskader Huisvesting Arbeidsmigranten 2025 is effective from 16-01-2026. It explicitly states that under the current policy verkameren is not possible and that Hardenberg intends to prepare broader kamerverhuurbeleid in 2026. The future kamerverhuurbeleid is intended to cover more groups than labour migrants and may regulate location criteria, household limits and parking. No later formally adopted current kamerverhuurbeleid was positively located in the targeted official-source sweep as of 2026-08-11.",
+    "labourMigrants":"The labour-migrant framework allows specified accommodation types under conditions, including in the built-up area via kamerverhuur and in the countryside in existing buildings, but this target-group framework is kept separate from ordinary generic room-rental permission. Permanent permits in that framework concern kamerverhuur; temporary permits can be issued via omgevingsvergunning, initially 10 years with possible 5-year extension, according to the framework.",
+    "applicationRoute":"Vergunningcheck, formal omgevingsvergunning, notification and concept request are all handled through Omgevingsloket. Hardenberg advises contacting/consulting the municipality first when the applicant wants to know feasibility, required permissions or whether an Omgevingsplan change is needed.",
+    "addressCheck":"Regels op de kaart in Omgevingsloket determines which rules apply to the concrete address.",
+    "participation":"The municipality explicitly tells applicants to involve neighbours and businesses early; participation is mandatory for some plans.",
+    "documents":"No reliable fixed municipality-published housing-specific attachment matrix for ordinary splitting/room rental was positively located. The exact attachment set is therefore activity/address-generated. Existing splitting policy and concrete plan type may require evidence that its narrow preconditions are met.",
+    "studies":"Additional spatial/building/environmental evidence is project-specific and follows from the selected activity, current plan and feasibility review; no generic fixed study list is invented.",
+    "fees":"Legesverordening Hardenberg 2026 is current from 25-12-2025. Exact omgevingsvergunning fees depend on the selected activity. As a separate verified example only, a 2026 Leegstandswet temporary-rental permit costs EUR 81.30; this amount is not reused for room rental or woningsplitsing.",
+    "temporaryRental":"Hardenberg separately offers a Leegstandswet temporary-rental permit for qualifying vacant homes for sale. This route is kept distinct from room rental and structural splitting."
+  },
+  "quality":{
+    "avoidableGenericOpenEnds":0,
+    "crossMunicipalityContamination":0,
+    "staleFeePrevention":true,
+    "scopeControls":[
+      "2018 inwoning splitting policy is not generalized to ordinary splitting",
+      "labour-migrant accommodation framework is not generalized to ordinary room rental",
+      "EUR 81.30 temporary-rental fee is not reused for other activities",
+      "planned 2026 kamerverhuurbeleid is not presented as adopted current law"
+    ]
+  },
+  "futureWatch":{
+    "item":"Kamerverhuurbeleid Hardenberg",
+    "basis":"Current labour-migrant framework explicitly schedules preparation in 2026 as a separate project linked to the Volkshuisvestingsprogramma.",
+    "status":"No later formally adopted policy positively found by 2026-08-11; recheck upon publication/adoption."
+  },
+  "remainingAllowedOnly":[
+    "concrete-address/current Omgevingsplan outcome",
+    "activity-generated application documents/drawings/studies and exact 2026 fee",
+    "future/currentness watch for adoption of the announced kamerverhuurbeleid"
+  ],
+  "sources":[
+    "https://www.hardenberg.nl/bouwen-en-verbouwen/omgevingsvergunning",
+    "https://www.hardenberg.nl/bouwen-en-verbouwen/omgevingsvergunning/wat-is-een-omgevingsvergunning",
+    "https://www.hardenberg.nl/beleidsregels",
+    "https://lokaleregelgeving.overheid.nl/CVDR755488/1",
+    "https://www.hardenberg.nl/college/besluiten-2025",
+    "https://lokaleregelgeving.overheid.nl/ZoekResultaat?count=200&gemeenten=Hardenberg&page=1",
+    "https://www.hardenberg.nl/bouwen-en-verbouwen/regelingen/tijdelijke-verhuur-aanvraag-vergunning"
+  ],
+  "finalResult":"PASS - generic research complete. Current splitting route and narrow inwoning policy are established; broader kamerverhuurbeleid remains an explicit future/currentness watch rather than an open generic research gap."
+}

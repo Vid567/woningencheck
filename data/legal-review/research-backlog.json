@@ -1,14 +1,10 @@
 {
-  "schemaVersion":"3.0.0",
+  "schemaVersion":"3.1.0",
   "generatedAt":"2026-08-11",
   "researchStandard":"research-standard-v2.json + closure-gate-no-avoidable-open-ends.json v1.1",
-  "purpose":"Authoritative consolidated backlog for the first 42 municipalities after retest, closure rounds, direct Omgevingsplan sweeps and final publication/form checks. Generic research-complete municipalities are not kept as vague open research defects; only legitimate property/dynamic/future-law follow-up remains.",
-  "qualityDefinitions":{
-    "genericResearchComplete":"Current generic legal/policy/application framework has been researched through the mandatory final sweep; any remaining item is address/location, dynamic form/Omgevingsloket, case-specific or an explicit future-law watch.",
-    "avoidableOpenEnd":"A non-address-specific legal/application question that could still reasonably be answered by another official-source search.",
-    "target":"zero avoidable open ends before batch closure"
-  },
-  "researchCoverage":{"municipalities":42,"mandatoryRetestCompleted":42,"closureAndFinalSweepApplied":42,"genericResearchComplete":42,"avoidableOpenEnds":0,"genericResearchCoveragePercent":100.0,"importantCaveat":"100% refers to generic research coverage under the defined standard, not to a claim that every possible property can be decided without an address or live Omgevingsloket/form interaction."},
+  "purpose":"Authoritative consolidated backlog for the first 52 municipalities after mandatory retest/final sweep. Only legitimate address/location, dynamic application, case-specific fee/form, or explicit future-law/currentness follow-up remains.",
+  "qualityDefinitions":{"genericResearchComplete":"Current generic legal/policy/application framework has been researched through the mandatory final sweep.","avoidableOpenEnd":"A non-address-specific legal/application question that could still reasonably be answered by another official-source search.","target":"zero avoidable open ends before batch closure"},
+  "researchCoverage":{"municipalities":52,"mandatoryRetestCompleted":52,"closureAndFinalSweepApplied":52,"genericResearchComplete":52,"avoidableOpenEnds":0,"genericResearchCoveragePercent":100.0,"importantCaveat":"100% refers to generic research coverage under the defined standard, not to a claim that every possible property can be decided without an address or live Omgevingsloket/form interaction."},
   "legitimateFollowUp":[
     {"municipality":"Alphen-Chaam","class":"address-dynamic","remaining":"representative address/activity Omgevingsplan check and generated attachments/fees"},
     {"municipality":"Altena","class":"address-dynamic","remaining":"ordinary room-rental/splitting address validation outside targeted worker policy"},
@@ -51,9 +47,19 @@
     {"municipality":"Drimmelen","class":"address-current-plan","remaining":"address/current-plan analysis and dynamic application output"},
     {"municipality":"Dronten","class":"address-current-plan","remaining":"representative address/activity current-plan check"},
     {"municipality":"Druten","class":"address-policy","remaining":"representative policy/address applicability"},
-    {"municipality":"Duiven","class":"address-dynamic","remaining":"representative address applicability and project-specific package under current policy"}
+    {"municipality":"Duiven","class":"address-dynamic","remaining":"representative address applicability and project-specific package under current policy"},
+    {"municipality":"Ede","class":"address-dynamic","remaining":"address/area-specific Omgevingsplan outcome; dynamic attachment set and exact fee for the concrete activity"},
+    {"municipality":"Eemnes","class":"address-plus-fee-currentness","remaining":"current exact tariff line once positively located; address-specific applicability and dynamic extras"},
+    {"municipality":"Eemsdelta","class":"address-bopa-dynamic","remaining":"concrete-address BOPA/Omgevingsplan outcome; current exact fee/document branch"},
+    {"municipality":"Elburg","class":"address-dynamic","remaining":"concrete-address plan applicability; case-specific additional studies"},
+    {"municipality":"Emmen","class":"address-current-plan","remaining":"address-specific room-rental/splitting plan outcome; case-specific documents/studies/fee"},
+    {"municipality":"Enkhuizen","class":"address-plus-future-watch","remaining":"address/integrated-plan outcome; dynamic documents/fee; compare new structured Omgevingsplan when adopted"},
+    {"municipality":"Epe","class":"address-current-plan","remaining":"address/current-plan room-rental applicability; dynamic documents/fee"},
+    {"municipality":"Ermelo","class":"address-dynamic","remaining":"address/current-plan applicability; exact project-specific permit fee and any additional case-specific studies"},
+    {"municipality":"Eindhoven","class":"address-geometry-plus-future-watch","remaining":"address/area/30m geometry outcome; exact activity tariff; recheck 2026 transition expiry from 2027"},
+    {"municipality":"Enschede","class":"address-current-plan-plus-policy-watch","remaining":"address/working-area/legal-existing-use determination; exact activity tariff and case-specific studies; successor-policy/current-article-number watch"}
   ],
-  "futureLawSignals":{"separateRegister":"concept-draft-watch-register.json","rule":"Concept/draft/expired-policy successor signals remain research assets but do not reduce generic current-law coverage when current law/status is established."},
-  "supersededBacklogStatement":"The former statement that 42/42 municipalities had unresolved generic research is withdrawn. All 42 now satisfy the generic research closure gate; their remaining entries are legitimate runtime/property/future-law follow-up classes.",
-  "next":"Synchronize the 42-municipality Excel/export layer with this consolidated status, run consistency QA, then apply the proven research pipeline to the next municipality batch."
+  "futureLawSignals":{"separateRegister":"concept-draft-watch-register.json","batch02Signals":["Enkhuizen new structured Omgevingsplan expected around end 2026","Eindhoven 2026 transition application window requires recheck from 2027","Ede structured Omgevingsplan conversion continues from end 2026","Enschede policy/article-number currentness watch"],"rule":"Future-law/currentness signals remain research assets but do not reduce generic current-law coverage when current law/status is established."},
+  "supersededBacklogStatement":"The former 42-municipality scope is superseded. All first 52 municipalities now satisfy the generic research closure gate; remaining entries are legitimate runtime/property/future-law follow-up classes.",
+  "next":"Synchronize Excel/export from 42 to 52 municipalities, run JSON/backlog/Excel consistency QA, then start batch 03."
 }

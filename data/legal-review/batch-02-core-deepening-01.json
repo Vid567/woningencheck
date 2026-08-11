@@ -1,0 +1,41 @@
+{
+  "schemaVersion":"1.0.0",
+  "generatedAt":"2026-08-11",
+  "scope":"Core-batch deepening after complexity triage. First municipality completed: Ede. Eindhoven and Enschede remain standalone tracks.",
+  "records":[
+    {
+      "municipality":"Ede",
+      "classification":"heavy-batch",
+      "status":"substantially-complete-address-dynamic-items-remain",
+      "legalFramework":[
+        "Hospitaverhuur: owner may rent at most two rooms, max one person per room; permit-free where the Omgevingsplan allows residential use.",
+        "Kamerverhuur: two or more single persons with separate rooms/shared facilities; permit-free in areas with functions Gemengd, Gemengd-1 through 14 or Centrum; elsewhere an omgevingsvergunning may be requested.",
+        "Soft dwelling sharing by multiple households is permit-free in specified mixed/centre areas if the Omgevingsplan allows it; elsewhere a permit may be possible under Programma Beter benutten bestaande woningvoorraad 2025.",
+        "Urban dwelling splitting generally requires an omgevingsvergunning and has explicit minimum size, access, privacy, environment, parking/bicycle and Bbl conditions.",
+        "Rural dwelling splitting requires an omgevingsvergunning and includes no enlargement, 300 m2 demolition-credit per extra dwelling, max four dwellings and environmental/neighbour protections.",
+        "Kavel splitting always requires an omgevingsvergunning; urban rules include spatial fit, garden, building line, environment, parking and possible ecology study."
+      ],
+      "application":{
+        "finalChannel":"Omgevingsloket",
+        "authentication":"DigiD for individuals; eHerkenning for businesses/institutions",
+        "preApplication":"concept request for dwelling splitting/sharing/temporary dwelling; global assessment for parcel splitting",
+        "documentsMode":"dynamic-omgevingsloket-plus-known-substantive-requirements",
+        "confirmedDocumentsRule":"The Omgevingsloket application itself indicates which attachments are required; no static list is invented.",
+        "knownPotentialStudiesAndDesignInputs":["parking and bicycle parking substantiation","environmental/noise/safety substantiation where applicable","Bbl building-safety items including escape routes, fire/smoke alarms, sound insulation, ventilation and daylight","ecological study may be required for parcel splitting","rural splitting may require demolition-credit evidence"]
+      },
+      "officialSources":[
+        "https://www.ede.nl/in-de-gemeente-ede/meer-woonruimte-zonder-nieuwbouw/een-woning-delen",
+        "https://www.ede.nl/in-de-gemeente-ede/meer-woonruimte-zonder-nieuwbouw/een-woning-splitsen",
+        "https://www.ede.nl/in-de-gemeente-ede/meer-woonruimte-zonder-nieuwbouw/een-kavel-splitsen-om-er-een-extra-woning-op-te-bouwen",
+        "https://www.ede.nl/aanvragen-en-regelen/bouw-en-verbouwvergunning"
+      ],
+      "remaining":[
+        "representative address Omgevingsplan validation to determine the applicable urban/rural/function regime",
+        "capture live Omgevingsloket-generated attachments for representative cases",
+        "current activity-specific 2026 permit fees where reliable exact amounts can be established"
+      ],
+      "retestAssessment":"Fresh retest materially strengthens the initial pass: generic room-rental/sharing/splitting rules and the application/authentication route are now sufficiently explicit. Remaining items are genuine address/dynamic/fee outputs rather than broad legal research."
+    }
+  ],
+  "summary":{"municipalitiesDeepened":1,"genericResearchClosable":1,"nextCoreMunicipalities":["Eemnes","Eemsdelta","Elburg","Emmen","Enkhuizen","Epe","Ermelo"],"standaloneTracks":["Eindhoven","Enschede"]}
+}

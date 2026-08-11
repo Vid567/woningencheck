@@ -1,0 +1,48 @@
+{
+  "schemaVersion":"1.0.0",
+  "generatedAt":"2026-08-11",
+  "reviewType":"product-qa-closure",
+  "records":[
+    {
+      "municipalityName":"Breda",
+      "municipalityCode":"GM0758",
+      "status":"research-complete-product-qa-passed",
+      "currentPrimarySource":"https://lokaleregelgeving.overheid.nl/CVDR695686",
+      "currentStatusVerified":"geldend from 2023-05-10 through present on 2026-08-11",
+      "confirmedRules":{
+        "splittingIntoApartmentRights":{"permitRequired":true,"scope":"specified buildings containing rental/former rental housing; includes private/institutional/non-Breda-corporation housing up to 200 m2 bvo and/or housing below the applicable rent-benefit threshold as defined in article 2","refusalFactors":["housing-stock interest","ordered residential/living environment","maintenance/condition","continued rental purpose where applicable"],"permitExpiryUseRule":"permit can be withdrawn if deed/member rights are not registered/granted within one year after permit becomes irrevocable"},
+        "purchaseProtection":{"municipalityWide":true,"protectedPeriodYears":4,"wozCeiling":"NHG threshold applicable to the WOZ value","acquisitionConditions":["deed registration after entry into force of article","dwelling free of rent/use or rented less than six months or already rented under purchase-protection permit","not owned by municipality or housing corporation"],"mandatoryAndDiscretionaryPermitGrounds":"articles 9 and 10 plus statutory grounds; includes specified family/temporary-use statutory grounds and municipal care/special-case grounds","bibobRelevant":true},
+        "enforcement":{"administrativeFineAvailable":true,"hardshipClause":true}
+      },
+      "operationalEvidence":"2026 leges regulation still charges for purchase-protection permit applications, confirming the permit product is operational.",
+      "productEncodingGuardrails":["Do not generalize the apartment-right splitting permit to physical dwelling formation/room rental without a separate current source.","Use the current annual NHG threshold at decision time; do not hard-code an old euro amount.","Address, ownership/use history and WOZ value remain required inputs for purchase-protection outcome."],
+      "remainingResearch":[],
+      "researchComplete":true,
+      "productQaPassed":true,
+      "legalProductSignoffRequired":false,
+      "humanLegalApprovalForDefinitivePublicAdvice":true
+    },
+    {
+      "municipalityName":"Bodegraven-Reeuwijk",
+      "municipalityCode":"GM1901",
+      "status":"research-complete-product-qa-passed",
+      "currentPrimarySource":"https://lokaleregelgeving.overheid.nl/CVDR697706",
+      "currentStatusVerified":"current version reviewed on 2026-08-11",
+      "confirmedRules":{
+        "housingStockChanges":{"municipalityWide":true,"permitRequiredFor":["withdrawal from residential use","merger","conversion from self-contained to non-self-contained housing","dwelling formation into two or more dwellings"],"keyRefusalFactors":["housing-stock interest","ordered residential/living environment","permit conditions","spatial-plan/permit conflict"],"corporationSpecificException":"temporary conversion by housing corporations at explicit municipal request for specific target groups is exempt as provided by the regulation"},
+        "splittingIntoApartmentRights":{"municipalityWide":true,"permitRequired":true,"newBuildingException":"no permit under article 30 when the building was delivered less than five years before 1 January of the year of splitting","keyRefusalFactors":["housing-stock interest","ordered residential/living environment","permit conditions","spatial-plan/permit conflict"]},
+        "touristRental":{"positiveMunicipalRegimeInThisOrdinance":false,"reason":"articles 35-37 are reserved"},
+        "purchaseProtection":{"municipalityWide":true,"protectedPeriodYears":4,"wozCeiling":"70% of the NHG cost limit","acquisitionConditions":["deed registration after entry into force of article","dwelling free of rent/use or rented less than six months or already rented under purchase-protection permit","not owned by municipality or housing corporation"],"permitGrounds":"statutory mandatory grounds plus municipal purchase-for-government/care and special-case discretionary grounds","bibobRelevant":true},
+        "enforcement":{"administrativeFineAvailable":true,"hardshipClause":true}
+      },
+      "productEncodingGuardrails":["Calculate 70% of the current NHG cost limit at decision time rather than storing an old fixed euro threshold.","Tourist-rental articles are reserved: do not infer that tourist rental is permitted, prohibited or permit-free from this ordinance alone.","Housing-stock permits do not replace address-level Omgevingsplan/spatial compatibility checks."],
+      "remainingResearch":[],
+      "researchComplete":true,
+      "productQaPassed":true,
+      "legalProductSignoffRequired":false,
+      "humanLegalApprovalForDefinitivePublicAdvice":true
+    }
+  ],
+  "summary":{"municipalitiesClosedFromResearchBacklog":2,"productQaPassed":2,"remainingResearchQuestions":0},
+  "safety":{"researchOnlyUntilProductIntegrationApproved":true,"automaticDefinitiveLegalAdvice":false,"dynamicThresholdsMustUseCurrentOfficialValues":true}
+}

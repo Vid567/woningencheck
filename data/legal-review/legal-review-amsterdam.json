@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-11",
+  "municipalityCode": "GM0363",
+  "municipalityName": "Amsterdam",
+  "province": "Noord-Holland",
+  "reviewType": "deep-legal-research",
+  "referenceDate": "2026-08-11",
+  "primaryLegalFramework": {
+    "title": "Huisvestingsverordening Amsterdam 2024",
+    "status": "current",
+    "validFrom": "2026-01-01",
+    "officialSource": "https://lokaleregelgeving.overheid.nl/CVDR706038"
+  },
+  "topics": {
+    "generalRental": {
+      "status": "confirmed",
+      "findings": [
+        "Amsterdam applies additional municipal rules alongside national rental law.",
+        "Social and regulated mid-market rental housing is subject to additional allocation/occupancy requirements, including a housing permit for the tenant where applicable.",
+        "Rental is not permitted where the dwelling is still subject to purchase protection unless an applicable permit or exemption exists."
+      ],
+      "sources": ["https://www.amsterdam.nl/wonen-bouwen-verbouwen/huisvestingsvergunning/regels-verhuur-woning/"]
+    },
+    "purchaseProtection": {
+      "status": "confirmed-complex",
+      "findings": [
+        "Purchase protection applies through the Huisvestingsverordening and generally prevents qualifying newly purchased dwellings from being rented for four years without a permit or exemption.",
+        "The current 2026 regulation contains multiple value categories and conditions; the decisive value and scope must be determined from the current regulation and acquisition circumstances rather than an older public-information threshold.",
+        "The protection is linked to acquisition after the introduction of the regime and contains conditions concerning prior rental/use.",
+        "Permit grounds include rental to first- or second-degree relatives and temporary rental for at most one year after the owner has occupied the dwelling for at least one year; other statutory/regulatory grounds and exemptions also exist.",
+        "Application evidence includes the deed of transfer, applicable WOZ information and situation-dependent supporting documents."
+      ],
+      "sources": [
+        "https://lokaleregelgeving.overheid.nl/CVDR706038",
+        "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/vergunning-ontheffing-opkoopbescherming/"
+      ],
+      "addressDecisionRequired": true
+    },
+    "roomRental": {
+      "status": "confirmed-complex",
+      "findings": [
+        "A municipal room-rental permit is required where the Amsterdam room-rental regime applies.",
+        "General conditions include a communal room of at least 11 m2 and at least 3 metres wide, occupancy limits per room, individual rental contracts and fire-safety compliance.",
+        "For four or more rooms additional acoustic requirements apply; for five or more rooms a fire-safety notification through the Omgevingsloket is required.",
+        "A dwelling still subject to purchase protection cannot use the ordinary room-rental route unless the purchase-protection requirements are separately satisfied.",
+        "Where the applicable spatial plan permits only one household, an additional environmental/planning permit may be required.",
+        "The number of permits possible in a building is assessment-dependent and therefore cannot be determined from a simple citywide yes/no rule."
+      ],
+      "sources": ["https://www.amsterdam.nl/wonen-bouwen-verbouwen/huisvestingsvergunning/vergunning-kamerverhuur-aanvragen/"],
+      "addressDecisionRequired": true
+    },
+    "touristRental": {
+      "status": "confirmed-area-dependent",
+      "findings": [
+        "Holiday rental requires registration/permit and advance notification under Amsterdam's tourist-rental regime.",
+        "The general annual maximum is 30 nights and no more than four guests at a time.",
+        "From 1 April 2026 the annual maximum is 15 nights in specified neighbourhoods in Centrum and De Pijp: Haarlemmerbuurt, Jordaan, Grachtengordel-West, Grachtengordel-Zuid, De Weteringschans, Burgwallen-Nieuwe Zijde, Nieuwmarkt/Lastage and Oude Pijp.",
+        "The 15-night rule is explicitly geographic, so address/neighbourhood resolution is mandatory.",
+        "Bed & breakfast, holiday rental and short stay are separate legal categories and must not be merged into one rule.",
+        "Short stay is separately permit-regulated under the Huisvestingsverordening."
+      ],
+      "sources": [
+        "https://lokaleregelgeving.overheid.nl/CVDR706038",
+        "https://www.amsterdam.nl/wonen-bouwen-verbouwen/huisvestingsvergunning/vergunning-vakantieverhuur-aanvragen/regels-vakantieverhuur-deel-centrum-en/"
+      ],
+      "addressDecisionRequired": true,
+      "geographicOverrides": [
+        {"areas":["Haarlemmerbuurt","Jordaan","Grachtengordel-West","Grachtengordel-Zuid","De Weteringschans","Burgwallen-Nieuwe Zijde","Nieuwmarkt/Lastage","Oude Pijp"],"effectiveFrom":"2026-04-01","maxNightsPerCalendarYear":15},
+        {"areas":["other Amsterdam areas"],"maxNightsPerCalendarYear":30}
+      ]
+    },
+    "shortStay": {
+      "status": "confirmed",
+      "findings": [
+        "The Huisvestingsverordening treats short stay as a distinct form of tourist rental and prohibits use of a dwelling for short stay without a municipal permit.",
+        "The housing-regulation definition is its own legal framework and should not be assumed identical to spatial-plan definitions."
+      ],
+      "sources": ["https://lokaleregelgeving.overheid.nl/CVDR706038"]
+    },
+    "newBuildOwnerOccupancy": {
+      "status": "confirmed-separate-framework",
+      "findings": [
+        "Amsterdam also uses a contractual/policy self-occupancy rental prohibition for qualifying new-build owner-occupied homes; this is legally distinct from statutory purchase protection for existing housing.",
+        "Published exceptions include first-degree family rental, temporary foreign stay, rental within the regulated mid-market price limit and exceptional hardship cases."
+      ],
+      "sources": ["https://www.amsterdam.nl/leefomgeving/vastgoedprofessionals/woningbouw-transformatie/verhuurverbod-zelfbewoningsplicht/"]
+    }
+  },
+  "decisionModelRequirements": [
+    "Resolve exact address/BAG location before evaluating area-dependent rules.",
+    "Determine acquisition date, prior rental/use and applicable WOZ value before evaluating purchase protection.",
+    "Determine rental type: whole dwelling, room rental, holiday rental, B&B, short stay or temporary rental.",
+    "Check current Huisvestingsverordening version and current Nadere regels at query time.",
+    "Check applicable omgevingsplan where room rental, dwelling formation/splitting or one-household restrictions may apply.",
+    "Apply neighbourhood override for the 15-night tourist-rental areas from 1 April 2026.",
+    "Keep new-build contractual self-occupancy restrictions separate from statutory purchase protection."
+  ],
+  "legalResearchStatus": "current-official-framework-found-address-level-decision-tree-required",
+  "humanReviewRequired": true,
+  "legalApproval": false,
+  "publicationAllowed": false,
+  "negativeConclusionFromMissingSource": false,
+  "safety": {
+    "researchOnly": true,
+    "legalApprovalAutomatic": false,
+    "automaticPublication": false,
+    "absenceOfEvidenceIsNotEvidenceOfAbsence": true
+  }
+}

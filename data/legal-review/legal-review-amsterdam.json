@@ -1,253 +1,30 @@
 {
-  "schemaVersion": "1.1.0",
-  "generatedAt": "2026-08-11",
-  "municipalityCode": "GM0363",
-  "municipalityName": "Amsterdam",
-  "province": "Noord-Holland",
-  "reviewType": "deep-legal-research-article-level",
-  "referenceDate": "2026-08-11",
-  "primaryLegalFramework": {
-    "title": "Huisvestingsverordening Amsterdam 2024",
-    "status": "current",
-    "validFrom": "2026-01-01",
-    "officialSource": "https://lokaleregelgeving.overheid.nl/CVDR706038"
+  "schemaVersion":"1.2.0",
+  "generatedAt":"2026-08-11",
+  "municipalityCode":"GM0363",
+  "municipalityName":"Amsterdam",
+  "province":"Noord-Holland",
+  "reviewType":"deep-legal-research-article-and-further-rules",
+  "referenceDate":"2026-08-11",
+  "primaryLegalFramework":{"title":"Huisvestingsverordening Amsterdam 2024","status":"current","validFrom":"2026-01-01","officialSource":"https://lokaleregelgeving.overheid.nl/CVDR706038"},
+  "furtherRules":{"title":"Nadere regels Huisvestingsverordening Amsterdam 2024","status":"current","validFrom":"2026-01-01","officialSource":"https://lokaleregelgeving.overheid.nl/CVDR702549","version":"CVDR702549/4","verifiedCurrent":true},
+  "topics":{
+    "purchaseProtection":{"status":"confirmed-article-level","effectiveThresholdCeiling2026":637000,"acquisitionAfter":"2022-04-01","protectedPeriodYears":4,"requiresAcquisitionPriorUseAndWozDecision":true},
+    "roomRentalConversion":{"status":"confirmed-further-rules-integrated","permitTrigger":"conversion/room-rental rules under HVV; exact household situation must be classified","technicalRules":{"acousticAirborneMinimumDb":47,"weightedImpactMaximumDb":59},"quotaModel":{"level":"wijk","currentTableSource":"CVDR702549/4 chapter 4 article 5","citywideRoomRentalQuotaTotal":13880,"addressMustResolveToWijk":true,"permitDependsOnWijkAndBuildingQuota":true,"examples":{"Haarlemmerbuurt":166,"Jordaan":274,"Oude Pijp":208,"IJburg-Oost":0,"Coenhaven/Minervahaven":0,"Amstel III/Bullewijk":1}},"procedure":{"historicalLotteryRegistrationClosed":true,"currentPostLotteryRoute":"applicant may report to municipality; eligibility requires pand- and wijkquotum not full and no applicable waiting list","municipalResponseTargetWorkingDays":10,"applicationWindowWeeks":4},"addressDecisionRequired":true},
+    "bedAndBreakfast":{"status":"confirmed-further-rules-integrated","maxShareDwellingPercent":40,"maxAreaM2":61,"quotaModel":{"level":"wijk","currentTableSource":"CVDR702549/4 chapter 4 article 5","citywideBnbQuotaTotal":2476,"addressMustResolveToWijk":true},"addressDecisionRequired":true},
+    "dwellingFormation":{"status":"confirmed-further-rules-integrated","minimumSourceDwellingAreaM2":{"nonGroundBound":100,"groundBound":200},"minimumAverageNewDwellingAreaM2":{"fromNonGroundBound":40,"fromGroundBound":100},"absoluteMinimumNewDwellingAreaM2":18,"smallDwellingRestriction":{"rule":"formation of one or more dwellings below 40 m2 prohibited in designated districts","districts2026":["Oost","Centrum","Zuidoost"],"basis":"latest figures stated in current Nadere regels (2023 data)"},"technicalRules":{"acousticAirborneMinimumDb":47,"weightedImpactMaximumDb":59,"formedDwellingMustHaveOwnMeterCupboard":true,"leadPipesMustBeTakenOutOfUse":true,"pre1994AsbestosInventory":true,"electricityInspection":"NEN 1010:2015+C2:2016","gasInspection":"NEN 1078 unless fully gas-free"},"addressDecisionRequired":true},
+    "splitIntoApartmentRights":{"status":"confirmed-further-rules-integrated","workingsgebied":"designated pre-1940 buildings in Annex 2 of HVV, subject to exclusions","furtherRules":{"quotaCanBeAllocatedByAreaViaDistributionDecision":true,"categories":["complexgewijze aanpak","samenvoegen with at least one dwelling enlarged by at least 30 m2","splitsen gewenst","restcategorie"],"tenantProtectionAssessmentIncludesGedragscode":true,"buildingQualityChecks":["asbestos","NEN 1010 electricity","NEN 1078 gas","foundation quality class II / no provisions expected within 25 years","lead pipes out of use","rodent protection","fire structural safety","acoustic performance"]},"addressDecisionRequired":true,"buildingYearDecisionRequired":true},
+    "touristRental":{"status":"confirmed-area-dependent","defaultMaxNightsPerYear":30,"maxGuests":4,"reducedAreaRule":{"effectiveFrom":"2026-04-01","maxNightsPerYear":15,"areas":["Haarlemmerbuurt","Jordaan","Grachtengordel-West","Grachtengordel-Zuid","De Weteringschans","Burgwallen-Nieuwe Zijde","Nieuwmarkt/Lastage","Oude Pijp"]},"addressDecisionRequired":true},
+    "withdrawalMergerShortStaySecondHomeTemporaryRental":{"status":"confirmed-see-HVV-and-municipal-products","addressAndUseClassificationRequired":true}
   },
-  "topics": {
-    "housingPermit": {
-      "status": "confirmed",
-      "findings": [
-        "A huisvestingsvergunning applies to designated regulated rental categories; the permit is linked to both address and occupants.",
-        "Current municipal information lists income criteria for private social and regulated mid-market rental housing and requires supporting income, identity and dwelling-rating documents."
-      ],
-      "sources": [
-        "https://lokaleregelgeving.overheid.nl/CVDR706038",
-        "https://www.amsterdam.nl/wonen-bouwen-verbouwen/woonruimte-vinden/huisvestingsvergunning-aanvragen/"
-      ]
-    },
-    "purchaseProtection": {
-      "status": "confirmed-article-level",
-      "workingsgebied2026": {
-        "wozBands": [
-          {"min":0,"max":413000},
-          {"min":413000,"max":510000},
-          {"min":510000,"max":637000}
-        ],
-        "effectiveThresholdCeiling": 637000,
-        "acquisitionAfter": "2022-04-01",
-        "priorUseConditions": [
-          "free of rent/use at transfer",
-          "rented for less than six months at transfer",
-          "or already rented under an opkoopbescherming permit/waiver"
-        ]
-      },
-      "mainRule": "Qualifying dwellings may not be given into use during the first four years after registration of the deed of transfer without an applicable permit or waiver.",
-      "explicitExclusions": [
-        "complex sale of at least ten dwellings in one building to one successor owner",
-        "new-build housing with a rental prohibition in municipal ground-lease conditions",
-        "post-1-April-2022 new-build/transformation designated for rental by ground-lease conditions or agreement"
-      ],
-      "permitGrounds": [
-        "first- or second-degree family",
-        "temporary letting for up to 12 months after owner occupied the dwelling as residence for at least 12 months",
-        "dwelling inseparably connected to a shop, office or business premises",
-        "partial letting while owner continues to occupy part of the dwelling"
-      ],
-      "waiverGrounds": [
-        "exceptional circumstances where compliance cannot reasonably be required",
-        "socially desirable rental that outweighs the protection objective",
-        "simultaneous transfer of four through nine dwellings in one building to one successor owner"
-      ],
-      "applicationEvidence": [
-        "deed of transfer",
-        "relevant WOZ value from the calendar year before registration of the deed",
-        "relationship evidence for family letting",
-        "temporary rental agreement for the temporary-letting ground",
-        "documents proving inseparable connection with business premises where applicable"
-      ],
-      "sources": [
-        "https://lokaleregelgeving.overheid.nl/CVDR706038",
-        "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/regels-opkoopbescherming/",
-        "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/vergunning-ontheffing-opkoopbescherming/"
-      ]
-    },
-    "roomRentalConversion": {
-      "status": "confirmed-article-level",
-      "permitTrigger": [
-        "3 or more persons who do not form one household",
-        "if owner also lives in the dwelling: rooms rented to 2 or more other persons"
-      ],
-      "statutoryExemptions": [
-        "occupation by no more than two adults",
-        "qualifying inwoning by one additional household",
-        "mantelzorg or inwoning of first- through fourth-degree family, subject to regulatory conditions"
-      ],
-      "conditions": [
-        "communal room at least 11 m2 and at least 3 metres wide",
-        "normally one adult per room, or two for married/registered partners",
-        "individual written rental contracts",
-        "fire-safety compliance",
-        "no unresolved purchase-protection restriction",
-        "no concurrent holiday-rental or B&B permit",
-        "for 4 or more rooms: acoustic requirements under NEN 5077",
-        "for 5 or more rooms: fire-safety notification and Bbl compliance",
-        "for 7 or more rooms: exceptional-case liveability justification"
-      ],
-      "quotaAndLocation": "Quotas apply per neighbourhood and building; availability must be checked for the exact address/building.",
-      "omgevingsplanInteraction": "An additional environmental/planning permit may be necessary where the applicable omgevingsplan allows only one household.",
-      "sources": [
-        "https://lokaleregelgeving.overheid.nl/CVDR706038",
-        "https://www.amsterdam.nl/wonen-bouwen-verbouwen/huisvestingsvergunning/vergunning-kamerverhuur-aanvragen/",
-        "https://www.amsterdam.nl/wonen-bouwen-verbouwen/bouwen-verbouwen/bestemmingsplannen-omgevingsplan/"
-      ],
-      "addressDecisionRequired": true
-    },
-    "withdrawal": {
-      "status": "confirmed-article-level",
-      "mainRule": "Withdrawing residential space from residential use requires a stock permit unless an explicit exemption applies.",
-      "notableExemptions": [
-        "certain free-of-charge use arrangements",
-        "short stays under six months for designated international-student landing-place housing",
-        "qualifying reciprocal short-term house exchange",
-        "qualifying house-sitting arrangements meeting the regulation's conditions"
-      ],
-      "otherUseDecision": "A permit for non-residential use may be granted for a socially desired function or a function considered to strengthen the neighbourhood's economic structure.",
-      "sources": ["https://lokaleregelgeving.overheid.nl/CVDR706038"]
-    },
-    "merger": {
-      "status": "confirmed",
-      "mainRule": "Merging dwellings is part of the stock-permit system.",
-      "ownerOccupationException": "Municipal guidance states no merger permit is needed where the owner merges an adjacent/above/below dwelling for own occupation and actually lives there.",
-      "specialAuthorityException": "Some applications in Westpoort and specifically designated areas are handled by Omgevingsdienst Noordzeekanaalgebied.",
-      "sources": [
-        "https://lokaleregelgeving.overheid.nl/CVDR706038",
-        "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/vergunning-samenvoegen-woningen/"
-      ]
-    },
-    "dwellingFormation": {
-      "status": "confirmed-article-level",
-      "mainRule": "A permit is required to convert one dwelling into two or more dwellings.",
-      "minimumSourceDwellingArea": {
-        "nonLowLying": 100,
-        "lowLying": 200
-      },
-      "minimumAverageNewDwellingArea": {
-        "fromNonLowLying": 40,
-        "fromLowLying": 100
-      },
-      "absoluteMinimumNewDwellingArea": 18,
-      "additionalRules": [
-        "forming one or more dwellings below 40 m2 is prohibited in districts designated in further rules",
-        "required noise and quality standards apply",
-        "actual use must be reported within six months",
-        "a dwelling formed under a permit applied for after 31 December 2020 cannot be used again as the source dwelling for another formation permit",
-        "purchase-protection restrictions can block the permit"
-      ],
-      "sources": [
-        "https://lokaleregelgeving.overheid.nl/CVDR706038",
-        "https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/vergunning-woningvorming-aanvragen/"
-      ],
-      "addressDecisionRequired": true
-    },
-    "splitIntoApartmentRights": {
-      "status": "confirmed-area-and-building-age-dependent",
-      "workingsgebied": "The Amsterdam splitsingsvergunning regime applies to designated pre-1940 buildings in the geographic area in Annex 2, subject to specified exceptions.",
-      "mainRule": "Within that scope, splitting a building right into apartment rights including residential use is prohibited without a municipal splitsingsvergunning.",
-      "quota": "The municipality can set area-based quotas for the number of rental dwellings below the liberalisation threshold that may be involved in a split.",
-      "sources": ["https://lokaleregelgeving.overheid.nl/CVDR706038"],
-      "addressDecisionRequired": true
-    },
-    "touristRental": {
-      "status": "confirmed-article-level-area-dependent",
-      "citywideRules": [
-        "all Amsterdam dwellings fall within the tourist-rental scope",
-        "registration number required in listings",
-        "holiday rental normally limited to 30 nights per calendar year",
-        "each holiday-rental period must be reported in advance",
-        "maximum 4 guests at a time according to municipal operational guidance"
-      ],
-      "geographicOverrides": [
-        {"areas":["Haarlemmerbuurt","Jordaan","Grachtengordel-West","Grachtengordel-Zuid","De Weteringschans","Burgwallen-Nieuwe Zijde","Nieuwmarkt/Lastage","Oude Pijp"],"effectiveFrom":"2026-04-01","maxNightsPerCalendarYear":15},
-        {"areas":["other Amsterdam areas"],"maxNightsPerCalendarYear":30}
-      ],
-      "sources": [
-        "https://lokaleregelgeving.overheid.nl/CVDR706038",
-        "https://www.amsterdam.nl/wonen-bouwen-verbouwen/huisvestingsvergunning/vergunning-vakantieverhuur-aanvragen/regels-vakantieverhuur-deel-centrum-en/"
-      ],
-      "addressDecisionRequired": true
-    },
-    "shortStay": {
-      "status": "confirmed-article-level",
-      "definition": "paid use of a dwelling for a period of at most six months, excluding B&B and holiday rental",
-      "mainRule": "Short stay is prohibited without a municipal permit.",
-      "legacyRule": "Older short-stay permits remain subject to the Regional Housing Ordinance Stadsregio Amsterdam 2013 under the transitional provision.",
-      "sources": ["https://lokaleregelgeving.overheid.nl/CVDR706038"]
-    },
-    "secondHomePiedATerre": {
-      "status": "confirmed-new-2026-regime",
-      "mainRule": "From 2026 a second home/pied-à-terre in Amsterdam requires a permit.",
-      "notableConditionsForExisting2025Cases": [
-        "permit holder is not registered as resident in Amsterdam",
-        "maximum one second home in Amsterdam",
-        "used only by the permit holder or members of that household for their own stay",
-        "not used as office or holiday rental",
-        "not a social-rental dwelling"
-      ],
-      "sources": ["https://www.amsterdam.nl/wonen-bouwen-verbouwen/regels-huiseigenaren/tweede-woning-%28pied-terre%29-vergunning/"]
-    },
-    "temporaryRentalVacancyLaw": {
-      "status": "confirmed",
-      "mainRule": "Temporary rental of a dwelling for sale can be permitted under the Leegstandwet where the municipal conditions are met.",
-      "examplesOfConditions": [
-        "owner is applicant",
-        "dwelling is for sale and vacant",
-        "for private owners, no more than one other temporary-rental permit",
-        "one of the specified recent-occupation/new-build/limited-prior-rental conditions must apply"
-      ],
-      "sources": ["https://www.amsterdam.nl/wonen-bouwen-verbouwen/huisvestingsvergunning/vergunning-aanvragen-tijdelijke-verhuur/"]
-    },
-    "newBuildOwnerOccupancy": {
-      "status": "confirmed-separate-framework",
-      "mainRule": "Amsterdam also uses contractual/policy self-occupancy rental restrictions for qualifying new-build owner-occupied housing; this must remain separate from statutory purchase protection.",
-      "sources": ["https://www.amsterdam.nl/leefomgeving/vastgoedprofessionals/woningbouw-transformatie/verhuurverbod-zelfbewoningsplicht/"]
-    },
-    "enforcementAndTransitions": {
-      "status": "confirmed",
-      "findings": [
-        "Administrative fines can be imposed for violations under the Huisvestingswet according to the ordinance's fine schedule.",
-        "After at least two tourist-rental fines in five years, a rental prohibition of up to one year may be imposed.",
-        "Existing permits generally continue under the current ordinance, but legacy short-stay permits have a specific transitional regime.",
-        "Applications are assessed under the ordinance in force at the time of application.",
-        "A hardheidsclausule permits deviation in cases of special hardship, but it is exceptional rather than a standard route."
-      ],
-      "sources": ["https://lokaleregelgeving.overheid.nl/CVDR706038"]
-    }
-  },
-  "decisionModelRequirements": [
-    "Resolve exact BAG address and building before evaluating any Amsterdam rule.",
-    "Resolve neighbourhood/district for room-rental quotas, the 15-night tourist-rental override and any area-designated dwelling-formation rules.",
-    "Resolve building construction year and Annex-2 location for splitsingsvergunning assessment.",
-    "Determine acquisition date, relevant prior rental/use and WOZ value for purchase-protection assessment.",
-    "Determine rental/use type: ordinary whole-dwelling rent, room rental, B&B, holiday rental, short stay, second home, temporary letting, merger, withdrawal, dwelling formation or legal split.",
-    "Check whether purchase protection independently blocks the requested action.",
-    "Check the current omgevingsplan and Omgevingsloket for spatial-use restrictions or an additional omgevingsvergunning.",
-    "Check current Nadere regels for quotas, district designations and technical standards before returning a definitive address-level answer.",
-    "Keep statutory purchase protection, contractual new-build self-occupancy, Leegstandwet temporary letting and tourist-rental regimes legally separate."
-  ],
-  "remainingOpenChecks": [
-    "Machine-readable integration of the current Nadere regels Woonruimteverdeling en Woonruimtevoorraad Amsterdam 2024, especially quota tables and district-specific dwelling-formation rules.",
-    "Machine-readable geometry or BAG-to-area mapping for Annex 2 splitsingsvergunning scope and neighbourhood room-rental quotas.",
-    "Address-level validation test cases against the current Omgevingsplan Amsterdam.",
-    "Product-level legal sign-off remains required before automatically presenting a definitive legal conclusion to end users."
-  ],
-  "legalResearchStatus": "deep-official-article-level-review-complete-open-nadere-rules-and-address-geometry",
-  "humanReviewRequired": true,
-  "legalApproval": false,
-  "publicationAllowed": false,
-  "negativeConclusionFromMissingSource": false,
-  "safety": {
-    "researchOnly": true,
-    "legalApprovalAutomatic": false,
-    "automaticPublication": false,
-    "absenceOfEvidenceIsNotEvidenceOfAbsence": true
-  }
+  "addressResolutionModel":{"requiredInputs":["BAG verblijfsobject/address","wijk","stadsdeel/stadsgebied","building construction year","ground-bound/non-ground-bound where relevant","applicable omgevingsplan location"],"resolvedLegalLayers":["HVV citywide rule","Nadere-regels district restriction","Nadere-regels wijk quota","HVV Annex 2 splitsing scope","tourist-rental 15/30-night area","Omgevingsplan spatial-use rule"],"implementationStatus":"legal mapping requirements defined; live BAG/geometry resolver still to be implemented/tested"},
+  "omgevingsplanValidation":{"status":"required-per-address-not-citywide-static","reason":"spatial permissions can differ by location and activity; room rental, formation/splitting and use changes can require an additional omgevingsvergunning","testPlan":["choose representative address in Centrum pre-1940 Annex-2 area","choose address in Oost where sub-40m2 dwelling formation is excluded","choose address in district without sub-40m2 exclusion","choose address in IJburg-Oost where current room-rental wijkquotum is 0","choose address in a 15-night tourist-rental neighbourhood","for each: resolve BAG/wijk/building year, then query applicable Omgevingsplan activity/rules and compare against HVV outcome"]},
+  "sourcesVerified":[{"type":"municipal-index","url":"https://www.amsterdam.nl/bestuur-organisatie/organisatie/ruimte-en-economie/wonen/regels-verordeningen/","finding":"Amsterdam identifies both HVV 2024 and Nadere regels as current from 01-01-2026"},{"type":"primary-regulation","url":"https://lokaleregelgeving.overheid.nl/CVDR706038"},{"type":"current-further-rules","url":"https://lokaleregelgeving.overheid.nl/CVDR702549","version":"4","validFrom":"2026-01-01"}],
+  "remainingOpenChecks":["Implement or connect BAG-to-wijk/stadsdeel and Annex-2 geometry resolution rather than relying on text-only municipality data.","Execute the defined representative address test cases against the live Omgevingsplan/Omgevingsloket; this cannot be replaced by a single citywide static rule.","Determine live remaining capacity/waiting-list state for room-rental/B&B quotas when a user asks whether a permit can currently be obtained; the legal maximum alone does not prove availability.","Independent legal/product sign-off before definitive automated end-user conclusions."],
+  "legalResearchStatus":"deep-official-hvv-and-current-2026-nadere-rules-integrated-open-live-address-geometry-and-omgevingsplan-tests",
+  "humanReviewRequired":true,
+  "legalApproval":false,
+  "publicationAllowed":false,
+  "negativeConclusionFromMissingSource":false,
+  "safety":{"researchOnly":true,"legalApprovalAutomatic":false,"automaticPublication":false,"absenceOfEvidenceIsNotEvidenceOfAbsence":true}
 }

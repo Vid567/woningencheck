@@ -1,0 +1,13 @@
+{
+  "schemaVersion":"1.0.0",
+  "generatedAt":"2026-08-11",
+  "municipality":"Doesburg",
+  "trigger":"User supplied official current Omgevingsplan source CVDR696222 during final sweep.",
+  "officialSource":"https://lokaleregelgeving.overheid.nl/CVDR696222/",
+  "sourceStatus":{"title":"Omgevingsplan gemeente Doesburg","authority":"Gemeenteraad Doesburg","legalBasis":"artikel 2.4 Omgevingswet","current":"geldend van 10-07-2024 tot heden","underOmgevingswet":true},
+  "verifiedRelevantStructure":["Article 22.16 Overbewoning woonruimte","Articles 22.26-22.35: binnenplanse omgevingsvergunning for building activities, assessment and application requirements","Article 22.35: application requirements for binnenplanse omgevingsvergunning","Articles 22.36-22.40: permit-free activities/limitations/transition","Article 22.60-22.61: noise investigation and report requirements where applicable"],
+  "impactOnPreviousClosure":"The previous classification 'not-further-determinable substantive room-rental plus address Omgevingsplan' was too pessimistic about source availability. The current Omgevingsplan itself is now a confirmed primary source and must be included in every Doesburg address/activity assessment. It does not by itself establish a single municipality-wide generic room-rental permission outcome because much of the spatial permissibility remains location/activity dependent and legacy plan components can be part of the integrated Omgevingsplan.",
+  "newStatus":"current-omgevingsplan-confirmed-address-activity-analysis-required",
+  "remainingAllowedOnly":["concrete address/activity interpretation within the current Omgevingsplan and its legally integrated components","dynamic Omgevingsloket application output for the concrete plan","specific room-rental outcome where it depends on location/use rather than a municipality-wide standalone rule"],
+  "qualityLesson":"During final sweeps, search explicitly for 'Omgevingsplan gemeente <municipality>' in Lokale regelgeving even where municipal product pages do not expose the direct regulation link. A missing standalone room-rental policy is not equivalent to a missing legal source."
+}

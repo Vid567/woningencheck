@@ -1,0 +1,21 @@
+{
+  "schemaVersion":"1.0.0",
+  "generatedAt":"2026-08-11",
+  "scope":"Final synchronization QA after research-backlog.json v3.0.0 consolidation for the first 42 municipalities.",
+  "excelArtifact":"woningencheck_gemeenten_v2_42van42_definitief.xlsx",
+  "checks":[
+    {"name":"municipality count in status sheet","result":"PASS","value":"42"},
+    {"name":"municipality count in legitimate residual register","result":"PASS","value":"42"},
+    {"name":"generic-research-complete status","result":"PASS","value":"42/42"},
+    {"name":"avoidable open ends","result":"PASS","value":"0"},
+    {"name":"mandatory retest recorded","result":"PASS","value":"42/42"},
+    {"name":"closure/final-sweep recorded","result":"PASS","value":"42/42"},
+    {"name":"Doesburg current Omgevingsplan correction","result":"PASS","value":"CVDR696222 reflected in final follow-up"},
+    {"name":"concept/current-law separation","result":"PASS","value":"Brummen remains concept-watch, not current law"},
+    {"name":"live-form residual classification","result":"PASS","value":"Breda and Bodegraven-Reeuwijk are dynamic/case-form residuals, not generic research defects"},
+    {"name":"formula error scan","result":"PASS","value":"0 matches for REF/DIV0/VALUE/NAME/N/A"}
+  ],
+  "finalResult":"PASS",
+  "coverage":"100% generic research coverage for the first 42 municipalities under the closure standard.",
+  "caveat":"Property-specific outcomes may still require an address, current Omgevingsplan/DSO interaction, geometry/category mapping or a live municipal form."
+}

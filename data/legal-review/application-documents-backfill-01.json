@@ -1,0 +1,128 @@
+{
+  "schemaVersion":"1.0.0",
+  "generatedAt":"2026-08-11",
+  "researchStandard":"research-standard-v2.json",
+  "scope":"Priority-1 backfill for municipalities previously closed as product-QA complete. Legal closure is re-evaluated under research-standard-v2, which requires practical application-process coverage.",
+  "records":[
+    {
+      "municipalityName":"Breda",
+      "municipalityCode":"GM0758",
+      "overallApplicationCoverage":"partial-official-evidence-application-open",
+      "activities":[
+        {
+          "activity":"purchase-protection",
+          "permitOrProcedureName":"verhuurvergunning opkoopbescherming",
+          "legalBasis":"Huisvestingsverordening Breda 2022, articles 7-10",
+          "officialApplicationPage":"municipal form referenced by article 8; exact current public product/form URL not positively established in this pass",
+          "submissionChannel":"municipal form/municipal digital route; exact current endpoint still to be confirmed",
+          "authentication":"unknown-current-product-route",
+          "applicationDocumentsMode":"partly-static-plus-conditional",
+          "requiredDocuments":[
+            {"document":"owner name/address, dwelling address and application date","condition":"always required by article 8"},
+            {"document":"evidence of blood relationship or affinity between owner and intended user","condition":"when applying on the family-ground and the municipality does not already possess the data"}
+          ],
+          "conditionalDocuments":["additional data may be requested by the municipality when necessary to assess the application"],
+          "requiredDrawings":[],
+          "requiredStudies":[],
+          "fees":{"status":"current-fee-product-operationally-confirmed-in-prior-QA","amount":"not hard-coded here; current fee schedule must be read at application time"},
+          "processingPeriod":{"status":"not-confirmed-in-this-pass"},
+          "officialSources":["https://lokaleregelgeving.overheid.nl/CVDR695686"],
+          "checkedAt":"2026-08-11",
+          "status":"legal-complete-application-open",
+          "remainingQuestions":["exact current application URL/form","DigiD/eHerkenning requirements for this specific housing permit","full current conditional-document list","current processing period"]
+        },
+        {
+          "activity":"building-split/apartment-rights",
+          "permitOrProcedureName":"splitsingsvergunning",
+          "officialApplicationPage":"not positively established in this pass",
+          "submissionChannel":"unknown-current-route",
+          "authentication":"unknown",
+          "applicationDocumentsMode":"unknown-needs-official-product-or-form-retest",
+          "requiredDocuments":[],
+          "requiredDrawings":[],
+          "conditionalDocuments":[],
+          "requiredStudies":[],
+          "fees":{"status":"current permit product known from legal/fee review; amount not captured here"},
+          "processingPeriod":{"status":"unknown"},
+          "officialSources":["https://lokaleregelgeving.overheid.nl/CVDR695686"],
+          "checkedAt":"2026-08-11",
+          "status":"legal-complete-application-open",
+          "remainingQuestions":["official application route","current form/checklist","drawings and technical documents","ownership/consent evidence","processing period"]
+        }
+      ],
+      "researchCompleteUnderV2":false
+    },
+    {
+      "municipalityName":"Bodegraven-Reeuwijk",
+      "municipalityCode":"GM1901",
+      "overallApplicationCoverage":"partial-official-evidence-application-open",
+      "activities":[
+        {
+          "activity":"housing-stock-changes",
+          "permitOrProcedureName":"vergunning woonruimtevoorraad for withdrawal, merger, conversion and dwelling formation",
+          "legalBasis":"Huisvestingsverordening Bodegraven-Reeuwijk 2023, articles 26-29",
+          "officialApplicationPage":"college-established application form required by article 27; exact current public form URL not positively established in this pass",
+          "submissionChannel":"municipal form; exact current digital/postal route still to be confirmed",
+          "authentication":"unknown",
+          "applicationDocumentsMode":"static-core-plus-form-defined",
+          "requiredDocuments":[
+            {"document":"owner name and address","condition":"always"},
+            {"document":"address of affected dwelling","condition":"always"},
+            {"document":"WOZ value","condition":"always"},
+            {"document":"current rent","condition":"if applicable"},
+            {"document":"number of rooms and living area","condition":"always"},
+            {"document":"floor/storey on which dwelling is located","condition":"always"},
+            {"document":"state of maintenance","condition":"always"}
+          ],
+          "requiredDrawings":[],
+          "conditionalDocuments":["additional fields/documents may be required by the college-established form beyond the core article-27 data"],
+          "requiredStudies":[],
+          "fees":{"status":"not-confirmed-in-this-pass"},
+          "processingPeriod":{"status":"not-confirmed-in-this-pass"},
+          "officialSources":["https://lokaleregelgeving.overheid.nl/CVDR697706"],
+          "checkedAt":"2026-08-11",
+          "status":"legal-complete-application-open",
+          "remainingQuestions":["exact current form/application URL","whether drawings/plans are required by the current form","current fees","current processing period"]
+        },
+        {
+          "activity":"purchase-protection",
+          "permitOrProcedureName":"verhuurvergunning opkoopbescherming",
+          "officialApplicationPage":"https://www.bodegraven-reeuwijk.nl/opkoopbescherming",
+          "submissionChannel":"electronic municipal application available via official municipal page; exact destination form is external from the product page",
+          "authentication":"not established in public source reviewed",
+          "applicationDocumentsMode":"form-defined",
+          "requiredDocuments":[],
+          "requiredDrawings":[],
+          "conditionalDocuments":["article 40 states the current municipal form specifies which data must be supplied; no static list is invented where the form itself was not accessible in this pass"],
+          "requiredStudies":[],
+          "fees":{"status":"official product page contains a current fee section","amount":"not captured without successfully opening the live product detail"},
+          "processingPeriod":{"status":"official product page contains a decision-time section; exact current period not captured without successful live page access"},
+          "officialSources":["https://www.bodegraven-reeuwijk.nl/opkoopbescherming","https://lokaleregelgeving.overheid.nl/CVDR697706"],
+          "checkedAt":"2026-08-11",
+          "status":"complete-dynamic/form-defined-documents-with-open-form-details",
+          "remainingQuestions":["open current application form to capture explicit data/documents","authentication route","current fee amount","current decision period"]
+        },
+        {
+          "activity":"building-split/apartment-rights",
+          "permitOrProcedureName":"splitsingsvergunning",
+          "officialApplicationPage":"not positively established in this pass",
+          "submissionChannel":"unknown-current-route",
+          "authentication":"unknown",
+          "applicationDocumentsMode":"unknown-needs-official-form-retest",
+          "requiredDocuments":[],
+          "requiredDrawings":[],
+          "conditionalDocuments":[],
+          "requiredStudies":[],
+          "fees":{"status":"unknown-current"},
+          "processingPeriod":{"status":"unknown-current"},
+          "officialSources":["https://lokaleregelgeving.overheid.nl/CVDR697706"],
+          "checkedAt":"2026-08-11",
+          "status":"legal-complete-application-open",
+          "remainingQuestions":["official application route/form","required drawings and ownership/building documents","fees","processing period"]
+        }
+      ],
+      "researchCompleteUnderV2":false
+    }
+  ],
+  "summary":{"municipalitiesBackfilled":2,"municipalitiesStillResearchCompleteUnderV2":0,"municipalitiesReopenedForApplicationProcessCompletion":2,"principle":"Previously closed legal research is not considered fully complete under v2 until application-process coverage is complete."}
+}

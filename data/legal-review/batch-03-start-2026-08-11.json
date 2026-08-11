@@ -1,0 +1,22 @@
+{
+  "schemaVersion":"1.0.0",
+  "generatedAt":"2026-08-11",
+  "batch":"03",
+  "municipalities":["Geertruidenberg","Geldrop-Mierlo","Gemert-Bakel","Gennep","Gilze en Rijen","Goeree-Overflakkee","Goes","Goirle","Gooise Meren","Gorinchem"],
+  "method":"Start immediately with the proven 52-municipality standard: direct current Omgevingsplan discovery, municipality-specific housing policy/regulation, application route, documents/drawings/studies, current fees/decision periods, concept/future-law signals, and mandatory final sweep before closure.",
+  "initialPrimarySources":[
+    {"municipality":"Geertruidenberg","omgevingsplan":"CVDR696407","currentFrom":"2024-04-05","note":"Current Omgevingsplan confirmed; integrated-regulations warning applies."},
+    {"municipality":"Geldrop-Mierlo","omgevingsplan":"CVDR696502","note":"Current-plan permalink confirmed; older 2024 version is not used as current text. 2026 provincial voorbeschermingsregels are juridically integrated into the plan and must be considered where relevant."},
+    {"municipality":"Gemert-Bakel","omgevingsplan":"CVDR696556","currentFrom":"2024-08-16","additionalCurrentPolicy":"Beleidsregel bijwonen met zelfstandige voorzieningen Gemert-Bakel, CVDR760565, current from 2026-04-16; explicitly distinguishes this route from woningsplitsing/perceelsplitsing."},
+    {"municipality":"Gennep","omgevingsplan":"CVDR696441","currentFrom":"2025-10-09","note":"Current Omgevingsplan confirmed; integrated-regulations warning applies."},
+    {"municipality":"Gilze en Rijen","omgevingsplan":"CVDR696411","currentFrom":"2024-06-05","futureCurrentnessSignal":"2026 participation/BOPA policies and provincial voorbeschermingsregels are current and must be included in application/currentness checks."},
+    {"municipality":"Goeree-Overflakkee","omgevingsplan":"CVDR696521","currentFrom":"2025-07-29","note":"Current Omgevingsplan confirmed."},
+    {"municipality":"Goes","status":"direct-plan-and-housing-policy-extraction-next","note":"Current primary-source and housing-specific search is next in pass 01."},
+    {"municipality":"Goirle","omgevingsplan":"CVDR696403","currentFrom":"2026-02-13","additionalCurrentSource":"Delegatiebesluit omgevingsplan gemeente Goirle CVDR713669 current from 2024-01-12."},
+    {"municipality":"Gooise Meren","omgevingsplan":"CVDR696529","currentFrom":"2025-11-25","note":"Current Omgevingsplan confirmed; older versions explicitly excluded."},
+    {"municipality":"Gorinchem","omgevingsplan":"CVDR696336","currentFrom":"2025-11-01","note":"Current Omgevingsplan confirmed; older 2025 version excluded."}
+  ],
+  "batchStrategy":{"largeStandaloneCandidates":[],"reason":"No municipality in this set is pre-classified as requiring Eindhoven/Amsterdam-scale standalone handling. If the first substantive pass reveals an unusually dense housing regime, it will be split out automatically."},
+  "qualityRules":["Never use an expired Omgevingsplan version when a current permalink/version is available.","Search application documents in the same pass as substantive law.","Do not infer absence of rules from a sparse main-plan text; inspect integrated regulations and municipality-specific policies.","Concepts/drafts/future instruments are retained as explicit watch signals, never presented as current law.","No batch closure before mandatory final sweep leaves zero avoidable generic open ends."],
+  "next":"Pass 01: Geertruidenberg, Geldrop-Mierlo, Gemert-Bakel, Gennep and Gilze en Rijen substantive housing rules plus application-document matrices; then Goeree-Overflakkee through Gorinchem." 
+}

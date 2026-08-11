@@ -24,7 +24,7 @@ for(const file of autoFiles){for(const r of mainRead(file).records||[])if(r.muni
 try{for(const name of await fs.readdir('data/research-batches/remaining-53')){if(!name.endsWith('-verification.json'))continue;for(const r of (await localRead(`data/research-batches/remaining-53/${name}`)).records||[])if(r.municipalityCode)processed.add(r.municipalityCode)}}catch{}
 const remaining=canonical.filter(m=>!processed.has(m.code));
 const initialProcessed=canonical.length-remaining.length;
-if(BATCH_NO===1 && remaining.length!==53) throw new Error(`Safety gate: expected 53 remaining before first batch, found ${remaining.length}`);
+if(BATCH_NO===1 && remaining.length!==53 && remaining.length!==0) throw new Error(`Safety gate: expected 53 remaining before first batch or 0 after a completed run, found ${remaining.length}`);
 const queue=remaining.slice(0,BATCH_SIZE);
 const label=`${PREFIX}-${String(BATCH_NO).padStart(2,'0')}`;
 if(!queue.length){await write('reports/automation/remaining-53-summary.json',{generatedAt:new Date().toISOString(),canonicalTotal:canonical.length,processedTotal:processed.size,remainingCount:0,safety:{legalApprovalAutomatic:false,automaticPublication:false,publicRulesCreated:0,negativeLegalConclusions:0}});console.log(JSON.stringify({done:true,processedTotal:processed.size,remaining:0}));process.exit(0)}

@@ -1,0 +1,12 @@
+{
+  "schemaVersion":"1.0.0",
+  "generatedAt":"2026-08-11",
+  "batch":"04",
+  "municipalities":["Gouda","'s-Gravenhage","Groningen","Gulpen-Wittem","Haaksbergen","Haarlem","Haarlemmermeer","Halderberge","Hardenberg","Harderwijk"],
+  "codes":{"Gouda":"GM0513","'s-Gravenhage":"GM0518","Groningen":"GM0014","Gulpen-Wittem":"GM1729","Haaksbergen":"GM0158","Haarlem":"GM0392","Haarlemmermeer":"GM0394","Halderberge":"GM1655","Hardenberg":"GM0160","Harderwijk":"GM0243"},
+  "currentPlans":{"Gouda":"CVDR696342","'s-Gravenhage":"CVDR696341","Groningen":"CVDR696162","Gulpen-Wittem":"CVDR696495","Haaksbergen":"CVDR696197","Haarlem":"CVDR696299","Haarlemmermeer":"CVDR696552","Halderberge":"CVDR696469","Hardenberg":"CVDR696200","Harderwijk":"CVDR696240"},
+  "strategy":{"standaloneDeepDive":["'s-Gravenhage","Groningen"],"enhancedReview":["Haarlem","Haarlemmermeer"],"standardBatch":["Gouda","Gulpen-Wittem","Haaksbergen","Halderberge","Hardenberg","Harderwijk"]},
+  "method":"Current Omgevingsplan plus integrated rules, housing law/policy, application route, documents/drawings/studies, current fees/terms, future-law signals and mandatory final sweep.",
+  "quality":"No municipality closes before zero avoidable generic open ends remain.",
+  "next":"Research the six standard municipalities first, then Haarlem/Haarlemmermeer, then standalone Den Haag and Groningen, followed by 10/10 retest."
+}

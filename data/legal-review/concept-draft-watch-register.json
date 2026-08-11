@@ -1,0 +1,18 @@
+{
+  "schemaVersion":"1.0.0",
+  "generatedAt":"2026-08-11",
+  "purpose":"Separate register for official concept/draft/proposed municipal housing instruments discovered during research. These are research signals, not current law.",
+  "records":[
+    {
+      "municipality":"Brummen",
+      "instrument":"Concept Huisvestingsverordening gemeente Brummen 2026",
+      "status":"concept/consultation; final adoption not positively established in the 2026-08-11 final sweep",
+      "researchSignal":"The municipality is actively preparing a housing regulation. The concept includes housing-market measures such as opkoopbescherming, so a future adopted version could materially change the current dossier.",
+      "currentLawTreatment":"Do not apply concept provisions to a user case until official adoption and effective date are confirmed.",
+      "followUp":["search for council adoption decision","search Lokaleregelgeving for final CVDR publication","record effective date","compare final opkoopbescherming/geographic/threshold provisions with concept","update application route, documents and fees after adoption"],
+      "officialSources":["https://www.brummen.nl/wonen-en-leefomgeving/wonen-bouwen-en-verbouwen/huisvestingsverordening","https://www.brummen.nl/bestuur-en-organisatie/college/collegebesluiten"],
+      "lastChecked":"2026-08-11"
+    }
+  ],
+  "futureRule":"Whenever research finds an official concept, draft, consultation text, proposed amendment or announced replacement regulation, add it here even when current law is already fully known."
+}

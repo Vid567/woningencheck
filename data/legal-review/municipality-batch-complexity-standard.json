@@ -1,0 +1,59 @@
+{
+  "schemaVersion":"1.0.0",
+  "effectiveFrom":"2026-08-11",
+  "purpose":"Determine before each new municipality batch whether a municipality can be researched inside a normal batch or should be handled as a standalone deep-dive. Population alone is not decisive; legal/product complexity is the primary criterion.",
+  "scoreModel":{
+    "population":{
+      "0":"under 100000 inhabitants",
+      "1":"100000-199999",
+      "2":"200000-349999",
+      "3":"350000 or more"
+    },
+    "housingRegulationBreadth":{
+      "0":"no specific municipal housing regime found in intake",
+      "1":"one material municipal housing regime",
+      "2":"two to three distinct regimes",
+      "3":"four or more distinct regimes, e.g. room rental, splitting, purchase protection, tourist/short stay, rental permit"
+    },
+    "geographicComplexity":{
+      "0":"municipality-wide or no geographic distinction",
+      "1":"one clearly defined district/zone distinction",
+      "2":"multiple districts, maps, thresholds or area-specific rules",
+      "3":"multiple maps/geometry layers, postcode/address lists or overlapping geographic regimes"
+    },
+    "applicationComplexity":{
+      "0":"single Omgevingsloket route with dynamic documents",
+      "1":"one municipal form/product plus Omgevingsloket",
+      "2":"multiple permit products/forms/authentication routes",
+      "3":"multiple separate products with distinct document sets, fees, exceptions and processing rules"
+    },
+    "legalSourceComplexity":{
+      "0":"one current primary source",
+      "1":"regulation plus one policy/implementation rule",
+      "2":"multiple current regulations/policies/annexes requiring reconciliation",
+      "3":"transitional law, recent amendments, overlapping old/new instruments or conflicting current-looking pages"
+    },
+    "specialComplexitySignals":{
+      "1_each_up_to_3":"Bibob-specific matrix; heritage/monument overlay; labour-migrant regime; student/target-group regime; vacation/short-stay regime; recent major 2026 transition; extensive annex/geometry dependency"
+    }
+  },
+  "classification":{
+    "0-4":"normal-batch",
+    "5-7":"heavy-batch: include only if batch contains at most one municipality in this class",
+    "8-10":"standalone-preferred",
+    "11-plus":"standalone-mandatory"
+  },
+  "overrideRules":[
+    "Any municipality with three or more distinct geographic housing regimes is standalone regardless of population.",
+    "Any municipality with a recent transition regime plus multiple separate housing permit products is standalone.",
+    "If the initial pass already produces more than three unresolved article/form matrices, handle standalone.",
+    "A large population by itself never forces standalone treatment if the legal regime is simple.",
+    "A small municipality can still be standalone if the legal/product structure is unusually complex."
+  ],
+  "batchRules":{
+    "targetNormalBatchSize":10,
+    "maxHeavyMunicipalitiesPerBatch":1,
+    "standaloneMunicipalityDoesNotConsumeNormalBatchSlots":true,
+    "standaloneWorkflow":["full current-source intake","article-level legal review","application/product/document review","address/geography mapping","fresh retest","backlog reduction","Excel sync","QA"]
+  }
+}

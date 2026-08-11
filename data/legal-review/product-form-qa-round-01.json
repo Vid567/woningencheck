@@ -1,0 +1,47 @@
+{
+  "schemaVersion":"1.0.0",
+  "generatedAt":"2026-08-11",
+  "scope":"First product/form QA closure round after v2 backfill. Focus: Breda and Bodegraven-Reeuwijk.",
+  "records":[
+    {
+      "municipality":"Bodegraven-Reeuwijk",
+      "municipalityCode":"GM1901",
+      "status":"product-qa-substantially-complete",
+      "confirmedApplicationRoutes":[
+        {
+          "activity":"housing-stock-change/withdrawal/merger/conversion/dwelling-formation/building-split",
+          "route":"Voorraadvergunning via Omgevingsdienst Midden-Holland",
+          "authentication":"DigiD for private applicants; eHerkenning for companies",
+          "requiredCoreData":["owner name/address","dwelling address","WOZ value","current rent if applicable","number of rooms and living area","floor/storey","state of maintenance","intended use/destination","building drawings and/or building/omgevingsvergunning application","number of self-contained/non-self-contained units","expected rent or sale price supported by sworn valuer report","responsible owner/landlord for management"],
+          "additionalDocuments":["completed Bibob questionnaire","all attachments required by the Bibob questionnaire"],
+          "currentFee2026":"EUR 530.90 per applicable stock-change/splitting permit application"
+        },
+        {
+          "activity":"purchase-protection",
+          "route":"electronic municipal application form as required by current ordinance",
+          "applicationDocumentsMode":"current municipal form defines exact data/documents",
+          "processingPeriod":"8 weeks, once extendable by 6 weeks",
+          "currentFee2026":"EUR 530.90"
+        }
+      ],
+      "officialSources":["https://www.bodegraven-reeuwijk.nl/wijzigingen-in-woningvoorraad","https://lokaleregelgeving.overheid.nl/CVDR697706","https://lokaleregelgeving.overheid.nl/CVDR754156"],
+      "resolved":["current stock-change application route","private/business authentication","core application data and drawings","Bibob document requirement","2026 stock-change/splitting fees","2026 purchase-protection fee","purchase-protection decision period"],
+      "remaining":["capture the live current purchase-protection form's exact exception-specific attachment list if the form becomes technically accessible"],
+      "closureAssessment":"No generic research gap remains for stock-change/splitting procedures. Purchase-protection has only a form-detail refinement remaining; do not invent that attachment matrix."
+    },
+    {
+      "municipality":"Breda",
+      "municipalityCode":"GM0758",
+      "status":"product-qa-progressed-not-closed",
+      "confirmedApplicationDetails":[
+        {"activity":"building-split/apartment-rights","currentFee2026":"EUR 491.73 base plus EUR 122.93 per apartment right","incompleteApplicationSurcharge":"5% up to EUR 176.52 where applicant is allowed to supplement","permitRequirementAssessmentFee":"EUR 114.36"},
+        {"activity":"purchase-protection","currentFee2026":"EUR 477.77","incompleteApplicationSupplementFee":"EUR 171.55"}
+      ],
+      "officialSources":["https://lokaleregelgeving.overheid.nl/CVDR750749","https://lokaleregelgeving.overheid.nl/CVDR695686"],
+      "resolved":["current 2026 fee structure for splitsingsvergunning","current 2026 fee for purchase-protection"],
+      "remaining":["exact current public housing application endpoint/form for splitsingsvergunning","current attachment/drawing checklist for splitsingsvergunning","current authentication route for these specific housing products","full current exception-specific document list for purchase-protection"],
+      "closureAssessment":"Keep open. The current fee/product layer is verified, but form/document detail is still insufficient for v2 closure."
+    }
+  ],
+  "summary":{"municipalitiesReviewed":2,"substantiallyComplete":1,"stillOpen":1,"principle":"Product/fee evidence is separated from substantive law and from exact attachment checklists."}
+}

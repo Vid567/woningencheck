@@ -1,0 +1,50 @@
+{
+  "schemaVersion":"1.0.0",
+  "generatedAt":"2026-08-11",
+  "method":"fresh official-source retest before accepting remaining open status",
+  "records":[
+    {
+      "municipality":"Baarn",
+      "municipalityCode":"GM0308",
+      "status":"generic-application-route-closed-address-check-remains",
+      "confirmed":[
+        "The municipality directs applicants to perform the Vergunningcheck in Omgevingsloket and submit the omgevingsvergunning through Omgevingsloket.",
+        "A concept request can be submitted through the same Omgevingsloket flow for complex plans or plans outside the omgevingsplan.",
+        "The regular decision period is in principle 8 weeks; the extensive procedure is 26 weeks; the municipality can extend once by 6 weeks.",
+        "2026 fees are activity-specific and must be taken from the current Tarieventabel leges rather than encoded as one generic housing amount.",
+        "Baarn's current Bibob information confirms that a Bibob investigation can apply to an application for a permit for regular residential letting in a designated area or accommodation for labour migrants; a Bibob investigation can also sometimes apply to an omgevingsvergunning building application."
+      ],
+      "officialSources":[
+        "https://www.baarn.nl/omgevingsvergunning",
+        "https://www.baarn.nl/bibob-onderzoek"
+      ],
+      "remaining":[
+        "representative address/activity Vergunningcheck and Omgevingsplan validation for room rental/splitting",
+        "capture the exact dynamic attachment set and activity-specific 2026 fee for the selected case"
+      ],
+      "closureAssessment":"Generic application-route research can close. The remaining work is genuinely address/activity dependent."
+    },
+    {
+      "municipality":"Barendrecht",
+      "municipalityCode":"GM0489",
+      "status":"generic-spatial-route-closed-address-check-remains",
+      "confirmed":[
+        "If land or a building is to be used differently from what the omgevingsplan allows, the municipality directs the applicant to submit the request through Omgevingsloket.",
+        "For building permit applications the municipality states that a building plan must be submitted; it consists of a description of the work and usually includes a drawing or floor plan.",
+        "The current 2026-2030 coalition agreement explicitly states that Barendrecht sees opportunities in adding homes by topping-up or splitting existing dwellings and supports such initiatives under conditions; this is policy context, not itself the permit rule.",
+        "The current municipal sitemap exposes the live Omgevingsplan and building/permit product routes; no separate static ordinary-room-rental checklist was found in this retest."
+      ],
+      "officialSources":[
+        "https://www.barendrecht.nl/direct-regelen/wonen-leefomgeving-verbouwen/verbouwen-slopen/omgevingsplan-aanpassen/",
+        "https://www.barendrecht.nl/direct-regelen/wonen-leefomgeving-verbouwen/verbouwen-slopen/bouwplannen-en-bouwtekeningen-bekijken/",
+        "https://www.barendrecht.nl/bestuur-organisatie/tekstversie-coalitieakkoord-2026-2030/"
+      ],
+      "remaining":[
+        "representative address/activity Omgevingsplan validation for room rental, splitting or other non-standard residential use",
+        "capture exact Omgevingsloket-generated attachment list and fees for the representative case"
+      ],
+      "closureAssessment":"The generic spatial/application route can close. Do not invent a municipal room-rental document checklist; remaining work is address/activity specific."
+    }
+  ],
+  "summary":{"municipalitiesRetested":2,"genericResearchClosable":2,"addressDynamicWorkRemaining":2,"qualityRule":"Policy statements are not treated as permit law; only current official application/spatial routes are encoded as confirmed."}
+}

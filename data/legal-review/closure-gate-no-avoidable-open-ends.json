@@ -1,0 +1,20 @@
+{
+  "schemaVersion":"1.0.0",
+  "effectiveFrom":"2026-08-11",
+  "purpose":"Prevent avoidable open ends. Every unresolved item must receive one final targeted official-source sweep before it may remain in the backlog.",
+  "mandatoryFinalSweep":{
+    "appliesTo":"all researched municipalities, retroactively and prospectively",
+    "trigger":"any item still open after initial research, deepening, retest and closure search",
+    "requiredSearchLayers":["current municipal product/service pages","current local regulations at overheid.nl/lokaleregelgeving","official municipal council/college decisions and attachments","official notices/publications","current Omgevingsplan/DSO route where accessible","municipality-hosted PDF forms/policies/annexes","official executing agency/omgevingsdienst pages where municipality delegates the route"],
+    "crossChecks":["currentness/effective date","superseded or draft status","article/annex references","application channel","documents/drawings/studies","fees and decision period","geographic/address dependency"],
+    "allowedFinalOpenClasses":[
+      "address/location/geometry dependent and impossible to determine without a concrete address",
+      "dynamic Omgevingsloket or live-form output that cannot be determined generically",
+      "case/exception-specific evidence that only appears after applicant choices",
+      "not further determinable after documented repeated official-source searches"
+    ],
+    "prohibitedShortcut":"Do not leave an item open merely because the first closure search did not find it."
+  },
+  "batchGate":"No municipality or batch is marked research-complete until every residual has either been closed by the final sweep or assigned one of the allowed final-open classes with a reason.",
+  "excelAndBacklogRule":"Backlog and Excel synchronization occurs only after the final sweep for the municipalities concerned."
+}

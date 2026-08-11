@@ -1,0 +1,21 @@
+{
+  "schemaVersion":"1.0.0",
+  "generatedAt":"2026-08-11",
+  "batch":"04",
+  "municipality":"Harderwijk",
+  "status":"generic-research-complete-current-2026-policy",
+  "findings":{
+    "currentPlan":"Omgevingsplan gemeente Harderwijk CVDR696240 remains the address-specific spatial source.",
+    "currentPolicy":"Beleidsregels splitsen en delen van woningen Harderwijk 2026, CVDR760198, are current from 10-04-2026 and replace the old 2021 splitting policy.",
+    "scope":"The 2026 policy applies inside the built-up area where the Omgevingsplan itself does not already allow the intended split/share use.",
+    "woningsplitsing":"Resulting independent dwellings must each have at least 24 m2 use area; the original dwelling must satisfy the current WOZ/tenure eligibility rule; new-build dwellings cannot be split in the first 10 years; Bbl, parking, sound insulation and fire safety apply.",
+    "woningdelenKamerverhuur":"For multiple-household use, the policy supports up to 3 persons from different households, or defined inwoning/hospita cases, and otherwise imposes Bbl, minimum 12 m2 per resident, bicycle/storage, parking, new-build sound-isolation level, fire-safety and a 50-metre concentration test for higher-intensity cases.",
+    "applicationDocuments":["spatial motivation/ETFAL justification","for splitting or room rental to 4+ persons: dimensioned existing and proposed floor plans","where relevant a site plan showing parking","for splitting or room rental to 4+ persons: participation report describing process and outcome","description of intended added housing use: sale/rent, price category and income target group"],
+    "housingRegulationDistinction":"Huisvestingsverordening Harderwijk 2026 does not create a separate housing-stock change permit regime; the current 2026 splitting/sharing policy works through the Omgevingswet/BOPA route.",
+    "fees":"Legesverordening Harderwijk 2026 is current. Exact permit amount is activity-combination dependent; no potentially cross-municipality tariff line is encoded without positive activity match."
+  },
+  "quality":{"avoidableGenericOpenEnds":0,"oldPolicyExcluded":true,"applicationDocumentsRegistered":true,"crossMunicipalityContamination":0},
+  "remainingAllowedOnly":["concrete-address/current Omgevingsplan applicability","exact activity-combination fee","case-specific extra studies beyond the policy's core requirements"],
+  "sources":["https://lokaleregelgeving.overheid.nl/CVDR760198","https://lokaleregelgeving.overheid.nl/CVDR752414","https://lokaleregelgeving.overheid.nl/CVDR751680/1"],
+  "finalResult":"PASS - current 2026 splitting/sharing policy and application document matrix positively established."
+}

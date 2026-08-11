@@ -1,0 +1,72 @@
+{
+  "schemaVersion":"1.0.0",
+  "generatedAt":"2026-08-11",
+  "method":"fresh deep-search against current official municipal sources; prior backfill claims retested rather than assumed",
+  "records":[
+    {
+      "municipality":"Amersfoort",
+      "municipalityCode":"GM0307",
+      "status":"substantially-closed-address-validation-remains",
+      "confirmed":[
+        "Opkoopbescherming WOZ threshold is EUR 418100 from 2026-04-01; prior threshold EUR 404895 applied until then.",
+        "Opkoopbescherming application requires owner name(s) and dwelling address.",
+        "Required base attachment: proof of registration of deed of transfer at Kadaster.",
+        "Conditional attachments are explicitly listed for family letting, temporary letting, inseparable business premises and municipal purchase grounds.",
+        "Opkoopbescherming fee is EUR 269; decision within 8 weeks; complex applications may be extended once by 6 weeks.",
+        "Woningsplitsing always requires an omgevingsvergunning via Omgevingsloket with DigiD for private applicants.",
+        "Woningsplitsing application requires building drawings showing existing/new situation including floor plan, facade and cross-section, plus a site plan showing parking, bicycle parking and waste storage.",
+        "Splitting is location/plan dependent: the municipal page identifies plan designations where it can/cannot fit, so address validation remains mandatory.",
+        "Businesses/organizations use eHerkenning EH3 for omgevingsvergunning applications."
+      ],
+      "officialSources":[
+        "https://www.amersfoort.nl/verhuurvergunning-opkoopbescherming",
+        "https://www.amersfoort.nl/woningsplitsing",
+        "https://www.amersfoort.nl/omgevingsvergunning-voor-bouwen-en-verbouwen"
+      ],
+      "remaining":["address-specific Omgevingsplan validation for splitting and room-rental","capture exact live Omgevingsloket-generated attachment set when a representative address is selected"],
+      "closureAssessment":"Generic legal/application-document research can be closed. Only genuine address/dynamic checks remain."
+    },
+    {
+      "municipality":"Amstelveen",
+      "municipalityCode":"GM0362",
+      "status":"substantially-closed-dynamic-address-items-remain",
+      "confirmed":[
+        "Kamergewijze verhuur for more than two and at most four persons requires a permit; hospitaverhuur does not require this permit under the current municipal page.",
+        "Application is through Omgevingsloket using activity 'afwijken van regels in het omgevingsplan'; DigiD is explicitly required on the woningdelen page.",
+        "Decision period is 8 weeks, extendable once by 6 weeks; applicant-completion time is excluded.",
+        "The exact fee can vary because an application may contain several activities; the current page points to article 2.9 of the leges regulation instead of presenting one universal amount.",
+        "Opkoopbescherming threshold is EUR 576000 or lower at 2026 price level for qualifying acquisitions from 2022-07-01.",
+        "Opkoopbescherming requires DigiD for private owners or eHerkenning for corporations/companies, plus deed of transfer and WOZ value.",
+        "Opkoopbescherming fee is EUR 250 and response period is 8 weeks."
+      ],
+      "officialSources":[
+        "https://www.amstelveen.nl/woningdelen",
+        "https://www.amstelveen.nl/verhuurvergunning-bij-opkoopbescherming"
+      ],
+      "remaining":["live Omgevingsloket attachment set for a representative kamergewijze-verhuur address","article-2.9 activity-specific fee calculation where needed"],
+      "closureAssessment":"Opkoopbescherming product QA can close. Woningdelen is complete at product level but remains dynamically address/activity dependent for attachments and fee composition."
+    },
+    {
+      "municipality":"Assen",
+      "municipalityCode":"GM0106",
+      "status":"substantially-closed-address-and-document-output-remains",
+      "confirmed":[
+        "Kamerverhuur without owner occupation requires an omgevingsvergunning through Omgevingsloket.",
+        "Current municipal conditions include max 4 rooms, max 1 adult per room, min 12 m2 per room, BRP registration, fire safety, storage, bicycle parking and waste facilities.",
+        "Woningsplitsing/omzetting requires an omgevingsvergunning through Omgevingsloket; private applicants use DigiD and companies eHerkenning.",
+        "Each new independent dwelling must have own kitchen, toilet and bathroom and at least 40 m2; outside built-up area max 6 dwellings after splitting.",
+        "Outside built-up area an erfinrichtingsplan is explicitly required showing how the new dwellings fit the landscape.",
+        "Hospitaverhuur also requires an omgevingsvergunning under the current municipal page, with max 2 rooms, max 1 person per room and min 12 m2 per room."
+      ],
+      "officialSources":[
+        "https://www.assen.nl/kamerverhuur",
+        "https://www.assen.nl/woning-splitsen-in-aparte-zelfstandige-woningen",
+        "https://www.assen.nl/hospitaverhuur",
+        "https://www.assen.nl/stappenplan-aanvraag-omgevingsvergunning"
+      ],
+      "remaining":["capture exact Omgevingsloket-generated attachment list for representative addresses","finish separate current opkoopbescherming/verhuurdersvergunning exception-document matrix if it remains in product scope","map built-up-area/geographic applicability where required"],
+      "closureAssessment":"Generic room-rental/splitting/hospita route and key conditions are now current-source confirmed. Remaining work is dynamic/address-specific plus the separate opkoopbescherming document matrix."
+    }
+  ],
+  "summary":{"municipalitiesRetested":3,"genericResearchClosable":3,"fullyClosedWithoutAddressDynamicWork":0,"qualityRule":"Fresh official pages override stale backlog assumptions; address-dependent Omgevingsloket output stays explicitly open."}
+}

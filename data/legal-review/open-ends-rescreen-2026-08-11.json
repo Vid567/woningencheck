@@ -1,0 +1,30 @@
+{
+  "schemaVersion":"1.0.0",
+  "generatedAt":"2026-08-11",
+  "purpose":"Rescreen the legacy 42-municipality backlog against all closure/final-sweep findings before continuing. This is a triage overlay; the central backlog must subsequently be rewritten from this and the closure files.",
+  "importantFinding":"research-backlog.json is stale: it still reports all 42 municipalities open using pre-closure categories. Multiple entries have since been closed or reduced to legitimate address/dynamic residuals.",
+  "screeningRules":["current Omgevingsplan gemeente <name> is now an explicit mandatory source search","concept/draft/future instruments are retained as research signals, not current law","no generic legal residual survives without final official-source sweep","address/dynamic-only residuals are not broad-research defects"],
+  "priorityA_final_extra_source_sweep":[
+    {"municipality":"Asten","reason":"ordinary room-rental/splitting substantive framework still not positively established; now add direct current Omgevingsplan/Lokale-Regelgeving sweep"},
+    {"municipality":"Beek (L.)","reason":"same: strong generic application route but no municipality-specific substantive regime found"},
+    {"municipality":"Berg en Dal","reason":"splitting route found; ordinary room-rental substantive regime still unresolved"},
+    {"municipality":"Bergen (L.)","reason":"contrary-use application matrix found; substantive ordinary room-rental/splitting regime still unresolved"},
+    {"municipality":"Boekel","reason":"generic/principle-request route known; housing-specific substantive framework still unresolved"},
+    {"municipality":"Borne","reason":"splitting permit duty known; room-rental/housing-stock substantive source still unresolved"},
+    {"municipality":"Borsele","reason":"application/Omgevingsloket route known; housing-specific substantive source still unresolved"},
+    {"municipality":"Borger-Odoorn","reason":"legacy backlog still has ordinary room-rental/opkoopbescherming residual; needs final source sweep"},
+    {"municipality":"Bronckhorst","reason":"legacy backlog still has ordinary room-rental/opkoopbescherming residual; needs final source sweep"},
+    {"municipality":"Baarle-Nassau","reason":"successor/current assessment framework remains a true legal-currentness question"},
+    {"municipality":"Drimmelen","reason":"ordinary room-rental/dwelling-formation substantive framework remains true legal residual"}
+  ],
+  "priorityB_final_form_article_or_future_law_sweep":[
+    {"municipality":"Breda","reason":"only live splitsings-form attachment/authentication detail remains; classify not-public if final form branch cannot be exposed"},
+    {"municipality":"Bodegraven-Reeuwijk","reason":"only exception-specific live opkoopbescherming form detail remains"},
+    {"municipality":"Deventer","reason":"newly identified ontwerp Huisvestingsverordening 2026 requires adoption/final-text check"},
+    {"municipality":"Brummen","reason":"concept Huisvestingsverordening 2026 must remain monitored; check whether final adoption has occurred since consultation"}
+  ],
+  "resolved_or_reduced_to_legitimate_address_dynamic_after_closure":["Alphen-Chaam","Altena","Ameland","Amersfoort","Amstelveen","Amsterdam","Apeldoorn","Arnhem","Assen","Baarn","Barendrecht","Barneveld","Beekdaelen","Beesel","Bergeijk","Boxtel","Brunssum","De Fryske Marren","De Ronde Venen","Delft","Deurne","Diemen","Dinkelland","Doesburg","Dongen","Dronten","Druten","Duiven"],
+  "specialNotes":{"Doesburg":"Corrected: current Omgevingsplan CVDR696222 is now confirmed primary source. Do not retain the old 'source not found' backlog wording.","Diemen":"2026 Huisvestingsverordening adopted/effective; old 2022 conflict closed.","Delft":"generic article/form framework substantially closed; only property/category applicability remains.","Ameland":"generic activity/document matrix closed; address/dynamic only.","Assen":"current 2026 woningsplitsing/woningdelen policy found; mapping/dynamic only.","Apeldoorn":"current policy effective from Dec 2025 confirmed; address/Omgevingsplan only."},
+  "nextExecutionOrder":["Priority A municipalities: one last direct Omgevingsplan + Lokale Regelgeving + official decisions sweep","Priority B: final live-form/article/future-law checks","rewrite central research-backlog.json so stale open items disappear","then apply same screening to batch-02 municipalities Ede/Eemnes/Eemsdelta/Elburg/Emmen/Enkhuizen/Epe/Ermelo/Eindhoven/Enschede","synchronize Excel and run QA"],
+  "counts":{"legacyBacklog":42,"legacyItemsAlreadyReducedToAddressDynamicOrClosedGeneric":28,"priorityA_trueLegalResiduals":11,"priorityB_formOrFutureLawResiduals":4,"note":"Counts are triage counts and can overlap with concept/future-law tracking; central backlog rewrite will be authoritative."}
+}

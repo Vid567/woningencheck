@@ -1,0 +1,155 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-11",
+  "selection": {
+    "strategy": "next 10 municipalities after Bloemendaal; current-official-source-first with explicit expiry and uncertainty handling",
+    "municipalities": [
+      "Bodegraven-Reeuwijk",
+      "Boekel",
+      "Borger-Odoorn",
+      "Borne",
+      "Borsele",
+      "Boxtel",
+      "Breda",
+      "Bronckhorst",
+      "Brummen",
+      "Brunssum"
+    ]
+  },
+  "records": [
+    {
+      "municipalityName": "Bodegraven-Reeuwijk",
+      "municipalityCode": "GM1901",
+      "status": "current-huisvestingsverordening-stock-permits-and-opkoopbescherming-confirmed",
+      "confirmedCurrentSources": ["https://lokaleregelgeving.overheid.nl/CVDR697706"],
+      "findings": [
+        "Huisvestingsverordening Bodegraven-Reeuwijk 2023 remains current in 2026.",
+        "The regulation makes specified changes to the housing stock permit-dependent, including withdrawal, merger, conversion, dwelling formation and splitting into apartment rights.",
+        "Opkoopbescherming applies municipality-wide to qualifying dwellings with a WOZ value up to 70% of the NHG cost limit and lasts four years after registration of the deed, subject to statutory/regulatory conditions and exceptions.",
+        "Tourist-rental articles in this regulation are reserved and therefore cannot be used as a positive tourist-rental permit regime."
+      ],
+      "humanReviewRequired": true
+    },
+    {
+      "municipalityName": "Boekel",
+      "municipalityCode": "GM0755",
+      "status": "targeted-current-spatial-review-required",
+      "confirmedCurrentSources": ["https://lokaleregelgeving.overheid.nl/CVDR750434"],
+      "findings": [
+        "Current 2026 municipal legislation was found, but no sufficiently specific current dedicated Huisvestingsverordening/opkoopbescherming/room-rental framework was established in this pass.",
+        "The current leges framework confirms active Omgevingswet permitting infrastructure but is not substantive permission for room rental or splitting.",
+        "Room rental, splitting and other residential-use changes require current omgevingsplan/policy review for the address and use."
+      ],
+      "humanReviewRequired": true
+    },
+    {
+      "municipalityName": "Borger-Odoorn",
+      "municipalityCode": "GM1681",
+      "status": "current-woningsplitsing-policy-confirmed",
+      "confirmedCurrentSources": ["https://lokaleregelgeving.overheid.nl/CVDR757099"],
+      "findings": [
+        "Beleidsregel Woningsplitsing gemeente Borger-Odoorn is current from 17 February 2026.",
+        "The policy provides a current assessment framework for dwelling splitting under the Omgevingswet and omgevingsplan.",
+        "This does not establish a separate opkoopbescherming or general room-rental regime; those topics require their own current-source/address review."
+      ],
+      "humanReviewRequired": true
+    },
+    {
+      "municipalityName": "Borne",
+      "municipalityCode": "GM0147",
+      "status": "targeted-current-source-and-omgevingsplan-review-required",
+      "confirmedCurrentSources": [],
+      "findings": [
+        "No sufficiently specific current dedicated housing-stock/opkoopbescherming/room-rental regulation was positively established in this pass.",
+        "No negative conclusion is permitted from that absence.",
+        "Splitting, room rental and residential-use changes remain address/use-specific omgevingsplan questions until a current municipal policy source is positively established."
+      ],
+      "humanReviewRequired": true
+    },
+    {
+      "municipalityName": "Borsele",
+      "municipalityCode": "GM0654",
+      "status": "targeted-current-source-and-omgevingsplan-review-required",
+      "confirmedCurrentSources": [],
+      "findings": [
+        "No sufficiently specific current dedicated Huisvestingsverordening/opkoopbescherming/room-rental framework was positively established in this pass.",
+        "No unrestricted-use conclusion may be drawn.",
+        "Current omgevingsplan and municipality-specific policy must be checked for splitting, room rental and use changes."
+      ],
+      "humanReviewRequired": true
+    },
+    {
+      "municipalityName": "Boxtel",
+      "municipalityCode": "GM0757",
+      "status": "targeted-current-spatial-review-required",
+      "confirmedCurrentSources": [],
+      "findings": [
+        "No sufficiently specific current dedicated housing-stock permit framework was established in this pass.",
+        "A 2026 municipal tax/leges environment exists, but financial regulations do not prove substantive permission or prohibition.",
+        "Room rental and splitting must be resolved against the current omgevingsplan and any current successor policy."
+      ],
+      "humanReviewRequired": true
+    },
+    {
+      "municipalityName": "Breda",
+      "municipalityCode": "GM0758",
+      "status": "current-huisvestingsverordening-splitting-and-opkoopbescherming-confirmed",
+      "confirmedCurrentSources": ["https://lokaleregelgeving.overheid.nl/CVDR695686","https://lokaleregelgeving.overheid.nl/CVDR750749"],
+      "findings": [
+        "Huisvestingsverordening Breda 2022 remains current in 2026 (geldend from 10 May 2023 through present).",
+        "It contains a splitsingsvergunning regime for specified buildings/residential units and includes housing-stock, maintenance and liveability refusal grounds.",
+        "Opkoopbescherming applies for four years to qualifying dwellings municipality-wide up to the NHG threshold, subject to acquisition/use conditions and permit grounds.",
+        "The 2026 leges regulation confirms the opkoopbescherming permit remains operational."
+      ],
+      "humanReviewRequired": true
+    },
+    {
+      "municipalityName": "Bronckhorst",
+      "municipalityCode": "GM1876",
+      "status": "targeted-current-spatial-review-required",
+      "confirmedCurrentSources": ["https://lokaleregelgeving.overheid.nl/CVDR747261"],
+      "findings": [
+        "Current 2026 municipal regulations were found, but no sufficiently specific current dedicated Huisvestingsverordening/opkoopbescherming/room-rental regime was established in this pass.",
+        "The leges framework confirms active Omgevingswet permit processing but is not substantive evidence that splitting or room rental is allowed.",
+        "Address/use-specific omgevingsplan review remains required."
+      ],
+      "humanReviewRequired": true
+    },
+    {
+      "municipalityName": "Brummen",
+      "municipalityCode": "GM0213",
+      "status": "targeted-current-source-and-omgevingsplan-review-required",
+      "confirmedCurrentSources": [],
+      "findings": [
+        "No sufficiently specific current dedicated housing-stock/opkoopbescherming framework was positively established in this pass.",
+        "No negative legal conclusion is allowed.",
+        "Room rental, splitting and other residential-use changes require current municipal policy and omgevingsplan verification."
+      ],
+      "humanReviewRequired": true
+    },
+    {
+      "municipalityName": "Brunssum",
+      "municipalityCode": "GM0899",
+      "status": "targeted-current-source-and-omgevingsplan-review-required",
+      "confirmedCurrentSources": [],
+      "findings": [
+        "No sufficiently specific current dedicated Huisvestingsverordening/opkoopbescherming/room-rental source was positively established in this pass.",
+        "No unrestricted-use conclusion may be drawn from that absence.",
+        "Current omgevingsplan and municipal permit/policy routes remain required for room rental, splitting and use changes."
+      ],
+      "humanReviewRequired": true
+    }
+  ],
+  "summary": {
+    "municipalities": 10,
+    "specificCurrentHousingFrameworkOrPolicyFound": 4,
+    "targetedFollowUpRequired": 6,
+    "negativeLegalConclusions": 0
+  },
+  "safety": {
+    "researchOnly": true,
+    "legalApprovalAutomatic": false,
+    "automaticPublication": false,
+    "absenceOfEvidenceIsNotEvidenceOfAbsence": true
+  }
+}

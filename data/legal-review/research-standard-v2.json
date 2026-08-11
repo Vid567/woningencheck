@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "2.0.0",
+  "effectiveFrom": "2026-08-11",
+  "purpose": "Mandatory research standard for every municipality and relevant housing activity. A municipality review is incomplete until both legal rules and the practical application package are researched or explicitly marked as dynamically determined by the official application route.",
+  "requiredActivityTypes": [
+    "housing-permit",
+    "purchase-protection",
+    "room-rental",
+    "dwelling-formation",
+    "building-split/apartment-rights",
+    "withdrawal",
+    "merger",
+    "good-landlord-rental-permit",
+    "tourist-rental",
+    "bed-and-breakfast",
+    "short-stay",
+    "vacancy-law-temporary-rental",
+    "second-home/pied-a-terre",
+    "other-municipal-housing-use-permit"
+  ],
+  "requiredFieldsPerApplicableActivity": {
+    "legalRule": {
+      "required": [
+        "current legal basis/title",
+        "official source URL",
+        "valid-from/current-status",
+        "permit/registration/notification required or not",
+        "scope and geographic applicability",
+        "thresholds/limits",
+        "exceptions/exemptions",
+        "transition rules where relevant",
+        "interaction with Omgevingsplan/other permits",
+        "date checked"
+      ]
+    },
+    "applicationProcess": {
+      "required": [
+        "official application/product page",
+        "submission channel: Omgevingsloket, municipal portal, form, email/post or other official route",
+        "authentication requirement if stated: DigiD/eHerkenning/none/unknown",
+        "application form URL or form name where applicable",
+        "required documents and attachments",
+        "required drawings/floor plans/site plans",
+        "ownership/consent/evidence documents",
+        "parking/liveability/fire-safety/acoustic/structural or other studies if required",
+        "fees/leges only when current and reliably sourced",
+        "processing period only when current and reliably sourced",
+        "official source for every material application requirement",
+        "date checked"
+      ]
+    }
+  },
+  "documentEvidenceRules": {
+    "neverInventDocuments": true,
+    "municipalitySpecificRequirementsOverrideGenericAssumptions": true,
+    "omgevingsloketDynamicRequirements": "If the exact attachment list is generated only after answering questions in Omgevingsloket, record applicationDocumentsMode=dynamic-omgevingsloket and do not manufacture a static document list.",
+    "conditionalDocuments": "Record the trigger/condition for conditional documents rather than presenting them as always required.",
+    "sourcePriority": [
+      "current regulation/bylaw or official annex",
+      "official municipal application/product page",
+      "official municipal form/checklist",
+      "Omgevingsloket/official national application route",
+      "current official fee regulation"
+    ],
+    "thirdPartySourcesAllowed": false
+  },
+  "completionStates": {
+    "complete": "Both legal rule and practical application requirements are current and evidenced for all applicable activities in scope.",
+    "complete-dynamic-documents": "Legal rules are complete and official route confirms documents are determined dynamically during the application flow.",
+    "legal-complete-application-open": "Legal rule is researched but application route/documents still need confirmation.",
+    "application-complete-legal-open": "Application route/documents are known but substantive legal rule is not fully consolidated.",
+    "address-dependent": "Further outcome requires BAG/address/area/building/Omgevingsplan lookup.",
+    "targeted-research-required": "A specific legal or application requirement remains unresolved after mandatory retest."
+  },
+  "qaGates": [
+    "No municipality may be marked research-complete if an applicable permit has no application-process status.",
+    "No required-document list may be copied from another municipality without a current official source for the municipality being reviewed.",
+    "Expired forms, fee schedules and regulations must be rejected explicitly.",
+    "Unknown is preferable to an inferred document requirement.",
+    "Every future legal-review batch must update application-document coverage and the central backlog."
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-11",
+  "records": [
+    {
+      "municipalityCode": "GM1723",
+      "municipalityName": "Alphen-Chaam",
+      "province": "Noord-Brabant",
+      "researchStatus": "official-local-regulation-index-reviewed-open-address-level-omgevingsplan",
+      "confirmedCurrentSources": [
+        {
+          "title": "Programma Wonen Alphen-Chaam",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR743329",
+          "validFrom": "2025-08-13",
+          "role": "current municipal housing policy/programme; not a house-stock permit ordinance"
+        },
+        {
+          "title": "Current Alphen-Chaam local-regulations index",
+          "url": "https://lokaleregelgeving.overheid.nl/ZoekResultaat?count=200&datumrange=op&gemeenten=Alphen-Chaam",
+          "role": "official index checked for current local regulations"
+        }
+      ],
+      "findings": [
+        "No current Alphen-Chaam Huisvestingsverordening or dedicated opkoopbescherming/verhuurvergunning/woonruimtevoorraad ordinance was established in the official local-regulations review.",
+        "The current Programma Wonen is an Omgevingswet programme and cannot be used as evidence that a specific address is free of spatial or use restrictions.",
+        "For conversion, splitting, room rental or other use changes the applicable omgevingsplan must still be checked at address level.",
+        "Absence of a dedicated housing-stock ordinance in this review is not a negative legal conclusion about every possible local restriction."
+      ],
+      "addressLevelOmgevingsplanRequired": true,
+      "humanReviewRequired": true,
+      "legalApproval": false,
+      "publicationAllowed": false
+    },
+    {
+      "municipalityCode": "GM1959",
+      "municipalityName": "Altena",
+      "province": "Noord-Brabant",
+      "researchStatus": "current-spatial-and-targeted-housing-policy-found-no-current-huisvestingsverordening-established",
+      "confirmedCurrentSources": [
+        {
+          "title": "Omgevingsplan gemeente Altena",
+          "url": "https://lokaleregelgeving.overheid.nl/ZoekResultaat?datumop=1-10-2024&datumrange=op&indeling=&onderwerpen=volkshuisvesting+en+woningbouw&page=37&sort=date-desc",
+          "validFrom": "2024-03-12",
+          "role": "current spatial legal framework"
+        },
+        {
+          "title": "Beleidsregel huisvesting van arbeidsmigranten gemeente Altena 2023",
+          "url": "https://lokaleregelgeving.overheid.nl/ZoekResultaat?count=50&page=1&sort=date-desc&titel=huisvesting",
+          "validFrom": "2026-01-27",
+          "role": "current targeted housing policy for labour migrants"
+        },
+        {
+          "title": "Verordening doelgroepen sociale woningbouw en middenhuur gemeente Altena 2023",
+          "url": "https://lokaleregelgeving.overheid.nl/CVDR694061",
+          "role": "target-group/price/instandhouding rules for designated development"
+        }
+      ],
+      "historicalEvidence": [
+        "The 2019 labour-migrant housing policy explicitly stated that Altena had no Huisvestingsverordening at that time; this is historical context only and is not used by itself to prove the 2026 position."
+      ],
+      "findings": [
+        "No current dedicated Altena Huisvestingsverordening or opkoopbescherming regime was established in the official searches performed for this review.",
+        "Altena does have current housing-related rules and policies, including the Omgevingsplan and labour-migrant housing policy, so room rental, splitting and use changes require address/use-specific spatial assessment.",
+        "The absence of a current dedicated Huisvestingsverordening in these searches must not be translated into an unrestricted-permitted conclusion."
+      ],
+      "addressLevelOmgevingsplanRequired": true,
+      "humanReviewRequired": true,
+      "legalApproval": false,
+      "publicationAllowed": false
+    }
+  ],
+  "summary": {
+    "municipalities": 2,
+    "targetedSourceReviewCompleted": 2,
+    "addressLevelOmgevingsplanStillRequired": 2
+  },
+  "safety": {
+    "researchOnly": true,
+    "legalApprovalAutomatic": false,
+    "automaticPublication": false,
+    "absenceOfEvidenceIsNotEvidenceOfAbsence": true
+  }
+}

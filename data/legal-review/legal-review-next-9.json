@@ -1,0 +1,224 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-11T11:45:00Z",
+  "selection": {
+    "strategy": "next municipalities after previously reviewed first 10; Amsterdam isolated for separate deep review",
+    "municipalityCount": 9,
+    "municipalities": [
+      "Alphen-Chaam",
+      "Altena",
+      "Ameland",
+      "Amersfoort",
+      "Amstelveen",
+      "Apeldoorn",
+      "Arnhem",
+      "Assen",
+      "Asten"
+    ],
+    "excludedForSeparateDeepReview": ["Amsterdam"]
+  },
+  "records": [
+    {
+      "municipalityCode": "GM1723",
+      "municipalityName": "Alphen-Chaam",
+      "province": "Noord-Brabant",
+      "legalResearchStatus": "official-source-review-required",
+      "confirmedTopics": [],
+      "officialSources": [
+        "https://lokaleregelgeving.overheid.nl/ZoekResultaat?count=200&datumrange=op&gemeenten=Alphen-Chaam"
+      ],
+      "reviewNotes": [
+        "Current official local-regulations index was checked, but no sufficiently specific current housing-regulation source was established in this pass.",
+        "No negative legal conclusion may be drawn from absence of a source in this pass; targeted follow-up remains required."
+      ],
+      "humanReviewRequired": true,
+      "legalApproval": false,
+      "publicationAllowed": false
+    },
+    {
+      "municipalityCode": "GM1959",
+      "municipalityName": "Altena",
+      "province": "Noord-Brabant",
+      "legalResearchStatus": "official-source-review-required",
+      "confirmedTopics": [],
+      "officialSources": [],
+      "reviewNotes": [
+        "No sufficiently specific current official municipal housing-regulation source was established in this pass.",
+        "Targeted follow-up against the municipal site, Omgevingsloket/omgevingsplan and Lokale Regelgeving remains required.",
+        "No negative legal conclusion may be drawn from absence of a source in this pass."
+      ],
+      "humanReviewRequired": true,
+      "legalApproval": false,
+      "publicationAllowed": false
+    },
+    {
+      "municipalityCode": "GM0060",
+      "municipalityName": "Ameland",
+      "province": "Fryslân",
+      "legalResearchStatus": "current-official-sources-found-human-review-required",
+      "confirmedTopics": [
+        "housing-permit",
+        "purchase-protection",
+        "withdrawal-permit"
+      ],
+      "officialSources": [
+        "https://www.ameland.nl/huisvestingsvergunning",
+        "https://www.ameland.nl/wonen-en-verhuizen"
+      ],
+      "reviewNotes": [
+        "Municipal information confirms a housing-permit regime for specified permanent-use purchase and rental housing.",
+        "Municipal information confirms purchase protection for specified homes and a four-year self-occupation/prohibition period subject to exceptions/permit.",
+        "Municipal housing overview explicitly lists an onttrekkingsvergunning product; exact current scope, exceptions and application evidence still require article-level confirmation before product use."
+      ],
+      "humanReviewRequired": true,
+      "legalApproval": false,
+      "publicationAllowed": false
+    },
+    {
+      "municipalityCode": "GM0307",
+      "municipalityName": "Amersfoort",
+      "province": "Utrecht",
+      "legalResearchStatus": "current-official-sources-found-human-review-required",
+      "confirmedTopics": [
+        "purchase-protection",
+        "room-rental"
+      ],
+      "officialSources": [
+        "https://www.amersfoort.nl/verhuurvergunning-opkoopbescherming"
+      ],
+      "reviewNotes": [
+        "Municipal page confirms purchase protection, a four-year protected period and a WOZ threshold that is indexed annually; from 1 April 2026 the stated threshold is €418,100.",
+        "Municipal spatial-plan materials contain chamber-rental provisions, but several surfaced pages refer to older house-allocation instruments; current citywide legal basis and scope require targeted consolidation against the current omgevingsplan/huisvestingsverordening before publication."
+      ],
+      "humanReviewRequired": true,
+      "legalApproval": false,
+      "publicationAllowed": false
+    },
+    {
+      "municipalityCode": "GM0362",
+      "municipalityName": "Amstelveen",
+      "province": "Noord-Holland",
+      "legalResearchStatus": "current-official-sources-found-human-review-required",
+      "confirmedTopics": [
+        "purchase-protection",
+        "room-rental"
+      ],
+      "officialSources": [
+        "https://www.amstelveen.nl/verhuurvergunning-bij-opkoopbescherming",
+        "https://www.amstelveen.nl/woningdelen",
+        "https://lokaleregelgeving.overheid.nl/CVDR748045"
+      ],
+      "reviewNotes": [
+        "Current municipal information confirms purchase protection citywide for qualifying homes; the municipal page states a 2026 WOZ threshold of €576,000 and a four-year period.",
+        "Municipal information confirms a permit route for kamergewijze verhuur when more than two and at most four persons share a home, while hospitaverhuur is treated differently.",
+        "The 2025 Huisvestingsverordening provides the formal purchase-protection basis; article-level cross-check remains required for all exceptions and transitional cases."
+      ],
+      "humanReviewRequired": true,
+      "legalApproval": false,
+      "publicationAllowed": false
+    },
+    {
+      "municipalityCode": "GM0200",
+      "municipalityName": "Apeldoorn",
+      "province": "Gelderland",
+      "legalResearchStatus": "current-official-sources-found-human-review-required",
+      "confirmedTopics": [
+        "room-rental",
+        "dwelling-split"
+      ],
+      "officialSources": [
+        "https://digitaleplannen.apeldoorn.nl/NL.IMRO.0200.tam0018-vas1/r_NL.IMRO.0200.tam0018-vas1.html"
+      ],
+      "reviewNotes": [
+        "The adopted TAM omgevingsplan contains a permit requirement for verkamering, with an exception for one or two non-self-contained units and transition provisions for existing lawful situations.",
+        "The adopted TAM omgevingsplan also contains a permit requirement for splitting a building into two or more self-contained dwellings, subject to existing-situation exceptions and policy-rule assessment.",
+        "Geographic applicability is plan/aanduiding dependent and must therefore be evaluated against the map/location for address-level product use."
+      ],
+      "humanReviewRequired": true,
+      "legalApproval": false,
+      "publicationAllowed": false
+    },
+    {
+      "municipalityCode": "GM0202",
+      "municipalityName": "Arnhem",
+      "province": "Gelderland",
+      "legalResearchStatus": "current-official-sources-found-human-review-required",
+      "confirmedTopics": [
+        "room-rental",
+        "dwelling-split"
+      ],
+      "officialSources": [
+        "https://www.arnhem.nl/product/woningsplitsing-en-verkamering/"
+      ],
+      "reviewNotes": [
+        "Current municipal information confirms that an omgevingsvergunning is required for splitting or verkamering and directs applicants to the omgevingsplan for conditions.",
+        "For rental of five or more rooms the municipal page states additional manager, reporting and fire-safety obligations.",
+        "Address-level omgevingsplan conditions and parking rules must still be checked before any definitive legal answer."
+      ],
+      "humanReviewRequired": true,
+      "legalApproval": false,
+      "publicationAllowed": false
+    },
+    {
+      "municipalityCode": "GM0106",
+      "municipalityName": "Assen",
+      "province": "Drenthe",
+      "legalResearchStatus": "current-official-sources-found-human-review-required",
+      "confirmedTopics": [
+        "purchase-protection",
+        "room-rental",
+        "dwelling-split"
+      ],
+      "officialSources": [
+        "https://www.assen.nl/verhuurdersvergunning-aanvragen",
+        "https://www.assen.nl/kamerverhuur",
+        "https://www.assen.nl/woning-splitsen-in-aparte-zelfstandige-woningen"
+      ],
+      "reviewNotes": [
+        "Current municipal pages confirm an opkoopbescherming regime for qualifying purchases from 1 June 2023, subject to exceptions and a verhuurdersvergunning.",
+        "Kamerverhuur requires an omgevingsvergunning; the municipal page states a maximum of four rooms, one adult per room and a minimum room area of 12 m², plus further conditions in official policy rules.",
+        "Woningsplitsing requires an omgevingsvergunning; municipal information states a minimum of 40 m² per new dwelling and different limits inside versus outside the built-up area.",
+        "Formal policy-rule and omgevingsplan text still require article-level consolidation before product use."
+      ],
+      "humanReviewRequired": true,
+      "legalApproval": false,
+      "publicationAllowed": false
+    },
+    {
+      "municipalityCode": "GM0743",
+      "municipalityName": "Asten",
+      "province": "Noord-Brabant",
+      "legalResearchStatus": "current-official-sources-found-human-review-required",
+      "confirmedTopics": [
+        "temporary-rental-vacancy-law",
+        "room-rental-fire-safety"
+      ],
+      "officialSources": [
+        "https://www.asten.nl/wonen-en-verhuizen/leegstandvergunning",
+        "https://www.asten.nl/bouwen-en-verbouwen/omgevingsvergunning/brandveilig-gebruik"
+      ],
+      "reviewNotes": [
+        "Municipal information confirms a leegstandvergunning route for temporary rental under the Leegstandwet, subject to stated conditions.",
+        "Municipal fire-safety information treats five or more separately used units as kamergewijze verhuur for the described fire-safety reporting context.",
+        "This pass did not establish a complete municipality-wide current housing-regulation framework for conversion/splitting; targeted omgevingsplan review remains required."
+      ],
+      "humanReviewRequired": true,
+      "legalApproval": false,
+      "publicationAllowed": false
+    }
+  ],
+  "summary": {
+    "municipalities": 9,
+    "currentOfficialSourcesFound": 7,
+    "targetedOfficialSourceFollowUpRequired": 2,
+    "separateDeepReviewQueued": 1
+  },
+  "safety": {
+    "researchOnly": true,
+    "legalApprovalAutomatic": false,
+    "automaticPublication": false,
+    "publicRulesCreated": 0,
+    "negativeLegalConclusions": 0,
+    "absenceOfEvidenceIsNotEvidenceOfAbsence": true
+  }
+}

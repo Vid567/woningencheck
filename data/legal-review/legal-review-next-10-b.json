@@ -1,0 +1,156 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-11",
+  "selection": {
+    "strategy": "next 10 municipalities after Asten; official-source review with expired-regulation detection and address-level fallbacks",
+    "municipalities": [
+      "Baarle-Nassau",
+      "Baarn",
+      "Barendrecht",
+      "Barneveld",
+      "Beek (L.)",
+      "Beekdaelen",
+      "Beesel",
+      "Berg en Dal",
+      "Bergeijk",
+      "Bergen (L.)"
+    ]
+  },
+  "records": [
+    {
+      "municipalityName": "Baarle-Nassau",
+      "municipalityCode": "GM0744",
+      "status": "current-policy-and-spatial-review-required",
+      "confirmedCurrentSources": [
+        "https://lokaleregelgeving.overheid.nl/CVDR655719",
+        "https://lokaleregelgeving.overheid.nl/CVDR743440"
+      ],
+      "findings": [
+        "Current pre-mantelzorg policy explicitly distinguishes inwoning from permanent dwelling splitting and room rental; those latter uses are not permitted through that policy route.",
+        "The current Omgevingsprogramma wonen states that the municipality intends to create an assessment framework for dwelling splitting and room rental, showing that these uses require separate spatial-policy assessment rather than a generic permitted conclusion.",
+        "Address-level omgevingsplan review remains required for ordinary room rental or splitting."
+      ]
+    },
+    {
+      "municipalityName": "Baarn",
+      "municipalityCode": "GM0308",
+      "status": "current-regional-housing-regulation-found",
+      "confirmedCurrentSources": [
+        "https://lokaleregelgeving.overheid.nl/CVDR746230",
+        "https://lokaleregelgeving.overheid.nl/CVDR758788"
+      ],
+      "expiredSourcesRejected": ["https://lokaleregelgeving.overheid.nl/CVDR711341"],
+      "findings": [
+        "The former Huisvestingsverordening Baarn 2023 expired on 3 November 2025 and must not be used for 2026 answers.",
+        "It was replaced by the current Huisvestingsverordening regio Amersfoort – gemeente Baarn, valid from 3 November 2025 through 30 September 2032 with retroactive effect from 3 July 2025.",
+        "The current regulation primarily governs housing allocation/permits; use changes still require spatial/address-level review where relevant."
+      ]
+    },
+    {
+      "municipalityName": "Barendrecht",
+      "municipalityCode": "GM0489",
+      "status": "current-regional-housing-allocation-and-omgevingsplan-found",
+      "confirmedCurrentSources": [
+        "https://lokaleregelgeving.overheid.nl/CVDR740024",
+        "https://lokaleregelgeving.overheid.nl/ZoekResultaat?count=200&datumop=6-1-2026&datumrange=op&indeling=&onderwerpen=volkshuisvesting+en+woningbouw&page=16&sort=date-asc"
+      ],
+      "expiredSourcesRejected": ["https://lokaleregelgeving.overheid.nl/CVDR641954"],
+      "findings": [
+        "The 2020 regional housing-allocation regulation expired on 1 July 2024 and is not current evidence.",
+        "The current Verordening Woonruimtebemiddeling regio Rotterdam 2025 applies from 1 July 2025 through 30 June 2029.",
+        "The current Omgevingsplan gemeente Barendrecht is also in force; room rental, splitting and non-standard residential use therefore remain address/use-specific spatial questions."
+      ]
+    },
+    {
+      "municipalityName": "Barneveld",
+      "municipalityCode": "GM0203",
+      "status": "current-huisvestingsverordening-with-stock-permit-rules",
+      "confirmedCurrentSources": ["https://lokaleregelgeving.overheid.nl/CVDR738588"],
+      "expiredSourcesRejected": ["https://lokaleregelgeving.overheid.nl/CVDR709452"],
+      "findings": [
+        "The 2024-2028 regulation expired on 29 April 2025 and has been replaced by Huisvestingsverordening Barneveld 2025-2029.",
+        "The current regulation contains permit rules for conversion of self-contained housing to non-self-contained housing and for splitting dwellings, with scope tied to WOZ/NHG and geographic conditions.",
+        "Applications are assessed for housing-stock interests and liveability including parking, noise, fire safety, social safety and privacy."
+      ]
+    },
+    {
+      "municipalityName": "Beek (L.)",
+      "municipalityCode": "GM0888",
+      "status": "current-good-landlord-labour-migrant-permit-found",
+      "confirmedCurrentSources": ["https://lokaleregelgeving.overheid.nl/CVDR731804"],
+      "findings": [
+        "The Westelijke Mijnstreek 2025 rental ordinance is current in Beek and requires a municipal rental permit for all accommodation used for housing labour migrants.",
+        "The explanatory material also notes that many room-rental situations can conflict with the omgevingsplan, so a rental permit does not replace spatial-use approval.",
+        "Ordinary room rental/splitting outside this labour-migrant regime still requires targeted omgevingsplan review."
+      ]
+    },
+    {
+      "municipalityName": "Beekdaelen",
+      "municipalityCode": "GM1954",
+      "status": "current-room-rental-and-splitting-policy-found",
+      "confirmedCurrentSources": ["https://lokaleregelgeving.overheid.nl/CVDR716201"],
+      "findings": [
+        "Beleidsregel kamerverhuur en woningsplitsing Beekdaelen 2024 is current from 29 February 2024.",
+        "It explicitly addresses room rental and dwelling splitting and links decisions to the spatial framework/parapluplan and liveability considerations.",
+        "Address-level plan compatibility remains necessary before a definitive outcome."
+      ]
+    },
+    {
+      "municipalityName": "Beesel",
+      "municipalityCode": "GM0889",
+      "status": "current-huisvestingsverordening-allocation-focused",
+      "confirmedCurrentSources": ["https://lokaleregelgeving.overheid.nl/CVDR762614"],
+      "findings": [
+        "Huisvestingsverordening Beesel 2026 is current from 1 July 2026 through 30 June 2030.",
+        "Its confirmed scope includes a house-permit system for available social rental homes owned by housing corporations, with defined exclusions.",
+        "This regulation is allocation-focused; it should not be treated as a complete answer for room rental, splitting or other spatial-use changes."
+      ]
+    },
+    {
+      "municipalityName": "Berg en Dal",
+      "municipalityCode": "GM1945",
+      "status": "targeted-spatial-review-required",
+      "confirmedCurrentSources": ["https://lokaleregelgeving.overheid.nl/CVDR652893"],
+      "findings": [
+        "Current Bibob policy identifies room-rental/logies businesses with five or more rooms as a risk category for relevant permits, confirming that such uses can require permitting scrutiny.",
+        "No current dedicated Huisvestingsverordening/opkoopbescherming regime was established in this pass.",
+        "No unrestricted conclusion may be drawn; exact room-rental/splitting legality must be checked against the applicable omgevingsplan and permit route."
+      ]
+    },
+    {
+      "municipalityName": "Bergeijk",
+      "municipalityCode": "GM1724",
+      "status": "former-housing-stock-policy-expired-current-spatial-review-required",
+      "expiredSourcesRejected": ["https://lokaleregelgeving.overheid.nl/CVDR642622"],
+      "findings": [
+        "The former policy for better use of the existing housing stock, which contained explicit rules for splitting, double occupancy and room rental, expired on 1 July 2025 and cannot be used as current 2026 legal authority.",
+        "Because that former policy shows these activities have historically been regulated spatially, current legality must now be established from the current omgevingsplan/current successor policy rather than copied from the expired policy.",
+        "Targeted successor-policy and address-level omgevingsplan review remain required."
+      ]
+    },
+    {
+      "municipalityName": "Bergen (L.)",
+      "municipalityCode": "GM0893",
+      "status": "current-huisvestingsverordening-allocation-focused",
+      "confirmedCurrentSources": ["https://lokaleregelgeving.overheid.nl/CVDR757225"],
+      "findings": [
+        "Huisvestingsverordening Bergen (L) 2026 is current from 1 July 2026 through 30 June 2030.",
+        "The confirmed ordinance regulates the housing-permit/allocation system for designated social rental housing in the regional North Limburg framework.",
+        "It does not by itself resolve room-rental, splitting or other spatial-use changes; address-level omgevingsplan review remains required for those topics."
+      ]
+    }
+  ],
+  "summary": {
+    "municipalities": 10,
+    "currentSpecificHousingOrRentalFrameworkFound": 8,
+    "targetedSpatialOrSuccessorReviewRequired": 2,
+    "expiredRegulationsExplicitlyRejected": 4
+  },
+  "safety": {
+    "researchOnly": true,
+    "legalApprovalAutomatic": false,
+    "automaticPublication": false,
+    "negativeLegalConclusions": 0,
+    "absenceOfEvidenceIsNotEvidenceOfAbsence": true
+  }
+}

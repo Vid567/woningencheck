@@ -1,0 +1,64 @@
+{
+  "schemaVersion":"1.0.0",
+  "generatedAt":"2026-08-11",
+  "municipality":"Enschede",
+  "classification":"standalone",
+  "method":"Fresh standalone deep dive and retest against current municipal pages, current Omgevingsplan, current onzelfstandige-bewoning policy, current opkoopbescherming regulation/form and current 2026 fee regulation.",
+  "statusAfterRetest":"substantially-complete-address-map-and-dynamic-permit-output-remain",
+  "legalFramework":{
+    "kamerverhuur":"An omgevingsvergunning is required to use a property for room rental. Enschede maintains a current map of legal room-rental properties and pending applications, making location/spread part of the practical assessment.",
+    "onzelfstandigeBewoningPolicy":"Beleidsregel Onzelfstandige Bewoning Enschede 2022 remains current. The policy evaluates new/expanded room-rental applications for impact on the residential and living environment after the quantitative/spatial test; new room rental is not accepted where the living environment is considered vulnerable, subject to policy-specific exceptions/assessment.",
+    "hospitaverhuur":"No permit is required where the municipal hospita conditions are met: owner/occupant has main residence in the dwelling, permissions from landlord/mortgage provider where applicable, rental to at most one household, adult tenant with rental contract, no family/ex-partner, and both owner/occupant and tenant registered at the address.",
+    "omgevingsplan":"Current Omgevingsplan contains residential occupancy and splitting rules. It includes an over-occupancy rule of max one person per 12 m2 usable area for a dwelling and prohibits constructional splitting of existing dwellings into multiple ground-based dwellings in specified residential working areas.",
+    "woningsplitsing":"Municipal enforcement information explicitly treats splitting a building into multiple independent dwellings as an activity for which permit legality must be checked. A separate house-number application is not needed when an omgevingsvergunning is filed for splitting because numbering is handled with that permit.",
+    "opkoopbescherming":"Applies in Binnensingelgebied, Hogeland-Velve, Twekkelerveld-T.H.T., Boswinkel-Stadsveld, Enschede-Noord and Enschede-Zuid. For 2026 the municipal threshold is WOZ EUR 365000. The current regulation runs through 2026 and the restriction applies for four years to qualifying acquisitions; new dwellings younger than three months and already-rented dwellings are among stated exclusions."
+  },
+  "application":{
+    "kamerverhuurAndSplitting":{
+      "channel":"Omgevingsloket",
+      "precheck":"Vergunningcheck; concept request available for applicable activities",
+      "documentsMode":"activity-address-and-Omgevingsloket-dependent",
+      "knownAssessmentInputs":["address/location and current legal/pending room-rental map","quantitative/spatial test","residential/liveability assessment under current policy","current Omgevingsplan rules","building/technical information where splitting or alteration is involved"],
+      "staticAttachmentRule":"No universal static attachment list is encoded unless the live product/Omgevingsloket explicitly requires it."
+    },
+    "opkoopbescherming":{
+      "channel":"municipal digital form",
+      "baseRequiredDataDocuments":["owner name(s)","dwelling address","proof of registration of deed of transfer at Kadaster"],
+      "additionalDocuments":"exception-specific documents are requested by the live form",
+      "fee2026":"EUR 952.10",
+      "bibob":"municipal page states a Bibob investigation is performed for a rental-permit application and instructs applicant to add a completed Bibob form"
+    },
+    "leegstandswet":{
+      "channel":"municipal application route",
+      "fee2026":"EUR 169.90",
+      "note":"kept as a separate temporary-letting product; not conflated with ordinary room rental or opkoopbescherming"
+    }
+  },
+  "sourceCurrentness":{
+    "currentPolicy":"Beleidsregel Onzelfstandige Bewoning Enschede 2022, current from 2023 to present",
+    "currentOmgevingsplan":"current 2026 version checked",
+    "currentOpkoopRegulation":"current version effective from 13-12-2024 to present; original regulation is scheduled to expire 01-01-2027",
+    "currentFees":"2026 municipal product page/Legesverordening checked",
+    "rejectedAsPrimaryCurrentLaw":["expired 2006/2020/2021 onzelfstandige-bewoning rules"]
+  },
+  "officialSources":[
+    "https://www.enschede.nl/kamerverhuur",
+    "https://www.enschede.nl/hospitaverhuur",
+    "https://www.enschede.nl/omgevingsvergunning",
+    "https://www.enschede.nl/opkoopbescherming",
+    "https://formulier.enschede.nl/vergunning-opkoopbescherming-aanvragen/startpagina",
+    "https://www.enschede.nl/huisnummer-aanvragen",
+    "https://www.enschede.nl/overlast-bouw-kamerverhuur-en-evenementen",
+    "https://lokaleregelgeving.overheid.nl/CVDR696127",
+    "https://lokaleregelgeving.overheid.nl/CVDR696198",
+    "https://lokaleregelgeving.overheid.nl/CVDR681931",
+    "https://lokaleregelgeving.overheid.nl/CVDR749450"
+  ],
+  "remaining":[
+    "representative-address check against current Omgevingsplan and legal/pending kamerverhuur map",
+    "extract exact quantitative/spatial outcome and liveability assessment for a concrete room-rental address",
+    "capture live Omgevingsloket-generated attachment list and exact composed 2026 fee for a concrete room-rental/splitting project",
+    "for opkoopbescherming, map the address to a protected district and capture exception-specific documents from the live form where an exception is invoked"
+  ],
+  "closureAssessment":"Standalone generic legal/product research is substantially complete. The remaining questions are legitimately address/map/case dependent or dynamically generated by Omgevingsloket. Enschede therefore does not require further broad municipal research before batch closure."
+}

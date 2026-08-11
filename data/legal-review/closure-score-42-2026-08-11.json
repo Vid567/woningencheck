@@ -1,0 +1,18 @@
+{
+  "schemaVersion":"1.0.0",
+  "generatedAt":"2026-08-11",
+  "scope":"First 42 municipalities",
+  "score":{"municipalities":42,"genericResearchComplete":42,"genericResearchCoveragePercent":100.0,"avoidableOpenEnds":0},
+  "interpretation":"All 42 municipalities have passed initial research, v2 application/document backfill, retest, closure search and mandatory final sweep. Remaining work is exclusively legitimate address/location/building-category analysis, dynamic Omgevingsloket/live-form/case output, or explicit future-law monitoring. This is not a claim that every concrete property outcome is known without an address.",
+  "qaChecks":[
+    {"check":"legacy vague targeted-legal items retained","result":"PASS","detail":"They were replaced by current-plan/address or explicit no-positive-regime/future-watch classifications after final sweeps."},
+    {"check":"Doesburg current Omgevingsplan correction represented","result":"PASS","detail":"CVDR696222 is explicitly named in the consolidated backlog."},
+    {"check":"Deventer 2026 regulation still treated only as draft","result":"PASS","detail":"No. Final publication check promoted it to confirmed current-law track; it no longer requires adoption-watch status."},
+    {"check":"Brummen concept incorrectly treated as current law","result":"PASS","detail":"No. It remains a known-concept watch signal."},
+    {"check":"Breda/Bodegraven live-form details treated as legal research failures","result":"PASS","detail":"No. They are classified as live-form/case-specific outputs."},
+    {"check":"concept/draft signals discarded","result":"PASS","detail":"No. They are retained separately under the v1.1 closure-gate rule."}
+  ],
+  "qaResult":"PASS",
+  "authoritativeBacklog":"data/legal-review/research-backlog.json schemaVersion 3.0.0",
+  "nextRequiredDataStep":"Synchronize Excel/export representation for the 42 municipalities, then perform field-level JSON/backlog/Excel consistency QA."
+}

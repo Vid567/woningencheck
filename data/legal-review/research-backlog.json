@@ -1,0 +1,49 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-11",
+  "purpose": "Central register of municipalities with known follow-up work from completed legal-review batches. This file is additive: a municipality is removed from openItems only after its named nextAction has been completed and QA-checked.",
+  "statusDefinitions": {
+    "deep-review-required": "Current sources exist, but a complex municipality/topic needs article-level consolidation before product encoding.",
+    "address-check-required": "Legal framework is known but outcome depends on BAG/address, area, building, quota or Omgevingsplan.",
+    "targeted-research-required": "One or more specific current legal topics remain unconfirmed after research/retest.",
+    "product-signoff-required": "Research is substantively complete enough for implementation review, but no definitive automated legal conclusion may yet be published."
+  },
+  "workflow": [
+    "initial official-source search",
+    "deep search if any material topic remains unconfirmed",
+    "mandatory retest before leaving a topic open",
+    "record expired/replaced regulations explicitly",
+    "perform address/Omgevingsplan checks where location dependent",
+    "article-level consolidation for complex municipalities",
+    "QA and legal/product sign-off before definitive end-user conclusions"
+  ],
+  "openItems": [
+    {"municipality":"Amsterdam","overallStatus":"address-check-required","priority":"high","openTopics":["BAG-to-wijk/stadsdeel mapping","Annex-2 geometry","representative live Omgevingsplan address tests","live room-rental/B&B quota capacity"],"nextAction":"implement/test address and geometry resolution and run representative Omgevingsplan cases","detailFiles":["legal-review-amsterdam.json"]},
+    {"municipality":"Delft","overallStatus":"deep-review-required","priority":"high","openTopics":["current housing allocation framework","housing-stock changes","room/tourist rental where applicable","Omgevingsplan interaction"],"nextAction":"separate city-level deep review using current official sources","detailFiles":["legal-review-next-10-e.json"]},
+    {"municipality":"Diemen","municipalityCode":"GM0384","overallStatus":"deep-review-required","priority":"high","openTopics":["article-level opkoopbescherming","tourist rental","short stay","interacting exceptions and thresholds"],"nextAction":"article-level deep review of Huisvestingsverordening Diemen 2026","detailFiles":["legal-review-next-10-e.json"]},
+    {"municipality":"De Fryske Marren","overallStatus":"targeted-research-required","priority":"medium","openTopics":["current specific woningsplitsing implementation/policy following programme intent"],"nextAction":"retest successor/current splitting policy and then address-level Omgevingsplan criteria","detailFiles":["legal-review-next-10-e.json"]},
+    {"municipality":"De Ronde Venen","overallStatus":"address-check-required","priority":"medium","openTopics":["exact current thresholds","address/use applicability","Omgevingsplan interaction for conversion/splitting"],"nextAction":"article-level threshold consolidation plus representative address check","detailFiles":["legal-review-next-10-e.json"]},
+    {"municipality":"Deurne","overallStatus":"targeted-research-required","priority":"medium","openTopics":["current general room-rental framework"],"nextAction":"third-pass targeted municipal and Omgevingsplan search for ordinary room rental","detailFiles":["legal-review-next-10-e.json"]},
+    {"municipality":"Dinkelland","municipalityCode":"GM1774","overallStatus":"address-check-required","priority":"medium","openTopics":["specific room-rental/splitting rules if present","address-level Omgevingsplan"],"nextAction":"address/activity-specific Omgevingsplan validation; retain open unless current specific policy is positively established","detailFiles":["legal-review-next-10-f.json"]},
+    {"municipality":"Doesburg","municipalityCode":"GM0221","overallStatus":"targeted-research-required","priority":"medium","openTopics":["substantive legal basis and exact scope of opkoopbescherming/rental permit"],"nextAction":"locate and consolidate substantive current source; do not rely on leges item alone","detailFiles":["legal-review-next-10-f.json"]},
+    {"municipality":"Dongen","municipalityCode":"GM0766","overallStatus":"address-check-required","priority":"medium","openTopics":["general dwelling splitting","ordinary room-rental spatial applicability outside specific routes"],"nextAction":"current Omgevingsplan/address validation","detailFiles":["legal-review-next-10-f.json"]},
+    {"municipality":"Drimmelen","municipalityCode":"GM1719","overallStatus":"targeted-research-required","priority":"medium","openTopics":["ordinary room rental outside labour-migrant framework","general dwelling splitting"],"nextAction":"targeted current-source retest and address-level Omgevingsplan review","detailFiles":["legal-review-next-10-f.json"]},
+    {"municipality":"Dronten","municipalityCode":"GM0303","overallStatus":"address-check-required","priority":"medium","openTopics":["specific room-rental/splitting policy if present","address-level Omgevingsplan"],"nextAction":"address/activity-specific Omgevingsplan validation after completed mandatory retest","detailFiles":["legal-review-next-10-f.json"]},
+    {"municipality":"Druten","municipalityCode":"GM0225","overallStatus":"address-check-required","priority":"medium","openTopics":["room rental/splitting applicability","international-worker policy interaction","Omgevingsplan"],"nextAction":"consolidate current policy and run address/use-specific spatial check","detailFiles":["legal-review-next-10-f.json"]},
+    {"municipality":"Duiven","municipalityCode":"GM0226","overallStatus":"targeted-research-required","priority":"medium","openTopics":["current successor/current applicability of older room-rental spatial policy","current Omgevingsplan interaction"],"nextAction":"retest current policy status and consolidate with current Omgevingsplan","detailFiles":["legal-review-next-10-f.json"]}
+  ],
+  "registerRules": {
+    "neverTreatMissingSourceAsNoRule": true,
+    "mandatoryRetestBeforeOpen": true,
+    "expiredRegulationsMustBeRejected": true,
+    "complexMunicipalitiesMayBeSeparated": true,
+    "newBatchMustUpdateThisRegister": true,
+    "closedItemRequiresQA": true
+  },
+  "summary": {
+    "knownOpenMunicipalitiesInCurrentConsolidation": 13,
+    "highPriority": 3,
+    "mediumPriority": 10,
+    "note": "This first central register consolidates explicitly known open work identified in the most recent deep-review rounds. Earlier legal-review files must be backfilled into this same register before it is treated as a complete all-batches inventory."
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "schemaVersion":"1.0.0",
+  "generatedAt":"2026-08-11",
+  "method":"Fresh official-source retest of all 42 municipalities then present in research-backlog.json. Searches prioritized Lokale Regelgeving/Overheid.nl and current municipal legal sources, with existing detail reviews used to interpret results. A failed discovery never means no rule.",
+  "records":[
+    {"municipality":"Alphen-Chaam","result

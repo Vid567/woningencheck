@@ -1,0 +1,19 @@
+{
+  "schemaVersion":"1.0.0",
+  "generatedAt":"2026-08-11",
+  "researchStandard":"research-standard-v2.json",
+  "purpose":"Backfill tracker for municipality-specific application routes, forms, documents, attachments, studies, fees and official sources for municipalities already legally reviewed.",
+  "rules":{"documentsMayNotBeInferred":true,"dynamicOmgevingsloketIsValidOutcome":true,"currentOfficialSourcesOnly":true,"backfillRequiredBeforeResearchComplete":true},
+  "statuses":{"not-started":"Legal review exists but application-document research has not yet been completed under v2 standard.","in-progress":"At least one applicable activity has application data but coverage is incomplete.","complete":"All applicable activities have official application/document coverage.","complete-dynamic":"All applicable activities are covered and at least one official route determines attachments dynamically."},
+  "municipalitiesToBackfill":[
+    "Alphen-Chaam","Altena","Ameland","Amersfoort","Amstelveen","Amsterdam","Apeldoorn","Arnhem","Assen","Asten",
+    "Baarle-Nassau","Baarn","Barendrecht","Barneveld","Beek (L.)","Beekdaelen","Beesel","Berg en Dal","Bergeijk","Bergen (L.)",
+    "Bodegraven-Reeuwijk","Boekel","Borger-Odoorn","Borne","Borsele","Boxtel","Breda","Bronckhorst","Brummen","Brunssum",
+    "De Bilt","De Fryske Marren","De Ronde Venen","De Wolden","Delft","Den Helder","Deurne","Deventer","Diemen","Dijk en Waard",
+    "Dinkelland","Doesburg","Doetinchem","Dongen","Dordrecht","Drechterland","Drimmelen","Dronten","Druten","Duiven"
+  ],
+  "defaultStatus":"not-started",
+  "totalMunicipalities":50,
+  "requiredOutputPerMunicipality":{"applicableActivities":[],"applicationRoutes":[],"officialProductPages":[],"forms":[],"requiredDocuments":[],"conditionalDocuments":[],"drawings":[],"studies":[],"fees":[],"processingTimes":[],"dynamicOmgevingsloketActivities":[],"sources":[],"checkedAt":null,"coverageStatus":"not-started"},
+  "nextAction":"Backfill these 50 already-reviewed municipalities before adding new municipalities. Prioritize municipalities with otherwise completed legal research, then deep-review cases, then remaining address/targeted cases. Update research-backlog.json whenever application-document work creates or closes an open item."
+}

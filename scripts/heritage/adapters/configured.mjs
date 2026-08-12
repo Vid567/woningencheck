@@ -14,10 +14,13 @@ function designationOf(r,c){const s=low(first(r,c.statusFields||['status','Statu
 
 export function normalizeConfiguredHeritage(record={},config={}){
   const typeValue=first(record,config.typeFields||['type','Type','soort','Soort','categorie','Categorie','status','Status']);
-  const heritageType=mapType(typeValue,config.objectTypeMap);
+  const rawObjectType=mapType(typeValue,config.objectTypeMap);
   const areaType=mapType(typeValue,config.areaTypeMap);
-  if(!heritageType&&!areaType)return null;
   const address=addressOf(record,config),geometry=geometryOf(record,config);
+  // If a record explicitly matches an area category and has geometry, treat it as area-only.
+  // This prevents broad object substrings such as "cultuurhistorisch" from turning zones into monument-like objects.
+  const heritageType=areaType&&geometry?null:rawObjectType;
+  if(!heritageType&&!areaType)return null;
   const designationStatus=designationOf(record,config);
   const matchMethod=heritageType?(address?MATCH_METHODS.ADDRESS:geometry?MATCH_METHODS.GEOMETRY:MATCH_METHODS.SOURCE):(geometry?MATCH_METHODS.GEOMETRY:address?MATCH_METHODS.ADDRESS:MATCH_METHODS.SOURCE);
   return {sourceId:config.sourceId,sourceRecordId:String(first(record,config.idFields||['id','ID','OBJECTID','objectid','monumentnummer','Monumentnummer'])||address||''),municipalityCode:config.municipalityCode,addresses:address?[address]:[],heritageType:heritageType||null,areaType:areaType||null,designationStatus,matchMethod,name:norm(first(record,config.nameFields||['naam','Naam','omschrijving','Omschrijving']))||address||null,officialUrl:config.officialUrl||null,geometry,legalEffect:designationStatus===DESIGNATION_STATUS.PREPROTECTED?'voorbescherming-actief':designationStatus===DESIGNATION_STATUS.UNDER_REVIEW?'nog-geen-extra-bescherming':null,raw:record};

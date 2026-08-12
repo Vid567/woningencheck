@@ -1,0 +1,56 @@
+name: Woningencheck E2E
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'assets/**'
+      - 'data/regulations.json'
+      - 'data/location-rules.json'
+      - 'data/municipalities-2026.json'
+      - 'tests/e2e/**'
+      - 'playwright.config.mjs'
+      - 'package.json'
+      - '.github/workflows/e2e.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  browser-e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install
+      - run: npx playwright install --with-deps chromium
+      - name: Run desktop and mobile E2E
+        run: npm run test:e2e
+      - name: Upload Playwright report on failure
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: playwright-report
+          path: playwright-report/
+          retention-days: 7
+
+  pdok-connectivity:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - name: Non-blocking live PDOK connectivity check
+        run: |
+          curl --fail --retry 2 --max-time 20 \
+            'https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=2315SW%2051&fq=type:adres&rows=1' \
+            -o /tmp/pdok.json
+          python3 - <<'PY'
+          import json
+          d=json.load(open('/tmp/pdok.json'))
+          assert d.get('response',{}).get('docs'), 'PDOK returned no address documents'
+          print('PDOK live connectivity: PASS')
+          PY

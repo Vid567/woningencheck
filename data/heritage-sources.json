@@ -1,0 +1,92 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-08-12",
+  "principles": {
+    "objectAndAreaStatusSeparated": true,
+    "absenceDoesNotImplyNoHeritage": true,
+    "preferredMatchOrder": ["bag_relation", "geometry_intersection", "address_exact", "source_assertion", "manual"]
+  },
+  "sources": [
+    {
+      "id": "rce-rijksmonumentenregister",
+      "scope": "NL",
+      "authority": "Rijksdienst voor het Cultureel Erfgoed",
+      "types": ["rijksmonument"],
+      "automationLevel": "A",
+      "sourceType": "national-register-open-data",
+      "officialUrl": "https://www.cultureelerfgoed.nl/onderwerpen/r/rijksmonumentenregister",
+      "notes": "Landelijke baselaag voor aangewezen rijksmonumenten; gemeentelijke aanvullende categorieën blijven apart nodig."
+    },
+    {
+      "id": "rce-beschermde-gezichten",
+      "scope": "NL",
+      "authority": "Rijksdienst voor het Cultureel Erfgoed",
+      "types": ["rijksbeschermd-stads-dorpsgezicht"],
+      "automationLevel": "A/B",
+      "sourceType": "national-heritage-area-data",
+      "officialUrl": "https://www.cultureelerfgoed.nl/onderwerpen/b/beschermde-stads-en-dorpsgezichten",
+      "notes": "Gebiedsstatus moet los van objectstatus worden opgeslagen."
+    },
+    {
+      "id": "amsterdam-monumenten-api",
+      "scope": "GM0363",
+      "authority": "Gemeente Amsterdam",
+      "types": ["rijksmonument", "gemeentelijk-monument", "unesco-erfgoedgebied"],
+      "automationLevel": "A",
+      "sourceType": "REST-WFS-GeoJSON-CSV",
+      "officialUrl": "https://api.data.amsterdam.nl/v1/docs/datasets/monumenten.html",
+      "preferredMatch": ["bag_relation", "geometry_intersection"]
+    },
+    {
+      "id": "utrecht-erfgoed-open-data",
+      "scope": "GM0344",
+      "authority": "Gemeente Utrecht",
+      "types": ["gemeentelijk-monument", "beeldbepalend-pand", "gemeentelijk-beschermd-stads-dorpsgezicht"],
+      "automationLevel": "A",
+      "sourceType": "WFS-CSV-Geo",
+      "officialUrl": "https://open.utrecht.nl/dataset/beeldbepalend-pand/4700205e-1969-4bf9-a4ca-f054abd71b8a",
+      "preferredMatch": ["address_exact", "geometry_intersection"]
+    },
+    {
+      "id": "eindhoven-monumenten-open-data",
+      "scope": "GM0772",
+      "authority": "Gemeente Eindhoven",
+      "types": ["gemeentelijk-monument", "cultuurhistorisch-waardevol"],
+      "automationLevel": "A",
+      "sourceType": "OpenDataSoft-API",
+      "officialUrl": "https://data.eindhoven.nl/explore/dataset/monumenten/",
+      "preferredMatch": ["geometry_intersection", "address_exact"]
+    },
+    {
+      "id": "eindhoven-voorbescherming-open-data",
+      "scope": "GM0772",
+      "authority": "Gemeente Eindhoven",
+      "types": ["gemeentelijk-monument", "cultuurhistorisch-waardevol"],
+      "designationStatuses": ["preprotected", "under_review"],
+      "automationLevel": "A",
+      "sourceType": "OpenDataSoft-API",
+      "officialUrl": "https://data.eindhoven.nl/explore/dataset/monumenten-in-ontwerp-en-voorbescherming/",
+      "notes": "Voorbescherming kan juridische bescherming activeren; 'in onderzoek' mag niet als beschermd worden behandeld."
+    },
+    {
+      "id": "arnhem-monumenten-arcgis",
+      "scope": "GM0202",
+      "authority": "Gemeente Arnhem",
+      "types": ["rijksmonument", "gemeentelijk-monument", "rijksbeschermd-stads-dorpsgezicht", "gemeentelijk-beschermd-stads-dorpsgezicht"],
+      "automationLevel": "A",
+      "sourceType": "ArcGIS-MapServer",
+      "officialUrl": "https://geo.arnhem.nl/arcgis/rest/services/OpenData/Monumenten/MapServer",
+      "preferredMatch": ["geometry_intersection"]
+    },
+    {
+      "id": "enschede-monumenten-arcgis",
+      "scope": "GM0153",
+      "authority": "Gemeente Enschede",
+      "types": ["rijksmonument", "gemeentelijk-monument"],
+      "automationLevel": "A",
+      "sourceType": "ArcGIS-MapServer",
+      "officialUrl": "https://geoportaal.enschede.nl/ArcGIS/rest/services/Erfgoed_Monumenten/MapServer",
+      "preferredMatch": ["geometry_intersection"]
+    }
+  ]
+}

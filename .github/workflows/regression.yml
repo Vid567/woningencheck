@@ -37,3 +37,5 @@ jobs:
         run: node tests/heritage-amsterdam.mjs
       - name: Run Utrecht heritage adapter regression
         run: node tests/heritage-utrecht.mjs
+      - name: Run Eindhoven heritage adapter regression
+        run: node tests/heritage-eindhoven.mjs

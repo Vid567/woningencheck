@@ -29,3 +29,5 @@ jobs:
           node-version: '22'
       - name: Run decision-engine regression and 342-municipality data QA
         run: node tests/regression.mjs
+      - name: Run heritage resolver regression
+        run: node tests/heritage-regression.mjs

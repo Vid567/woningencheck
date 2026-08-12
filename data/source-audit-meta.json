@@ -1,0 +1,22 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-12",
+  "municipalityCoverage": 342,
+  "sourceRecordCount": 799,
+  "confidenceCounts": {
+    "green": 478,
+    "orange": 321,
+    "red": 0
+  },
+  "confidenceModel": {
+    "green": "Actueel gecontroleerd",
+    "orange": "Extra controle aanbevolen",
+    "red": "Onvoldoende zekerheid voor automatisch advies"
+  },
+  "usage": {
+    "green": "Officiële bron en geldigheid zijn voldoende bevestigd voor de huidige informatieweergave; toon bron en controledatum.",
+    "orange": "Officiële bron is bekend, maar actualiteit, einddatum of overgangssituatie vraagt extra controle voordat een stellige conclusie of vervolgstap wordt getoond.",
+    "red": "Niet gebruiken voor automatisch advies of aanvraag-CTA totdat een nieuwe broncontrole is uitgevoerd."
+  },
+  "note": "De bron-audit en de beslisregels zijn bewust gescheiden. Een betrouwbaarheidskleur gaat over bronzekerheid en niet over de kans dat een vergunning wordt verleend."
+}

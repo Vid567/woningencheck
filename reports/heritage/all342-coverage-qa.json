@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T21:03:59.586Z",
+  "generatedAt": "2026-08-12T21:11:44.701Z",
   "baseline": {
     "file": "data/municipalities-2026.json",
     "referenceDate": "2026-01-01",
@@ -78,7 +78,7 @@
     "duplicateCodeCount": 3,
     "missingBaselineMunicipalities": 75,
     "invalidOrNonBaselineCodes": 0,
-    "nameMismatchCount": 4,
+    "nameMismatchCount": 0,
     "uniqueMunicipalitiesWithAtLeastOneVerifiedRecord": 92,
     "uniqueMunicipalitiesDiscoveryOnly": 175,
     "uniqueMunicipalitiesCoveredPercent": 78.07,
@@ -299,11 +299,6 @@
       "province": "Groningen"
     },
     {
-      "code": "GM1773",
-      "name": "Olst-Wijhe",
-      "province": "Overijssel"
-    },
-    {
       "code": "GM0431",
       "name": "Oostzaan",
       "province": "Noord-Holland"
@@ -322,6 +317,11 @@
       "code": "GM1926",
       "name": "Pijnacker-Nootdorp",
       "province": "Zuid-Holland"
+    },
+    {
+      "code": "GM0177",
+      "name": "Raalte",
+      "province": "Overijssel"
     },
     {
       "code": "GM1667",
@@ -515,34 +515,5 @@
     }
   ],
   "invalidCodes": [],
-  "nameMismatches": [
-    {
-      "code": "GM0164",
-      "baselineName": "Hengelo (O.)",
-      "batchName": "Hengelo",
-      "batch": "data/heritage-expansion-batch-01.json",
-      "status": "verified"
-    },
-    {
-      "code": "GM0687",
-      "baselineName": "Middelburg (Z.)",
-      "batchName": "Middelburg",
-      "batch": "data/heritage-expansion-batch-01.json",
-      "status": "discovery-required"
-    },
-    {
-      "code": "GM0177",
-      "baselineName": "Raalte",
-      "batchName": "Olst-Wijhe",
-      "batch": "data/heritage-expansion-batch-07.json",
-      "status": "verified"
-    },
-    {
-      "code": "GM0971",
-      "baselineName": "Stein (L.)",
-      "batchName": "Stein",
-      "batch": "data/heritage-expansion-batch-08.json",
-      "status": "discovery-required"
-    }
-  ]
+  "nameMismatches": []
 }

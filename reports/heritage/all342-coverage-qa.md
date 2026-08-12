@@ -1,6 +1,6 @@
 # Heritage all-342 coverage QA
 
-Generated: 2026-08-12T21:03:59.586Z
+Generated: 2026-08-12T21:11:44.701Z
 Baseline: 342 municipalities (2026-01-01)
 
 ## Summary
@@ -11,7 +11,7 @@ Baseline: 342 municipalities (2026-01-01)
 - Missing baseline municipalities: 75
 - Duplicate municipality codes across batches: 3
 - Non-baseline/invalid codes: 0
-- Code/name mismatches: 4
+- Code/name mismatches: 0
 - Unique municipalities with at least one verified record: 92/342 (26.9%)
 - Unique municipalities discovery-only: 175
 
@@ -61,11 +61,11 @@ Baseline: 342 municipalities (2026-01-01)
 - GM1952 — Midden-Groningen (Groningen)
 - GM0268 — Nijmegen (Gelderland)
 - GM1895 — Oldambt (Groningen)
-- GM1773 — Olst-Wijhe (Overijssel)
 - GM0431 — Oostzaan (Noord-Holland)
 - GM0086 — Opsterland (Fryslân)
 - GM0765 — Pekela (Groningen)
 - GM1926 — Pijnacker-Nootdorp (Zuid-Holland)
+- GM0177 — Raalte (Overijssel)
 - GM1667 — Reusel-De Mierden (Noord-Brabant)
 - GM0340 — Rhenen (Utrecht)
 - GM0599 — Rotterdam (Zuid-Holland)
@@ -113,10 +113,7 @@ Baseline: 342 municipalities (2026-01-01)
 
 ## Code/name mismatches
 
-- GM0164: baseline “Hengelo (O.)”, batch “Hengelo” in heritage-expansion-batch-01.json
-- GM0687: baseline “Middelburg (Z.)”, batch “Middelburg” in heritage-expansion-batch-01.json
-- GM0177: baseline “Raalte”, batch “Olst-Wijhe” in heritage-expansion-batch-07.json
-- GM0971: baseline “Stein (L.)”, batch “Stein” in heritage-expansion-batch-08.json
+- None
 
 ## Non-baseline codes
 

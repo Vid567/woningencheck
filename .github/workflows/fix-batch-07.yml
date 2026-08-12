@@ -3,6 +3,9 @@ name: Fix heritage batch 07
 on:
   workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
   fix-batch-07:
     runs-on: ubuntu-latest

@@ -1,5 +1,6 @@
 {
-  "generatedAt": "2026-08-12T21:11:44.701Z",
+  "generatedAt": "2026-08-12T21:28:27.204Z",
+  "structuralPass": true,
   "baseline": {
     "file": "data/municipalities-2026.json",
     "referenceDate": "2026-01-01",
@@ -10,9 +11,9 @@
     {
       "file": "data/heritage-expansion-batch-01.json",
       "batchId": "heritage-expansion-01",
-      "records": 30,
-      "verified": 13,
-      "discoveryRequired": 17
+      "records": 27,
+      "verified": 12,
+      "discoveryRequired": 15
     },
     {
       "file": "data/heritage-expansion-batch-02.json",
@@ -69,451 +70,44 @@
       "records": 30,
       "verified": 11,
       "discoveryRequired": 19
+    },
+    {
+      "file": "data/heritage-expansion-batch-10.json",
+      "batchId": "heritage-expansion-10",
+      "records": 25,
+      "verified": 0,
+      "discoveryRequired": 25
+    },
+    {
+      "file": "data/heritage-expansion-batch-11.json",
+      "batchId": "heritage-expansion-11",
+      "records": 25,
+      "verified": 0,
+      "discoveryRequired": 25
+    },
+    {
+      "file": "data/heritage-expansion-batch-12.json",
+      "batchId": "heritage-expansion-12",
+      "records": 25,
+      "verified": 0,
+      "discoveryRequired": 25
     }
   ],
   "totals": {
-    "rawBatchRecords": 270,
-    "uniqueBatchCodes": 267,
-    "uniqueCodesMatchingBaseline": 267,
-    "duplicateCodeCount": 3,
-    "missingBaselineMunicipalities": 75,
+    "rawBatchRecords": 342,
+    "uniqueBatchCodes": 342,
+    "uniqueCodesMatchingBaseline": 342,
+    "duplicateCodeCount": 0,
+    "missingBaselineMunicipalities": 0,
     "invalidOrNonBaselineCodes": 0,
     "nameMismatchCount": 0,
     "uniqueMunicipalitiesWithAtLeastOneVerifiedRecord": 92,
-    "uniqueMunicipalitiesDiscoveryOnly": 175,
-    "uniqueMunicipalitiesCoveredPercent": 78.07,
+    "uniqueMunicipalitiesDiscoveryOnly": 250,
+    "uniqueMunicipalitiesCoveredPercent": 100,
     "uniqueMunicipalitiesVerifiedPercent": 26.9
   },
-  "duplicates": [
-    {
-      "code": "GM0715",
-      "baselineName": "Terneuzen",
-      "count": 2,
-      "occurrences": [
-        {
-          "batch": "data/heritage-expansion-batch-01.json",
-          "name": "Terneuzen",
-          "status": "discovery-required"
-        },
-        {
-          "batch": "data/heritage-expansion-batch-08.json",
-          "name": "Terneuzen",
-          "status": "verified"
-        }
-      ]
-    },
-    {
-      "code": "GM0957",
-      "baselineName": "Roermond",
-      "count": 2,
-      "occurrences": [
-        {
-          "batch": "data/heritage-expansion-batch-01.json",
-          "name": "Roermond",
-          "status": "verified"
-        },
-        {
-          "batch": "data/heritage-expansion-batch-08.json",
-          "name": "Roermond",
-          "status": "verified"
-        }
-      ]
-    },
-    {
-      "code": "GM1674",
-      "baselineName": "Roosendaal",
-      "count": 2,
-      "occurrences": [
-        {
-          "batch": "data/heritage-expansion-batch-01.json",
-          "name": "Roosendaal",
-          "status": "discovery-required"
-        },
-        {
-          "batch": "data/heritage-expansion-batch-08.json",
-          "name": "Roosendaal",
-          "status": "verified"
-        }
-      ]
-    }
-  ],
-  "missing": [
-    {
-      "code": "GM0034",
-      "name": "Almere",
-      "province": "Flevoland"
-    },
-    {
-      "code": "GM0363",
-      "name": "Amsterdam",
-      "province": "Noord-Holland"
-    },
-    {
-      "code": "GM0200",
-      "name": "Apeldoorn",
-      "province": "Gelderland"
-    },
-    {
-      "code": "GM0202",
-      "name": "Arnhem",
-      "province": "Gelderland"
-    },
-    {
-      "code": "GM1901",
-      "name": "Bodegraven-Reeuwijk",
-      "province": "Zuid-Holland"
-    },
-    {
-      "code": "GM0758",
-      "name": "Breda",
-      "province": "Noord-Brabant"
-    },
-    {
-      "code": "GM1891",
-      "name": "Dantumadiel",
-      "province": "Fryslân"
-    },
-    {
-      "code": "GM0736",
-      "name": "De Ronde Venen",
-      "province": "Utrecht"
-    },
-    {
-      "code": "GM1690",
-      "name": "De Wolden",
-      "province": "Drenthe"
-    },
-    {
-      "code": "GM0503",
-      "name": "Delft",
-      "province": "Zuid-Holland"
-    },
-    {
-      "code": "GM0518",
-      "name": "Den Haag",
-      "province": "Zuid-Holland"
-    },
-    {
-      "code": "GM0400",
-      "name": "Den Helder",
-      "province": "Noord-Holland"
-    },
-    {
-      "code": "GM0150",
-      "name": "Deventer",
-      "province": "Overijssel"
-    },
-    {
-      "code": "GM0221",
-      "name": "Doesburg",
-      "province": "Gelderland"
-    },
-    {
-      "code": "GM0505",
-      "name": "Dordrecht",
-      "province": "Zuid-Holland"
-    },
-    {
-      "code": "GM0772",
-      "name": "Eindhoven",
-      "province": "Noord-Brabant"
-    },
-    {
-      "code": "GM0114",
-      "name": "Emmen",
-      "province": "Drenthe"
-    },
-    {
-      "code": "GM0153",
-      "name": "Enschede",
-      "province": "Overijssel"
-    },
-    {
-      "code": "GM0513",
-      "name": "Gouda",
-      "province": "Zuid-Holland"
-    },
-    {
-      "code": "GM0014",
-      "name": "Groningen",
-      "province": "Groningen"
-    },
-    {
-      "code": "GM0392",
-      "name": "Haarlem",
-      "province": "Noord-Holland"
-    },
-    {
-      "code": "GM0074",
-      "name": "Heerenveen",
-      "province": "Fryslân"
-    },
-    {
-      "code": "GM0080",
-      "name": "Leeuwarden",
-      "province": "Fryslân"
-    },
-    {
-      "code": "GM0546",
-      "name": "Leiden",
-      "province": "Zuid-Holland"
-    },
-    {
-      "code": "GM0935",
-      "name": "Maastricht",
-      "province": "Limburg"
-    },
-    {
-      "code": "GM1948",
-      "name": "Meierijstad",
-      "province": "Noord-Brabant"
-    },
-    {
-      "code": "GM0119",
-      "name": "Meppel",
-      "province": "Drenthe"
-    },
-    {
-      "code": "GM1842",
-      "name": "Midden-Delfland",
-      "province": "Zuid-Holland"
-    },
-    {
-      "code": "GM1731",
-      "name": "Midden-Drenthe",
-      "province": "Drenthe"
-    },
-    {
-      "code": "GM1952",
-      "name": "Midden-Groningen",
-      "province": "Groningen"
-    },
-    {
-      "code": "GM0268",
-      "name": "Nijmegen",
-      "province": "Gelderland"
-    },
-    {
-      "code": "GM1895",
-      "name": "Oldambt",
-      "province": "Groningen"
-    },
-    {
-      "code": "GM0431",
-      "name": "Oostzaan",
-      "province": "Noord-Holland"
-    },
-    {
-      "code": "GM0086",
-      "name": "Opsterland",
-      "province": "Fryslân"
-    },
-    {
-      "code": "GM0765",
-      "name": "Pekela",
-      "province": "Groningen"
-    },
-    {
-      "code": "GM1926",
-      "name": "Pijnacker-Nootdorp",
-      "province": "Zuid-Holland"
-    },
-    {
-      "code": "GM0177",
-      "name": "Raalte",
-      "province": "Overijssel"
-    },
-    {
-      "code": "GM1667",
-      "name": "Reusel-De Mierden",
-      "province": "Noord-Brabant"
-    },
-    {
-      "code": "GM0340",
-      "name": "Rhenen",
-      "province": "Utrecht"
-    },
-    {
-      "code": "GM0599",
-      "name": "Rotterdam",
-      "province": "Zuid-Holland"
-    },
-    {
-      "code": "GM1676",
-      "name": "Schouwen-Duiveland",
-      "province": "Zeeland"
-    },
-    {
-      "code": "GM0281",
-      "name": "Tiel",
-      "province": "Gelderland"
-    },
-    {
-      "code": "GM0855",
-      "name": "Tilburg",
-      "province": "Noord-Brabant"
-    },
-    {
-      "code": "GM0344",
-      "name": "Utrecht",
-      "province": "Utrecht"
-    },
-    {
-      "code": "GM1581",
-      "name": "Utrechtse Heuvelrug",
-      "province": "Utrecht"
-    },
-    {
-      "code": "GM0984",
-      "name": "Venray",
-      "province": "Limburg"
-    },
-    {
-      "code": "GM0622",
-      "name": "Vlaardingen",
-      "province": "Zuid-Holland"
-    },
-    {
-      "code": "GM0096",
-      "name": "Vlieland",
-      "province": "Fryslân"
-    },
-    {
-      "code": "GM0986",
-      "name": "Voerendaal",
-      "province": "Limburg"
-    },
-    {
-      "code": "GM1701",
-      "name": "Westerveld",
-      "province": "Drenthe"
-    },
-    {
-      "code": "GM0293",
-      "name": "Westervoort",
-      "province": "Gelderland"
-    },
-    {
-      "code": "GM1950",
-      "name": "Westerwolde",
-      "province": "Groningen"
-    },
-    {
-      "code": "GM1783",
-      "name": "Westland",
-      "province": "Zuid-Holland"
-    },
-    {
-      "code": "GM0098",
-      "name": "Weststellingwerf",
-      "province": "Fryslân"
-    },
-    {
-      "code": "GM0189",
-      "name": "Wierden",
-      "province": "Overijssel"
-    },
-    {
-      "code": "GM0296",
-      "name": "Wijchen",
-      "province": "Gelderland"
-    },
-    {
-      "code": "GM1696",
-      "name": "Wijdemeren",
-      "province": "Noord-Holland"
-    },
-    {
-      "code": "GM0352",
-      "name": "Wijk bij Duurstede",
-      "province": "Utrecht"
-    },
-    {
-      "code": "GM0294",
-      "name": "Winterswijk",
-      "province": "Gelderland"
-    },
-    {
-      "code": "GM0873",
-      "name": "Woensdrecht",
-      "province": "Noord-Brabant"
-    },
-    {
-      "code": "GM0632",
-      "name": "Woerden",
-      "province": "Utrecht"
-    },
-    {
-      "code": "GM0880",
-      "name": "Wormerland",
-      "province": "Noord-Holland"
-    },
-    {
-      "code": "GM0351",
-      "name": "Woudenberg",
-      "province": "Utrecht"
-    },
-    {
-      "code": "GM0297",
-      "name": "Zaltbommel",
-      "province": "Gelderland"
-    },
-    {
-      "code": "GM0473",
-      "name": "Zandvoort",
-      "province": "Noord-Holland"
-    },
-    {
-      "code": "GM0050",
-      "name": "Zeewolde",
-      "province": "Flevoland"
-    },
-    {
-      "code": "GM0355",
-      "name": "Zeist",
-      "province": "Utrecht"
-    },
-    {
-      "code": "GM0299",
-      "name": "Zevenaar",
-      "province": "Gelderland"
-    },
-    {
-      "code": "GM0637",
-      "name": "Zoetermeer",
-      "province": "Zuid-Holland"
-    },
-    {
-      "code": "GM0638",
-      "name": "Zoeterwoude",
-      "province": "Zuid-Holland"
-    },
-    {
-      "code": "GM1892",
-      "name": "Zuidplas",
-      "province": "Zuid-Holland"
-    },
-    {
-      "code": "GM0879",
-      "name": "Zundert",
-      "province": "Noord-Brabant"
-    },
-    {
-      "code": "GM0301",
-      "name": "Zutphen",
-      "province": "Gelderland"
-    },
-    {
-      "code": "GM1896",
-      "name": "Zwartewaterland",
-      "province": "Overijssel"
-    },
-    {
-      "code": "GM0642",
-      "name": "Zwijndrecht",
-      "province": "Zuid-Holland"
-    }
-  ],
+  "duplicates": [],
+  "missing": [],
   "invalidCodes": [],
   "nameMismatches": []
 }

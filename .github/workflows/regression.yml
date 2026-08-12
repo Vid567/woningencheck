@@ -1,0 +1,31 @@
+name: Woningencheck Regression
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'assets/**'
+      - 'data/**'
+      - 'tests/**'
+      - '.github/workflows/regression.yml'
+  pull_request:
+    paths:
+      - 'assets/**'
+      - 'data/**'
+      - 'tests/**'
+
+permissions:
+  contents: read
+
+jobs:
+  regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run decision-engine regression and 342-municipality data QA
+        run: node tests/regression.mjs

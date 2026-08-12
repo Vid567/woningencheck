@@ -1,6 +1,13 @@
 {
-  "schemaVersion":"1.0.0",
-  "generatedAt":"2026-08-11",
-  "method":"Fresh official-source retest of all 42 municipalities then present in research-backlog.json. Searches prioritized Lokale Regelgeving/Overheid.nl and current municipal legal sources, with existing detail reviews used to interpret results. A failed discovery never means no rule.",
-  "records":[
-    {"municipality":"Alphen-Chaam","result
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-11",
+  "artifactStatus": "historical-truncated-record-repaired",
+  "method": "Fresh official-source retest of all 42 municipalities then present in research-backlog.json. Searches prioritized Lokale Regelgeving/Overheid.nl and current municipal legal sources, with existing detail reviews used to interpret results. A failed discovery never means no rule.",
+  "records": [],
+  "note": "The original file committed on 2026-08-11 was truncated during writing and ended inside the first Alphen-Chaam record, making it invalid JSON. The incomplete fragment could not be reconstructed reliably from repository history, so no missing municipality findings have been invented here. Detailed 2026-08-11 legal-review records and later closure/retest artifacts in data/legal-review remain the authoritative evidence for those municipalities.",
+  "originalCommit": "f15db9984b7bdf56e7e8676858415709e097def0",
+  "safety": {
+    "doNotUseAsStandaloneLegalEvidence": true,
+    "missingOriginalRecordsWereNotRecreated": true
+  }
+}

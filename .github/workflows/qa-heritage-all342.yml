@@ -1,0 +1,28 @@
+name: QA heritage all 342
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  qa:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run all-342 heritage coverage QA
+        run: node scripts/qa-heritage-all342.mjs
+
+      - name: Commit QA report
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add reports/heritage/all342-coverage-qa.json reports/heritage/all342-coverage-qa.md
+          if git diff --cached --quiet; then
+            echo "No QA report changes to commit"
+          else
+            git commit -m "Add all-342 heritage coverage QA report"
+            git push
+          fi

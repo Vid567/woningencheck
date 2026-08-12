@@ -43,3 +43,5 @@ jobs:
         run: node tests/heritage-arnhem.mjs
       - name: Run Enschede heritage adapter regression
         run: node tests/heritage-enschede.mjs
+      - name: Run A-B heritage batch 1 regression
+        run: node tests/heritage-batch-ab1.mjs

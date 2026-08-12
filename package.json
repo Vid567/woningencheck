@@ -1,0 +1,12 @@
+{
+  "name": "woningencheck",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test:regression": "node tests/regression.mjs",
+    "test:e2e": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.55.0"
+  }
+}

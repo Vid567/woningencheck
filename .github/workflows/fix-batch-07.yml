@@ -1,0 +1,33 @@
+name: Fix heritage batch 07
+
+on:
+  workflow_dispatch:
+
+jobs:
+  fix-batch-07:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Replace incorrect municipality code
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('data/heritage-expansion-batch-07.json')
+          s = p.read_text(encoding='utf-8')
+          s2 = s.replace('GM1971', 'GM0820')
+          if s == s2:
+              raise SystemExit('No replacement made')
+          p.write_text(s2, encoding='utf-8')
+          PY
+
+      - name: Validate JSON
+        run: node -e "JSON.parse(require('fs').readFileSync('data/heritage-expansion-batch-07.json','utf8')); console.log('JSON OK')"
+
+      - name: Commit fix
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add data/heritage-expansion-batch-07.json
+          git commit -m "Fix heritage expansion batch 07 municipality code GM1971 to GM0820"
+          git push

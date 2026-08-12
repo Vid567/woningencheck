@@ -1,0 +1,16 @@
+{
+  "batchId": "heritage-expansion-09",
+  "verifiedAt": "2026-08-12",
+  "status": "pass-with-discovery-backlog",
+  "recordCount": 30,
+  "checks": {
+    "jsonReadable": true,
+    "recordCountExpected": 30,
+    "municipalityCodeNamePairs": "pass",
+    "duplicateMunicipalityCodes": 0,
+    "regressionGM1971": "not-present",
+    "officialSourceSpotcheck": "pass",
+    "sourceClass": "official-municipality-or-RCE"
+  },
+  "note": "Verified records retain official municipal sources; discovery-required records remain explicitly marked and are not promoted to verified without evidence."
+}

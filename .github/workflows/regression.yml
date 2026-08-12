@@ -45,3 +45,5 @@ jobs:
         run: node tests/heritage-enschede.mjs
       - name: Run A-B heritage batch 1 regression
         run: node tests/heritage-batch-ab1.mjs
+      - name: Run remaining 15 golden heritage municipalities
+        run: node tests/heritage-golden15.mjs

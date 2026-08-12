@@ -1,0 +1,18 @@
+{
+  "schemaVersion":"1.0.0",
+  "verifiedAt":"2026-08-12",
+  "records":[
+    {
+      "municipalityCode":"GM0546",
+      "postcode":"2315SW",
+      "addressScope":"all",
+      "rules":{
+        "rentalPermit":true,
+        "conversionPermit":true,
+        "conversionQuotaPercent":25
+      },
+      "source":"https://gemeente.leiden.nl/postcodelijst-verhuurvergunningen",
+      "note":"Gemeente Leiden, officiële Postcodelijst woningmarktregulering 2024: alle adressen met postcode 2315SW vallen onder verhuurvergunning en omzettingsvergunning; quotum 25%."
+    }
+  ]
+}

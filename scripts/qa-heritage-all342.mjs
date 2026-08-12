@@ -8,10 +8,15 @@ const baseline = readJson('data/municipalities-2026.json');
 const baselineMunicipalities = baseline.municipalities || [];
 const baselineByCode = new Map(baselineMunicipalities.map(m => [m.code, m]));
 
-const batchFiles = Array.from({ length: 9 }, (_, i) => `data/heritage-expansion-batch-${String(i + 1).padStart(2, '0')}.json`);
+const batchFiles = fs.readdirSync(path.join(root, 'data'))
+  .filter(name => /^heritage-expansion-batch-\d+\.json$/.test(name))
+  .sort((a, b) => a.localeCompare(b, 'en', { numeric: true }))
+  .map(name => `data/${name}`);
+
+if (batchFiles.length === 0) throw new Error('No heritage expansion batch files found');
+
 const rows = [];
 const batchSummary = [];
-
 for (const file of batchFiles) {
   const data = readJson(file);
   const municipalities = data.municipalities || [];
@@ -76,9 +81,11 @@ for (const code of uniqueBaselineRows) {
 
 const fullyVerifiedUnique = Object.values(statusByCode).filter(x => x.statuses.includes('verified')).length;
 const discoveryOnlyUnique = Object.values(statusByCode).filter(x => !x.statuses.includes('verified') && x.statuses.includes('discovery-required')).length;
+const structuralPass = duplicates.length === 0 && missing.length === 0 && invalidCodes.length === 0 && nameMismatches.length === 0 && uniqueBaselineRows.length === baselineMunicipalities.length;
 
 const report = {
   generatedAt: new Date().toISOString(),
+  structuralPass,
   baseline: {
     file: 'data/municipalities-2026.json',
     referenceDate: baseline.referenceDate,
@@ -112,10 +119,12 @@ const md = [];
 md.push('# Heritage all-342 coverage QA');
 md.push('');
 md.push(`Generated: ${report.generatedAt}`);
+md.push(`Structural gate: ${structuralPass ? 'PASS' : 'FAIL'}`);
 md.push(`Baseline: ${report.baseline.municipalityCountActual} municipalities (${report.baseline.referenceDate})`);
 md.push('');
 md.push('## Summary');
 md.push('');
+md.push(`- Batch files discovered: ${batchFiles.length}`);
 md.push(`- Raw batch records: ${report.totals.rawBatchRecords}`);
 md.push(`- Unique municipality codes in batches: ${report.totals.uniqueBatchCodes}`);
 md.push(`- Unique baseline municipalities covered: ${report.totals.uniqueCodesMatchingBaseline}/${report.baseline.municipalityCountActual} (${report.totals.uniqueMunicipalitiesCoveredPercent}%)`);
@@ -152,5 +161,9 @@ else for (const x of invalidCodes) md.push(`- ${x.code}: ${x.occurrences.map(o =
 md.push('');
 
 fs.writeFileSync(path.join(root, 'reports/heritage/all342-coverage-qa.md'), md.join('\n') + '\n');
-
 console.log(JSON.stringify(report.totals, null, 2));
+
+if (!structuralPass) {
+  console.error('Heritage structural gate FAILED');
+  process.exitCode = 1;
+}

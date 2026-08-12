@@ -51,3 +51,5 @@ jobs:
         run: node tests/heritage-expansion-batch-01.mjs
       - name: Validate heritage expansion batch 02 (30 municipalities)
         run: node tests/heritage-expansion-batch-02.mjs
+      - name: Validate heritage expansion batch 03 (30 municipalities)
+        run: node tests/heritage-expansion-batch-03.mjs

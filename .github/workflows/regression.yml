@@ -7,12 +7,14 @@ on:
     paths:
       - 'assets/**'
       - 'data/**'
+      - 'scripts/heritage/**'
       - 'tests/**'
       - '.github/workflows/regression.yml'
   pull_request:
     paths:
       - 'assets/**'
       - 'data/**'
+      - 'scripts/heritage/**'
       - 'tests/**'
 
 permissions:
@@ -31,3 +33,5 @@ jobs:
         run: node tests/regression.mjs
       - name: Run heritage resolver regression
         run: node tests/heritage-regression.mjs
+      - name: Run Amsterdam heritage adapter regression
+        run: node tests/heritage-amsterdam.mjs

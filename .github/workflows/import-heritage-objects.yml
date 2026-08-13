@@ -42,6 +42,9 @@ jobs:
             mdb-export "$MDB" "$table" > ".rce-extract/csv/${safe}.csv" || true
           done < .rce-extract/tables.txt
           echo "RCE tables: $(wc -l < .rce-extract/tables.txt)"
+          echo '--- RCE CSV HEADERS ---'
+          for f in .rce-extract/csv/*.csv; do printf '%s: ' "$(basename "$f")"; head -n 1 "$f"; done
+          echo '--- END RCE CSV HEADERS ---'
       - name: Import all current RCE rijksmonument objects
         run: node scripts/import-rce-heritage-objects.mjs .rce-extract/csv
       - name: Validate imported object database

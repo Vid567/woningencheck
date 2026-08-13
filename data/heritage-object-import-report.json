@@ -1,0 +1,162 @@
+{
+  "generatedAt": "2026-08-13T09:13:56.486Z",
+  "source": "RCE Monumentendatabank Extract_MRS",
+  "officialLandingPage": "https://www.cultureelerfgoed.nl/onderwerpen/r/rijksmonumentenregister/monumentendatabank",
+  "objectTable": "tblOBJECT.csv",
+  "objectIdField": "OBJ_NUMMER",
+  "monumentNumberField": "OBJ_RIJKSNUMMER",
+  "tables": [
+    "idxGemeenteNamen_GemeenteNaam.csv",
+    "idxOBJECTADRES_OAD_HUISNUMMER.csv",
+    "idxOBJECTADRES_OAD_PLA_NAAM_CAP.csv",
+    "idxOBJECTADRES_OAD_POSTCODE.csv",
+    "idxOBJECTADRES_OAD_STRAAT.csv",
+    "idxOBJECTAMBACHT_AMB_NAAM.csv",
+    "idxOBJECTAMBACHT_TAM_OMSCHRIJVING.csv",
+    "idxOBJECTBOUWACTIVITEIT_OBA_JAAR_TOT.csv",
+    "idxOBJECTBOUWACTIVITEIT_OBA_JAAR_VAN.csv",
+    "idxOBJECTBOUWTYPE_CAH_OMSCHRIJVING.csv",
+    "idxOBJECTBOUWTYPE_CAS_OMSCHRIJVING.csv",
+    "idxOBJECTBOUWTYPE_TBW_OMSCHRIJVING.csv",
+    "idxOBJECTFUNCTIE_CAH_OMSCHRIJVING.csv",
+    "idxOBJECTFUNCTIE_CAS_OMSCHRIJVING.csv",
+    "idxOBJECTFUNCTIE_TFU_OMSCHRIJVING.csv",
+    "idxOBJECTSTIJL_STH_OMSCHRIJVING.csv",
+    "idxOBJECTSTIJL_TST_OMSCHRIJVING.csv",
+    "idxOBJECT_OBJ_CBSCODE_ZKP.csv",
+    "idxOBJECT_OBJ_IND_PROJ_ZKP.csv",
+    "idxOBJECT_OBJ_WETSARTIKEL_ZKP.csv",
+    "idxOBJECT_PRV_NAAM.csv",
+    "idxPERCEEL_KGM_NAAM.csv",
+    "idxPERCEEL_PER_KADPERCEEL.csv",
+    "idxPERCEEL_PER_KADSECTIE.csv",
+    "idxPlaatsNamen_PlaatsNaam.csv",
+    "sysDisclaimer.csv",
+    "sysDual.csv",
+    "sysIndexen.csv",
+    "sysTabellen.csv",
+    "sysVerwijderCom.csv",
+    "sysVerwijderObj.csv",
+    "tblCOMPLEX.csv",
+    "tblKADASTERINSCHRIJVING_COMPLEX.csv",
+    "tblKADASTERINSCHRIJVING_OBJECT.csv",
+    "tblOBJECT.csv",
+    "tblOBJECTADRES.csv",
+    "tblOBJECTAMBACHT.csv",
+    "tblOBJECTBOUWACTIVITEIT.csv",
+    "tblOBJECTBOUWTYPE.csv",
+    "tblOBJECTFUNCTIE.csv",
+    "tblOBJECTSTIJL.csv",
+    "tblPERCEEL.csv",
+    "tblTEXT_COMPLEX.csv",
+    "tblTEXT_OBJECT.csv"
+  ],
+  "objectRows": 63269,
+  "total": 63269,
+  "classified": 36060,
+  "unclassified": 27209,
+  "withAddress": 63269,
+  "withMunicipality": 61684,
+  "relatedRows": 524777,
+  "joinedRows": 519408,
+  "unjoinedRows": 5369,
+  "tableStats": {
+    "tblCOMPLEX.csv": {
+      "rows": 2688,
+      "joined": 0,
+      "unjoined": 2688
+    },
+    "tblKADASTERINSCHRIJVING_COMPLEX.csv": {
+      "rows": 0,
+      "joined": 0,
+      "unjoined": 0
+    },
+    "tblKADASTERINSCHRIJVING_OBJECT.csv": {
+      "rows": 63269,
+      "joined": 63269,
+      "unjoined": 0
+    },
+    "tblOBJECTADRES.csv": {
+      "rows": 122432,
+      "joined": 122432,
+      "unjoined": 0
+    },
+    "tblOBJECTAMBACHT.csv": {
+      "rows": 9436,
+      "joined": 9436,
+      "unjoined": 0
+    },
+    "tblOBJECTBOUWACTIVITEIT.csv": {
+      "rows": 19379,
+      "joined": 19379,
+      "unjoined": 0
+    },
+    "tblOBJECTBOUWTYPE.csv": {
+      "rows": 9767,
+      "joined": 9767,
+      "unjoined": 0
+    },
+    "tblOBJECTFUNCTIE.csv": {
+      "rows": 65502,
+      "joined": 65502,
+      "unjoined": 0
+    },
+    "tblOBJECTSTIJL.csv": {
+      "rows": 21832,
+      "joined": 21832,
+      "unjoined": 0
+    },
+    "tblPERCEEL.csv": {
+      "rows": 139937,
+      "joined": 139937,
+      "unjoined": 0
+    },
+    "tblTEXT_COMPLEX.csv": {
+      "rows": 2681,
+      "joined": 0,
+      "unjoined": 2681
+    },
+    "tblTEXT_OBJECT.csv": {
+      "rows": 67854,
+      "joined": 67854,
+      "unjoined": 0
+    }
+  },
+  "objectTypeCounts": {
+    "woonhuis": 15404,
+    "kerk": 4186,
+    "kasteel": 1211,
+    "school": 1538,
+    "theater": 75,
+    "kapel": 1066,
+    "museum": 277,
+    "horecapand": 511,
+    "synagoge": 92,
+    "station": 240,
+    "paleis": 123,
+    "molen": 1425,
+    "winkelpand": 637,
+    "poort": 1416,
+    "boerderij": 6423,
+    "buitenplaats": 4073,
+    "herenhuis": 1760,
+    "stadhuis": 557,
+    "ziekenhuis": 298,
+    "klooster": 559,
+    "vuurtoren": 42,
+    "abdij": 70,
+    "fort": 640,
+    "begraafplaats": 1769,
+    "brug": 1598,
+    "landhuis": 1137,
+    "gerechtsgebouw": 74,
+    "fabriek": 409,
+    "bunker": 718,
+    "watertoren": 186,
+    "tempel": 77,
+    "gemaal": 217,
+    "moskee": 5
+  },
+  "completeNationwideDump": true,
+  "importerMode": "streaming-object-id-join"
+}

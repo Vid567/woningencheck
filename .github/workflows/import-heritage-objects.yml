@@ -1,0 +1,38 @@
+name: Import nationwide heritage objects
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 4 3 * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: heritage-object-import
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Import all current RCE rijksmonument objects
+        run: node scripts/import-rce-heritage-objects.mjs
+      - name: Validate imported object database
+        run: node scripts/verify-heritage-object-records.mjs
+      - name: Commit refreshed object database
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add data/heritage-object-records.json data/heritage-object-import-report.json
+          if git diff --cached --quiet; then
+            echo 'No heritage object changes'
+          else
+            git commit -m 'Refresh nationwide heritage object database'
+            git push
+          fi

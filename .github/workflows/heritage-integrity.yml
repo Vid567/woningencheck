@@ -1,0 +1,61 @@
+name: Heritage all342 integrity
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - 'data/heritage-expansion-batch-*.json'
+      - '.github/workflows/heritage-integrity.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Validate all 342 heritage records
+        shell: bash
+        run: |
+          node <<'NODE'
+          const fs = require('fs');
+          const path = require('path');
+          const files = Array.from({length:12},(_,i)=>`data/heritage-expansion-batch-${String(i+1).padStart(2,'0')}.json`);
+          const rows=[];
+          for (const f of files) {
+            const d=JSON.parse(fs.readFileSync(f,'utf8'));
+            if (!Array.isArray(d.municipalities)) throw new Error(`${f}: municipalities missing`);
+            rows.push(...d.municipalities.map(x=>({...x,_file:f})));
+          }
+          const errors=[];
+          if (rows.length!==342) errors.push(`record count ${rows.length} != 342`);
+          const byCode=new Map();
+          for (const r of rows) {
+            if (!/^GM\d{4}$/.test(r.code||'')) errors.push(`${r._file}: invalid code ${r.code}`);
+            if (!r.name) errors.push(`${r._file}: missing name for ${r.code}`);
+            if (!['verified','discovery-required'].includes(r.status)) errors.push(`${r.code}: invalid status ${r.status}`);
+            if (!Array.isArray(r.types)||!r.types.length) errors.push(`${r.code}: missing types`);
+            if (!r.localSource || !/^https?:\/\//.test(r.localSource)) errors.push(`${r.code}: invalid localSource`);
+            if (r.status==='verified' && r.localSource==='https://monumentenregister.cultureelerfgoed.nl/') errors.push(`${r.code}: verified still uses RCE-only baseline`);
+            if (byCode.has(r.code)) errors.push(`duplicate code ${r.code}: ${byCode.get(r.code)._file} + ${r._file}`);
+            else byCode.set(r.code,r);
+          }
+          if (byCode.size!==342) errors.push(`unique GM codes ${byCode.size} != 342`);
+          const verified=rows.filter(r=>r.status==='verified');
+          const discovery=rows.filter(r=>r.status==='discovery-required');
+          console.log(`TOTAL=${rows.length}`);
+          console.log(`UNIQUE_CODES=${byCode.size}`);
+          console.log(`VERIFIED=${verified.length}`);
+          console.log(`DISCOVERY_REQUIRED=${discovery.length}`);
+          console.log('DISCOVERY_NAMES='+discovery.map(r=>`${r.code} ${r.name}`).join(' | '));
+          if (errors.length) {
+            console.error('INTEGRITY_ERRORS='+errors.length);
+            for (const e of errors) console.error('ERROR: '+e);
+            process.exit(1);
+          }
+          console.log('HERITAGE_ALL342_INTEGRITY=PASS');
+          NODE

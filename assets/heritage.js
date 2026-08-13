@@ -38,6 +38,7 @@ export function normalizeHeritageAddress(value){
     .toLowerCase()
     .normalize("NFD").replace(/[\u0300-\u036f]/g,"")
     .replace(/\b(\d{4})\s*([a-z]{2})\b/g,"$1$2")
+    .replace(/\b(\d+)\s*[-/]?\s*([a-z])\s*[-/]?\s*(\d*)\b/g,"$1$2$3")
     .replace(/[,;|]/g," ")
     .replace(/\s*[-/]\s*/g,"-")
     .replace(/[^a-z0-9-]+/g," ")

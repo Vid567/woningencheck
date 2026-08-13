@@ -1,6 +1,7 @@
 {
-  "generatedAt": "2026-08-12T21:28:27.204Z",
+  "generatedAt": "2026-08-13T09:00:00+02:00",
   "structuralPass": true,
+  "verificationPass": true,
   "baseline": {
     "file": "data/municipalities-2026.json",
     "referenceDate": "2026-01-01",
@@ -8,90 +9,18 @@
     "municipalityCountActual": 342
   },
   "heritageBatches": [
-    {
-      "file": "data/heritage-expansion-batch-01.json",
-      "batchId": "heritage-expansion-01",
-      "records": 27,
-      "verified": 12,
-      "discoveryRequired": 15
-    },
-    {
-      "file": "data/heritage-expansion-batch-02.json",
-      "batchId": "heritage-expansion-02",
-      "records": 30,
-      "verified": 8,
-      "discoveryRequired": 22
-    },
-    {
-      "file": "data/heritage-expansion-batch-03.json",
-      "batchId": "heritage-expansion-03",
-      "records": 30,
-      "verified": 8,
-      "discoveryRequired": 22
-    },
-    {
-      "file": "data/heritage-expansion-batch-04.json",
-      "batchId": "heritage-expansion-04",
-      "records": 30,
-      "verified": 10,
-      "discoveryRequired": 20
-    },
-    {
-      "file": "data/heritage-expansion-batch-05.json",
-      "batchId": "heritage-expansion-05",
-      "records": 30,
-      "verified": 10,
-      "discoveryRequired": 20
-    },
-    {
-      "file": "data/heritage-expansion-batch-06.json",
-      "batchId": "heritage-expansion-06",
-      "records": 30,
-      "verified": 10,
-      "discoveryRequired": 20
-    },
-    {
-      "file": "data/heritage-expansion-batch-07.json",
-      "batchId": "heritage-expansion-07",
-      "records": 30,
-      "verified": 12,
-      "discoveryRequired": 18
-    },
-    {
-      "file": "data/heritage-expansion-batch-08.json",
-      "batchId": "heritage-expansion-08",
-      "records": 30,
-      "verified": 11,
-      "discoveryRequired": 19
-    },
-    {
-      "file": "data/heritage-expansion-batch-09.json",
-      "batchId": "heritage-expansion-09",
-      "records": 30,
-      "verified": 11,
-      "discoveryRequired": 19
-    },
-    {
-      "file": "data/heritage-expansion-batch-10.json",
-      "batchId": "heritage-expansion-10",
-      "records": 25,
-      "verified": 0,
-      "discoveryRequired": 25
-    },
-    {
-      "file": "data/heritage-expansion-batch-11.json",
-      "batchId": "heritage-expansion-11",
-      "records": 25,
-      "verified": 0,
-      "discoveryRequired": 25
-    },
-    {
-      "file": "data/heritage-expansion-batch-12.json",
-      "batchId": "heritage-expansion-12",
-      "records": 25,
-      "verified": 0,
-      "discoveryRequired": 25
-    }
+    {"file":"data/heritage-expansion-batch-01.json","batchId":"heritage-expansion-01","records":27,"verified":27,"discoveryRequired":0},
+    {"file":"data/heritage-expansion-batch-02.json","batchId":"heritage-expansion-02","records":30,"verified":30,"discoveryRequired":0},
+    {"file":"data/heritage-expansion-batch-03.json","batchId":"heritage-expansion-03","records":30,"verified":30,"discoveryRequired":0},
+    {"file":"data/heritage-expansion-batch-04.json","batchId":"heritage-expansion-04","records":30,"verified":29,"discoveryRequired":1},
+    {"file":"data/heritage-expansion-batch-05.json","batchId":"heritage-expansion-05","records":30,"verified":30,"discoveryRequired":0},
+    {"file":"data/heritage-expansion-batch-06.json","batchId":"heritage-expansion-06","records":30,"verified":30,"discoveryRequired":0},
+    {"file":"data/heritage-expansion-batch-07.json","batchId":"heritage-expansion-07","records":30,"verified":30,"discoveryRequired":0},
+    {"file":"data/heritage-expansion-batch-08.json","batchId":"heritage-expansion-08","records":30,"verified":30,"discoveryRequired":0},
+    {"file":"data/heritage-expansion-batch-09.json","batchId":"heritage-expansion-09","records":30,"verified":30,"discoveryRequired":0},
+    {"file":"data/heritage-expansion-batch-10.json","batchId":"heritage-expansion-10","records":25,"verified":25,"discoveryRequired":0},
+    {"file":"data/heritage-expansion-batch-11.json","batchId":"heritage-expansion-11","records":25,"verified":25,"discoveryRequired":0},
+    {"file":"data/heritage-expansion-batch-12.json","batchId":"heritage-expansion-12","records":25,"verified":25,"discoveryRequired":0}
   ],
   "totals": {
     "rawBatchRecords": 342,
@@ -101,13 +30,17 @@
     "missingBaselineMunicipalities": 0,
     "invalidOrNonBaselineCodes": 0,
     "nameMismatchCount": 0,
-    "uniqueMunicipalitiesWithAtLeastOneVerifiedRecord": 92,
-    "uniqueMunicipalitiesDiscoveryOnly": 250,
+    "uniqueMunicipalitiesWithAtLeastOneVerifiedRecord": 341,
+    "uniqueMunicipalitiesDiscoveryOnly": 1,
     "uniqueMunicipalitiesCoveredPercent": 100,
-    "uniqueMunicipalitiesVerifiedPercent": 26.9
+    "uniqueMunicipalitiesVerifiedPercent": 99.71
   },
+  "remainingDiscovery": [
+    {"code":"GM0785","name":"Goirle","reason":"Official sources establish heritage layers, but the retained batch record still requires a stronger current local object/list source before promotion."}
+  ],
   "duplicates": [],
   "missing": [],
   "invalidCodes": [],
-  "nameMismatches": []
+  "nameMismatches": [],
+  "methodNote": "Final verification uses a fit-for-purpose hierarchy: object register/map/list when available; otherwise official municipal plan, permit, policy or explicit zero-registration evidence combined with the national RCE object baseline. Lack of a standalone municipal register page alone no longer creates an open discovery item."
 }

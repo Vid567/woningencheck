@@ -2,17 +2,19 @@ import {evaluateGeographicScope} from "./geography.js?v=20260813-address-context
 "use strict";
 export const STATES={APPLICABLE:"applicable",POTENTIAL:"potentially-applicable",NOT_APPLICABLE:"not-applicable",QUESTIONS:"additional-information-required",GEO_MATCH:"geographic-match",GEO_NO_MATCH:"geographic-no-match",INSUFFICIENT:"insufficient-data",REVIEW:"manual-review-required"};
 const normalize=value=>String(value??"").trim().toLowerCase();
+const canonicalPostcode=value=>String(value??"").toUpperCase().replace(/\s+/g,"").trim();
+const canonicalAddition=value=>String(value??"").toUpperCase().replace(/[\s\-_/]+/g,"").replace(/[^A-Z0-9]/g,"").trim();
 const fact=(context,path)=>path.split(".").reduce((value,key)=>value?.[key],context);
 const cleanMunicipalityCode=value=>{const raw=String(value??"").replace(/^GM/i,"").replace(/\D/g,"");return raw?`GM${raw.padStart(4,"0")}`:null};
 const bagUses=address=>{let uses=address.gebruiksdoel??address.gebruiksdoelen??address.gebruiksdoel_verblijfsobject??[];if(typeof uses==="string")uses=uses.split(/[;,]/).map(x=>x.trim()).filter(Boolean);return Array.isArray(uses)?uses:[]};
 export function buildAddressContext(address,property={}){
  const point=String(address.centroide_ll||"").match(/POINT\(([-\d.]+) ([-\d.]+)\)/);
- const houseNumberAddition=`${address.huisletter||""}${address.huisnummertoevoeging||""}`.trim();
+ const houseNumberAddition=canonicalAddition(`${address.huisletter||address.houseLetter||""}${address.huisnummertoevoeging||address.houseNumberAddition||address.addition||""}`);
  const municipalityCode=cleanMunicipalityCode(property.municipalityCode)||cleanMunicipalityCode(address.gemeentecode||address.gemeente_code);
  const municipalityName=property.municipalityName||address.gemeentenaam||null;
  const usePurposes=bagUses(address);
  return {
-  address:{postcode:address.postcode,houseNumber:address.huisnummer,houseNumberAddition,addition:houseNumberAddition,street:address.straatnaam,displayName:address.weergavenaam},
+  address:{postcode:canonicalPostcode(address.postcode),houseNumber:address.huisnummer??address.houseNumber,houseNumberAddition,addition:houseNumberAddition,street:address.straatnaam||address.street,displayName:address.weergavenaam||address.displayName},
   location:{longitude:point?Number(point[1]):null,latitude:point?Number(point[2]):null,neighborhoodCode:address.buurtcode||null,neighborhoodName:address.buurtnaam||null,districtCode:address.wijkcode||null,districtName:address.wijknaam||null,municipalAreaName:property.municipalAreaName||address.buurtnaam||address.wijknaam||null},
   property:{...property,municipalityCode:undefined,municipalityName:undefined,municipalAreaName:undefined,bagObjectId:property.bagObjectId||address.adresseerbaarobject_id||null,bagPandId:property.bagPandId||address.pand_id||null,usePurposes:property.usePurposes||usePurposes,usePurpose:property.usePurpose||(usePurposes.length===1?usePurposes[0]:null)},
   municipality:{code:municipalityCode,name:municipalityName},
@@ -32,9 +34,6 @@ export function evaluateRule(rule,context={},answers={}){
  const userResults=results.filter(x=>x.condition.source==="user-input");
  const answeredNoMatch=userResults.find(x=>x.status==="no-match");
  if(answeredNoMatch)return{state:STATES.NOT_APPLICABLE,reason:"Op basis van uw antwoord is deze regel voor uw voorgenomen gebruik niet van toepassing.",questions:[],results,stoppedBy:answeredNoMatch.condition.id};
- // AND-beslisregels worden stap voor stap doorlopen. Alleen de eerstvolgende
- // onbeantwoorde vraag wordt getoond. Zo verdwijnen latere vragen direct zodra
- // een eerdere noodzakelijke voorwaarde met Nee wordt beantwoord.
  const nextUnanswered=userResults.find(x=>x.status==="unknown");
  if(nextUnanswered)return{state:STATES.QUESTIONS,geographicState:STATES.GEO_MATCH,reason:"Beantwoord de volgende vraag om deze regel verder te controleren.",questions:[nextUnanswered.condition],results};
  if(results.some(x=>x.status==="no-match"))return{state:STATES.NOT_APPLICABLE,reason:"Uw antwoorden sluiten deze regel uit.",questions:[],results};

@@ -31,7 +31,7 @@ jobs:
       - name: Download official nationwide RCE Monumentendatabank
         run: |
           mkdir -p .rce-extract/csv
-          curl --fail --location --retry 4 --retry-all-errors --output .rce-extract/Extract_MRS.zip 'https://data.geo.cultureelerfgoed.nl/openbaar/monumenten/Extract_MRS.zip'
+          curl --fail --location --retry 4 --retry-all-errors --output .rce-extract/Extract_MRS.zip 'https://monumentenregister.cultureelerfgoed.nl/sites/default/files/MRS/Extract_MRS.zip'
           unzip -o .rce-extract/Extract_MRS.zip -d .rce-extract/raw
           MDB=$(find .rce-extract/raw -type f \( -iname '*.mdb' -o -iname '*.accdb' \) | head -1)
           test -n "$MDB" || { echo 'Official RCE archive contains no MDB/ACCDB'; find .rce-extract/raw -maxdepth 2 -type f; exit 1; }

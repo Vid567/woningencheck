@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-13",
+  "purpose": "Bronregister voor het vullen van concrete erfgoedobjectrecords met objectType naast juridische erfgoedstatus.",
+  "sources": [
+    {
+      "id": "rce-rijksmonumentenregister",
+      "authority": "Rijksdienst voor het Cultureel Erfgoed",
+      "scope": "Nederland",
+      "heritageType": "rijksmonument",
+      "officialUrl": "https://monumentenregister.cultureelerfgoed.nl/",
+      "role": "primaire landelijke objectbron voor rijksmonumenten",
+      "objectTypePolicy": "classificeer uitsluitend uit expliciete functie/type/naam/objectomschrijving van de officiële bron; nooit afleiden uit alleen monumentstatus"
+    },
+    {
+      "id": "municipal-heritage-342",
+      "authority": "Nederlandse gemeenten",
+      "scope": "342-gemeenten bronregister",
+      "role": "lokale objectbron voor gemeentelijke/provinciale monumenten en aanvullende erfgoedcategorieën",
+      "registryPattern": "data/heritage-expansion-batch-*.json",
+      "objectTypePolicy": "gebruik expliciete objectsoort of ondubbelzinnige officiële objectomschrijving; behoud bron-URL, gemeente, adres/BAG-koppeling en designationStatus"
+    }
+  ],
+  "requiredOutputFields": ["sourceId","sourceRecordId","municipalityCode","addresses","bagPandIds","bagAddressIds","heritageType","designationStatus","objectType","objectTypes","name","officialUrl","checkedAt"],
+  "qualityGate": {
+    "noTypeFromLegalStatusAlone": true,
+    "officialEvidenceRequired": true,
+    "unknownAllowed": true,
+    "unknownIsBetterThanGuess": true
+  }
+}

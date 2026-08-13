@@ -1,0 +1,60 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-13",
+  "purpose": "Datacontract voor het koppelen van juridische erfgoedstatus, gebouw/objecttype en BAG/adresidentiteit.",
+  "required": ["sourceId", "heritageType|areaType"],
+  "fields": {
+    "sourceId": "stabiele id van officiële bron/adapter",
+    "sourceRecordId": "object-id in de officiële bron",
+    "monumentNumber": "officieel monumentnummer indien beschikbaar",
+    "municipalityCode": "GM-code",
+    "bagPandIds": "0..n BAG-pandidentificaties",
+    "bagAddressIds": "0..n BAG-adresseerbaarobjectidentificaties",
+    "addresses": "0..n officiële/weergave-adressen",
+    "objectType": "primaire id uit heritage-object-types.json",
+    "objectTypes": "0..n objecttype-ids voor samengestelde objecten",
+    "heritageType": "juridische/objectgerichte erfgoedstatus",
+    "areaType": "gebiedsgerichte erfgoedstatus",
+    "designationStatus": "designated | preprotected | under_review",
+    "matchMethod": "bag_relation | address_exact | geometry_intersection | source_assertion | manual",
+    "name": "officiële objectnaam",
+    "officialUrl": "officiële object-/registerbron",
+    "checkedAt": "laatste broncontrole",
+    "raw": "optionele bronmetadata"
+  },
+  "rules": [
+    "objectType is nooit zelfstandig bewijs voor monumentstatus",
+    "heritageType is nooit zelfstandig bewijs voor een gebouwtype",
+    "objectType wordt alleen gevuld wanneer de officiële bron dit expliciet noemt of de officiële objectomschrijving het ondubbelzinnig maakt",
+    "BAG-koppeling heeft voor adresresolutie de voorkeur boven tekstuele adresmatching",
+    "meerdere objectTypes zijn toegestaan voor samengestelde complexen"
+  ],
+  "examples": [
+    {
+      "sourceId": "rce-monumentenregister",
+      "sourceRecordId": "voorbeeld-kerk",
+      "monumentNumber": "12345",
+      "municipalityCode": "GM0000",
+      "bagPandIds": ["0000000000000001"],
+      "addresses": ["Voorbeeldstraat 1, Voorbeeldplaats"],
+      "objectType": "kerk",
+      "objectTypes": ["kerk"],
+      "heritageType": "rijksmonument",
+      "designationStatus": "designated",
+      "matchMethod": "bag_relation",
+      "name": "Voorbeeldkerk"
+    },
+    {
+      "sourceId": "gemeentelijk-erfgoedregister",
+      "sourceRecordId": "voorbeeld-kasteel",
+      "municipalityCode": "GM0000",
+      "addresses": ["Kasteellaan 1, Voorbeeldplaats"],
+      "objectType": "kasteel",
+      "objectTypes": ["kasteel", "buitenplaats"],
+      "heritageType": "gemeentelijk-monument",
+      "designationStatus": "designated",
+      "matchMethod": "address_exact",
+      "name": "Voorbeeldkasteel"
+    }
+  ]
+}

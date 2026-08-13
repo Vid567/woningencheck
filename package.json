@@ -3,7 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test:regression": "node tests/regression.mjs",
+    "test:regression": "node tests/regression.mjs && node tests/address-context.mjs",
     "test:e2e": "playwright test"
   },
   "devDependencies": {

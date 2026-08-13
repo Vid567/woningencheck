@@ -23,25 +23,25 @@ for (const municipality of municipalities) {
 }
 
 const monumentIdFields = [
-  'monumentnummer', 'monumentnr', 'monument nummer', 'monument_id', 'monumentid',
+  'OBJ_RIJKSNUMMER', 'monumentnummer', 'monumentnr', 'monument nummer', 'monument_id', 'monumentid',
   'rijksmonumentnummer', 'objectnummer'
 ];
 const objectIdFields = [
-  'object_id', 'object id', 'objectid', 'id_object', 'id object', 'idobject',
+  'OBJ_NUMMER', 'object_id', 'object id', 'objectid', 'id_object', 'id object', 'idobject',
   'objectidentificatie', 'object identificatie'
 ];
 const fields = {
-  names: ['naam', 'objectnaam', 'monumentnaam'],
-  streets: ['straatnaam', 'straat', 'openbareruimtenaam'],
-  numbers: ['huisnummer', 'huisnr', 'nummer'],
-  postcodes: ['postcode'],
-  places: ['woonplaatsnaam', 'woonplaats', 'plaats'],
-  addresses: ['adres', 'volledigadres', 'adresregel'],
-  municipalityNames: ['gemeentenaam', 'gemeente'],
-  municipalityCodes: ['gemeentecode', 'gemeentecodebag', 'cbs gemeentecode'],
-  types: ['type', 'objecttype', 'categorie', 'hoofdcategorie'],
-  functions: ['oorspronkelijkefunctie', 'oorspronkelijke functie', 'functie', 'subcategorie'],
-  descriptions: ['omschrijving', 'redengevendeomschrijving', 'redengevende omschrijving'],
+  names: ['OBJ_NAAM', 'naam', 'objectnaam', 'monumentnaam'],
+  streets: ['OAD_STRAAT', 'OAD_STRAAT_CAP', 'straatnaam', 'straat', 'openbareruimtenaam'],
+  numbers: ['OAD_HUISNUMMER', 'huisnummer', 'huisnr', 'nummer'],
+  postcodes: ['OAD_POSTCODE', 'postcode'],
+  places: ['OAD_PLA_NAAM_CAP', 'PLA_NAAM', 'woonplaatsnaam', 'woonplaats', 'plaats'],
+  addresses: ['ADRES', 'adres', 'volledigadres', 'adresregel'],
+  municipalityNames: ['OAD_GEM_NAAM_CAP', 'GEM_NAAM', 'gemeentenaam', 'gemeente'],
+  municipalityCodes: ['OBJ_CBSCODE', 'gemeentecode', 'gemeentecodebag', 'cbs gemeentecode'],
+  types: ['OCB_OMSCHRIJVING', 'TBW_OMSCHRIJVING', 'CAH_OMSCHRIJVING', 'CAS_OMSCHRIJVING', 'type', 'objecttype', 'categorie', 'hoofdcategorie'],
+  functions: ['TFU_OMSCHRIJVING', 'TFB_OMSCHRIJVING', 'OFU_TOELICHTING', 'oorspronkelijkefunctie', 'oorspronkelijke functie', 'functie', 'subcategorie'],
+  descriptions: ['OBJ_INVENT_OMS', 'OBJ_OPMERKING', 'TXO_TEKST', 'omschrijving', 'redengevendeomschrijving', 'redengevende omschrijving'],
   bagPandIds: ['bagpandid', 'pandidentificatie', 'pand id'],
   bagAddressIds: ['nummeraanduidingidentificatie', 'adresseerbaarobjectidentificatie', 'bagadresid']
 };
@@ -89,12 +89,9 @@ async function* csvRecords(file) {
           } else {
             quoted = false;
           }
-        } else {
-          value += char;
-        }
-      } else if (char === '"') {
-        quoted = true;
-      } else if (char === ',') {
+        } else value += char;
+      } else if (char === '"') quoted = true;
+      else if (char === ',') {
         row.push(value);
         value = '';
       } else if (char === '\n') {
@@ -103,9 +100,7 @@ async function* csvRecords(file) {
         const record = emitRow(row);
         row = [];
         if (record) yield record;
-      } else {
-        value += char;
-      }
+      } else value += char;
     }
   }
 
@@ -135,9 +130,7 @@ const files = (await fs.readdir(input)).filter(file => file.toLowerCase().endsWi
 if (!files.length) throw new Error(`Geen CSV-tabellen gevonden in ${input}`);
 
 const objectTable = files.find(file => norm(path.basename(file, path.extname(file))) === 'tblobject');
-if (!objectTable) {
-  throw new Error(`Extract_MRS quality gate: tblOBJECT ontbreekt. Tabellen: ${files.join(', ')}`);
-}
+if (!objectTable) throw new Error(`Extract_MRS quality gate: tblOBJECT ontbreekt. Tabellen: ${files.join(', ')}`);
 
 const byObjectId = new Map();
 const byMonumentNumber = new Map();
@@ -167,16 +160,14 @@ for await (const row of csvRecords(path.join(input, objectTable))) {
 }
 
 console.log(`TABLE ${objectTable} rows=${objectRows} objects=${byObjectId.size} noObjectId=${objectRowsWithoutId} noMonument=${objectRowsWithoutMonument}`);
-if (byObjectId.size < 50000) {
-  throw new Error(`Extract_MRS tblOBJECT quality gate: ${byObjectId.size} unieke objecten < 50000`);
-}
+if (byObjectId.size < 50000) throw new Error(`Extract_MRS tblOBJECT quality gate: ${byObjectId.size} unieke objecten < 50000`);
 
 let relatedRows = 0;
 let joinedRows = 0;
 let unjoinedRows = 0;
 const tableStats = {};
 for (const file of files) {
-  if (file === objectTable) continue;
+  if (file === objectTable || file.startsWith('idx') || file.startsWith('sys')) continue;
   let rows = 0;
   let joined = 0;
   let unjoined = 0;
@@ -208,14 +199,13 @@ function buildRecord(aggregate) {
   const postcodes = join(values.postcodes);
   const places = join(values.places);
   const addresses = join(values.addresses);
-  if (!addresses.length && streets.length) {
-    addresses.push([streets[0], numbers[0], postcodes[0], places[0]].filter(Boolean).join(' '));
-  }
+  if (!addresses.length && streets.length) addresses.push([streets[0], numbers[0], postcodes[0], places[0]].filter(Boolean).join(' '));
 
   const municipalityName = join(values.municipalityNames)[0] || '';
   const municipalityRawCode = join(values.municipalityCodes)[0] || '';
-  const municipalityCode = /^(GM)?\d{4}$/.test(municipalityRawCode)
-    ? (municipalityRawCode.startsWith('GM') ? municipalityRawCode : `GM${municipalityRawCode}`)
+  const digits = municipalityRawCode.replace(/\D/g, '');
+  const municipalityCode = digits.length >= 4
+    ? `GM${digits.slice(-4)}`
     : byName.get(norm(municipalityName)) || null;
 
   const type = join(values.types).join(' ');
@@ -242,26 +232,14 @@ function buildRecord(aggregate) {
     name,
     officialUrl: `https://monumentenregister.cultureelerfgoed.nl/monumenten/${aggregate.monumentNumber}`,
     checkedAt: today,
-    objectTypeClassification: {
-      method: classification.method,
-      confidence: classification.confidence,
-      taxonomyVersion: 1
-    },
-    raw: {
-      type,
-      functie,
-      omschrijving,
-      extractTables: [...aggregate.tables]
-    }
+    objectTypeClassification: { method: classification.method, confidence: classification.confidence, taxonomyVersion: 1 },
+    raw: { type, functie, omschrijving, extractTables: [...aggregate.tables] }
   };
 }
 
 const outputPath = 'data/heritage-object-records.json';
 const writer = createWriteStream(outputPath, { encoding: 'utf8' });
-const writeChunk = async chunk => {
-  if (!writer.write(chunk)) await once(writer, 'drain');
-};
-
+const writeChunk = async chunk => { if (!writer.write(chunk)) await once(writer, 'drain'); };
 await writeChunk(`{\n  "version": 3,\n  "updatedAt": ${JSON.stringify(today)},\n  "taxonomy": "data/heritage-object-types.json",\n  "sourceRegistry": "data/heritage-object-source-registry.json",\n  "records": [\n`);
 
 let total = 0;
@@ -270,7 +248,6 @@ let addressed = 0;
 let withMunicipality = 0;
 const counts = {};
 let first = true;
-
 for (const aggregate of byObjectId.values()) {
   const record = buildRecord(aggregate);
   total++;
@@ -281,7 +258,6 @@ for (const aggregate of byObjectId.values()) {
   await writeChunk(`${first ? '' : ',\n'}${JSON.stringify(record)}`);
   first = false;
 }
-
 if (total < 50000) throw new Error(`Extract_MRS unique quality gate: ${total} < 50000`);
 
 const status = {
@@ -297,7 +273,6 @@ const status = {
   municipalityCodeCount: withMunicipality,
   note: 'Volledige landelijke Rijksmonumentenregister-import uit officiële RCE Monumentendatabank Extract_MRS.'
 };
-
 await writeChunk(`\n  ],\n  "status": ${JSON.stringify(status, null, 2).replace(/^/gm, '  ').trimStart()}\n}\n`);
 writer.end();
 await once(writer, 'close');
@@ -307,6 +282,8 @@ await fs.writeFile('data/heritage-object-import-report.json', JSON.stringify({
   source: 'RCE Monumentendatabank Extract_MRS',
   officialLandingPage: 'https://www.cultureelerfgoed.nl/onderwerpen/r/rijksmonumentenregister/monumentendatabank',
   objectTable,
+  objectIdField: 'OBJ_NUMMER',
+  monumentNumberField: 'OBJ_RIJKSNUMMER',
   tables: files,
   objectRows,
   total,
@@ -322,5 +299,4 @@ await fs.writeFile('data/heritage-object-import-report.json', JSON.stringify({
   completeNationwideDump: true,
   importerMode: 'streaming-object-id-join'
 }, null, 2) + '\n');
-
 console.log(`RCE_EXTRACT_IMPORT_PASS unique=${total} classified=${classified} addressed=${addressed} municipality=${withMunicipality} relatedJoined=${joinedRows}/${relatedRows}`);

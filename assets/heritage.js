@@ -21,10 +21,29 @@ export const HERITAGE_AREA_TYPES={
 export const DESIGNATION_STATUS={DESIGNATED:"designated",PREPROTECTED:"preprotected",UNDER_REVIEW:"under_review"};
 export const MATCH_METHODS={BAG:"bag_relation",ADDRESS:"address_exact",GEOMETRY:"geometry_intersection",SOURCE:"source_assertion",MANUAL:"manual"};
 
+// Objecttype is metadata naast de juridische erfgoedstatus. De ids komen uit
+// data/heritage-object-types.json en mogen nooit zelfstandig monumentstatus impliceren.
+export const HERITAGE_OBJECT_TYPES=new Set([
+  "kerk","kapel","klooster","abdij","synagoge","moskee","tempel","paleis","kasteel",
+  "buitenplaats","landhuis","herenhuis","boerderij","molen","fabriek","watertoren","gemaal",
+  "brug","station","vuurtoren","fort","bunker","poort","stadhuis","gerechtsgebouw","school",
+  "ziekenhuis","begraafplaats","woonhuis","winkelpand","horecapand","theater","museum",
+  "ander-erfgoedobject"
+]);
+
 const norm=v=>String(v??"").trim().toLowerCase();
 const arr=v=>Array.isArray(v)?v:(v==null?[]:[v]);
 const validDesignation=new Set(Object.values(DESIGNATION_STATUS));
 const validMatch=new Set(Object.values(MATCH_METHODS));
+
+function normalizeObjectTypes(record={}){
+  const values=arr(record.objectTypes?.length?record.objectTypes:record.objectType).filter(Boolean).map(norm);
+  const unique=[...new Set(values)];
+  for(const type of unique){
+    if(!HERITAGE_OBJECT_TYPES.has(type))throw new Error(`ongeldig heritage objectType: ${type}`);
+  }
+  return unique;
+}
 
 export function normalizeHeritageRecord(record={}){
   if(!record.sourceId)throw new Error("heritage record mist sourceId");
@@ -33,13 +52,17 @@ export function normalizeHeritageRecord(record={}){
   if(!validDesignation.has(designationStatus))throw new Error(`ongeldige designationStatus: ${designationStatus}`);
   const matchMethod=record.matchMethod||MATCH_METHODS.SOURCE;
   if(!validMatch.has(matchMethod))throw new Error(`ongeldige matchMethod: ${matchMethod}`);
+  const objectTypes=normalizeObjectTypes(record);
   return {
     sourceId:String(record.sourceId),
     sourceRecordId:record.sourceRecordId==null?null:String(record.sourceRecordId),
+    monumentNumber:record.monumentNumber==null?(record.monumentnummer==null?null:String(record.monumentnummer)):String(record.monumentNumber),
     municipalityCode:record.municipalityCode||null,
     bagPandIds:arr(record.bagPandIds).map(String),
     bagAddressIds:arr(record.bagAddressIds).map(String),
     addresses:arr(record.addresses).map(String),
+    objectType:objectTypes[0]||null,
+    objectTypes,
     heritageType:record.heritageType||null,
     areaType:record.areaType||null,
     designationStatus,
@@ -81,14 +104,27 @@ function recordMatches(address,record){
   return false;
 }
 
+function recordIdentity(r){
+  return {
+    monumentNumber:r.monumentNumber,
+    objectType:r.objectType,
+    objectTypes:r.objectTypes,
+    bagPandIds:r.bagPandIds,
+    bagAddressIds:r.bagAddressIds,
+    addresses:r.addresses
+  };
+}
+
 export function resolveHeritageForAddress(address={},records=[]){
   const normalized=records.map(normalizeHeritageRecord);
   const matches=normalized.filter(r=>recordMatches(address,r));
-  const objectStatuses=matches.filter(r=>r.heritageType).map(r=>({type:r.heritageType,designationStatus:r.designationStatus,name:r.name,legalEffect:r.legalEffect,sourceId:r.sourceId,sourceRecordId:r.sourceRecordId,officialUrl:r.officialUrl,matchMethod:r.matchMethod,checkedAt:r.checkedAt}));
-  const areaStatuses=matches.filter(r=>r.areaType).map(r=>({type:r.areaType,designationStatus:r.designationStatus,name:r.name,legalEffect:r.legalEffect,sourceId:r.sourceId,sourceRecordId:r.sourceRecordId,officialUrl:r.officialUrl,matchMethod:r.matchMethod,checkedAt:r.checkedAt}));
+  const objectStatuses=matches.filter(r=>r.heritageType).map(r=>({type:r.heritageType,designationStatus:r.designationStatus,name:r.name,legalEffect:r.legalEffect,sourceId:r.sourceId,sourceRecordId:r.sourceRecordId,officialUrl:r.officialUrl,matchMethod:r.matchMethod,checkedAt:r.checkedAt,...recordIdentity(r)}));
+  const areaStatuses=matches.filter(r=>r.areaType).map(r=>({type:r.areaType,designationStatus:r.designationStatus,name:r.name,legalEffect:r.legalEffect,sourceId:r.sourceId,sourceRecordId:r.sourceRecordId,officialUrl:r.officialUrl,matchMethod:r.matchMethod,checkedAt:r.checkedAt,...recordIdentity(r)}));
+  const objectTypes=[...new Set(matches.flatMap(r=>r.objectTypes))];
+  const heritageObjects=matches.filter(r=>r.objectTypes.length||r.monumentNumber||r.bagPandIds.length||r.bagAddressIds.length||r.addresses.length).map(r=>({name:r.name,heritageType:r.heritageType,areaType:r.areaType,designationStatus:r.designationStatus,sourceId:r.sourceId,sourceRecordId:r.sourceRecordId,officialUrl:r.officialUrl,matchMethod:r.matchMethod,...recordIdentity(r)}));
   const protectedObject=objectStatuses.some(x=>x.designationStatus===DESIGNATION_STATUS.DESIGNATED||x.designationStatus===DESIGNATION_STATUS.PREPROTECTED);
   const protectedArea=areaStatuses.some(x=>x.designationStatus===DESIGNATION_STATUS.DESIGNATED||x.designationStatus===DESIGNATION_STATUS.PREPROTECTED);
-  return {objectStatuses,areaStatuses,protectedObject,protectedArea,hasHeritageTrigger:protectedObject||protectedArea,matches:matches.length};
+  return {objectStatuses,areaStatuses,objectTypes,heritageObjects,protectedObject,protectedArea,hasHeritageTrigger:protectedObject||protectedArea,matches:matches.length};
 }
 
 export function heritageLegalTriggers(result,activity){

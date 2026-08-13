@@ -1,9 +1,25 @@
-import {evaluateGeographicScope} from "./geography.js?v=20260809-geography";
+import {evaluateGeographicScope} from "./geography.js?v=20260813-address-context";
 "use strict";
 export const STATES={APPLICABLE:"applicable",POTENTIAL:"potentially-applicable",NOT_APPLICABLE:"not-applicable",QUESTIONS:"additional-information-required",GEO_MATCH:"geographic-match",GEO_NO_MATCH:"geographic-no-match",INSUFFICIENT:"insufficient-data",REVIEW:"manual-review-required"};
 const normalize=value=>String(value??"").trim().toLowerCase();
 const fact=(context,path)=>path.split(".").reduce((value,key)=>value?.[key],context);
-export function buildAddressContext(address,property={}){const point=String(address.centroide_ll||"").match(/POINT\(([-\d.]+) ([-\d.]+)\)/);return {address:{postcode:address.postcode,houseNumber:address.huisnummer,street:address.straatnaam,displayName:address.weergavenaam},location:{longitude:point?Number(point[1]):null,latitude:point?Number(point[2]):null,neighborhoodCode:address.buurtcode||null,neighborhoodName:address.buurtnaam||null,districtCode:address.wijkcode||null,districtName:address.wijknaam||null},property:{bagObjectId:address.adresseerbaarobject_id||null},municipality:{code:`GM${String(address.gemeentecode||"").replace(/^GM/,"").padStart(4,"0")}`,name:address.gemeentenaam},officialData:{address:{authority:"Kadaster / BAG via PDOK",retrievedAt:new Date().toISOString()}},unknownFacts:[],userAnswers:{}}}
+const cleanMunicipalityCode=value=>{const raw=String(value??"").replace(/^GM/i,"").replace(/\D/g,"");return raw?`GM${raw.padStart(4,"0")}`:null};
+const bagUses=address=>{let uses=address.gebruiksdoel??address.gebruiksdoelen??address.gebruiksdoel_verblijfsobject??[];if(typeof uses==="string")uses=uses.split(/[;,]/).map(x=>x.trim()).filter(Boolean);return Array.isArray(uses)?uses:[]};
+export function buildAddressContext(address,property={}){
+ const point=String(address.centroide_ll||"").match(/POINT\(([-\d.]+) ([-\d.]+)\)/);
+ const houseNumberAddition=`${address.huisletter||""}${address.huisnummertoevoeging||""}`.trim();
+ const municipalityCode=cleanMunicipalityCode(property.municipalityCode)||cleanMunicipalityCode(address.gemeentecode||address.gemeente_code);
+ const municipalityName=property.municipalityName||address.gemeentenaam||null;
+ const usePurposes=bagUses(address);
+ return {
+  address:{postcode:address.postcode,houseNumber:address.huisnummer,houseNumberAddition,addition:houseNumberAddition,street:address.straatnaam,displayName:address.weergavenaam},
+  location:{longitude:point?Number(point[1]):null,latitude:point?Number(point[2]):null,neighborhoodCode:address.buurtcode||null,neighborhoodName:address.buurtnaam||null,districtCode:address.wijkcode||null,districtName:address.wijknaam||null,municipalAreaName:property.municipalAreaName||address.buurtnaam||address.wijknaam||null},
+  property:{...property,municipalityCode:undefined,municipalityName:undefined,municipalAreaName:undefined,bagObjectId:property.bagObjectId||address.adresseerbaarobject_id||null,bagPandId:property.bagPandId||address.pand_id||null,usePurposes:property.usePurposes||usePurposes,usePurpose:property.usePurpose||(usePurposes.length===1?usePurposes[0]:null)},
+  municipality:{code:municipalityCode,name:municipalityName},
+  officialData:{address:{authority:"Kadaster / BAG via PDOK",retrievedAt:new Date().toISOString()}},
+  unknownFacts:[],userAnswers:{}
+ }
+}
 function evaluateCondition(c,context,answers){const value=c.source==="user-input"?answers[c.id]:fact(context,c.fact);if(value===undefined||value===null||value==="")return {status:"unknown",condition:c};let matched=false;if(c.operator==="equals")matched=normalize(value)===normalize(c.value);if(c.operator==="in")matched=c.values.map(normalize).includes(normalize(value));if(c.operator==="<=")matched=Number(value)<=Number(c.value);return {status:matched?"match":"no-match",condition:c,value}}
 export function evaluateRule(rule,context={},answers={}){
  if(rule.geographicScope){const geographic=evaluateGeographicScope(rule.geographicScope,context,rule.municipalityCode);if(geographic.status==="no-match")return{state:STATES.NOT_APPLICABLE,geographicState:STATES.GEO_NO_MATCH,reason:"Deze regel geldt niet voor dit adres.",questions:[],geographic};if(geographic.status==="manual-review-required")return{state:STATES.REVIEW,reason:"We kunnen nog niet automatisch bepalen of dit adres binnen het officieel aangewezen gebied ligt.",questions:[],geographic};if(geographic.status==="unknown")return{state:STATES.INSUFFICIENT,reason:"Niet alle benodigde geografische gegevens zijn beschikbaar.",questions:[],geographic}}

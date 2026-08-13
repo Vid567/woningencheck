@@ -82,6 +82,7 @@ jobs:
             echo 'No heritage object changes'
           else
             git commit -m 'Refresh nationwide heritage object database'
+            git checkout -- data/heritage-object-records.json
             git fetch origin main
             git rebase origin/main
             git push origin HEAD:main

@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-13",
+  "purpose": "Centrale objecttypetaxonomie voor adresgebonden erfgoedclassificatie binnen Woningencheck. Een objecttype is aanvullend op de juridische erfgoedstatus en maakt het mogelijk om bijvoorbeeld kerken, paleizen, kastelen en andere bijzondere gebouwen afzonderlijk te herkennen.",
+  "classificationPolicy": {
+    "objectTypeDoesNotImplyProtectedStatus": true,
+    "protectedStatusDoesNotImplyObjectType": true,
+    "preferredEvidence": [
+      "officieel gemeentelijk erfgoedregister",
+      "officiële gemeentelijke monumentenlijst of erfgoedkaart",
+      "provinciaal erfgoedregister",
+      "Rijksmonumentenregister/RCE",
+      "officieel omgevingsplan of gemeentelijk besluit"
+    ],
+    "addressUse": "Bij een adrescheck wordt objectType gekoppeld wanneer de officiële bron het gebouwtype expliciet noemt of dit ondubbelzinnig uit de objectomschrijving volgt. De juridische erfgoedstatus blijft afzonderlijk in heritageType/status bewaard."
+  },
+  "objectTypes": [
+    {"id":"kerk","category":"religieus","labelNl":"Kerk","aliases":["kerkgebouw","parochiekerk","dorpskerk","stadskerk","basiliek","kathedraal"],"addressRelevant":true},
+    {"id":"kapel","category":"religieus","labelNl":"Kapel","aliases":["kapelletje","devotiekapel"],"addressRelevant":true},
+    {"id":"klooster","category":"religieus","labelNl":"Klooster","aliases":["convent","kloostercomplex"],"addressRelevant":true},
+    {"id":"abdij","category":"religieus","labelNl":"Abdij","aliases":["abdijcomplex"],"addressRelevant":true},
+    {"id":"synagoge","category":"religieus","labelNl":"Synagoge","aliases":["joods gebedshuis"],"addressRelevant":true},
+    {"id":"moskee","category":"religieus","labelNl":"Moskee","aliases":["islamitisch gebedshuis"],"addressRelevant":true},
+    {"id":"tempel","category":"religieus","labelNl":"Tempel","aliases":["gebedstempel"],"addressRelevant":true},
+    {"id":"paleis","category":"residentieel-bestuurlijk","labelNl":"Paleis","aliases":["koninklijk paleis","vorstelijk paleis"],"addressRelevant":true},
+    {"id":"kasteel","category":"residentieel-verdediging","labelNl":"Kasteel","aliases":["slot","burcht","kasteelcomplex"],"addressRelevant":true},
+    {"id":"buitenplaats","category":"residentieel-landschap","labelNl":"Historische buitenplaats","aliases":["buitenplaats","landgoed","historische buitenplaats"],"addressRelevant":true},
+    {"id":"landhuis","category":"residentieel","labelNl":"Landhuis","aliases":["landhuis","herenhuis op landgoed"],"addressRelevant":true},
+    {"id":"herenhuis","category":"residentieel","labelNl":"Herenhuis","aliases":["patriciershuis","patriciërshuis"],"addressRelevant":true},
+    {"id":"boerderij","category":"agrarisch","labelNl":"Historische boerderij","aliases":["boerderij","hoeve","stolpboerderij","langhuisboerderij","hallenhuisboerderij"],"addressRelevant":true},
+    {"id":"molen","category":"industrieel-waterstaat","labelNl":"Molen","aliases":["windmolen","watermolen","korenmolen","poldermolen"],"addressRelevant":true},
+    {"id":"fabriek","category":"industrieel","labelNl":"Historische fabriek","aliases":["fabrieksgebouw","industrieel complex"],"addressRelevant":true},
+    {"id":"watertoren","category":"waterstaat","labelNl":"Watertoren","aliases":["watertoren"],"addressRelevant":true},
+    {"id":"gemaal","category":"waterstaat","labelNl":"Gemaal","aliases":["pompstation","stoomgemaal"],"addressRelevant":true},
+    {"id":"brug","category":"infrastructuur","labelNl":"Historische brug","aliases":["brug","ophaalbrug","draaibrug","boogbrug"],"addressRelevant":true},
+    {"id":"station","category":"infrastructuur","labelNl":"Station","aliases":["stationsgebouw","spoorwegstation"],"addressRelevant":true},
+    {"id":"vuurtoren","category":"maritiem","labelNl":"Vuurtoren","aliases":["lichttoren"],"addressRelevant":true},
+    {"id":"fort","category":"militair","labelNl":"Fort","aliases":["vestingwerk","fortificatie","schans"],"addressRelevant":true},
+    {"id":"bunker","category":"militair","labelNl":"Bunker","aliases":["kazemat","verdedigingswerk"],"addressRelevant":true},
+    {"id":"poort","category":"stedelijk-verdediging","labelNl":"Historische poort","aliases":["stadspoort","kasteelpoort"],"addressRelevant":true},
+    {"id":"stadhuis","category":"bestuurlijk","labelNl":"Stadhuis/gemeentehuis","aliases":["stadhuis","raadhuis","gemeentehuis"],"addressRelevant":true},
+    {"id":"gerechtsgebouw","category":"bestuurlijk","labelNl":"Gerechtsgebouw","aliases":["rechtbank","kantongerecht"],"addressRelevant":true},
+    {"id":"school","category":"maatschappelijk","labelNl":"Historisch schoolgebouw","aliases":["schoolgebouw","gymnasium","school"],"addressRelevant":true},
+    {"id":"ziekenhuis","category":"maatschappelijk","labelNl":"Historisch ziekenhuis","aliases":["gasthuis","hospitaal","ziekenhuis"],"addressRelevant":true},
+    {"id":"begraafplaats","category":"funerair","labelNl":"Historische begraafplaats","aliases":["begraafplaats","kerkhof","grafmonument","grafkapel"],"addressRelevant":true},
+    {"id":"woonhuis","category":"residentieel","labelNl":"Historisch woonhuis","aliases":["woonhuis","woning","woongebouw"],"addressRelevant":true},
+    {"id":"winkelpand","category":"commercieel","labelNl":"Historisch winkelpand","aliases":["winkel","winkelhuis","handelshuis"],"addressRelevant":true},
+    {"id":"horecapand","category":"commercieel","labelNl":"Historisch horeca-/logiespand","aliases":["hotel","herberg","cafe","café","restaurant"],"addressRelevant":true},
+    {"id":"theater","category":"cultureel","labelNl":"Theater/schouwburg","aliases":["theater","schouwburg","concertgebouw"],"addressRelevant":true},
+    {"id":"museum","category":"cultureel","labelNl":"Museumgebouw","aliases":["museum","museumgebouw"],"addressRelevant":true},
+    {"id":"ander-erfgoedobject","category":"overig","labelNl":"Ander erfgoedobject","aliases":[],"addressRelevant":true}
+  ]
+}

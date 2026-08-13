@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-13",
+  "taxonomy": "data/heritage-object-types.json",
+  "sourceRegistry": "data/heritage-object-source-registry.json",
+  "records": [],
+  "status": {
+    "schemaReady": true,
+    "resolverReady": true,
+    "classifierReady": true,
+    "nationwideObjectImportPending": true,
+    "note": "Geen objectrecords verzonnen. Concrete records worden uitsluitend toegevoegd nadat officiële objectdata met adres/BAG-identiteit en bronbewijs beschikbaar is."
+  }
+}

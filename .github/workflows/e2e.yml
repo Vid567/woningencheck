@@ -10,6 +10,8 @@ on:
       - 'data/regulations.json'
       - 'data/location-rules.json'
       - 'data/municipalities-2026.json'
+      - 'data/heritage-municipalities/**'
+      - 'data/heritage-object-types.json'
       - 'tests/e2e/**'
       - 'playwright.config.mjs'
       - 'package.json'
@@ -26,7 +28,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 22
       - run: npm install
       - run: npx playwright install --with-deps chromium
       - name: Run desktop and mobile E2E

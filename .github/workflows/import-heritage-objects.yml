@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - 'scripts/import-rce-heritage-objects.mjs'
+      - 'scripts/backfill-heritage-municipality-codes.mjs'
       - 'scripts/heritage-object-classifier.mjs'
       - 'scripts/verify-heritage-object-records.mjs'
       - 'scripts/verify-heritage-multi-address-regression.mjs'
@@ -55,6 +56,13 @@ jobs:
 
       - name: Import all current RCE rijksmonument objects
         run: node scripts/import-rce-heritage-objects.mjs .rce-extract/csv
+
+      - name: Backfill missing municipality codes from PDOK
+        env:
+          PDOK_BACKFILL_CONCURRENCY: '8'
+          PDOK_BACKFILL_RETRIES: '3'
+          PDOK_BACKFILL_TIMEOUT_MS: '12000'
+        run: node scripts/backfill-heritage-municipality-codes.mjs
 
       - name: Validate imported object database
         run: node scripts/verify-heritage-object-records.mjs

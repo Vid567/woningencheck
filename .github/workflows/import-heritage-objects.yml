@@ -8,6 +8,7 @@ on:
       - 'scripts/import-rce-heritage-objects.mjs'
       - 'scripts/heritage-object-classifier.mjs'
       - 'scripts/verify-heritage-object-records.mjs'
+      - 'scripts/verify-heritage-multi-address-regression.mjs'
       - 'data/heritage-object-types.json'
       - '.github/workflows/import-heritage-objects.yml'
   schedule:
@@ -54,6 +55,9 @@ jobs:
 
       - name: Validate imported object database
         run: node scripts/verify-heritage-object-records.mjs
+
+      - name: Run multi-address regression
+        run: node scripts/verify-heritage-multi-address-regression.mjs
 
       - name: Compress nationwide heritage database
         run: |

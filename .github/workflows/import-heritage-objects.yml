@@ -12,25 +12,38 @@ on:
       - '.github/workflows/import-heritage-objects.yml'
   schedule:
     - cron: '23 4 3 * *'
-
 permissions:
   contents: write
-
 concurrency:
   group: heritage-object-import
   cancel-in-progress: false
-
 jobs:
   import:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
+      - name: Install MDB reader
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq mdbtools
+      - name: Download official nationwide RCE Monumentendatabank
+        run: |
+          mkdir -p .rce-extract/csv
+          curl --fail --location --retry 4 --retry-all-errors --output .rce-extract/Extract_MRS.zip 'https://data.geo.cultureelerfgoed.nl/openbaar/monumenten/Extract_MRS.zip'
+          unzip -o .rce-extract/Extract_MRS.zip -d .rce-extract/raw
+          MDB=$(find .rce-extract/raw -type f \( -iname '*.mdb' -o -iname '*.accdb' \) | head -1)
+          test -n "$MDB" || { echo 'Official RCE archive contains no MDB/ACCDB'; find .rce-extract/raw -maxdepth 2 -type f; exit 1; }
+          mdb-tables -1 "$MDB" > .rce-extract/tables.txt
+          while IFS= read -r table; do
+            test -n "$table" || continue
+            safe=$(printf '%s' "$table" | tr '/\\ ' '___')
+            mdb-export "$MDB" "$table" > ".rce-extract/csv/${safe}.csv" || true
+          done < .rce-extract/tables.txt
+          echo "RCE tables: $(wc -l < .rce-extract/tables.txt)"
       - name: Import all current RCE rijksmonument objects
-        run: node scripts/import-rce-heritage-objects.mjs
+        run: node scripts/import-rce-heritage-objects.mjs .rce-extract/csv
       - name: Validate imported object database
         run: node scripts/verify-heritage-object-records.mjs
       - name: Commit refreshed object database
@@ -38,9 +51,4 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email 41898282+github-actions[bot]@users.noreply.github.com
           git add data/heritage-object-records.json data/heritage-object-import-report.json
-          if git diff --cached --quiet; then
-            echo 'No heritage object changes'
-          else
-            git commit -m 'Refresh nationwide heritage object database'
-            git push
-          fi
+          if git diff --cached --quiet; then echo 'No heritage object changes'; else git commit -m 'Refresh nationwide heritage object database'; git push; fi

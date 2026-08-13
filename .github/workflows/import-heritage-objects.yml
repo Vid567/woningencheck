@@ -2,6 +2,14 @@ name: Import nationwide heritage objects
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/import-rce-heritage-objects.mjs'
+      - 'scripts/heritage-object-classifier.mjs'
+      - 'scripts/verify-heritage-object-records.mjs'
+      - 'data/heritage-object-types.json'
+      - '.github/workflows/import-heritage-objects.yml'
   schedule:
     - cron: '23 4 3 * *'
 

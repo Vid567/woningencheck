@@ -1,0 +1,90 @@
+{
+  "schemaVersion": "1.0.0",
+  "generatedAt": "2026-08-14",
+  "links": [
+    {
+      "municipalityCode": "GM0518",
+      "canonicalType": "purchase-protection",
+      "thresholdRef": "nhg-cost-limit-2026",
+      "factor": 1,
+      "classification": "national-indexed",
+      "legacyValues": [470000],
+      "note": "Den Haag follows the NHG cost limit of the delivery year."
+    },
+    {
+      "municipalityCode": "GM0758",
+      "canonicalType": "purchase-protection",
+      "thresholdRef": "nhg-cost-limit-2026",
+      "factor": 1,
+      "classification": "national-indexed",
+      "legacyValues": [470000],
+      "note": "Breda directly follows the applicable NHG limit."
+    },
+    {
+      "municipalityCode": "GM1901",
+      "canonicalType": "purchase-protection",
+      "thresholdRef": "nhg-cost-limit-2026",
+      "factor": 0.7,
+      "classification": "national-indexed-factor",
+      "legacyValues": [329000],
+      "note": "Bodegraven-Reeuwijk uses 70% of the applicable NHG cost limit."
+    },
+    {
+      "municipalityCode": "GM0150",
+      "canonicalType": "conversion-permit",
+      "thresholdRef": "nhg-cost-limit-2026",
+      "factor": 1,
+      "classification": "national-indexed",
+      "legacyValues": [475000, 470000],
+      "sourceConflict": {
+        "status": "municipal-information-conflicts-with-legal-definition",
+        "conflictingValue": 475000,
+        "resolvedRuntimeValue": 470000,
+        "legalPriority": "official NHG cost limit without energy-saving provisions"
+      },
+      "note": "Deventer kamerverhuur: the municipal information page states EUR 475,000, while the 2026 housing regulation dynamically refers to the standard NHG limit. Runtime therefore uses EUR 470,000 for 2026."
+    },
+    {
+      "municipalityCode": "GM0150",
+      "canonicalType": "purchase-protection",
+      "thresholdRef": "nhg-cost-limit-2026",
+      "factor": 1,
+      "classification": "national-indexed",
+      "validFrom": "2026-02-07",
+      "legacyValues": [470000],
+      "note": "Deventer opkoopbescherming follows the NHG limit from 7 February 2026; earlier applicability must remain versioned separately."
+    },
+    {
+      "municipalityCode": "GM0153",
+      "canonicalType": "purchase-protection",
+      "thresholdRef": "enschede-opkoop-limit-2026",
+      "factor": 1,
+      "classification": "municipal-indexed",
+      "legacyValues": [365000],
+      "note": "Enschede recalculates its own 60%-market threshold annually; it is not NHG-linked."
+    },
+    {
+      "municipalityCode": "GM0363",
+      "canonicalType": "purchase-protection",
+      "thresholdRef": "amsterdam-opkoop-limit-2026",
+      "factor": 1,
+      "classification": "municipal-indexed",
+      "legacyValues": [637000],
+      "note": "Amsterdam publishes its own annual WOZ purchase-protection limit."
+    },
+    {
+      "municipalityCode": "GM0114",
+      "canonicalType": "purchase-protection",
+      "classification": "municipal-fixed-versioned",
+      "fixedValue": 250000,
+      "note": "Emmen EUR 250,000 is a version-bound local amount, not an annual NHG-derived parameter."
+    },
+    {
+      "municipalityCode": "GM0268",
+      "canonicalType": "conversion-permit",
+      "classification": "municipal-fixed-versioned",
+      "fixedValues": [278000, 396000],
+      "note": "Nijmegen uses local versioned room-rental thresholds; do not bind these to NHG."
+    }
+  ]
+}

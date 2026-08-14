@@ -14,11 +14,14 @@ jobs:
       - uses: actions/setup-node@v4
         with: {node-version: 22}
       - run: node --check assets/app.js
+      - run: node --check assets/heritage.js
       - name: Parse all production JSON and verify municipality dropdown data
         run: node scripts/verify-data.mjs
       - run: node scripts/verify-pipeline.mjs
       - run: node scripts/test-applicability.mjs
       - run: node scripts/test-geography.mjs
+      - run: node tests/heritage-regression.mjs
+      - run: node tests/heritage-amsterdam.mjs
       - run: node scripts/test-batch-001.mjs
       - run: node scripts/test-batch-001-closure.mjs
       - run: node scripts/test-batch-002.mjs
@@ -35,6 +38,3 @@ jobs:
       - name: Verify official sources
         if: github.event_name == 'workflow_dispatch' || github.event_name == 'schedule'
         run: node scripts/verify-sources.mjs
-
-
-

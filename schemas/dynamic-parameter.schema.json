@@ -3,15 +3,18 @@
   "$id": "https://woningencheck.nl/schemas/dynamic-parameter.schema.json",
   "type": "object",
   "additionalProperties": false,
-  "required": ["id", "municipalityCode", "regulationId", "name", "year", "value", "unit", "validFrom", "validUntil", "updateMethod", "source", "lastVerifiedAt", "nextExpectedUpdate", "updateFrequency", "status"],
+  "required": ["id", "classification", "name", "year", "value", "unit", "validFrom", "validUntil", "updateMethod", "source", "lastVerifiedAt", "nextExpectedUpdate", "updateFrequency", "status"],
   "properties": {
     "id": {"type": "string", "minLength": 1},
+    "classification": {"enum": ["national-indexed", "municipal-indexed", "reference-expired"]},
     "municipalityCode": {"type": "string", "pattern": "^GM[0-9]{4}$"},
     "regulationId": {"type": "string", "minLength": 1},
     "name": {"type": "string", "minLength": 1},
     "year": {"type": "integer", "minimum": 2000, "maximum": 2100},
     "value": {"type": "number"},
     "unit": {"type": "string", "minLength": 1},
+    "thresholdRef": {"type": "string", "minLength": 1},
+    "factor": {"type": "number", "exclusiveMinimum": 0},
     "validFrom": {"type": "string", "format": "date"},
     "validUntil": {"type": "string", "format": "date"},
     "updateMethod": {"type": "string", "minLength": 1},
@@ -20,5 +23,19 @@
     "nextExpectedUpdate": {"type": "string", "format": "date"},
     "updateFrequency": {"const": "annual"},
     "status": {"enum": ["current", "expired-do-not-use", "pending-update"]}
-  }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"classification": {"enum": ["municipal-indexed", "reference-expired"]}}, "required": ["classification"]},
+      "then": {"required": ["municipalityCode", "regulationId"]}
+    },
+    {
+      "if": {"required": ["thresholdRef"]},
+      "then": {"required": ["factor"]}
+    },
+    {
+      "if": {"required": ["factor"]},
+      "then": {"required": ["thresholdRef"]}
+    }
+  ]
 }

@@ -36,4 +36,24 @@ test('negatieve adrescontrole geeft geen false positive',()=>{
   assert.equal(r.matches,0);assert.equal(r.hasHeritageTrigger,false);
 });
 
+test('RCE kort adres matcht PDOK volledig adres via sterke identiteit',()=>{
+  const r=resolveHeritageForAddress({municipalityCode:'GM0363',street:'Dam',houseNumber:37,postcode:'1012DA',displayName:'Dam 37, 1012 DA Amsterdam'},[{sourceId:'rce',municipalityCode:'GM0363',heritageType:HERITAGE_TYPES.NATIONAL_MONUMENT,addresses:['Dam 37'],addressIdentity:{street:'Dam',houseNumber:'37',addition:'',postcode:'1012DA'},matchMethod:MATCH_METHODS.ADDRESS}]);
+  assert.equal(r.protectedObject,true);assert.equal(r.matches,1);
+});
+
+test('huisnummertoevoeging 23-H, 23 H en 23H is canoniek gelijk',()=>{
+  const record={sourceId:'rce',municipalityCode:'GM0363',heritageType:HERITAGE_TYPES.NATIONAL_MONUMENT,addresses:['Teststraat 23-H'],addressIdentity:{street:'Teststraat',houseNumber:'23',addition:'H',postcode:'1012AB'},matchMethod:MATCH_METHODS.ADDRESS};
+  for(const addition of ['H','-H',' H'])assert.equal(resolveHeritageForAddress({municipalityCode:'GM0363',street:'Teststraat',houseNumber:23,houseNumberAddition:addition,postcode:'1012 AB'},[record]).matches,1);
+});
+
+test('zelfde huisnummer en postcode maar andere straat matcht niet',()=>{
+  const r=resolveHeritageForAddress({municipalityCode:'GM0363',street:'Andere Straat',houseNumber:37,postcode:'1012DA'},[{sourceId:'rce',municipalityCode:'GM0363',heritageType:HERITAGE_TYPES.NATIONAL_MONUMENT,addresses:['Dam 37'],addressIdentity:{street:'Dam',houseNumber:'37',addition:'',postcode:'1012DA'},matchMethod:MATCH_METHODS.ADDRESS}]);
+  assert.equal(r.matches,0);
+});
+
+test('zelfde straat en nummer maar andere postcode matcht niet bij sterke identiteit',()=>{
+  const r=resolveHeritageForAddress({municipalityCode:'GM0363',street:'Dam',houseNumber:37,postcode:'9999ZZ'},[{sourceId:'rce',municipalityCode:'GM0363',heritageType:HERITAGE_TYPES.NATIONAL_MONUMENT,addresses:['Dam 37'],addressIdentity:{street:'Dam',houseNumber:'37',addition:'',postcode:'1012DA'},matchMethod:MATCH_METHODS.ADDRESS}]);
+  assert.equal(r.matches,0);
+});
+
 console.log(`\nHERITAGE RESULTAAT: ${passed} PASS · ${failed} FAIL`);if(failed)process.exit(1);

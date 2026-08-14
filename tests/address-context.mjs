@@ -34,7 +34,7 @@ assert.equal(resolved.municipality.code,"GM0114");
 assert.equal(evaluateGeographicScope(scope,resolved,"GM0114").status,"match");
 
 const deventerEvidence=[{municipalityCode:"GM0150",url:"https://lokaleregelgeving.overheid.nl/CVDR756535/1",section:"Artikel 11"}];
-const deventerScope={operator:"AND",conditions:[{type:"municipality",operator:"equals",value:"GM0150",evidence:deventerEvidence},{operator:"OR",conditions:[{type:"property-value",operator:"lte",value:475000,fact:"property.wozValue",evidence:deventerEvidence},{type:"postcode",operator:"in",values:["7413","7416","7417"],evidence:deventerEvidence}]}]};
+const deventerScope={operator:"AND",conditions:[{type:"municipality",operator:"equals",value:"GM0150",evidence:deventerEvidence},{operator:"OR",conditions:[{type:"property-value",operator:"lte",value:470000,fact:"property.wozValue",evidence:deventerEvidence},{type:"postcode",operator:"in",values:["7413","7416","7417"],evidence:deventerEvidence}]}]};
 const deventer=(postcode,wozValue)=>buildAddressContext({postcode,huisnummer:1,straatnaam:"Teststraat",gemeentenaam:"Deventer",gemeentecode:"0150"},{municipalityCode:"GM0150",municipalityName:"Deventer",wozValue});
 assert.equal(evaluateGeographicScope(deventerScope,deventer("7411",470000),"GM0150").status,"match");
 assert.equal(evaluateGeographicScope(deventerScope,deventer("7417",600000),"GM0150").status,"match");

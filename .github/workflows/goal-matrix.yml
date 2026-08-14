@@ -8,6 +8,7 @@ on:
       - 'data/municipalities-2026.json'
       - 'assets/app.js'
       - 'assets/applicability.js'
+      - 'assets/goal-router.js'
       - '.github/workflows/goal-matrix.yml'
   workflow_dispatch:
 permissions:

@@ -6,6 +6,7 @@ on:
     branches: [main]
     paths:
       - 'index.html'
+      - 'adrescheck.html'
       - 'assets/**'
       - 'data/regulations.json'
       - 'data/location-rules.json'
@@ -23,7 +24,7 @@ permissions:
 jobs:
   browser-e2e:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -32,7 +33,7 @@ jobs:
       - run: npm install
       - run: npx playwright install --with-deps chromium
       - name: Run deterministic desktop and mobile E2E
-        run: npx playwright test tests/e2e/app.spec.mjs tests/e2e/golden-46.spec.mjs
+        run: npx playwright test tests/e2e/app.spec.mjs tests/e2e/golden-current.spec.mjs
       - name: Upload Playwright report on failure
         if: failure()
         uses: actions/upload-artifact@v4

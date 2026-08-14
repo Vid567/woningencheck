@@ -1,0 +1,32 @@
+name: Nationwide goal matrix
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'tests/goal-matrix.mjs'
+      - 'data/regulations.json'
+      - 'data/municipalities-2026.json'
+      - 'assets/app.js'
+      - 'assets/applicability.js'
+      - '.github/workflows/goal-matrix.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  matrix-hub:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run 342 municipality × all-goal matrix
+        run: node tests/goal-matrix.mjs
+      - name: Upload matrix report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: nationwide-goal-matrix-report
+          path: artifacts/goal-matrix-report.json
+          if-no-files-found: error

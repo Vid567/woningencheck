@@ -21,7 +21,8 @@ for(const finding of batch.findings){
  if(finding.applicationRouteStatus?.startsWith('verified')&&!url)fail(`${finding.id}: verified route has no URL`);
  if(['development-specific','development-specific-regional'].includes(finding.geographicScope?.method)&&finding.substantiveVerificationStatus==='public-decision')fail(`${finding.id}: development-only rule activated publicly`);
 }
-if(params.length!==11)fail('Expected eleven tracked annual parameters');
+const requiredParameterIds=['nhg-cost-limit-2026','amsterdam-opkoop-limit-2026','enschede-opkoop-limit-2026','aalsmeer-opkoop-woz-2026','almelo-opkoop-woz-2026','almere-opkoop-nhg-2026','alkmaar-social-rent-2026','holland-rijnland-rent-2025-reference','alblasserdam-opkoop-nhg-2026','ameland-woz-2026','ameland-rent-2026','amersfoort-rent-2026','amstelveen-woz-2026'];
+for(const id of requiredParameterIds)if(!params.some(p=>p.id===id))fail(`Missing required tracked parameter: ${id}`);
 for(const p of params){
  if(!p.source.startsWith('https://')||!p.validFrom||!p.validUntil||!p.nextExpectedUpdate)fail(`${p.id}: incomplete parameter provenance`);
  if(p.year<2026&&p.status!=='expired-do-not-use')fail(`${p.id}: historical parameter is not blocked`);
@@ -29,6 +30,6 @@ for(const p of params){
 if(negative.requiredProcedure.length<6)fail('Negative-source procedure is incomplete');
 if(!negative.results.some(x=>x.municipalityCode==='GM1680'&&x.status==='no-current-municipal-regulation-confirmed'))fail('Aa en Hunze negative-source result missing');
 if(!negative.results.some(x=>x.municipalityCode==='GM0484'&&x.status==='current-regional-regulation-found'))fail('Alphen correction missing');
-console.log(`PASS: Batch 001 closed; ${openBatch.length} targeted human items; ${params.length} annual parameters; Batch 001 remains correct`);
+console.log(`PASS: Batch 001 closed; ${openBatch.length} targeted human items; ${params.length} tracked parameters; Batch 001 remains correct`);
 
 

@@ -1,0 +1,59 @@
+{
+  "schemaVersion": "1.0.0",
+  "records": [
+    {
+      "id": "leiden-woningvorming-2026",
+      "municipalityCode": "GM0546",
+      "municipalityName": "Leiden",
+      "title": "Woning splitsen / woningvorming",
+      "regulationType": "woningvorming",
+      "canonicalType": "housing-formation",
+      "goals": ["split"],
+      "scopeType": "adresafhankelijk",
+      "scopeValue": "Aangewezen postcodes/gebieden in Leiden",
+      "shortDescription": "Voor het veranderen van één woning in kleinere zelfstandige woningen kan in aangewezen delen van Leiden een woningvormingsvergunning nodig zijn. De officiële postcodelijst en kaart bepalen dit per adres.",
+      "conditions": "Controleer de officiële postcodelijst/kaart. Bij verbouwen kan daarnaast een omgevingsvergunning nodig zijn en de woning moet aan de bouwregels voldoen.",
+      "officialInformationUrl": "https://gemeente.leiden.nl/inwoners-en-ondernemers/wonen-en-bouwen/wonen/woning-veranderen-in-kleinere-zelfstandige-woningen-woningvorming/",
+      "officialApplicationUrl": "https://gemeente.leiden.nl/inwoners-en-ondernemers/wonen-en-bouwen/wonen/woning-veranderen-in-kleinere-zelfstandige-woningen-woningvorming/",
+      "lastVerificationDate": "2026-08-14",
+      "sourceVerificationStatus": "verified-official",
+      "legalReviewStatus": "not reviewed"
+    },
+    {
+      "id": "leiden-vakantieverhuur-2026",
+      "municipalityCode": "GM0546",
+      "municipalityName": "Leiden",
+      "title": "Toeristische verhuur / vakantieverhuur",
+      "regulationType": "toeristische-verhuur",
+      "canonicalType": "holiday-rental",
+      "goals": ["holiday"],
+      "scopeType": "gemeente",
+      "scopeValue": "Leiden",
+      "shortDescription": "Particuliere vakantieverhuur van de gehele woning is in Leiden toegestaan onder voorwaarden, waaronder maximaal 30 nachten per kalenderjaar en een verplicht registratienummer.",
+      "conditions": "Tijdens de verhuur zijn bewoner/huisgenoten niet aanwezig; eigenaar of toestemming verhuurder; maximaal 30 nachten per kalenderjaar; nachtregister; verplicht registratienummer; toeristenbelasting; brandveiligheidseisen.",
+      "officialInformationUrl": "https://gemeente.leiden.nl/inwoners-en-ondernemers/wonen-en-bouwen/wonen/toeristische-verhuur-van-woonruimte/",
+      "officialApplicationUrl": "https://www.toeristischeverhuur.nl/",
+      "lastVerificationDate": "2026-08-14",
+      "sourceVerificationStatus": "verified-official",
+      "legalReviewStatus": "not reviewed"
+    },
+    {
+      "id": "leiden-verbouwen-omgevingsvergunning-2026",
+      "municipalityCode": "GM0546",
+      "municipalityName": "Leiden",
+      "title": "Verbouwen en omgevingsvergunning",
+      "regulationType": "omgevingsvergunning-verbouwen",
+      "canonicalType": "building-environment-permit",
+      "goals": ["renovate"],
+      "scopeType": "gemeente",
+      "scopeValue": "Leiden; vergunningplicht wordt per activiteit en locatie via de vergunningcheck bepaald",
+      "shortDescription": "Bij bouwen of verbouwen bepaalt de officiële vergunningcheck of een omgevingsvergunning of melding nodig is. Een benodigde vergunning kan daarna via het Omgevingsloket worden aangevraagd.",
+      "conditions": "Bij een monument moet in de vergunningcheck ook de monumentactiviteit worden gekozen. Locatie, werkzaamheden en omgevingsplan bepalen welke regels en vergunningen gelden.",
+      "officialInformationUrl": "https://gemeente.leiden.nl/inwoners-en-ondernemers/wonen-en-bouwen/omgevingsvergunningen/omgevingsvergunning-aanvragen/",
+      "officialApplicationUrl": "https://omgevingswet.overheid.nl/checken?contentType=link",
+      "lastVerificationDate": "2026-08-14",
+      "sourceVerificationStatus": "verified-official",
+      "legalReviewStatus": "not reviewed"
+    }
+  ]
+}

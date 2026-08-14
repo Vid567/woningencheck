@@ -3,7 +3,7 @@ const read=path=>JSON.parse(fs.readFileSync(path,"utf8"));
 const productionJson=fs.readdirSync("data",{recursive:true}).filter(path=>String(path).endsWith(".json")).map(path=>`data/${String(path).replaceAll("\\","/")}`);
 for(const path of productionJson)read(path);
 const data=read("data/municipalities-2026.json"),rules=read("data/regulations.json").records,sources=read("data/sources.json").sources;
-const app=fs.readFileSync("assets/app.js","utf8"),fail=message=>{console.error(`FAIL: ${message}`);process.exitCode=1};
+const app=fs.readFileSync("assets/app.js","utf8"),addressHtml=fs.readFileSync("adrescheck.html","utf8"),fail=message=>{console.error(`FAIL: ${message}`);process.exitCode=1};
 if(data.municipalities.length!==342)fail(`expected 342 municipalities, got ${data.municipalities.length}`);
 if(data.municipalityCount!==342)fail(`municipalityCount must be 342, got ${data.municipalityCount}`);
 for(const field of ["code","name"])if(new Set(data.municipalities.map(item=>item[field])).size!==342)fail(`municipality ${field} values are not unique`);
@@ -26,7 +26,8 @@ for(const rule of rules){
   if(rule.regulationType==="omzettingsvergunning"&&!/(kamerverhuur|omzettingsvergunning)/.test(path))fail(`${rule.id}: application URL may point to unrelated permit type`);
 }
 for(const token of ["officialApplicationUrl","application-cta","isApplicationRouteRelevant","Bekijk uitleg van de gemeente","Bekijk de officiële regelgeving","www.wozwaardeloket.nl"])if(!app.includes(token))fail(`application UI does not render ${token}`);
-for(const token of ['fetch("data/municipalities-2026.json"','state.municipalities.map','findMunicipality(found)','if(byCode)return byCode','Adres controleren...','Gemeente:'])if(!app.includes(token))fail(`municipality UI regression: missing ${token}`);
+for(const token of ['fetch("data/municipalities-2026.json"','state.municipalities.map','findMunicipality(found)','if(byCode)return byCode','Gemeente:'])if(!app.includes(token))fail(`municipality UI regression: missing ${token}`);
+if(!addressHtml.includes('>Bekijk adres</button>'))fail('municipality UI regression: missing Bekijk adres button');
 if(app.includes("BAG-id:")||app.includes("Officieel BAG-adres zoeken via PDOK"))fail("technical address terminology exposed to users");
 const text=fs.readFileSync("index.html","utf8")+app;
 for(const bad of ["localhost","raw.githack.com","api_key","apiKey"])if(text.includes(bad))fail(`forbidden value found: ${bad}`);

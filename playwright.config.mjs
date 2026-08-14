@@ -2,6 +2,9 @@ import {defineConfig,devices} from '@playwright/test';
 
 export default defineConfig({
   testDir: './tests/e2e',
+  // golden-46.spec.mjs remains the immutable case-data source. The current runner
+  // reads that full matrix and executes it against /adrescheck.html.
+  testIgnore: ['**/golden-46.spec.mjs'],
   timeout: 30000,
   retries: process.env.CI ? 1 : 0,
   reporter: process.env.CI ? [['list'],['html',{open:'never'}]] : 'list',

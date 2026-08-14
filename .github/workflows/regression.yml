@@ -31,6 +31,8 @@ jobs:
           node-version: '22'
       - name: Run decision-engine regression and 342-municipality data QA
         run: node tests/regression.mjs
+      - name: Prove future-year threshold independence
+        run: node tests/threshold-future-year.mjs
       - name: Run heritage resolver regression
         run: node tests/heritage-regression.mjs
       - name: Run Amsterdam heritage adapter regression

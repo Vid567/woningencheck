@@ -1,7 +1,7 @@
 import {test,expect} from '@playwright/test';
 
 async function submitAddress(page,{postcode,number,addition=''}){
-  await page.goto('/');
+  await page.goto('/adrescheck.html');
   await page.locator('#postcode').fill(postcode);
   await page.locator('#number').fill(String(number));
   if(addition) await page.locator('#addition').fill(addition);

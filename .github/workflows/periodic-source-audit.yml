@@ -1,0 +1,55 @@
+name: Periodic source audit
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: Controlemodus
+        required: true
+        default: monthly
+        type: choice
+        options: [monthly, annual, all]
+  schedule:
+    - cron: '17 6 1 * *'
+    - cron: '47 6 5 1 *'
+
+permissions:
+  contents: read
+
+jobs:
+  monthly-source-watch:
+    if: github.event_name == 'schedule' && github.event.schedule == '17 6 1 * *' || github.event_name == 'workflow_dispatch' && (inputs.mode == 'monthly' || inputs.mode == 'all')
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Controleer officiële bronnen en aanvraagroutes
+        run: node scripts/monthly-source-watch.mjs
+      - name: Publiceer controlerapport
+        uses: actions/upload-artifact@v4
+        with:
+          name: monthly-source-watch
+          path: artifacts/source-watch/
+          retention-days: 90
+
+  annual-parameter-audit:
+    if: github.event_name == 'schedule' && github.event.schedule == '47 6 5 1 *' || github.event_name == 'workflow_dispatch' && (inputs.mode == 'annual' || inputs.mode == 'all')
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Controleer jaarlijkse grenzen en bedragen
+        run: node scripts/annual-parameter-audit.mjs
+      - name: Publiceer parametercontrolerapport
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: annual-parameter-audit
+          path: artifacts/parameter-audit/
+          retention-days: 365

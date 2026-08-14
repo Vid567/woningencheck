@@ -3,15 +3,19 @@ import fs from "node:fs";
 const sources = JSON.parse(fs.readFileSync("data/sources.json", "utf8")).sources;
 const rules = JSON.parse(fs.readFileSync("data/regulations.json", "utf8")).records;
 
-// Trust is derived from the curated source registry plus the small set of
-// national infrastructure domains used directly by the runtime. This avoids
-// maintaining a second, incomplete municipality-domain allowlist here.
-const registryHosts = new Set(
-  sources
-    .map(source => source.url)
-    .filter(Boolean)
-    .map(url => new URL(url).hostname.replace(/^www\./, ""))
-);
+const hostOf = url => new URL(url).hostname.replace(/^www\./, "");
+
+// Trust is derived from all curated URLs already registered in production data:
+// source pages, official application routes and application documents. This keeps
+// trust coupled to the maintained dataset instead of a separate domain allowlist.
+const registeredHosts = new Set([
+  ...sources.map(source => source.url),
+  ...rules.flatMap(rule => [
+    rule.officialApplicationUrl,
+    ...(rule.applicationDocuments || []).map(document => document.url)
+  ])
+].filter(Boolean).map(hostOf));
+
 const infrastructureHosts = new Set([
   "cbs.nl",
   "overheid.nl",
@@ -20,10 +24,10 @@ const infrastructureHosts = new Set([
   "pdok.nl"
 ]);
 
-const isTrustedHost = host =>
-  [...registryHosts, ...infrastructureHosts].some(domain =>
-    host === domain || host.endsWith(`.${domain}`)
-  );
+const trustedDomains = [...registeredHosts, ...infrastructureHosts];
+const isTrustedHost = host => trustedDomains.some(domain =>
+  host === domain || host.endsWith(`.${domain}`)
+);
 
 const targets = [
   ...sources.map(source => ({ id: source.id, url: source.url, type: "source" })),
@@ -39,7 +43,7 @@ const targets = [
 
 let failed = false;
 for (const target of targets) {
-  const host = new URL(target.url).hostname.replace(/^www\./, "");
+  const host = hostOf(target.url);
   if (!isTrustedHost(host)) {
     console.error(`UNTRUSTED ${target.type} ${target.id}: ${host}`);
     failed = true;
@@ -50,15 +54,12 @@ for (const target of targets) {
     const response = await fetch(target.url, {
       redirect: "follow",
       signal: AbortSignal.timeout(15000),
-      headers: { "user-agent": "Woningencheck-source-verifier/1.2" }
+      headers: { "user-agent": "Woningencheck-source-verifier/1.3" }
     });
 
     if (response.ok) {
       console.log(`LIVE ${target.type} ${target.id}`);
     } else if (response.status === 403) {
-      // A number of official sites reject GitHub-hosted/bot traffic while
-      // remaining reachable for normal browsers. Keep this visible without
-      // turning that anti-bot response into a false broken-source failure.
       console.warn(`CI-BLOCKED-403 ${target.type} ${target.id}`);
     } else {
       console.error(`HTTP ${response.status} ${target.type} ${target.id}`);

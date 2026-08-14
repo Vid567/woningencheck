@@ -17,3 +17,5 @@ jobs:
         run: node scripts/verify-sources.mjs
       - name: Confirm source verifier revision
         run: git log -1 --oneline
+      - name: Confirm validator version
+        run: grep 'source-verifier/1.3' scripts/verify-sources.mjs

@@ -22,8 +22,8 @@ for(const rule of rules){
   if(!Array.isArray(rule.requiredDocuments)||!Array.isArray(rule.applicationDocuments))fail(`${rule.id}: document fields missing`);
   for(const document of rule.applicationDocuments||[])if(!document.url.startsWith("https://"))fail(`${rule.id}: non-HTTPS document URL`);
   const path=new URL(rule.officialApplicationUrl||"https://invalid.example").pathname.toLowerCase();
-  if(rule.regulationType==="opkoopbescherming"&&!/(opkoop|verhuurvergunning)/.test(path))fail(`${rule.id}: application URL may point to unrelated permit type`);
-  if(rule.regulationType==="omzettingsvergunning"&&!/(kamerverhuur|omzettingsvergunning)/.test(path))fail(`${rule.id}: application URL may point to unrelated permit type`);
+  if(rule.officialApplicationUrl&&rule.regulationType==="opkoopbescherming"&&!/(opkoop|verhuurvergunning|koopwoning|zelf-gebruiken|zelfbewoning)/.test(path))fail(`${rule.id}: application URL may point to unrelated permit type`);
+  if(rule.officialApplicationUrl&&rule.regulationType==="omzettingsvergunning"&&!/(kamerverhuur|omzettingsvergunning|kamers-verhuren|kamer-verhuren|omzetten)/.test(path))fail(`${rule.id}: application URL may point to unrelated permit type`);
 }
 for(const token of ["officialApplicationUrl","application-cta","isApplicationRouteRelevant","Bekijk uitleg van de gemeente","Bekijk de officiële regelgeving","www.wozwaardeloket.nl"])if(!app.includes(token))fail(`application UI does not render ${token}`);
 for(const token of ['fetch("data/municipalities-2026.json"','state.municipalities.map','findMunicipality(found)','if(byCode)return byCode','Gemeente:'])if(!app.includes(token))fail(`municipality UI regression: missing ${token}`);

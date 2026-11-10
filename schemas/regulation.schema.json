@@ -463,6 +463,21 @@
         }
       },
       "additionalProperties": false
+    },
+    "goals": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "rent",
+          "rooms",
+          "split",
+          "holiday",
+          "tohome",
+          "renovate"
+        ]
+      },
+      "uniqueItems": true,
+      "description": "Expliciete gebruikersdoelen waarvoor de regel relevant is; overschrijft tekstherkenning in assets/goal-router.js"
     }
   },
   "additionalProperties": false

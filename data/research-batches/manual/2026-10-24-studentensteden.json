@@ -1,0 +1,1460 @@
+{
+  "schemaVersion": "1.0.0",
+  "batch": "manual-2026-10-24-studentensteden",
+  "method": "Handmatig bronnenonderzoek door Claude via officiële gemeentepagina's en lokaleregelgeving.overheid.nl (CVDR). Elke regel heeft een officiële bron en controledatum. Geen automatische extractie.",
+  "checkedAt": "2026-10-24",
+  "publicationDecision": {
+    "publicationAllowed": true,
+    "approvedAt": "2026-10-24",
+    "approvedBy": "Mike (eigenaar) — chatakkoord 'voor vandaag direct doorzetten'",
+    "sourceReviewReference": "data/research-batches/manual/2026-10-24-studentensteden.json"
+  },
+  "municipalities": [
+    {
+      "code": "GM0014",
+      "name": "Groningen",
+      "regulation": {
+        "title": "Huisvestingsverordening 2025 gemeente Groningen",
+        "cvdr": "CVDR739354",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR739354",
+        "validFrom": "2025-05-20"
+      },
+      "rules": [
+        {
+          "key": "opkoop",
+          "regulationType": "opkoopbescherming",
+          "title": "Opkoopbescherming",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Groningen, behalve de voormalige gemeente Ten Boer; bestaande koopwoningen en woonboten met een WOZ-waarde tot en met € 430.000",
+          "shortDescription": "Een bestaande koopwoning met een WOZ-waarde tot en met € 430.000, geleverd na 1 maart 2022, mag in de eerste vier jaar na inschrijving van de leveringsakte alleen met een vergunning worden verhuurd. Geldt in heel Groningen behalve het gebied van de voormalige gemeente Ten Boer.",
+          "conditions": "Vergunning mogelijk voor verhuur aan bloed- of aanverwanten in de eerste of tweede graad, voor tijdelijke verhuur van maximaal twaalf maanden door een eigenaar die er minstens twaalf maanden zelf heeft gewoond (geen toeristische verhuur), of wanneer de woning onlosmakelijk deel uitmaakt van een winkel-, kantoor- of bedrijfsruimte. Alleen de eigenaar kan aanvragen. Leges € 443,42; bij aanvraag later dan één maand na aankoop gelden dubbele kosten.",
+          "exceptions": "Valt er niet onder: woningen geleverd vóór 1 maart 2022, woningen die bij overdracht al langer dan zes maanden verhuurd waren, en panden met een actief gebruikte omzettingsvergunning voor kamerverhuur.",
+          "infoUrl": "https://gemeente.groningen.nl/opkoopbescherming",
+          "applicationUrl": "https://gemeente.groningen.nl/opkoopbescherming",
+          "section": "Paragraaf 3.4, artikelen 41-49",
+          "effectiveDate": "2025-05-20",
+          "threshold": {
+            "type": "woz",
+            "value": 430000,
+            "currency": "EUR"
+          },
+          "leges": "€ 443,42",
+          "forms": [
+            {
+              "label": "Online aanvraag verhuurvergunning opkoopbescherming",
+              "url": "https://dloket.groningen.nl/startform?id=VOB",
+              "classification": "official-form"
+            },
+            {
+              "label": "Aanvraagformulier verhuurvergunning opkoopbescherming (pdf)",
+              "url": "https://gemeente.groningen.nl/file/aanvraagformulier-verhuurvergunning-opkoopbescherming",
+              "classification": "official-form"
+            }
+          ],
+          "notes": "De WOZ-grens van € 430.000 staat in artikel 41 van de geldende verordening en op de gemeentepagina (geldend sinds mei 2025). Controleer bij de jaarlijkse hercontrole of de grens is geïndexeerd."
+        },
+        {
+          "key": "omzetting",
+          "regulationType": "omzettingsvergunning",
+          "title": "Omzettingsvergunning kamerverhuur",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Groningen, behalve de voormalige gemeente Ten Boer; corporatiewoningen uitgezonderd",
+          "shortDescription": "Wie een woning wil laten bewonen door drie of meer personen in drie of meer onzelfstandige kamers, heeft een omzettingsvergunning nodig. Zonder vergunning mag een pand aan één huishouden worden verhuurd. Nieuwe vergunningen worden alleen nog in zeer hoge uitzondering verleend.",
+          "conditions": "Een aanvraag komt alleen in aanmerking als het pand aan vier zijden wordt omringd door omgezette panden, of als het sinds 2015 aantoonbaar door drie personen in drie verhuurbare kamers is bewoond. Een omgevingstoets beoordeelt leefbaarheid en behoefte. Elke kamer wordt door maximaal één huishouden bewoond. Naast de pandgebonden omzettingsvergunning is een persoonsgebonden verhuurvergunning nodig. Bij vijf of meer kamers gelden scherpere brandveiligheidseisen en een gebruiksmelding. Leges 2026: € 3.212,33 (niet terugbetaald bij afwijzing). Beslistermijn maximaal 8 weken.",
+          "exceptions": "Hospitaverhuur (één kamer aan één persoon in de eigen woning van een eigenaar-bewoner, onder zeven voorwaarden) wordt tot de nieuwe regels niet actief gehandhaafd. Een splitsingsakte van de VvE kan kamerverhuur verbieden.",
+          "infoUrl": "https://gemeente.groningen.nl/voorwaarden-voor-kamerverhuur",
+          "applicationUrl": "https://gemeente.groningen.nl/omzettingsvergunning-voor-kamerverhuur-aanvragen",
+          "section": "Paragraaf 3.1, artikel 27 lid 2 sub c en artikelen 29-32",
+          "effectiveDate": "2025-05-20",
+          "leges": "€ 3.212,33 (2026)",
+          "forms": [
+            {
+              "label": "Online aanvraag omzettingsvergunning kamerverhuur",
+              "url": "https://dloket.groningen.nl/startform?id=OVK",
+              "classification": "official-form"
+            },
+            {
+              "label": "Aanvraagformulier woning omzettingsvergunning voor kamerverhuur (pdf)",
+              "url": "https://gemeente.groningen.nl/file/aanvraagformulier-woning-omzettingsvergunning-voor-kamerverhuur",
+              "classification": "official-form"
+            }
+          ],
+          "notes": "Het omgevingsplan (voorheen bestemmingsplan Herziening Bestemmingsregels Wonen 2) staat in beginsel alleen bewoning door één huishouden toe."
+        },
+        {
+          "key": "splitsing",
+          "regulationType": "splitsingsvergunning",
+          "title": "Splitsingsvergunning (splitsen in appartementsrechten)",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Groningen, behalve de voormalige gemeente Ten Boer; gebouwen van 15 jaar of ouder",
+          "shortDescription": "Voor het juridisch splitsen van een woongebouw van 15 jaar of ouder in appartementsrechten is een splitsingsvergunning nodig.",
+          "conditions": "U bent eigenaar, het pand is goed onderhouden, de indeling is geschikt voor splitsing en het pand is niet onbewoonbaar verklaard. Weigering is mogelijk bij een zwaarder belang voor de woningvoorraad of leefbaarheid, of bij lopende aanschrijvingen op grond van de Woningwet. Beslistermijn 8 weken, eenmaal te verlengen met 6 weken. Leges (tarief 2022 op de gemeentepagina): € 268,70 per appartement dat ontstaat.",
+          "exceptions": "Voor het kadastraal splitsen van alleen bedrijfsruimte is geen vergunning nodig.",
+          "infoUrl": "https://gemeente.groningen.nl/woning-splitsen",
+          "applicationUrl": "https://gemeente.groningen.nl/woning-splitsen",
+          "section": "Paragraaf 3.2, artikelen 33-37",
+          "effectiveDate": "2025-05-20",
+          "leges": "€ 268,70 per appartement (tarief 2022, hercontrole nodig)",
+          "forms": [
+            {
+              "label": "Aanvraagformulier splitsing in appartementsrechten (pdf)",
+              "url": "https://gemeente.groningen.nl/file/aanvraagformulier-splitsing-in-appartementenrechten",
+              "classification": "official-form"
+            }
+          ],
+          "notes": "Leges op de gemeentepagina zijn het tarief 2022; de actuele legesverordening moet bij hercontrole worden nagelopen."
+        },
+        {
+          "key": "woningvorming",
+          "regulationType": "woningvormingsvergunning",
+          "title": "Woningvormingsvergunning (woning splitsen in zelfstandige woningen)",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Groningen, behalve de voormalige gemeente Ten Boer; corporatiewoningen uitgezonderd",
+          "shortDescription": "Wie een woning verbouwt tot twee of meer zelfstandige woningen (woningvorming), heeft een woningvormingsvergunning nodig, en voor de verbouwing vaak ook een omgevingsvergunning.",
+          "conditions": "Een omgevingstoets kijkt naar de voorraad gezinswoningen in de wijk, wijkverbetering en leefbaarheid. Weigering bij een zwaarder belang voor de woningvoorraad. Beslistermijn 8 weken, eenmaal te verlengen met 6 weken. Leges (tarief 2022 op de gemeentepagina): € 2.650,00.",
+          "exceptions": "Zie de verordening voor uitzonderingen; corporatiewoningen vallen buiten de vergunningplicht.",
+          "infoUrl": "https://gemeente.groningen.nl/woning-splitsen",
+          "applicationUrl": "https://gemeente.groningen.nl/woning-splitsen",
+          "section": "Paragraaf 3.1, artikel 27 lid 2 sub d en artikelen 29-32",
+          "effectiveDate": "2025-05-20",
+          "leges": "€ 2.650,00 (tarief 2022, hercontrole nodig)",
+          "forms": [],
+          "notes": "De online aanvraag woningvormingsvergunning wordt vanaf de pagina Woning splitsen gelinkt."
+        }
+      ],
+      "unresolved": [
+        "Leges splitsings- en woningvormingsvergunning staan op de gemeentepagina met tarief 2022; actuele legesverordening 2026 nalopen."
+      ]
+    },
+    {
+      "code": "GM0344",
+      "name": "Utrecht",
+      "regulation": {
+        "title": "Huisvestingsverordening gemeente Utrecht",
+        "cvdr": "CVDR697254",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR697254",
+        "validFrom": "2024-07-05"
+      },
+      "rules": [
+        {
+          "key": "opkoop",
+          "regulationType": "opkoopbescherming",
+          "title": "Opkoopbescherming",
+          "scopeType": "gemeente",
+          "scopeValue": "Alle tien wijken van Utrecht; bestaande koopwoningen met een WOZ-waarde op of onder de geldende prijsgrens",
+          "shortDescription": "Een bestaande koopwoning die na 18 maart 2022 is geleverd en een WOZ-waarde heeft op of onder de prijsgrens, mag in de eerste vier jaar na aankoop alleen met een vergunning worden verhuurd. De prijsgrens is € 686.000 voor leveringen van 1 juli 2026 tot en met 30 juni 2027 (€ 611.000 voor leveringen van 1 juli 2025 tot en met 30 juni 2026).",
+          "conditions": "Vergunning mogelijk voor gebruik door (ex-)familie in de eerste of tweede graad, tijdelijke verhuur van maximaal twaalf maanden (niet toeristisch), woonruimte die deel is van een winkel-, kantoor- of bedrijfsruimte, verhuur als eigenaar-bewoner aan maximaal twee personen, of wanneer verhuur zwaarder weegt dan het belang van de regel. De prijsgrens wordt elk jaar per 1 juli geïndexeerd. Leges 2026: € 428,10. Beslissing binnen 8 weken.",
+          "exceptions": "Geen vergunning nodig als de woning bij overdracht al langer dan zes maanden verhuurd was. Nieuwbouwwoningen die voor het eerst worden bewoond en woningen boven de prijsgrens vallen er niet onder. Verkoop door de gemeente of een woningcorporatie valt erbuiten.",
+          "infoUrl": "https://loket.digitaal.utrecht.nl/nl/producten/koopwoning-niet-zelf-gebruiken-vergunning-aanvragen",
+          "applicationUrl": "https://loket.digitaal.utrecht.nl/nl/formulier/koopwoning-niet-zelf-gebruiken-vergunning-aanvragen",
+          "section": "Artikelen 65-67",
+          "effectiveDate": "2024-07-05",
+          "leges": "€ 428,10 (2026)",
+          "forms": [
+            {
+              "label": "Online aanvraag vergunning koopwoning niet zelf gebruiken",
+              "url": "https://loket.digitaal.utrecht.nl/nl/formulier/koopwoning-niet-zelf-gebruiken-vergunning-aanvragen"
+            }
+          ],
+          "notes": "Prijsgrens per leveringsperiode volgens de gemeentepagina; jaarlijkse indexatie per 1 juli (artikel 66)."
+        },
+        {
+          "key": "omzetting",
+          "regulationType": "omzettingsvergunning",
+          "title": "Omzettingsvergunning kamerverhuur (vergunning kamers verhuren)",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Utrecht",
+          "shortDescription": "Voor het omzetten van een zelfstandige woning naar kamers (onzelfstandige woonruimte) voor meer dan drie personen is een vergunning kamers verhuren nodig, en meestal ook een omgevingsvergunning voor afwijking van het omgevingsplan.",
+          "conditions": "Minimaal 18 m² gebruiksoppervlakte per bewoner na omzetting; geluidsisolatie volgens NEN 5077 met een geluidsplan; melding brandveilig gebruik; de leefbaarheid van de buurt mag niet verslechteren (beoordeeld onder meer met de Utrechtse Wijkmonitor); bij verlies van een zelfstandige woning geldt een vergoeding. Leges 2026: € 3.756,20 per woning plus € 120 per m² woonruimte bij verhuur aan vier of meer personen; omgevingsvergunning € 421,05. 40% terug bij weigering of intrekking.",
+          "exceptions": "Vrijgesteld: omzetting voor maximaal drie personen, hospitaverhuur in de eigen woning, en bestaand gebruik van vóór 1 mei 1975. Verhuur aan het eigen studerende kind is vergoedingsvrij.",
+          "infoUrl": "https://loket.digitaal.utrecht.nl/nl/producten/kamers-gaan-verhuren-vergunning-aanvragen",
+          "applicationUrl": "https://loket.digitaal.utrecht.nl/nl/formulier/vergunning-kamers-verhuren-aanvragen",
+          "section": "Artikel 49 lid 1 onder c en lid 3-4",
+          "effectiveDate": "2024-07-05",
+          "leges": "€ 3.756,20 per woning + € 120 per m² bij 4+ personen (2026)",
+          "forms": [
+            {
+              "label": "Online aanvraag vergunning kamers verhuren",
+              "url": "https://loket.digitaal.utrecht.nl/nl/formulier/vergunning-kamers-verhuren-aanvragen"
+            },
+            {
+              "label": "Omgevingsvergunning via het Omgevingsloket",
+              "url": "https://omgevingswet.overheid.nl/aanvragen"
+            }
+          ],
+          "notes": "Nadere regels: Beleidsregel (CVDR698476) en Nadere regel (CVDR698169) Huisvestingsverordening gemeente Utrecht. Sinds 1 juli 2026 is er netcongestie; een vergunning geeft geen recht op een zwaardere aansluiting."
+        },
+        {
+          "key": "splitsing",
+          "regulationType": "splitsingsvergunning",
+          "title": "Splitsingsvergunning (kadastraal splitsen in appartementsrechten)",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Utrecht; gebouwen met woonruimte van 25 jaar of ouder",
+          "shortDescription": "Voor het kadastraal splitsen in appartementsrechten van een gebouw met woonruimte dat op 1 januari van het aanvraagjaar 25 jaar of ouder is, is een splitsingsvergunning nodig.",
+          "conditions": "Eisen aan de splitsingstekening, een taxatierapport of verklaring van goed onderhoud, en de basiseisen van het Besluit bouwwerken leefomgeving. Leges 2026: € 2.377,80 per ontstaan appartementsrecht, maximaal € 47.556 per aanvraag; 40% terug bij weigering of intrekking.",
+          "exceptions": "Gebouwen van een woningcorporatie die na 1949 zijn gebouwd en een steenachtige woningscheidende vloer hebben.",
+          "infoUrl": "https://loket.digitaal.utrecht.nl/nl/producten/splitsen-woning-in-meerdere-woonruimten-vergunning-aanvragen",
+          "applicationUrl": "https://loket.digitaal.utrecht.nl/nl/formulier/vergunning-splitsen-woning-aanvragen",
+          "section": "Artikel 57",
+          "effectiveDate": "2024-07-05",
+          "leges": "€ 2.377,80 per appartementsrecht (2026)",
+          "forms": [
+            {
+              "label": "Online aanvraag vergunning splitsen woning",
+              "url": "https://loket.digitaal.utrecht.nl/nl/formulier/vergunning-splitsen-woning-aanvragen"
+            }
+          ]
+        },
+        {
+          "key": "woningvorming",
+          "regulationType": "woningvormingsvergunning",
+          "title": "Vergunning splitsen woning (woningvorming)",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Utrecht; lagere minimummaat in Binnenstad en Stationsgebied",
+          "shortDescription": "Wie een woning bouwkundig splitst in meerdere zelfstandige woningen om ze te verhuren of te verkopen, heeft een vergunning splitsen woning (woningvorming) én een omgevingsvergunning nodig.",
+          "conditions": "De oorspronkelijke woning was bij oprichting minimaal 140 m²; nieuwe woningen zijn minimaal 50 m² gebruiksoppervlak (40 m² in Binnenstad en Stationsgebied), gemiddeld 50 m² per gebouw; leefbaarheidstoets; geluidsisolatie volgens NEN 5077; gemeentelijke parkeernormen; bij verhuur de Wet goed verhuurderschap. Leges 2026: € 2.975,50 per woonruimte; omgevingsvergunning 3,01% van de bouwkosten (minimaal € 184,95).",
+          "exceptions": "Bestaand gebruik van vóór 1 mei 1975 en schriftelijke toestemming van het college (artikel 49 lid 4).",
+          "infoUrl": "https://loket.digitaal.utrecht.nl/nl/producten/splitsen-woning-in-meerdere-woonruimten-vergunning-aanvragen",
+          "applicationUrl": "https://loket.digitaal.utrecht.nl/nl/formulier/vergunning-splitsen-woning-aanvragen",
+          "section": "Artikel 49 lid 1 onder e",
+          "effectiveDate": "2024-07-05",
+          "leges": "€ 2.975,50 per woonruimte (2026)",
+          "forms": [
+            {
+              "label": "Online aanvraag vergunning splitsen woning",
+              "url": "https://loket.digitaal.utrecht.nl/nl/formulier/vergunning-splitsen-woning-aanvragen"
+            },
+            {
+              "label": "Omgevingsvergunning via het Omgevingsloket",
+              "url": "https://omgevingswet.overheid.nl/aanvragen"
+            }
+          ]
+        }
+      ],
+      "unresolved": []
+    },
+    {
+      "code": "GM0268",
+      "name": "Nijmegen",
+      "regulation": {
+        "title": "Huisvestingsverordening gemeente Nijmegen 2024",
+        "cvdr": "CVDR705568",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR705568",
+        "validFrom": "2024-01-01"
+      },
+      "rules": [
+        {
+          "key": "opkoop",
+          "regulationType": "opkoopbescherming",
+          "title": "Opkoopbescherming",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Nijmegen; bestaande koopwoningen met een WOZ-waarde tot en met € 396.000",
+          "shortDescription": "Een bestaande koopwoning met een WOZ-waarde tot en met € 396.000, waarvan de eigenaar na 15 november 2022 in het Kadaster is ingeschreven, mag in de eerste vier jaar na inschrijving alleen met een vergunning worden verhuurd.",
+          "conditions": "Vergunning mogelijk voor verhuur aan familie in de eerste of tweede graad (niet via een bv), tijdelijke verhuur van maximaal twaalf maanden na minstens twaalf maanden zelf wonen, een woning die met winkel-, kantoor- of bedrijfsruimte één kadastrale eenheid vormt, een woning gekocht in opdracht van de gemeente, of verhuur door een zorgaanbieder aan cliënten met een geldige indicatie. Aanvraag met DigiD of eHerkenning; koopakte of Kadasteruittreksel meesturen. Leges € 266,05. Beslissing binnen acht weken.",
+          "exceptions": "Valt er niet onder: nieuwbouw, woningen ingeschreven vóór 15 november 2022, en woningen die al minstens zes maanden verhuurd waren en verhuurd zijn overgenomen. Een eigenaar-bewoner die 100% eigenaar is, er staat ingeschreven en minstens 50% zelf gebruikt, mag zonder vergunning aan maximaal twee personen verhuren.",
+          "infoUrl": "https://www.nijmegen.nl/diensten/wonen/opkoopbescherming/",
+          "applicationUrl": "https://www.nijmegen.nl/diensten/wonen/opkoopbescherming/",
+          "section": "Hoofdstuk 4, artikelen 18-23",
+          "effectiveDate": "2024-01-01",
+          "leges": "€ 266,05",
+          "currentnessStatus": "recheck-required",
+          "forms": [
+            {
+              "label": "Online aanvraag vergunning verhuren woonruimte (opkoopbescherming)",
+              "url": "https://formulier.nijmegen.nl/vergunningaanvragenverhurenwoonruimte"
+            }
+          ],
+          "notes": "De versie van de verordening op lokaleregelgeving.overheid.nl geldt tot en met 31 oktober 2026; er komt per 1 november 2026 een nieuwe versie. Direct na publicatie hercontroleren."
+        },
+        {
+          "key": "omzetting",
+          "regulationType": "omzettingsvergunning",
+          "title": "Omzettingsvergunning kamerverhuur",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Nijmegen; zelfstandige woningen met een WOZ-waarde tot en met € 396.000 (corporatiewoningen uitgezonderd)",
+          "shortDescription": "Verhuur aan drie of meer personen die geen huishouden vormen, of van drie of meer kamers, vraagt bij een WOZ-waarde van € 278.000 tot en met € 396.000 een omzettingsvergunning plus een omgevingsvergunning. Bij een WOZ-waarde tot en met € 278.000 wordt de omzettingsvergunning geweigerd; boven € 396.000 is alleen een omgevingsvergunning nodig.",
+          "conditions": "Bij de aanvraag: eigendomsbewijs of machtiging, huishoudelijk reglement en plattegrond (1:100) met kamers, sanitair, keukens, fietsenstalling en afvalberging; zo nodig een parkeerplan of parkeerbalans en akoestisch onderzoek. Een overeenkomst over nadeelcompensatie gaat vooraf aan de omgevingsvergunning. Bij vijf of meer kamers is een melding brandveilig gebruik nodig. Beslistermijn acht weken, eenmalig te verlengen met zes weken.",
+          "exceptions": "Geen vergunning nodig bij verhuur aan maximaal twee personen, of als hospita (eigenaar-bewoner) met maximaal twee onzelfstandige kamers.",
+          "infoUrl": "https://www.nijmegen.nl/diensten/wonen/kamers-verhuren/",
+          "applicationUrl": "https://formulier.nijmegen.nl/kamerverhuurvergunning-aanvragen/",
+          "section": "Hoofdstuk 3, artikelen 12, 13 en 15",
+          "effectiveDate": "2024-01-01",
+          "currentnessStatus": "recheck-required",
+          "forms": [
+            {
+              "label": "Online aanvraag kamerverhuurvergunning (omzetting)",
+              "url": "https://formulier.nijmegen.nl/kamerverhuurvergunning-aanvragen/"
+            },
+            {
+              "label": "Omgevingsvergunning en melding brandveilig gebruik via het Omgevingsloket",
+              "url": "https://omgevingswet.overheid.nl/aanvragen"
+            }
+          ],
+          "notes": "Nadere regels: Beleidsregels omzetting en onttrekking van zelfstandige woonruimte Nijmegen 2021 en Beleidsregels Kamerverhuur 2021; omgevingsplan (facetbestemmingsplan Kamerverhuur). Leges staan niet op de pagina: zie de legesverordening. Nieuwe versie van de verordening per 1 november 2026 hercontroleren."
+        },
+        {
+          "key": "splitsen",
+          "regulationType": "omgevingsvergunning-splitsen",
+          "title": "Woning splitsen (omgevingsvergunning)",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Nijmegen",
+          "shortDescription": "Voor het splitsen van een woning in twee of meer zelfstandige woningen is vaak een omgevingsvergunning nodig, aan te vragen met een bouwkundig rapport en een splitsingstekening. De huisvestingsverordening kent geen aparte splitsingsvergunning voor het splitsen in appartementsrechten.",
+          "conditions": "Bouwkundige splitsing volstaat voor verhuur; voor verkoop is kadastrale splitsing via een notariële akte nodig. Hebben de nieuwe woningen een WOZ-waarde tot en met € 396.000, dan geldt voor verhuur de opkoopbescherming; boven die grens mag u verhuren en verkopen. Check eerst via het Omgevingsloket of een vergunning nodig is.",
+          "exceptions": "Tijdelijke kamerverhuur is geen splitsing; daarvoor gelden de regels voor kamerverhuur.",
+          "infoUrl": "https://www.nijmegen.nl/diensten/wonen/woning-splitsen/",
+          "applicationUrl": "https://omgevingswet.overheid.nl/aanvragen",
+          "section": null,
+          "effectiveDate": "2024-01-01",
+          "forms": [
+            {
+              "label": "Vergunningcheck Omgevingsloket",
+              "url": "https://omgevingswet.overheid.nl/checken",
+              "classification": "official-instruction"
+            },
+            {
+              "label": "Omgevingsvergunning aanvragen via het Omgevingsloket",
+              "url": "https://omgevingswet.overheid.nl/aanvragen"
+            }
+          ],
+          "notes": "Provincie Gelderland heeft sinds 1 januari 2026 een subsidie voor splitsen en optoppen (gelderland.nl/subsidies/beter-benutten-van-de-bestaande-voorraad)."
+        }
+      ],
+      "researchedWithoutRule": [
+        "building-split"
+      ],
+      "unresolved": [
+        "Verordening CVDR705568 krijgt per 1 november 2026 een nieuwe versie: WOZ-grenzen en drempels hercontroleren.",
+        "Leges omzettingsvergunning en omgevingsvergunning niet op de gemeentepagina: legesverordening 2026 nalopen."
+      ]
+    },
+    {
+      "code": "GM0503",
+      "name": "Delft",
+      "regulation": {
+        "title": "Huisvestingsverordening Delft 2023",
+        "cvdr": "CVDR697876",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR697876",
+        "validFrom": "2026-07-14"
+      },
+      "rules": [
+        {
+          "key": "opkoop",
+          "regulationType": "opkoopbescherming",
+          "title": "Opkoopbescherming (vergunning woning verhuren)",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Delft; bestaande koopwoningen met een WOZ-waarde tot en met de NHG-kostengrens (€ 470.000 in 2026)",
+          "shortDescription": "Een bestaande koopwoning met een WOZ-waarde tot en met de NHG-kostengrens van het jaar van inschrijving (€ 470.000 in 2026) mag in de eerste vier jaar na inschrijving van de leveringsakte alleen met een vergunning worden verhuurd.",
+          "conditions": "Vergunning mogelijk voor verhuur van maximaal twaalf maanden (niet aan toeristen) na minstens twaalf maanden zelf wonen, verhuur aan (schoon)ouders, kinderen, grootouders, kleinkinderen of broers en zussen, verhuur namens de gemeente aan mensen met een zorgindicatie, of een woning die deel is van een winkel-, kantoor- of bedrijfspand. Alleen de eigenaar vraagt aan, uitsluitend online. Leges 2026: € 2.059,95. Beslistermijn acht weken, eenmalig te verlengen met zes weken.",
+          "exceptions": "Geen vergunning nodig als de woning op de datum van inschrijving al meer dan zes maanden officieel verhuurd was. Had de vorige eigenaar een vergunning, dan vervalt die en moet de nieuwe eigenaar opnieuw aanvragen. Woningen van de gemeente of een woningcorporatie vallen erbuiten.",
+          "infoUrl": "https://www.delft.nl/vergunning-woning-verhuren",
+          "applicationUrl": "https://www.delft.nl/idd/verhuurvergunning",
+          "section": "Paragraaf 5f, artikelen 5:34-5:39",
+          "effectiveDate": "2026-07-14",
+          "leges": "€ 2.059,95 (2026)",
+          "forms": [
+            {
+              "label": "Online aanvraag vergunning woning verhuren",
+              "url": "https://www.delft.nl/idd/verhuurvergunning"
+            }
+          ],
+          "notes": "De WOZ-grens volgt de NHG-kostengrens van het jaar van inschrijving (artikel 5:34 lid 2 onder a)."
+        },
+        {
+          "key": "omzetting",
+          "regulationType": "omzettingsvergunning",
+          "title": "Omzettingsvergunning kamerverhuur",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Delft",
+          "shortDescription": "Verhuur aan drie of meer personen die geen gezin vormen, in kamers zonder eigen keuken, wc en douche, vraagt een omzettingsvergunning. Delft verleent die alleen nog voor woningen boven een winkel of horecazaak.",
+          "conditions": "Minimaal 20 m² woonoppervlakte per bewoner; lucht- en geluidsisolatie volgens de bouwregels met een geluidsrapport (NEN 5077); leefbaarheidstoets op overlast in straat en buurt. Melding brandveilig gebruik apart. Leges 2026: € 1.732,10. Beslistermijn acht weken, eenmalig te verlengen met zes weken.",
+          "exceptions": "Geen vergunning nodig voor nieuwbouw, studentenhuizen van corporaties, omzetting naar maximaal twee onzelfstandige woonruimtes, inwoning van maximaal één persoon, en woningen groter dan 180 m² waarvan de eigenaar of hoofdhuurder er minstens vijf jaar staat ingeschreven met maximaal twee inwoners. Woningen die al vóór oktober 2017 waren verkamerd, kunnen een verworven recht hebben. Voor woongroepen is ontheffing mogelijk.",
+          "infoUrl": "https://www.delft.nl/omzettingsvergunning-kamerverhuur",
+          "applicationUrl": "https://www.delft.nl/idd/omzettingsvergunning",
+          "section": "Paragraaf 5c, artikelen 5:15-5:21",
+          "effectiveDate": "2026-07-14",
+          "leges": "€ 1.732,10 (2026)",
+          "forms": [
+            {
+              "label": "Online aanvraag omzettingsvergunning",
+              "url": "https://www.delft.nl/idd/omzettingsvergunning"
+            },
+            {
+              "label": "Machtigingsformulier vergunning woning verhuren (pdf)",
+              "url": "https://www.delft.nl/sites/default/files/2021-06/Machtigingsformulier-vergunning-woning-verhuren.pdf"
+            }
+          ],
+          "notes": "Nadere regels: Beleidsregel omzetting en woningvorming Delft (CVDR626682). Verworven recht: delft.nl/verworven-recht-bij-verkameren."
+        },
+        {
+          "key": "splitsing",
+          "regulationType": "splitsingsvergunning",
+          "title": "Splitsingsvergunning",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Delft; woongebouwen met huurwoningen onder € 932,93 per maand",
+          "shortDescription": "Voor het splitsen van een woongebouw met huurwoningen met een huur onder € 932,93 per maand in appartementsrechten is een splitsingsvergunning nodig.",
+          "conditions": "Bouwkundige toets op indeling en staat van onderhoud (gebreken eerst herstellen; elke woning een eigen voordeur). Bij verkoop na splitsing volgt een volkshuisvestelijke toets: huurders vooraf geïnformeerd, bezwaren, schaarste (bijvoorbeeld 4+ kamers of meer dan 80 m²) en voldoende huurwoningen in de buurt. De aanvraag wordt gepubliceerd; belanghebbenden kunnen een zienswijze indienen. Leges 2026: € 574,80 + € 27,25 per woning (1-5 woningen), oplopend tot maximaal € 5.749,40. Beslistermijn acht weken, eenmalig te verlengen met zes weken.",
+          "exceptions": "De categorieën gebouwen staan in bijlage III van de verordening.",
+          "infoUrl": "https://www.delft.nl/splitsingsvergunning",
+          "applicationUrl": "https://www.delft.nl/splitsingsvergunning",
+          "section": "Paragraaf 5a, artikelen 5:1-5:7 en bijlage III",
+          "effectiveDate": "2026-07-14",
+          "leges": "vanaf € 574,80 + € 27,25 per woning (2026)",
+          "forms": [
+            {
+              "label": "Aanvraagformulier splitsingsvergunning (pdf)",
+              "url": "https://www.delft.nl/sites/default/files/2021-02/Aanvraagformulier-splitsingsvergunning_1.pdf"
+            }
+          ]
+        },
+        {
+          "key": "woningvorming",
+          "regulationType": "woningvormingsvergunning",
+          "title": "Vergunning voor woningvorming",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Delft; alleen woningen groter dan 180 m²",
+          "shortDescription": "Voor het opdelen van een woning in meerdere zelfstandige appartementen is een woningvormingsvergunning én een omgevingsvergunning nodig. Delft verleent de vergunning alleen als de woning groter is dan 180 m².",
+          "conditions": "Uitbreidingen uit de afgelopen tien jaar tellen niet mee voor de 180 m². Elk appartement minimaal 40 m² met een aparte slaapkamer; luchtgeluidisolatie op nieuwbouwniveau; leefbaarheidstoets. Leges 2026: € 2.059,95. Beslistermijn acht weken, eenmalig te verlengen met zes weken.",
+          "exceptions": "Niet nodig voor nieuw te bouwen units en voor bedrijfspanden of andere gebouwen waarin woningen komen.",
+          "infoUrl": "https://www.delft.nl/vergunning-voor-woningvorming",
+          "applicationUrl": "https://www.delft.nl/idd/woningvorming",
+          "section": "Paragraaf 5d, artikelen 5:22-5:27",
+          "effectiveDate": "2026-07-14",
+          "leges": "€ 2.059,95 (2026)",
+          "forms": [
+            {
+              "label": "Online aanvraag woningvormingsvergunning",
+              "url": "https://www.delft.nl/idd/woningvorming"
+            }
+          ]
+        }
+      ],
+      "unresolved": [
+        "Leges opkoopvergunning op gemeentepagina (€ 2.059,95) is gelijk aan woningvorming; legesverordening 2026 ter controle nalopen."
+      ]
+    },
+    {
+      "code": "GM0772",
+      "name": "Eindhoven",
+      "regulation": {
+        "title": "Verordening opkoopbescherming gemeente Eindhoven 2024",
+        "cvdr": "CVDR709321",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR709321/1",
+        "validFrom": "2024-01-01"
+      },
+      "rules": [
+        {
+          "key": "opkoop",
+          "regulationType": "opkoopbescherming",
+          "title": "Opkoopbescherming",
+          "scopeType": "wijk",
+          "scopeValue": "Aangewezen buurten in de stadsdelen Centrum, Stratum, Tongelre, Woensel-Zuid, Woensel-Noord, Strijp en Gestel (bijlage 1 van de verordening; kaart op het Open Data Portaal van Eindhoven); bestaande woningen met een WOZ-waarde onder € 355.000",
+          "shortDescription": "Een bestaande woning in een aangewezen buurt, gekocht na 1 april 2022, met een WOZ-waarde onder € 355.000 (WOZ van het kalenderjaar vóór inschrijving), mag in de eerste vier jaar na inschrijving alleen met een verhuurvergunning worden verhuurd. Of het adres in een aangewezen buurt ligt, staat op de kaart van het Open Data Portaal.",
+          "conditions": "Vergunning mogelijk voor verhuur aan familie in de eerste of tweede graad, tijdelijke niet-toeristische verhuur van maximaal één jaar na minstens één jaar zelf wonen, of een woning die onlosmakelijk deel is van een bedrijfspand. In schrijnende gevallen geldt een hardheidsclausule. Aanvraag met DigiD of eHerkenning, of via een apart formulier zonder DigiD. Leges 2026: € 281,00. Boete tot € 21.750 bij een eerste overtreding.",
+          "exceptions": "Niet van toepassing op nieuwbouw (sinds 1 januari 2024), op woningen van de gemeente of een corporatie, en op woningen die bij inschrijving al langer dan zes maanden verhuurd waren of met vergunning verhuurd werden.",
+          "infoUrl": "https://www.eindhoven.nl/stad-en-wonen/wonen/opkoopbescherming",
+          "applicationUrl": "https://www.eindhoven.nl/verhuurvergunning-aanvragen",
+          "section": "Artikelen 2, 3 en bijlage 1",
+          "effectiveDate": "2024-01-01",
+          "endDate": "2027-12-31",
+          "leges": "€ 281,00 (2026)",
+          "contentStatus": "partially-verified",
+          "forms": [
+            {
+              "label": "Online aanvraag verhuurvergunning (DigiD/eHerkenning)",
+              "url": "https://www.eindhoven.nl/verhuurvergunning-aanvragen"
+            },
+            {
+              "label": "Aanvraag verhuurvergunning zonder DigiD of eHerkenning",
+              "url": "https://www.eindhoven.nl/verhuurvergunning-aanvragen-zonder-digid-of-eherkenning"
+            },
+            {
+              "label": "Kaart werkingsbereik opkoopbescherming (Open Data Eindhoven)",
+              "url": "https://data.eindhoven.nl/explore/dataset/werkingsbereik-opkoopbescherming/",
+              "classification": "external-official-document"
+            }
+          ],
+          "notes": "De verordening vervalt van rechtswege op 1 januari 2028. Buurtafbakening is nog niet als adresregel in de app vastgelegd: controleer het adres op de kaart."
+        },
+        {
+          "key": "kamerverhuur",
+          "regulationType": "omgevingsvergunning-kamerverhuur",
+          "title": "Kamerverhuur (omgevingsvergunning)",
+          "scopeType": "kaart",
+          "scopeValue": "Gemeente Eindhoven; 'op slot' in Limbeek-Noord, Limbeek-Zuid, Bennekel-Oost, Doornakkers-Oost, Doornakkers-West, Woensel-West, Hemelrijken en Gildebuurt; 30-meterregel buiten het centrumgebied",
+          "shortDescription": "Kamergewijze bewoning door drie of meer personen die geen huishouden vormen, vraagt een omgevingsvergunning voor gebruik in afwijking van het omgevingsplan. In de 'op slot'-buurten wordt geen vergunning verleend, en buiten het centrum ook niet binnen 30 meter van een legaal kamerverhuurpand of gesplitste woning.",
+          "conditions": "Advies van de leefbaarheidscommissie; woonkwaliteitseisen (kamermaten, daglicht, privacy, geluid); parkeernormen via de rekentool. Het adres komt op de AUP-lijst: geen nieuwe parkeervergunningen. Bij de aanvraag: situatietekening, plattegronden bestaand en nieuw, parkeerberekening. Leges volgens de Legesverordening vergunningen 2026. Beslistermijn meestal acht weken, eenmalig te verlengen met zes weken.",
+          "exceptions": "Geen vergunning voor maximaal twee personen zonder gezamenlijk huishouden, of inwoning bij een eigenaar of huurder die er minstens een jaar woont (één persoon). Tot 1 januari 2027 kunnen lang bestaande situaties (kamerbewoning vóór 12 december 2007) in de 'op slot'-buurten worden gelegaliseerd.",
+          "infoUrl": "https://www.eindhoven.nl/stad-en-wonen/wonen/huren-en-verhuren-in-eindhoven/kamerverhuur",
+          "applicationUrl": "https://www.eindhoven.nl/bouwen/vergunningen/omgevingsvergunning-buitenplanse-omgevingsplan-activiteit",
+          "regulationUrl": "https://zoek.officielebekendmakingen.nl/gmb-2025-517280.html",
+          "documentIdentifier": "gmb-2025-517280",
+          "section": "Beleidsregels kamerverhuur en woningsplitsing, artikelen 3 en 7",
+          "effectiveDate": "2026-01-01",
+          "contentStatus": "partially-verified",
+          "forms": [
+            {
+              "label": "Omgevingsvergunning buitenplanse omgevingsplanactiviteit aanvragen",
+              "url": "https://www.eindhoven.nl/bouwen/vergunningen/omgevingsvergunning-buitenplanse-omgevingsplan-activiteit"
+            },
+            {
+              "label": "Rekentool parkeernormen",
+              "url": "https://parkeernota.eindhoven.nl/",
+              "classification": "official-instruction"
+            }
+          ],
+          "notes": "Nieuwe beleidsregels gelden sinds 1 januari 2026 (gmb-2025-517280); overgangsregeling 'op slot'-gebieden loopt tot 1 januari 2027. De 30-meterregel en de buurtgrenzen zijn nog niet als adresregel vastgelegd."
+        },
+        {
+          "key": "splitsen",
+          "regulationType": "omgevingsvergunning-splitsen",
+          "title": "Woningsplitsing (omgevingsvergunning)",
+          "scopeType": "kaart",
+          "scopeValue": "Gemeente Eindhoven; 'op slot'-buurten en 30-meterregel als bij kamerverhuur",
+          "shortDescription": "Het splitsen van een woning of legaal kamerverhuurpand in meerdere zelfstandige woningen vraagt een omgevingsvergunning voor gebruik in afwijking van het omgevingsplan. In de 'op slot'-buurten en binnen 30 meter van een legaal kamerverhuurpand of gesplitste woning (buiten het centrum) wordt die niet verleend.",
+          "conditions": "Advies van de leefbaarheidscommissie; afmetingen van de nieuwe woningen getoetst aan de woonkwaliteitseisen; daglicht, privacy en geluid; parkeernormen (lagere norm mogelijk met campuscontract voor studenten); adres op de AUP-lijst. Eigenaarschap is niet vereist om aan te vragen. Leges volgens de Legesverordening vergunningen 2026. Beslistermijn meestal acht weken, eenmalig te verlengen met zes weken.",
+          "exceptions": "Tot 1 januari 2027 kunnen woningen die aantoonbaar vóór 15 mei 2010 waren gesplitst worden gelegaliseerd.",
+          "infoUrl": "https://www.eindhoven.nl/stad-en-wonen/wonen/woningsplitsing",
+          "applicationUrl": "https://www.eindhoven.nl/bouwen/vergunningen/omgevingsvergunning-buitenplanse-omgevingsplan-activiteit",
+          "regulationUrl": "https://zoek.officielebekendmakingen.nl/gmb-2025-517280.html",
+          "documentIdentifier": "gmb-2025-517280",
+          "section": "Beleidsregels kamerverhuur en woningsplitsing, artikelen 3 en 7",
+          "effectiveDate": "2026-01-01",
+          "contentStatus": "partially-verified",
+          "forms": [
+            {
+              "label": "Conceptverzoek (vooraf laten toetsen)",
+              "url": "https://www.eindhoven.nl/node/253",
+              "classification": "official-instruction"
+            },
+            {
+              "label": "Omgevingsvergunning buitenplanse omgevingsplanactiviteit aanvragen",
+              "url": "https://www.eindhoven.nl/bouwen/vergunningen/omgevingsvergunning-buitenplanse-omgevingsplan-activiteit"
+            }
+          ]
+        }
+      ],
+      "researchedWithoutRule": [
+        "building-split"
+      ],
+      "unresolved": [
+        "Splitsingsvergunning (appartementsrechten): aparte pagina eindhoven.nl/bouwen/vergunningen/splitsingsvergunning nog niet gelezen.",
+        "Huisvestingsverordening 2025-2029 (CVDR741302) nog niet nagelopen op omzettings-/onttrekkingsregels.",
+        "Leges kamerverhuur en woningsplitsing: legesverordening 2026 (gmb-2025-485259) nalopen."
+      ]
+    },
+    {
+      "code": "GM0855",
+      "name": "Tilburg",
+      "regulation": {
+        "title": "Huisvestingsverordening Tilburg 2026",
+        "cvdr": "CVDR763326",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR763326",
+        "validFrom": "2026-07-01"
+      },
+      "rules": [
+        {
+          "key": "opkoop",
+          "regulationType": "opkoopbescherming",
+          "title": "Verhuurvergunning opkoopbescherming",
+          "scopeType": "wijk",
+          "scopeValue": "Dertig aangewezen CBS-wijken en -buurten, waaronder Binnenstad, Fatima, De Reit, Jeruzalem, Huibeven, Udenhout, Berkel-Enschot en Biezenmortel (kaart op de gemeentepagina); WOZ-waarde tot en met € 420.000 (betaalbaarheidsgrens 2026)",
+          "shortDescription": "Een koopwoning in een aangewezen wijk met een WOZ-waarde tot en met de betaalbaarheidsgrens (€ 420.000 in 2026) mag in de eerste vier jaar na eigendomsoverdracht alleen met een verhuurvergunning worden verhuurd. De gemeentekaart toont de aangewezen wijken.",
+          "conditions": "Vergunning mogelijk voor gebruik door directe familie ((groot)ouders, (klein)kinderen, broers en zussen), tijdelijke niet-toeristische verhuur van maximaal twaalf maanden na minstens twaalf maanden zelf wonen, of woonruimte die één kadastrale eenheid vormt met een winkel-, kantoor- of bedrijfsruimte. Overige gevallen alleen bij bijzondere omstandigheden (onder meer zorgaanbieders). Leges: € 1.245,30.",
+          "exceptions": "Geen vergunning nodig als de woning bij overdracht al meer dan zes maanden verhuurd was, bij aankoop van de gemeente of een corporatie, of als u al langer dan vier jaar eigenaar bent.",
+          "infoUrl": "https://www.tilburg.nl/inwoners/vergunningen/verhuurvergunning-opkoopbescherming/",
+          "applicationUrl": "https://www.tilburg.nl/inwoners/vergunningen/verhuurvergunning-opkoopbescherming/",
+          "section": "Artikelen 12-16",
+          "effectiveDate": "2026-07-01",
+          "leges": "€ 1.245,30",
+          "contentStatus": "partially-verified",
+          "forms": [
+            {
+              "label": "Aanvraagformulier verhuurvergunning opkoopbescherming (pdf)",
+              "url": "https://www.tilburg.nl/fileadmin/files/inwoners/vergunningen/Verhuurvergunning-opkoopbescherming_aanvraagformulier.pdf"
+            }
+          ],
+          "notes": "De gemeentepagina noemt 1 september 2022 als begindatum; de verordening 2026 (in werking 1 juli 2026) bevat een eigen inschrijvingsdatum-criterium in artikel 12 lid 2 sub d. Wijkafbakening nog niet als adresregel vastgelegd."
+        },
+        {
+          "key": "omzetting",
+          "regulationType": "omzettingsvergunning",
+          "title": "Omzettingsvergunning kamerverhuur",
+          "scopeType": "kaart",
+          "scopeValue": "Bebouwde kom van Tilburg; afstandsregels per adres (kaart kamerverhuur)",
+          "shortDescription": "Wonen er drie of meer personen in kamers, dan is vooraf een omzettingsvergunning nodig, ook als een hoofdhuurder doorverhuurt. De vergunning wordt niet verleend binnen 50 meter van een ander kamerverhuurpand of bepaalde maatschappelijke voorziening (25 meter in bedrijvige linten), of in een flat waar al kamerverhuur is binnen twee woningen boven, naast, onder of één diagonaal.",
+          "conditions": "Voldoende ruimte op het perceel voor fietsen en afvalcontainers; toets op brandveiligheid, gebruikseisen, hinder en goed verhuurderschap; weigering bij schaarste of leefbaarheidsbezwaren of strijd met het omgevingsplan. Bijlagen: plattegronden, situatietekening, akte van levering (alleen bij 100% eigendom), huishoudelijk reglement. Eigendomswisseling binnen twee maanden melden. Bij vijf of meer kamers melding brandveilig gebruik; bij meer dan vijf huurders mogelijk een omgevingsvergunning. Leges: € 694,90. Beslistermijn acht weken.",
+          "exceptions": "Corporaties en erkende zorgaanbieders zijn onder voorwaarden vrijgesteld. Hospitaverhuur in de eigen woning wordt gestimuleerd.",
+          "infoUrl": "https://www.tilburg.nl/inwoners/vergunningen/kamerverhuur/",
+          "applicationUrl": "https://www.tilburg.nl/inwoners/vergunningen/kamerverhuur/",
+          "section": "Artikelen 2-6",
+          "effectiveDate": "2026-07-01",
+          "leges": "€ 694,90",
+          "forms": [
+            {
+              "label": "Aanvraagformulier omzettingsvergunning (pdf)",
+              "url": "https://www.tilburg.nl/fileadmin/files/inwoners/vergunningen/24-298-DV-apr-omzettingsvergunning-aanvraagformulier.pdf"
+            },
+            {
+              "label": "Kaart kamerverhuur Tilburg",
+              "url": "https://tilburg.maps.arcgis.com/apps/instant/basic/index.html?appid=35be733ca677412abc55a4914473bcc0",
+              "classification": "external-official-document"
+            }
+          ],
+          "notes": "Afstandsregels zijn nog niet als adresregel vastgelegd; gebruik de kaart."
+        },
+        {
+          "key": "splitsing",
+          "regulationType": "splitsingsvergunning",
+          "title": "Splitsingsvergunning (appartementsrechten)",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Tilburg; gebouwen met woonruimte",
+          "shortDescription": "Een gebouw met woonruimte mag niet zonder splitsingsvergunning in appartementsrechten worden gesplitst als daardoor woongedeelten ontstaan.",
+          "conditions": "Weigering bij een zwaarder belang van de woonruimtevoorraad, slechte bouwkundige staat, aantasting van het woon- en leefmilieu of strijd met het omgevingsplan. Voor bouwkundig splitsen kan daarnaast een omgevingsvergunning nodig zijn.",
+          "exceptions": "Niet nodig bij nieuwbouw of reconstructie met omgevingsvergunning, of bij aanpassing van een bestaande splitsingsakte zonder extra appartementsrechten.",
+          "infoUrl": "https://lokaleregelgeving.overheid.nl/CVDR763326",
+          "applicationUrl": null,
+          "section": "Artikelen 7-11",
+          "effectiveDate": "2026-07-01",
+          "forms": [],
+          "notes": "Geen aparte gemeentepagina met aanvraagroute en leges gevonden; aanvraagroute nog vast te stellen."
+        }
+      ],
+      "researchedWithoutRule": [
+        "dwelling-formation"
+      ],
+      "unresolved": [
+        "Aanvraagroute en leges splitsingsvergunning niet gevonden op tilburg.nl.",
+        "Begindatum opkoopbescherming onder verordening 2026 (artikel 12 lid 2 sub d) vergelijken met de gemeentepagina (1 september 2022)."
+      ]
+    },
+    {
+      "code": "GM0935",
+      "name": "Maastricht",
+      "regulation": {
+        "title": "Uitvoeringsregels woningsplitsing, woningomzetting en kleinschalige herbestemming",
+        "cvdr": "CVDR695828",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR695828/4",
+        "validFrom": "2024-01-09"
+      },
+      "rules": [
+        {
+          "key": "opkoop",
+          "regulationType": "opkoopbescherming",
+          "title": "Verhuurvergunning woning met opkoopbescherming",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Maastricht; bestaande woningen met een WOZ-waarde onder € 330.000 (prijspeil 2026, geldend vanaf 1 oktober 2026)",
+          "shortDescription": "Een bestaande koopwoning met een WOZ-waarde onder € 330.000, waarvan de leveringsakte na 30 september 2022 is ingeschreven, mag in de eerste vier jaar alleen met een verhuurvergunning worden verhuurd.",
+          "conditions": "Vergunning mogelijk voor verhuur aan bloed- of aanverwanten in de eerste of tweede graad, tijdelijke verhuur na minstens twaalf maanden eigen bewoning, en bijzondere situaties voor corporaties, gemeente, marktpartijen en zorginstellingen. Leges 2026: € 431,55 (ook bij weigering); € 103,50 als de aanvraag niet in behandeling kan worden genomen.",
+          "exceptions": "Geen vergunning nodig voor nieuwbouw, woningen met een WOZ-waarde van € 330.000 of hoger, leveringsakten ingeschreven vóór 30 september 2022, eigen bewoning met hospitaverhuur, voortzetting van een bestaande kamerverhuurvergunning, en koop in verhuurde staat met een huurder die er langer dan zes maanden woont.",
+          "infoUrl": "https://www.gemeentemaastricht.nl/verhuurvergunning-woning-met-opkoopbescherming",
+          "applicationUrl": "https://www.gemeentemaastricht.nl/verhuurvergunning-woning-met-opkoopbescherming",
+          "regulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR681753",
+          "documentIdentifier": "CVDR681753",
+          "section": null,
+          "effectiveDate": "2026-10-01",
+          "leges": "€ 431,55 (2026)",
+          "forms": [
+            {
+              "label": "Online aanvraag verhuurvergunning opkoopbescherming (e-loket)",
+              "url": "https://eloket.gemeentemaastricht.nl/f/1418"
+            }
+          ],
+          "notes": "Grondslag: Huisvestingsverordening Gemeente Maastricht 2022 (CVDR681753); artikelnummers nog niet vastgelegd."
+        },
+        {
+          "key": "kamerverhuur",
+          "regulationType": "omgevingsvergunning-kamerverhuur",
+          "title": "Woning omzetten naar kamers (omgevingsvergunning)",
+          "scopeType": "kaart en straatquotum",
+          "scopeValue": "Gemeente Maastricht; maximumpercentage per gebied en afstandsregel per straat en bouwblok",
+          "shortDescription": "Voor het omzetten van een woning naar kamers is een omgevingsvergunning nodig. Dat kan alleen bij een woning groter dan 140 m² (ruimtes van minimaal 2,1 m hoog) die minstens vijf jaar oud is, binnen het maximumpercentage per gebied en met minstens vier woningen zonder kamerverhuur tussen twee kamerverhuurpanden.",
+          "conditions": "Afstandsregel geteld per straat en bouwblok, niet om de hoek; in een gebouw met zes of meer woningen minstens twee woningen zonder kamerverhuur ertussen. Parkeernormen van de gemeente. Kleinschalige studentenhuisvesting (tot 25 kamers): maximaal 120 studentenkamers per jaar, verdeeld 40/40/40 over splitsingen, omzettingen en herbestemming; de jaarronde opent op de tweede dinsdag van januari om 09.00 uur en aanvragen worden op volgorde van binnenkomst behandeld. Beslistermijn acht weken, eenmalig te verlengen.",
+          "exceptions": "Geen vergunning nodig voor hospitaverhuur: u bent 100% juridisch en economisch eigenaar, woont en staat ingeschreven in de woning en verhuurt maximaal twee kamers van minstens 5 m².",
+          "infoUrl": "https://www.gemeentemaastricht.nl/bouwen-en-verbouwen/woning-splitsen-omzetten-naar-kamers",
+          "applicationUrl": "https://omgevingswet.overheid.nl/home",
+          "section": null,
+          "effectiveDate": "2024-01-09",
+          "contentStatus": "partially-verified",
+          "forms": [
+            {
+              "label": "Omgevingsvergunning aanvragen via het Omgevingsloket",
+              "url": "https://omgevingswet.overheid.nl/home"
+            },
+            {
+              "label": "Hospitaverhuur (gemeentepagina)",
+              "url": "https://www.gemeentemaastricht.nl/wonen-en-verhuizen/inwoning-hospitaverhuur",
+              "classification": "official-instruction"
+            }
+          ],
+          "notes": "Percentages per gebied staan niet op de gemeentepagina; zie de uitvoeringsregels. Studentenhuisvesting boven 25 kamers: gmb-2023-301444."
+        },
+        {
+          "key": "splitsen",
+          "regulationType": "omgevingsvergunning-splitsen",
+          "title": "Woning splitsen (omgevingsvergunning)",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Maastricht; maximum aantal splitsingen per jaar",
+          "shortDescription": "Voor het splitsen van een woning in meerdere zelfstandige woningen is een omgevingsvergunning nodig. De woning moet minstens 140 m² en vijf jaar oud zijn, en er geldt een maximum aantal splitsingen per jaar.",
+          "conditions": "Nieuwe woningen voldoen aan de vereiste oppervlaktes, hebben elk minstens 0,5 m² inpandige berging en fietsparkeren op eigen terrein, en voldoen aan de parkeernormen. De aanvrager vergoedt planschade. Beslistermijn acht weken, eenmalig te verlengen.",
+          "exceptions": "Zie de uitvoeringsregels voor uitzonderingen.",
+          "infoUrl": "https://www.gemeentemaastricht.nl/bouwen-en-verbouwen/woning-splitsen-omzetten-naar-kamers",
+          "applicationUrl": "https://omgevingswet.overheid.nl/home",
+          "section": null,
+          "effectiveDate": "2024-01-09",
+          "contentStatus": "partially-verified",
+          "forms": [
+            {
+              "label": "Omgevingsvergunning aanvragen via het Omgevingsloket",
+              "url": "https://omgevingswet.overheid.nl/home"
+            }
+          ]
+        }
+      ],
+      "researchedWithoutRule": [
+        "building-split"
+      ],
+      "unresolved": [
+        "Leges omzetten/splitsen niet op gemeentepagina: legesverordening 2026 nalopen.",
+        "Maximumpercentages kamerverhuur per gebied uit de uitvoeringsregels halen.",
+        "Splitsingsvergunning appartementsrechten: niet op de gemeentepagina; verordening CVDR681753 nalopen."
+      ]
+    },
+    {
+      "code": "GM0153",
+      "name": "Enschede",
+      "regulation": {
+        "title": "Huisvestingsverordening Opkoopbescherming Gemeente Enschede",
+        "cvdr": "CVDR681931",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR681931",
+        "validFrom": "2024-12-13"
+      },
+      "rules": [
+        {
+          "key": "opkoop",
+          "regulationType": "opkoopbescherming",
+          "title": "Opkoopbescherming",
+          "scopeType": "wijk",
+          "scopeValue": "Zes wijken: Binnensingelgebied, Hogeland-Velve, Boswinkel-Stadsveld, Twekkelerveld-T.H.T., Enschede-Noord en Enschede-Zuid (bijlage 1); WOZ-waarde tot en met de jaarlijkse prijsgrens",
+          "shortDescription": "Een koopwoning in een van de zes aangewezen wijken met een WOZ-waarde tot en met de prijsgrens (€ 365.000 in de laatst gepubliceerde vaststelling) mag in de eerste vier jaar na inschrijving van de leveringsakte alleen met een vergunning worden verhuurd. De verordening vervalt op 1 januari 2027.",
+          "conditions": "De prijsgrens wordt jaarlijks opnieuw berekend en gepubliceerd (artikel 3). Vergunningsgronden en hardheidsclausule in de artikelen 4 en 5. Bij overtreding een bestuurlijke boete (artikel 9).",
+          "exceptions": "Zie artikel 4 van de verordening voor de gevallen waarin de vergunning moet worden verleend.",
+          "infoUrl": "https://lokaleregelgeving.overheid.nl/CVDR681931",
+          "applicationUrl": null,
+          "section": "Artikelen 1-10",
+          "effectiveDate": "2024-12-13",
+          "endDate": "2026-12-31",
+          "contentStatus": "partially-verified",
+          "currentnessStatus": "recheck-required",
+          "temporalStatus": "current",
+          "forms": [],
+          "notes": "De verordening vervalt van rechtswege op 1 januari 2027; vóór die datum controleren of Enschede verlengt. De gemeentepagina met aanvraagroute kon niet automatisch worden gelezen.",
+          "geoConditions": [
+            {
+              "type": "cbs-district",
+              "operator": "in",
+              "values": [
+                "WK015300",
+                "WK015301",
+                "WK015302",
+                "WK015303",
+                "WK015304",
+                "WK015306"
+              ]
+            }
+          ]
+        },
+        {
+          "key": "kamerverhuur",
+          "regulationType": "omgevingsvergunning-kamerverhuur",
+          "title": "Kamerverhuur (omgevingsvergunning)",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Enschede",
+          "shortDescription": "Wie in een pand kamers wil verhuren, heeft in Enschede een omgevingsvergunning nodig, ook bij het verhuren van één of meer kamers in de eigen woning, tenzij het om hospitaverhuur gaat.",
+          "conditions": "Het omgevingsplan (voorheen bestemmingsplan Onzelfstandige Bewoning Enschede) bepaalt de voorwaarden. De gemeente publiceert een kaart van legale kamerverhuurpanden en lopende aanvragen.",
+          "exceptions": "Hospitaverhuur zonder vergunning: u woont er zelf als hoofdverblijf, verhuurt aan maximaal één huishouden (18+, geen familie of (ex-)partner), met huurcontract, beiden ingeschreven op het adres, en met toestemming van verhuurder of hypotheekverstrekker.",
+          "infoUrl": "https://www.enschede.nl/kamerverhuur",
+          "applicationUrl": "https://omgevingswet.overheid.nl/aanvragen",
+          "section": null,
+          "effectiveDate": null,
+          "contentStatus": "partially-verified",
+          "forms": [
+            {
+              "label": "Hospitaverhuur (gemeentepagina)",
+              "url": "https://www.enschede.nl/hospitaverhuur",
+              "classification": "official-instruction"
+            },
+            {
+              "label": "Omgevingsvergunning aanvragen via het Omgevingsloket",
+              "url": "https://omgevingswet.overheid.nl/aanvragen"
+            }
+          ],
+          "notes": "Drempel, quota en leges konden niet van de gemeentesite worden gelezen (planregels blokkeren automatisch lezen)."
+        }
+      ],
+      "unresolved": [
+        "Opkoopverordening vervalt 1 januari 2027: verlenging controleren.",
+        "Aanvraagroute en leges opkoopvergunning handmatig vaststellen.",
+        "Drempels en quota kamerverhuur uit het omgevingsplan halen.",
+        "Splitsen/woningvorming nog niet onderzocht."
+      ]
+    },
+    {
+      "code": "GM0392",
+      "name": "Haarlem",
+      "regulation": {
+        "title": "Huisvestingsverordening Zuid-Kennemerland/IJmond, Haarlem 2026",
+        "cvdr": "CVDR753794",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR753794",
+        "validFrom": "2026-01-01"
+      },
+      "rules": [
+        {
+          "key": "opkoop",
+          "regulationType": "opkoopbescherming",
+          "title": "Verhuurvergunning opkoopbescherming",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Haarlem; woningen met een WOZ-waarde tot en met € 517.770 (geïndexeerde grens 2026)",
+          "shortDescription": "Een woning gekocht op of na 1 februari 2022 met een WOZ-waarde tot en met de geïndexeerde grens (€ 517.770 in 2026) mag in de eerste vier jaar na inschrijving van de leveringsakte alleen met een verhuurvergunning worden verhuurd.",
+          "conditions": "Vergunning mogelijk voor verhuur aan familie in de eerste of tweede graad (niet door een bedrijf), tijdelijke verhuur van maximaal één jaar na minstens één jaar zelf wonen, of woonruimte bij een winkel, kantoor of bedrijf zonder eigen ingang. Aanvragen met DigiD of eHerkenning. Leges 2026: € 356,15 (ook bij afwijzing), plus € 66,53 als aanvullende gegevens nodig zijn.",
+          "exceptions": "Geen vergunning nodig voor woningcorporaties en voor woningen waar huurders al meer dan zes maanden wonen. Uitgezonderd zijn ook clusters van minstens tien woningen die samen worden verkocht en bepaalde nieuwbouw of transformatie voor verhuur.",
+          "infoUrl": "https://haarlem.nl/verhuurvergunning-opkoopbescherming",
+          "applicationUrl": "https://haarlem.nl/verhuurvergunning-opkoopbescherming",
+          "section": "Artikelen 3.4.1-3.4.6",
+          "effectiveDate": "2026-01-01",
+          "endDate": "2029-12-31",
+          "leges": "€ 356,15 (2026)",
+          "forms": [
+            {
+              "label": "Online aanvraag verhuurvergunning (DigiD/eHerkenning)",
+              "url": "https://regelen.haarlem.nl/ufs/formulieren.eb?id=verhuur_vergunning"
+            }
+          ],
+          "notes": "De verordening noemt € 495.948 met jaarlijkse indexatie door het college (artikel 3.4.1); de gemeentepagina noemt € 517.770 voor 2026."
+        },
+        {
+          "key": "omzetting",
+          "regulationType": "omzettingsvergunning",
+          "title": "Omzettingsvergunning kamerverhuur (omzetten)",
+          "scopeType": "wijk",
+          "scopeValue": "Gemeente Haarlem (geen corporatiewoningen); vergunningstop in Gebied 1 (aangewezen buurten in Centrum, Noord, Oost en Zuidwest, bijlage 1); elders onder voorwaarden",
+          "shortDescription": "Voor het omzetten van een zelfstandige woning naar kamers is in Haarlem een omzettingsvergunning nodig, plus meestal een omgevingsvergunning. In de buurten van Gebied 1 geldt een vergunningstop.",
+          "conditions": "Elke kamer wordt door maximaal één persoon bewoond en is minstens 12 m²; een gemeenschappelijke ruimte van minstens 11 m²; geluidsrapport volgens NEN 5077; parkeernormen; eenmalige bijdrage afvalcontainer (€ 411, prijspeil 2023, geïndexeerd). Bij vijf of meer kamers moet een bij de KvK ingeschreven bedrijf of stichting de verhuur en het beheer regelen. Leges 2026: € 852,60 (ook bij afwijzing). Beslistermijn meestal acht weken, eenmalig te verlengen met zes weken.",
+          "exceptions": "Geen vergunning voor hospitaverhuur: eigenaar woont er minstens twee jaar, verhuurt maximaal twee kamers aan maximaal twee personen en de verhuurde ruimte is maximaal 35% van de gebruiksoppervlakte.",
+          "infoUrl": "https://haarlem.nl/vergunning-bouwkundig-splitsen-woning",
+          "applicationUrl": null,
+          "section": "Artikelen 3.1.1-3.1.5 en bijlage 1",
+          "effectiveDate": "2026-01-01",
+          "leges": "€ 852,60 (2026)",
+          "forms": [
+            {
+              "label": "Online aanvraag omzetten en woningvormen",
+              "url": "https://regelen.haarlem.nl/ufs/formulieren.eb?id=omzetten_en_woningvormen&gemeentecode=0392"
+            }
+          ],
+          "notes": "Nadere regels: Beleidsregels wijzigingen in de woonruimtevoorraad gemeente Haarlem 2026 (CVDR753800). Buurtgrenzen Gebied 1 nog niet als adresregel vastgelegd."
+        },
+        {
+          "key": "woningvorming",
+          "regulationType": "woningvormingsvergunning",
+          "title": "Vergunning woningvormen (bouwkundig splitsen)",
+          "scopeType": "wijk",
+          "scopeValue": "Gemeente Haarlem; in Gebied 1 alleen panden van 250 tot 500 m² gebruiksoppervlakte; winkelstraten uitgezonderd onder voorwaarden",
+          "shortDescription": "Voor het splitsen van een woning in twee of meer zelfstandige woningen zijn een vergunning woningvormen én een omgevingsvergunning nodig. De oorspronkelijke woning moet minstens 140 m² (eengezinswoning) of 100 m² (appartement) zijn; elke nieuwe woning minstens 50 m².",
+          "conditions": "Bouwtekeningen van huidige en toekomstige situatie (1:100) of de bouwvergunning; geluid- en parkeereisen; nieuwe huisnummers. Voor apart verkopen ook een kadastrale splitsingsvergunning. Leges 2026: € 852,60 plus € 106,95 per nieuw huisnummer. Beslistermijn meestal acht weken, eenmalig te verlengen met zes weken.",
+          "exceptions": "Geen vergunning voor wonen boven winkels in aangewezen winkelstraten als de functie op de begane grond blijft en per verdieping maximaal één woning wordt toegevoegd.",
+          "infoUrl": "https://haarlem.nl/vergunning-bouwkundig-splitsen-woning",
+          "applicationUrl": "https://regelen.haarlem.nl/ufs/formulieren.eb?id=omzetten_en_woningvormen&gemeentecode=0392",
+          "section": "Artikelen 3.1.2 en 3.1.5",
+          "effectiveDate": "2026-01-01",
+          "leges": "€ 852,60 + € 106,95 per huisnummer (2026)",
+          "forms": [
+            {
+              "label": "Online aanvraag omzetten en woningvormen",
+              "url": "https://regelen.haarlem.nl/ufs/formulieren.eb?id=omzetten_en_woningvormen&gemeentecode=0392"
+            }
+          ]
+        },
+        {
+          "key": "splitsing",
+          "regulationType": "splitsingsvergunning",
+          "title": "Kadastrale splitsingsvergunning",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Haarlem; geen corporatiebezit",
+          "shortDescription": "Wie een gebouw met woonruimte kadastraal wil splitsen in appartementsrechten om ze apart te verkopen, heeft een splitsingsvergunning nodig.",
+          "conditions": "Elke woning minstens 50 m² gebruiksoppervlakte; niet splitsen als de maximale huur volgens de Huurprijscheck € 1.184,82 of lager is (sociale of middenhuur); onderhoudsstaat mag zich niet verzetten. Bijlagen: splitsingstekening (1:100), Huurprijscheck per woonruimte en rapport over de onderhoudsstaat. Leges 2026: € 852,60. Beslistermijn meestal acht weken, eenmalig te verlengen met zes weken.",
+          "exceptions": "Geen vergunning nodig als de woningen na 1992 met omgevingsvergunning zijn gesplitst en elk minstens 50 m² zijn, of als het pand voorheen bedrijfsruimte was.",
+          "infoUrl": "https://haarlem.nl/vergunning-kadastraal-splitsen-woning",
+          "applicationUrl": "https://regelen.haarlem.nl/ufs/formulieren.eb?id=kadastrale_splitsingsvergunning",
+          "section": "Artikelen 3.2.1-3.2.6",
+          "effectiveDate": "2026-01-01",
+          "leges": "€ 852,60 (2026)",
+          "forms": [
+            {
+              "label": "Online aanvraag kadastrale splitsingsvergunning",
+              "url": "https://regelen.haarlem.nl/ufs/formulieren.eb?id=kadastrale_splitsingsvergunning"
+            }
+          ]
+        }
+      ],
+      "unresolved": [
+        "Buurtgrenzen Gebied 1 (vergunningstop omzetten/woningvorming) als adresregel vastleggen."
+      ]
+    },
+    {
+      "code": "GM0202",
+      "name": "Arnhem",
+      "regulation": {
+        "title": "Huisvestingsverordening Gemeente Arnhem 2024",
+        "cvdr": "CVDR709142",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR709142/1",
+        "validFrom": "2024-01-01"
+      },
+      "rules": [
+        {
+          "key": "verkamering",
+          "regulationType": "omgevingsvergunning-kamerverhuur",
+          "title": "Verkameren (omgevingsvergunning)",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Arnhem",
+          "shortDescription": "Voor het opdelen van een woning of pand in kamers (verkameren) is in Arnhem een omgevingsvergunning nodig. De voorwaarden staan in het omgevingsplan.",
+          "conditions": "Toets aan de Arnhemse parkeernormen en het omgevingsplan (regels op de kaart). Bij verhuur van vijf of meer kamers: een beheerder voor hygiëne en veiligheid die bereikbaar is voor omwonenden, een melding kamerverhuur bij de omgevingsdienst en een melding brandveilig gebruik. Leges: € 869,30.",
+          "exceptions": "Hospitaverhuur heeft een eigen gemeentepagina (arnhem.nl/product/hospitaverhuur).",
+          "infoUrl": "https://www.arnhem.nl/product/woningsplitsing-en-verkamering/",
+          "applicationUrl": "https://omgevingswet.overheid.nl/aanvragen",
+          "regulationUrl": "https://www.arnhem.nl/product/woningsplitsing-en-verkamering/",
+          "section": null,
+          "effectiveDate": "2026-01-02",
+          "leges": "€ 869,30",
+          "contentStatus": "partially-verified",
+          "forms": [
+            {
+              "label": "Omgevingsvergunning aanvragen via het Omgevingsloket",
+              "url": "https://omgevingswet.overheid.nl/aanvragen"
+            }
+          ],
+          "notes": "Drempel en quota staan niet op de gemeentepagina; omgevingsplan nalopen."
+        },
+        {
+          "key": "splitsen",
+          "regulationType": "omgevingsvergunning-splitsen",
+          "title": "Woningsplitsing (omgevingsvergunning)",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Arnhem",
+          "shortDescription": "Voor het splitsen van een pand of woning in meerdere woningen is in Arnhem een omgevingsvergunning nodig. De voorwaarden staan in het omgevingsplan en het Besluit bouwwerken leefomgeving.",
+          "conditions": "Toets aan de Arnhemse parkeernormen en het omgevingsplan. Leges: € 869,30.",
+          "exceptions": "Zie het omgevingsplan.",
+          "infoUrl": "https://www.arnhem.nl/product/woningsplitsing-en-verkamering/",
+          "applicationUrl": "https://omgevingswet.overheid.nl/aanvragen",
+          "regulationUrl": "https://www.arnhem.nl/product/woningsplitsing-en-verkamering/",
+          "section": null,
+          "effectiveDate": "2026-01-02",
+          "leges": "€ 869,30",
+          "contentStatus": "partially-verified",
+          "forms": [
+            {
+              "label": "Omgevingsvergunning aanvragen via het Omgevingsloket",
+              "url": "https://omgevingswet.overheid.nl/aanvragen"
+            }
+          ]
+        },
+        {
+          "key": "verhuurvergunning",
+          "regulationType": "verhuurvergunning",
+          "title": "Verplichte verhuurvergunning (goed verhuurderschap)",
+          "scopeType": "wijk",
+          "scopeValue": "Verplicht in Geitenkamp, Malburgen-West en Malburgen-Oost; aanvragen in Arnhemse Broek (uiterlijk 15 januari 2027) en Spijkerkwartier (uiterlijk 31 maart 2027); voor verhuur aan arbeidsmigranten in heel Arnhem",
+          "shortDescription": "Wie in een aangewezen wijk een woning verhuurt, heeft een verhuurvergunning nodig op grond van de Wet goed verhuurderschap. Voor verhuur aan arbeidsmigranten geldt de vergunningplicht in heel Arnhem.",
+          "conditions": "Invoering in 2026-2027 gepland voor Centrum, De Laar, Elderveld, Klarendal, Presikhaaf-Oost, Presikhaaf-West en Vredenburg/Kronenburg; na aanwijzing zes maanden om aan te vragen. Beoordeling kan een Bibob-toets omvatten. Leges: € 300 per aanvraag plus € 89,50 per adres; 50% bij weigering, 25% bij intrekking vóór besluit.",
+          "exceptions": "Geen vergunning nodig als u geen woon- of verblijfsruimte verhuurt.",
+          "infoUrl": "https://www.arnhem.nl/product/verplichte-verhuurvergunning/",
+          "applicationUrl": "https://eloket.arnhem.nl/f/54",
+          "regulationUrl": "https://wetten.overheid.nl/BWBR0048028",
+          "documentIdentifier": "BWBR0048028",
+          "section": null,
+          "effectiveDate": null,
+          "leges": "€ 300 + € 89,50 per adres",
+          "forms": [
+            {
+              "label": "Online aanvraag algemene verhuurvergunning",
+              "url": "https://eloket.arnhem.nl/f/54"
+            },
+            {
+              "label": "Online aanvraag verhuurvergunning arbeidsmigranten",
+              "url": "https://eloket.arnhem.nl/f/52"
+            }
+          ],
+          "notes": "Wijkgrenzen nog niet als adresregel vastgelegd."
+        }
+      ],
+      "unresolved": [
+        "Opkoopbescherming Arnhem: gemeentepagina niet gevonden; Huisvestingsverordening 2024 (CVDR709142) nalopen.",
+        "Drempels en quota verkamering/splitsing uit het omgevingsplan halen.",
+        "Splitsingsvergunning appartementsrechten nog niet onderzocht."
+      ]
+    },
+    {
+      "code": "GM0289",
+      "name": "Wageningen",
+      "regulation": {
+        "title": "Huisvestingsverordening Wageningen 2023",
+        "cvdr": "CVDR692539",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR692539/2",
+        "validFrom": "2023-01-01"
+      },
+      "rules": [
+        {
+          "key": "opkoop",
+          "regulationType": "opkoopbescherming",
+          "title": "Vergunning tijdelijke verhuur van koopwoning (opkoopbescherming)",
+          "scopeType": "wijk",
+          "scopeValue": "Centrum/Binnenstad, Nude, Boven- en Benedenbuurt en Buurt-West; woningen tot € 355.000",
+          "shortDescription": "Een koopwoning in Centrum/Binnenstad, Nude, Boven- en Benedenbuurt of Buurt-West tot € 355.000, verkregen na 17 februari 2022 (inschrijving van de leveringsakte), mag in de eerste vier jaar alleen met een vergunning worden verhuurd.",
+          "conditions": "Vergunning mogelijk voor verhuur aan familie in de eerste of tweede graad, tijdelijke verhuur van maximaal één jaar na minstens twaalf maanden zelf wonen (bijvoorbeeld bij vertrek naar het buitenland), of ruimte in een winkel-, kantoor- of bedrijfspand. Leges: € 500.",
+          "exceptions": "Een woning met een verleende opkoopvergunning mag niet kamergewijs worden verhuurd. Hospitaverhuur alleen als uw kind minstens 50% eigenaar is.",
+          "infoUrl": "https://www.wageningen.nl/direct-regelen/wonen-en-bouwen/wonen/vergunning-tijdelijke-verhuur-van-koopwoning-aanvragen-opkoopwet/",
+          "applicationUrl": "https://www.wageningen.nl/direct-regelen/wonen-en-bouwen/wonen/vergunning-tijdelijke-verhuur-van-koopwoning-aanvragen-opkoopwet/",
+          "section": "Artikel 5",
+          "effectiveDate": "2023-01-01",
+          "leges": "€ 500",
+          "contentStatus": "partially-verified",
+          "forms": [
+            {
+              "label": "Aanvraag huisvestingsvergunning Opkoopwet (online)",
+              "url": "https://www.burgerberichten.nl/wageningen/formulieren/e9f643e9-c7e5-43f2-aba7-7b940ef3c039/Aanvraag-huisvestingsvergunning-Opkoopwet"
+            }
+          ],
+          "notes": "De gemeentepagina noemt een prijsgrens van € 355.000 zonder te zeggen of dat de WOZ-waarde of koopsom is; verordening artikel 5 nalopen. Buurtgrenzen nog niet als adresregel vastgelegd."
+        },
+        {
+          "key": "kamerverhuur",
+          "regulationType": "omgevingsvergunning-kamerverhuur",
+          "title": "Vergunning kamerverhuur (omgevingsvergunning)",
+          "scopeType": "kaart en straatquotum",
+          "scopeValue": "Gemeente Wageningen; maximaal 5% kamerverhuurpanden per straat (digitale kamerverhuurkaart)",
+          "shortDescription": "Wie kamers verhuurt aan drie of meer personen op één adres, heeft een omgevingsvergunning nodig. Per straat mag maximaal 5% van de woningen een kamerverhuurpand zijn.",
+          "conditions": "Maximaal één persoon per kamer, kamers minimaal 10 m²; toets op straatdichtheid, leefbaarheid, parkeernormen, kamergrootte en brandveiligheid; bij vijf of meer kamers een melding brandveilig gebruik. Een woning met een opkoopvergunning mag niet kamergewijs worden verhuurd. Intaketafel en toetsing: bericht binnen acht weken; de omgevingsvergunning duurt meestal acht tot veertien weken.",
+          "exceptions": "Geen vergunning voor hospitaverhuur (maximaal twee kamers, minstens 12 m², eigenaar woont er zelf), of voor minder dan tien kamers boven een winkel, restaurant of kantoor met één persoon per kamer.",
+          "infoUrl": "https://www.wageningen.nl/direct-regelen/ondernemers/vergunningen/vergunning-kamerverhuur-aanvragen/",
+          "applicationUrl": "https://omgevingswet.overheid.nl/aanvragen",
+          "regulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR662828",
+          "documentIdentifier": "CVDR662828",
+          "section": "Beleidsregels Kamergewijze verhuur Gemeente Wageningen 2021",
+          "effectiveDate": "2021-01-01",
+          "forms": [
+            {
+              "label": "Omgevingsvergunning aanvragen via het Omgevingsloket",
+              "url": "https://omgevingswet.overheid.nl/aanvragen"
+            }
+          ],
+          "notes": "Het straatpercentage is te controleren op de digitale kamerverhuurkaart van de gemeente; nog niet als adresregel vastgelegd. Leges niet op de pagina."
+        },
+        {
+          "key": "splitsen",
+          "regulationType": "omgevingsvergunning-splitsen",
+          "title": "Woning splitsen (zacht, bouwkundig of juridisch)",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Wageningen",
+          "shortDescription": "Voor zachte splitsing, bouwkundig splitsen, juridisch splitsen en kavelsplitsing is in Wageningen een vergunning nodig. De woning moet minstens 130 m² gebruiksoppervlakte hebben; bij bouwkundig en juridisch splitsen wordt elke nieuwe woning minstens 55 m².",
+          "conditions": "Zachte splitsing alleen bij grondgebonden woningen. Bij bouwkundig en juridisch splitsen een parkeeroplossing aandragen. Eerst via het intakeformulier naar de intaketafel (bericht binnen acht weken); de omgevingsvergunning duurt meestal acht tot veertien weken; totale doorlooptijd ongeveer vier tot zes maanden.",
+          "exceptions": "Tijdelijke inwoning heeft geen vergunning nodig, wel een melding bij een verblijf langer dan vier maanden.",
+          "infoUrl": "https://www.wageningen.nl/direct-regelen/wonen-en-bouwen/bouwen/woningdelen-en-splitsen/",
+          "applicationUrl": "https://www.burgerberichten.nl/wageningen/formulieren/35f363e9-42e4-43cc-8867-2f94cad18251/Intakeformulier-intaketafel/introduction",
+          "regulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR722554",
+          "documentIdentifier": "CVDR722554",
+          "section": "Splitsingsbeleid Wageningen",
+          "effectiveDate": null,
+          "forms": [
+            {
+              "label": "Intakeformulier intaketafel",
+              "url": "https://www.burgerberichten.nl/wageningen/formulieren/35f363e9-42e4-43cc-8867-2f94cad18251/Intakeformulier-intaketafel/introduction"
+            },
+            {
+              "label": "Omgevingsvergunning aanvragen via het Omgevingsloket",
+              "url": "https://omgevingswet.overheid.nl/aanvragen"
+            }
+          ],
+          "notes": "Leges niet op de pagina; legesverordening 2026 nalopen."
+        }
+      ],
+      "unresolved": [
+        "Leges kamerverhuur en splitsen: legesverordening 2026 nalopen.",
+        "Opkoop: € 355.000 is WOZ of koopsom? Verordening artikel 5 nalopen."
+      ]
+    },
+    {
+      "code": "GM0080",
+      "name": "Leeuwarden",
+      "regulation": null,
+      "rules": [
+        {
+          "key": "opkoop",
+          "regulationType": "opkoopbescherming",
+          "title": "Verhuurvergunning opkoopbescherming",
+          "scopeType": "wijk",
+          "scopeValue": "Aangewezen buurten in Leeuwarden; woningen met een WOZ-waarde tot en met € 277.443",
+          "shortDescription": "In aangewezen buurten mag een koopwoning met een WOZ-waarde tot en met € 277.443, verkregen na 1 juli 2024, alleen met een vergunning van de gemeente worden verhuurd.",
+          "conditions": "Aanvragen online; de gemeente beslist binnen acht weken.",
+          "exceptions": "De gemeentepagina noemt geen uitzonderingen; zie de verordening.",
+          "infoUrl": "https://www.leeuwarden.nl/en/housing/mag-ik-mijn-huis-verhuren/",
+          "applicationUrl": null,
+          "section": null,
+          "effectiveDate": "2024-07-01",
+          "contentStatus": "partially-verified",
+          "forms": [
+            {
+              "label": "Online aanvraag verhuurvergunning opkoopbescherming",
+              "url": "https://loket.leeuwarden.nl/aanvraag?schema=aanvraagverhuurvergunningopkoopbescherming&productsleutel=B1879"
+            }
+          ],
+          "notes": "Buurten, jaar van de WOZ-grens, uitzonderingen en leges staan niet op de gemeentepagina; verordening en CVDR nog vast te stellen."
+        },
+        {
+          "key": "kamerverhuur",
+          "regulationType": "omgevingsvergunning-kamerverhuur",
+          "title": "Kamerverhuur",
+          "scopeType": "gemeente",
+          "scopeValue": "Stad Leeuwarden",
+          "shortDescription": "In de stad Leeuwarden zijn nieuwe kamerverhuurpanden (drie of meer kamers) niet toegestaan. Het verhuren van één of twee kamers in een woning waar de eigenaar zelf woont mag wel.",
+          "conditions": "Hospitaregeling: maximaal twee kamers aan maximaal twee personen; de eigenaar blijft er wonen en gebruikt minstens 50% van het vloeroppervlak. Afwijken van het omgevingsplan kan alleen met een omgevingsvergunning (afwijking van de regels van het omgevingsplan).",
+          "exceptions": "Bestaande legale kamerverhuurpanden.",
+          "infoUrl": "https://www.leeuwarden.nl/en/environment-and-planning-permit/kamerverhuur/",
+          "applicationUrl": "https://omgevingswet.overheid.nl/aanvragen",
+          "regulationUrl": "https://www.leeuwarden.nl/en/environment-and-planning-act-en/omgevingsplan/",
+          "section": "Omgevingsplan Leeuwarden - Kamerverhuur",
+          "effectiveDate": null,
+          "contentStatus": "partially-verified",
+          "forms": [
+            {
+              "label": "Procedure omgevingsvergunning aanvragen",
+              "url": "https://www.leeuwarden.nl/en/environment-and-planning-permit/procedure-omgevingsvergunning-aanvragen-of-melden/",
+              "classification": "official-instruction"
+            }
+          ]
+        },
+        {
+          "key": "splitsen",
+          "regulationType": "omgevingsvergunning-splitsen",
+          "title": "Woningsplitsing (omgevingsvergunning)",
+          "scopeType": "gemeente",
+          "scopeValue": "Stad Leeuwarden",
+          "shortDescription": "Woningsplitsing is in de stad Leeuwarden niet toegestaan zonder omgevingsvergunning. Die wordt alleen verleend als het plan past in het woonbeleid en de regionale woningafspraken, en geen onevenredige afbreuk doet aan straatbeeld, woonsituatie, verkeersveiligheid, parkeren, sociale veiligheid of cultuurhistorie.",
+          "conditions": "Toets aan het omgevingsplan 'Leeuwarden - Partiële herziening woningsplitsing en woonzorgfuncties'. Bij bouwwerkzaamheden kan ook een omgevingsvergunning voor bouwen nodig zijn.",
+          "exceptions": "Het omzetten van een niet-woonfunctie (bijvoorbeeld een leeg winkelpand) naar woningen valt niet onder deze route.",
+          "infoUrl": "https://www.leeuwarden.nl/en/environment-and-planning-permit/woningsplitsing/",
+          "applicationUrl": "https://omgevingswet.overheid.nl/aanvragen",
+          "regulationUrl": "https://www.leeuwarden.nl/en/environment-and-planning-act-en/omgevingsplan/",
+          "section": "Omgevingsplan Leeuwarden - Partiële herziening woningsplitsing en woonzorgfuncties",
+          "effectiveDate": null,
+          "contentStatus": "partially-verified",
+          "forms": [
+            {
+              "label": "Procedure omgevingsvergunning aanvragen",
+              "url": "https://www.leeuwarden.nl/en/environment-and-planning-permit/procedure-omgevingsvergunning-aanvragen-of-melden/",
+              "classification": "official-instruction"
+            }
+          ]
+        }
+      ],
+      "unresolved": [
+        "Opkoopbescherming: buurten, uitzonderingen, leges en CVDR vaststellen.",
+        "Leges kamerverhuur/splitsing en minimale maten uit het omgevingsplan halen.",
+        "Splitsingsvergunning appartementsrechten niet onderzocht."
+      ]
+    },
+    {
+      "code": "GM0150",
+      "name": "Deventer",
+      "regulation": {
+        "title": "Huisvestingsverordening Deventer 2026",
+        "cvdr": "CVDR756535",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR756535",
+        "validFrom": "2026-01-01"
+      },
+      "rules": [
+        {
+          "key": "opkoop",
+          "regulationType": "opkoopbescherming",
+          "title": "Verhuurvergunning opkoopbescherming",
+          "scopeType": "postcode",
+          "scopeValue": "Rivierenwijk (7417), Keizerslanden (7415), Voorstad (7413, 7416), Binnenstad (7411), Zandweerd (7412), Colmschate-Noord (7423) en Colmschate-Zuid (7421, 7422, 7429)",
+          "shortDescription": "In zeven wijken van Deventer mag een koopwoning in de eerste vier jaar alleen met een vergunning worden verhuurd als de WOZ-waarde op of onder de grens ligt: voor eigenaren sinds 7 februari 2026 de NHG-kostengrens op de leveringsdatum (€ 470.000 in 2026), voor eigenaren van 15 oktober 2022 tot 7 februari 2026 € 355.000.",
+          "conditions": "Vergunning mogelijk voor verhuur aan bloed- of aanverwanten in de eerste of tweede graad, tijdelijke verhuur van maximaal twaalf maanden, een woning die onlosmakelijk verbonden is met een winkel-, kantoor- of bedrijfsruimte, aankoop voor een renovatie- of stadsvernieuwingsprogramma, of aankoop door een gecontracteerde zorgaanbieder. Aanvragen met DigiD of eHerkenning. Leges: € 132.",
+          "exceptions": "Geen vergunning nodig voor eigenaren van vóór 15 oktober 2022 en voor woningen boven de geldende WOZ-grens.",
+          "infoUrl": "https://www.deventer.nl/ondernemen/vergunningen-en-regelingen-voor-ondernemers/woning-kopen-en-meteen-verhuren-vergunning-opkoopbescherming",
+          "applicationUrl": "https://www.deventer.nl/ondernemen/vergunningen-en-regelingen-voor-ondernemers/woning-kopen-en-meteen-verhuren-vergunning-opkoopbescherming",
+          "section": null,
+          "effectiveDate": "2026-02-07",
+          "leges": "€ 132",
+          "forms": [
+            {
+              "label": "Online aanvraag verhuurvergunning (DigiD)",
+              "url": "https://dloket.deventer.nl/burger/startform?id=VEO_VVO"
+            },
+            {
+              "label": "Online aanvraag verhuurvergunning (eHerkenning)",
+              "url": "https://dloket.deventer.nl/bedrijf/startform?id=VEO_VVO"
+            },
+            {
+              "label": "Aanvraagformulier verhuurvergunning (pdf)",
+              "url": "https://www.deventer.nl/aanvraag-verhuurvergunning"
+            }
+          ],
+          "notes": "Postcodegebieden nog niet als adresregel vastgelegd."
+        },
+        {
+          "key": "omzetting",
+          "regulationType": "omzettingsvergunning",
+          "title": "Omzettingsvergunning kamerverhuur",
+          "scopeType": "postcode",
+          "scopeValue": "Gemeente Deventer; woningen met een WOZ-waarde tot de NHG-grens, in Voorstad (7413, 7416) en Rivierenwijk (7417) ook daarboven; maximaal 7,5% kamerverhuurpanden per postcodegebied",
+          "shortDescription": "Wie drie of meer kamers verhuurt, heeft een omzettingsvergunning nodig; woont de eigenaar er zelf, dan al bij twee kamers. Per postcodegebied mag maximaal 7,5% van de woningen een kamerverhuurpand zijn. Boven de NHG-grens is geen vergunning nodig, behalve in Voorstad en Rivierenwijk.",
+          "conditions": "Toets op leefbaarheid, technische eisen en brandveiligheid (melding brandveilig gebruik bij vijf of meer kamers); woonbestemming in het omgevingsplan; Bibob-toets inclusief herkomst van vermogen. De vergunning is persoonsgebonden: een nieuwe eigenaar vraagt voortzetting aan. Bijlagen: eigendomsbewijs, kadastrale gegevens, namen van bewoners, plattegronden en wijze van verhuur. Leges 2026: € 1.531 nieuw, € 288 overschrijving of wijziging aantal kamers; 50% terug bij weigering of intrekking in bezwaar.",
+          "exceptions": "Opkoopbescherming en zelfbewoningsplicht bij nieuwbouw kunnen kamerverhuur uitsluiten. Bed & breakfast en vakantieverhuur vallen hier niet onder.",
+          "infoUrl": "https://www.deventer.nl/kamersverhuren",
+          "applicationUrl": "https://dloket.deventer.nl/loket/producten-en-diensten/kamers-verhuren",
+          "section": null,
+          "effectiveDate": "2026-01-01",
+          "leges": "€ 1.531 (2026)",
+          "contentStatus": "partially-verified",
+          "forms": [
+            {
+              "label": "Kamers verhuren (digitaal loket Deventer)",
+              "url": "https://dloket.deventer.nl/loket/producten-en-diensten/kamers-verhuren"
+            }
+          ],
+          "notes": "De kamerverhuurpagina noemt de NHG-grens 2026 als € 475.000; de officiële NHG-kostengrens 2026 is € 470.000 (ook zo genoemd op de opkooppagina van Deventer). Melden aan de gemeente."
+        }
+      ],
+      "unresolved": [
+        "Kamerverhuurpagina noemt NHG-grens € 475.000 i.p.v. € 470.000: bij gemeente melden en verordening nalopen.",
+        "Splitsen/woningvorming niet onderzocht."
+      ]
+    },
+    {
+      "code": "GM0758",
+      "name": "Breda",
+      "regulation": {
+        "title": "Huisvestingsverordening Breda 2022",
+        "cvdr": "CVDR695686",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR695686",
+        "validFrom": "2023-05-10"
+      },
+      "rules": [
+        {
+          "key": "opkoop",
+          "regulationType": "opkoopbescherming",
+          "title": "Verhuurvergunning opkoopbescherming",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Breda; woningen met een WOZ-waarde tot en met de NHG-grens (€ 470.000 in 2026)",
+          "shortDescription": "Een woning gekocht na 10 mei 2023 met een WOZ-waarde tot en met de NHG-grens (€ 470.000 in 2026) mag in de eerste vier jaar alleen met een verhuurvergunning worden verhuurd.",
+          "conditions": "Vergunning mogelijk voor verhuur aan familie in de eerste of tweede graad (en hun partners), tijdelijke verhuur van maximaal één jaar na minstens één jaar zelf wonen, of woonruimte die deel is van een winkel-, kantoor- of bedrijfspand. Aanvragen met DigiD. Leges 2026: € 477,77 (ook bij afwijzing).",
+          "exceptions": "Geen vergunning nodig als de woning al meer dan zes maanden verhuurd was, voor woningcorporaties, en voor nieuwbouw waarvan de VON-prijs voor de eerste koper boven de grens ligt.",
+          "infoUrl": "https://www.breda.nl/verhuurvergunning-opkoopbescherming",
+          "applicationUrl": "https://www.breda.nl/verhuurvergunning-opkoopbescherming",
+          "section": null,
+          "effectiveDate": "2023-05-10",
+          "leges": "€ 477,77 (2026)",
+          "forms": [
+            {
+              "label": "Online aanvraag verhuurvergunning opkoopbescherming (DigiD)",
+              "url": "https://formulier.breda.nl/f/60316/login"
+            }
+          ]
+        },
+        {
+          "key": "splitsing",
+          "regulationType": "splitsingsvergunning",
+          "title": "Splitsingsvergunning",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Breda",
+          "shortDescription": "Voor het splitsen van een pand in twee of meer appartementen (zonder verbouwing) kan een splitsingsvergunning nodig zijn; de vergunningcheck op de gemeentepagina bepaalt dit. Bij verbouwing naar meerdere zelfstandige woonruimtes is een omgevingsvergunning nodig.",
+          "conditions": "Bijlagen: splitsingsplan met situatieschets, situatietekening (1:500 of 1:1000), plattegronden (1:100), taxatierapport van een registertaxateur en per woning een ingevulde huurprijscheck. Leges volgens paragraaf 3.6 van de tarieventabel leges 2026.",
+          "exceptions": "Zie de vergunningcheck op de gemeentepagina.",
+          "infoUrl": "https://www.breda.nl/splitsingsvergunning-aanvragen",
+          "applicationUrl": "https://www.breda.nl/splitsingsvergunning-aanvragen",
+          "section": null,
+          "effectiveDate": null,
+          "contentStatus": "partially-verified",
+          "forms": [
+            {
+              "label": "Omgevingsvergunning (bij verbouwing)",
+              "url": "https://www.breda.nl/omgevingsvergunning",
+              "classification": "official-instruction"
+            }
+          ],
+          "notes": "Criteria (gebied, bouwjaar, huur) staan niet op de pagina; verordening CVDR695686 nalopen."
+        }
+      ],
+      "unresolved": [
+        "Kamerverhuur/omzetting: geen gemeentepagina gevonden behalve hospitaregeling; omgevingsplan nalopen.",
+        "Criteria splitsingsvergunning uit CVDR695686 halen."
+      ]
+    },
+    {
+      "code": "GM0796",
+      "name": "'s-Hertogenbosch",
+      "regulation": null,
+      "rules": [
+        {
+          "key": "opkoop",
+          "regulationType": "opkoopbescherming",
+          "title": "Opkoopbescherming",
+          "scopeType": "gemeente",
+          "scopeValue": "Hele gemeente 's-Hertogenbosch, alle buurten en woningtypes; WOZ-grens volgens de geldende regeling",
+          "shortDescription": "In heel 's-Hertogenbosch mag een woning met een WOZ-waarde onder de prijsgrens in de eerste vier jaar na inschrijving van de leveringsakte alleen met een vergunning worden verhuurd. De gemeenteraad heeft de regeling op 27 januari 2026 verlengd en de prijsgrens aangepast; de gemeentepagina noemt nog de grens van € 332.000 (WOZ 1 januari 2025).",
+          "conditions": "Vergunning mogelijk voor verhuur aan bloed- of aanverwanten in de eerste of tweede graad, tijdelijke verhuur van maximaal twaalf maanden na minstens één jaar zelf wonen, of woonruimte die onlosmakelijk verbonden is met een bedrijfs-, kantoor- of winkelruimte. Hardheidsclausule voor bijzondere gevallen.",
+          "exceptions": "Uitgezonderd zijn woningcorporaties, de gemeente en gecontracteerde zorgaanbieders die eigen cliënten huisvesten.",
+          "infoUrl": "https://www.s-hertogenbosch.nl/inwoner/bouwen-en-wonen/huur-of-koopwoning/opkoopbescherming/",
+          "applicationUrl": "https://www.s-hertogenbosch.nl/inwoner/bouwen-en-wonen/huur-of-koopwoning/opkoopbescherming/",
+          "section": null,
+          "effectiveDate": "2022-07-01",
+          "contentStatus": "partially-verified",
+          "currentnessStatus": "recheck-required",
+          "forms": [
+            {
+              "label": "Aanvraagformulier opkoopbescherming (pdf)",
+              "url": "https://www.s-hertogenbosch.nl/wp-content/uploads/Aanvraagformulier-opkoopbescherming.pdf"
+            }
+          ],
+          "notes": "Prijsgrens 2026 na het raadsbesluit van 27 januari 2026 en actuele leges (pagina noemt € 120,60 uit 2023) nog vast te stellen."
+        }
+      ],
+      "unresolved": [
+        "Prijsgrens opkoopbescherming 2026 na raadsbesluit 27 januari 2026 vaststellen.",
+        "Kamerverhuur (omzetting) en splitsen: gemeentepagina's alleen over hospitaverhuur gevonden; omgevingsplan/verordening nalopen."
+      ]
+    },
+    {
+      "code": "GM0193",
+      "name": "Zwolle",
+      "regulation": {
+        "title": "Beleidsregel verhuren van onzelfstandige woonruimte en inwoning Zwolle",
+        "cvdr": "CVDR738880",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR738880",
+        "validFrom": "2025-01-01"
+      },
+      "rules": [
+        {
+          "key": "kamerverhuur",
+          "regulationType": "omgevingsvergunning-kamerverhuur",
+          "title": "Kamerverhuur / onzelfstandige woonruimte (omgevingsvergunning)",
+          "scopeType": "kaart en straatquotum",
+          "scopeValue": "Gemeente Zwolle; rode zones (geen nieuwe kamerverhuur), groene zones (onder voorwaarden), grijze zone buiten de beleidsregel; maximaal 15% per straat met dezelfde postcode",
+          "shortDescription": "Voor kamerverhuur (onzelfstandige woonruimte) is in Zwolle een omgevingsvergunning nodig (afwijken van het omgevingsplan). In rode zones is nieuwe kamerverhuur niet mogelijk; elders maximaal 15% van de woningen in dezelfde straat en postcode. Het aantal kamers hangt af van de woninggrootte.",
+          "conditions": "Onder 60 m² geen kamerverhuur; 60-80 m² maximaal 2 kamers, 80-100 m² maximaal 4, 100-120 m² maximaal 6, boven 120 m² maximaal 8. Bergruimte 1,5 m² per bewoner op eigen terrein of een gedeelde voorziening binnen 75 meter. Beslistermijn maximaal acht weken, eenmalig te verlengen met zes weken; een conceptverzoek vooraf is mogelijk.",
+          "exceptions": "Inwoning van één extra huishouden is in sommige gebieden volgens het omgevingsplan zonder vergunning toegestaan. Hospitaverhuur kan in sommige delen van Zwolle een omgevingsvergunning vereisen. Niet van toepassing op flexwoningen, tiny houses, woonboten en woonwagens.",
+          "infoUrl": "https://www.zwolle.nl/regels-voor-het-delen-van-een-woning",
+          "applicationUrl": "https://omgevingswet.overheid.nl/aanvragen",
+          "section": null,
+          "effectiveDate": "2025-01-01",
+          "contentStatus": "partially-verified",
+          "forms": [
+            {
+              "label": "Omgevingsvergunning aanvragen via het Omgevingsloket",
+              "url": "https://omgevingswet.overheid.nl/aanvragen"
+            },
+            {
+              "label": "Conceptverzoek omgevingsvergunning",
+              "url": "https://www.zwolle.nl/conceptverzoek-omgevingsvergunning",
+              "classification": "official-instruction"
+            }
+          ],
+          "notes": "Zonekaart en straatpercentage nog niet als adresregel vastgelegd. Leges niet op de pagina."
+        },
+        {
+          "key": "splitsen",
+          "regulationType": "omgevingsvergunning-splitsen",
+          "title": "Woning splitsen in zelfstandige woonruimte (omgevingsvergunning)",
+          "scopeType": "wijk",
+          "scopeValue": "Gemeente Zwolle; centrum, overig stedelijk gebied en buitengebied",
+          "shortDescription": "Voor het splitsen van een woning in zelfstandige woningen is een omgevingsvergunning nodig. Elke nieuwe woning is minimaal 40 m². In het overig stedelijk gebied moet een grondgebonden woning minstens 100 m² zijn; in het centrum mogen grondgebonden eengezinswoningen met alleen een woonfunctie niet worden gesplitst.",
+          "conditions": "Bergruimte minimaal 5 m² per woning op eigen perceel, of een gedeelde voorziening binnen 75 meter plus 1,5 m² op eigen perceel. Beslistermijn maximaal acht weken, eenmalig te verlengen met zes weken.",
+          "exceptions": "Zie de beleidsregel zelfstandige woonruimte (CVDR738879).",
+          "infoUrl": "https://www.zwolle.nl/regels-voor-het-delen-van-een-woning",
+          "applicationUrl": "https://omgevingswet.overheid.nl/aanvragen",
+          "regulationUrl": "https://lokaleregelgeving.overheid.nl/CVDR738879",
+          "documentIdentifier": "CVDR738879",
+          "section": null,
+          "effectiveDate": "2025-01-01",
+          "forms": [
+            {
+              "label": "Omgevingsvergunning aanvragen via het Omgevingsloket",
+              "url": "https://omgevingswet.overheid.nl/aanvragen"
+            }
+          ]
+        }
+      ],
+      "researchedWithoutRule": [
+        "purchase-protection"
+      ],
+      "unresolved": [
+        "Opkoopbescherming: geen Zwolse regeling gevonden op zwolle.nl; verordening ter bevestiging nalopen.",
+        "Leges kamerverhuur/splitsen: legesverordening 2026 nalopen."
+      ]
+    },
+    {
+      "code": "GM0307",
+      "name": "Amersfoort",
+      "regulation": {
+        "title": "Huisvestingsverordening Amersfoort",
+        "cvdr": "CVDR674253",
+        "url": "https://lokaleregelgeving.overheid.nl/CVDR674253/1",
+        "validFrom": "2022-04-01"
+      },
+      "rules": [
+        {
+          "key": "opkoop",
+          "regulationType": "opkoopbescherming",
+          "title": "Verhuurvergunning opkoopbescherming",
+          "scopeType": "gemeente",
+          "scopeValue": "Gemeente Amersfoort; woningen met een WOZ-waarde tot en met € 418.100 (per 1 april 2026)",
+          "shortDescription": "Een woning die op of na 1 april 2022 in het Kadaster is ingeschreven en een WOZ-waarde heeft tot en met € 418.100 (grens per 1 april 2026, jaarlijks geïndexeerd), mag in de eerste vier jaar alleen met een verhuurvergunning worden verhuurd.",
+          "conditions": "Vergunning mogelijk voor verhuur aan bloed- of aanverwanten in de eerste of tweede graad, tijdelijke verhuur van maximaal twaalf maanden na minstens twaalf maanden zelf wonen, een woning die onlosmakelijk deel is van een winkel-, kantoor- of bedrijfspand, aankoop door een marktpartij namens de gemeente, of aankoop door een zorgaanbieder voor cliënten met een zorgindicatie. Leges: € 269.",
+          "exceptions": "Woningen die met appartementsrechten zijn afgesplitst van een bedrijfspand krijgen geen vergunning.",
+          "infoUrl": "https://www.amersfoort.nl/verhuurvergunning-opkoopbescherming",
+          "applicationUrl": "https://formulier.amersfoort.nl/formulier/nl-NL/DefaultEnvironment/scVerhuurvergunningOpkoopbescherming.aspx",
+          "section": null,
+          "effectiveDate": "2026-04-01",
+          "leges": "€ 269",
+          "forms": [
+            {
+              "label": "Online aanvraag verhuurvergunning opkoopbescherming",
+              "url": "https://formulier.amersfoort.nl/formulier/nl-NL/DefaultEnvironment/scVerhuurvergunningOpkoopbescherming.aspx"
+            }
+          ]
+        },
+        {
+          "key": "splitsen",
+          "regulationType": "omgevingsvergunning-splitsen",
+          "title": "Woningsplitsing (omgevingsvergunning)",
+          "scopeType": "kaart",
+          "scopeValue": "Gemeente Amersfoort; afhankelijk van de bestemming in het omgevingsplan",
+          "shortDescription": "Voor woningsplitsing is in Amersfoort altijd een omgevingsvergunning nodig. Splitsen kan in de binnenstad bij de bestemming Centrum-1, -2, -3 of Wonen, en buiten de binnenstad bij de bestemming Gemengd; bij bijvoorbeeld Wonen-1 tot en met -6 niet.",
+          "conditions": "Nieuwe woningen voldoen aan het Besluit bouwwerken leefomgeving (veiligheid, geluid, ventilatie, maten) en hebben voldoende parkeerruimte op eigen terrein volgens de nota parkeernormen. Bijlagen: bouwtekeningen, situatietekening met parkeren, fietsparkeren en afvalberging, en toestemming van de VvE indien van toepassing. De gemeente is terughoudend met het splitsen van grotere eengezinswoningen.",
+          "exceptions": "Zie het omgevingsplan voor uw adres (regels op de kaart).",
+          "infoUrl": "https://www.amersfoort.nl/woningsplitsing",
+          "applicationUrl": "https://omgevingswet.overheid.nl/home",
+          "section": null,
+          "effectiveDate": null,
+          "contentStatus": "partially-verified",
+          "forms": [
+            {
+              "label": "Regels op de kaart (bestemming van uw adres)",
+              "url": "https://omgevingswet.overheid.nl/regels-op-de-kaart/",
+              "classification": "official-instruction"
+            },
+            {
+              "label": "Nota parkeernormen Amersfoort",
+              "url": "https://www.amersfoort.nl/parkeernormen",
+              "classification": "official-instruction"
+            }
+          ]
+        }
+      ],
+      "unresolved": [
+        "Kamerverhuur/omzetting Amersfoort: geen gemeentepagina gevonden; verordening CVDR674253 en omgevingsplan nalopen.",
+        "Leges woningsplitsing: legesverordening 2026 nalopen."
+      ]
+    }
+  ]
+}

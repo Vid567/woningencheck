@@ -30,7 +30,7 @@ De verplichte werkwijze staat in [de onderzoeksmethodologie](docs/research-metho
 
 ## Huidige dekking
 
-De gemeentelijke basis is landelijk. De eerste, nog juridisch te beoordelen records betreffen Den Haag, Emmen, Leiden en Rotterdam. Een gemeente zonder records blijft selecteerbaar en toont eerlijk dat inhoudelijke dekking ontbreekt.
+De gemeentelijke basis is landelijk. Regelrecords (nog juridisch te beoordelen) zijn er voor Den Haag, Emmen, Leiden en Rotterdam, en sinds 24 oktober 2026 ook voor 17 studentensteden uit het handmatige bronnenonderzoek (zie [docs/research-batches/2026-10-24-studentensteden.md](docs/research-batches/2026-10-24-studentensteden.md)). Het landelijke kader staat in [docs/landelijk-kader.md](docs/landelijk-kader.md). Een gemeente zonder records blijft selecteerbaar en toont eerlijk dat inhoudelijke dekking ontbreekt.
 
 ## Aanvraagroutes en documenten
 

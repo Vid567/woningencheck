@@ -327,19 +327,24 @@
       "municipalityCode": "GM0307",
       "municipalityName": "Amersfoort",
       "province": "Utrecht",
-      "researchStatus": "verified",
+      "researchStatus": "partially-verified",
       "researchStartedAt": "2026-08-09",
-      "researchCompletedAt": "2026-08-09",
-      "lastCheckedAt": "2026-08-09",
+      "researchCompletedAt": "2026-10-24",
+      "lastCheckedAt": "2026-10-24",
       "nextReviewAt": "2027-01-01",
       "researchedPermitTypes": [
         "housing-permit",
-        "vacancy-obligation"
+        "vacancy-obligation",
+        "purchase-protection",
+        "dwelling-formation"
       ],
-      "unresolvedQuestions": [],
+      "unresolvedQuestions": [
+        "Kamerverhuur/omzetting Amersfoort: geen gemeentepagina gevonden; verordening CVDR674253 en omgevingsplan nalopen.",
+        "Leges woningsplitsing: legesverordening 2026 nalopen."
+      ],
       "conflicts": [],
       "sourceCount": 4,
-      "notes": "Batch 002 officieel onderzocht."
+      "notes": "Handmatig bronnenonderzoek 2026-10-24 (manual-2026-10-24-studentensteden): opkoopbescherming, kamerverhuur/omzetting, splitsen/woningvorming, leges en aanvraagroute."
     },
     {
       "municipalityCode": "GM0362",
@@ -405,21 +410,27 @@
       "municipalityCode": "GM0202",
       "municipalityName": "Arnhem",
       "province": "Gelderland",
-      "researchStatus": "verified",
+      "researchStatus": "partially-verified",
       "researchStartedAt": "2026-08-09",
-      "researchCompletedAt": "2026-08-09",
-      "lastCheckedAt": "2026-08-09",
+      "researchCompletedAt": "2026-10-24",
+      "lastCheckedAt": "2026-10-24",
       "nextReviewAt": "2027-01-01",
       "researchedPermitTypes": [
         "housing-permit",
         "vacancy-obligation",
         "good-landlord-permit",
-        "purchase-protection"
+        "purchase-protection",
+        "room-rental",
+        "dwelling-formation"
       ],
-      "unresolvedQuestions": [],
+      "unresolvedQuestions": [
+        "Opkoopbescherming Arnhem: gemeentepagina niet gevonden; Huisvestingsverordening 2024 (CVDR709142) nalopen.",
+        "Drempels en quota verkamering/splitsing uit het omgevingsplan halen.",
+        "Splitsingsvergunning appartementsrechten nog niet onderzocht."
+      ],
       "conflicts": [],
-      "sourceCount": 6,
-      "notes": "Batch 002 officieel onderzocht."
+      "sourceCount": 4,
+      "notes": "Handmatig bronnenonderzoek 2026-10-24 (manual-2026-10-24-studentensteden): opkoopbescherming, kamerverhuur/omzetting, splitsen/woningvorming, leges en aanvraagroute."
     },
     {
       "municipalityCode": "GM0106",
@@ -1041,16 +1052,22 @@
       "municipalityCode": "GM0758",
       "municipalityName": "Breda",
       "province": "Noord-Brabant",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
-      "unresolvedQuestions": [],
+      "researchStatus": "partially-verified",
+      "researchStartedAt": "2026-10-24",
+      "researchCompletedAt": "2026-10-24",
+      "lastCheckedAt": "2026-10-24",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "purchase-protection",
+        "building-split"
+      ],
+      "unresolvedQuestions": [
+        "Kamerverhuur/omzetting: geen gemeentepagina gevonden behalve hospitaregeling; omgevingsplan nalopen.",
+        "Criteria splitsingsvergunning uit CVDR695686 halen."
+      ],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "sourceCount": 4,
+      "notes": "Handmatig bronnenonderzoek 2026-10-24 (manual-2026-10-24-studentensteden): opkoopbescherming, kamerverhuur/omzetting, splitsen/woningvorming, leges en aanvraagroute.",
       "discoveryStatus": "discovery-complete",
       "discoveryTier": 5,
       "verificationRoute": "source-incomplete",
@@ -1321,16 +1338,23 @@
       "municipalityCode": "GM0503",
       "municipalityName": "Delft",
       "province": "Zuid-Holland",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
-      "unresolvedQuestions": [],
+      "researchStatus": "partially-verified",
+      "researchStartedAt": "2026-10-24",
+      "researchCompletedAt": "2026-10-24",
+      "lastCheckedAt": "2026-10-24",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "purchase-protection",
+        "conversion-permit",
+        "building-split",
+        "dwelling-formation"
+      ],
+      "unresolvedQuestions": [
+        "Leges opkoopvergunning op gemeentepagina (€ 2.059,95) is gelijk aan woningvorming; legesverordening 2026 ter controle nalopen."
+      ],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "sourceCount": 8,
+      "notes": "Handmatig bronnenonderzoek 2026-10-24 (manual-2026-10-24-studentensteden): opkoopbescherming, kamerverhuur/omzetting, splitsen/woningvorming, leges en aanvraagroute.",
       "discoveryStatus": "discovery-complete",
       "discoveryTier": 2,
       "verificationRoute": "structured-verification",
@@ -1361,16 +1385,22 @@
       "municipalityCode": "GM0150",
       "municipalityName": "Deventer",
       "province": "Overijssel",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
-      "unresolvedQuestions": [],
+      "researchStatus": "partially-verified",
+      "researchStartedAt": "2026-10-24",
+      "researchCompletedAt": "2026-10-24",
+      "lastCheckedAt": "2026-10-24",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "purchase-protection",
+        "conversion-permit"
+      ],
+      "unresolvedQuestions": [
+        "Kamerverhuurpagina noemt NHG-grens € 475.000 i.p.v. € 470.000: bij gemeente melden en verordening nalopen.",
+        "Splitsen/woningvorming niet onderzocht."
+      ],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken.",
+      "sourceCount": 4,
+      "notes": "Handmatig bronnenonderzoek 2026-10-24 (manual-2026-10-24-studentensteden): opkoopbescherming, kamerverhuur/omzetting, splitsen/woningvorming, leges en aanvraagroute.",
       "discoveryStatus": "discovery-complete",
       "discoveryTier": 2,
       "verificationRoute": "structured-verification",
@@ -1721,16 +1751,25 @@
       "municipalityCode": "GM0772",
       "municipalityName": "Eindhoven",
       "province": "Noord-Brabant",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
-      "unresolvedQuestions": [],
+      "researchStatus": "partially-verified",
+      "researchStartedAt": "2026-10-24",
+      "researchCompletedAt": "2026-10-24",
+      "lastCheckedAt": "2026-10-24",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "purchase-protection",
+        "room-rental",
+        "dwelling-formation",
+        "building-split"
+      ],
+      "unresolvedQuestions": [
+        "Splitsingsvergunning (appartementsrechten): aparte pagina eindhoven.nl/bouwen/vergunningen/splitsingsvergunning nog niet gelezen.",
+        "Huisvestingsverordening 2025-2029 (CVDR741302) nog niet nagelopen op omzettings-/onttrekkingsregels.",
+        "Leges kamerverhuur en woningsplitsing: legesverordening 2026 (gmb-2025-485259) nalopen."
+      ],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "sourceCount": 6,
+      "notes": "Handmatig bronnenonderzoek 2026-10-24 (manual-2026-10-24-studentensteden): opkoopbescherming, kamerverhuur/omzetting, splitsen/woningvorming, leges en aanvraagroute."
     },
     {
       "municipalityCode": "GM0230",
@@ -1785,16 +1824,24 @@
       "municipalityCode": "GM0153",
       "municipalityName": "Enschede",
       "province": "Overijssel",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
-      "unresolvedQuestions": [],
+      "researchStatus": "partially-verified",
+      "researchStartedAt": "2026-10-24",
+      "researchCompletedAt": "2026-10-24",
+      "lastCheckedAt": "2026-10-24",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "purchase-protection",
+        "room-rental"
+      ],
+      "unresolvedQuestions": [
+        "Opkoopverordening vervalt 1 januari 2027: verlenging controleren.",
+        "Aanvraagroute en leges opkoopvergunning handmatig vaststellen.",
+        "Drempels en quota kamerverhuur uit het omgevingsplan halen.",
+        "Splitsen/woningvorming nog niet onderzocht."
+      ],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "sourceCount": 3,
+      "notes": "Handmatig bronnenonderzoek 2026-10-24 (manual-2026-10-24-studentensteden): opkoopbescherming, kamerverhuur/omzetting, splitsen/woningvorming, leges en aanvraagroute."
     },
     {
       "municipalityCode": "GM0232",
@@ -2044,16 +2091,23 @@
       "municipalityCode": "GM0014",
       "municipalityName": "Groningen",
       "province": "Groningen",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
-      "unresolvedQuestions": [],
+      "researchStatus": "partially-verified",
+      "researchStartedAt": "2026-10-24",
+      "researchCompletedAt": "2026-10-24",
+      "lastCheckedAt": "2026-10-24",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "purchase-protection",
+        "conversion-permit",
+        "building-split",
+        "dwelling-formation"
+      ],
+      "unresolvedQuestions": [
+        "Leges splitsings- en woningvormingsvergunning staan op de gemeentepagina met tarief 2022; actuele legesverordening 2026 nalopen."
+      ],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "sourceCount": 8,
+      "notes": "Handmatig bronnenonderzoek 2026-10-24 (manual-2026-10-24-studentensteden): opkoopbescherming, kamerverhuur/omzetting, splitsen/woningvorming, leges en aanvraagroute."
     },
     {
       "municipalityCode": "GM1729",
@@ -2089,16 +2143,23 @@
       "municipalityCode": "GM0392",
       "municipalityName": "Haarlem",
       "province": "Noord-Holland",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
-      "unresolvedQuestions": [],
+      "researchStatus": "partially-verified",
+      "researchStartedAt": "2026-10-24",
+      "researchCompletedAt": "2026-10-24",
+      "lastCheckedAt": "2026-10-24",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "purchase-protection",
+        "conversion-permit",
+        "dwelling-formation",
+        "building-split"
+      ],
+      "unresolvedQuestions": [
+        "Buurtgrenzen Gebied 1 (vergunningstop omzetten/woningvorming) als adresregel vastleggen."
+      ],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "sourceCount": 8,
+      "notes": "Handmatig bronnenonderzoek 2026-10-24 (manual-2026-10-24-studentensteden): opkoopbescherming, kamerverhuur/omzetting, splitsen/woningvorming, leges en aanvraagroute."
     },
     {
       "municipalityCode": "GM0394",
@@ -2389,16 +2450,21 @@
       "municipalityCode": "GM0796",
       "municipalityName": "'s-Hertogenbosch",
       "province": "Noord-Brabant",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
-      "unresolvedQuestions": [],
+      "researchStatus": "partially-verified",
+      "researchStartedAt": "2026-10-24",
+      "researchCompletedAt": "2026-10-24",
+      "lastCheckedAt": "2026-10-24",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "purchase-protection"
+      ],
+      "unresolvedQuestions": [
+        "Prijsgrens opkoopbescherming 2026 na raadsbesluit 27 januari 2026 vaststellen.",
+        "Kamerverhuur (omzetting) en splitsen: gemeentepagina's alleen over hospitaverhuur gevonden; omgevingsplan/verordening nalopen."
+      ],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "sourceCount": 1,
+      "notes": "Handmatig bronnenonderzoek 2026-10-24 (manual-2026-10-24-studentensteden): opkoopbescherming, kamerverhuur/omzetting, splitsen/woningvorming, leges en aanvraagroute."
     },
     {
       "municipalityCode": "GM0252",
@@ -2854,16 +2920,24 @@
       "municipalityCode": "GM0080",
       "municipalityName": "Leeuwarden",
       "province": "Fryslân",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
-      "unresolvedQuestions": [],
+      "researchStatus": "partially-verified",
+      "researchStartedAt": "2026-10-24",
+      "researchCompletedAt": "2026-10-24",
+      "lastCheckedAt": "2026-10-24",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "purchase-protection",
+        "room-rental",
+        "dwelling-formation"
+      ],
+      "unresolvedQuestions": [
+        "Opkoopbescherming: buurten, uitzonderingen, leges en CVDR vaststellen.",
+        "Leges kamerverhuur/splitsing en minimale maten uit het omgevingsplan halen.",
+        "Splitsingsvergunning appartementsrechten niet onderzocht."
+      ],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "sourceCount": 5,
+      "notes": "Handmatig bronnenonderzoek 2026-10-24 (manual-2026-10-24-studentensteden): opkoopbescherming, kamerverhuur/omzetting, splitsen/woningvorming, leges en aanvraagroute."
     },
     {
       "municipalityCode": "GM0546",
@@ -3114,16 +3188,25 @@
       "municipalityCode": "GM0935",
       "municipalityName": "Maastricht",
       "province": "Limburg",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
-      "unresolvedQuestions": [],
+      "researchStatus": "partially-verified",
+      "researchStartedAt": "2026-10-24",
+      "researchCompletedAt": "2026-10-24",
+      "lastCheckedAt": "2026-10-24",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "purchase-protection",
+        "room-rental",
+        "dwelling-formation",
+        "building-split"
+      ],
+      "unresolvedQuestions": [
+        "Leges omzetten/splitsen niet op gemeentepagina: legesverordening 2026 nalopen.",
+        "Maximumpercentages kamerverhuur per gebied uit de uitvoeringsregels halen.",
+        "Splitsingsvergunning appartementsrechten: niet op de gemeentepagina; verordening CVDR681753 nalopen."
+      ],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "sourceCount": 6,
+      "notes": "Handmatig bronnenonderzoek 2026-10-24 (manual-2026-10-24-studentensteden): opkoopbescherming, kamerverhuur/omzetting, splitsen/woningvorming, leges en aanvraagroute."
     },
     {
       "municipalityCode": "GM0420",
@@ -3399,16 +3482,24 @@
       "municipalityCode": "GM0268",
       "municipalityName": "Nijmegen",
       "province": "Gelderland",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
-      "unresolvedQuestions": [],
+      "researchStatus": "partially-verified",
+      "researchStartedAt": "2026-10-24",
+      "researchCompletedAt": "2026-10-24",
+      "lastCheckedAt": "2026-10-24",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "purchase-protection",
+        "conversion-permit",
+        "dwelling-formation",
+        "building-split"
+      ],
+      "unresolvedQuestions": [
+        "Verordening CVDR705568 krijgt per 1 november 2026 een nieuwe versie: WOZ-grenzen en drempels hercontroleren.",
+        "Leges omzettingsvergunning en omgevingsvergunning niet op de gemeentepagina: legesverordening 2026 nalopen."
+      ],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "sourceCount": 6,
+      "notes": "Handmatig bronnenonderzoek 2026-10-24 (manual-2026-10-24-studentensteden): opkoopbescherming, kamerverhuur/omzetting, splitsen/woningvorming, leges en aanvraagroute."
     },
     {
       "municipalityCode": "GM1930",
@@ -4589,16 +4680,24 @@
       "municipalityCode": "GM0855",
       "municipalityName": "Tilburg",
       "province": "Noord-Brabant",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
-      "unresolvedQuestions": [],
+      "researchStatus": "partially-verified",
+      "researchStartedAt": "2026-10-24",
+      "researchCompletedAt": "2026-10-24",
+      "lastCheckedAt": "2026-10-24",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "purchase-protection",
+        "conversion-permit",
+        "building-split",
+        "dwelling-formation"
+      ],
+      "unresolvedQuestions": [
+        "Aanvraagroute en leges splitsingsvergunning niet gevonden op tilburg.nl.",
+        "Begindatum opkoopbescherming onder verordening 2026 (artikel 12 lid 2 sub d) vergelijken met de gemeentepagina (1 september 2022)."
+      ],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "sourceCount": 5,
+      "notes": "Handmatig bronnenonderzoek 2026-10-24 (manual-2026-10-24-studentensteden): opkoopbescherming, kamerverhuur/omzetting, splitsen/woningvorming, leges en aanvraagroute."
     },
     {
       "municipalityCode": "GM0183",
@@ -4709,16 +4808,21 @@
       "municipalityCode": "GM0344",
       "municipalityName": "Utrecht",
       "province": "Utrecht",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
+      "researchStatus": "verified",
+      "researchStartedAt": "2026-10-24",
+      "researchCompletedAt": "2026-10-24",
+      "lastCheckedAt": "2026-10-24",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "purchase-protection",
+        "conversion-permit",
+        "building-split",
+        "dwelling-formation"
+      ],
       "unresolvedQuestions": [],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "sourceCount": 8,
+      "notes": "Handmatig bronnenonderzoek 2026-10-24 (manual-2026-10-24-studentensteden): opkoopbescherming, kamerverhuur/omzetting, splitsen/woningvorming, leges en aanvraagroute."
     },
     {
       "municipalityCode": "GM1581",
@@ -5084,16 +5188,23 @@
       "municipalityCode": "GM0289",
       "municipalityName": "Wageningen",
       "province": "Gelderland",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
-      "unresolvedQuestions": [],
+      "researchStatus": "partially-verified",
+      "researchStartedAt": "2026-10-24",
+      "researchCompletedAt": "2026-10-24",
+      "lastCheckedAt": "2026-10-24",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "purchase-protection",
+        "room-rental",
+        "dwelling-formation"
+      ],
+      "unresolvedQuestions": [
+        "Leges kamerverhuur en splitsen: legesverordening 2026 nalopen.",
+        "Opkoop: € 355.000 is WOZ of koopsom? Verordening artikel 5 nalopen."
+      ],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "sourceCount": 6,
+      "notes": "Handmatig bronnenonderzoek 2026-10-24 (manual-2026-10-24-studentensteden): opkoopbescherming, kamerverhuur/omzetting, splitsen/woningvorming, leges en aanvraagroute."
     },
     {
       "municipalityCode": "GM0629",
@@ -5609,16 +5720,23 @@
       "municipalityCode": "GM0193",
       "municipalityName": "Zwolle",
       "province": "Overijssel",
-      "researchStatus": "not-started",
-      "researchStartedAt": null,
-      "researchCompletedAt": null,
-      "lastCheckedAt": null,
-      "nextReviewAt": null,
-      "researchedPermitTypes": [],
-      "unresolvedQuestions": [],
+      "researchStatus": "partially-verified",
+      "researchStartedAt": "2026-10-24",
+      "researchCompletedAt": "2026-10-24",
+      "lastCheckedAt": "2026-10-24",
+      "nextReviewAt": "2027-01-01",
+      "researchedPermitTypes": [
+        "room-rental",
+        "dwelling-formation",
+        "purchase-protection"
+      ],
+      "unresolvedQuestions": [
+        "Opkoopbescherming: geen Zwolse regeling gevonden op zwolle.nl; verordening ter bevestiging nalopen.",
+        "Leges kamerverhuur/splitsen: legesverordening 2026 nalopen."
+      ],
       "conflicts": [],
-      "sourceCount": 0,
-      "notes": "Nog niet onderzocht; dit betekent niet dat regels ontbreken."
+      "sourceCount": 4,
+      "notes": "Handmatig bronnenonderzoek 2026-10-24 (manual-2026-10-24-studentensteden): opkoopbescherming, kamerverhuur/omzetting, splitsen/woningvorming, leges en aanvraagroute."
     }
   ]
 }

@@ -33,6 +33,16 @@ Gecontroleerd op 24 oktober 2026. Deze laag geldt in elke gemeente en wordt niet
 - De wet zelf wijzigt de regels voor opkoopbescherming, omzetting en splitsing niet direct.
 - Bron: https://rijksoverheid.nl/actueel/nieuws/2026/06/23/wet-versterking-regie-volkshuisvesting-van-kracht-vanaf-1-juli en https://vng.nl/nieuws/wet-versterking-regie-volkshuisvesting-per-1-juli-van-kracht
 
+## Voorgenomen wijziging opkoopbescherming (beleid, nog geen wet)
+
+Gecontroleerd op 10 november 2026.
+
+- Op 15 oktober 2026 heeft de minister aangekondigd dat de opkoopbescherming gericht wordt op **leefbaarheid in wijken**. Gemeenten moeten dan per wijk onderbouwen waarom het nodig is.
+- Voorstel: alleen woningen met een WOZ-waarde **tot het gemeentelijk gemiddelde**.
+- Aanleiding: de evaluatie van de regeling (ingevoerd in 2022, gebruikt door ongeveer 70 gemeenten). Die toont vooral waarde voor leefbaarheid, minder voor de kansen van starters.
+- Status: een wetsvoorstel gaat **eind 2026 in consultatie**. Er is nog geen ingangsdatum en geen overgangsrecht bekend. Bestaande gemeentelijke regelingen blijven tot die tijd gelden.
+- Bron: https://www.rijksoverheid.nl/actueel/nieuws/2026/10/15/opkoopbescherming-wordt-gericht-op-leefbaarheid-in-wijken
+
 ## Gevolg voor de database
 
 - Een gemeente zonder gemeentelijke regel is niet "vrij van regels": het landelijke kader, het omgevingsplan en de bouwregels blijven gelden.

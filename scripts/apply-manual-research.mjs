@@ -109,6 +109,19 @@ for (const { file, data } of batches) {
         srcById.set(sid, { id: sid, municipalityCode: m.code, regulationType: r.regulationType, url, authority, official: true, lastChecked: checked, liveStatus: "live", regulationStatus: "current", manualReviewRequired: false });
       }
     }
+    // hercontrole zonder inhoudelijke wijziging: alleen controledata bijwerken, record (incl. gebiedsdata) blijft intact
+    for (const rv of m.reverified || []) {
+      const rec = regById.get(rv.id);
+      if (!rec) throw new Error(`${file}: reverified onbekend record ${rv.id}`);
+      if (rec.municipalityCode !== m.code) throw new Error(`${file}: reverified ${rv.id} hoort niet bij ${m.code}`);
+      rec.lastVerificationDate = checked;
+      if (rec.temporal) rec.temporal.lastCheckedAt = checked;
+      for (const k of ["url", "source", "content", "currentness", "application", "documents"]) if (rec.verification?.[k]) rec.verification[k].checkedAt = checked;
+      if (rv.currentnessStatus && rec.verification?.currentness) rec.verification.currentness.status = rv.currentnessStatus;
+      for (const e of rec.evidence || []) if (rv.urlsChecked?.includes(e.url)) e.verifiedAt = checked;
+      if (rv.note) rec.notes = [rec.notes, `Hercontrole ${checked}: ${rv.note}`].filter(Boolean).join(" ");
+      replaced++;
+    }
     // onderzoeksstatus
     const st = statusByCode.get(m.code);
     if (st) {
@@ -116,9 +129,9 @@ for (const { file, data } of batches) {
       Object.assign(st, {
         researchStatus: (m.unresolved || []).length ? "partially-verified" : "verified",
         researchStartedAt: st.researchStartedAt || checked, researchCompletedAt: checked, lastCheckedAt: checked,
-        nextReviewAt: "2027-01-01", researchedPermitTypes: permitTypes, unresolvedQuestions: m.unresolved || [],
+        nextReviewAt: m.nextReviewAt || data.nextReviewAt || "2027-01-01", researchedPermitTypes: permitTypes, unresolvedQuestions: m.unresolved || [],
         sourceCount: [...srcById.values()].filter(s => s.municipalityCode === m.code).length,
-        notes: `Handmatig bronnenonderzoek ${checked} (${data.batch}): opkoopbescherming, kamerverhuur/omzetting, splitsen/woningvorming, leges en aanvraagroute.`
+        notes: m.statusNote || `Handmatig bronnenonderzoek ${checked} (${data.batch}): opkoopbescherming, kamerverhuur/omzetting, splitsen/woningvorming, leges en aanvraagroute.`
       });
     }
     touched.add(m.code);

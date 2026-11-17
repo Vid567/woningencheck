@@ -34,7 +34,7 @@ const knownResearchIds=new Set([...regulations.map(record=>record.id),...batch00
 for(const review of reviews)if(!municipalityCodes.has(review.municipalityCode)||(review.regulationId&&!knownResearchIds.has(review.regulationId)))fail(`${review.id}: review queue reference invalid`);
 for(const snapshot of snapshots){if(snapshot.httpStatus===403&&snapshot.automatedStatus!=="automated-check-blocked")fail(`${snapshot.id}: HTTP 403 incorrectly treated as broken`);if(snapshot.automatedStatus==="reachable"&&!snapshot.contentFingerprint)fail(`${snapshot.id}: reachable source lacks fingerprint`)}
 const pilotCodes=new Set(["GM0518","GM0114","GM0546","GM0599"]);
-if([...pilotCodes].some(code=>!research.some(item=>item.municipalityCode===code&&item.researchStatus==="partially-verified")))fail("one or more pilot municipality statuses changed");
+if([...pilotCodes].some(code=>!research.some(item=>item.municipalityCode===code&&["partially-verified","verified"].includes(item.researchStatus))))fail("one or more pilot municipality statuses regressed");
 const batchCodes=new Set(batch001.municipalities.map(item=>item.municipalityCode));
 if(batchCodes.size!==10)fail(`batch 001 must contain exactly ten municipalities, got ${batchCodes.size}`);
 if(batch001.municipalities.some(item=>!research.some(record=>record.municipalityCode===item.municipalityCode&&record.researchStatus!=="not-started")))fail("batch 001 status update incomplete");

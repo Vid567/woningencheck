@@ -122,6 +122,17 @@
       "legalBasis": [
         "Omgevingswet"
       ]
+    },
+    {
+      "canonicalType": "split-building-permit",
+      "defaultDutchName": "Omgevingsvergunning woning splitsen",
+      "aliases": [
+        "omgevingsvergunning splitsen",
+        "woningsplitsing via omgevingsplan"
+      ],
+      "legalBasis": [
+        "Omgevingswet"
+      ]
     }
   ]
 }

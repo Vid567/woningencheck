@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T09:44:03.474Z",
+  "generatedAt": "2026-11-17T14:48:57.537Z",
   "source": "RCE Monumentendatabank Extract_MRS",
   "officialLandingPage": "https://www.cultureelerfgoed.nl/onderwerpen/r/rijksmonumentenregister/monumentendatabank",
   "objectTable": "tblOBJECT.csv",
@@ -51,15 +51,15 @@
     "tblTEXT_COMPLEX.csv",
     "tblTEXT_OBJECT.csv"
   ],
-  "objectRows": 63269,
-  "total": 63269,
-  "classified": 36060,
-  "unclassified": 27209,
-  "withAddress": 63269,
-  "withMunicipality": 61684,
-  "relatedRows": 524777,
-  "joinedRows": 519408,
-  "unjoinedRows": 5369,
+  "objectRows": 63271,
+  "total": 63271,
+  "classified": 36065,
+  "unclassified": 27206,
+  "withAddress": 63271,
+  "withMunicipality": 63271,
+  "relatedRows": 526831,
+  "joinedRows": 521463,
+  "unjoinedRows": 5368,
   "tableStats": {
     "tblCOMPLEX.csv": {
       "rows": 2688,
@@ -72,23 +72,23 @@
       "unjoined": 0
     },
     "tblKADASTERINSCHRIJVING_OBJECT.csv": {
-      "rows": 63269,
-      "joined": 63269,
+      "rows": 63271,
+      "joined": 63271,
       "unjoined": 0
     },
     "tblOBJECTADRES.csv": {
-      "rows": 122432,
-      "joined": 122432,
+      "rows": 123410,
+      "joined": 123410,
       "unjoined": 0
     },
     "tblOBJECTAMBACHT.csv": {
-      "rows": 9436,
-      "joined": 9436,
+      "rows": 9434,
+      "joined": 9434,
       "unjoined": 0
     },
     "tblOBJECTBOUWACTIVITEIT.csv": {
-      "rows": 19379,
-      "joined": 19379,
+      "rows": 19376,
+      "joined": 19376,
       "unjoined": 0
     },
     "tblOBJECTBOUWTYPE.csv": {
@@ -97,56 +97,56 @@
       "unjoined": 0
     },
     "tblOBJECTFUNCTIE.csv": {
-      "rows": 65502,
-      "joined": 65502,
+      "rows": 65512,
+      "joined": 65512,
       "unjoined": 0
     },
     "tblOBJECTSTIJL.csv": {
-      "rows": 21832,
-      "joined": 21832,
+      "rows": 21830,
+      "joined": 21830,
       "unjoined": 0
     },
     "tblPERCEEL.csv": {
-      "rows": 139937,
-      "joined": 139937,
+      "rows": 141007,
+      "joined": 141007,
       "unjoined": 0
     },
     "tblTEXT_COMPLEX.csv": {
-      "rows": 2681,
+      "rows": 2680,
       "joined": 0,
-      "unjoined": 2681
+      "unjoined": 2680
     },
     "tblTEXT_OBJECT.csv": {
-      "rows": 67854,
-      "joined": 67854,
+      "rows": 67856,
+      "joined": 67856,
       "unjoined": 0
     }
   },
   "objectTypeCounts": {
-    "woonhuis": 15404,
-    "kerk": 4186,
+    "woonhuis": 15414,
+    "kerk": 4184,
     "kasteel": 1211,
-    "school": 1538,
+    "school": 1537,
     "theater": 75,
     "kapel": 1066,
     "museum": 277,
-    "horecapand": 511,
-    "synagoge": 92,
+    "horecapand": 510,
+    "synagoge": 91,
     "station": 240,
     "paleis": 123,
     "molen": 1425,
-    "winkelpand": 637,
+    "winkelpand": 636,
     "poort": 1416,
-    "boerderij": 6423,
+    "boerderij": 6421,
     "buitenplaats": 4073,
     "herenhuis": 1760,
-    "stadhuis": 557,
-    "ziekenhuis": 298,
+    "stadhuis": 556,
+    "ziekenhuis": 299,
     "klooster": 559,
     "vuurtoren": 42,
     "abdij": 70,
     "fort": 640,
-    "begraafplaats": 1769,
+    "begraafplaats": 1768,
     "brug": 1598,
     "landhuis": 1137,
     "gerechtsgebouw": 74,
@@ -154,9 +154,20 @@
     "bunker": 718,
     "watertoren": 186,
     "tempel": 77,
-    "gemaal": 217,
+    "gemaal": 216,
     "moskee": 5
   },
   "completeNationwideDump": true,
-  "importerMode": "streaming-object-id-join"
+  "importerMode": "streaming-object-id-join",
+  "withMunicipalityBeforeBackfill": 61686,
+  "municipalityBackfill": {
+    "method": "pdok_address_backfill",
+    "source": "https://api.pdok.nl/bzk/locatieserver/search/v3_1/free",
+    "attempted": 1585,
+    "resolved": 1585,
+    "unresolved": 0,
+    "concurrency": 8,
+    "retries": 3,
+    "timeoutMs": 12000
+  }
 }

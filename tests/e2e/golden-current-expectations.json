@@ -1,0 +1,290 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-17",
+  "approvedBy": "Mike",
+  "approvedAt": "2026-11-17",
+  "purpose": "Huidige verwachte uitkomst per gouden testgeval, bovenop de onveranderlijke casusdata in golden-46.spec.mjs. De test faalt zodra de site meer of minder beweert dan hier staat. targetOutcome is de oorspronkelijke doeluitkomst; zet outcome terug zodra de data dat onderbouwt.",
+  "categories": {
+    "B": "Datagat: geen regel voor dit doel",
+    "C": "Gebiedsregel of hercontrole: handmatige controle",
+    "D": "Geen vervolgvragen in de regel: voorwaardelijk i.p.v. geldt niet"
+  },
+  "cases": {
+    "04A": {
+      "category": "B",
+      "outcome": "none",
+      "reason": "Geen regel in de database voor deze gemeente en dit doel; de site geeft terecht geen conclusie.",
+      "targetOutcome": "conditional",
+      "patterns": [
+        "vakantieverhuur"
+      ],
+      "targetPatterns": [
+        "vakantieverhuur",
+        "15"
+      ]
+    },
+    "04B": {
+      "category": "B",
+      "outcome": "none",
+      "reason": "Geen regel in de database voor deze gemeente en dit doel; de site geeft terecht geen conclusie.",
+      "targetOutcome": "conditional",
+      "patterns": [
+        "vakantieverhuur"
+      ],
+      "targetPatterns": [
+        "vakantieverhuur",
+        "30"
+      ]
+    },
+    "13A": {
+      "category": "B",
+      "outcome": "none",
+      "reason": "Geen regel in de database voor deze gemeente en dit doel; de site geeft terecht geen conclusie.",
+      "targetOutcome": "conditional",
+      "patterns": [
+        "vakantieverhuur"
+      ],
+      "targetPatterns": [
+        "vakantieverhuur",
+        "30"
+      ]
+    },
+    "13B": {
+      "category": "B",
+      "outcome": "none",
+      "reason": "Geen regel in de database voor deze gemeente en dit doel; de site geeft terecht geen conclusie.",
+      "targetOutcome": "no",
+      "patterns": [
+        "vakantieverhuur"
+      ],
+      "targetPatterns": [
+        "vakantieverhuur",
+        "30"
+      ]
+    },
+    "13C": {
+      "category": "B",
+      "outcome": "none",
+      "reason": "Geen regel in de database voor deze gemeente en dit doel; de site geeft terecht geen conclusie.",
+      "targetOutcome": "no"
+    },
+    "17A": {
+      "category": "B",
+      "outcome": "none",
+      "reason": "Geen regel in de database voor deze gemeente en dit doel; de site geeft terecht geen conclusie.",
+      "targetOutcome": "no",
+      "patterns": [
+        "wonen|woning"
+      ],
+      "targetPatterns": [
+        "bedrijf|kantoor",
+        "wonen|woning"
+      ]
+    },
+    "18A": {
+      "category": "B",
+      "outcome": "none",
+      "reason": "Geen regel in de database voor deze gemeente en dit doel; de site geeft terecht geen conclusie.",
+      "targetOutcome": "conditional",
+      "patterns": [],
+      "targetPatterns": [
+        "monument|erfgoed",
+        "omgevingsvergunning"
+      ]
+    },
+    "19A": {
+      "category": "B",
+      "outcome": "none",
+      "reason": "Geen regel in de database voor deze gemeente en dit doel; de site geeft terecht geen conclusie.",
+      "targetOutcome": "no",
+      "patterns": [],
+      "targetPatterns": [
+        "wonen",
+        "kernwinkel|begane grond|omgevingsplan"
+      ]
+    },
+    "19B": {
+      "category": "B",
+      "outcome": "none",
+      "reason": "Geen regel in de database voor deze gemeente en dit doel; de site geeft terecht geen conclusie.",
+      "targetOutcome": "conditional",
+      "patterns": [],
+      "targetPatterns": [
+        "wonen",
+        "winkel"
+      ]
+    },
+    "21A": {
+      "category": "B",
+      "outcome": "none",
+      "reason": "Geen regel in de database voor deze gemeente en dit doel; de site geeft terecht geen conclusie.",
+      "targetOutcome": "no",
+      "patterns": [
+        "woning|wonen"
+      ],
+      "targetPatterns": [
+        "kantoor|niet-woon",
+        "woning|wonen"
+      ]
+    },
+    "23A": {
+      "category": "B",
+      "outcome": "none",
+      "reason": "Geen regel in de database voor deze gemeente en dit doel; de site geeft terecht geen conclusie.",
+      "targetOutcome": "conditional",
+      "patterns": [],
+      "targetPatterns": [
+        "opkoopbescherming"
+      ]
+    },
+    "23B": {
+      "category": "B",
+      "outcome": "none",
+      "reason": "Geen regel in de database voor deze gemeente en dit doel; de site geeft terecht geen conclusie.",
+      "targetOutcome": "no",
+      "patterns": [],
+      "targetPatterns": [
+        "opkoopbescherming"
+      ]
+    },
+    "24A": {
+      "category": "B",
+      "outcome": "none",
+      "reason": "Geen regel in de database voor deze gemeente en dit doel; de site geeft terecht geen conclusie.",
+      "targetOutcome": "precision",
+      "patterns": [],
+      "targetPatterns": [
+        "omgevingsplan|functie|gebruik"
+      ]
+    },
+    "25B": {
+      "category": "B",
+      "outcome": "none",
+      "reason": "Geen regel in de database voor deze gemeente en dit doel; de site geeft terecht geen conclusie.",
+      "targetOutcome": "conditional",
+      "patterns": [],
+      "targetPatterns": [
+        "leegstand|tijdelijke verhuur|tijdelijk"
+      ]
+    },
+    "01A": {
+      "category": "C",
+      "outcome": "review",
+      "reason": "Gebiedsregel nog niet per adres vastgelegd of regel staat op hercontrole; de site toont terecht handmatige controle.",
+      "targetOutcome": "conditional",
+      "patterns": [
+        "omzettingsvergunning",
+        "25%"
+      ],
+      "targetPatterns": [
+        "verhuurvergunning",
+        "omzettingsvergunning",
+        "25%"
+      ]
+    },
+    "01B": {
+      "category": "C",
+      "outcome": "review",
+      "reason": "Gebiedsregel nog niet per adres vastgelegd of regel staat op hercontrole; de site toont terecht handmatige controle.",
+      "targetOutcome": "no"
+    },
+    "05A": {
+      "category": "C",
+      "outcome": "review",
+      "reason": "Gebiedsregel nog niet per adres vastgelegd of regel staat op hercontrole; de site toont terecht handmatige controle.",
+      "targetOutcome": "conditional",
+      "patterns": [
+        "kamerverhuur"
+      ],
+      "targetPatterns": [
+        "kamerverhuur",
+        "student"
+      ]
+    },
+    "07A": {
+      "category": "C",
+      "outcome": "review",
+      "reason": "Gebiedsregel nog niet per adres vastgelegd of regel staat op hercontrole; de site toont terecht handmatige controle.",
+      "targetOutcome": "no"
+    },
+    "09A": {
+      "category": "C",
+      "outcome": "review",
+      "reason": "Gebiedsregel nog niet per adres vastgelegd of regel staat op hercontrole; de site toont terecht handmatige controle.",
+      "targetOutcome": "no"
+    },
+    "09B": {
+      "category": "C",
+      "outcome": "review",
+      "reason": "Gebiedsregel nog niet per adres vastgelegd of regel staat op hercontrole; de site toont terecht handmatige controle.",
+      "targetOutcome": "conditional"
+    },
+    "15A": {
+      "category": "C",
+      "outcome": "review",
+      "reason": "Gebiedsregel nog niet per adres vastgelegd of regel staat op hercontrole; de site toont terecht handmatige controle.",
+      "targetOutcome": "no"
+    },
+    "16A": {
+      "category": "C",
+      "outcome": "review",
+      "reason": "Gebiedsregel nog niet per adres vastgelegd of regel staat op hercontrole; de site toont terecht handmatige controle.",
+      "targetOutcome": "no"
+    },
+    "16B": {
+      "category": "C",
+      "outcome": "review",
+      "reason": "Gebiedsregel nog niet per adres vastgelegd of regel staat op hercontrole; de site toont terecht handmatige controle.",
+      "targetOutcome": "conditional"
+    },
+    "22A": {
+      "category": "C",
+      "outcome": "review",
+      "reason": "Gebiedsregel nog niet per adres vastgelegd of regel staat op hercontrole; de site toont terecht handmatige controle.",
+      "targetOutcome": "conditional",
+      "patterns": [
+        "omzettingsvergunning"
+      ],
+      "targetPatterns": [
+        "omzettingsvergunning",
+        "470.000|woz"
+      ]
+    },
+    "02B": {
+      "category": "D",
+      "outcome": "conditional",
+      "reason": "Regel heeft nog geen gestructureerde vervolgvragen (bijv. WOZ-waarde, aantal personen); de site kan alleen \"regel geldt, voorwaarden bepalen\" tonen.",
+      "targetOutcome": "no"
+    },
+    "10B": {
+      "category": "D",
+      "outcome": "conditional",
+      "reason": "Regel heeft nog geen gestructureerde vervolgvragen (bijv. WOZ-waarde, aantal personen); de site kan alleen \"regel geldt, voorwaarden bepalen\" tonen.",
+      "targetOutcome": "no"
+    },
+    "11A": {
+      "category": "D",
+      "outcome": "conditional",
+      "reason": "Regel heeft nog geen gestructureerde vervolgvragen (bijv. WOZ-waarde, aantal personen); de site kan alleen \"regel geldt, voorwaarden bepalen\" tonen.",
+      "targetOutcome": "no"
+    },
+    "11B": {
+      "category": "D",
+      "outcome": "conditional",
+      "reason": "Regel heeft nog geen gestructureerde vervolgvragen (bijv. WOZ-waarde, aantal personen); de site kan alleen \"regel geldt, voorwaarden bepalen\" tonen.",
+      "targetOutcome": "no"
+    },
+    "21B": {
+      "category": "D",
+      "outcome": "conditional",
+      "reason": "Regel heeft nog geen gestructureerde vervolgvragen (bijv. WOZ-waarde, aantal personen); de site kan alleen \"regel geldt, voorwaarden bepalen\" tonen.",
+      "targetOutcome": "no"
+    },
+    "21C": {
+      "category": "D",
+      "outcome": "conditional",
+      "reason": "Regel heeft nog geen gestructureerde vervolgvragen (bijv. WOZ-waarde, aantal personen); de site kan alleen \"regel geldt, voorwaarden bepalen\" tonen.",
+      "targetOutcome": "no"
+    }
+  }
+}

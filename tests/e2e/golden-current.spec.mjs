@@ -6,17 +6,23 @@ import fs from 'node:fs';
 const legacySource=fs.readFileSync(new URL('./golden-46.spec.mjs',import.meta.url),'utf8');
 const match=legacySource.match(/const CASES=(\[[\s\S]*?\n\]);/);
 if(!match)throw new Error('Golden CASES matrix could not be read');
-const CASES=JSON.parse(match[1]);
+const BASE_CASES=JSON.parse(match[1]);
+// Huidige verwachtingen (goedgekeurd door Mike, 17-11-2026) bovenop de onveranderlijke casusdata.
+const EXPECT=JSON.parse(fs.readFileSync(new URL('./golden-current-expectations.json',import.meta.url),'utf8')).cases;
+const CASES=BASE_CASES.map(c=>EXPECT[c.id]?{...c,...EXPECT[c.id]}:c);
 
 const GOAL_LABELS={rent:'Gehele woning verhuren',rooms:'Kamers verhuren / woning delen',split:'Woning splitsen',holiday:'Vakantieverhuur / Airbnb',tohome:'Pand naar woning veranderen',renovate:'Verbouwen'};
 function pdokDoc(c){return {postcode:c.postcode,huisnummer:c.number,huisnummertoevoeging:c.addition||undefined,straatnaam:c.street,weergavenaam:c.address,gemeentecode:c.code,gemeentenaam:c.municipality,buurtcode:c.neighborhood?`TEST-${c.code}-${c.neighborhood}`:undefined,buurtnaam:c.neighborhood||undefined,wijkcode:undefined,wijknaam:c.neighborhood||undefined,adresseerbaarobject_id:c.bagId,centroide_ll:'POINT(5.0000 52.0000)',gebruiksdoel:c.bagUses};}
 async function mockPdok(page,c){await page.route('https://api.pdok.nl/**',route=>route.fulfill({status:200,contentType:'application/json',body:JSON.stringify({response:{numFound:1,docs:[pdokDoc(c)]}})}));}
-async function openCase(page,c){await mockPdok(page,c);await page.goto('/adrescheck.html');await page.locator('#postcode').fill(c.postcode);await page.locator('#number').fill(String(c.number));if(c.addition)await page.locator('#addition').fill(c.addition);await page.getByRole('button',{name:'Controleer adres'}).click();await expect(page.locator('#address')).toContainText(c.municipality);for(const use of c.bagUses)await expect(page.locator('body')).toContainText(new RegExp(use,'i'));const label=GOAL_LABELS[c.goal];await page.getByRole('button',{name:new RegExp(label.replace('/','\\/'),'i')}).click();}
+async function openCase(page,c){await mockPdok(page,c);await page.goto('/adrescheck.html');await page.locator('#postcode').fill(c.postcode);await page.locator('#number').fill(String(c.number));if(c.addition)await page.locator('#addition').fill(c.addition);await page.getByRole('button',{name:'Bekijk adres'}).click();await expect(page.locator('#address')).toContainText(c.municipality);for(const use of c.bagUses)await expect(page.locator('body')).toContainText(new RegExp(use,'i'));const label=GOAL_LABELS[c.goal];await page.getByRole('button',{name:new RegExp(label.replace('/','\\/'),'i')}).click();}
 async function answerVisibleQuestions(page,c){let i=0;for(let guard=0;guard<12;guard++){const selects=page.locator('.guided-questions select:visible');if(!await selects.count())break;const value=c.answers[Math.min(i,c.answers.length-1)]||'yes';await selects.first().selectOption(value);i++;await page.waitForTimeout(20);}}
 function regex(s){return new RegExp(s,'i')}
 
 // Every established municipality/path is rerun. This intentionally covers all goals
 // represented by the matrix, not only kamerverhuur and vakantieverhuur.
+// Analytics niet laden in tests: deterministisch en geen testverkeer in Google Analytics.
+test.beforeEach(async({page})=>{await page.route('https://www.googletagmanager.com/**',route=>route.fulfill({status:200,contentType:'application/javascript',body:''}))});
+
 test.describe('Current E2E — complete golden matrix',()=>{
  for(const c of CASES){
   test(`${c.id} · ${c.municipality} · ${c.goal}`,async({page})=>{
@@ -25,6 +31,12 @@ test.describe('Current E2E — complete golden matrix',()=>{
    const results=page.locator('.guided-results');const pageText=page.locator('#rules');
    if(c.outcome==='none'){
     await expect(pageText).toContainText(/Nog geen automatische conclusie|geen complete machineleesbare beslisroute|officiële route|beschikbare informatie/i);
+    await expect(results).toHaveCount(0);
+   }else if(c.outcome==='review'){
+    await expect(results).toBeVisible();
+    for(const p of c.patterns)await expect(pageText).toContainText(regex(p));
+    await expect(results.locator('.outcome-review').first()).toBeVisible();
+    await expect(results.locator('.outcome-no, .outcome-conditional')).toHaveCount(0);
    }else if(c.outcome==='precision'){
     for(const p of c.patterns)await expect(pageText).toContainText(regex(p));
     await expect(pageText).not.toContainText(/verhuurvergunning.*opkoop|kamerverhuurvergunning/i);

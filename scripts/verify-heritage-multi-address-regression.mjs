@@ -90,9 +90,14 @@ for (const [municipalityCode, record] of municipalitySample) {
     legalTriggerPositive++;
   }
 
-  const falseAddress = `${address} __geen_monument_match__`;
+  // Near-miss negative control: same street, postcode and city, but a house number
+  // that does not belong to this object. Appending text after the city is not a
+  // different address (the resolver correctly reads street + number + postcode).
+  const falseAddress = String(address).replace(/^(.*?\S)\s+(\d+)/, (_, street, number) => `${street} ${Number(number) + 9000}`);
   const negativeResult = resolveHeritageForAddress({ displayName: falseAddress, municipalityCode }, [record]);
-  if (negativeResult.matches !== 0 || negativeResult.protectedObject) {
+  if (falseAddress === String(address)) {
+    errors.push(`${record.monumentNumber}: could not build near-miss address from ${address}`);
+  } else if (negativeResult.matches !== 0 || negativeResult.protectedObject) {
     errors.push(`${record.monumentNumber}: mutated address produced false positive`);
   } else {
     resolverNegative++;

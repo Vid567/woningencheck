@@ -127,7 +127,7 @@ for await (const line of lines) {
       afterRecords = true;
       continue;
     }
-    const raw = line.trim().replace(/^,/, '');
+    const raw = line.trim().replace(/^,/, '').replace(/,$/, '');
     if (!raw) continue;
     batch.push(JSON.parse(raw));
     if (batch.length >= concurrency) await flushBatch();

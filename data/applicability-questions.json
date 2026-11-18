@@ -4,9 +4,9 @@
  "purpose": "Gestructureerde vervolgvragen per regel (verbeterpunt D). Een regel krijgt alleen vragen die bepalen of de vergunningplicht geldt; voorwaarden voor het verlenen staan in de regeltekst.",
  "createdAt": "2026-11-18",
  "publicationDecision": {
-  "publicationAllowed": false,
-  "approvedBy": null,
-  "approvedAt": null
+  "publicationAllowed": true,
+  "approvedBy": "Mike",
+  "approvedAt": "2026-11-18"
  },
  "records": {
   "amersfoort-opkoop-2026": {

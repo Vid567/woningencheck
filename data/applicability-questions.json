@@ -998,7 +998,7 @@
    ]
   },
   "maastricht-opkoop-2026": {
-   "version": "1.0.0",
+   "version": "1.1.0",
    "conclusiveWhenMatched": true,
    "matchMessage": "Op basis van uw antwoorden valt deze woning onder de opkoopbescherming: in de eerste vier jaar na levering mag u haar alleen verhuren met een verhuurvergunning van de gemeente. Die vergunning is er alleen in de uitzonderingsgevallen die hieronder staan, zoals verhuur aan familie of tijdelijke verhuur nadat u er eerst zelf woonde.",
    "geographicNoMatchMessage": null,
@@ -1012,7 +1012,7 @@
      "operator": "equals",
      "value": "GM0935",
      "evidenceSection": "Werkingsgebied van de regeling",
-     "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR681753"
+     "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR767187/1"
     },
     {
      "id": "intends-rental",
@@ -1034,11 +1034,11 @@
      "source": "user-input",
      "operator": "equals",
      "value": "yes",
-     "question": "Kocht u de woning na 30 september 2022 en is de levering minder dan vier jaar geleden, of moet u de woning nog kopen?",
+     "question": "Kocht u de woning na 1 oktober 2022 en is de levering minder dan vier jaar geleden, of moet u de woning nog kopen?",
      "answerType": "yes-no",
      "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-10-24",
      "evidenceUrl": "https://www.gemeentemaastricht.nl/verhuurvergunning-woning-met-opkoopbescherming",
-     "noMatchMessage": "De opkoopbescherming geldt alleen voor woningen die na 30 september 2022 zijn geleverd, en alleen in de eerste vier jaar na levering."
+     "noMatchMessage": "De opkoopbescherming in Maastricht geldt alleen voor woningen geleverd na 1 oktober 2022, en alleen in de eerste vier jaar na levering."
     },
     {
      "id": "woz-within-limit",
@@ -2349,9 +2349,9 @@
    ]
   },
   "nijmegen-omzetting-2026": {
-   "version": "1.0.0",
+   "version": "1.1.0",
    "conclusiveWhenMatched": false,
-   "matchMessage": "Op basis van uw antwoorden heeft u voor deze kamerverhuur een vergunning nodig. Bij een WOZ-waarde tot en met € 396.000 zijn een omzettingsvergunning en een omgevingsvergunning nodig. Tot en met € 278.000 wordt de omzettingsvergunning geweigerd. Let op: de geldende versie van de verordening wordt hercontroleerd, omdat de opvolger van de versie tot 31 oktober 2026 nog niet is gepubliceerd.",
+   "matchMessage": "Op basis van uw antwoorden gelden in Nijmegen deze regels: bij een WOZ-waarde tot en met € 335.000 is verhuur van 3 of meer kamers niet toegestaan en kunt u geen vergunning krijgen; daarboven meldt u 3 kamers binnen vier weken via het Omgevingsloket (informatieplicht) en heeft u bij 4 of meer kamers een omgevingsvergunning nodig (bij 5 of meer ook een melding brandveilig gebruik). Let op: de gewijzigde verordening is nog niet gepubliceerd; de gemeente past deze regels al toe.",
    "geographicNoMatchMessage": null,
    "conditions": [
     {
@@ -2372,25 +2372,11 @@
      "source": "user-input",
      "operator": "equals",
      "value": "yes",
-     "question": "Verhuurt u aan drie of meer personen die geen huishouden vormen, of drie of meer kamers?",
+     "question": "Wilt u 3 of meer kamers verhuren aan personen die samen geen huishouden vormen?",
      "answerType": "yes-no",
-     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-10",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
      "evidenceUrl": "https://www.nijmegen.nl/diensten/wonen/kamers-verhuren/",
-     "noMatchMessage": "Bij verhuur aan maximaal twee personen, of als hospita met maximaal twee kamers, is in Nijmegen geen omzettingsvergunning nodig."
-    },
-    {
-     "id": "woz-above-upper-limit",
-     "category": "property",
-     "conditionType": "woz-value",
-     "source": "user-input",
-     "operator": "equals",
-     "value": "no",
-     "question": "Is de WOZ-waarde van de woning hoger dan € 396.000?",
-     "answerType": "yes-no-unknown",
-     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-10",
-     "evidenceUrl": "https://www.nijmegen.nl/diensten/wonen/kamers-verhuren/",
-     "noMatchMessage": "Boven € 396.000 is in Nijmegen geen omzettingsvergunning nodig, alleen een omgevingsvergunning. Tussen € 278.000 en € 396.000 is die wel nodig; tot en met € 278.000 wordt hij geweigerd.",
-     "uncertainMessage": "of de WOZ-waarde boven € 396.000 ligt."
+     "noMatchMessage": "Verhuur aan maximaal 2 personen mag in Nijmegen zonder vergunning of melding. Voor hospitaverhuur gelden eigen regels."
     }
    ]
   },
@@ -4000,6 +3986,663 @@
      "uncertainMessage": "of er sociale huur- of middenhuurwoningen in het gebouw zitten."
     }
    ]
+  },
+  "hilversum-opkoop-2026": {
+   "version": "1.0.0",
+   "conclusiveWhenMatched": false,
+   "matchMessage": "Op basis van uw antwoorden valt deze woning onder de opkoopbescherming: in de eerste vier jaar na levering mag u haar alleen verhuren met een verhuurvergunning van de gemeente. Die vergunning is er alleen in de uitzonderingsgevallen die hieronder staan, zoals verhuur aan familie of tijdelijke verhuur nadat u er eerst zelf woonde. Let op: de regel geldt alleen in de wijken Centrum, Oost en Zuid; die wijkgrenzen koppelen we nog aan het adres. De verordening noemt € 450.000 (NHG 2025), de gemeentepagina € 470.000 (NHG 2026).",
+   "geographicNoMatchMessage": null,
+   "conditions": [
+    {
+     "id": "municipality",
+     "category": "geographic",
+     "conditionType": "municipality",
+     "source": "official-data",
+     "fact": "municipality.code",
+     "operator": "equals",
+     "value": "GM0402",
+     "evidenceSection": "Werkingsgebied van de regeling",
+     "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR743388/1"
+    },
+    {
+     "id": "intends-rental",
+     "category": "situation",
+     "conditionType": "intended-rental",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "yes",
+     "question": "Wilt u de woning verhuren in plaats van er zelf te wonen?",
+     "answerType": "yes-no",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://hilversum.nl/wonen/opkoopbescherming",
+     "noMatchMessage": "De opkoopbescherming gaat alleen over verhuren. Woont u er zelf, dan heeft u hiervoor geen vergunning nodig."
+    },
+    {
+     "id": "acquired-within-period",
+     "category": "situation",
+     "conditionType": "acquisition-date",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "yes",
+     "question": "Kocht u de woning op of na 14 augustus 2025 en is de levering minder dan vier jaar geleden, of moet u de woning nog kopen?",
+     "answerType": "yes-no",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://hilversum.nl/wonen/opkoopbescherming",
+     "noMatchMessage": "De opkoopbescherming in Hilversum geldt alleen voor woningen gekocht op of na 14 augustus 2025, en alleen in de eerste vier jaar."
+    },
+    {
+     "id": "woz-within-limit",
+     "category": "property",
+     "conditionType": "woz-value",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "yes",
+     "question": "Is de WOZ-waarde van de woning € 450.000 of lager (NHG-grens 2025 uit de verordening)?",
+     "answerType": "yes-no-unknown",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://hilversum.nl/wonen/opkoopbescherming",
+     "noMatchMessage": "Boven de NHG-grens geldt de opkoopbescherming in Hilversum niet.",
+     "onNoMatch": "uncertain",
+     "uncertainMessage": "of de WOZ-waarde onder de grens ligt: de verordening noemt € 450.000, de gemeentepagina € 470.000."
+    },
+    {
+     "id": "not-rented-at-acquisition",
+     "category": "situation",
+     "conditionType": "rental-at-acquisition",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "no",
+     "question": "Was de woning op het moment dat u haar kocht al langer dan zes maanden verhuurd (en bleef de huurder zitten)?",
+     "answerType": "yes-no-unknown",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://hilversum.nl/wonen/opkoopbescherming",
+     "noMatchMessage": "Een woning die bij de aankoop al langer dan zes maanden verhuurd was, valt niet onder de opkoopbescherming.",
+     "uncertainMessage": "of de woning bij de aankoop al langer dan zes maanden verhuurd was. Dat staat in het koopcontract."
+    }
+   ]
+  },
+  "heerlen-opkoop-2026": {
+   "version": "1.0.0",
+   "conclusiveWhenMatched": false,
+   "matchMessage": "Op basis van uw antwoorden valt deze woning onder de opkoopbescherming: in de eerste vier jaar na levering mag u haar alleen verhuren met een verhuurvergunning van de gemeente. Die vergunning is er alleen in de uitzonderingsgevallen die hieronder staan, zoals verhuur aan familie of tijdelijke verhuur nadat u er eerst zelf woonde. Let op: de regel geldt alleen in 16 aangewezen wijken; die wijkgrenzen koppelen we nog aan het adres.",
+   "geographicNoMatchMessage": null,
+   "conditions": [
+    {
+     "id": "municipality",
+     "category": "geographic",
+     "conditionType": "municipality",
+     "source": "official-data",
+     "fact": "municipality.code",
+     "operator": "equals",
+     "value": "GM0917",
+     "evidenceSection": "Werkingsgebied van de regeling",
+     "evidenceUrl": "https://heerlen.bestuurlijkeinformatie.nl/Document/View/809a07bd-dffd-4074-b0ab-cd0b4bb48de3"
+    },
+    {
+     "id": "intends-rental",
+     "category": "situation",
+     "conditionType": "intended-rental",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "yes",
+     "question": "Wilt u de woning verhuren in plaats van er zelf te wonen?",
+     "answerType": "yes-no",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://www.heerlen.nl/woning-kopen-en-meteen-verhuren",
+     "noMatchMessage": "De opkoopbescherming gaat alleen over verhuren. Woont u er zelf, dan heeft u hiervoor geen vergunning nodig."
+    },
+    {
+     "id": "acquired-within-period",
+     "category": "situation",
+     "conditionType": "acquisition-date",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "yes",
+     "question": "Is de woning minder dan vier jaar geleden aan u geleverd, of moet u de woning nog kopen?",
+     "answerType": "yes-no",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://www.heerlen.nl/woning-kopen-en-meteen-verhuren",
+     "noMatchMessage": "De opkoopbescherming geldt alleen in de eerste vier jaar na de levering van de woning."
+    },
+    {
+     "id": "woz-within-limit",
+     "category": "property",
+     "conditionType": "woz-value",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "yes",
+     "question": "Was de WOZ-waarde bij de levering € 300.000 of lager?",
+     "answerType": "yes-no-unknown",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://www.heerlen.nl/woning-kopen-en-meteen-verhuren",
+     "noMatchMessage": "Boven € 300.000 geldt de opkoopbescherming in Heerlen niet.",
+     "uncertainMessage": "of de WOZ-waarde onder € 300.000 ligt."
+    },
+    {
+     "id": "not-rented-at-acquisition",
+     "category": "situation",
+     "conditionType": "rental-at-acquisition",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "no",
+     "question": "Was de woning op het moment dat u haar kocht al langer dan zes maanden verhuurd (en bleef de huurder zitten)?",
+     "answerType": "yes-no-unknown",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://www.heerlen.nl/woning-kopen-en-meteen-verhuren",
+     "noMatchMessage": "Een woning die bij de aankoop al langer dan zes maanden verhuurd was, valt niet onder de opkoopbescherming.",
+     "uncertainMessage": "of de woning bij de aankoop al langer dan zes maanden verhuurd was. Dat staat in het koopcontract."
+    }
+   ]
+  },
+  "hengelo-o-opkoop-2026": {
+   "version": "1.0.0",
+   "conclusiveWhenMatched": false,
+   "matchMessage": "Op basis van uw antwoorden valt deze woning onder de opkoopbescherming: in de eerste drie jaar na levering mag u haar alleen verhuren met een verhuurvergunning van de gemeente. Die vergunning is er alleen in de uitzonderingsgevallen die hieronder staan, zoals verhuur aan familie of tijdelijke verhuur nadat u er eerst zelf woonde. Let op: de regel geldt alleen in Groot Driene, Woolde en delen van de binnenstad, en de verordening vervalt op 1 januari 2027.",
+   "geographicNoMatchMessage": null,
+   "conditions": [
+    {
+     "id": "municipality",
+     "category": "geographic",
+     "conditionType": "municipality",
+     "source": "official-data",
+     "fact": "municipality.code",
+     "operator": "equals",
+     "value": "GM0164",
+     "evidenceSection": "Werkingsgebied van de regeling",
+     "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR690700/3"
+    },
+    {
+     "id": "intends-rental",
+     "category": "situation",
+     "conditionType": "intended-rental",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "yes",
+     "question": "Wilt u de woning verhuren in plaats van er zelf te wonen?",
+     "answerType": "yes-no",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://www.hengelo.nl/Welkom-in-Hengelo/GPDC-Producten-catalogus-1/_Burger-en-Bedrijven/Koopwoning-verhuren.html",
+     "noMatchMessage": "De opkoopbescherming gaat alleen over verhuren. Woont u er zelf, dan heeft u hiervoor geen vergunning nodig."
+    },
+    {
+     "id": "acquired-within-period",
+     "category": "situation",
+     "conditionType": "acquisition-date",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "yes",
+     "question": "Kocht u de woning na 1 januari 2023 en is de levering minder dan drie jaar geleden, of moet u de woning nog kopen?",
+     "answerType": "yes-no",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://www.hengelo.nl/Welkom-in-Hengelo/GPDC-Producten-catalogus-1/_Burger-en-Bedrijven/Koopwoning-verhuren.html",
+     "noMatchMessage": "De opkoopbescherming in Hengelo geldt alleen voor woningen gekocht na 1 januari 2023, en alleen in de eerste drie jaar."
+    },
+    {
+     "id": "woz-within-limit",
+     "category": "property",
+     "conditionType": "woz-value",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "yes",
+     "question": "Is de WOZ-waarde van de woning € 470.000 of lager (NHG-grens 2026)?",
+     "answerType": "yes-no-unknown",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://www.hengelo.nl/Welkom-in-Hengelo/GPDC-Producten-catalogus-1/_Burger-en-Bedrijven/Koopwoning-verhuren.html",
+     "noMatchMessage": "Boven de NHG-grens geldt de opkoopbescherming in Hengelo niet.",
+     "uncertainMessage": "of de WOZ-waarde onder de NHG-grens ligt."
+    }
+   ]
+  },
+  "hengelo-o-splitsing-2026": {
+   "version": "1.0.0",
+   "conclusiveWhenMatched": false,
+   "matchMessage": "Op basis van uw antwoorden heeft u een splitsingsvergunning nodig. Let op: de verordening vervalt op 1 januari 2027.",
+   "geographicNoMatchMessage": null,
+   "conditions": [
+    {
+     "id": "municipality",
+     "category": "geographic",
+     "conditionType": "municipality",
+     "source": "official-data",
+     "fact": "municipality.code",
+     "operator": "equals",
+     "value": "GM0164",
+     "evidenceSection": "Werkingsgebied van de regeling",
+     "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR690700/3"
+    },
+    {
+     "id": "cadastral-split-intent",
+     "category": "situation",
+     "conditionType": "split-intent",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "yes",
+     "question": "Wilt u het gebouw splitsen in appartementsrechten (kadastraal splitsen), bijvoorbeeld om de woningen los te verkopen?",
+     "answerType": "yes-no",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR690700/3",
+     "noMatchMessage": "De splitsingsvergunning gaat alleen over splitsen in appartementsrechten."
+    },
+    {
+     "id": "affordable-rent-in-building",
+     "category": "property",
+     "conditionType": "rent-level",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "yes",
+     "question": "Is het gebouw van een woningcorporatie of particuliere verhuurder en wordt (of werd laatst) een woning daarin verhuurd tot de huurprijsgrens?",
+     "answerType": "yes-no-unknown",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR690700/3",
+     "noMatchMessage": "Zonder huurwoningen tot de huurprijsgrens is in Hengelo geen splitsingsvergunning nodig.",
+     "uncertainMessage": "of er woningen tot de huurprijsgrens in het gebouw worden verhuurd."
+    }
+   ]
+  },
+  "hilversum-kamerverhuur-2026": {
+   "version": "1.0.0",
+   "conclusiveWhenMatched": true,
+   "matchMessage": "Op basis van uw antwoorden heeft u voor deze kamerverhuur een vergunning nodig. Verkameren is in heel Hilversum in principe verboden; alleen met een omgevingsvergunning onder strenge voorwaarden kan het, en in de gebieden op de kaart van de beleidsregels niet.",
+   "geographicNoMatchMessage": null,
+   "conditions": [
+    {
+     "id": "municipality",
+     "category": "geographic",
+     "conditionType": "municipality",
+     "source": "official-data",
+     "fact": "municipality.code",
+     "operator": "equals",
+     "value": "GM0402",
+     "evidenceSection": "Werkingsgebied van de regeling",
+     "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR716969/1"
+    },
+    {
+     "id": "room-rental-intent",
+     "category": "situation",
+     "conditionType": "occupancy-intent",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "yes",
+     "question": "Wilt u de woning (gedeeltelijk) per kamer verhuren aan mensen die samen geen huishouden vormen?",
+     "answerType": "yes-no",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://hilversum.nl/wonen/splitsing-gebouw-woning-enof-verhuur-kamers",
+     "noMatchMessage": "Verhuurt u de woning aan één huishouden, dan is dit geen kamerverhuur en geldt deze vergunning niet."
+    },
+    {
+     "id": "not-hospita",
+     "category": "situation",
+     "conditionType": "hospita-exemption",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "no",
+     "question": "Woont u er zelf als hoofdbewoner en verhuurt u maximaal 25% van het woonoppervlak?",
+     "answerType": "yes-no",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://hilversum.nl/wonen/splitsing-gebouw-woning-enof-verhuur-kamers",
+     "noMatchMessage": "Als hoofdbewoner mag u in Hilversum tot 25% van het woonoppervlak verhuren zonder omgevingsvergunning."
+    }
+   ]
+  },
+  "heerlen-kamerverhuur-2026": {
+   "version": "1.0.0",
+   "conclusiveWhenMatched": true,
+   "matchMessage": "Op basis van uw antwoorden heeft u voor deze kamerverhuur een vergunning nodig. Kamerverhuur toevoegen is in Heerlen verboden in het bestemmingsplan 'Woningsplitsing en kamerbewoning'; alleen met een omgevingsvergunning volgens de beleidsregels kan het.",
+   "geographicNoMatchMessage": null,
+   "conditions": [
+    {
+     "id": "municipality",
+     "category": "geographic",
+     "conditionType": "municipality",
+     "source": "official-data",
+     "fact": "municipality.code",
+     "operator": "equals",
+     "value": "GM0917",
+     "evidenceSection": "Werkingsgebied van de regeling",
+     "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR709246"
+    },
+    {
+     "id": "room-rental-intent",
+     "category": "situation",
+     "conditionType": "occupancy-intent",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "yes",
+     "question": "Wilt u de woning (gedeeltelijk) per kamer verhuren aan mensen die samen geen huishouden vormen?",
+     "answerType": "yes-no",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR709246",
+     "noMatchMessage": "Verhuurt u de woning aan één huishouden, dan is dit geen kamerverhuur en geldt deze vergunning niet."
+    }
+   ]
+  },
+  "sittard-geleen-kamerverhuur-2026": {
+   "version": "1.0.0",
+   "conclusiveWhenMatched": true,
+   "matchMessage": "Op basis van uw antwoorden heeft u voor deze kamerverhuur een vergunning nodig. Elke kamer minimaal 18 m², en minimaal 50 meter (centrum) of 100 meter (daarbuiten) tot een ander pand met kamerverhuur. Voor arbeidsmigranten is daarnaast een verhuurvergunning nodig.",
+   "geographicNoMatchMessage": null,
+   "conditions": [
+    {
+     "id": "municipality",
+     "category": "geographic",
+     "conditionType": "municipality",
+     "source": "official-data",
+     "fact": "municipality.code",
+     "operator": "equals",
+     "value": "GM1883",
+     "evidenceSection": "Werkingsgebied van de regeling",
+     "evidenceUrl": "https://zoek.officielebekendmakingen.nl/gmb-2024-516358.pdf"
+    },
+    {
+     "id": "room-rental-intent",
+     "category": "situation",
+     "conditionType": "occupancy-intent",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "yes",
+     "question": "Wilt u de woning (gedeeltelijk) per kamer verhuren aan mensen die samen geen huishouden vormen?",
+     "answerType": "yes-no",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://omgevingsplein.sittard-geleen.nl/wonen-woningen/woningomzetting-kamerverhuur/",
+     "noMatchMessage": "Verhuurt u de woning aan één huishouden, dan is dit geen kamerverhuur en geldt deze vergunning niet."
+    }
+   ]
+  },
+  "nissewaard-kamerverhuur-2026": {
+   "version": "1.0.0",
+   "conclusiveWhenMatched": false,
+   "matchMessage": "Op basis van uw antwoorden heeft u voor deze kamerverhuur een vergunning nodig. Let op: de gemeente bereidt een strengere wijziging van het omgevingsplan voor; de huidige voorwaarden controleren we nog.",
+   "geographicNoMatchMessage": null,
+   "conditions": [
+    {
+     "id": "municipality",
+     "category": "geographic",
+     "conditionType": "municipality",
+     "source": "official-data",
+     "fact": "municipality.code",
+     "operator": "equals",
+     "value": "GM1930",
+     "evidenceSection": "Werkingsgebied van de regeling",
+     "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR485142"
+    },
+    {
+     "id": "room-rental-intent",
+     "category": "situation",
+     "conditionType": "occupancy-intent",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "yes",
+     "question": "Wilt u de woning (gedeeltelijk) per kamer verhuren aan mensen die samen geen huishouden vormen?",
+     "answerType": "yes-no",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://www.nissewaard.nl/wonen-en-leefomgeving/omgevingswet/participatie-en-adviesrecht",
+     "noMatchMessage": "Verhuurt u de woning aan één huishouden, dan is dit geen kamerverhuur en geldt deze vergunning niet."
+    }
+   ]
+  },
+  "land-van-cuijk-kamerverhuur-2026": {
+   "version": "1.0.0",
+   "conclusiveWhenMatched": true,
+   "matchMessage": "Op basis van uw antwoorden heeft u voor deze kamerverhuur een vergunning nodig. Land van Cuijk staat alleen hospitaverhuur toe: u woont er zelf, gebruikt minstens de helft van de woning en verhuurt maximaal 2 kamers van minstens 10 m² aan maximaal 2 personen. Grootschalige kamerverhuur is niet toegestaan.",
+   "geographicNoMatchMessage": null,
+   "conditions": [
+    {
+     "id": "municipality",
+     "category": "geographic",
+     "conditionType": "municipality",
+     "source": "official-data",
+     "fact": "municipality.code",
+     "operator": "equals",
+     "value": "GM1982",
+     "evidenceSection": "Werkingsgebied van de regeling",
+     "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR762944"
+    },
+    {
+     "id": "room-rental-intent",
+     "category": "situation",
+     "conditionType": "occupancy-intent",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "yes",
+     "question": "Wilt u de woning (gedeeltelijk) per kamer verhuren aan mensen die samen geen huishouden vormen?",
+     "answerType": "yes-no",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://www.gemeentelandvancuijk.nl/kamerverhuur",
+     "noMatchMessage": "Verhuurt u de woning aan één huishouden, dan is dit geen kamerverhuur en geldt deze vergunning niet."
+    }
+   ]
+  },
+  "hilversum-splitsen-2026": {
+   "version": "1.0.0",
+   "conclusiveWhenMatched": true,
+   "matchMessage": "Op basis van uw antwoorden heeft u hiervoor een vergunning nodig. Woningsplitsing is in Hilversum zonder omgevingsvergunning niet toegestaan; in een aantal gebieden is de kans op een vergunning klein.",
+   "geographicNoMatchMessage": null,
+   "conditions": [
+    {
+     "id": "municipality",
+     "category": "geographic",
+     "conditionType": "municipality",
+     "source": "official-data",
+     "fact": "municipality.code",
+     "operator": "equals",
+     "value": "GM0402",
+     "evidenceSection": "Werkingsgebied van de regeling",
+     "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR716969/1"
+    },
+    {
+     "id": "split-intent",
+     "category": "situation",
+     "conditionType": "split-intent",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "yes",
+     "question": "Wilt u de woning verbouwen tot twee of meer zelfstandige woningen (elk met een eigen voordeur, keuken, toilet en douche)?",
+     "answerType": "yes-no",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://hilversum.nl/wonen/splitsing-gebouw-woning-enof-verhuur-kamers",
+     "noMatchMessage": "Deze vergunning gaat over het maken van extra zelfstandige woningen. Voor kamerverhuur of alleen kadastraal splitsen gelden andere regels."
+    }
+   ]
+  },
+  "heerlen-splitsen-2026": {
+   "version": "1.0.0",
+   "conclusiveWhenMatched": true,
+   "matchMessage": "Op basis van uw antwoorden heeft u hiervoor een vergunning nodig. Woningsplitsing is in Heerlen verboden en moet een uitzondering blijven; reguliere woningen, appartementen en eengezinswoningen zijn uitgesloten.",
+   "geographicNoMatchMessage": null,
+   "conditions": [
+    {
+     "id": "municipality",
+     "category": "geographic",
+     "conditionType": "municipality",
+     "source": "official-data",
+     "fact": "municipality.code",
+     "operator": "equals",
+     "value": "GM0917",
+     "evidenceSection": "Werkingsgebied van de regeling",
+     "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR709246"
+    },
+    {
+     "id": "split-intent",
+     "category": "situation",
+     "conditionType": "split-intent",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "yes",
+     "question": "Wilt u de woning verbouwen tot twee of meer zelfstandige woningen (elk met een eigen voordeur, keuken, toilet en douche)?",
+     "answerType": "yes-no",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR709246",
+     "noMatchMessage": "Deze vergunning gaat over het maken van extra zelfstandige woningen. Voor kamerverhuur of alleen kadastraal splitsen gelden andere regels."
+    }
+   ]
+  },
+  "sittard-geleen-splitsen-2026": {
+   "version": "1.0.0",
+   "conclusiveWhenMatched": false,
+   "matchMessage": "Op basis van uw antwoorden heeft u hiervoor een vergunning nodig. Splitsen kan in de centrumgebieden van Sittard en Geleen (minimaal 55 m² per woning); daarbuiten alleen bij een kwetsbare woning (minimaal 70 m²). Let op: de centrumgebieden koppelen we nog aan het adres.",
+   "geographicNoMatchMessage": null,
+   "conditions": [
+    {
+     "id": "municipality",
+     "category": "geographic",
+     "conditionType": "municipality",
+     "source": "official-data",
+     "fact": "municipality.code",
+     "operator": "equals",
+     "value": "GM1883",
+     "evidenceSection": "Werkingsgebied van de regeling",
+     "evidenceUrl": "https://zoek.officielebekendmakingen.nl/gmb-2024-516358.pdf"
+    },
+    {
+     "id": "split-intent",
+     "category": "situation",
+     "conditionType": "split-intent",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "yes",
+     "question": "Wilt u de woning verbouwen tot twee of meer zelfstandige woningen (elk met een eigen voordeur, keuken, toilet en douche)?",
+     "answerType": "yes-no",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://omgevingsplein.sittard-geleen.nl/wonen-woningen/woningsplitsing/",
+     "noMatchMessage": "Deze vergunning gaat over het maken van extra zelfstandige woningen. Voor kamerverhuur of alleen kadastraal splitsen gelden andere regels."
+    }
+   ]
+  },
+  "land-van-cuijk-splitsen-2026": {
+   "version": "1.0.0",
+   "conclusiveWhenMatched": false,
+   "matchMessage": "Op basis van uw antwoorden heeft u hiervoor een vergunning nodig. In het stedelijk gebied: bestaande woning minimaal 100 m² en een waarde boven de betaalbaarheidsgrens (€ 420.000 in 2026), elke nieuwe woning minimaal 50 m². Let op: buiten het stedelijk gebied geldt deze beleidsregel niet.",
+   "geographicNoMatchMessage": null,
+   "conditions": [
+    {
+     "id": "municipality",
+     "category": "geographic",
+     "conditionType": "municipality",
+     "source": "official-data",
+     "fact": "municipality.code",
+     "operator": "equals",
+     "value": "GM1982",
+     "evidenceSection": "Werkingsgebied van de regeling",
+     "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR762902"
+    },
+    {
+     "id": "split-intent",
+     "category": "situation",
+     "conditionType": "split-intent",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "yes",
+     "question": "Wilt u de woning verbouwen tot twee of meer zelfstandige woningen (elk met een eigen voordeur, keuken, toilet en douche)?",
+     "answerType": "yes-no",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR762902",
+     "noMatchMessage": "Deze vergunning gaat over het maken van extra zelfstandige woningen. Voor kamerverhuur of alleen kadastraal splitsen gelden andere regels."
+    }
+   ]
+  },
+  "sudwest-fryslan-splitsen-2026": {
+   "version": "1.0.0",
+   "conclusiveWhenMatched": false,
+   "matchMessage": "Op basis van uw antwoorden heeft u hiervoor een vergunning nodig. In de kernen: vrijstaand hoofdgebouw van minimaal 100 m², elke nieuwe woning minimaal 50 m², maximaal 10% per straat. Let op: buiten het bestaand stedelijk gebied geldt deze beleidsregel niet.",
+   "geographicNoMatchMessage": null,
+   "conditions": [
+    {
+     "id": "municipality",
+     "category": "geographic",
+     "conditionType": "municipality",
+     "source": "official-data",
+     "fact": "municipality.code",
+     "operator": "equals",
+     "value": "GM1900",
+     "evidenceSection": "Werkingsgebied van de regeling",
+     "evidenceUrl": "https://sudwestfryslan.nl/wp-content/uploads/2025/12/Bijlage-2.-Beleidsregel-Splitsing-woningen-en-kavels-SWF-2025.pdf"
+    },
+    {
+     "id": "split-intent",
+     "category": "situation",
+     "conditionType": "split-intent",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "yes",
+     "question": "Wilt u de woning verbouwen tot twee of meer zelfstandige woningen (elk met een eigen voordeur, keuken, toilet en douche)?",
+     "answerType": "yes-no",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://sudwestfryslan.nl/onderwerp/extra-woningen-op-jouw-kavel/",
+     "noMatchMessage": "Deze vergunning gaat over het maken van extra zelfstandige woningen. Voor kamerverhuur of alleen kadastraal splitsen gelden andere regels."
+    }
+   ]
+  },
+  "meierijstad-splitsen-2026": {
+   "version": "1.0.0",
+   "conclusiveWhenMatched": false,
+   "matchMessage": "Op basis van uw antwoorden heeft u hiervoor een vergunning nodig. Binnen de bebouwde kom: woning minstens 5 jaar oud, elke woning na splitsing minimaal 50 m², omgevingsdialoog verplicht. Let op: buiten de bebouwde kom geldt deze beleidsregel niet.",
+   "geographicNoMatchMessage": null,
+   "conditions": [
+    {
+     "id": "municipality",
+     "category": "geographic",
+     "conditionType": "municipality",
+     "source": "official-data",
+     "fact": "municipality.code",
+     "operator": "equals",
+     "value": "GM1948",
+     "evidenceSection": "Werkingsgebied van de regeling",
+     "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR756633/"
+    },
+    {
+     "id": "split-intent",
+     "category": "situation",
+     "conditionType": "split-intent",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "yes",
+     "question": "Wilt u de woning verbouwen tot twee of meer zelfstandige woningen (elk met een eigen voordeur, keuken, toilet en douche)?",
+     "answerType": "yes-no",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://www.meierijstad.nl/Alle_onderwerpen/Wonen/Onderwerpen_wonen/Beleid_en_visie/Woningsplitsing",
+     "noMatchMessage": "Deze vergunning gaat over het maken van extra zelfstandige woningen. Voor kamerverhuur of alleen kadastraal splitsen gelden andere regels."
+    }
+   ]
+  },
+  "sittard-geleen-verhuurvergunning-2026": {
+   "version": "1.0.0",
+   "conclusiveWhenMatched": true,
+   "matchMessage": "Op basis van uw antwoord heeft u een verhuurvergunning nodig (Wet goed verhuurderschap), ook bij een bestaande huursituatie.",
+   "geographicNoMatchMessage": null,
+   "conditions": [
+    {
+     "id": "municipality",
+     "category": "geographic",
+     "conditionType": "municipality",
+     "source": "official-data",
+     "fact": "municipality.code",
+     "operator": "equals",
+     "value": "GM1883",
+     "evidenceSection": "Werkingsgebied van de regeling",
+     "evidenceUrl": "https://lokaleregelgeving.overheid.nl/CVDR728211/1"
+    },
+    {
+     "id": "migrant-workers",
+     "category": "situation",
+     "conditionType": "tenant-group",
+     "source": "user-input",
+     "operator": "equals",
+     "value": "yes",
+     "question": "Gaat u de woning of kamers verhuren aan arbeidsmigranten?",
+     "answerType": "yes-no",
+     "evidenceSection": "Gemeentepagina en regeling, gecontroleerd 2026-11-18",
+     "evidenceUrl": "https://omgevingsplein.sittard-geleen.nl/wonen-woningen/woning-of-kamers-verhuren-aan-arbeidsmigranten/",
+     "noMatchMessage": "De verhuurvergunning in Sittard-Geleen geldt alleen voor verhuur aan arbeidsmigranten."
+    }
+   ]
   }
- }
+ },
+ "updatedAt": "2026-11-18",
+ "changes": [
+  {
+   "date": "2026-11-18",
+   "batch": "manual-2026-11-18-maandupdate",
+   "note": "Vragen voor 16 nieuwe regels; Nijmegen kamerverhuur aangepast aan raadsbesluit 14-10-2026; Maastricht datum volgens CVDR767187. Publicatie samen met de batch, na akkoord Mike."
+  }
+ ]
 }

@@ -284,11 +284,14 @@
       "resolvedAt": "2026-11-18"
     },
     "11B": {
-      "category": "D",
-      "outcome": "no",
-      "reason": "Vervolgvragen 2026-11-18 (verbeterpunt D): de regel stelt nu vervolgvragen en concludeert 'geldt niet' op basis van de antwoorden.",
+      "category": "V",
+      "outcome": "conditional",
+      "reason": "Maandupdate 2026-11-18: Nijmegen schafte op 14-10-2026 de omzettingsvergunning af. Boven WOZ € 335.000 geldt bij 3 kamers een informatieplicht en bij 4 of meer een omgevingsvergunning; de oude doeluitkomst 'geen omzettingsvergunning boven € 396.000' bestaat niet meer.",
       "targetOutcome": "no",
-      "resolvedAt": "2026-11-18"
+      "patterns": [
+        "kamer",
+        "335.000"
+      ]
     },
     "21B": {
       "category": "D",

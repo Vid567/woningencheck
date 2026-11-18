@@ -125,7 +125,8 @@ for (const { file, data } of batches) {
       for (const k of ["url", "source", "content", "currentness", "application", "documents"]) if (rec.verification?.[k]) rec.verification[k].checkedAt = checked;
       if (rv.currentnessStatus && rec.verification?.currentness) rec.verification.currentness.status = rv.currentnessStatus;
       for (const e of rec.evidence || []) if (rv.urlsChecked?.includes(e.url)) e.verifiedAt = checked;
-      if (rv.note) rec.notes = [rec.notes, `Hercontrole ${checked}: ${rv.note}`].filter(Boolean).join(" ");
+      const rvNote = rv.note ? `Hercontrole ${checked}: ${rv.note}` : null;
+      if (rvNote && !(rec.notes || "").includes(rvNote)) rec.notes = [rec.notes, rvNote].filter(Boolean).join(" "); // idempotent bij herhaald draaien
       replaced++;
     }
     // onderzoeksstatus

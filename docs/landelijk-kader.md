@@ -35,13 +35,22 @@ Gecontroleerd op 24 oktober 2026. Deze laag geldt in elke gemeente en wordt niet
 
 ## Voorgenomen wijziging opkoopbescherming (beleid, nog geen wet)
 
-Gecontroleerd op 10 november 2026.
+Gecontroleerd op 18 november 2026 (ongewijzigd: wetsvoorstel nog niet in consultatie gevonden).
 
 - Op 15 oktober 2026 heeft de minister aangekondigd dat de opkoopbescherming gericht wordt op **leefbaarheid in wijken**. Gemeenten moeten dan per wijk onderbouwen waarom het nodig is.
 - Voorstel: alleen woningen met een WOZ-waarde **tot het gemeentelijk gemiddelde**.
 - Aanleiding: de evaluatie van de regeling (ingevoerd in 2022, gebruikt door ongeveer 70 gemeenten). Die toont vooral waarde voor leefbaarheid, minder voor de kansen van starters.
 - Status: een wetsvoorstel gaat **eind 2026 in consultatie**. Er is nog geen ingangsdatum en geen overgangsrecht bekend. Bestaande gemeentelijke regelingen blijven tot die tijd gelden.
 - Bron: https://www.rijksoverheid.nl/actueel/nieuws/2026/10/15/opkoopbescherming-wordt-gericht-op-leefbaarheid-in-wijken
+
+## Landelijke grenzen 2027
+
+Gecontroleerd op 18 november 2026.
+
+- **NHG-grens 2027: € 500.000** (2026: € 470.000); met energiebesparende voorzieningen € 530.000. Geldt voor hypotheken met een bindend aanbod vanaf 1 januari 2027. Raakt alle gemeenten die hun opkoopgrens aan de NHG-grens koppelen (onder meer Breda, Delft, Deventer, Dordrecht, Hengelo, Hilversum, Leiden, Almere, Alblasserdam). Vastgelegd als komende parameter `nhg-cost-limit-2027` in `data/dynamic-parameters.json`; de vervolgvragen noemen nog de grens 2026 en moeten per 1 januari worden bijgewerkt.
+  Bron: https://www.nhg.nl/nhg-actueel/nhg-grens-in-2027-naar-500000-euro en https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/huis-kopen/maximaal-bedrag-hypotheek-ngh
+- **Betaalbaarheidsgrens koopwoningen 2027: € 435.000** (2026: € 420.000). Raakt onder meer Tilburg (opkoopgrens = betaalbaarheidsgrens) en Land van Cuijk (splitsen alleen boven de betaalbaarheidsgrens).
+  Bron: https://www.volkshuisvestingnederland.nl/onderwerpen/aanpak-woningnood/wet-versterking-regie-volkshuisvesting/veelgestelde-vragen
 
 ## Gevolg voor de database
 

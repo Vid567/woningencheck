@@ -1,4 +1,4 @@
-import {buildAddressContext,evaluateRule,isApplicationRouteRelevant,STATES} from "./applicability.js?v=20260814-thresholds";
+import {buildAddressContext,evaluateRule,isApplicationRouteRelevant,STATES} from "./applicability.js?v=20261118-vervolgvragen";
 import {resolveHeritageForAddress} from "./heritage.js?v=20260813-pdok-rce";
 "use strict";
 const state={municipalities:[],regulations:[],dynamicParameters:[],thresholdLinks:[],sourceConfidence:{},locationRules:[],sourceAuditVerified:"",context:null,answers:{},goal:"",address:null,heritage:null,heritageCache:new Map()};

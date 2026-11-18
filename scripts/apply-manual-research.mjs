@@ -6,6 +6,7 @@
 // Alleen batches met publicationDecision.publicationAllowed === true worden doorgezet.
 import fs from "node:fs";
 import path from "node:path";
+import { loadApprovedApplicability } from "./apply-applicability.mjs";
 
 const read = p => JSON.parse(fs.readFileSync(p, "utf8"));
 const write = (p, d) => fs.writeFileSync(p, JSON.stringify(d, null, 2) + "\n");
@@ -35,6 +36,9 @@ const status = read("data/research-status.json");
 const regById = new Map(regulations.records.map(r => [r.id, r]));
 const srcById = new Map(sources.sources.map(s => [s.id, s]));
 const statusByCode = new Map(status.records.map(r => [r.municipalityCode, r]));
+
+// Goedgekeurde vervolgvragen (data/applicability-questions.json) blijven behouden als een regel opnieuw wordt opgebouwd.
+const approvedApplicability = loadApprovedApplicability();
 
 let added = 0, replaced = 0, skipped = 0;
 const touched = new Set();
@@ -100,6 +104,8 @@ for (const { file, data } of batches) {
         operator: "AND", validFrom: record.effectiveDate, validUntil: null, supersededBy: null, sourceVersion: docId || regulationUrl, lastVerifiedDate: checked,
         conditions: [{ type: "municipality", operator: "equals", value: m.code, evidence: [{ municipalityCode: m.code, url: regulationUrl, section: r.section || null }] }]
       };
+      const applicability = approvedApplicability.get(id) || regById.get(id)?.applicability;
+      if (applicability) record.applicability = applicability;
       if (regById.has(id)) replaced++; else added++;
       regById.set(id, record);
 

@@ -1,13 +1,14 @@
 {
   "schemaVersion": 1,
-  "updatedAt": "2026-11-17",
+  "updatedAt": "2026-11-18",
   "approvedBy": "Mike",
   "approvedAt": "2026-11-17",
   "purpose": "Huidige verwachte uitkomst per gouden testgeval, bovenop de onveranderlijke casusdata in golden-46.spec.mjs. De test faalt zodra de site meer of minder beweert dan hier staat. targetOutcome is de oorspronkelijke doeluitkomst; zet outcome terug zodra de data dat onderbouwt.",
   "categories": {
     "B": "Datagat: geen regel voor dit doel",
     "C": "Gebiedsregel of hercontrole: handmatige controle",
-    "D": "Geen vervolgvragen in de regel: voorwaardelijk i.p.v. geldt niet"
+    "D": "Geen vervolgvragen in de regel: voorwaardelijk i.p.v. geldt niet",
+    "V": "Vervolgvragen: expliciete antwoorden per vraag, uitkomst ongewijzigd"
   },
   "cases": {
     "04A": {
@@ -203,27 +204,37 @@
     },
     "07A": {
       "category": "C",
-      "outcome": "review",
-      "reason": "Gebiedsregel nog niet per adres vastgelegd of regel staat op hercontrole; de site toont terecht handmatige controle.",
-      "targetOutcome": "no"
+      "outcome": "conditional",
+      "reason": "Vervolgvragen 2026-11-18 (verbeterpunt D): de vergunningplicht geldt in heel Eindhoven; dat de vergunning in 'op slot'-buurten niet wordt verleend, staat in de uitkomst. De doeluitkomst 'no' vraagt de buurtgrenzen als adresregel (categorie C).",
+      "targetOutcome": "no",
+      "answers": [
+        "yes",
+        "no"
+      ],
+      "patterns": [
+        "kamer",
+        "op slot"
+      ]
     },
     "09A": {
       "category": "C",
-      "outcome": "review",
-      "reason": "Gebiedsregel nog niet per adres vastgelegd of regel staat op hercontrole; de site toont terecht handmatige controle.",
-      "targetOutcome": "no"
+      "outcome": "no",
+      "reason": "Vervolgvragen 2026-11-18 (verbeterpunt D): bij minder dan drie bewoners geldt de omzettingsvergunning niet; dat volgt nu uit de eerste vraag.",
+      "targetOutcome": "no",
+      "resolvedAt": "2026-11-18"
     },
     "09B": {
       "category": "C",
-      "outcome": "review",
-      "reason": "Gebiedsregel nog niet per adres vastgelegd of regel staat op hercontrole; de site toont terecht handmatige controle.",
+      "outcome": "conditional",
+      "reason": "Vervolgvragen 2026-11-18 (verbeterpunt D): vergunning nodig; de afstandsregels staan als waarschuwing in de uitkomst, nog niet als adresregel.",
       "targetOutcome": "conditional"
     },
     "15A": {
       "category": "C",
-      "outcome": "review",
-      "reason": "Gebiedsregel nog niet per adres vastgelegd of regel staat op hercontrole; de site toont terecht handmatige controle.",
-      "targetOutcome": "no"
+      "outcome": "no",
+      "reason": "Vervolgvragen 2026-11-18 (verbeterpunt D): wie geen kamers wil verhuren, krijgt nu 'geldt niet' op basis van de eerste vraag.",
+      "targetOutcome": "no",
+      "resolvedAt": "2026-11-18"
     },
     "16A": {
       "category": "C",
@@ -239,8 +250,8 @@
     },
     "22A": {
       "category": "C",
-      "outcome": "review",
-      "reason": "Gebiedsregel nog niet per adres vastgelegd of regel staat op hercontrole; de site toont terecht handmatige controle.",
+      "outcome": "conditional",
+      "reason": "Vervolgvragen 2026-11-18 (verbeterpunt D): omzettingsvergunning nodig bij drie of meer kamers en WOZ onder de NHG-grens.",
       "targetOutcome": "conditional",
       "patterns": [
         "omzettingsvergunning"
@@ -248,43 +259,93 @@
       "targetPatterns": [
         "omzettingsvergunning",
         "470.000|woz"
-      ]
+      ],
+      "resolvedAt": "2026-11-18"
     },
     "02B": {
       "category": "D",
-      "outcome": "conditional",
-      "reason": "Regel heeft nog geen gestructureerde vervolgvragen (bijv. WOZ-waarde, aantal personen); de site kan alleen \"regel geldt, voorwaarden bepalen\" tonen.",
-      "targetOutcome": "no"
+      "outcome": "no",
+      "reason": "Vervolgvragen 2026-11-18 (verbeterpunt D): de regel stelt nu vervolgvragen en concludeert 'geldt niet' op basis van de antwoorden.",
+      "targetOutcome": "no",
+      "resolvedAt": "2026-11-18"
     },
     "10B": {
       "category": "D",
-      "outcome": "conditional",
-      "reason": "Regel heeft nog geen gestructureerde vervolgvragen (bijv. WOZ-waarde, aantal personen); de site kan alleen \"regel geldt, voorwaarden bepalen\" tonen.",
-      "targetOutcome": "no"
+      "outcome": "no",
+      "reason": "Vervolgvragen 2026-11-18 (verbeterpunt D): de regel stelt nu vervolgvragen en concludeert 'geldt niet' op basis van de antwoorden.",
+      "targetOutcome": "no",
+      "resolvedAt": "2026-11-18"
     },
     "11A": {
       "category": "D",
-      "outcome": "conditional",
-      "reason": "Regel heeft nog geen gestructureerde vervolgvragen (bijv. WOZ-waarde, aantal personen); de site kan alleen \"regel geldt, voorwaarden bepalen\" tonen.",
-      "targetOutcome": "no"
+      "outcome": "no",
+      "reason": "Vervolgvragen 2026-11-18 (verbeterpunt D): de regel stelt nu vervolgvragen en concludeert 'geldt niet' op basis van de antwoorden.",
+      "targetOutcome": "no",
+      "resolvedAt": "2026-11-18"
     },
     "11B": {
       "category": "D",
-      "outcome": "conditional",
-      "reason": "Regel heeft nog geen gestructureerde vervolgvragen (bijv. WOZ-waarde, aantal personen); de site kan alleen \"regel geldt, voorwaarden bepalen\" tonen.",
-      "targetOutcome": "no"
+      "outcome": "no",
+      "reason": "Vervolgvragen 2026-11-18 (verbeterpunt D): de regel stelt nu vervolgvragen en concludeert 'geldt niet' op basis van de antwoorden.",
+      "targetOutcome": "no",
+      "resolvedAt": "2026-11-18"
     },
     "21B": {
       "category": "D",
-      "outcome": "conditional",
-      "reason": "Regel heeft nog geen gestructureerde vervolgvragen (bijv. WOZ-waarde, aantal personen); de site kan alleen \"regel geldt, voorwaarden bepalen\" tonen.",
-      "targetOutcome": "no"
+      "outcome": "no",
+      "reason": "Vervolgvragen 2026-11-18 (verbeterpunt D): de regel stelt nu vervolgvragen en concludeert 'geldt niet' op basis van de antwoorden.",
+      "targetOutcome": "no",
+      "resolvedAt": "2026-11-18"
     },
     "21C": {
       "category": "D",
-      "outcome": "conditional",
-      "reason": "Regel heeft nog geen gestructureerde vervolgvragen (bijv. WOZ-waarde, aantal personen); de site kan alleen \"regel geldt, voorwaarden bepalen\" tonen.",
-      "targetOutcome": "no"
+      "outcome": "no",
+      "reason": "Vervolgvragen 2026-11-18 (verbeterpunt D): de regel stelt nu vervolgvragen en concludeert 'geldt niet' op basis van de antwoorden.",
+      "targetOutcome": "no",
+      "resolvedAt": "2026-11-18"
+    },
+    "10A": {
+      "answers": [
+        "yes",
+        "yes",
+        "yes",
+        "no"
+      ],
+      "reason": "Vervolgvragen 2026-11-18 (verbeterpunt D): expliciete antwoorden omdat de regel nu meer vragen stelt (vierde vraag: niet al verhuurd bij aankoop); de runner herhaalt anders het laatste antwoord.",
+      "category": "V"
+    },
+    "11C": {
+      "answers": [
+        "yes",
+        "no"
+      ],
+      "reason": "Vervolgvragen 2026-11-18 (verbeterpunt D): expliciete antwoorden omdat de regel nu meer vragen stelt (WOZ niet boven € 396.000); de runner herhaalt anders het laatste antwoord.",
+      "category": "V"
+    },
+    "11D": {
+      "answers": [
+        "yes",
+        "no"
+      ],
+      "reason": "Vervolgvragen 2026-11-18 (verbeterpunt D): expliciete antwoorden omdat de regel nu meer vragen stelt (WOZ niet boven € 396.000); de runner herhaalt anders het laatste antwoord.",
+      "category": "V"
+    },
+    "11E": {
+      "answers": [
+        "yes",
+        "no"
+      ],
+      "reason": "Vervolgvragen 2026-11-18 (verbeterpunt D): expliciete antwoorden omdat de regel nu meer vragen stelt (WOZ niet boven € 396.000); de runner herhaalt anders het laatste antwoord.",
+      "category": "V"
+    },
+    "14A": {
+      "answers": [
+        "yes",
+        "yes",
+        "no"
+      ],
+      "reason": "Vervolgvragen 2026-11-18 (verbeterpunt D): expliciete antwoorden omdat de regel nu meer vragen stelt (geen uitzondering voor grote eigen woning); de runner herhaalt anders het laatste antwoord.",
+      "category": "V"
     }
   }
 }
